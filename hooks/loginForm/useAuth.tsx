@@ -5,47 +5,51 @@ import { useRequestHandler } from "../../hooks/useRequestHandler";
 import { useEffect, useState } from "react";
 
 export const useAuth = () => {
-  const { t } = useTranslation();
-  const notifier = useNotifier();
-  const navigate = useNavigate();
-  const { authStore } = useRootStore();
-  const { onError } = useRequestHandler();
-  const queryParams = new URLSearchParams(useLocation().search);
-  const qToken = queryParams.get("token");
+  // const { t } = useTranslation();
+  // const notifier = useNotifier();
+  // const navigate = useNavigate();
+  // const { authStore } = useRootStore();
+  // const { onError } = useRequestHandler();
+  // const queryParams = new URLSearchParams(useLocation().search);
+  // const qToken = queryParams.get("token");
+  //
+  // const [isLoading, setIsLoading] = useState<boolean>(false);
+  //
+  // const handleLogin = async ({ login, password }: { login: string; password: string }) => {
+  //   // setIsLoading(true);
+  //   // const authReq = await authStore.authorizeWithCredentials({
+  //   //   email: login,
+  //   //   password: password,
+  //   // });
+  //   // if (authReq === true) {
+  //   //   navigate("/orgchart");
+  //   //   notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
+  //   // } else {
+  //   //   setIsLoading(false);
+  //   //   onError(authReq);
+  //   // }
+  // };
+  //
+  // const handleLoginWithToken = async () => {
+  //   const r = await authStore.authorizeWithToken(qToken ?? "");
+  //   notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
+  //   if (r) {
+  //     navigate("/orgchart");
+  //   }
+  // };
+  //
+  // useEffect(() => {
+  //   if (qToken != null && qToken.trim().length > 0) {
+  //     handleLoginWithToken();
+  //   }
+  // }, []);
 
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-
-  const handleLogin = async ({ login, password }: { login: string; password: string }) => {
-    setIsLoading(true);
-    const authReq = await authStore.authorizeWithCredentials({
-      email: login,
-      password: password,
-    });
-    if (authReq === true) {
-      navigate("/orgchart");
-      notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
-    } else {
-      setIsLoading(false);
-      onError(authReq);
-    }
+  const handleLogin = () => {
+    console.log(123)
   };
-
-  const handleLoginWithToken = async () => {
-    const r = await authStore.authorizeWithToken(qToken ?? "");
-    notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
-    if (r) {
-      navigate("/orgchart");
-    }
-  };
-
-  useEffect(() => {
-    if (qToken != null && qToken.trim().length > 0) {
-      handleLoginWithToken();
-    }
-  }, []);
 
   return {
     handleLogin,
-    isLoading,
+    isLoading: false,
   }
 }
