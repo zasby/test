@@ -2,7 +2,7 @@
 // import { useNotifier, useRootStore } from "../../hooks";
 // import { useLocation, useNavigate } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
-// import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export const useAuth = () => {
   // const { t } = useTranslation();
@@ -44,12 +44,15 @@ export const useAuth = () => {
   //   }
   // }, []);
 
-  const handleLogin = () => {
-    console.log(123)
-  };
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  const handleLogin = async ({ login, password }: { login: string; password: string }) => {
+    setIsLoading(true);
+    console.log({login, password});
+  }
 
   return {
     handleLogin,
-    isLoading: false,
+    isLoading,
   }
 }
