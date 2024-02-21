@@ -13,7 +13,7 @@ import {
   // DriverAdminController,
   // DriverController,
   // EducationController,
-  // HelperController,
+  HelperController,
   // IssueController,
   // IssueHistoryController,
   // IssueScheduleController,
@@ -57,7 +57,7 @@ class Api {
   // public company: CompanyController;
   // public role: RoleController;
   // public rolePosition: RolePositionController;
-  // public helper: HelperController;
+  public helper: HelperController;
   // public confirmation: ConfirmationController;
   public board: BoardController;
   // public issue: IssueController;
@@ -104,7 +104,7 @@ class Api {
     // this.company = new CompanyController(axios);
     // this.role = new RoleController(axios);
     // this.rolePosition = new RolePositionController(axios);
-    // this.helper = new HelperController(axios);
+    this.helper = new HelperController(axios);
     // this.confirmation = new ConfirmationController(axios);
     this.board = new BoardController(axios);
     // this.issue = new IssueController(axios);
