@@ -44,16 +44,16 @@ export const useAuth = () => {
   //   }
   // }, []);
 
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  // const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  const handleLogin = async ({ login, password }: { login: string; password: string }) => {
-    console.log('test handleLogin')
+  const handleLogin = (data) => {
+    console.log('test handleLogin', data)
     console.log({login, password});
-    setIsLoading(true);
+    // setIsLoading(true);
   }
 
   return {
     handleLogin,
-    isLoading,
+    isLoading: false,
   }
 }
