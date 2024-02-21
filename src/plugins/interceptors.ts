@@ -20,10 +20,9 @@ export default {
       console.log('config', config);
       if (config && config.headers) {
         // SET ACCESS TOKEN HEADER
-        console.log('store.authStore.getAccessToken', store.authStore.getAccessToken);
-        if (params?.accessToken != null) {
+        if (params?.accessToken !== null) {
           // params.accessToken
-          config.headers.Authorization = "Bearer " + getRefreshToken();
+          config.headers.Authorization = "Bearer " + params?.accessToken;
         } else if (store.authStore.getAccessToken) {
           // store.authStore.getAccessToken
           config.headers.Authorization = "Bearer " + getRefreshToken();

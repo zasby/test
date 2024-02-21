@@ -171,7 +171,11 @@ export default class AuthStore {
         this.setAccessToken(res.tokenAccess as string);
         console.log(1230000, rootStore)
         console.log('this', this);
-        Interceptors.setup({...rootStore, authStore: this});
+        const params = {
+          accessToken: res.tokenAccess,
+          companyId: res.initialInfo?.identity?.currentCompanyId ?? null
+        }
+        Interceptors.setup(rootStore, params);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
         console.log(123)
