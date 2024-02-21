@@ -7,7 +7,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 export const useAuth = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
   // const notifier = useNotifier();
   // const navigate = useNavigate();
   // const { authStore } = useRootStore();
@@ -15,7 +15,7 @@ export const useAuth = () => {
   const queryParams = new URLSearchParams(useLocation().search);
   const qToken = queryParams.get("token");
   //
-  // const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   //
   // const handleLogin = async ({ login, password }: { login: string; password: string }) => {
   //   // setIsLoading(true);
@@ -48,12 +48,11 @@ export const useAuth = () => {
     }
   }, []);
 
-  const [isLoading, setIsLoading] = useState(false);
-
   const handleLogin = async ({ login, password }: { login: string; password: string }) => {
     console.log('test handleLogin3', login, password)
     // console.log({login, password});
-    // setIsLoading(true);
+    console.log(111, t("notifier:success.good_login"));
+    setIsLoading(true);
   }
 
   return {
