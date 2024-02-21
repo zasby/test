@@ -15,12 +15,9 @@ const getRefreshToken = () => {
 
 export default {
   setup: (store: RootStore, params?: IInterceptorsParams) => {
-    console.log('RootStore', store);
     client.interceptors.request.use((config: AxiosRequestConfig) => {
-      console.log('config', config);
       if (config && config.headers) {
         // SET ACCESS TOKEN HEADER
-        console.log('token', !!params?.accessToken);
         if (params?.accessToken !== null) {
           // params.accessToken
           config.headers.Authorization = "Bearer " + params?.accessToken;
