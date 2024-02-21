@@ -11,7 +11,7 @@ export const useAuth = () => {
 
   const { authStore, globalSettings } = useRootStore();
 
-  const navigate = globalSettings.getNavigate();
+  const navigate = globalSettings.getNavigate;
   console.log('navigate', navigate);
   // const { onError } = useRequestHandler();
   const queryParams = new URLSearchParams(useLocation().search);
