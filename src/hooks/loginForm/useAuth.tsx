@@ -1,15 +1,18 @@
 import { useTranslation } from "react-i18next";
 import { useRootStore } from "../../index";
 
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
 import { useState, useEffect } from "react";
 
 export const useAuth = () => {
   const { t } = useTranslation();
   // const notifier = useNotifier();
-  const navigate = useNavigate();
-  const { authStore } = useRootStore();
+
+  const { authStore, globalSettings } = useRootStore();
+
+  const navigate = globalSettings.getNavigate();
+  console.log('navigate', navigate);
   // const { onError } = useRequestHandler();
   const queryParams = new URLSearchParams(useLocation().search);
   const qToken = queryParams.get("token");
