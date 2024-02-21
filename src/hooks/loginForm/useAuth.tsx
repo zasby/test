@@ -17,6 +17,7 @@ export const useAuth = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   //
   const handleLogin = async ({ login, password }: { login: string; password: string }) => {
+    console.log('login', login);
     setIsLoading(true);
     const authReq = await authStore.authorizeWithCredentials({
       email: login,
@@ -34,7 +35,7 @@ export const useAuth = () => {
   };
   //
   const handleLoginWithToken = async () => {
-    console.log('handleLoginWithToken');
+    console.log('handleLoginWithToken1111');
     // const r = await authStore.authorizeWithToken(qToken ?? "");
     // console.log('r', r);
     // notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
