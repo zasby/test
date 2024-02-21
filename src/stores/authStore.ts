@@ -108,7 +108,7 @@ export default class AuthStore {
   setInitialInfo(initialInfo: InitialInfoDto | null): void {
     console.log('initialInfo', initialInfo);
     this.initialInfo = initialInfo;
-    // localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
+    localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
     // rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
     // rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
     // rootStore.helperStore.setCompanyGlossary(
@@ -164,12 +164,12 @@ export default class AuthStore {
       authModel,
       async (res) => {
         console.log('res', res);
-        // this.setInviteCode(null);
-        // this.setExternalId(null);
-        // this.setRefreshToken(res.refreshToken as RefreshTokenDto);
-        // this.setAccessToken(res.tokenAccess as string);
-        // this.setInitialInfo(res.initialInfo as InitialInfoDto);
-        // this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
+        this.setInviteCode(null);
+        this.setExternalId(null);
+        this.setRefreshToken(res.refreshToken as RefreshTokenDto);
+        this.setAccessToken(res.tokenAccess as string);
+        this.setInitialInfo(res.initialInfo as InitialInfoDto);
+        this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
         // await this.refreshHelpers();
         // this.setCurrentCompanyUiType(
         //   res.initialInfo?.identity?.companies?.find(
