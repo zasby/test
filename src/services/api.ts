@@ -46,7 +46,7 @@ import {
   // UserWithRegulationStatsController,
 } from "../api/controllers";
 import { client } from "../plugins/client";
-import { CalendarEventController } from "../api/controllers/calendarEventController";
+// import { CalendarEventController } from "../api/controllers/calendarEventController";
 
 class Api {
   public auth: AuthController;
