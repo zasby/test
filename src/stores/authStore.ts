@@ -7,9 +7,10 @@ import {
   User2CompanyDto,
 } from "../api";
 import { makeAutoObservable, toJS } from "mobx";
+import { AxiosError } from "axios";
+
 import { api } from "../services";
 import versionCheck from "../plugins/versionCheck";
-import { AxiosError } from "axios";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 
 const localStorageHelpers = LocalStorageHelpers();

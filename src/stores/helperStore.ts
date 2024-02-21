@@ -1,5 +1,6 @@
-import { RootStore } from "./rootStore";
 import { makeAutoObservable } from "mobx";
+import { t } from "i18next";
+import { RootStore } from "./rootStore";
 // import "../locales/i18nconfig";
 import {
   AutocompleteModel,
@@ -13,7 +14,7 @@ import {
 } from "../api";
 import { api } from "../services";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
-import { t } from "i18next";
+
 import { IssueType } from "../constants/issueTypeKeys";
 
 export interface IIssueCustomField {

@@ -1,0 +1,23 @@
+{
+  "field_required": "此欄必填",
+  "wrong_email": "確保輸入的電子郵件沒有錯誤",
+  "min_char_number": "最少符號數量：{{number}}",
+  "min_file_number": "最小檔案數量：{{number}}",
+  "issue_complete_dialog_description": "格式: {{format}}, {{value}}: {{number}}",
+  "issue_complete_dialog_validate": {
+    "common_error": "請描述結果或附加文件",
+    "time_error": "請指定任務的實際完成時間。"
+  },
+  "passwords_should_match": "密碼不匹配！",
+  "date_later_deadline": "日期超過截止時間",
+  "deadline_required": "截止時間是必須的",
+  "enter_regulation_name": "輸入規章的名稱！",
+  "no_name_question": "請為所有問題設置一個名稱！",
+  "no_name_answer": "請為所有答案設置一個名稱！",
+  "no_rights_answer": "每個問題至少要有 1 個答案",
+  "no_answers": "每個問題至少要有 2 個答案",
+  "select_approver": "請選擇核准者！",
+  "policy_content_is_empty": "規章不能為空白！",
+  "invalid_code": "無效的代碼",
+  "executor_deadline_in_past": "截止日期無效。"
+}

@@ -1,5 +1,5 @@
-import { RootStore } from "./rootStore";
 import { makeAutoObservable, runInAction } from "mobx";
+import { RootStore } from "./rootStore";
 import { api } from "../services";
 import { BoardDto } from "../api";
 

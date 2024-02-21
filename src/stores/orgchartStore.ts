@@ -1,9 +1,10 @@
-import { RootStore } from "./rootStore";
+import i18n from "i18next";
 import { makeAutoObservable, toJS } from "mobx";
+import { RootStore } from "./rootStore";
 import "../locales/i18nconfig";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 import { OrgchartDto } from "../api";
-import i18n from "i18next";
+
 
 const localStorageHelpers = LocalStorageHelpers();
 
