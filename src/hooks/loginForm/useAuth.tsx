@@ -1,4 +1,4 @@
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 // import { useNotifier, useRootStore } from "../index";
 // import { useRootStore } from "../index";
 
@@ -49,7 +49,7 @@ export const useAuth = () => {
   }, []);
 
   const handleLogin = async ({ login, password }: { login: string; password: string }) => {
-    console.log('test handleLogin3', login, password)
+    console.log('test handleLogin5', login, password)
     // console.log({login, password});
     console.log(111, t("notifier:success.good_login"));
     setIsLoading(true);
