@@ -11,8 +11,6 @@ export const useAuth = () => {
 
   const { authStore, globalSettings } = useRootStore();
 
-  const navigate = globalSettings.getNavigate;
-  console.log('navigate', navigate);
   // const { onError } = useRequestHandler();
   const queryParams = new URLSearchParams(useLocation().search);
   const qToken = queryParams.get("token");
@@ -27,8 +25,10 @@ export const useAuth = () => {
       password: password,
     });
     if (authReq === true) {
-      console.log(111);
-      navigate("/orgchart1");
+      console.log(222);
+      const navigate = globalSettings.getNavigate;
+      console.log('navigate111', navigate);
+      navigate("/orgchart");
       console.log(t("notifier:success.good_login"))
       // notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
     } else {
