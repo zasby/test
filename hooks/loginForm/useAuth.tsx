@@ -1,8 +1,8 @@
 // import { useTranslation } from "react-i18next";
 // import { useNotifier, useRootStore } from "../../hooks";
-// import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const useAuth = () => {
   // const { t } = useTranslation();
@@ -10,8 +10,8 @@ export const useAuth = () => {
   // const navigate = useNavigate();
   // const { authStore } = useRootStore();
   // const { onError } = useRequestHandler();
-  // const queryParams = new URLSearchParams(useLocation().search);
-  // const qToken = queryParams.get("token");
+  const queryParams = new URLSearchParams(useLocation().search);
+  const qToken = queryParams.get("token");
   //
   // const [isLoading, setIsLoading] = useState<boolean>(false);
   //
@@ -30,19 +30,20 @@ export const useAuth = () => {
   //   // }
   // };
   //
-  // const handleLoginWithToken = async () => {
-  //   const r = await authStore.authorizeWithToken(qToken ?? "");
-  //   notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
-  //   if (r) {
-  //     navigate("/orgchart");
-  //   }
-  // };
+  const handleLoginWithToken = async () => {
+    console.log('handleLoginWithToken');
+    // const r = await authStore.authorizeWithToken(qToken ?? "");
+    // notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
+    // if (r) {
+    //   navigate("/orgchart");
+    // }
+  };
   //
-  // useEffect(() => {
-  //   if (qToken != null && qToken.trim().length > 0) {
-  //     handleLoginWithToken();
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (qToken != null && qToken.trim().length > 0) {
+      handleLoginWithToken();
+    }
+  }, []);
 
   const [isLoading, setIsLoading] = useState(false);
 
