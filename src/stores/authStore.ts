@@ -172,6 +172,7 @@ export default class AuthStore {
         this.setAccessToken(res.tokenAccess as string);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
+        console.log(123)
         Interceptors.setup(rootStore);
         await this.refreshHelpers();
         // this.setCurrentCompanyUiType(
