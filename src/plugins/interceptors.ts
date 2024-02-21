@@ -20,6 +20,7 @@ export default {
       console.log('config', config);
       if (config && config.headers) {
         // SET ACCESS TOKEN HEADER
+        console.log('token', !!params?.accessToken);
         if (params?.accessToken !== null) {
           // params.accessToken
           config.headers.Authorization = "Bearer " + params?.accessToken;
