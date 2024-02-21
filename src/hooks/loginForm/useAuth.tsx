@@ -1,5 +1,7 @@
 // import { useTranslation } from "react-i18next";
-// import { useNotifier, useRootStore } from "../../hooks";
+// import { useNotifier, useRootStore } from "../index";
+// import { useRootStore } from "../index";
+
 import { useLocation, useNavigate } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
 import { useState, useEffect } from "react";
@@ -33,6 +35,7 @@ export const useAuth = () => {
   const handleLoginWithToken = async () => {
     console.log('handleLoginWithToken');
     // const r = await authStore.authorizeWithToken(qToken ?? "");
+    // console.log('r', r);
     // notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
     // if (r) {
     //   navigate("/orgchart");
@@ -47,8 +50,8 @@ export const useAuth = () => {
 
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleLogin = async (data) => {
-    console.log('test handleLogin3', data)
+  const handleLogin = async ({ login, password }: { login: string; password: string }) => {
+    console.log('test handleLogin3', login, password)
     // console.log({login, password});
     // setIsLoading(true);
   }
