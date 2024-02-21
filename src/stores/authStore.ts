@@ -108,7 +108,6 @@ export default class AuthStore {
   }
 
   setInitialInfo(initialInfo: InitialInfoDto | null): void {
-    console.log('initialInfo', initialInfo);
     this.initialInfo = initialInfo;
     localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
     rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
@@ -170,7 +169,8 @@ export default class AuthStore {
         this.setExternalId(null);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
-        console.log(1230)
+        console.log(1230, rootStore)
+        console.log('this', this);
         Interceptors.setup(rootStore);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
