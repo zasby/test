@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { useNotifier, useRootStore } from "../index";
+import { useRootStore } from "../../index";
 
 import { useLocation, useNavigate } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 export const useAuth = () => {
   const { t } = useTranslation();
-  const notifier = useNotifier();
+  // const notifier = useNotifier();
   const navigate = useNavigate();
   const { authStore } = useRootStore();
   // const { onError } = useRequestHandler();
@@ -24,7 +24,8 @@ export const useAuth = () => {
     });
     if (authReq === true) {
       navigate("/orgchart");
-      notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
+      console.log(t("notifier:success.good_login"))
+      // notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
     } else {
       setIsLoading(false);
       console.log('authReq', authReq);
