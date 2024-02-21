@@ -12,6 +12,8 @@ import { AxiosError } from "axios";
 import { api } from "../services";
 // import versionCheck from "../plugins/versionCheck";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
+import Interceptors from "../plugins/interceptors";
+
 
 const localStorageHelpers = LocalStorageHelpers();
 
@@ -170,7 +172,8 @@ export default class AuthStore {
         this.setAccessToken(res.tokenAccess as string);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
-        // await this.refreshHelpers();
+        Interceptors.setup(rootStore);
+        await this.refreshHelpers();
         // this.setCurrentCompanyUiType(
         //   res.initialInfo?.identity?.companies?.find(
         //     (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
@@ -321,14 +324,14 @@ export default class AuthStore {
   //   return true;
   // // }
   //
-  // async refreshHelpers(): Promise<void> {
-  //   await this.root.helperStore.getPermissionsFromServer();
-  //   await this.root.helperStore.getTimeZonesFromServer();
-  //   await this.root.helperStore.getColorsFromServer();
-  //   await this.root.helperStore.getCurrencyFromServer();
-  //   await this.root.helperStore.getInfoFromServer();
-  //   await this.root.helperStore.getUserContactTypeFromServer();
-  // }
+  async refreshHelpers(): Promise<void> {
+    await this.root.helperStore.getPermissionsFromServer();
+    await this.root.helperStore.getTimeZonesFromServer();
+    await this.root.helperStore.getColorsFromServer();
+    await this.root.helperStore.getCurrencyFromServer();
+    await this.root.helperStore.getInfoFromServer();
+    await this.root.helperStore.getUserContactTypeFromServer();
+  }
   //
   // async refreshInitialInfo(): Promise<void> {
   //   const r = await api.authorized.getInitialInfo();
