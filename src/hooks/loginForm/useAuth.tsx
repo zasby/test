@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import { useRootStore } from "../../index";
 
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
 import { useState, useEffect } from "react";
 
 export const useAuth = () => {
   const { t } = useTranslation();
   // const notifier = useNotifier();
+  const navigate = useNavigate();
+
 
   const { authStore, globalSettings } = useRootStore();
 
@@ -26,8 +28,8 @@ export const useAuth = () => {
     });
     if (authReq === true) {
       console.log(222);
-      const navigate = globalSettings.getNavigate;
-      console.log('navigate111', navigate);
+      // const navigate = globalSettings.getNavigate;
+      // console.log('navigate111', navigate);
       navigate("/orgchart");
       console.log(t("notifier:success.good_login"))
       // notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
