@@ -12,7 +12,7 @@ import BoardStore from "./boardStore";
 // import BreadcrumbsStore from "./breadcrumbsStore";
 // import GroupCompanyStore from "./groupCompanyStore";
 // import { IssueInitDataStore } from "./issueInitDataStore";
-// import OrgchartStore from "./orgchartStore";
+import OrgchartStore from "./orgchartStore";
 // import DevStore from "./devStore";
 // import CommunicationStore from "./communicationStore";
 // import CommunicationCalendarPlanningStore from "./communicationCalendarPlanningStore";
@@ -29,7 +29,7 @@ export class RootStore {
   // breadcrumbsStore: BreadcrumbsStore;
   // groupCompanyStore: GroupCompanyStore;
   // issueInitDataStore: IssueInitDataStore;
-  // orgchartStore: OrgchartStore;
+  orgchartStore: OrgchartStore;
   // devStore: DevStore;
   // communicationStore: CommunicationStore;
   // communicationCalendarPlanningStore: CommunicationCalendarPlanningStore;
@@ -47,7 +47,7 @@ export class RootStore {
     // this.breadcrumbsStore = new BreadcrumbsStore(this);
     // this.groupCompanyStore = new GroupCompanyStore(this);
     // this.issueInitDataStore = new IssueInitDataStore(this);
-    // this.orgchartStore = new OrgchartStore(this);
+    this.orgchartStore = new OrgchartStore(this);
     // this.devStore = new DevStore(this);
     // this.communicationStore = new CommunicationStore(this);
     // this.communicationCalendarPlanningStore = new CommunicationCalendarPlanningStore(this);
