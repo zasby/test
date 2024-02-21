@@ -169,7 +169,7 @@ export default class AuthStore {
         this.setExternalId(null);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
-        console.log(1230, rootStore)
+        console.log(1230000, rootStore)
         console.log('this', this);
         Interceptors.setup({...rootStore, authStore: this});
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
