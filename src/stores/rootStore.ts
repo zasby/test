@@ -1,5 +1,6 @@
 import { makeAutoObservable } from "mobx";
 
+import GlobalSettingsStoreStore from './globalSettingsStore';
 // import NotifierStore from "./notifierStore";
 import AuthStore from "./authStore";
 // import AppStore from "./appStore";
@@ -17,6 +18,7 @@ import AuthStore from "./authStore";
 // import CommunicationCalendarPlanningStore from "./communicationCalendarPlanningStore";
 
 export class RootStore {
+  globalSettings: GlobalSettingsStoreStore;
   // notifierStore: NotifierStore;
   authStore: AuthStore;
   // appStore: AppStore;
@@ -34,6 +36,7 @@ export class RootStore {
 
   constructor() {
     makeAutoObservable(this);
+    this.globalSettings = new GlobalSettingsStoreStore(this);
     // this.notifierStore = new NotifierStore(this);
     this.authStore = new AuthStore(this);
     // this.appStore = new AppStore(this);
