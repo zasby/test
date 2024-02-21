@@ -80,6 +80,7 @@ export default class OrgchartStore {
       this.currentOrgchart?.resultName && this.currentOrgchart.resultName.trim().length > 0
         ? this.currentOrgchart.resultName
         : t("ui:placeholder.glossary.r");
+    console.log('this.currentOrgchartResultName', this.currentOrgchartResultName);
   }
 
   getOrgchartResultNameByOrgchartId(orgchartId: number) {
