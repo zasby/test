@@ -109,8 +109,8 @@ export default class AuthStore {
     console.log('initialInfo', initialInfo);
     this.initialInfo = initialInfo;
     localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
-    // rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
-    // rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
+    rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
+    rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
     // rootStore.helperStore.setCompanyGlossary(
     //   initialInfo?.identity?.companies?.find(
     //     (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId

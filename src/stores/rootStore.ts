@@ -4,8 +4,8 @@ import GlobalSettingsStoreStore from './globalSettingsStore';
 // import NotifierStore from "./notifierStore";
 import AuthStore from "./authStore";
 // import AppStore from "./appStore";
-// import HelperStore from "./helperStore";
-// import BoardStore from "./boardStore";
+import HelperStore from "./helperStore";
+import BoardStore from "./boardStore";
 
 // import { HintStore } from "./hintStore";
 // import { RegulationStore } from "./regulationStore";
@@ -22,8 +22,8 @@ export class RootStore {
   // notifierStore: NotifierStore;
   authStore: AuthStore;
   // appStore: AppStore;
-  // helperStore: HelperStore;
-  // boardStore: BoardStore;
+  helperStore: HelperStore;
+  boardStore: BoardStore;
   // hintStore: HintStore;
   // regulationStore: RegulationStore;
   // breadcrumbsStore: BreadcrumbsStore;
@@ -40,8 +40,8 @@ export class RootStore {
     // this.notifierStore = new NotifierStore(this);
     this.authStore = new AuthStore(this);
     // this.appStore = new AppStore(this);
-    // this.helperStore = new HelperStore(this);
-    // this.boardStore = new BoardStore(this);
+    this.helperStore = new HelperStore(this);
+    this.boardStore = new BoardStore(this);
     // this.hintStore = new HintStore(this);
     // this.regulationStore = new RegulationStore(this);
     // this.breadcrumbsStore = new BreadcrumbsStore(this);

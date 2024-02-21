@@ -3,7 +3,7 @@ import {
   // AdminCompanyController,
   AuthController,
   AuthorizedController,
-  // BoardController,
+  BoardController,
   // CompanyController,
   // CompanyGroupController,
   // CompanyInviteController,
@@ -59,7 +59,7 @@ class Api {
   // public rolePosition: RolePositionController;
   // public helper: HelperController;
   // public confirmation: ConfirmationController;
-  // public board: BoardController;
+  public board: BoardController;
   // public issue: IssueController;
   // public issueHistory: IssueHistoryController;
   // public issueShort: IssueShortController;
@@ -106,7 +106,7 @@ class Api {
     // this.rolePosition = new RolePositionController(axios);
     // this.helper = new HelperController(axios);
     // this.confirmation = new ConfirmationController(axios);
-    // this.board = new BoardController(axios);
+    this.board = new BoardController(axios);
     // this.issue = new IssueController(axios);
     // this.issueHistory = new IssueHistoryController(axios);
     // this.issueShort = new IssueShortController(axios);
