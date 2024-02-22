@@ -5,4 +5,4 @@ export { useDebounce } from "./hooks/useDebounce";
 export { usePaging, usePagingWithController } from "./hooks/usePaging";
 export { useDateHelpers } from "./hooks/useDateHelpers";
 export { useNotifier } from "./hooks/useNotifier";
-export { LocalStorageHelpers } from "./localStorageHelpers";
+export { LocalStorageHelpers } from "./hooks/localStorageHelpers";
