@@ -8,7 +8,7 @@ import HelperStore from "./helperStore";
 import BoardStore from "./boardStore";
 
 // import { HintStore } from "./hintStore";
-// import { RegulationStore } from "./regulationStore";
+import { RegulationStore } from "./regulationStore";
 // import BreadcrumbsStore from "./breadcrumbsStore";
 // import GroupCompanyStore from "./groupCompanyStore";
 // import { IssueInitDataStore } from "./issueInitDataStore";
@@ -25,7 +25,7 @@ export class RootStore {
   helperStore: HelperStore;
   boardStore: BoardStore;
   // hintStore: HintStore;
-  // regulationStore: RegulationStore;
+  regulationStore: RegulationStore;
   // breadcrumbsStore: BreadcrumbsStore;
   // groupCompanyStore: GroupCompanyStore;
   // issueInitDataStore: IssueInitDataStore;
@@ -43,7 +43,7 @@ export class RootStore {
     this.helperStore = new HelperStore(this);
     this.boardStore = new BoardStore(this);
     // this.hintStore = new HintStore(this);
-    // this.regulationStore = new RegulationStore(this);
+    this.regulationStore = new RegulationStore(this);
     // this.breadcrumbsStore = new BreadcrumbsStore(this);
     // this.groupCompanyStore = new GroupCompanyStore(this);
     // this.issueInitDataStore = new IssueInitDataStore(this);
