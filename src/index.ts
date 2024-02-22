@@ -7,3 +7,6 @@ export { useDateHelpers } from "./hooks/useDateHelpers";
 export { useNotifier } from "./hooks/useNotifier";
 export { LocalStorageHelpers } from "./hooks/localStorageHelpers";
 export { useApi } from "./hooks/useApi";
+export { useUpdate } from "./hooks/useUpdate";
+export { useHash } from "./hooks/useHash";
+export { useClaims } from "./hooks/useClaims";
