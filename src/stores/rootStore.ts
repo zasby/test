@@ -8,7 +8,7 @@ import HelperStore from "./helperStore";
 import BoardStore from "./boardStore";
 
 // import { HintStore } from "./hintStore";
-import { RegulationStore } from "./regulationStore";
+import RegulationStore from "./regulationStore";
 // import BreadcrumbsStore from "./breadcrumbsStore";
 // import GroupCompanyStore from "./groupCompanyStore";
 // import { IssueInitDataStore } from "./issueInitDataStore";
