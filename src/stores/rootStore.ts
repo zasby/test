@@ -3,7 +3,7 @@ import { makeAutoObservable } from "mobx";
 import GlobalSettingsStoreStore from './globalSettingsStore';
 // import NotifierStore from "./notifierStore";
 import AuthStore from "./authStore";
-// import AppStore from "./appStore";
+import AppStore from "./appStore";
 import HelperStore from "./helperStore";
 import BoardStore from "./boardStore";
 
@@ -21,7 +21,7 @@ export class RootStore {
   globalSettings: GlobalSettingsStoreStore;
   // notifierStore: NotifierStore;
   authStore: AuthStore;
-  // appStore: AppStore;
+  appStore: AppStore;
   helperStore: HelperStore;
   boardStore: BoardStore;
   // hintStore: HintStore;
@@ -39,7 +39,7 @@ export class RootStore {
     this.globalSettings = new GlobalSettingsStoreStore(this);
     // this.notifierStore = new NotifierStore(this);
     this.authStore = new AuthStore(this);
-    // this.appStore = new AppStore(this);
+    this.appStore = new AppStore(this);
     this.helperStore = new HelperStore(this);
     this.boardStore = new BoardStore(this);
     // this.hintStore = new HintStore(this);
