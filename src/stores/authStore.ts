@@ -1,3 +1,4 @@
+import { makeAutoObservable, toJS } from "mobx";
 import { rootStore, RootStore } from "./rootStore";
 import {
   AuthenticationStrategyByCredentialsModel,
@@ -6,14 +7,11 @@ import {
   RefreshTokenDto,
   User2CompanyDto,
 } from "../api";
-import { makeAutoObservable, toJS } from "mobx";
-import { AxiosError } from "axios";
 
 import { api } from "../services";
-// import versionCheck from "../plugins/versionCheck";
+import versionCheck from "../plugins/versionCheck";
+import { AxiosError } from "axios";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
-import Interceptors from "../plugins/interceptors";
-
 
 const localStorageHelpers = LocalStorageHelpers();
 
@@ -112,28 +110,27 @@ export default class AuthStore {
     localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
     rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
     rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
-    // rootStore.helperStore.setCompanyGlossary(
-    //   initialInfo?.identity?.companies?.find(
-    //     (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId
-    //   )?.company?.glossary ?? null
-    // );
-    // rootStore.orgchartStore.setOrgchartsList(
-    //   initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
-    // );
-    // rootStore.orgchartStore.getCurrentOrgchartId != null &&
-    //   !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
-    //   rootStore.orgchartStore.setCurrentOrgchartId(
-    //     initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
-    //   );
+    rootStore.helperStore.setCompanyGlossary(
+      initialInfo?.identity?.companies?.find(
+        (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId
+      )?.company?.glossary ?? null
+    );
+    rootStore.orgchartStore.setOrgchartsList(
+      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
+    );
+    rootStore.orgchartStore.getCurrentOrgchartId != null &&
+    !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
+    rootStore.orgchartStore.setCurrentOrgchartId(
+      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
+    );
   }
 
   setCurrentCompanyId(companyId: number | null): void {
     this.currentCompanyId = companyId;
-    console.log('companyId', companyId);
-    // this.setCurrentCompany(
-    //   rootStore.authStore.getInitialInfo?.identity?.companies?.find((u2c) => u2c.companyId == companyId)?.company ??
-    //     null
-    // );
+    this.setCurrentCompany(
+      rootStore.authStore.getInitialInfo?.identity?.companies?.find((u2c) => u2c.companyId == companyId)?.company ??
+      null
+    );
   }
 
   setCurrentCompany(company: CompanyDto | null): void {
@@ -164,19 +161,12 @@ export default class AuthStore {
     await api.auth.logIn(
       authModel,
       async (res) => {
-        console.log('res', res);
         this.setInviteCode(null);
         this.setExternalId(null);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
-        const params = {
-          accessToken: res.tokenAccess,
-          companyId: res.initialInfo?.identity?.currentCompanyId ?? null
-        }
-        Interceptors.setup(rootStore, params);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
-
         await this.refreshHelpers();
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
@@ -190,7 +180,7 @@ export default class AuthStore {
           )?.company?.glossary ?? null
         );
         rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-        // versionCheck();
+        versionCheck();
       },
       (error) => {
         req = error;
@@ -199,135 +189,135 @@ export default class AuthStore {
     return req;
   }
 
-  // async authorizeWithToken(token: string): Promise<boolean> {
-  //   const r = await api.auth.logInWithToken({ token: token });
-  //   if (r == null) return false;
-  //   // runInAction(() => {
-  //   this.setRefreshToken(r.refreshToken as RefreshTokenDto);
-  //   this.setAccessToken(r.tokenAccess as string);
-  //   this.setInitialInfo(r.initialInfo as InitialInfoDto);
-  //   this.setCurrentCompanyId(r.initialInfo?.identity?.currentCompanyId ?? null);
-  //   this.setCurrentCompanyUiType(
-  //     r.initialInfo?.identity?.companies?.find(
-  //       (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
-  //     )?.company?.uiType ?? null
-  //   );
-  //   this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
-  //   this.refreshHelpers();
-  //   rootStore.helperStore.setCompanyGlossary(
-  //     this.initialInfo?.identity?.companies?.find(
-  //       (u2c: User2CompanyDto) => u2c.companyId == this.initialInfo?.identity?.currentCompanyId
-  //     )?.company?.glossary ?? null
-  //   );
-  //   rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-  //   versionCheck();
-  //   // });
-  //
-  //   return true;
-  // }
-  //
-  // async authorizeWithRefreshToken(): Promise<boolean> {
-  //   if (toJS(this.refreshToken) == null) {
-  //     await this.unauthorize();
-  //     return false;
-  //   }
-  //   const r = await api.auth.refreshToken(toJS(this.refreshToken) as RefreshTokenDto);
-  //
-  //   if (r == false || typeof r === "boolean") {
-  //     await this.unauthorize();
-  //     return false;
-  //   }
-  //   if (r == null) {
-  //     return false;
-  //   }
-  //   // runInAction(() => {
-  //   this.setRefreshToken(r.refreshToken as RefreshTokenDto);
-  //   this.setAccessToken(r.tokenAccess as string);
-  //   this.setInitialInfo(r.initialInfo as InitialInfoDto);
-  //   this.setCurrentCompanyId(r.initialInfo?.identity?.currentCompanyId ?? null);
-  //   this.setCurrentCompanyUiType(
-  //     r.initialInfo?.identity?.companies?.find(
-  //       (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
-  //     )?.company?.uiType ?? null
-  //   );
-  //   this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
-  //   this.refreshHelpers();
-  //   rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-  //   versionCheck();
-  //   // });
-  //   return true;
-  // }
-  //
-  // async refreshAccessTokenWithRefreshToken(): Promise<boolean> {
-  //   if (toJS(this.refreshToken) == null) {
-  //     await this.unauthorize();
-  //     return false;
-  //   }
-  //   const r = await api.auth.refreshToken(toJS(this.refreshToken) as RefreshTokenDto);
-  //   if (r == false || typeof r === "boolean") {
-  //     await this.unauthorize();
-  //     return false;
-  //   }
-  //   if (r == null) {
-  //     return false;
-  //   }
-  //   this.setRefreshToken(r.refreshToken as RefreshTokenDto);
-  //   this.setAccessToken(r.tokenAccess as string);
-  //   this.setInitialInfo(r.initialInfo as InitialInfoDto);
-  //   // this.setCurrentCompanyId(r.initialInfo?.identity?.currentCompanyId ?? null);
-  //   // this.setCurrentCompanyUiType(
-  //   //   r.initialInfo?.identity?.companies?.find(
-  //   //     (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
-  //   //   )?.company?.uiType ?? null
-  //   // );
-  //   return true;
-  // }
-  //
-  // async reauthorizeWithNewCompanyId(companyId: number) {
-  //   // rootStore.appStore.setLoading(true);
-  //   rootStore.appStore.setCanDrawMainLayout(false);
-  //   const currentCompanyIdBackup = this.currentCompanyId;
-  //   this.setCurrentCompanyId(companyId);
-  //   const r = await api.auth.refreshToken(toJS(this.refreshToken) as RefreshTokenDto);
-  //   if (r == null || r == false || typeof r === "boolean") {
-  //     this.setCurrentCompanyId(currentCompanyIdBackup);
-  //     // rootStore.appStore.setLoading(false);
-  //     rootStore.appStore.setCanDrawMainLayout(true);
-  //     return false;
-  //   }
-  //   //rootStore.communicationsStore.resetStore();
-  //   rootStore.regulationStore.resetStore();
-  //   // Here we can to reset the sockets
-  //   this.setInitialInfo(r.initialInfo as InitialInfoDto);
-  //   this.setCurrentCompanyUiType(
-  //     r.initialInfo?.identity?.companies?.find(
-  //       (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
-  //     )?.company?.uiType ?? null
-  //   );
-  //   this.setRefreshToken(r.refreshToken as RefreshTokenDto);
-  //   this.setAccessToken(r.tokenAccess as string);
-  //   this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
-  //   // rootStore.appStore.setLoading(false);
-  //   rootStore.appStore.setCanDrawMainLayout(true);
-  //   rootStore.helperStore.setCompanyGlossary(null);
-  //   rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-  //   return true;
-  // }
-  //
-  // async unauthorize(): Promise<boolean> {
-  //   this.setCurrentCompanyId(null);
-  //   this.setCurrentCompanyUiType(null);
-  //   this.setInitialInfo(null);
-  //   //rootStore.communicationsStore.resetStore();
-  //   rootStore.regulationStore.resetStore();
-  //   rootStore.helperStore.setCompanyGlossary(null);
-  //   this.setRefreshToken(null);
-  //   this.setAccessToken(null);
-  //   this.setInviteCode(null);
-  //   this.setExternalId(null);
-  //   return true;
-  // // }
-  //
+  async authorizeWithToken(token: string): Promise<boolean> {
+    const r = await api.auth.logInWithToken({ token: token });
+    if (r == null) return false;
+    // runInAction(() => {
+    this.setRefreshToken(r.refreshToken as RefreshTokenDto);
+    this.setAccessToken(r.tokenAccess as string);
+    this.setInitialInfo(r.initialInfo as InitialInfoDto);
+    this.setCurrentCompanyId(r.initialInfo?.identity?.currentCompanyId ?? null);
+    this.setCurrentCompanyUiType(
+      r.initialInfo?.identity?.companies?.find(
+        (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
+      )?.company?.uiType ?? null
+    );
+    this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
+    this.refreshHelpers();
+    rootStore.helperStore.setCompanyGlossary(
+      this.initialInfo?.identity?.companies?.find(
+        (u2c: User2CompanyDto) => u2c.companyId == this.initialInfo?.identity?.currentCompanyId
+      )?.company?.glossary ?? null
+    );
+    rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+    versionCheck();
+    // });
+
+    return true;
+  }
+
+  async authorizeWithRefreshToken(): Promise<boolean> {
+    if (toJS(this.refreshToken) == null) {
+      await this.unauthorize();
+      return false;
+    }
+    const r = await api.auth.refreshToken(toJS(this.refreshToken) as RefreshTokenDto);
+
+    if (r == false || typeof r === "boolean") {
+      await this.unauthorize();
+      return false;
+    }
+    if (r == null) {
+      return false;
+    }
+    // runInAction(() => {
+    this.setRefreshToken(r.refreshToken as RefreshTokenDto);
+    this.setAccessToken(r.tokenAccess as string);
+    this.setInitialInfo(r.initialInfo as InitialInfoDto);
+    this.setCurrentCompanyId(r.initialInfo?.identity?.currentCompanyId ?? null);
+    this.setCurrentCompanyUiType(
+      r.initialInfo?.identity?.companies?.find(
+        (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
+      )?.company?.uiType ?? null
+    );
+    this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
+    this.refreshHelpers();
+    rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+    versionCheck();
+    // });
+    return true;
+  }
+
+  async refreshAccessTokenWithRefreshToken(): Promise<boolean> {
+    if (toJS(this.refreshToken) == null) {
+      await this.unauthorize();
+      return false;
+    }
+    const r = await api.auth.refreshToken(toJS(this.refreshToken) as RefreshTokenDto);
+    if (r == false || typeof r === "boolean") {
+      await this.unauthorize();
+      return false;
+    }
+    if (r == null) {
+      return false;
+    }
+    this.setRefreshToken(r.refreshToken as RefreshTokenDto);
+    this.setAccessToken(r.tokenAccess as string);
+    this.setInitialInfo(r.initialInfo as InitialInfoDto);
+    // this.setCurrentCompanyId(r.initialInfo?.identity?.currentCompanyId ?? null);
+    // this.setCurrentCompanyUiType(
+    //   r.initialInfo?.identity?.companies?.find(
+    //     (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
+    //   )?.company?.uiType ?? null
+    // );
+    return true;
+  }
+
+  async reauthorizeWithNewCompanyId(companyId: number) {
+    // rootStore.appStore.setLoading(true);
+    rootStore.appStore.setCanDrawMainLayout(false);
+    const currentCompanyIdBackup = this.currentCompanyId;
+    this.setCurrentCompanyId(companyId);
+    const r = await api.auth.refreshToken(toJS(this.refreshToken) as RefreshTokenDto);
+    if (r == null || r == false || typeof r === "boolean") {
+      this.setCurrentCompanyId(currentCompanyIdBackup);
+      // rootStore.appStore.setLoading(false);
+      rootStore.appStore.setCanDrawMainLayout(true);
+      return false;
+    }
+    //rootStore.communicationsStore.resetStore();
+    rootStore.regulationStore.resetStore();
+    // Here we can to reset the sockets
+    this.setInitialInfo(r.initialInfo as InitialInfoDto);
+    this.setCurrentCompanyUiType(
+      r.initialInfo?.identity?.companies?.find(
+        (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
+      )?.company?.uiType ?? null
+    );
+    this.setRefreshToken(r.refreshToken as RefreshTokenDto);
+    this.setAccessToken(r.tokenAccess as string);
+    this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
+    // rootStore.appStore.setLoading(false);
+    rootStore.appStore.setCanDrawMainLayout(true);
+    rootStore.helperStore.setCompanyGlossary(null);
+    rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+    return true;
+  }
+
+  async unauthorize(): Promise<boolean> {
+    this.setCurrentCompanyId(null);
+    this.setCurrentCompanyUiType(null);
+    this.setInitialInfo(null);
+    //rootStore.communicationsStore.resetStore();
+    rootStore.regulationStore.resetStore();
+    rootStore.helperStore.setCompanyGlossary(null);
+    this.setRefreshToken(null);
+    this.setAccessToken(null);
+    this.setInviteCode(null);
+    this.setExternalId(null);
+    return true;
+  }
+
   async refreshHelpers(): Promise<void> {
     await this.root.helperStore.getPermissionsFromServer();
     await this.root.helperStore.getTimeZonesFromServer();
@@ -336,13 +326,13 @@ export default class AuthStore {
     await this.root.helperStore.getInfoFromServer();
     await this.root.helperStore.getUserContactTypeFromServer();
   }
-  //
-  // async refreshInitialInfo(): Promise<void> {
-  //   const r = await api.authorized.getInitialInfo();
-  //   if (r == null) {
-  //     return;
-  //   }
-  //   this.setInitialInfo(r);
-  //   this.setCurrentCompanyId(r.identity?.currentCompanyId ?? null);
-  // }
+
+  async refreshInitialInfo(): Promise<void> {
+    const r = await api.authorized.getInitialInfo();
+    if (r == null) {
+      return;
+    }
+    this.setInitialInfo(r);
+    this.setCurrentCompanyId(r.identity?.currentCompanyId ?? null);
+  }
 }
