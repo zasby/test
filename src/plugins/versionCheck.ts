@@ -2,6 +2,7 @@ import { api } from "../services";
 
 export default function versionCheck() {
   const currentVersion = localStorage.getItem("D_SHA");
+  console.log('currentVersion', currentVersion);
   api.helper.info(true).then((r) => {
     if (r == null) {
       console.log(
