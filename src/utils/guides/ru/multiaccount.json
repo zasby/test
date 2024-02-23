@@ -1,0 +1,524 @@
+[
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Если у вас Группа компаний или Управляющая компания и филиалы, вы можете создавать несколько оргструктур в рамках одной компании. Благодаря этому все задачи, сотрудники, регламенты и метрики будут доступны через один аккаунт.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Создание новой оргструктуры",
+        "fontSize": "14pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "В модуле “Оргструктура” нажмите на название оргструктуры, откроется выпадающий список, в нем необходимо выбрать “Создать оргструктуру”.",
+                "fontSize": "11.5pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "rgb(255, 255, 255)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "indent": 1,
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/Qj9aAjr-B5cKcL-b39CmpmZd0jQCvuVcoYwNdY0VhC6A1tEf7GxgIGZUfMxnNSIa9QMJqxMtqP8zYYEAysmuS3g4phnrvk4bL1bRQjteKvJu-1jYm-tFTPDIunuXPVf_1_2VE1cfJHemLh_WKyoS6wpS7yR7lYxc6hgdNmYbzDq6tIFYViKLjO4V3g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11.5pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "width": 684
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "В появившемся окне введите настройки оргструктуры. ",
+                "fontSize": "11.5pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "rgb(255, 255, 255)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "indent": 1,
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/-sLohBHgKOapY8QtktkaUOvNSCc6DnlM-NpxmeXucyAV_MTgtpO9oERZ7DXuCT5UCxCivjvnUa0bDUjlyrxJzakW-eHnyTmCi7clqkX965d8yiCZSbpUgq_NN5M1Taym0IcNy86O4Kj7JwKtcTR86bm5_BdDqVk2G7xSpxwqVc0thxXzRUR5JbImNA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11.5pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "width": 632
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "Поле “Название” предназначено для ввода названия оргструктуры.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "Поле “Описание” предназначено для ввода описания оргструктуры.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "В поле “Результат” указывается терминология, которая будет использоваться на оргструктуре. Например: ЦКП.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "Для оргструктуры можно выбрать цвет. Цветовая маркировка оргструктуры поможет вам быстрее ориентироваться в системе.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "Чтобы сохранить новую оргструктуру, нажмите на кнопку «Создать» в левом нижнем углу окна.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/6F24YYbrfoIcTLZm9qKt3rg7nto63exZ6azMio_RXXqG9i1ueOkMKdSGOQn44SOUG4gDzC1XJ9ZpSw61CG6fyrXzxXFOdRy6m1IwP4bSN75HFmh3nC96dW9vZvJDz8ITq3uslCfLjFdPgLif0d197tHzgNktIqzFu33XOb0YzXnKSpRLYbA8T8WfIA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11.5pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "width": 608
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Для того чтобы отредактировать или удалить оргструктуру, необходимо нажать на три точки в правом верхнем углу и выбрать из выпавшего меню нужное действие. При выборе “Редактировать оргструктуру” откроется такое же окно как при создании оргструктуры. При выборе “Удалить оргструктуру” система запросит у вас подтверждение действие, так как отменить это действие будет невозможно.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/NVWcuRUbeRINnweBW1W2wtbzgZz7MAbuxy_LBk65SwfMqjKxWLeqx7u1Joo1Hcaa01jvAdqIkKOusX40abvJtqzO4HiOzNchvLvVOtMxkKA0ugYuqgp6Uq_gR3guoeXl8wWWokULYdkYab2bNjGmm2Zo3FnQ8f1yfaac9LGGy0OFl1xY2QFyP1jJQw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 668
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Чтобы переключиться между оргструктурами, необходимо нажать на название оргструктуры и выбрать нужную из выпадающего списка.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/E9l6SZs-eZTrOJL13W0JC8xxqAjEJ2z1AeyHc_fJh66LnShO3S2-IQFfdg6eYgpOrnKgwZS7DVH_FwVcCIzlD3r6g73mvlgqP5bj68GwLwa33aCkMNwTu2DIxTdH1MqzH8uoyRkQrGdEQS6O_Xs6zgsCyRduUfvD1gfQVEiE5B_gqWgcsG2okbhGxQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 776
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "В связи с появлением мультиаккаунта, изменения произошли и в других разделах:",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "В разделе “Сотрудники” появился фильтр, позволяющий выбирать сотрудников какой оргструктуры отобразить.",
+                "fontSize": "11pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "transparent"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "indent": 1,
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/tJCu73MvjzMSoOAwrv9J3wagzP3jhBZc76Kdu8q6lq-aL7zJhbQW3pD3pdaRZQiX95Ea-UvsP48hglkfALBR_FY5bqWeXChuOXcHqhpecUUcIbvtqYum8c4z4kBmPFtfF9VsBLo7PIcSkTi6I0Zyk7hrNnEuTfOnFELTSpBKX0DX_90aX5yXlS5oGA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 690
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "При наведении на кружок около названия функции появится подсказка с названием оргструктуры, к которой относится данный сотрудник.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/uP4vijj7E2U-tlxulvQ26VzqsK0uKCm6ypPjPcsf7OHv8ZqF64dLuWFcMCICyEg2asb4ar3qs702akf2SxC683olrOHUApur5JAbzqbTMip495vQAfKnEL_riXYOMVBxVv6KN_SolBrqYHR4LMAaEuPKkbbTjIEaj0YaPhS32oX4gAA2QZ-hEmWh4g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 674
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "В разделе “График работы” также добавлен фильтр по названию оргструктуры.",
+                "fontSize": "11pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "transparent"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Qcb6LnUU9aaEhep61aKRpCvEB84dcOGgg2ju7UCoBmRLNbK12MxO0xgf1SnuG0ab3dJJlcULkQwQWj0JBsa7LB_yJXIzNouIeeZfI_c8WpnPQjj9CFyYkmhdot0kX-hYqrSsUici8XY44QaBwDH4sUhLCn8V65DGm_rA9MB__gU3clGscM7sqSb4xg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 662
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "В разделе “Коммуникации” появилось деление по оргструктурам. Блок с задачами компаний можно сворачивать и разворачивать. ",
+                "fontSize": "11pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "transparent"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/xknYCSzG5FJ9y25zlqNgPgcxFCGCJOFNYm-B7OA7f7e3PyJyFu6NTFw9FhxzGERCaGWDTJI0O2HLp_OFPo5md-TJ8plrrOG1_UqbL1XY1H38KKhbIPGJ3HLGVd3mRuGB3mhzNm262cs8fF-qu8pdjguuwUgP0XSbPCJ--yofSyVjxUO3ZG-EUVMg7w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 684
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "Также, справа от названия, можно увидеть количество задач, которые на данный момент находятся во входящих и в процессе выполнения.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/NYWmIrNTHCBVkbGlaTnmE1AkoyycIWE16z7MGY77CvR6WuwySJjjKr5XPCq4GDo6YDvet6V8IaNG4RewRfEXhTo5P0uo7JP1Ke6EE7W2c6yfy1nkMV15lhZqRap-PpAxdM7xoznm-Pmo4v2qF4HIY1lLXm9HlWniNvj_vyRkWrME0Kk-MuSYCmDMhw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 794
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "При создании задач, дашбордов и регламентов появилось поле для выбора компании.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/CbpR3jKUsPS3HFnFZg5Cc1uPFq2BohyfbXKLA9g1yNWlLMPQFH_Ljoejk9oQd4LiZIxF_dUTVQF85qf2WlaS-eAuxWAiHgPQdk3ZeOjrRT5WaeSZwH2iKKcmNSJeEMLW9lhUvmjcwS4MHQtthDJiV6g4f-KSA0gwJrxv_XIUJR0bP8rrqcCX_OiZGQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ],
+        "width": 768
+      }
+    ]
+  }
+]

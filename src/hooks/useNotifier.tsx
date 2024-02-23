@@ -4,8 +4,7 @@ import { ButtonProps } from "antd/lib/button";
 import React from "react";
 import { App } from "antd";
 import { useTranslation } from "react-i18next";
-
-export type NotificationType = "success" | "info" | "warning" | "error";
+import { NotificationType } from "../helpers/types";
 
 function NotifierButton(text: string, onClick: () => void, props?: ButtonProps) {
   return (
