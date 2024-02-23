@@ -69,6 +69,10 @@ export default class AuthStore {
   }
 
   get isAuthorized(): boolean {
+    console.log('this.accessToken', this.accessToken);
+    console.log('this.refreshToken', this.refreshToken);
+    console.log('toJS(this.accessToken)', toJS(this.accessToken));
+    console.log('toJS(this.refreshToken)', toJS(this.refreshToken));
     return toJS(this.accessToken) != null && toJS(this.refreshToken) != null;
   }
 

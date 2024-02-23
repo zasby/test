@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zasby/test/issues"
   },
-  "homepage": "https://github.com/zasby/test#readme"
+  "homepage": "https://github.com/zasby/test#readme",
+  "dependencies": {
+    "mobx": "^6.3.8"
+  }
 }
