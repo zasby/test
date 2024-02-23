@@ -144,4 +144,5 @@ class Api {
   }
 }
 
+console.log('client', client);
 export const api = new Api(client);

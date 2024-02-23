@@ -43,6 +43,7 @@ export default {
         //   config.headers.Culture = store.appStore.getAppLocale.toString();
         // }
       }
+      console.log('config', config);
       return config;
     });
   },
