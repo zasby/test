@@ -137,6 +137,7 @@ export default class HelperStore {
   }
 
   setCompanyGlossary(companyGlossary: CompanyGlossaryItemDto[] | null) {
+    console.log('companyGlossary', companyGlossary);
     this.companyGlossary = companyGlossary;
   }
 
@@ -145,12 +146,14 @@ export default class HelperStore {
   }
 
   async getPermissionsFromServer(): Promise<boolean> {
+    console.log('getPermissionsFromServer', api.helper);
     const r = await api.helper.permission();
+    console.log('r', r);
     if (r) {
       this.setPermissions(r);
       return true;
     } else {
-      console.log(error);
+      console.log('error');
       return false;
     }
   }
