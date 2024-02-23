@@ -40,7 +40,7 @@ export { rootStore, RootStore } from "./stores/rootStore";
 // context
 export { RootStoreContext } from "./contexts/rootStoreContext";
 export { StoreContext, RootStoreProvider } from "./contexts/storeContext";
-export { GlobalAuthorizedContext, GlobalAuthorizedContextProvider } from "./contexts/storeContext";
+export { GlobalAuthorizedContext, GlobalAuthorizedContextProvider } from "./contexts/globalAuthorizedContext";
 
 
 export type { PagingInfo } from "./helpers/types/PagingInfo";
