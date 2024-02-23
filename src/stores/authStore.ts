@@ -166,6 +166,7 @@ export default class AuthStore {
         this.setExternalId(null);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
+        console.log('isAuthorized', this.isAuthorized);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
         Interceptors.setup(rootStore, {accessToken: res.tokenAccess});
