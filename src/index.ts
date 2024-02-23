@@ -22,14 +22,15 @@ export { useLocalStorage } from "./hooks/useLocalStorage";
 export { useIsomorphicLayoutEffect } from "./hooks/useIsomorphicLayoutEffect";
 export { useEventListener } from "./hooks/useEventListener";
 export { useOutsideClick } from "./hooks/useOutsideClick";
-
 export { useMediaRecorder } from "./hooks/useMediaRecorder";
 export { useEditable } from "./hooks/useEditable";
 export { useIsFirstRender } from "./hooks/useIsFirstRender";
-
 export { useEventCallback } from "./hooks/useEventCallback";
 export { useCommittedRef } from "./hooks/useCommittedRef";
 export { useSound } from "./hooks/useSound";
+export { useTheme } from "./hooks/useTheme";
+export { useThrottle } from "./hooks/useThrottle";
+
 
 export type { PagingInfo } from "./helpers/types/PagingInfo";
 export type { IUseMediaRecorder, TMediaRecorderErrorTyp, TMediaRecorderStatus } from "./helpers/types/MediaRecorder";
