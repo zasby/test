@@ -18,7 +18,7 @@ export { useColorSchemeStyles } from "./hooks/useColorSchemeStyles";
 export { useForkedRef, assignRef, isFunction } from "./hooks/useForkedRef";
 export { useDidMountEffect } from "./hooks/useDidMountEffect";
 export { useElementSize } from "./hooks/useElementSize";
-import useLocalStorage from "./hooks/useLocalStorage";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 import useIsomorphicLayoutEffect from "./hooks/useIsomorphicLayoutEffect";
 import { useEventListener } from "./hooks/useEventListener";
 import useOutsideClick from "./hooks/useOutsideClick";
