@@ -173,6 +173,7 @@ export default class AuthStore {
         console.log('123====');
         await this.refreshHelpers();
         console.log('456====');
+        console.log("authStore.isAuthorized", authStore.isAuthorized);
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
             (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
