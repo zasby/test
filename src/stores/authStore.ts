@@ -172,8 +172,8 @@ export default class AuthStore {
         Interceptors.setup(rootStore, {accessToken: res.tokenAccess});
         console.log('123====');
         await this.refreshHelpers();
-        console.log('456====');
-        console.log("authStore.isAuthorized", authStore.isAuthorized);
+        console.log('456====', this);
+        console.log("authStore.isAuthorized", this.isAuthorized);
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
             (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
