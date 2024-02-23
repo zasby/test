@@ -23,7 +23,7 @@ function parseJSON<T>(value: string | null): T | undefined {
   }
 }
 
-export function useLocalStorage<T>(key: string, initialValue: T, params?: TUseLocalStorageParams): [T, SetValue<T>] {
+export const useLocalStorage = <T>(key: string, initialValue: T, params?: TUseLocalStorageParams): [T, SetValue<T>] {
   // Get from local storage then
   // parse stored json or return initialValue
   const readValue = useCallback((): T => {
