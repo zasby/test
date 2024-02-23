@@ -2,7 +2,7 @@ export { useAuth } from './hooks/loginForm/useAuth';
 export { useRootStore } from "./hooks/useRootStore";
 export { useIsMobile } from "./hooks/useIsMobile";
 export { useDebounce } from "./hooks/useDebounce";
-export { usePaging, usePagingWithController, PagingInfo } from "./hooks/usePaging";
+export { usePaging, usePagingWithController } from "./hooks/usePaging";
 export { useDateHelpers } from "./hooks/useDateHelpers";
 export { useNotifier } from "./hooks/useNotifier";
 export { LocalStorageHelpers } from "./hooks/localStorageHelpers";
@@ -23,6 +23,11 @@ import { useEventListener } from "./hooks/useEventListener";
 import { useOutsideClick } from "./hooks/useOutsideClick";
 import { useMediaRecorder } from "./hooks/useMediaRecorder";
 import { useEditable } from "./hooks/useEditable";
+import { useIsFirstRender } from "./hooks/useIsFirstRender";
+import { useLocalStorage } from "./hooks/useLocalStorage";
+import { useEventCallback } from "./hooks/useEventCallback";
+import { useCommittedRef } from "./hooks/useCommittedRef";
+export { useSound } from "./hooks/useSound";
 
 
 import { PagingInfo } from "./helpers/types/PagingInfo";
