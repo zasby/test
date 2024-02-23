@@ -13,3 +13,5 @@ export const useOutsideClick = (ref: React.RefObject<any>, onOutsideClick: (even
     };
   }, [ref]);
 };
+
+export default useOutsideClick;

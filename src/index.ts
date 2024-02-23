@@ -19,7 +19,7 @@ export { useForkedRef, assignRef, isFunction } from "./hooks/useForkedRef";
 export { useDidMountEffect } from "./hooks/useDidMountEffect";
 export { useElementSize } from "./hooks/useElementSize";
 import useLocalStorage from "./hooks/useLocalStorage";
-import { useIsomorphicLayoutEffect } from "./hooks/useIsomorphicLayoutEffect";
+import useIsomorphicLayoutEffect from "./hooks/useIsomorphicLayoutEffect";
 import { useEventListener } from "./hooks/useEventListener";
 import useOutsideClick from "./hooks/useOutsideClick";
 import { useMediaRecorder } from "./hooks/useMediaRecorder";
