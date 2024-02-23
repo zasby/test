@@ -9,6 +9,7 @@ export { LocalStorageHelpers } from "./hooks/localStorageHelpers";
 export { useApi } from "./hooks/useApi";
 export { useUpdate, useUpdateWithController } from "./hooks/useUpdate";
 export { useHash } from "./hooks/useHash";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 export { useClaims } from "./hooks/useClaims";
 export { useAutoSetInitialState } from "./hooks/useAutoSetInitialState";
 export { useSequentialPromises } from "./hooks/useSequentialPromises";
@@ -24,7 +25,7 @@ import { useOutsideClick } from "./hooks/useOutsideClick";
 import { useMediaRecorder } from "./hooks/useMediaRecorder";
 import { useEditable } from "./hooks/useEditable";
 import { useIsFirstRender } from "./hooks/useIsFirstRender";
-import { useLocalStorage } from "./hooks/useLocalStorage";
+
 import { useEventCallback } from "./hooks/useEventCallback";
 import { useCommittedRef } from "./hooks/useCommittedRef";
 export { useSound } from "./hooks/useSound";
