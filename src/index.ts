@@ -31,7 +31,7 @@ export { useSound } from "./hooks/useSound";
 
 export { useTheme } from "./hooks/useTheme";
 export { useThrottle } from "./hooks/useThrottle";
-export { rootStore } from "./stores/rootStore";
+export { rootStore, RootStore } from "./stores/rootStore";
 
 
 export type { PagingInfo } from "./helpers/types/PagingInfo";
