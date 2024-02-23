@@ -1,4 +1,5 @@
 import {RootStoreProvider, StoreContext} from "./contexts/storeContext";
+import {GlobalAuthorizedContext, GlobalAuthorizedContextProvider} from "./contexts/globalAuthorizedContext";
 
 export { useAuth } from './hooks/loginForm/useAuth';
 export { useRootStore } from "./hooks/useRootStore";
@@ -39,6 +40,7 @@ export { rootStore, RootStore } from "./stores/rootStore";
 // context
 export { RootStoreContext } from "./contexts/rootStoreContext";
 export { StoreContext, RootStoreProvider } from "./contexts/storeContext";
+export { GlobalAuthorizedContext, GlobalAuthorizedContextProvider } from "./contexts/storeContext";
 
 
 export type { PagingInfo } from "./helpers/types/PagingInfo";
