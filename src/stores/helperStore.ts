@@ -150,6 +150,7 @@ export default class HelperStore {
       this.setPermissions(r);
       return true;
     } else {
+      console.log(error);
       return false;
     }
   }
