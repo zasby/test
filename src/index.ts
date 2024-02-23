@@ -1,3 +1,5 @@
+import {RootStoreProvider, StoreContext} from "./contexts/storeContext";
+
 export { useAuth } from './hooks/loginForm/useAuth';
 export { useRootStore } from "./hooks/useRootStore";
 export { useIsMobile } from "./hooks/useIsMobile";
@@ -32,6 +34,11 @@ export { useSound } from "./hooks/useSound";
 export { useTheme } from "./hooks/useTheme";
 export { useThrottle } from "./hooks/useThrottle";
 export { rootStore, RootStore } from "./stores/rootStore";
+
+
+// context
+export { RootStoreContext } from "./contexts/rootStoreContext";
+export { StoreContext, RootStoreProvider } from "./contexts/storeContext";
 
 
 export type { PagingInfo } from "./helpers/types/PagingInfo";

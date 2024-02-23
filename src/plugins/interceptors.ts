@@ -16,9 +16,6 @@ const getRefreshToken = () => {
 export default {
   setup: (store: RootStore, params?: IInterceptorsParams) => {
     client.interceptors.request.use((config: AxiosRequestConfig) => {
-      console.log('params?.accessToken===', params?.accessToken);
-      console.log('store.authStore.getAccessToken===', store.authStore.getAccessToken);
-      console.log('getRefreshToken()======', getRefreshToken());
       if (config && config.headers) {
         // SET ACCESS TOKEN HEADER
         if (params?.accessToken !== null) {
@@ -51,9 +48,10 @@ export default {
 
 const refreshAuthLogic = async (failedRequest: any) => {
   console.warn("Detected 401 (Unauthorized). Trying to refresh the token");
-  // await rootStore.authStore.authorizeWithRefreshToken();
-  // failedRequest.response.config.headers["Authorization"] = `Bearer ${getRefreshToken()}`;
-  // return Promise.resolve();
+  await rootStore.authStore.authorizeWithRefreshToken();
+  console.log('getRefreshToken', getRefreshToken());
+  failedRequest.response.config.headers["Authorization"] = `Bearer ${getRefreshToken()}`;
+  return Promise.resolve();
 };
 
 createAuthRefreshInterceptor(client, refreshAuthLogic, { pauseInstanceWhileRefreshing: false });
