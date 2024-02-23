@@ -1,6 +1,6 @@
 import { AxiosError } from "axios";
 import { useTranslation } from "react-i18next";
-import { useNotifier } from "../hooks";
+import { useNotifier } from "./useNotifier";
 
 export const useRequestHandler = () => {
   const notifier = useNotifier();
