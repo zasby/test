@@ -28,6 +28,7 @@ export { useIsFirstRender } from "./hooks/useIsFirstRender";
 export { useEventCallback } from "./hooks/useEventCallback";
 export { useCommittedRef } from "./hooks/useCommittedRef";
 export { useSound } from "./hooks/useSound";
+
 export { useTheme } from "./hooks/useTheme";
 export { useThrottle } from "./hooks/useThrottle";
 
