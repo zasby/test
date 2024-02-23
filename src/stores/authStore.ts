@@ -164,6 +164,7 @@ export default class AuthStore {
       async (res) => {
         this.setInviteCode(null);
         this.setExternalId(null);
+        console.log('res', res);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
         console.log('isAuthorized', this.isAuthorized);
