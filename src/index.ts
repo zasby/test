@@ -31,8 +31,8 @@ export { useEventCallback } from "./hooks/useEventCallback";
 export { useCommittedRef } from "./hooks/useCommittedRef";
 export { useSound } from "./hooks/useSound";
 
-export { PagingInfo } from "./helpers/types/PagingInfo";
-export { IUseMediaRecorder, TMediaRecorderErrorTyp, TMediaRecorderStatus } from "./helpers/types/MediaRecorder";
-export { NotificationType } from "./helpers/types";
-export { IUseTimer } from "./helpers/types/Timer"
-export { AssignableRef } from "./helpers/types/AssignableRef";
+export type { PagingInfo } from "./helpers/types/PagingInfo";
+export type { IUseMediaRecorder, TMediaRecorderErrorTyp, TMediaRecorderStatus } from "./helpers/types/MediaRecorder";
+export type { NotificationType } from "./helpers/types";
+export type { IUseTimer } from "./helpers/types/Timer"
+export type { AssignableRef } from "./helpers/types/AssignableRef";
