@@ -97,7 +97,7 @@ export default class AuthStore {
 
   setRefreshToken(token: RefreshTokenDto | null): void {
     this.refreshToken = token;
-    localStorageHelpers.set(this.lsKeys.refreshToken, token);
+    // localStorageHelpers.set(this.lsKeys.refreshToken, token);
   }
 
   setAccessToken(token: string | null): void {
