@@ -180,7 +180,7 @@ export default class AuthStore {
         //   )?.company?.glossary ?? null
         // );
         // rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-        versionCheck();
+        // versionCheck();
         console.log('getAccessToken', this.getAccessToken);
       },
       (error) => {
