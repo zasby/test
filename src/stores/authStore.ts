@@ -34,11 +34,11 @@ export default class AuthStore {
   private externalId: string | null;
 
   constructor(root: RootStore) {
-    makeAutoObservable(this);
+    makeAutoObservable(this, {}, { deep: true });
     console.log('this', this);
     this.root = root;
     this.refreshToken = localStorageHelpers.get(this.lsKeys.refreshToken) ?? null;
-    @observable this.accessToken = null;
+    this.accessToken = null;
     this.initialInfo = localStorageHelpers.get(this.lsKeys.initialInfo) ?? null;
     this.currentCompanyId = this.initialInfo?.identity?.currentCompanyId ?? null;
 
