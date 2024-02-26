@@ -1,4 +1,13 @@
 import { api } from "../services";
+import {
+  AuthenticationStrategyByCredentialsModel,
+  CompanyDto,
+  InitialInfoDto,
+  RefreshTokenDto,
+  User2CompanyDto,
+} from "../api";
+import { AxiosError } from "axios";
+
 
 export const authorizeWithCredentials = async ({
   authModel,
