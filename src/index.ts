@@ -5,7 +5,7 @@ export { StoreContext, RootStoreProvider } from "./contexts/storeContext";
 //hooks
 export { useIsMobile } from "./hooks/useIsMobile";
 export { useIsMobile } from "./hooks/useIsMobile";
-import { useRootStore } from "./hooks/useRootStore";
+export { useRootStore } from "./hooks/useRootStore";
 
 
 //store
