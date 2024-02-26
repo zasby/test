@@ -17,7 +17,7 @@ export const authorizeWithCredentials = async ({
   setAccessToken,
   setInitialInfo,
   setCurrentCompanyId,
-}) => {
+}: any) => {
   await api.auth.logIn(
     authModel,
     async (res) => {
