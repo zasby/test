@@ -163,8 +163,9 @@ export default class AuthStore {
       async (res) => {
         this.setInviteCode(null);
         this.setExternalId(null);
-        this.setRefreshToken(res.refreshToken as RefreshTokenDto);
+        console.log('authorizeWithCredentials');
         this.setAccessToken(res.tokenAccess as string);
+        this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
         await this.refreshHelpers();
@@ -193,6 +194,7 @@ export default class AuthStore {
     const r = await api.auth.logInWithToken({ token: token });
     if (r == null) return false;
     // runInAction(() => {
+    console.log('authorizeWithToken');
     this.setRefreshToken(r.refreshToken as RefreshTokenDto);
     this.setAccessToken(r.tokenAccess as string);
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
@@ -231,6 +233,7 @@ export default class AuthStore {
       return false;
     }
     // runInAction(() => {
+    console.log('authorizeWithRefreshToken');
     this.setRefreshToken(r.refreshToken as RefreshTokenDto);
     this.setAccessToken(r.tokenAccess as string);
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
