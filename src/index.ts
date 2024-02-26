@@ -48,3 +48,6 @@ export type { IUseMediaRecorder, TMediaRecorderErrorTyp, TMediaRecorderStatus } 
 export type { NotificationType } from "./helpers/types";
 export type { IUseTimer } from "./helpers/types/Timer"
 export type { AssignableRef } from "./helpers/types/AssignableRef";
+
+
+export { authorizeWithCredentials } from "./utils/auth";
