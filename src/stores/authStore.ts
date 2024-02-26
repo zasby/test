@@ -8,7 +8,7 @@ import {
 } from "../api";
 import { makeAutoObservable, toJS } from "mobx";
 import { api } from "../services";
-import versionCheck from "../plugins/versionCheck";
+// import versionCheck from "../plugins/versionCheck";
 import { AxiosError } from "axios";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 
@@ -166,6 +166,9 @@ export default class AuthStore {
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
+        console.log('getAccessToken', this.getAccessToken);
+        console.log('getRefreshToken', this.getRefreshToken);
+
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
         // await this.refreshHelpers();
         this.setCurrentCompanyUiType(
@@ -211,7 +214,7 @@ export default class AuthStore {
       )?.company?.glossary ?? null
     );
     rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-    versionCheck();
+    // versionCheck();
     // });
 
     return true;
@@ -244,7 +247,7 @@ export default class AuthStore {
     this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
     this.refreshHelpers();
     rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-    versionCheck();
+    // versionCheck();
     // });
     return true;
   }
