@@ -6,7 +6,7 @@ import {
   RefreshTokenDto,
   User2CompanyDto,
 } from "../api";
-import { makeAutoObservable, toJS } from "mobx";
+import { makeAutoObservable, toJS, observable } from "mobx";
 import { api } from "../services";
 import versionCheck from "../plugins/versionCheck";
 import { AxiosError } from "axios";
@@ -24,7 +24,7 @@ export default class AuthStore {
     externalId: "externalId",
   };
   private refreshToken: RefreshTokenDto | null;
-  private accessToken: string | null;
+  @observable private accessToken: string | null;
   private initialInfo: InitialInfoDto | null;
   private currentCompany: CompanyDto | null;
   private currentCompanyId: number | null;
