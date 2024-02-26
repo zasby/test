@@ -13,7 +13,7 @@ export const authorizeWithCredentials = async ({
   authModel,
   owner,
 }: any) => {
-  await api.auth.logIn(
+  return await api.auth.logIn(
     authModel,
     async (res) => {
       console.log('this', owner);
@@ -41,6 +41,7 @@ export const authorizeWithCredentials = async ({
       return true;
     },
     (error) => {
+      console.log('error', error);
       // req = error;
       return error;
     }
