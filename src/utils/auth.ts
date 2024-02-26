@@ -17,12 +17,15 @@ export const authorizeWithCredentials = async ({
   setAccessToken,
   setInitialInfo,
   setCurrentCompanyId,
+  owner,
 }: any) => {
   await api.auth.logIn(
     authModel,
     async (res) => {
       console.log('res', res);
       console.log('setInviteCode', setInviteCode);
+      console.log('this', this);
+      console.log('owner', owner);
       setInviteCode(null);
       setExternalId(null);
       setRefreshToken(res.refreshToken as RefreshTokenDto);
