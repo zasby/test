@@ -169,6 +169,8 @@ export default class AuthStore {
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
         console.log('authorizeWithCredentials', this.getRefreshToken);
+        console.log('getAccessToken', this.getAccessToken);
+        console.log('isAuthorized', this.isAuthorized);
         await this.refreshHelpers();
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
