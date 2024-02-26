@@ -25,7 +25,8 @@ export const authorizeWithCredentials = async ({
       console.log('res', res);
       console.log('this', this);
       console.log('owner', owner);
-      setInviteCode(null);
+      owner.setInviteCode(null);
+      // setInviteCode(null);
       setExternalId(null);
       owner.setInviteCode(null);
       setRefreshToken(res.refreshToken as RefreshTokenDto);
