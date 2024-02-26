@@ -6,7 +6,7 @@ import {
   RefreshTokenDto,
   User2CompanyDto,
 } from "../api";
-import { makeAutoObservable, toJS, observable } from "mobx";
+import { makeAutoObservable, toJS } from "mobx";
 import { api } from "../services";
 import versionCheck from "../plugins/versionCheck";
 import { AxiosError } from "axios";
@@ -15,7 +15,7 @@ import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 const localStorageHelpers = LocalStorageHelpers();
 
 export default class AuthStore {
-  root: rootStore;
+  root: RootStore;
   // Localstorage keys
   private lsKeys = {
     refreshToken: "refreshToken",
@@ -34,8 +34,7 @@ export default class AuthStore {
   private externalId: string | null;
 
   constructor(root: RootStore) {
-    makeAutoObservable(this, {}, { deep: true });
-    console.log('this', this);
+    makeAutoObservable(this);
     this.root = root;
     this.refreshToken = localStorageHelpers.get(this.lsKeys.refreshToken) ?? null;
     this.accessToken = null;
@@ -97,7 +96,7 @@ export default class AuthStore {
 
   setRefreshToken(token: RefreshTokenDto | null): void {
     this.refreshToken = token;
-    // localStorageHelpers.set(this.lsKeys.refreshToken, token);
+    localStorageHelpers.set(this.lsKeys.refreshToken, token);
   }
 
   setAccessToken(token: string | null): void {
@@ -107,29 +106,30 @@ export default class AuthStore {
 
   setInitialInfo(initialInfo: InitialInfoDto | null): void {
     this.initialInfo = initialInfo;
-    localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
-    rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
-    rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
-    rootStore.helperStore.setCompanyGlossary(
-      initialInfo?.identity?.companies?.find(
-        (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId
-      )?.company?.glossary ?? null
-    );
-    rootStore.orgchartStore.setOrgchartsList(
-      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
-    );
-    rootStore.orgchartStore.getCurrentOrgchartId != null &&
-      !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
-      rootStore.orgchartStore.setCurrentOrgchartId(
-        initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
-      );
+    console.log('setInitialInfo');
+    // localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
+    // rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
+    // rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
+    // rootStore.helperStore.setCompanyGlossary(
+    //   initialInfo?.identity?.companies?.find(
+    //     (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId
+    //   )?.company?.glossary ?? null
+    // );
+    // rootStore.orgchartStore.setOrgchartsList(
+    //   initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
+    // );
+    // rootStore.orgchartStore.getCurrentOrgchartId != null &&
+    // !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
+    // rootStore.orgchartStore.setCurrentOrgchartId(
+    //   initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
+    // );
   }
 
   setCurrentCompanyId(companyId: number | null): void {
     this.currentCompanyId = companyId;
     this.setCurrentCompany(
       rootStore.authStore.getInitialInfo?.identity?.companies?.find((u2c) => u2c.companyId == companyId)?.company ??
-        null
+      null
     );
   }
 
@@ -163,29 +163,25 @@ export default class AuthStore {
       async (res) => {
         this.setInviteCode(null);
         this.setExternalId(null);
-        console.log('authorizeWithCredentials', res);
-        this.setAccessToken(res.tokenAccess as string);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
+        this.setAccessToken(res.tokenAccess as string);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
-        console.log('authorizeWithCredentials', this.getRefreshToken);
-        console.log('getAccessToken', this.getAccessToken);
-        console.log('isAuthorized', this.isAuthorized);
-        console.log('this', this);
-        await this.refreshHelpers();
+        // await this.refreshHelpers();
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
             (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
           )?.company?.uiType ?? null
         );
         this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
-        rootStore.helperStore.setCompanyGlossary(
-          this.initialInfo?.identity?.companies?.find(
-            (u2c: User2CompanyDto) => u2c.companyId == this.initialInfo?.identity?.currentCompanyId
-          )?.company?.glossary ?? null
-        );
-        rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+        // rootStore.helperStore.setCompanyGlossary(
+        //   this.initialInfo?.identity?.companies?.find(
+        //     (u2c: User2CompanyDto) => u2c.companyId == this.initialInfo?.identity?.currentCompanyId
+        //   )?.company?.glossary ?? null
+        // );
+        // rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
         versionCheck();
+        console.log('getAccessToken', this.getAccessToken);
       },
       (error) => {
         req = error;
@@ -198,7 +194,6 @@ export default class AuthStore {
     const r = await api.auth.logInWithToken({ token: token });
     if (r == null) return false;
     // runInAction(() => {
-    console.log('authorizeWithToken');
     this.setRefreshToken(r.refreshToken as RefreshTokenDto);
     this.setAccessToken(r.tokenAccess as string);
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
@@ -237,7 +232,6 @@ export default class AuthStore {
       return false;
     }
     // runInAction(() => {
-    console.log('authorizeWithRefreshToken');
     this.setRefreshToken(r.refreshToken as RefreshTokenDto);
     this.setAccessToken(r.tokenAccess as string);
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
