@@ -35,7 +35,7 @@ export const authorizeWithCredentials = async ({
       return true;
     },
     (error) => {
-      req = error;
+      // req = error;
       return error;
     }
   );
