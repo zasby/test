@@ -1,8 +1,5 @@
-import { t } from "i18next";
-import { makeAutoObservable } from "mobx";
-
 import { RootStore } from "./rootStore";
-
+import { makeAutoObservable } from "mobx";
 // import "../locales/i18nconfig";
 import {
   AutocompleteModel,
@@ -16,7 +13,7 @@ import {
 } from "../api";
 import { api } from "../services";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
-
+import { t } from "i18next";
 import { IssueType } from "../constants/issueTypeKeys";
 
 export interface IIssueCustomField {
@@ -137,7 +134,6 @@ export default class HelperStore {
   }
 
   setCompanyGlossary(companyGlossary: CompanyGlossaryItemDto[] | null) {
-    console.log('companyGlossary', companyGlossary);
     this.companyGlossary = companyGlossary;
   }
 
@@ -146,14 +142,11 @@ export default class HelperStore {
   }
 
   async getPermissionsFromServer(): Promise<boolean> {
-    console.log('getPermissionsFromServer', api.helper);
     const r = await api.helper.permission();
-    console.log('r', r);
     if (r) {
       this.setPermissions(r);
       return true;
     } else {
-      console.log('error');
       return false;
     }
   }

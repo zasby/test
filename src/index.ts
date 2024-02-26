@@ -34,7 +34,7 @@ export { useSound } from "./hooks/useSound";
 
 export { useTheme } from "./hooks/useTheme";
 export { useThrottle } from "./hooks/useThrottle";
-export { rootStore, RootStore } from "./stores1/rootStore";
+export { rootStore, RootStore } from "./stores/rootStore";
 
 
 // context

@@ -2,7 +2,7 @@ import { RootStore } from "./rootStore";
 import { makeAutoObservable, runInAction } from "mobx";
 import "../locales/i18nconfig";
 import { ImgsViewerImageType } from "react-images-viewer";
-import { FilesViewerFileType } from "../helpers/types/FilesViewer";
+import { FilesViewerFileType } from "../components/service/fileViewer/FileViewer";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 
 type TVideosState = {

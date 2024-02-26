@@ -1,4 +1,3 @@
-import { makeAutoObservable, toJS } from "mobx";
 import { rootStore, RootStore } from "./rootStore";
 import {
   AuthenticationStrategyByCredentialsModel,
@@ -7,17 +6,16 @@ import {
   RefreshTokenDto,
   User2CompanyDto,
 } from "../api";
-
+import { makeAutoObservable, toJS } from "mobx";
 import { api } from "../services";
 import versionCheck from "../plugins/versionCheck";
 import { AxiosError } from "axios";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
-import Interceptors from "../plugins/interceptors";
 
 const localStorageHelpers = LocalStorageHelpers();
 
 export default class AuthStore {
-  root: RootStore;
+  root: rootStore;
   // Localstorage keys
   private lsKeys = {
     refreshToken: "refreshToken",
@@ -37,6 +35,7 @@ export default class AuthStore {
 
   constructor(root: RootStore) {
     makeAutoObservable(this);
+    console.log('makeAutoObservable', makeAutoObservable);
     this.root = root;
     this.refreshToken = localStorageHelpers.get(this.lsKeys.refreshToken) ?? null;
     this.accessToken = null;
@@ -69,10 +68,6 @@ export default class AuthStore {
   }
 
   get isAuthorized(): boolean {
-    console.log('this.accessToken', this.accessToken);
-    console.log('this.refreshToken', this.refreshToken);
-    console.log('toJS(this.accessToken)', toJS(this.accessToken));
-    console.log('toJS(this.refreshToken)', toJS(this.refreshToken));
     return toJS(this.accessToken) != null && toJS(this.refreshToken) != null;
   }
 
@@ -124,17 +119,17 @@ export default class AuthStore {
       initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
     );
     rootStore.orgchartStore.getCurrentOrgchartId != null &&
-    !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
-    rootStore.orgchartStore.setCurrentOrgchartId(
-      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
-    );
+      !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
+      rootStore.orgchartStore.setCurrentOrgchartId(
+        initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
+      );
   }
 
   setCurrentCompanyId(companyId: number | null): void {
     this.currentCompanyId = companyId;
     this.setCurrentCompany(
       rootStore.authStore.getInitialInfo?.identity?.companies?.find((u2c) => u2c.companyId == companyId)?.company ??
-      null
+        null
     );
   }
 
@@ -168,17 +163,12 @@ export default class AuthStore {
       async (res) => {
         this.setInviteCode(null);
         this.setExternalId(null);
-        console.log('res', res);
-        this.setRefreshToken(res.refreshToken as RefreshTokenDto);
+        console.log('authorizeWithCredentials');
         this.setAccessToken(res.tokenAccess as string);
-        console.log('isAuthorized', this.isAuthorized);
+        this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
-        Interceptors.setup(rootStore, {accessToken: res.tokenAccess});
-        console.log('123====');
         await this.refreshHelpers();
-        console.log('456====', this);
-        console.log("authStore.isAuthorized", this.isAuthorized);
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
             (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
@@ -204,6 +194,7 @@ export default class AuthStore {
     const r = await api.auth.logInWithToken({ token: token });
     if (r == null) return false;
     // runInAction(() => {
+    console.log('authorizeWithToken');
     this.setRefreshToken(r.refreshToken as RefreshTokenDto);
     this.setAccessToken(r.tokenAccess as string);
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
@@ -242,6 +233,7 @@ export default class AuthStore {
       return false;
     }
     // runInAction(() => {
+    console.log('authorizeWithRefreshToken');
     this.setRefreshToken(r.refreshToken as RefreshTokenDto);
     this.setAccessToken(r.tokenAccess as string);
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
@@ -330,7 +322,6 @@ export default class AuthStore {
   }
 
   async refreshHelpers(): Promise<void> {
-    console.log('refreshHelpers')
     await this.root.helperStore.getPermissionsFromServer();
     await this.root.helperStore.getTimeZonesFromServer();
     await this.root.helperStore.getColorsFromServer();

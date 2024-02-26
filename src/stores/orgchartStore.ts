@@ -1,11 +1,9 @@
-import i18n from "i18next";
-import { makeAutoObservable, toJS } from "mobx";
-
 import { RootStore } from "./rootStore";
+import { makeAutoObservable, toJS } from "mobx";
 import "../locales/i18nconfig";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 import { OrgchartDto } from "../api";
-
+import i18n from "i18next";
 
 const localStorageHelpers = LocalStorageHelpers();
 
@@ -39,7 +37,6 @@ export default class OrgchartStore {
       this.currentOrgchart?.resultName && this.currentOrgchart.resultName.trim().length > 0
         ? this.currentOrgchart.resultName
         : t("ui:placeholder.glossary.r");
-    console.log('his.currentOrgchartResultName', this.currentOrgchartResultName);
   }
 
   get getCurrentOrgchartId(): number | null | undefined {
@@ -80,7 +77,6 @@ export default class OrgchartStore {
       this.currentOrgchart?.resultName && this.currentOrgchart.resultName.trim().length > 0
         ? this.currentOrgchart.resultName
         : t("ui:placeholder.glossary.r");
-    console.log('this.currentOrgchartResultName', this.currentOrgchartResultName);
   }
 
   getOrgchartResultNameByOrgchartId(orgchartId: number) {

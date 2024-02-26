@@ -17,7 +17,7 @@ interface IPagingOptions {
   pageIsLast: boolean;
 }
 
-export default class RegulationStore {
+export class RegulationStore {
   root: RootStore;
 
   private sections: SectionDto[];
