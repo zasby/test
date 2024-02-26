@@ -15,7 +15,7 @@ import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 const localStorageHelpers = LocalStorageHelpers();
 
 export default class AuthStore {
-  root: RootStore;
+  root: rootStore;
   // Localstorage keys
   private lsKeys = {
     refreshToken: "refreshToken",
