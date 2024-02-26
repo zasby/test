@@ -35,7 +35,6 @@ export default class AuthStore {
 
   constructor(root: RootStore) {
     makeAutoObservable(this);
-    console.log('makeAutoObservable', makeAutoObservable(this));
     console.log('this', this);
     this.root = root;
     this.refreshToken = localStorageHelpers.get(this.lsKeys.refreshToken) ?? null;
