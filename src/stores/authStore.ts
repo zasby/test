@@ -35,7 +35,8 @@ export default class AuthStore {
 
   constructor(root: RootStore) {
     makeAutoObservable(this);
-    console.log('makeAutoObservable', makeAutoObservable);
+    console.log('makeAutoObservable', makeAutoObservable(this));
+    console.log('this', this);
     this.root = root;
     this.refreshToken = localStorageHelpers.get(this.lsKeys.refreshToken) ?? null;
     this.accessToken = null;
@@ -168,6 +169,7 @@ export default class AuthStore {
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
+        console.log('authorizeWithCredentials', this.getRefreshToken);
         await this.refreshHelpers();
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
