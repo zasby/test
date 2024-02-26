@@ -1,3 +1,5 @@
+import { api } from "../services";
+
 export const authorizeWithCredentials = async ({
   authModel,
   setInviteCode,
