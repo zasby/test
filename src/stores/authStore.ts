@@ -24,7 +24,7 @@ export default class AuthStore {
     externalId: "externalId",
   };
   private refreshToken: RefreshTokenDto | null;
-  @observable private accessToken: string | null;
+  private accessToken: string | null;
   private initialInfo: InitialInfoDto | null;
   private currentCompany: CompanyDto | null;
   private currentCompanyId: number | null;
@@ -38,7 +38,7 @@ export default class AuthStore {
     console.log('this', this);
     this.root = root;
     this.refreshToken = localStorageHelpers.get(this.lsKeys.refreshToken) ?? null;
-    this.accessToken = null;
+    @observable this.accessToken = null;
     this.initialInfo = localStorageHelpers.get(this.lsKeys.initialInfo) ?? null;
     this.currentCompanyId = this.initialInfo?.identity?.currentCompanyId ?? null;
 
