@@ -21,6 +21,8 @@ export const authorizeWithCredentials = async ({
   await api.auth.logIn(
     authModel,
     async (res) => {
+      console.log('res', res);
+      console.log('setInviteCode', setInviteCode);
       setInviteCode(null);
       setExternalId(null);
       setRefreshToken(res.refreshToken as RefreshTokenDto);
