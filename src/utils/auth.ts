@@ -11,19 +11,19 @@ import { AxiosError } from "axios";
 
 export const authorizeWithCredentials = async ({
   authModel,
-  this,
+  owner,
 }: any) => {
   await api.auth.logIn(
     authModel,
     async (res) => {
-      console.log('this', this);
-      this.setInviteCode(null);
+      console.log('this', owner);
+      owner.setInviteCode(null);
       // setInviteCode(null);
-      this.setExternalId(null);
-      this.setRefreshToken(res.refreshToken as RefreshTokenDto);
-      this.setAccessToken(res.tokenAccess as string);
-      this.setInitialInfo(res.initialInfo as InitialInfoDto);
-      this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
+      owner.setExternalId(null);
+      owner.setRefreshToken(res.refreshToken as RefreshTokenDto);
+      owner.setAccessToken(res.tokenAccess as string);
+      owner.setInitialInfo(res.initialInfo as InitialInfoDto);
+      owner.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
       // await this.refreshHelpers();
       // this.setCurrentCompanyUiType(
       //   res.initialInfo?.identity?.companies?.find(
