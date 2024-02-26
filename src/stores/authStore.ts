@@ -287,7 +287,7 @@ export default class AuthStore {
       return false;
     }
     //rootStore.communicationsStore.resetStore();
-    rootStore.regulationStore.resetStore();
+    // rootStore.regulationStore.resetStore();
     // Here we can to reset the sockets
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
     this.setCurrentCompanyUiType(
@@ -299,9 +299,9 @@ export default class AuthStore {
     this.setAccessToken(r.tokenAccess as string);
     this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
     // rootStore.appStore.setLoading(false);
-    rootStore.appStore.setCanDrawMainLayout(true);
-    rootStore.helperStore.setCompanyGlossary(null);
-    rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+    // rootStore.appStore.setCanDrawMainLayout(true);
+    // rootStore.helperStore.setCompanyGlossary(null);
+    // rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
     return true;
   }
 
@@ -310,8 +310,8 @@ export default class AuthStore {
     this.setCurrentCompanyUiType(null);
     this.setInitialInfo(null);
     //rootStore.communicationsStore.resetStore();
-    rootStore.regulationStore.resetStore();
-    rootStore.helperStore.setCompanyGlossary(null);
+    // rootStore.regulationStore.resetStore();
+    // rootStore.helperStore.setCompanyGlossary(null);
     this.setRefreshToken(null);
     this.setAccessToken(null);
     this.setInviteCode(null);
