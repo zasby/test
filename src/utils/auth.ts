@@ -23,7 +23,6 @@ export const authorizeWithCredentials = async ({
     authModel,
     async (res) => {
       console.log('res', res);
-      console.log('setInviteCode', setInviteCode);
       console.log('this', this);
       console.log('owner', owner);
       setInviteCode(null);
