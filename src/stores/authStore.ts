@@ -163,7 +163,7 @@ export default class AuthStore {
       async (res) => {
         this.setInviteCode(null);
         this.setExternalId(null);
-        console.log('authorizeWithCredentials');
+        console.log('authorizeWithCredentials', res);
         this.setAccessToken(res.tokenAccess as string);
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
@@ -171,6 +171,7 @@ export default class AuthStore {
         console.log('authorizeWithCredentials', this.getRefreshToken);
         console.log('getAccessToken', this.getAccessToken);
         console.log('isAuthorized', this.isAuthorized);
+        console.log('this', this);
         await this.refreshHelpers();
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
