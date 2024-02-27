@@ -1,6 +1,6 @@
 import { RootStore } from "./rootStore";
 import { makeAutoObservable } from "mobx";
-import { CommunicationModeKey } from "../helpers/types/keys";
+import { CommunicationModeKey } from "../types/keys";
 
 export default class CommunicationStore {
   root: RootStore;

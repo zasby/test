@@ -3,18 +3,13 @@ import { IssueDto, PagingOptions } from "../api";
 import { PagingModel } from "../api/types";
 import { IApiControllerGet } from "../api/interfaces/iApiControllerGet";
 import { api } from "../services";
+import { PagingInfo } from "../types";
 
 type PagedRequest<T> = (
   page: number,
   params?: { [key: string]: string | number | boolean | null }
 ) => Promise<PagingModel<T>>;
 
-export type PagingInfo = {
-  page: number;
-  isLoading: boolean;
-  isDone: boolean;
-  totalItems?: number;
-};
 
 const initialPagingInfo = (page: number): PagingInfo => ({ page, isLoading: false, isDone: false } as PagingInfo);
 
