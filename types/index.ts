@@ -1,7 +1,9 @@
 import {IBoardRelationSwitch, RelationsTypes} from "./BoardRelationSwitch.interface";
 
 export type { PagingInfo } from "./PagingInfo";
-export type { IUseMediaRecorder, TMediaRecorderErrorType, TMediaRecorderStatus } from "./MediaRecorder";
+export type { IUseMediaRecorder, TMediaRecorderStatus } from "./MediaRecorder";
+export { TMediaRecorderErrorType } from "./MediaRecorder";
+
 export type { NotificationType } from ".";
 export type { IUseTimer } from "./Timer"
 export type { AssignableRef } from "./AssignableRef";

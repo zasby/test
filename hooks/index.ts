@@ -28,7 +28,7 @@ export { useEventCallback } from "./useEventCallback";
 export { useEventListener } from "./useEventListener";
 export { useLocalStorage } from "./useLocalStorage";
 export { useStopwatch } from "./useStopwatch";
-export { useMediaRecorder, TMediaRecorderStatus } from "./useMediaRecorder";
+export { useMediaRecorder } from "./useMediaRecorder";
 export { useOnClickOutside } from "./useOnClickOutside";
 export { useElementSize } from "./useElementSize";
 export { useKeyPress } from "./useKeyPress";
