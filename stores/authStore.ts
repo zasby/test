@@ -8,7 +8,7 @@ import {
 } from "../api";
 import { makeAutoObservable, toJS } from "mobx";
 import { api } from "../services";
-// import versionCheck from "../plugins/versionCheck";
+import versionCheck from "../plugins/versionCheck";
 import { AxiosError } from "axios";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 
@@ -106,23 +106,22 @@ export default class AuthStore {
 
   setInitialInfo(initialInfo: InitialInfoDto | null): void {
     this.initialInfo = initialInfo;
-    console.log('setInitialInfo');
-    // localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
-    // rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
-    // rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
-    // rootStore.helperStore.setCompanyGlossary(
-    //   initialInfo?.identity?.companies?.find(
-    //     (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId
-    //   )?.company?.glossary ?? null
-    // );
-    // rootStore.orgchartStore.setOrgchartsList(
-    //   initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
-    // );
-    // rootStore.orgchartStore.getCurrentOrgchartId != null &&
-    // !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
-    // rootStore.orgchartStore.setCurrentOrgchartId(
-    //   initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
-    // );
+    localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
+    rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
+    rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);
+    rootStore.helperStore.setCompanyGlossary(
+      initialInfo?.identity?.companies?.find(
+        (u2c: User2CompanyDto) => u2c.companyId == initialInfo?.identity?.currentCompanyId
+      )?.company?.glossary ?? null
+    );
+    rootStore.orgchartStore.setOrgchartsList(
+      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
+    );
+    rootStore.orgchartStore.getCurrentOrgchartId != null &&
+    !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
+    rootStore.orgchartStore.setCurrentOrgchartId(
+      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
+    );
   }
 
   setCurrentCompanyId(companyId: number | null): void {
@@ -166,25 +165,21 @@ export default class AuthStore {
         this.setRefreshToken(res.refreshToken as RefreshTokenDto);
         this.setAccessToken(res.tokenAccess as string);
         this.setInitialInfo(res.initialInfo as InitialInfoDto);
-        console.log('getAccessToken', this.getAccessToken);
-        console.log('getRefreshToken', this.getRefreshToken);
-
         this.setCurrentCompanyId(res.initialInfo?.identity?.currentCompanyId ?? null);
-        // await this.refreshHelpers();
+        await this.refreshHelpers();
         this.setCurrentCompanyUiType(
           res.initialInfo?.identity?.companies?.find(
             (c: User2CompanyDto) => c.companyId == this.initialInfo?.identity?.currentCompanyId
           )?.company?.uiType ?? null
         );
         this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
-        // rootStore.helperStore.setCompanyGlossary(
-        //   this.initialInfo?.identity?.companies?.find(
-        //     (u2c: User2CompanyDto) => u2c.companyId == this.initialInfo?.identity?.currentCompanyId
-        //   )?.company?.glossary ?? null
-        // );
-        // rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-        // versionCheck();
-        console.log('getAccessToken', this.getAccessToken);
+        rootStore.helperStore.setCompanyGlossary(
+          this.initialInfo?.identity?.companies?.find(
+            (u2c: User2CompanyDto) => u2c.companyId == this.initialInfo?.identity?.currentCompanyId
+          )?.company?.glossary ?? null
+        );
+        rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+        versionCheck();
       },
       (error) => {
         req = error;
@@ -214,7 +209,7 @@ export default class AuthStore {
       )?.company?.glossary ?? null
     );
     rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-    // versionCheck();
+    versionCheck();
     // });
 
     return true;
@@ -247,7 +242,7 @@ export default class AuthStore {
     this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
     this.refreshHelpers();
     rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
-    // versionCheck();
+    versionCheck();
     // });
     return true;
   }
@@ -290,7 +285,7 @@ export default class AuthStore {
       return false;
     }
     //rootStore.communicationsStore.resetStore();
-    // rootStore.regulationStore.resetStore();
+    rootStore.regulationStore.resetStore();
     // Here we can to reset the sockets
     this.setInitialInfo(r.initialInfo as InitialInfoDto);
     this.setCurrentCompanyUiType(
@@ -302,9 +297,9 @@ export default class AuthStore {
     this.setAccessToken(r.tokenAccess as string);
     this.setCurrentBoardId((this.initialInfo?.boards ?? [])[0]?.id || null);
     // rootStore.appStore.setLoading(false);
-    // rootStore.appStore.setCanDrawMainLayout(true);
-    // rootStore.helperStore.setCompanyGlossary(null);
-    // rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
+    rootStore.appStore.setCanDrawMainLayout(true);
+    rootStore.helperStore.setCompanyGlossary(null);
+    rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
     return true;
   }
 
@@ -313,8 +308,8 @@ export default class AuthStore {
     this.setCurrentCompanyUiType(null);
     this.setInitialInfo(null);
     //rootStore.communicationsStore.resetStore();
-    // rootStore.regulationStore.resetStore();
-    // rootStore.helperStore.setCompanyGlossary(null);
+    rootStore.regulationStore.resetStore();
+    rootStore.helperStore.setCompanyGlossary(null);
     this.setRefreshToken(null);
     this.setAccessToken(null);
     this.setInviteCode(null);
