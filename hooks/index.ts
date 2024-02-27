@@ -34,3 +34,4 @@ export { useElementSize } from "./useElementSize";
 export { useKeyPress } from "./useKeyPress";
 export { useForkedRef } from "./useForkedRef";
 export { useIsFirstRender } from "./useIsFirstRender";
+export { useAuth } from "./loginForm/useAuth";

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { useRootStore } from "../../index";
+import { useRootStore } from "../useRootStore";
 
 import { useLocation, useNavigate } from "react-router-dom";
 // import { useRequestHandler } from "../../hooks/useRequestHandler";
