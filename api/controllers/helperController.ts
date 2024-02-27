@@ -5,7 +5,7 @@ import { CultureDto } from "../models/CultureDto";
 import { MetaInfo } from "../models/MetaInfo";
 import { IssueCustomFieldDto } from "../models/IssueCustomFieldDto";
 import { CompanyModuleTypeDto, CurrencyType, TimeZoneDto, UserContactTypeDto } from "..";
-import { IssueType, IssueTypeKeys } from "../../constants/issueTypeKeys";
+import { IssueType, IssueTypeKeys } from "../../types";
 
 export class HelperController extends ApiControllerBase {
   constructor(cl: AxiosInstance, v: string = "v1") {

@@ -14,7 +14,7 @@ import {
 import { api } from "../services";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 import { t } from "i18next";
-import { IssueType } from "../constants/issueTypeKeys";
+import { IssueType } from "../types";
 
 export interface IIssueCustomField {
   type: IssueType | null;
