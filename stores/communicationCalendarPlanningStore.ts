@@ -1,14 +1,8 @@
 import { RootStore } from "./rootStore";
 import { makeAutoObservable } from "mobx";
 import { makePersistable } from "mobx-persist-store";
+import { CalendarPlanningCalendarViewType } from "../types";
 
-export enum CalendarPlanningCalendarViewType {
-  DAY = "day",
-  WEEK = "week",
-  REPORTING_WEEK = "reportingWeek",
-  MONTH = "month",
-  YEAR = "year",
-}
 
 export default class CommunicationCalendarPlanningStore {
   root: RootStore;

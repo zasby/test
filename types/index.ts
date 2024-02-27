@@ -1,4 +1,5 @@
 import {IBoardRelationSwitch, RelationsTypes} from "./BoardRelationSwitch.interface";
+import {CalendarPlanningCalendarViewType} from "./CalendarPlanning";
 
 export type { PagingInfo } from "./PagingInfo";
 export type { IUseMediaRecorder, TMediaRecorderStatus } from "./MediaRecorder";
@@ -27,3 +28,5 @@ export type { RelationsTypes, IBoardRelationSwitch } from "./BoardRelationSwitch
 export type { OrgchartContextDialogTypes, IOrgchartContext } from "./OrgchartContext";
 export type { IDriverRTCCallsContext } from "./DriverRTCCallsContext";
 export type { IGlobalAuthorizedContext } from "./GlobalAuthorizedContext.interface";
+export type { IUseTimer } from "./UseTimer.interface";
+export { CalendarPlanningCalendarViewType } from "./CalendarPlanning";
