@@ -1,4 +1,4 @@
-// export { useDateHelpers } from "./useDateHelpers";
+export { useDateHelpers } from "./useDateHelpers";
 export { LocalStorageHelpers } from "./localStorageHelpers";
 export { useRootStore } from "./useRootStore";
 export { useApi } from "./useApi";
