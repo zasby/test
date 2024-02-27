@@ -1,0 +1,507 @@
+[
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Using a “multi-account” you can add multiple org charts to one company. Thus, all tasks, employees, policies, and metrics become available using a single account.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Creation of a new org chart",
+        "fontSize": "14pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "Click on the org chart name in module “Org chart” to open a drop-down menu and select “Create orgchart”.",
+                "fontSize": "11.5pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "rgb(255, 255, 255)"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "indent": 1,
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "type": "img",
+                "url": "https://lh3.googleusercontent.com/UbTXlAxb2y0riJGz55qnsb3AlHWD0CTHGuu4tMcl9DfA61UjwIOpFa3n38wzZsks6EuFcYrCQm1ahHYDN2RuAelpEfcdKPjXl3peVaqZw-Vr8WKI-vtdgHyXeokUzOVnTbgnBSbEXMmoljZZyOj8yQlIiwHh5pWZvugWS08zn1DBnppypp10VElgp5Eq",
+                "children": [
+                  {
+                    "text": "",
+                    "fontSize": "11.5pt",
+                    "color": "rgb(0, 0, 0)",
+                    "fontFamily": "Arial",
+                    "backgroundColor": "rgb(255, 255, 255)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "In the window that appears, enter the org chart settings. ",
+                "fontSize": "11.5pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "rgb(255, 255, 255)"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "indent": 1,
+            "lineHeight": "1.38",
+            "align": "center",
+            "children": [
+              {
+                "type": "img",
+                "url": "https://lh6.googleusercontent.com/wc7ssYlvhGsn-C1a634lVtNx6TeLVyp1Q2dtg3A0eth4wKB4cCn7Iim6ynqfqRw9mmBoDGbgoKUwPcWjovqdtEatWfHr3m1CeeSO0qVen012g5Oo46K1vfdBU4SWetGumR_wuPCRGKBfjJlRBevgRI3RXoTMoryc8rDM9u7e74_Vxq3g9dNlY7QXai3I",
+                "children": [
+                  {
+                    "text": "",
+                    "fontSize": "11.5pt",
+                    "color": "rgb(0, 0, 0)",
+                    "fontFamily": "Arial",
+                    "backgroundColor": "rgb(255, 255, 255)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "The field “Name” is used for entering the org chart name.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "The field “Description” is used for entering the org chart description.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "The field “Result” is used for entering org chart usable terminology. For example: VFP (Valuable Final Product).",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "You may select any color to identify the org chart. The selected org chart color will help you to navigate the system faster.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "Click on the “Create” button on the left corner of the window to save the new org chart.",
+        "fontSize": "11.5pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/xo727GNxHCypL0QeZJ1yHKRMn6djim_qS3RIm2Ow1JJ22EfzhlGAhlaGB3JhDvZmcFTDzg1rYkvAXXUMe1Zj13_mK-pPBlOFn7rF3b95iaqRo93QgB0EuLZv6iEaUO8onAV3ufrrxvs9fggQGG1cRs2Hq2ex90njSWcWPcX4qRL_TBPwWtKQW8QSrfyH",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11.5pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "rgb(255, 255, 255)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "It is important to click on the three dots at the right top corner and select the desired option from the drop-down menu for editing or deleting the org chart. If the “Edit orgchart” option is selected, the window similar to that enabled when creating the org chart will open. If the “Delete orgchart” option is selected, the system will ask you to confirm since this option is not subject to cancellation.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/XzdmgaEPkJMPK1fu-DVJ6kOGDYCnvl-AvIcLz-iSHb0T_NAcIgUrtewIofMH6SOLgyu2E_k6unwNS7l543XXE4xw9Uw_-aET07RtvIuvs1qamwxzKmU4pFIhIQ1slu4spqD4XP8jk0K_p2sw1wjftD0KQf4GxM8Jk3AAHZ4maXAb_l0mBQ51IKAMxVA_",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "Click on the org chart name and select the required one from the drop-down menu for switching between org charts.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/8PZD1rVfi1lmbttoai5waJZydXGlI90qQIAugkLm18WVHKnQhS5QyP4s3ddggs9fFk2EnWWsudv8vRKyt8zyeb0ONYMSym6Z1V9YmP--JHO9anN90I6axtMZ28MGp5PNoeh3lMsE4b9fBzuZhb-uc0EVFXukCTWMpHWJCbMWVE5FH0JVlQA2ce4_n8hS",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "The multi-account appears when some changes have been made in other sections:",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "text": "There is a filter which appears in the section “Employees” that allows the selection of employees in the org chart displayed.",
+                "fontSize": "11pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "transparent"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "indent": 1,
+            "lineHeight": "1.38",
+            "children": [
+              {
+                "type": "img",
+                "url": "https://lh6.googleusercontent.com/9AfjOKL5Gm7DwkXGLltmgjMWLclgEvO2PdUwatEHucJK2reen5C0I_9ez2xwNTOX0hypUHMO3n_4gkKL-LQlSgqvSpUmDZIqg0ZsyrJaVOlhR99121a_ZCAjWZ68HtWCBYKz3xZMRT-V0nThIq4MnJ-ehEIAVTGSUFuOvfKPsh6CcWRoJbum0LCI0PZl",
+                "children": [
+                  {
+                    "text": "",
+                    "fontSize": "11pt",
+                    "color": "rgb(0, 0, 0)",
+                    "fontFamily": "Arial",
+                    "backgroundColor": "transparent"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "lineHeight": "1.38",
+            "align": "justify",
+            "children": [
+              {
+                "text": "On hovering over the circle near the option name, a command prompt will appear to show the org chart where the employee belongs to.",
+                "fontSize": "11pt",
+                "color": "rgb(0, 0, 0)",
+                "fontFamily": "Arial",
+                "backgroundColor": "transparent"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "lineHeight": "1.38",
+            "align": "justify",
+            "children": [
+              {
+                "type": "img",
+                "url": "https://lh6.googleusercontent.com/TGX9puT0XQDuC9MwFjOyGcUvWX1yD2Ue2y4072eJvCsdpdTF286RffmmFu7HhZlhqb9o5hvaJoLObUFITWw6AmDc91hUKuvaOabDLlfceC9NIuzWNTLpmrKkSlmeY591S9D16Tb1DGnkfwMITE_Dg9ofKCCDHIVjL_XjBne2M1uplPk02ZVx5I8Uo3Ni",
+                "children": [
+                  {
+                    "text": "",
+                    "fontSize": "11pt",
+                    "color": "rgb(0, 0, 0)",
+                    "fontFamily": "Arial",
+                    "backgroundColor": "transparent"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "lic",
+                "lineHeight": "1.38",
+                "children": [
+                  {
+                    "text": "There is also an org chart filter added to the “Schedule” section.",
+                    "fontSize": "11pt",
+                    "color": "rgb(0, 0, 0)",
+                    "fontFamily": "Arial",
+                    "backgroundColor": "transparent"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "lineHeight": "1.38",
+                "align": "center",
+                "children": [
+                  {
+                    "type": "img",
+                    "url": "https://lh3.googleusercontent.com/lcg4Zo2yd2qdVbNnV13IFQovpTktaEgLQZ10hSo6t9esOg4bifusewNOAsBjChE-0qQ0IFstz7vPW01EHbDrNPt_lqM2BAZwKd-Ffs7W7hJJQhChwmh3yMbiPN0G-9crBMVLT8pvS9glKxKqQJscDIx0UOJhc5OBnmxCLyGa6N402nY-v6xAU34-3xVP",
+                    "children": [
+                      {
+                        "text": "",
+                        "fontSize": "11pt",
+                        "color": "rgb(0, 0, 0)",
+                        "fontFamily": "Arial",
+                        "backgroundColor": "transparent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "lic",
+                "lineHeight": "1.38",
+                "children": [
+                  {
+                    "text": "Split org charts are visualized in the section “Communications”. The block containing company target tasks may be collapsed or expanded optionally. ",
+                    "fontSize": "11pt",
+                    "color": "rgb(0, 0, 0)",
+                    "fontFamily": "Arial",
+                    "backgroundColor": "transparent"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "lineHeight": "1.38",
+                "align": "justify",
+                "children": [
+                  {
+                    "type": "img",
+                    "url": "https://lh6.googleusercontent.com/eg9iewSri8t6KV2vvsdLHLyqW791Ss6UwZX9qcr0VT1yNlpo_tLEhW0PJCtFG_lv5gP4S3ZpNsaTnm9_oC68T2f77ycBFnurAQcm_N3N6grjWOqlvl6DC3Fkvl5skEie7DHVLOzDzgULTuS8XvA90nDYrYDnjwzKgCYugRoqKVtyMhdqz0Yu7A2fmzh1",
+                    "children": [
+                      {
+                        "text": "",
+                        "fontSize": "11pt",
+                        "color": "rgb(0, 0, 0)",
+                        "fontFamily": "Arial",
+                        "backgroundColor": "transparent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "text": "There are a number of tasks that can be visualized on the right of the name, currently expected or in progress.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "justify",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/QenFMU9zID0iuyDkB_JrTbVrLOe8ZE5o_OTHa36WZsLMKQdkAhW5vj9O1_senMcesHIgEMUgXszBa6CRwCCtj7Jn7-s2taGbOmtrNqVPR4wBdhlADqizVorE7Rp_WrKxAyYGKrWwTjL6222FFj0DC2WSrM2uVkiYRS5JLNstZfFnGUHL2q0XhrIawK-F",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "children": [
+      {
+        "text": "A company selection field appears which can be used for creating tasks, dashboards and policies.",
+        "fontSize": "11pt",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "backgroundColor": "transparent"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "lineHeight": "1.38",
+    "align": "center",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/nKhMy9h7ZUPy_HhrVHoxGaxmTbEm8TyUYH-p0D5VCtbOMgU_xA6wqCglJmCkyijDHHIu2Dm9HmouFRBLOTGkdwnLm8gn_9yUNyHON5CYmL-mF6gqIIYQlxDtxTiFsqcUpbXZnGnXtX9rKBf9cXREkUTwmXUnu6Gy5543eJVGbNWAUM_gcdKA7DjsIeDC",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "color": "rgb(0, 0, 0)",
+            "fontFamily": "Arial",
+            "backgroundColor": "transparent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]

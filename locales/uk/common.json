@@ -1,0 +1,403 @@
+{
+  "page_title": {
+    "authorization": "Авторизація",
+    "registration": "Реєстрація",
+    "password_recovery": "Відновлення пароля",
+    "orgchart": "Оргструктура",
+    "employees": "Співробітники",
+    "employee": "Співробітник",
+    "employee_edit": "Редагування співробітника",
+    "settings": "Налаштування",
+    "settings_common": "Загальні налаштування",
+    "settings_profile": "Налаштування профілю",
+    "settings_company": "Налаштування компанії",
+    "settings_modules": "Налаштування модулів",
+    "chart": "Графіки",
+    "communication": "Коммуникації",
+    "restore_password": "Відновлення пароля",
+    "sandbox": "Пісочниця",
+    "driver": "Драйвер",
+    "driver_admin": "Адміністратор драйверів",
+    "driver_pre": "Драйвер",
+    "companies_management": "Керування компаніями",
+    "training": "Навчання",
+    "feedback": "Пропозиції щодо доопрацювання",
+    "report_driver": "Звіти по драйверам",
+    "report_communication": "Звіти з комунікацій",
+    "reports": "Звіти",
+    "reports_by_communication": "Звіти по комуникаціям",
+    "reports_by_driver": "Звіти по драйверам",
+    "driver_user": "Картка співробітника",
+    "schedule": "Графік роботи",
+    "support_center": "Центр підтримки",
+    "page_404": "Сторінка не знайдена",
+    "no_pages": "Немає доступних модулей",
+    "groups_companies": "Групи компаній"
+  },
+  "indicator": {
+    "passed": "Пройдено",
+    "not_passed": "Не пройдено"
+  },
+  "driver_card": {
+    "writes_count": "Написали в мессенджери",
+    "calls_count": "Подзвонили",
+    "fixed_violations": "Оброблено порушень",
+    "process_avg_time": "Середній час обробки",
+    "overall_time_saved": "Заощаджено часу"
+  },
+  "unit_of_measurement": {
+    "times": "раз",
+    "minutes": "хвилин",
+    "hours": "годин"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "Перемістити функцію",
+      "add_function": "Додати під функцію",
+      "edit_function": "Редагувати функцію",
+      "sort_functions": "Сортувати підфункції",
+      "open_control": "Відкрити панель функції",
+      "delete_function": "Видалити функцію"    },
+    "top_bar_profile": {
+      "profile_page": "Профіль",
+      "profile_settings": "Налаштування",
+      "update_note": "Нотатки оновлень",
+      "logout": "Вихід",
+      "cookie": "Політика конфіденційності та файли cookie",
+      "feedback": "Зворотній зв’язок"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "Управління компаніями"
+    },
+    "executor_select": {
+      "admins_of_function": "Керівники функції",
+      "executors_of_function": "Виконавці функції",
+      "all_admins": "Всі керівники",
+      "all": "Всі"
+    },
+    "period_select": {
+      "every_day": "День",
+      "every_week_at_day": "Тиждень",
+      "every_month_at_day": "Місяць",
+      "every_n_days": "N днів"
+    },
+    "deadline_select": {
+      "after_time": "Через термін",
+      "until_day": "До дня тижня"
+    },
+    "company_card": {
+      "copy_code": "Скопіювати код",
+      "copy_link": "Скопіювати посилання",
+      "settings": "Налаштування",
+      "statistics": "Статистика щодо співробітників",
+      "delete": "Видалити компанію",
+      "pause": "Призупинити компанію",
+      "switch": "Переключитися на компанию"
+    },
+    "employee_card": {
+      "open": "Відкрити профіль",
+      "edit": "Редагувати профіль",
+      "delete": "Видалити користувача"
+    },
+    "left_drawer_state": {
+      "always_expanded": "Завжди розгорнуто",
+      "always_collapsed": "Завжди згорнуто",
+      "auto_collapsed": "Згортати автоматично",
+      "manual_expanded": "Розгортати при наведені"
+    },
+    "manage_companies": {
+      "board_reset": "Скинути правила статусів"
+    },
+    "metric_settings_dropdown": {
+      "settings": "Налаштування",
+      "delete": "Видалити показник",
+      "data": "Дані метрики"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "Понеділок",
+      "tuesday": "Вівторок",
+      "wednesday": "Середа",
+      "thursday": "Четвер",
+      "friday": "П’ятниця",
+      "saturday": "Субота",
+      "sunday": "Неділя"
+    },
+    "month": {
+      "january": "Січень",
+      "february": "Лютий",
+      "march": "Березень",
+      "april": "Квітень",
+      "may": "Травень",
+      "june": "Червень",
+      "july": "Липень",
+      "august": "Серпень",
+      "september": "Вересень",
+      "october": "Жовтень",
+      "november": "Листопад",
+      "december": "Грудень"
+    }
+  },
+  "misc": {
+    "working_day": "Робочий день",
+    "weekend": "Вихідний",
+    "vacation": "Відпустка",
+    "medical": "Лікарняний",
+    "collapse_functions": "Згорнути всі функції",
+    "expand_functions": "Розгорнути всі функції",
+    "display_by_employee_timezone": "Використати часовий пояс співробітника",
+    "all_recurring_tasks": "Всі повторювані задачі",
+    "delete_orgchart": "Видалити оргструктуру",
+    "print_orgchart": "Роздрукувати оргструктуру",
+    "total_companies": "Всього компаній",
+    "total_employees": "Всього співробітників",
+    "support_chat": "Чат підтримки",
+    "suggest_revision": "Пропозиції  щодо доопрацювання",
+    "version": "Версія",
+    "new_company": "Нова компанія",
+    "not_specified": "Не вказаний",
+    "no_selected": "Не вибрано",
+    "filter": "Фільтр",
+    "sort": "Сортування",
+    "no_name": "No name",
+    "card_menu": {
+      "add_role": "Додати підфункцію",
+      "edit": "Редактувати підфункцію",
+      "manage": "Відкрити функцію",
+      "sort": "Сортувати підфункцію",
+      "transfer": "Перемістити функцію",
+      "delete": "Видалити функцію",
+      "print": "Роздрукувати"
+    },
+    "sort_items": {
+      "ones_first": "Спочатку нові",
+      "old_ones": "Спочатку старі",
+      "close_deadline": "Спочатку з близьким терміном",
+      "high_priority": "Спочатку з високим пріоритетом",
+      "low_priority": "Спочатку з низьким пріоритетом",
+      "indefinite": "Спочатку безстрокові",
+      "for_today": "Дедлайн сьогодні",
+      "active": "Активні",
+      "date": "За датою",
+      "on_pause": "На паузі",
+      "completed": "Завершені",
+      "draft": "Чернетки",
+      "all": "Все"
+    },
+    "time_picker": {
+      "select_time": "Оберіть час",
+      "select_date": "Оберіть дату",
+      "no_time_selected": "Час не обрано",
+      "selected_time_is": "Обраний час",
+      "select": "Оберіть"
+    },
+    "date_type": {
+      "minutes": "Хвилин",
+      "hours": "Годин",
+      "hour": "Година",
+      "days": "Днів",
+      "months": "Місяців"
+    },
+    "time_period_picker": {
+      "every_month": "Кожен"
+    },
+    "file_uploaded_number": "Завантажено файлів: {{number}}",
+    "entered_characters_number": "Введено символів: {{number}}"
+  },
+  "theme": {
+    "lightTheme": "Світла тема",
+    "darkTheme": "Темна тема"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "Співробітники",
+      "recurring_tasks": "Повторювані задачі",
+      "permissions": "Дозволи",
+      "regulations": "Регламенти",
+      "metrics": "Метрики"
+    },
+    "board_required_actions": {
+      "add_proof": "Додати доказ",
+      "set_datedeadline_strict": "Встановити 'Дата початку'",
+      "attach_comment": "Прикріпити коментар",
+      "attach_message": "Прикріпити повідомлення",
+      "consolidate_result": "Закріпити результат",
+      "tab_text": "Опишіть результат або додайте файл",
+      "not_approval": "Напишіть причину відхилення",
+      "change_deadline": "У цій задачі є дедлайн, але ви можете його перенести"
+    },
+    "policy": {
+      "for_approval": "На схвалення",
+      "to_learn": "До вивчення",
+      "my": "Мої",
+      "all": "Всі",
+      "topics": "Розділи",
+      "undone": "Не завершенні"
+    },
+    "dashboard": {
+      "my": "Мої",
+      "my_metrics": "Мої метрики",
+      "available_to_me": "Доступні мені",
+      "my_subordinates": "Метрики підлеглих",
+      "fill_out": "Метрики для заповнення"
+    },
+    "planning": {
+      "my_plan": "Мій план",
+      "work_plans": "Робочі плани",
+      "require_approval": "Вимагають схвалення"
+    },
+    "project": {
+      "description": "Опис проекту",
+      "issues": "Задача",
+      "recurring_issues": "Задачі, що повторюються",
+      "gantt_chart": "Діаграма Ганта"
+    }
+  },
+  "document": {
+    "paid_services_offer": "Договір-оферта на відплатне надання послуг",
+    "personal_data_consent": "Згода на обробку персональних даних",
+    "personal_data_policy": "Політика обробки і захисту персональних даних"
+  },
+  "trainingGroup": {
+    "basics": "Основи",
+    "org_structure": "Оргструктура",
+    "communications": "Комунікації"
+  },
+  "training": {
+    "introductory": "Вступне відео",
+    "overview": "Огляд платформи",
+    "profile_settings": "Налаштування особистого профілю",
+    "org_structure": "Оргструктура",
+    "settings_org_structure": "Технічні налаштування оргструктури",
+    "communication_module": "Модуль комуникацій",
+    "interaction_with_issues": "Робота з задачами",
+    "recurring_issues": "Задачі, що повторюються",
+    "settings_recurring_issues": "Налаштування задач, що повторюються"
+  },
+  "breadcrumbs": {
+    "policies": "Регламенти",
+    "create_policy": "Додати регламент",
+    "create_topic": "Додати розділ",
+    "topics": "Розділи",
+    "policy": "Всі",
+    "report_policies": "Звіт вивчених регламентів",
+    "stats": "Статистика",
+    "planning": "Планування",
+    "work_plans": "Робочі плани",
+    "my": "Мої",
+    "available_to_me": "Доступні мені"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "Оберіть функцію...",
+      "no_positions": "Нема посад",
+      "all_managers": "Всі керівники",
+      "all_performers": "Всі виконавці"
+    },
+    "role_select_box": {
+      "all": "Всі"
+    }
+  },
+  "driver": {
+    "statistics": "Статистика",
+    "history": "Історія",
+    "no_data": "Немає відповідних елементів",
+    "drivers": "Драйвери",
+    "monitoring": "Моніторинг",
+    "in_queue": "В черзі",
+    "stuck": "Затор",
+    "last_interaction": "Остання взаємодія з драйвером",
+    "driver": "Драйвер",
+    "proceeded_cards": "Опрацьовані картки",
+    "average_processing_time": "Середній час опрацювання картки",
+    "corrected_violations": "Виправлені порушення",
+    "actions": "Дії",
+    "card": {
+      "queue": {
+        "part1": "зараз в черзі",
+        "part2": "карток"
+      },
+      "employees_per_driver": {
+        "part1": "На одного драйвера",
+        "part2": "співробітників"
+      },
+      "average_working_time": {
+        "part1": "середній час опрацювання",
+        "part2": "хвилин"
+      },
+      "average_processing_time": {
+        "part1": "Середній час опрацювання однієї картки",
+        "part2": "секунд"
+      },
+      "average_number_of_cards": {
+        "part1": "Середня кількість опрацьованих драйвером карток",
+        "part2": "Оброблені картки"
+      },
+      "average_number_of_violations": {
+        "part1": "Середня кількість порушень на одного співробітника",
+        "part2": "Порушення співробітника"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "Звичайний текст",
+      "h1": "Заголовок 1",
+      "h2": "Заголовок 2",
+      "h3": "Заголовок 3",
+      "h4": "Заголовок 4",
+      "h5": "Заголовок 5",
+      "h6": "Заголовок 6",
+      "quote": "Цитата",
+      "numbered_list": "Нумерований список",
+      "bulleted_list": "Маркований список",
+      "check_list": "Чек лист",
+      "align_left": "По лівому краю",
+      "align_center": "По центру",
+      "align_right": "По правому краю",
+      "align_justify": "По ширині",
+      "indent": "Відступ вперед",
+      "outdent": "Відступ назад"
+    },
+    "undo": "Назад",
+    "redo": "Вперед",
+    "bold": "Жирний",
+    "italic": "Курсив",
+    "underline": "Підкреслений",
+    "code": "Код",
+    "clear_formatting": "Очистити форматування",
+    "superscript": "Верхній індекс",
+    "subscript": "Нижній індекс",
+    "strikethrough": "Закреслений",
+    "link": "Посилання",
+    "color": "Колір тексту",
+    "background": "Колір заднього фону",
+    "hr": "Горизонтальна лінія",
+    "image": "Картинка",
+    "table": "Таблиця",
+    "video": "Відео"
+  },
+  "text_editor_table_control": {
+    "add_row": "Додати рядок",
+    "add_row_above": "Додати рядок зверху",
+    "add_row_below": "Додати рядок знизу",
+    "add_column": "Додати стовпчик",
+    "add_column_left": "Додати колонку зліва",
+    "add_column_right": "Додати колонку праворуч",
+    "delete_row": "Видалити рядок",
+    "delete_column": "Видалити стовпчик",
+    "delete_table": "Видалити таблицю"
+  },
+  "planning": {
+    "summary_by_function": "Підсумок з усіх функцій",
+    "number_of_tasks": "Кількість завдань: ",
+    "sum": "Сума: ",
+    "back_to_plan": "Повернутись до свого плану",
+    "all": "Всі",
+    "no_function": "Без функції",
+    "day": "д ",
+    "hour": "г ",
+    "minute": "х"
+  }
+}

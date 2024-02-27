@@ -1,0 +1,25 @@
+{
+  "field_required": "This field is required",
+  "wrong_email": "Make sure that the email is entered without errors",
+  "min_char_number": "Minimum number of characters: {{number}}",
+  "min_file_number": "Minimum number of files: {{number}}",
+  "issue_complete_dialog_description": "Format: {{format}}, {{value}}: {{number}}",
+  "issue_complete_dialog_validate": {
+    "common_error": "Please describe the result or attach a file",
+    "time_error": "Please specify the actual completion time of the task."
+  },
+  "passwords_should_match": "Passwords don't match!",
+  "date_later_deadline": "The date exceeds the deadline",
+  "deadline_required": "Deadline is required",
+  "enter_regulation_name": "Enter a name of the regulation!",
+  "no_name_question": "Please set a name for all questions!",
+  "no_name_answer": "Please set a name for all answers!",
+  "no_rights_answer": "There must be at least 1 correct answer for each question",
+  "no_answers": "There should be at least 2 answers for each question",
+  "select_approver": "Please select the approver!",
+  "policy_content_is_empty": "The regulation cannot be empty!",
+  "invalid_code": "Invalid code",
+  "executor_deadline": "The start date or deadline cannot be in the past",
+  "executor_deadline_in_past": "Invalid deadline date."
+
+}

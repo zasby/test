@@ -1,0 +1,73 @@
+{
+  "loading_data": "We're loading data",
+  "no_data": "No data",
+  "no_attachments": "No attachments",
+  "no_permissions": "Not enough permissions",
+  "list_empty": "List is empty",
+  "please_wait": "Please wait",
+  "until": "until",
+  "at": "at",
+  "signup": {
+    "text1": "Enter the invitation code, and we will try to guess which company you were invited to :)",
+    "text2": "You've been invited to {{company}}. Enter email and password to proceed.",
+    "text3": "You're about to create a company. Enter email and password to proceed."
+  },
+  "add_company": {
+    "text1": "You've been invited to '{{companyName}}'. Accept or decline the invitation to continue.",
+    "text2": "You're about to create a company. Click 'Accept' to continue."
+  },
+  "leave_company": {
+    "text1": "Are you sure you want to leave '{{companyName}}'?"
+  },
+  "function": {
+    "delete": "When you delete a function, its routines will also be deleted, and employees and individual communications will be unlinked. Are you sure?"
+  },
+  "companies_manage": {
+    "delete": "Are you sure?"
+  },
+  "employee": {
+    "delete": "Are you sure?"
+  },
+  "board": {
+    "reset": "Are you sure?",
+    "reset_all": "Are you sure?"
+  },
+  "driver": {
+    "no_cards_found": "No employee cards with violations were found"
+  },
+  "task_proof": {
+    "no_need_proof": "This task does not require a proof, but you can leave a comment",
+    "close_no_proof": "Do you really want to end the communication without an attached Product?"
+  },
+  "task_expired": "The task is already overdue, notify the manager and reschedule the deadline",
+  "no_elements": "There are no elements matching the request",
+  "no_open_tasks": {
+    "sidebar": "You don't have incoming tasks yet, but you can schedule tasks yourself",
+    "content": "You don't have tasks yet, but you can set a task for yourself"
+  },
+  "no_dashboard": "You don't have a dashboard yet, but you can create one",
+  "transfer_undone_tasks": "Transfer undone tasks from previous plan",
+  "no_dateStart_and_timePlan": "Set 'Plan' and 'Start' values",
+  "editor_callstack_error": "Editor error. If you see this, please report it to support.",
+  "metric_equal_source_error": "You cannot create a metric with two identical sources.",
+  "delete_dashboard_description": "It will be impossible to undo this action. Are you sure?",
+  "date_work_start_expired": "The start date will be set later than the deadline",
+  "date_work_issues_overdue": "The deadline for task completion is set for {{date}}. \nIf postponed to {{startDate}} at {{startTime}}, the task will be overdue. \nBy clicking the “Accept” button, you agree that the task will be closed with a violation.",
+
+  "chart-name-tooltip": "If set, it will be displayed on the chart instead of the metric name",
+  "text_editor_bug_dialog": {
+    "text1": "Dear users of the platform,",
+    "text2": "We would like to inform you that we are conducting improvements on our text editor. Currently, there is a possibility of losing the text you have entered. To avoid such losses, we recommend temporarily writing your text in another location and then transferring it to Tonnus, or periodically saving it.",
+    "text3": "We are making every effort to minimize any inconvenience and ensure uninterrupted platform operation. If you have any questions, please contact our support service.",
+    "text4": "Thank you for your attention and understanding.",
+    "text5": "Sincerely,",
+    "text6": "TONNUS Team"
+  },
+  "text_editor_error_alert": "An error occurred because we were unable to process your data. Please try refreshing the page. If the error persists, we recommend deleting the latest data.",
+  "timezone_notification_dialog": {
+    "text1": "Hello, dear users!",
+    "text2": "We are delighted to inform you that we are switching to a new format for displaying time zones. Our system will now automatically switch between daylight saving time and standard time. Please verify the correctness of your selected time zone and make adjustments if necessary.",
+    "text3": "Your time zone:",
+    "text4": "Company's time zone:"
+  }
+}

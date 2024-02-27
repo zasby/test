@@ -1,0 +1,404 @@
+{
+  "page_title": {
+    "authorization": "Авторизация",
+    "registration": "Регистрация",
+    "password_recovery": "Восстановление пароля",
+    "orgchart": "Оргструктура",
+    "employees": "Сотрудники",
+    "employee": "Сотрудник",
+    "employee_edit": "Редактирование сотрудника",
+    "settings": "Настройки",
+    "settings_common": "Общие настройки",
+    "settings_profile": "Настройки профиля",
+    "settings_company": "Настройки компании",
+    "settings_modules": "Настройки модулей",
+    "chart": "Графики",
+    "communication": "Коммуникации",
+    "restore_password": "Восстановление пароля",
+    "sandbox": "Песочница",
+    "driver": "Драйвер",
+    "driver_admin": "Администратор драйверов",
+    "driver_pre": "Драйвер",
+    "companies_management": "Управление компаниями",
+    "training": "Обучение",
+    "feedback": "Предложение доработки",
+    "report_driver": "Отчёты по драйверам",
+    "report_communication": "Отчёты по коммуникациям",
+    "reports": "Отчёты",
+    "reports_by_communication": "Отчёты по коммуникациям",
+    "reports_by_driver": "Отчёты по драйверам",
+    "driver_user": "Карточка сотрудника",
+    "schedule": "График работы",
+    "support_center": "Центр поддержки",
+    "page_404": "Страница не найдена",
+    "no_pages": "Нет доступных модулей",
+    "groups_companies": "Группы компаний"
+  },
+  "indicator": {
+    "passed": "Пройдено",
+    "not_passed": "Не пройдено"
+  },
+  "driver_card": {
+    "writes_count": "Написали в мессенджеры",
+    "calls_count": "Позвонили",
+    "fixed_violations": "Обработано нарушений",
+    "process_avg_time": "Среднее время обработки",
+    "overall_time_saved": "Сэкономлено времени"
+  },
+  "unit_of_measurement": {
+    "times": "раз",
+    "minutes": "минут",
+    "hours": "часов"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "Переместить функцию",
+      "add_function": "Добавить подфункцию",
+      "edit_function": "Редактировать функцию",
+      "sort_functions": "Сортировать подфункции",
+      "open_control": "Открыть панель функции",
+      "delete_function": "Удалить функцию"
+    },
+    "top_bar_profile": {
+      "profile_page": "Профиль",
+      "profile_settings": "Настройки",
+      "update_note": "Заметки обновлений",
+      "logout": "Выход",
+      "cookie": "Политика приватности и Cookie",
+      "feedback": "Обратная связь"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "Управление компаниями"
+    },
+    "executor_select": {
+      "admins_of_function": "Руководители функции",
+      "executors_of_function": "Исполнители функции",
+      "all_admins": "Все руководители",
+      "all": "Все"
+    },
+    "period_select": {
+      "every_day": "День",
+      "every_week_at_day": "Неделю",
+      "every_month_at_day": "Месяц",
+      "every_n_days": "N дней"
+    },
+    "deadline_select": {
+      "after_time": "Спустя срок",
+      "until_day": "До дня недели"
+    },
+    "company_card": {
+      "copy_code": "Скопировать код",
+      "copy_link": "Скопировать ссылку",
+      "settings": "Настройки",
+      "statistics": "Статистика по сотрудникам",
+      "delete": "Удалить компанию",
+      "pause": "Приостановить компанию",
+      "switch": "Переключиться на компанию"
+    },
+    "employee_card": {
+      "open": "Открыть профиль",
+      "edit": "Редактировать профиль",
+      "delete": "Удалить пользователя"
+    },
+    "left_drawer_state": {
+      "always_expanded": "Всегда развёрнуто",
+      "always_collapsed": "Всегда свёрнуто",
+      "auto_collapsed": "Сворачивать автоматически",
+      "manual_expanded": "Разворачивать по наведению"
+    },
+    "manage_companies": {
+      "board_reset": "Сбросить правила статусов"
+    },
+    "metric_settings_dropdown": {
+      "settings": "Настройки",
+      "delete": "Удалить график",
+      "data": "Данные метрики"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "Понедельник",
+      "tuesday": "Вторник",
+      "wednesday": "Среда",
+      "thursday": "Четверг",
+      "friday": "Пятница",
+      "saturday": "Суббота",
+      "sunday": "Воскресенье"
+    },
+    "month": {
+      "january": "Январь",
+      "february": "Февраль",
+      "march": "Март",
+      "april": "Апрель",
+      "may": "Май",
+      "june": "Июнь",
+      "july": "Июль",
+      "august": "Август",
+      "september": "Сентябрь",
+      "october": "Октябрь",
+      "november": "Ноябрь",
+      "december": "Декабрь"
+    }
+  },
+  "misc": {
+    "working_day": "Рабочий день",
+    "weekend": "Выходной",
+    "vacation": "Отпуск",
+    "medical": "Больничный",
+    "collapse_functions": "Свернуть все функции",
+    "expand_functions": "Развернуть все функции",
+    "display_by_employee_timezone": "Использовать часовой пояс сотрудника",
+    "all_recurring_tasks": "Все повторяющиеся задачи",
+    "delete_orgchart": "Удалить оргструктуру",
+    "print_orgchart": "Распечатать оргструктуру",
+    "total_companies": "Всего компаний",
+    "total_employees": "Всего сотрудников",
+    "support_chat": "Чат поддержки",
+    "suggest_revision": "Предложить доработку",
+    "version": "Версия",
+    "new_company": "Новая компания",
+    "not_specified": "Не указан",
+    "no_selected": "Не выбрано",
+    "filter": "Фильтр",
+    "sort": "Сортировка",
+    "no_name": "No name",
+    "card_menu": {
+      "add_role": "Добавить подфункцию",
+      "edit": "Редактировать функцию",
+      "manage": "Открыть функцию",
+      "sort": "Сортировать подфункции",
+      "transfer": "Переместить функцию",
+      "delete": "Удалить функцию",
+      "print": "Печать блока"
+    },
+    "sort_items": {
+      "ones_first": "Сначала новые",
+      "old_ones": "Сначала старые",
+      "close_deadline": "Сначала с близким сроком",
+      "high_priority": "Сначала с высоким приоритетом",
+      "low_priority": "Сначала с низким приоритетом",
+      "indefinite": "Сначала бессрочные",
+      "for_today": "Дедлайн сегодня",
+      "active": "Активные",
+      "date": "По дате",
+      "on_pause": "На паузе",
+      "completed": "Завершённые",
+      "draft": "Черновики",
+      "all": "Все"
+    },
+    "time_picker": {
+      "select_time": "Выберите время",
+      "select_date": "Выберите дату",
+      "no_time_selected": "Время не выбрано",
+      "selected_time_is": "Выбранное время",
+      "select": "Выберите"
+    },
+    "date_type": {
+      "minutes": "Минут",
+      "hours": "Часов",
+      "hour": "Час",
+      "days": "Дней",
+      "months": "Месяцев"
+    },
+    "time_period_picker": {
+      "every_month": "Каждый"
+    },
+    "file_uploaded_number": "Загружено файлов: {{number}}",
+    "entered_characters_number": "Введено символов: {{number}}"
+  },
+  "theme": {
+    "lightTheme": "Светлая тема",
+    "darkTheme": "Тёмная тема"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "Сотрудники",
+      "recurring_tasks": "Повторяющиеся задачи",
+      "permissions": "Разрешения",
+      "regulations": "Регламенты",
+      "metrics": "Метрики"
+    },
+    "board_required_actions": {
+      "add_proof": "Добавить доказательство",
+      "set_datedeadline_strict": "Установить 'Дата начала'",
+      "attach_comment": "Прикрепить комментарий",
+      "attach_message": "Прикрепить сообщение",
+      "consolidate_result": "Закрепить результат",
+      "tab_text": "Опишите результат или прикрепите файл",
+      "not_approval": "Напишите причину отклонения",
+      "change_deadline": "У этой задачи дедлайн, но вы можете его перенести"
+    },
+    "policy": {
+      "for_approval": "На одобрение",
+      "to_learn": "К изучению",
+      "my": "Мои",
+      "all": "Все",
+      "topics": "Разделы",
+      "undone": "Незавершённые"
+    },
+    "dashboard": {
+      "my": "Мои",
+      "my_metrics": "Мои метрики",
+      "available_to_me": "Доступные мне",
+      "my_subordinates": "Метрики подчинённых",
+      "fill_out": "Метрики для заполнения"
+    },
+    "planning": {
+      "my_plan": "Мой план",
+      "work_plans": "Рабочие планы",
+      "require_approval": "Требуют одобрения"
+    },
+    "project": {
+      "description": "Описание проекта",
+      "issues": "Задачи",
+      "recurring_issues": "Повторяющиеся задачи",
+      "gantt_chart": "Диаграмма Ганта"
+    }
+  },
+  "document": {
+    "paid_services_offer": "Договор-оферта на возмездное оказание услуг",
+    "personal_data_consent": "Согласие на обработку персональных данных",
+    "personal_data_policy": "Политика обработки и защиты персональных данных"
+  },
+  "trainingGroup": {
+    "basics": "Основы",
+    "org_structure": "Оргструктура",
+    "communications": "Коммуникации"
+  },
+  "training": {
+    "introductory": "Вводное видео",
+    "overview": "Обзор платформы",
+    "profile_settings": "Настройка личного профиля",
+    "org_structure": "Оргструктура",
+    "settings_org_structure": "Технические настройки оргструктуры",
+    "communication_module": "Модуль коммуникаций",
+    "interaction_with_issues": "Работа с задачами",
+    "recurring_issues": "Повторяющиеся задачи",
+    "settings_recurring_issues": "Настройки повторяющихся задач"
+  },
+  "breadcrumbs": {
+    "policies": "Регламенты",
+    "create_policy": "Добавить регламент",
+    "create_topic": "Добавить раздел",
+    "topics": "Разделы",
+    "policy": "Все",
+    "report_policies": "Отчёт изученных регламентов",
+    "stats": "Статистика",
+    "planning": "Планирование",
+    "work_plans": "Рабочие планы",
+    "my": "Мои",
+    "available_to_me": "Доступные мне"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "Выберите функцию...",
+      "no_positions": "Нет должностей",
+      "all_managers": "Все руководители",
+      "all_performers": "Все исполнители"
+    },
+    "role_select_box": {
+      "all": "Все"
+    }
+  },
+  "driver": {
+    "statistics": "Статистика",
+    "history": "История",
+    "no_data": "Нет подходящих элементов",
+    "drivers": "Драйверы",
+    "monitoring": "Мониторинг",
+    "in_queue": "В очереди",
+    "stuck": "Затор",
+    "last_interaction": "Последнее взаимодействие с драйвером",
+    "driver": "Драйвер",
+    "proceeded_cards": "Обработанные карточки",
+    "average_processing_time": "Среднее время обработки карточки",
+    "corrected_violations": "Исправленные нарушения",
+    "actions": "Действия",
+    "card": {
+      "queue": {
+        "part1": "Сейчас в очереди",
+        "part2": "карточек"
+      },
+      "employees_per_driver": {
+        "part1": "На одного драйвера",
+        "part2": "сотрудников"
+      },
+      "average_working_time": {
+        "part1": "Среднее время работы",
+        "part2": "минут"
+      },
+      "average_processing_time": {
+        "part1": "Среднее время обработки одной карточки",
+        "part2": "секунд"
+      },
+      "average_number_of_cards": {
+        "part1": "Среднее количество обработанных драйвером карточек",
+        "part2": "Обработанные карточки"
+      },
+      "average_number_of_violations": {
+        "part1": "Среднее количество нарушений на одного сотрудника",
+        "part2": "Нарушения сотрудника"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "Обычный текст",
+      "h1": "Заголовок 1",
+      "h2": "Заголовок 2",
+      "h3": "Заголовок 3",
+      "h4": "Заголовок 4",
+      "h5": "Заголовок 5",
+      "h6": "Заголовок 6",
+      "quote": "Цитата",
+      "numbered_list": "Нумерованный список",
+      "bulleted_list": "Маркированный список",
+      "check_list": "Чек лист",
+      "align_left": "По левому краю",
+      "align_center": "По центру",
+      "align_right": "По правому краю",
+      "align_justify": "По ширине",
+      "indent": "Отступ вперед",
+      "outdent": "Отступ назад"
+    },
+    "undo": "Назад",
+    "redo": "Вперед",
+    "bold": "Жирный",
+    "italic": "Курсив",
+    "underline": "Подчёркнутый",
+    "code": "Код",
+    "clear_formatting": "Очистить форматирование",
+    "superscript": "Надстрочный знак",
+    "subscript": "Подстрочный знак",
+    "strikethrough": "Зачеркнутый",
+    "link": "Ссылка",
+    "color": "Цвет текста",
+    "background": "Цвет заднего фона",
+    "hr": "Горизонтальная линия",
+    "image": "Изображение",
+    "table": "Таблица",
+    "video": "Видео"
+  },
+  "text_editor_table_control": {
+    "add_row": "Добавить строку",
+    "add_row_above": "Добавить строку сверху",
+    "add_row_below": "Добавить строку снизу",
+    "add_column": "Добавить колонку",
+    "add_column_left": "Добавить колонку слева",
+    "add_column_right": "Добавить колонку справа",
+    "delete_row": "Удалить строку",
+    "delete_column": "Удалить колонку",
+    "delete_table": "Удалить таблицу"
+  },
+  "planning": {
+    "summary_by_function": "Итог по всем функциям",
+    "number_of_tasks": "Кол-во задач: ",
+    "sum": "Сумма: ",
+    "back_to_plan": "Вернуться к своему плану",
+    "all": "Все",
+    "no_function": "Без функции",
+    "day": "д ",
+    "hour": "ч ",
+    "minute": "м"
+  }
+}

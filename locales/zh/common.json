@@ -1,0 +1,404 @@
+{
+  "page_title": {
+    "authorization": "授權",
+    "registration": "報名",
+    "password_recovery": "找回密碼",
+    "orgchart": "組織圖",
+    "employees": "員工",
+    "employee": "員工",
+    "employee_edit": "個人資料設定",
+    "settings": "設定",
+    "settings_common": "一般設定",
+    "settings_profile": "個人資料設定",
+    "settings_company": "公司設定",
+    "settings_modules": "模組設定",
+    "chart": "圖表",
+    "communication": "溝通",
+    "restore_password": "找回密碼",
+    "sandbox": "沙盒",
+    "driver": "自動化報表",
+    "driver_admin": "自動化報表項目",
+    "driver_pre": "自動化報表",
+    "companies_management": "公司",
+    "training": "教育",
+    "feedback": "反饋",
+    "report_driver": "自動化報表",
+    "report_communication": "溝通的報告",
+    "reports": "報告",
+    "reports_by_communication": "溝通的報告",
+    "reports_by_driver": "自動化報表項目",
+    "driver_user": "員工證",
+    "schedule": "工作時程",
+    "support_center": "支援中心",
+    "page_404": "找不到網頁",
+    "no_pages": "沒有可用的模組",
+    "groups_companies": "公司集團"
+  },
+  "indicator": {
+    "passed": "已通過",
+    "not_passed": "尚未通過"
+  },
+  "driver_card": {
+    "writes_count": "已寫入通訊軟體",
+    "calls_count": "有通知",
+    "fixed_violations": "固定違規",
+    "process_avg_time": "平均處理時間",
+    "overall_time_saved": "所節省的時間"
+  },
+  "unit_of_measurement": {
+    "times": "次數",
+    "minutes": "分鐘",
+    "hours": "小時"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "移動功能",
+      "add_function": "添加子功能",
+      "edit_function": "編輯功能",
+      "sort_functions": "排序子函數",
+      "open_control": "打開功能控制",
+      "delete_function": "刪除功能"
+    },
+    "top_bar_profile": {
+      "profile_page": "個人檔案",
+      "profile_settings": "設定",
+      "update_note": "更新筆記",
+      "logout": "登出",
+      "cookie": "隱私政策與 Cookie",
+      "feedback": "反饋"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "公司"
+    },
+    "executor_select": {
+      "admins_of_function": "管理者",
+      "executors_of_function": "呈現者",
+      "all_admins": "所有管理者",
+      "all": "所有人"
+    },
+    "period_select": {
+      "every_day": "天",
+      "every_week_at_day": "星期",
+      "every_month_at_day": "月",
+      "every_n_days": "N天"
+    },
+    "deadline_select": {
+      "after_time": "期間",
+      "until_day": "直到"
+    },
+    "company_card": {
+      "copy_code": "複製代碼",
+      "copy_link": "複製連結",
+      "settings": "設定",
+      "statistics": "員工統計數據",
+      "delete": "刪除",
+      "pause": "暫停",
+      "switch": "轉換"
+    },
+    "employee_card": {
+      "open": "打開",
+      "edit": "編輯",
+      "delete": "刪除"
+    },
+    "left_drawer_state": {
+      "always_expanded": "永遠在線",
+      "always_collapsed": "總是關閉",
+      "auto_collapsed": "節省空間",
+      "manual_expanded": "自動開/關"
+    },
+    "manage_companies": {
+      "board_reset": "重設規則"
+    },
+    "metric_settings_dropdown": {
+      "settings": "設定",
+      "delete": "刪除圖表",
+      "data": "數值衡量指標"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "週一",
+      "tuesday": "週二",
+      "wednesday": "週三",
+      "thursday": "週四",
+      "friday": "週五",
+      "saturday": "週六",
+      "sunday": "週日"
+    },
+    "month": {
+      "january": "1月",
+      "february": "2月",
+      "march": "3月",
+      "april": "4月",
+      "may": "5月",
+      "june": "6月",
+      "july": "7月",
+      "august": "8月",
+      "september": "9月",
+      "october": "10月",
+      "november": "11月",
+      "december": "12月"
+    }
+  },
+  "misc": {
+    "working_day": "工作日",
+    "weekend": "假日",
+    "vacation": "休假日",
+    "medical": "病假",
+    "collapse_functions": "折疊所有功能",
+    "expand_functions": "展開所有功能",
+    "display_by_employee_timezone": "使用員工的時區",
+    "all_recurring_tasks": "所有例行公事",
+    "delete_orgchart": "刪除組織圖",
+    "print_orgchart": "列印組織圖",
+    "total_companies": "公司",
+    "total_employees": "員工",
+    "support_chat": "技術支援聊天室",
+    "suggest_revision": "提出完善建議",
+    "version": "版本",
+    "new_company": "新公司",
+    "not_specified": "未指定",
+    "no_selected": "未選擇",
+    "filter": "篩選",
+    "sort": "排序",
+    "no_name": "沒有名稱",
+    "card_menu": {
+      "add_role": "添加子功能",
+      "edit": "編輯功能",
+      "manage": "打開功能",
+      "sort": "對子功能進行排序",
+      "transfer": "移動此功能",
+      "delete": "刪除此功能",
+      "print": "打印"
+    },
+    "sort_items": {
+      "ones_first": "新的優先",
+      "old_ones": "舊的優先",
+      "close_deadline": "先關閉截止時間",
+      "high_priority": "高優先權優先",
+      "low_priority": "低優先權優先",
+      "indefinite": "首先，尚未定義",
+      "for_today": "今天截止",
+      "active": "啟用",
+      "date": "按日期",
+      "on_pause": "暫停的",
+      "completed": "已完成",
+      "draft": "草稿",
+      "all": "全部"
+    },
+    "time_picker": {
+      "select_time": "選擇時間",
+      "select_date": "選擇日期",
+      "no_time_selected": "未選擇時間",
+      "selected_time_is": "選擇的時間是",
+      "select": "選擇"
+    },
+    "date_type": {
+      "minutes": "分鐘",
+      "hours": "小時",
+      "hour": "小時",
+      "days": "天",
+      "months": "月"
+    },
+    "time_period_picker": {
+      "every_month": "每個月"
+    },
+    "file_uploaded_number": "上傳文件： {{number}}",
+    "entered_characters_number": "輸入的符號：{{number}}"
+  },
+  "theme": {
+    "lightTheme": "淺色主題",
+    "darkTheme": "深色主題"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "職員",
+      "recurring_tasks": "例行公事",
+      "permissions": "權限",
+      "regulations": "規章",
+      "metrics": "數值衡量指標"
+    },
+    "board_required_actions": {
+      "add_proof": "新增驗證",
+      "set_datedeadline_strict": "設定開始日期",
+      "attach_comment": "附加評論",
+      "attach_message": "附加訊息",
+      "consolidate_result": "附上結果",
+      "tab_text": "請描述結果或附加文件",
+      "not_approval": "请指明拒绝原因",
+      "change_deadline": "這個任務有一個截止日期，但你可以延期"
+    },
+    "policy": {
+      "for_approval": "待核准",
+      "to_learn": "待學習",
+      "my": "我的",
+      "all": "全部",
+      "topics": "主題",
+      "undone": "未完成的"
+    },
+    "dashboard": {
+      "my": "我的",
+      "my_metrics": "我的數值衡量指標",
+      "available_to_me": "可供使用",
+      "my_subordinates": "部屬的數值衡量指標",
+      "fill_out": "要填寫的數值衡量指標"
+    },
+    "planning": {
+      "my_plan": "我的計劃",
+      "work_plans": "工作計劃",
+      "require_approval": "需要核准"
+    },
+    "project": {
+      "description": "項目的描述",
+      "issues": "任務",
+      "recurring_issues": "例行的任務",
+      "gantt_chart": "甘特圖"
+    }
+  },
+  "document": {
+    "paid_services_offer": "提供有償服務的報價協議",
+    "personal_data_consent": "對個人數據處理的同意",
+    "personal_data_policy": "處理和保護個人數據的政策"
+  },
+  "trainingGroup": {
+    "basics": "基礎",
+    "org_structure": "組織圖",
+    "communications": "溝通"
+  },
+  "training": {
+    "introductory": "簡介",
+    "overview": "主要模組",
+    "profile_settings": "建立個人檔案",
+    "org_structure": "組織圖",
+    "settings_org_structure": "組織圖的設定",
+    "communication_module": "簡介",
+    "interaction_with_issues": "任務",
+    "recurring_issues": "例行公事",
+    "settings_recurring_issues": "設定例行公事"
+  },
+  "breadcrumbs": {
+    "policies": "規章",
+    "create_policy": "新增規章",
+    "create_topic": "添加章節",
+    "topics": "主題",
+    "policy": "全部",
+    "report_policies": "已學習的規章的報告",
+    "stats": "統計數據",
+    "planning": "計劃",
+    "work_plans": "工作計劃",
+    "my": "我的",
+    "available_to_me": "我可以使用"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "選擇一個功能...",
+      "no_positions": "沒有職位",
+      "all_managers": "所有管理者",
+      "all_performers": "所有呈現者"
+    },
+    "role_select_box": {
+      "all": "全部"
+    }
+  },
+  "driver": {
+    "statistics": "統計數據",
+    "history": "歷史記錄",
+    "no_data": "沒有匹配的項目",
+    "drivers": "自動化報表",
+    "monitoring": "監測",
+    "in_queue": "排隊中",
+    "stuck": "堵塞",
+    "last_interaction": "最後一次互動",
+    "driver": "自動化報表",
+    "proceeded_cards": "任務已處理",
+    "average_processing_time": "處理任務平均所需時間",
+    "corrected_violations": "糾正的違規行為",
+    "actions": "行動",
+    "card": {
+      "queue": {
+        "part1": "任務按時序處理中",
+        "part2": ""
+      },
+      "employees_per_driver": {
+        "part1": "",
+        "part2": "員工"
+      },
+      "average_working_time": {
+        "part1": "平均運行時間",
+        "part2": "分鐘"
+      },
+      "average_processing_time": {
+        "part1": "每個任務的平均處理時間",
+        "part2": "秒"
+      },
+      "average_number_of_cards": {
+        "part1": "",
+        "part2": "處理任務"
+      },
+      "average_number_of_violations": {
+        "part1": "",
+        "part2": "違規/員工"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "一般文字",
+      "h1": "標題1",
+      "h2": "標題2",
+      "h3": "標題3",
+      "h4": "標題4",
+      "h5": "標題5",
+      "h6": "標題6",
+      "quote": "引文",
+      "numbered_list": "有編號的列表",
+      "check_list": "檢查清單",
+      "bulleted_list": "列舉式列表",
+      "align_left": "左對齊",
+      "align_center": "中間對齊",
+      "align_right": "右對齊",
+      "align_justify": "右對齊寬度",
+      "indent": "向前縮進",
+      "outdent": "向後縮進"
+    },
+    "undo": "後退",
+    "redo": "向前",
+    "bold": "粗體",
+    "italic": "斜體字",
+    "underline": "下劃線",
+    "code": "編碼",
+    "clear_formatting": "清除格式",
+    "superscript": "上標",
+    "subscript": "下標",
+    "strikethrough": "刪除線",
+    "link": "連結",
+    "color": "文字颜色",
+    "background": "背景颜色",
+    "hr": "水平线",
+    "image": "圖片",
+    "table": "表格",
+    "video": "视频"
+  },
+  "text_editor_table_control": {
+    "add_row": "添加行",
+    "add_row_above": "添加上面的行",
+    "add_row_below": "在下面添加一行",
+    "add_column": "添加欄",
+    "add_column_left": "左边添加栏",
+    "add_column_right": "增加右列",
+    "delete_row": "刪除行",
+    "delete_column": "刪除列",
+    "delete_table": "刪除表格"
+  },
+  "planning": {
+    "summary_by_function": "所有功能的摘要",
+    "number_of_tasks": "任務的數量：",
+    "sum": "總和：",
+    "back_to_plan": "返回到你的計劃",
+    "all": "全部",
+    "no_function": "沒有功能",
+    "day": "天",
+    "hour": "小時",
+    "minute": "分鐘"
+  }
+}

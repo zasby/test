@@ -1,0 +1,404 @@
+{
+  "page_title": {
+    "authorization": "Authorization",
+    "registration": "Sign up",
+    "password_recovery": "Password recovery",
+    "orgchart": "Org Chart",
+    "employees": "Employees",
+    "employee": "Employee",
+    "employee_edit": "Profile Settings",
+    "settings": "Settings",
+    "settings_common": "General Settings",
+    "settings_profile": "Profile Settings",
+    "settings_company": "Company Settings",
+    "settings_modules": "Module Settings",
+    "chart": "Charts",
+    "communication": "Communications",
+    "restore_password": "Password recovery",
+    "sandbox": "Sandbox",
+    "driver": "Driver",
+    "driver_admin": "Driver Activities",
+    "driver_pre": "Driver",
+    "companies_management": "Companies",
+    "training": "Education",
+    "feedback": "Feedback",
+    "report_driver": "Reports by drivers",
+    "report_communication": "Reports by communications",
+    "reports": "Reports",
+    "reports_by_communication": "Reports by communications",
+    "reports_by_driver": "Drivers Activities",
+    "driver_user": "Employee card",
+    "schedule": "Work schedule",
+    "support_center": "Support center",
+    "page_404": "Page not found",
+    "no_pages": "There are no modules available",
+    "groups_companies": "Groups of companies"
+  },
+  "indicator": {
+    "passed": "Passed",
+    "not_passed": "Not passed"
+  },
+  "driver_card": {
+    "writes_count": "Was written in messengers",
+    "calls_count": "There were calls",
+    "fixed_violations": "Fixed violations",
+    "process_avg_time": "Average processing time",
+    "overall_time_saved": "Time saved"
+  },
+  "unit_of_measurement": {
+    "times": "times",
+    "minutes": "minutes",
+    "hours": "hours"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "Move function",
+      "add_function": "Add subfunction",
+      "edit_function": "Edit function",
+      "sort_functions": "Sort subfunctions",
+      "open_control": "Open function control",
+      "delete_function": "Delete function"
+    },
+    "top_bar_profile": {
+      "profile_page": "Profile",
+      "profile_settings": "Settings",
+      "update_note": "Update Notes",
+      "logout": "Log out",
+      "cookie": "Privacy Policy and Cookie",
+      "feedback": "Feedback"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "Сompanies"
+    },
+    "executor_select": {
+      "admins_of_function": "Manager",
+      "executors_of_function": "Performer",
+      "all_admins": "All managers",
+      "all": "Everybody"
+    },
+    "period_select": {
+      "every_day": "Day",
+      "every_week_at_day": "Week",
+      "every_month_at_day": "Month",
+      "every_n_days": "N days"
+    },
+    "deadline_select": {
+      "after_time": "During",
+      "until_day": "Until"
+    },
+    "company_card": {
+      "copy_code": "Copy the code",
+      "copy_link": "Copy the link",
+      "settings": "Settings",
+      "statistics": "Employee statistics",
+      "delete": "Delete",
+      "pause": "Pause",
+      "switch": "Switch"
+    },
+    "employee_card": {
+      "open": "Open",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "left_drawer_state": {
+      "always_expanded": "Always on",
+      "always_collapsed": "Always off",
+      "auto_collapsed": "Space saving",
+      "manual_expanded": "On/off automatically"
+    },
+    "manage_companies": {
+      "board_reset": "Reset rules"
+    },
+    "metric_settings_dropdown": {
+      "settings": "Settings",
+      "delete": "Delete graph",
+      "data": "Metric data"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "month": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    }
+  },
+  "misc": {
+    "working_day": "Workday",
+    "weekend": "Weekend",
+    "vacation": "Vacation",
+    "medical": "Sick Day",
+    "collapse_functions": "Collapse all",
+    "expand_functions": "Expand all",
+    "display_by_employee_timezone": "Employee's time zone",
+    "all_recurring_tasks": "All routines",
+    "delete_orgchart": "Delete orgchart",
+    "print_orgchart": "Print orgchart",
+    "total_companies": "Companies",
+    "total_employees": "Employees",
+    "support_chat": "Support chat",
+    "suggest_revision": "Suggest an enhancement",
+    "version": "Version",
+    "new_company": "New company",
+    "not_specified": "Not specified",
+    "no_selected": "Not selected",
+    "filter": "Filter",
+    "sort": "Sorting",
+    "no_name": "No name",
+    "card_menu": {
+      "add_role": "Add subfunction",
+      "edit": "Edit function",
+      "manage": "Open function",
+      "sort": "Sort subfunctions",
+      "transfer": "Move function",
+      "delete": "Delete function",
+      "print": "Print"
+    },
+    "sort_items": {
+      "ones_first": "New first",
+      "old_ones": "Old first",
+      "close_deadline": "Close deadline first",
+      "high_priority": "High priority first",
+      "low_priority": "Low priority first",
+      "indefinite": "First, indefinite",
+      "for_today": "Deadline today",
+      "active": "Active",
+      "date": "By date",
+      "on_pause": "On pause",
+      "completed": "Completed",
+      "draft": "Draft",
+      "all": "All"
+    },
+    "time_picker": {
+      "select_time": "Select time",
+      "select_date": "Select date",
+      "no_time_selected": "No time selected",
+      "selected_time_is": "Selected time is",
+      "select": "Select"
+    },
+    "date_type": {
+      "minutes": "Minutes",
+      "hours": "Hours",
+      "hour": "Hour",
+      "days": "Days",
+      "months": "Months"
+    },
+    "time_period_picker": {
+      "every_month": "Every"
+    },
+    "file_uploaded_number": "Uploaded files: {{number}}",
+    "entered_characters_number": "Characters: {{number}}"
+  },
+  "theme": {
+    "lightTheme": "Light theme",
+    "darkTheme": "Dark theme"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "Employees",
+      "recurring_tasks": "Routines",
+      "permissions": "Permissions",
+      "regulations": "Policies",
+      "metrics": "Metrics"
+    },
+    "board_required_actions": {
+      "add_proof": "Add a proof",
+      "set_datedeadline_strict": "Set the start up",
+      "attach_comment": "Attach comment",
+      "attach_message": "Attach message",
+      "consolidate_result": "Consolidate the result",
+      "tab_text": "Describe the result or attach a file",
+      "not_approval": "Please specify the reason for the rejection",
+      "change_deadline": "This task has a deadline, but you can extend it"
+    },
+    "policy": {
+      "for_approval": "For approval",
+      "to_learn": "To learn",
+      "my": "My",
+      "all": "All",
+      "topics": "Topics",
+      "undone": "Undone"
+    },
+    "dashboard": {
+      "my": "My",
+      "my_metrics": "My metrics",
+      "available_to_me": "Available",
+      "my_subordinates": "Subordinate metrics",
+      "fill_out": "Metrics to fill"
+    },
+    "planning": {
+      "my_plan": "My plan",
+      "work_plans": "Work plans",
+      "require_approval": "Require approval"
+    },
+    "project": {
+      "description": "Project Description",
+      "issues": "Tasks",
+      "recurring_issues": "Routines",
+      "gantt_chart": "Gantt chart"
+    }
+  },
+  "document": {
+    "paid_services_offer": "Contract-an offer for the provision of paid services",
+    "personal_data_consent": "Consent to the processing of personal data",
+    "personal_data_policy": "Personal Data Processing and Protection Policy"
+  },
+  "trainingGroup": {
+    "basics": "Basics",
+    "org_structure": "Org chart",
+    "communications": "Communications"
+  },
+  "training": {
+    "introductory": "Intro",
+    "overview": "Main modules",
+    "profile_settings": "Personal profile",
+    "org_structure": "Org chart",
+    "settings_org_structure": "Org chart settings",
+    "communication_module": "Intro",
+    "interaction_with_issues": "Tasks",
+    "recurring_issues": "Routines",
+    "settings_recurring_issues": "Setting up routines"
+  },
+  "breadcrumbs": {
+    "policies": "Regulations",
+    "create_policy": "Add regulation",
+    "create_topic": "Add section",
+    "topics": "Topics",
+    "policy": "All",
+    "report_policies": "Report of the studied policies",
+    "stats": "Stats",
+    "planning": "Planning",
+    "work_plans": "Work plans",
+    "my": "My",
+    "available_to_me": "Available"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "Select a function...",
+      "no_positions": "No positions",
+      "all_managers": "All managers",
+      "all_performers": "All Executor"
+    },
+    "role_select_box": {
+      "all": "All"
+    }
+  },
+  "driver": {
+    "statistics": "Statistics",
+    "history": "History",
+    "no_data": "There are no matching elements",
+    "drivers": "Drivers",
+    "monitoring": "Monitoring",
+    "in_queue": "In queue",
+    "stuck": "Stuck",
+    "last_interaction": "Last interaction with the driver",
+    "driver": "Driver",
+    "proceeded_cards": "Proceeded cards",
+    "average_processing_time": "Average card processing time",
+    "corrected_violations": "Corrected violations",
+    "actions": "Actions",
+    "card": {
+      "queue": {
+        "part1": "Cards in the queue",
+        "part2": ""
+      },
+      "employees_per_driver": {
+        "part1": "",
+        "part2": "employees/driver"
+      },
+      "average_working_time": {
+        "part1": "Working time",
+        "part2": "minutes"
+      },
+      "average_processing_time": {
+        "part1": "Time per card",
+        "part2": "seconds"
+      },
+      "average_number_of_cards": {
+        "part1": "",
+        "part2": "processed cards"
+      },
+      "average_number_of_violations": {
+        "part1": "Average number of violations per employee",
+        "part2": "Employee violation"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "Normal text",
+      "h1": "Heading 1",
+      "h2": "Heading 2",
+      "h3": "Heading 3",
+      "h4": "Heading 4",
+      "h5": "Heading 5",
+      "h6": "Heading 6",
+      "quote": "Blockquote",
+      "numbered_list": "Numbered list",
+      "bulleted_list": "Bulleted list",
+      "check_list": "Check list",
+      "align_left": "Align left",
+      "align_center": "Align center",
+      "align_right": "Align right",
+      "align_justify": "Align justify",
+      "indent": "Forward indent",
+      "outdent": "Back indent"
+    },
+    "undo": "Undo",
+    "redo": "Redo",
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "code": "Code",
+    "clear_formatting": "Clear Formatting",
+    "superscript": "Superscript",
+    "subscript": "Subscript",
+    "strikethrough": "Strikethrough",
+    "link": "Link",
+    "color": "Color",
+    "background": "Background",
+    "hr": "Horizontal line",
+    "image": "Image",
+    "table": "Table",
+    "video": "Video"
+  },
+  "text_editor_table_control": {
+    "add_row": "Add row",
+    "add_row_above": "Add row above",
+    "add_row_below": "Add row below",
+    "add_column": "Add column",
+    "add_column_left": "Add column left",
+    "add_column_right": "Add column right",
+    "delete_row": "Delete row",
+    "delete_column": "Delete column",
+    "delete_table": "Delete table"
+  },
+  "planning": {
+    "summary_by_function": "Summary of all features",
+    "number_of_tasks": "Number of tasks: ",
+    "sum": "Sum: ",
+    "back_to_plan": "Back to your plan",
+    "all": "All",
+    "no_function": "No function",
+    "day": "d ",
+    "hour": "h ",
+    "minute": "m"
+  }
+}
