@@ -5,7 +5,7 @@ export interface IBoardColumnsState {
   isLoading: boolean;
 }
 
-export interface ICollapseContext {
+export interface IBoardCollapseContext {
   boardId?: number | null;
   userRelation: RelationsTypes;
   sortValue: sortKeyType;

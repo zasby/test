@@ -1,8 +1,8 @@
-import { RelationsTypes, RelationsKeys,  sortKeys, sortKeyType, IBoardColumnsState, ICollapseContext  } from "../../types";
+import { RelationsTypes, RelationsKeys,  sortKeys, sortKeyType, IBoardColumnsState, IBoardCollapseContext  } from "../../types";
 import { createContext } from "react";
 import { BoardDto } from "../../api";
 
-const defaultBoardFilterState: ICollapseContext = {
+const defaultBoardFilterState: IBoardCollapseContext = {
   userRelation: RelationsKeys.My,
   sortValue: sortKeys.date,
   boardId: undefined,
@@ -15,4 +15,4 @@ const defaultBoardFilterState: ICollapseContext = {
   isDeadlineToday: false,
 };
 
-export const BoardFilterContext = createContext<ICollapseContext>(defaultBoardFilterState);
+export const BoardFilterContext = createContext<IBoardCollapseContext>(defaultBoardFilterState);
