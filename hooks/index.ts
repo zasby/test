@@ -38,3 +38,6 @@ export { useAuth } from "./loginForm/useAuth";
 export { useRequestHandler } from "./useRequestHandler";
 export { usePagingWithController, usePaging } from "./usePaging";
 export { useDebounce } from "./useDebounce";
+export { useUpdate, useUpdateWithController } from "./useUpdate";
+export { useColorSchemeStyles } from "./useColorSchemeStyles";
+export { useEditable } from "./useEditable";
