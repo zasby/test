@@ -51,3 +51,5 @@ export { useDebounce } from "./hooks/useDebounce";
 export { useUpdate, useUpdateWithController } from "./hooks/useUpdate";
 export { useColorSchemeStyles } from "./hooks/useColorSchemeStyles";
 export { useEditable } from "./hooks/useEditable";
+
+export { client } from "./plugins/client";
