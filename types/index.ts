@@ -12,7 +12,9 @@ export { guideKeys } from "./Guide";
 export type { IBoardColumnsState,  IBoardCollapseContext } from "./Board";
 export type { ICollapseContext } from "./Collapse";
 export type { IIssueContext } from "./Issue";
-export { IssueType, IssueTypeKeys } from "./issueTypeKeys";
+export { IssueTypeKeys, IssueQueryKeys } from "./issueTypeKeys";
+export type { IssueType } from "./issueTypeKeys";
+
 export {
   RelationsKeys,
   IndicatorIconsKeys,
