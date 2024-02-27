@@ -1,2 +1,0 @@
-1 - 1anchor - при добавления сотрудника справа от "Reusable invitation code"
-2 - 2anchor - при добавления сотрудника справа от "Additional settings"

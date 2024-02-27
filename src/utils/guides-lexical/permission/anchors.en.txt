@@ -1,6 +1,0 @@
-1 - 1anchor - на функции на табе "PERMISSIONS" справа от "ORG CHART BLOCK"
-2 - 2anchor - на функции на табе "PERMISSIONS" справа от "ROUTINES BLOCK"
-3 - 3anchor - на функции на табе "PERMISSIONS" справа от "EMPLOYEES BLOCK"
-4 - 4anchor - на функции на табе "PERMISSIONS" справа от "COMPANY BLOCK"
-5 - 5anchor - на функции на табе "PERMISSIONS" справа от "REPORTS BLOCK"
-6 - 6anchor - на функции на табе "PERMISSIONS" справа от "SCHEDULE BLOCK"
