@@ -10,8 +10,8 @@ export type { AssignableRef } from "./AssignableRef";
 export type { guideContentType } from "./Guide";
 export { guideKeys } from "./Guide";
 export type { IBoardColumnsState,  IBoardCollapseContext } from "./Board";
-export { ICollapseContext } from "./Collapse";
-export { IIssueContext } from "./Issue";
+export type { ICollapseContext } from "./Collapse";
+export type { IIssueContext } from "./Issue";
 export { IssueType, IssueTypeKeys } from "./issueTypeKeys";
 export {
   RelationsKeys,
@@ -21,6 +21,5 @@ export {
   ActionBaseRuleKey,
   CommunicationModeKey,
 } from "./keys";
-export type { RelationsTypes } from "./BoardRelationSwitch.interface";
-export { IBoardRelationSwitch } from "./BoardRelationSwitch.interface";
+export type { RelationsTypes, IBoardRelationSwitch } from "./BoardRelationSwitch.interface";
 
