@@ -1,6 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import { IUseTimer } from "../helpers/types/Timer";
 
+export interface IUseTimer {
+  start: (minutes: number) => void;
+  end: () => void;
+  isEnd: boolean;
+  remainingTime: string;
+}
 
 export const useTimer = (): IUseTimer => {
   const [isEnd, setIsEnd] = useState<boolean>(false);

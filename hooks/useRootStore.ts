@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { RootStoreContext } from "../contexts/rootStoreContext";
+import { RootStoreContext } from "test/contexts";
 
 export function useRootStore() {
   const context = useContext(RootStoreContext);

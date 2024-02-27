@@ -1,22 +1,22 @@
 // import { notification } from "../helpers/notifyHelpers";
-// import { Button } from "../components/uiKit";
+import { Button } from "../components/uiKit";
 import { ButtonProps } from "antd/lib/button";
 import React from "react";
 import { App } from "antd";
 import { useTranslation } from "react-i18next";
-import { NotificationType } from "../helpers/types";
+
+export type NotificationType = "success" | "info" | "warning" | "error";
 
 function NotifierButton(text: string, onClick: () => void, props?: ButtonProps) {
   return (
-    <button>{text}</button>
-    // <Button
-    //   {...props}
-    //   onClick={(event) => {
-    //     onClick();
-    //   }}
-    // >
-    //   {text}
-    // </Button>
+    <Button
+      {...props}
+      onClick={(event) => {
+        onClick();
+      }}
+    >
+      {text}
+    </Button>
   );
 }
 

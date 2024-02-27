@@ -1,5 +1,10 @@
 import { MutableRefObject, useMemo } from "react";
-import { AssignableRef } from "../helpers/types/AssignableRef";
+
+export type AssignableRef<ValueType> =
+  | {
+      bivarianceHack(instance: ValueType | null): void;
+    }["bivarianceHack"]
+  | MutableRefObject<ValueType | null>;
 
 export function useForkedRef<RefValueType = any>(...refs: (AssignableRef<RefValueType> | null | undefined)[]) {
   return useMemo(() => {

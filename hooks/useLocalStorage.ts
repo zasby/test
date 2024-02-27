@@ -89,6 +89,8 @@ export function useLocalStorage<T>(key: string, initialValue: T, params?: TUseLo
   return [storedValue, setValue];
 }
 
+export default useLocalStorage;
+
 // A wrapper for "JSON.parse()"" to support "undefined" value
 function parseJSON<T>(value: string | null): T | undefined {
   try {
