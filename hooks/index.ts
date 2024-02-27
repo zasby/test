@@ -36,5 +36,5 @@ export { useForkedRef } from "./useForkedRef";
 export { useIsFirstRender } from "./useIsFirstRender";
 export { useAuth } from "./loginForm/useAuth";
 export { useRequestHandler } from "./useRequestHandler";
-export { usePagingWithController, usePagingWithController } from "./usePaging";
+export { usePagingWithController, usePaging } from "./usePaging";
 export { useDebounce } from "./useDebounce";
