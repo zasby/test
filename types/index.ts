@@ -9,7 +9,7 @@ export type { IUseTimer } from "./Timer"
 export type { AssignableRef } from "./AssignableRef";
 export type { guideContentType } from "./Guide";
 export { guideKeys } from "./Guide";
-export { IBoardColumnsState,  IBoardCollapseContext } from "./Board";
+export type { IBoardColumnsState,  IBoardCollapseContext } from "./Board";
 export { ICollapseContext } from "./Collapse";
 export { IIssueContext } from "./Issue";
 export { IssueType, IssueTypeKeys } from "./issueTypeKeys";

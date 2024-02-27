@@ -1,5 +1,5 @@
 // import { notification } from "../helpers/notifyHelpers";
-import { Button } from "../components/uiKit";
+// import { Button } from "../components/uiKit";
 import { ButtonProps } from "antd/lib/button";
 import React from "react";
 import { App } from "antd";
@@ -9,14 +9,22 @@ export type NotificationType = "success" | "info" | "warning" | "error";
 
 function NotifierButton(text: string, onClick: () => void, props?: ButtonProps) {
   return (
-    <Button
+    <div
       {...props}
       onClick={(event) => {
         onClick();
       }}
     >
       {text}
-    </Button>
+    </div>
+    // <Button
+    //   {...props}
+    //   onClick={(event) => {
+    //     onClick();
+    //   }}
+    // >
+    //   {text}
+    // </Button>
   );
 }
 
