@@ -5,7 +5,7 @@ import {
 import {
   RelationsTypes,
   RelationsKeys,
-  IBoardColumnsState
+  IBoardColumnsState,
   IBoardCollapseContext,
 } from "../../types";
 import { createContext } from "react";
