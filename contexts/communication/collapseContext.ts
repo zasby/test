@@ -1,5 +1,5 @@
 import { createContext } from "react";
-export { ICollapseContext } from "../../types";
+export { ICollapseContext } from "../../types/Collapse";
 
 const defaultCollapseState: ICollapseContext = {
   draggedIssueId: undefined,
