@@ -29,6 +29,7 @@ export const useAuth = () => {
     console.log('authReq', authReq);
     if (authReq === true) {
       navigate("/orgchart");
+      console.log('notifier', notifier);
       notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
     } else {
       setIsLoading(false);
