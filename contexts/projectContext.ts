@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { projectSectionKeys } from "../components/modules/pages/projects/misc/constants/routesKeys";
+import { projectSectionKeys } from "../types";
 
 
 
