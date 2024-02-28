@@ -20,18 +20,17 @@ export const useAuth = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   //
   const handleLogin = async ({ login, password }: { login: string; password: string }) => {
-    console.log('login', login);
     setIsLoading(true);
     const authReq = await authStore.authorizeWithCredentials({
       email: login,
       password: password,
     });
+    setIsLoading(false);
     console.log('authReq', authReq);
     if (authReq === true) {
       navigate("/orgchart");
       notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
     } else {
-      setIsLoading(false);
       onError(authReq);
     }
   };
