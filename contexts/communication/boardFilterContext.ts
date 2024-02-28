@@ -1,12 +1,12 @@
 import {
   sortKeys,
   sortKeyType,
-  IBoardColumnsState,
-  IBoardCollapseContext
 } from "../../types/communication";
 import {
   RelationsTypes,
   RelationsKeys,
+  IBoardColumnsState
+  IBoardCollapseContext,
 } from "../../types";
 import { createContext } from "react";
 import { BoardDto } from "../../api";
