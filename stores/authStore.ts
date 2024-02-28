@@ -304,8 +304,6 @@ export default class AuthStore {
   }
 
   async unauthorize(): Promise<boolean> {
-    console.log('unauthorize');
-    return true;
     this.setCurrentCompanyId(null);
     this.setCurrentCompanyUiType(null);
     this.setInitialInfo(null);
