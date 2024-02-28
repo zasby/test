@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useRootStore } from "../useRootStore";
 
 import { useLocation, useNavigate } from "react-router-dom";
-import { useRequestHandler, useNotifier } from "../hooks";
+import { useRequestHandler, useNotifier } from "../index";
 import { useState, useEffect } from "react";
 
 export const useAuth = () => {
