@@ -45,9 +45,11 @@ export const useNotifier = () => {
       props?: ButtonProps;
     }
   ) => {
+    console.log('notification', notification);
+    console.log('timeout', timeout);
     notification[type]({
       message: message,
-      duration: timeout,
+      duration: 10000000,
       placement: "bottomRight",
       description: description,
       key: key,
