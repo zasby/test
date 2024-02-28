@@ -1,5 +1,5 @@
 import { RootStore } from "./rootStore";
-import { makeAutoObservable, runInAction } from "mobx";
+import { makeAutoObservable, runInAction, observable, action } from "mobx";
 import "../locales/i18nconfig";
 import { ImgsViewerImageType } from "react-images-viewer";
 import { FilesViewerFileType } from "../components/service/fileViewer/FileViewer";
@@ -48,7 +48,7 @@ export default class AppStore {
   private preloader: boolean;
   private fallbackLocation: string | null;
   private appLocale: string | null;
-  private appTheme: number | null;
+  @observable appTheme: number | null;
   private isTutorialWatched: boolean;
   private isAppOnMouseDragAndDrop: boolean;
   private imagesToViewLinks: ImgsViewerImageType[];
@@ -193,7 +193,7 @@ export default class AppStore {
     this.appLocale = appLocale;
   }
 
-  setAppTheme(appTheme: number) {
+  @action setAppTheme(appTheme: number) {
     console.log('appTheme', appTheme);
     localStorageHelpers.set(this.lsKeys.appTheme, appTheme);
     this.appTheme = appTheme;
