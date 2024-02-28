@@ -24,4 +24,4 @@ const defaultBoardFilterState: IBoardCollapseContext = {
   isDeadlineToday: false,
 };
 
-export const z = createContext<IBoardCollapseContext>(defaultBoardFilterState);
+export const BoardFilterContext = createContext<IBoardCollapseContext>(defaultBoardFilterState);
