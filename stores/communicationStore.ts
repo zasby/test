@@ -19,6 +19,7 @@ export default class CommunicationStore {
   }
 
   setMode(mode: CommunicationModeKey) {
+    console.log('mode', mode);
     this._mode = mode;
     localStorage.setItem('communicationModeKey', mode);
   }
