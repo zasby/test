@@ -197,7 +197,7 @@ export default class AppStore {
     console.log('appTheme', appTheme);
     localStorageHelpers.set(this.lsKeys.appTheme, appTheme);
     this.appTheme = appTheme;
-    console.log('setAppTheme this', this);
+    console.log('setAppTheme this1', this);
   }
 
   setIsTutorialWatched(value: boolean, later = true) {
