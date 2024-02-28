@@ -1,4 +1,11 @@
-import { RelationsTypes, RelationsKeys,  sortKeys, sortKeyType, IBoardColumnsState, IBoardCollapseContext  } from "../../types";
+import {
+  RelationsTypes,
+  RelationsKeys,
+  sortKeys,
+  sortKeyType,
+  IBoardColumnsState,
+  IBoardCollapseContext
+} from "../../types/communication";
 import { createContext } from "react";
 import { BoardDto } from "../../api";
 
@@ -15,4 +22,4 @@ const defaultBoardFilterState: IBoardCollapseContext = {
   isDeadlineToday: false,
 };
 
-export const BoardFilterContext = createContext<IBoardCollapseContext>(defaultBoardFilterState);
+export const z = createContext<IBoardCollapseContext>(defaultBoardFilterState);
