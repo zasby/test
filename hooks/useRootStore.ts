@@ -12,5 +12,5 @@ export function useRootStore() {
   console.log('GlobalStore', GlobalStore);
   console.log('GlobalStore.getStories', GlobalStore.getStories);
 
-  return GlobalStore.getStories;
+  return GlobalStore.getStories ?? useContext(RootStoreContext);
 }
