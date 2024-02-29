@@ -13,4 +13,6 @@ export class GlobalStore {
     console.log('stories', stories);
     this.stories = theme;
   }
-}
+};
+
+export const globalStore = new GlobalStore();
