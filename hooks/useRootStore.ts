@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { RootStoreContext } from "test/contexts";
-import {GlobalStore} from "../stores/globalStore";
+import { globalStore } from "../stores/globalStore";
 
 export function useRootStore() {
   // const context = useContext(RootStoreContext);
@@ -12,5 +12,5 @@ export function useRootStore() {
   console.log('GlobalStore', GlobalStore);
   console.log('GlobalStore.getStories', GlobalStore.getStories);
 
-  return GlobalStore.getStories ?? useContext(RootStoreContext);
+  return globalStore.getStories ?? useContext(RootStoreContext);
 }
