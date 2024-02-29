@@ -50,7 +50,7 @@ export class RootStore {
   }
 }
 
-console.log('RootStore', RootStore);
+console.log('RootStore1=========', RootStore);
 console.log('new RootStore()', new RootStore());
 // To access outside of react context
 export const rootStore = new RootStore();
