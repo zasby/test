@@ -103,9 +103,9 @@ const generateThemeObjectByThemeId = (themeId: number): IUseThemeState => {
   };
 };
 
-export const useTheme = (useRootStore?: any): IUseThemeReturn => {
+export const useTheme = (): IUseThemeReturn => {
   const { appStore } = useRootStore();
-  console.log('appStore', appStore);
+  console.log('appStore1111', appStore);
 
   const [state, setState] = useState<IUseThemeState>(generateThemeObjectByThemeId(appStore.getAppTheme ?? 0));
 
@@ -113,7 +113,7 @@ export const useTheme = (useRootStore?: any): IUseThemeReturn => {
 
   useEffect(() => {
     setState(generateThemeObjectByThemeId(appStore.getAppTheme ?? 0));
-    console.log('useEffect theme');
+    console.log('useEffect theme', appStore.getAppTheme);
   }, [appStore.getAppTheme]);
 
   return state;
