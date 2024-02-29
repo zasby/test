@@ -103,7 +103,7 @@ const generateThemeObjectByThemeId = (themeId: number): IUseThemeState => {
   };
 };
 
-export const useTheme = (useRootStore: any): IUseThemeReturn => {
+export const useTheme = (useRootStore?: any): IUseThemeReturn => {
   const { appStore } = useRootStore();
   console.log('appStore', appStore);
 
