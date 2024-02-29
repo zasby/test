@@ -11,7 +11,7 @@ export class GlobalStore {
 
   setStories(stories: any): void {
     console.log('stories', stories);
-    this.stories = theme;
+    this.stories = stories;
   }
 };
 
