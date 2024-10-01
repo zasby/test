@@ -17,6 +17,8 @@ export default {
   setup: (store: RootStore, params?: IInterceptorsParams) => {
     client.interceptors.request.use((config: AxiosRequestConfig) => {
       if (config && config.headers) {
+        console.log('params?.accessToken ', params?.accessToken);
+        console.log('store.authStore.getAccessToken', store.authStore.getAccessToken);
         // SET ACCESS TOKEN HEADER
         if (params?.accessToken !== null) {
           // params.accessToken
