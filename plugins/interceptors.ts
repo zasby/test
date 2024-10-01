@@ -13,7 +13,7 @@ const getRefreshToken = () => {
   return rootStore.authStore.getAccessToken;
 };
 
-export default {
+export const Interceptors = {
   setup: (store: RootStore, params?: IInterceptorsParams) => {
     client.interceptors.request.use((config: AxiosRequestConfig) => {
       if (config && config.headers) {
