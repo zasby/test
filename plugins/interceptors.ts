@@ -17,8 +17,6 @@ export const Interceptors = {
   setup: (store: RootStore, params?: IInterceptorsParams) => {
     client.interceptors.request.use((config: AxiosRequestConfig) => {
       if (config && config.headers) {
-        console.log('params?.accessToken ', params?.accessToken);
-        console.log('store.authStore.getAccessToken', store.authStore.getAccessToken);
         // SET ACCESS TOKEN HEADER
         if (params?.accessToken !== null) {
           // params.accessToken
@@ -26,6 +24,8 @@ export const Interceptors = {
         } else if (store.authStore.getAccessToken) {
           // store.authStore.getAccessToken
           config.headers.Authorization = "Bearer " + getRefreshToken();
+          console.log('config', config);
+          console.log('onfig.headers.Authorization', config.headers.Authorization);
         }
 
         // SET COMPANY ID HEADER
