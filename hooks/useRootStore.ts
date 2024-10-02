@@ -9,10 +9,8 @@ export function useRootStore() {
   //   throw new Error("useRootStore must be used within it's context provider");
   // }
 
-  console.log('useContext(RootStoreContext)', useContext(RootStoreContext));
-  console.log('globalStore.getStories ', globalStore.getStories);
   const context = useContext(RootStoreContext);
-  console.log('context', context);
+  console.log('context=======================', context);
   // return globalStore.getStories ?? useContext(RootStoreContext);
   return context
 }
