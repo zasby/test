@@ -3,13 +3,15 @@ import { RootStoreContext } from "../contexts";
 import { globalStore } from "../stores/globalStore";
 
 export function useRootStore() {
-  const context = useContext(RootStoreContext);
+  // const context = useContext(RootStoreContext);
+  //
+  // if (context === undefined) {
+  //   throw new Error("useRootStore must be used within it's context provider");
+  // }
 
-  if (context === undefined) {
-    throw new Error("useRootStore must be used within it's context provider");
-  }
-  return context;
   // return globalStore.getStories ?? useContext(RootStoreContext);
+  console.log('useContext(RootStoreContext)', useContext(RootStoreContext));
+  return useContext(RootStoreContext);
 }
 
 // import { useContext } from "react";
