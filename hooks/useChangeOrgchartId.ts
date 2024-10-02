@@ -8,4 +8,8 @@ export const useChangeOrgchartId = () => {
   const handleChangeOrgchartId = useCallback((orgchartId: number) => {
     orgchartStore.setCurrentOrgchartId(orgchartId);
   }, []);
+
+  return {
+    handleChangeOrgchartId,
+  }
 };
