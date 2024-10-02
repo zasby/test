@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { useRootStore } from "./useRootStore";
 
@@ -13,6 +13,10 @@ export const useChangeOrgchartId = () => {
     console.log('handleChangeOrgchartId getCurrentOrgchartId', orgchartStore.getCurrentOrgchartId);
 
   };
+
+  useEffect(() => {
+    console.log('useEffect orgchartStore.getCurrentOrgchartId', orgchartStore.getCurrentOrgchartId);
+  }, [orgchartId]);
 
   return {
     handleChangeOrgchartId,
