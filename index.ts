@@ -1,3 +1,5 @@
+export { observer } from "mobx-react-lite";
+
 // // context
 export { RootStoreContext } from "./contexts/rootStoreContext";
 export { StoreContext, RootStoreProvider } from "./contexts/storeContext";
