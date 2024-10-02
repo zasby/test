@@ -6,7 +6,7 @@ export const useChangeOrgchartId = () => {
   const { orgchartStore } = useRootStore();
 
   const handleChangeOrgchartId = useCallback((orgchartId: number) => {
-    console.log('handleChangeOrgchartId', orgchartId);
+    console.log('handleChangeOrgchartId ', orgchartId);
     orgchartStore.setCurrentOrgchartId(orgchartId);
   }, []);
 
