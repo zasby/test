@@ -27,6 +27,7 @@ export const useAuth = () => {
     });
     setIsLoading(false);
     console.log('authReq', authReq);
+    console.log('handleLogin');
     if (authReq === true) {
       // navigate("/orgchart");
       notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
@@ -39,7 +40,7 @@ export const useAuth = () => {
     const r = await authStore.authorizeWithToken(qToken ?? "");
     notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
     if (r) {
-      navigate("/orgchart");
+      // navigate("/orgchart");
     }
   };
   //
