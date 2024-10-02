@@ -58,6 +58,8 @@ export default class OrgchartStore {
   setCurrentOrgchartId(id: number | null | undefined) {
     const t = i18n.t;
     this.currentOrgchartId = id;
+    console.log('this.orgchartsList', this.orgchartsList);
+    console.log('this.currentOrgchartId', this.currentOrgchartId);
     this.currentOrgchart = this.orgchartsList.find((o) => o.id == this.currentOrgchartId);
     if (this.currentOrgchart?.isEmpty) return;
     this.currentOrgchartResultName =
