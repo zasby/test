@@ -40,6 +40,7 @@ export const useAuth = () => {
     notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
     if (r) {
       // navigate("/orgchart");
+    }
   };
   //
   useEffect(() => {
