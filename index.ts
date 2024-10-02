@@ -55,3 +55,5 @@ export { useEditable } from "./hooks/useEditable";
 export { Interceptors } from "./plugins/interceptors";
 
 export { client } from "./plugins/client";
+
+export { RootObserver } from "./RootObserver";
