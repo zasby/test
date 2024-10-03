@@ -20,15 +20,15 @@ export const useAuth = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   //
   const handleLogin = async ({ login, password }: { login: string; password: string }) => {
-    // setIsLoading(true);
+    setIsLoading(true);
     const authReq = await authStore.authorizeWithCredentials({
       email: login,
       password: password,
     });
-    // setIsLoading(false);
+    setIsLoading(false);
     console.log('authReq', authReq);
     if (authReq === true) {
-      // navigate("/orgchart");
+      navigate("/orgchart");
       notifier.show({ message: t("notifier:success.good_login"), theme: "success" });
     } else {
       onError(authReq);
@@ -39,7 +39,7 @@ export const useAuth = () => {
     const r = await authStore.authorizeWithToken(qToken ?? "");
     notifier.showSuccessError(t("notifier:success.good_login"), t("notifier:error.bad_login_token"), r);
     if (r) {
-      // navigate("/orgchart");
+      navigate("/orgchart");
     }
   };
   //
