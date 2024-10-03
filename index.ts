@@ -3,7 +3,7 @@ export { observer } from "mobx-react-lite";
 // // context
 export { RootStoreContext } from "./contexts/rootStoreContext";
 // export { StoreContext, RootStoreProvider } from "./contexts/storeContext";
-export { RootStoreProvider } from "./contexts/storeContext";
+export { StoreProvider, useStore } from "./contexts/storeContext";
 
 export { GlobalAuthorizedContext, GlobalAuthorizedContextProvider} from "./contexts/globalAuthorizedContext";
 export { OrgchartContext } from "./contexts/orgchartContext";
