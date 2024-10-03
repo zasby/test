@@ -20,12 +20,12 @@ export const useAuth = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   //
   const handleLogin = async ({ login, password }: { login: string; password: string }) => {
-    setIsLoading(true);
+    // setIsLoading(true);
     const authReq = await authStore.authorizeWithCredentials({
       email: login,
       password: password,
     });
-    setIsLoading(false);
+    // setIsLoading(false);
     console.log('authReq', authReq);
     if (authReq === true) {
       navigate("/orgchart");
