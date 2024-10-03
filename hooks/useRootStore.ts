@@ -10,7 +10,6 @@ export function useRootStore() {
   // }
 
   const context = useContext(RootStoreContext);
-  console.log('context=======================', context);
   // return globalStore.getStories ?? useContext(RootStoreContext);
   return context
 }
