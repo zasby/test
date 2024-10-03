@@ -56,7 +56,6 @@ export { useUpdate, useUpdateWithController } from "./hooks/useUpdate";
 export { useColorSchemeStyles } from "./hooks/useColorSchemeStyles";
 export { useEditable } from "./hooks/useEditable";
 
-export { Interceptors } from "./plugins/interceptors";
 
 export { client } from "./plugins/client";
 
