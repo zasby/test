@@ -1,6 +1,8 @@
 // // context
 export { RootStoreContext } from "./rootStoreContext";
-export { StoreContext, RootStoreProvider } from "./storeContext";
+// export { StoreContext, RootStoreProvider } from "./storeContext";
+export { RootStoreProvider } from "./storeContext";
+
 export { GlobalAuthorizedContext, GlobalAuthorizedContextProvider} from "./globalAuthorizedContext";
 export { OrgchartContext } from "./orgchartContext";
 export { BoardFilterContext } from "./communication/boardFilterContext";
