@@ -31,7 +31,6 @@ export class RootStore {
   communicationCalendarPlanningStore: CommunicationCalendarPlanningStore;
 
   constructor() {
-    console.log('RootStore');
     makeAutoObservable(this);
     this.notifierStore = new NotifierStore(this);
     this.authStore = new AuthStore(this);
@@ -50,7 +49,5 @@ export class RootStore {
   }
 }
 
-console.log('RootStore1=========', RootStore);
-console.log('new RootStore()', new RootStore());
 // To access outside of react context
 export const rootStore = new RootStore();

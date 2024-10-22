@@ -10,4 +10,5 @@ export type EducationItemDto = {
     isAvailable?: boolean;
     key?: string | null;
     children?: Array<EducationItemDto> | null;
+    progress?: number;
 }

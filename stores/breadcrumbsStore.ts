@@ -1,6 +1,6 @@
 import { makeAutoObservable, runInAction } from "mobx";
-import { BreadcrumbToken } from "../components/modules/pages/regulation/misc/breadcrumbsKeys";
 import { RootStore } from "./rootStore";
+import { BreadcrumbToken } from "../types/breadcrumbsKeys";
 
 export default class BreadcrumbsStore {
   root: RootStore;

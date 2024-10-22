@@ -13,6 +13,7 @@ import {
   DriverAdminController,
   DriverController,
   EducationController,
+  GoogleCalendarController,
   HelperController,
   IssueController,
   IssueHistoryController,
@@ -44,9 +45,11 @@ import {
   UserScheduleController,
   UserShortController,
   UserWithRegulationStatsController,
+  NavigationMenuController,
 } from "../api/controllers";
 import { client } from "../plugins/client";
 import { CalendarEventController } from "../api/controllers/calendarEventController";
+import { TagsController } from "../api/controllers/tagsController";
 
 class Api {
   public auth: AuthController;
@@ -94,6 +97,9 @@ class Api {
   public localization: LocalizationController;
   public menuItem: MenuItemController;
   public calendarEvent: CalendarEventController;
+  public googleCalendar: GoogleCalendarController;
+  public navigationMenu: NavigationMenuController
+  public tags: TagsController;
 
   constructor(axios: AxiosInstance) {
     this.auth = new AuthController(axios);
@@ -141,6 +147,9 @@ class Api {
     this.localization = new LocalizationController(axios);
     this.menuItem = new MenuItemController(axios);
     this.calendarEvent = new CalendarEventController(axios);
+    this.googleCalendar = new GoogleCalendarController(axios);
+    this.navigationMenu = new NavigationMenuController(axios);
+    this.tags = new TagsController(axios);
   }
 }
 

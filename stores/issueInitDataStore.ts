@@ -1,12 +1,13 @@
 import { IssueDto } from "../api";
 import { RootStore } from "./rootStore";
 import { makeAutoObservable } from "mobx";
-import { blockedFieldsKeys } from "../components/modules/forms/types/consts";
+import { blockedFieldsKeys } from "../types/consts";
 
 export class IssueInitDataStore {
   root: RootStore;
   private issueData: IssueDto;
   private blockedFields: blockedFieldsKeys[];
+  private relatedTaskLink: string;
   private onSuccessCreate?: (issues: (IssueDto | null)[]) => Promise<void | any> | void;
   private onStatusChange?: () => void;
   public onChangeDefiniteField?: () => void;
@@ -16,6 +17,7 @@ export class IssueInitDataStore {
     this.root = root;
     this.issueData = {};
     this.blockedFields = [];
+    this.relatedTaskLink = "";
   }
 
   get getOnStatusChange(): (() => void) | undefined {
@@ -38,6 +40,9 @@ export class IssueInitDataStore {
     return this.onChangeDefiniteField;
   }
 
+  get getRelatedTaskLink() {
+    return this.relatedTaskLink;
+  }
   /*set setOnCreate(newOnCreate: (issues: (IssueDto | null)[]) => void) {
     this.onSuccessCreate = newOnCreate;
   }*/
@@ -56,6 +61,10 @@ export class IssueInitDataStore {
 
   set setOnStatusChange(newOnStatusChange: (() => void) | undefined) {
     this.onStatusChange = newOnStatusChange;
+  }
+
+  set setRelatedTaskLink(link: string) {
+    this.relatedTaskLink = link;
   }
 
   setIssueData(newData: IssueDto) {

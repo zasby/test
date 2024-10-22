@@ -42,3 +42,6 @@ export { OrgchartController } from "./orgchartController";
 export { ProjectController } from "./projectController";
 export { LocalizationController } from "./localizationController";
 export { MenuItemController } from "./menuItemController";
+export { GoogleCalendarController } from "./googleCalendarController"
+
+export { NavigationMenuController } from "./navigationMenuController";

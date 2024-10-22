@@ -1,7 +1,11 @@
 import { createContext } from "react";
-import { IReportContext } from "../type";
+import { UserShortDto } from "../api";
 
-
+export interface IReportContext {
+  reportKey?: string | null;
+  users?: UserShortDto[] | null;
+  timeInterval?: { from: string; to: string };
+}
 
 const defaultReportState: IReportContext = {
   reportKey: undefined,

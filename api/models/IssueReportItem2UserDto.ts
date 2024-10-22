@@ -5,4 +5,5 @@
 export type IssueReportItem2UserDto = {
     userId?: number;
     value?: number | null;
+    orgchartId?: number;
 }

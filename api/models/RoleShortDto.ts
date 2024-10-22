@@ -12,5 +12,5 @@ export type RoleShortDto = {
     orgchartId?: number;
     level?: number;
     order?: number;
-    parentRoleId?: number | null;
+    parentId?: number | null;
 }

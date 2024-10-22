@@ -2,6 +2,7 @@ import { ApiControllerGet } from "./apiControllerGet";
 import { IApiControllerCrud } from "../interfaces/iApiControllerCrud";
 import { AxiosInstance } from "axios";
 import * as jsonpatch from "fast-json-patch";
+import { OperationDto, OrgchartFromFileDto } from "../models/OrgchartDto";
 
 export abstract class ApiControllerCrud<T, TFilter>
   extends ApiControllerGet<T, TFilter>
@@ -15,6 +16,10 @@ export abstract class ApiControllerCrud<T, TFilter>
     return await this.process<T>(this.post("", { data: m }));
   }
 
+  async fromFile(m: FormData): Promise<OrgchartFromFileDto | null> {
+    return await this.process<OrgchartFromFileDto>(this.post("from-file", { data: m }));
+  }
+
   async del(id: number): Promise<boolean | null> {
     return await this.process<boolean>(
       this.delete(id.toString()),
@@ -25,6 +30,14 @@ export abstract class ApiControllerCrud<T, TFilter>
 
   async edit(id: number, m: T, params?: any): Promise<T | null> {
     return await this.process<T>(this.put(id.toString(), { data: m, params: params }));
+  }
+
+  async editPatch(id: number, data: OperationDto[]): Promise<T | null> {
+    return await this.process<T>(this.patch(id.toString(), { data }));
+  }
+
+  async archive(id: number): Promise<T | null> {
+    return await this.process<T>(this.get(`${id}/archive`));
   }
 
   async editPartially(

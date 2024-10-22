@@ -11,4 +11,5 @@ export type BoardStatusTransitionActionDto = {
     issueStatus?: BoardStatusDto;
     baseTransitionActionKey?: string | null;
     rules?: Array<BoardStatusTransitionActionRuleDto> | null;
+    actionKey?: string;
 }

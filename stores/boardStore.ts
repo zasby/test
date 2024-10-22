@@ -34,7 +34,6 @@ export default class BoardStore {
 
   fetchBoard(boardId: number | null) {
     if (boardId == null) return;
-    console.log(' api.board', api.board);
     api.board.getById(boardId).then((board) => {
       runInAction(() => {
         this.board = board ?? null;

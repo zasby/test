@@ -65,20 +65,25 @@ export class AdminCompanyController extends ApiControllerCrud<CompanyForAdminDto
   }
 
   public async getCompaniesStats(
-    dateFrom: Date,
-    dateTo: Date,
+    dateFrom: string,
+    dateTo: string,
     isPaid: boolean | null,
-    isTest: boolean,
+    isPartiallyPaid: boolean | null,
+    isTest: boolean  | null,
+    isInactive: boolean | null,
     hasDriver: boolean | null
   ): Promise<Report2ValueModel[] | null> {
+
     return await this.process(
       this.get("report/count", {
         params: {
-          dateFrom: dateFrom.toISOString(),
-          dateTo: dateTo.toISOString(),
+          dateFrom,
+          dateTo,
           isPaid: isPaid,
-          isTest: isTest,
+          isTest,
+          isInactive,
           hasDriver: hasDriver,
+          isPartiallyPaid,
           pageSize: 1000,
         },
       })

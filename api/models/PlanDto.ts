@@ -6,6 +6,9 @@ import type { AccessLevels } from './AccessLevels';
 import type { Plan2IssueDto } from './Plan2IssueDto';
 import type { UserDto } from './UserDto';
 import type { UserShortDto } from './UserShortDto';
+import type { IssueShortDto } from "./IssueShortDto";
+import { IssueDto } from "./IssueDto";
+import { PlanIssueDto } from "./PlanIssueDto";
 
 export type PlanDto = {
     id?: number;
@@ -28,5 +31,8 @@ export type PlanDto = {
     allowedStatuses?: Array<number> | null;
     isCurrent?: boolean;
     issues?: Array<Plan2IssueDto> | null;
-    canBeMigratedFromPlanId?: number | null;
+    plannedIssues?: PlanIssueDto[] | null;
+    // canBeMigratedFromPlanId?: number | null;
+    canBeMigratedFromPlan?: boolean;
+    items?: IssueShortDto[];
 }

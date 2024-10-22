@@ -9,6 +9,11 @@ import type { UserContactDto } from './UserContactDto';
 import type { UserEducationHistoryDto } from './UserEducationHistoryDto';
 import type { UserTypeDto } from './UserTypeDto';
 
+export type PersonalInfoDto = {
+    birthDate?: string;
+    employmentDate?: string;
+}
+
 export type UserDto = {
     id?: number;
     firstName?: string | null;
@@ -40,4 +45,5 @@ export type UserDto = {
     isDeleted?: boolean;
     dateDeletedAt?: string | null;
     timeZoneId?: string | null;
+    personalInfo?: PersonalInfoDto;
 }

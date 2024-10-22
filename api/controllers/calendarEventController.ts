@@ -8,15 +8,19 @@ export class CalendarEventController extends ApiControllerCrud<CalendarEventDto,
     super(cl, v, "calendarEvent");
   }
 
-  async getCalendarEvents(opts?: any, signal?: any): Promise<CalendarEventDto[] | null> {
+  async getCalendarEvents(opts?: any, signal?: AbortSignal): Promise<CalendarEventDto[] | null> {
     return await this.process<CalendarEventDto[]>(this.get("", { params: opts, signal }));
   }
 
-  async getSchedule(opts?: any): Promise<any | null> {
-    return await this.process<any>(this.get("schedule", { params: opts }));
+  async getSchedule(opts?: any, signal?: AbortSignal): Promise<any | null> {
+    return await this.process<any>(this.get("schedule", { params: opts, signal }));
   }
 
   async getStatistic(opts?: any): Promise<any | null> {
     return await this.process<any>(this.get("statistic", { params: opts }));
+  }
+
+  async getReport(opts?: any): Promise<any | null> {
+    return await this.process<any>(this.get("report", {  responseType: 'blob', params: opts }));
   }
 }

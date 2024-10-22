@@ -11,6 +11,7 @@ import { api } from "../services";
 import versionCheck from "../plugins/versionCheck";
 import { AxiosError } from "axios";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
+import { GoogleCalendarAccountDto } from "../api/models/GoogleCalendarAccountDto";
 
 const localStorageHelpers = LocalStorageHelpers();
 
@@ -32,6 +33,7 @@ export default class AuthStore {
   private currentBoardId: number | null;
   private inviteCode: string | null;
   private externalId: string | null;
+  private googleAccount: GoogleCalendarAccountDto | null;
 
   constructor(root: RootStore) {
     makeAutoObservable(this);
@@ -50,6 +52,11 @@ export default class AuthStore {
     this.currentBoardId = (this.initialInfo?.boards ?? [])[0]?.id || null;
     this.inviteCode = localStorageHelpers.get(this.lsKeys.inviteCode) ?? null;
     this.externalId = localStorageHelpers.get(this.lsKeys.externalId) ?? null;
+    this.googleAccount = {
+      hasToken: false,
+      connectedToReadCalendar: false,
+      connectedToWriteCalendar: false,
+    }
   }
 
   get getRefreshToken(): RefreshTokenDto | null {
@@ -94,6 +101,10 @@ export default class AuthStore {
     return this.externalId;
   }
 
+  get getGoogleCalendarAccount(): GoogleCalendarAccountDto | null {
+    return this.googleAccount;
+  }
+
   setRefreshToken(token: RefreshTokenDto | null): void {
     this.refreshToken = token;
     localStorageHelpers.set(this.lsKeys.refreshToken, token);
@@ -105,6 +116,14 @@ export default class AuthStore {
   }
 
   setInitialInfo(initialInfo: InitialInfoDto | null): void {
+    if (initialInfo?.identity?.currentCompanyId === 1311 && initialInfo.orgcharts) {
+      const orgchartIndex = initialInfo.orgcharts.findIndex(({id}) => id === 1931);
+      if (orgchartIndex !== -1) {
+        const currentOrgchart = initialInfo.orgcharts[orgchartIndex];
+        initialInfo.orgcharts.splice(orgchartIndex, 1);
+        initialInfo.orgcharts.unshift(currentOrgchart);
+      }
+    }
     this.initialInfo = initialInfo;
     localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
     rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
@@ -118,17 +137,17 @@ export default class AuthStore {
       initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId) ?? []
     );
     rootStore.orgchartStore.getCurrentOrgchartId != null &&
-    !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
-    rootStore.orgchartStore.setCurrentOrgchartId(
-      initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
-    );
+      !rootStore.orgchartStore.getOrgchartsList.some((o) => o.id == rootStore.orgchartStore.getCurrentOrgchartId) &&
+      rootStore.orgchartStore.setCurrentOrgchartId(
+        initialInfo?.orgcharts?.filter((o) => o.companyId == this.getCurrentCompanyId)?.[0]?.id
+      );
   }
 
   setCurrentCompanyId(companyId: number | null): void {
     this.currentCompanyId = companyId;
     this.setCurrentCompany(
       rootStore.authStore.getInitialInfo?.identity?.companies?.find((u2c) => u2c.companyId == companyId)?.company ??
-      null
+        null
     );
   }
 
@@ -152,6 +171,15 @@ export default class AuthStore {
   setExternalId(code: string | null) {
     this.externalId = code;
     localStorageHelpers.set(this.lsKeys.externalId, code ?? "");
+  }
+
+  setGoogleCalendarAccount(value: GoogleCalendarAccountDto | null) {
+    this.googleAccount = value;
+  }
+
+  async fetchGoogleCalendarAccount(){
+    const data = await api.googleCalendar.getIno();
+    this.setGoogleCalendarAccount(data);
   }
 
   async authorizeWithCredentials(authModel: AuthenticationStrategyByCredentialsModel): Promise<AxiosError | true> {
@@ -180,6 +208,8 @@ export default class AuthStore {
         );
         rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
         versionCheck();
+        await this.fetchGoogleCalendarAccount();
+
       },
       (error) => {
         req = error;
@@ -210,6 +240,7 @@ export default class AuthStore {
     );
     rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
     versionCheck();
+    await this.fetchGoogleCalendarAccount();
     // });
 
     return true;
@@ -243,6 +274,7 @@ export default class AuthStore {
     this.refreshHelpers();
     rootStore.orgchartStore.setOrgchartsList(this.initialInfo?.orgcharts);
     versionCheck();
+    await this.fetchGoogleCalendarAccount();
     // });
     return true;
   }

@@ -1,5 +1,5 @@
-import { AxiosInstance } from "axios";
 import { ApiControllerBase } from "../helpers";
+import { AxiosInstance } from "axios";
 import { PermissionDto } from "../models/PermissionDto";
 import { CultureDto } from "../models/CultureDto";
 import { MetaInfo } from "../models/MetaInfo";

@@ -7,6 +7,7 @@ import type { IssueCalculatedShortDto } from './IssueCalculatedShortDto';
 import type { RoleShortDto } from './RoleShortDto';
 import type { StaticFileDto } from './StaticFileDto';
 import type { UserShortDto } from './UserShortDto';
+import { TagDto } from "./TagDto";
 
 export type IssueShortDto = {
     id?: number;
@@ -40,4 +41,6 @@ export type IssueShortDto = {
     flowTypeColorScheme?: string | null;
     orgchartName?: string | null;
     orgchartImage?: StaticFileDto;
+    isStrictDeadline?: boolean;
+    tags?: TagDto[];
 }

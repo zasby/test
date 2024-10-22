@@ -9,4 +9,5 @@ export type PagingOptions = {
     thenOrderBy?: string | null;
     order?: string | null;
     thenOrder?: string | null;
+    maxDepth?: number;
 }

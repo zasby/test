@@ -14,6 +14,7 @@ import type { ProjectDto } from './ProjectDto';
 import type { RoleShortDto } from './RoleShortDto';
 import type { UserShortDto } from './UserShortDto';
 import type { StaticFileDto } from "./StaticFileDto";
+import { TagDto } from "./TagDto";
 
 export type IssueDto = {
     id?: number;
@@ -34,11 +35,13 @@ export type IssueDto = {
     orgchart?: OrgchartDto;
     dateArchivedAt?: string | null;
     timePlan?: string | null;
-    timeFact?: string | null;
-    timePlanForApproval?: string | null;
     timePlanAsSeconds?: number | null;
+    timeFact?: string | null;
     timeFactAsSeconds?: number | null;
+    timePlanForApproval?: string | null;
     timePlanForApprovalAsSeconds?: number | null;
+    timeFactForApproval?: string | null;
+    timeFactForApprovalAsSeconds?: number | null;
     dateDeadlineCalculated?: string | null;
     timePlanFromDateDeadline?: string | null;
     initiatorUserId?: number | null;
@@ -56,6 +59,7 @@ export type IssueDto = {
     dateCreated?: string;
     dateDeadline?: string | null;
     dateWorkStart?: string | null;
+    dateWorkStartForApproval?: string | null;
     fields?: Array<IssueCustomFieldDto> | null;
     attachments?: Array<IssueAttachmentDto> | null;
     participants?: Array<IssueParticipantDto> | null;
@@ -64,4 +68,12 @@ export type IssueDto = {
     flowTypeColorScheme?: string | null;
     orgchartName?: string | null;
     orgchartImage?: StaticFileDto;
+    error?: string;
+    isStrictDeadline?: boolean;
+    tags?: TagDto[];
+    // tagIds?: number[];
 }
+
+export type IssueWithListExecutorDto = Omit<IssueDto, 'executorUserId'> & {
+    executorUserId?: number[];
+};

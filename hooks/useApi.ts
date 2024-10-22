@@ -4,7 +4,7 @@ export interface IUseApiReturn<T> {
   value: T | undefined | null;
   fetch: () => Promise<T | null>;
   set: (data: T) => void;
-
+  setDataSync: (data: T) => void;
   isLoading: boolean;
 }
 
@@ -50,6 +50,7 @@ export const useApi = <T>(
     fetch: fetchApi,
     value: data,
     set: setData,
+    setDataSync,
     isLoading,
   };
 };

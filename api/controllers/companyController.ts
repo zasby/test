@@ -3,6 +3,7 @@ import { AxiosInstance } from "axios";
 import { CompanyDto } from "../models/CompanyDto";
 import { CompanyUserPermissionDto } from "../models/CompanyUserPermissionDto";
 import type { CompanySettingsDto } from "../models/CompanySettingsDto";
+import type { CompanyScheduleDto } from "../models/CompanyScheduleDto";
 
 export class CompanyController extends ApiControllerCrud<CompanyDto, {}> {
   constructor(cl: AxiosInstance, v: string = "v1") {
@@ -39,6 +40,10 @@ export class CompanyController extends ApiControllerCrud<CompanyDto, {}> {
 
   public async getCompanySettings(): Promise<CompanySettingsDto | null> {
     return await this.process(this.get(`settings`));
+  }
+
+  public async getCompanyShedule(id: number): Promise<CompanyScheduleDto[] | null> {
+    return await this.process(this.get(`${id}/schedule`));
   }
 
 }

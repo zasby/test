@@ -5,4 +5,6 @@ export type PagingModel<T> = {
   totalItems: number;
   totalPages: number;
   items: T[];
+  usersCount?: number;
+  timePlanTotal?: string;
 };

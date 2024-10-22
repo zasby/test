@@ -5,7 +5,7 @@ export type { PagingInfo } from "./PagingInfo";
 export type { IUseMediaRecorder, TMediaRecorderStatus } from "./MediaRecorder";
 export { TMediaRecorderErrorType } from "./MediaRecorder";
 
-export type { NotificationType } from ".";
+// export type { NotificationType } from ".";
 export type { IUseTimer } from "./Timer"
 export type { AssignableRef } from "./AssignableRef";
 export type { guideContentType } from "./Guide";
@@ -28,7 +28,7 @@ export type { RelationsTypes, IBoardRelationSwitch } from "./BoardRelationSwitch
 export type { OrgchartContextDialogTypes, IOrgchartContext } from "./OrgchartContext";
 export type { IDriverRTCCallsContext } from "./DriverRTCCallsContext";
 export type { IGlobalAuthorizedContext } from "./GlobalAuthorizedContext.interface";
-export type { IUseTimer } from "./UseTimer.interface";
+// export type { IUseTimer } from "./UseTimer.interface";
 export { CalendarPlanningCalendarViewType } from "./CalendarPlanning";
 export type { IReportContext } from "./ReportContext.interface";
 export { projectSectionKeys, projectRoutesKeys, projectSections } from "./routesKeys";

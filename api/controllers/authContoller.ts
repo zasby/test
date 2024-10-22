@@ -9,6 +9,7 @@ import { PasswordResetAttemptCommand } from "../models/PasswordResetAttemptComma
 import { PasswordResetRequestCommand } from "../models/PasswordResetRequestCommand";
 import { CompanyShortDto } from "../models/CompanyShortDto";
 import { AuthenticationStrategyBySignInTokenModel } from "../models/AuthenticationStrategyBySignInTokenModel";
+import { PasswordUpdateDto } from "../models/PasswordUpdateDto";
 
 export class AuthController extends ApiControllerBase {
   constructor(cl: AxiosInstance, v: string = "v1") {
@@ -62,7 +63,11 @@ export class AuthController extends ApiControllerBase {
     );
   }
 
-  public async resetPassword(model: PasswordResetAttemptCommand): Promise<CompanyDto | null> {
+  public async passwordUpdate(model: PasswordUpdateDto): Promise<AuthenticationResultDto | null> {
+    return await this.process(this.put("password-update", { data: model }))
+  }
+
+  public async resetPassword(model: PasswordResetAttemptCommand): Promise<boolean | null> {
     return await this.process(this.put("password-reset", { data: model }));
   }
 }

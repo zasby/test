@@ -16,8 +16,10 @@ export class OrgchartController extends ApiControllerCrud<OrgchartDto, {}> {
     return await this.process(this.get(orgchartId + "/tree"));
   }
 
-  public async getTreeWithRoles(orgchartId: number): Promise<RolesWithOrgchartDto | null> {
-    return await this.process(this.get(orgchartId + "/tree/with-roles"));
+  public async getTreeWithRoles(orgchartId: number, params?: any): Promise<RolesWithOrgchartDto | null> {
+    return await this.process(this.get(orgchartId + "/tree/with-roles", {
+      params,
+    }));
   }
 
   public async getOrgchartsWithStats(model: { userRelation: string }): Promise<OrgchartStatsDto[] | null> {
@@ -34,6 +36,10 @@ export class OrgchartController extends ApiControllerCrud<OrgchartDto, {}> {
 
   public async getTemplates(type: OrgchartTemplateTypeEnum): Promise<OrgchartTemplateDto[] | null> {
     return await this.process(this.get(`template/${type}`));
+  }
+
+  public async duplicateOrgchart(orgchartId: number): Promise<OrgchartDto | null> {
+    return await this.process(this.post(`${orgchartId}/duplicate`, { data : { orgchartId } }));
   }
 
   public async applyTemplate(orgchartId: number, templateKey: string): Promise<boolean | null> {
@@ -61,4 +67,17 @@ export class OrgchartController extends ApiControllerCrud<OrgchartDto, {}> {
       () => false
     );
   }
+
+  public async changeOrgchartOrder(orgchartId: number, order: number): Promise<boolean | null> {
+    return await this.process(
+      this.post((`${orgchartId}/order/${order}`)),
+      () => true,
+      () => false
+    );
+  }
+
+  public async getSubordinates(orgchartId: number): Promise<OrgchartTemplateDto[] | null> {
+    return await this.process(this.get(`${orgchartId}/subordinates`));
+  }
+
 }

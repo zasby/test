@@ -5,7 +5,7 @@ export type IssueFilter = {
   recurringIssueId?: number;
   userRelation?: string;
   executorUserId?: number;
-  createdByUserId?: number;
+  iniciatorByUserId?: number;
   includeActions?: boolean;
   includeNextStatuses?: boolean;
   includeIndicators?: boolean;

@@ -11,17 +11,20 @@ import { RegulationFilter } from "../api/filters/regulationFilter";
 import { SectionFilter } from "../api/filters/sectionFilter";
 import { api } from "../services";
 import { RootStore } from "./rootStore";
+import { NavigationMenuItemDto } from "../api/models/NavigationMenuDto";
+import { NoAccessData } from "../api/models/NoAccessData";
 
 interface IPagingOptions {
   page: number;
   pageIsLast: boolean;
+  totalItems?: number;
 }
 
 export class RegulationStore {
   root: RootStore;
 
   private sections: SectionDto[];
-  private regulations: RegulationDto[];
+  private regulations: NavigationMenuItemDto[];
 
   private autocompleteSections: AutocompleteModel[];
   private autocompleteRegulations: AutocompleteModel[];
@@ -42,6 +45,10 @@ export class RegulationStore {
 
   private loading: boolean;
   private autocompleteLoading: boolean;
+  private sectionIsEditable: boolean;
+  private regulationIsEditable: boolean;
+  private parentId: number;
+  private noAccessData: NoAccessData | null;
 
   private onError?: () => void;
 
@@ -63,6 +70,10 @@ export class RegulationStore {
     this.pageTabs = [];
     this.loading = false;
     this.autocompleteLoading = false;
+    this.sectionIsEditable = false;
+    this.regulationIsEditable = false;
+    this.parentId = -1;
+    this.noAccessData = null;
   }
 
   get getAutocompleteLoading(): boolean {
@@ -77,7 +88,7 @@ export class RegulationStore {
     return this.sections;
   }
 
-  get getRegulations(): RegulationDto[] {
+  get getRegulations(): NavigationMenuItemDto[] {
     return this.regulations;
   }
 
@@ -125,6 +136,30 @@ export class RegulationStore {
     return this.sectionsAutocompleteFilters;
   }
 
+  get getSectionIsEditable(): boolean {
+    return this.sectionIsEditable;
+  }
+
+  get getRegulationIsEditable(): boolean {
+    return this.regulationIsEditable;
+  }
+
+  get getParentId(): number {
+    return this.parentId;
+  }
+
+  get getNoAccessData(): NoAccessData | null {
+    return this.noAccessData;
+  }
+
+  setRegulationIsEditable(editable: boolean) {
+    this.regulationIsEditable = editable;
+  }
+
+  setSectionIsEditable(value: boolean) {
+    this.sectionIsEditable = value;
+  }
+
   setLoading(newValue: boolean): void {
     runInAction(() => {
       this.loading = newValue;
@@ -144,18 +179,38 @@ export class RegulationStore {
     });
   }
 
-  setRegulations(newRegulations: RegulationDto[], withPrev?: boolean): void {
+  setRegulations(newRegulations: NavigationMenuItemDto[], withPrev?: boolean): void {
     runInAction(() => {
-      if (withPrev) this.regulations.push(...newRegulations);
+      if (withPrev) {
+        newRegulations.forEach((item) => {
+          const currentEl = this.regulations.find((el) => item.regulationId
+            ? el.regulationId === item.regulationId
+            : el.id === item.id
+          );
+          if (!currentEl) {
+            this.regulations.push(item);
+          }
+        });
+
+      }
       else this.regulations = newRegulations;
     });
-  }
+  };
 
-  setSectionsFilters(newFilters: SectionFilter & PagingOptions): void {
+  updateRegulationById(item: NavigationMenuItemDto): void {
     runInAction(() => {
-      this.sectionsFilters = { ...this.sectionsFilters, ...newFilters };
+      const isRegulation = !!item.regulationId;
+      const indexCurrentItem = this.regulations
+        .findIndex(({id, regulationId}) =>
+          isRegulation ? regulationId === item.regulationId : id === item.id);
+      if (indexCurrentItem !== -1) {
+        const regulations = [...this.regulations];
+        regulations.splice(indexCurrentItem, 1, item);
+        this.regulations = regulations;
+      }
+
     });
-  }
+  };
 
   setRegulationsFilters(newFilters: RegulationFilter & PagingOptions): void {
     runInAction(() => {
@@ -179,7 +234,7 @@ export class RegulationStore {
     runInAction(() => {
       this.regulationAutocompletePagingOptions = { ...this.regulationAutocompletePagingOptions, ...newOptions };
     });
-  }
+  };
 
   setSectionAutocompletePagingOptions(newOptions: IPagingOptions) {
     runInAction(() => {
@@ -223,17 +278,26 @@ export class RegulationStore {
     this.onError = onError;
   }
 
+  setParentId(id: number) {
+    this.parentId = id;
+  }
+
+  setNoAccessData(data: NoAccessData | null) {
+    this.noAccessData = data;
+  }
+
   resetRegulationAndSection(): void {
     this.setRegulations([]);
     this.setSections([]);
     this.setSectionPagingOptions({ page: 1, pageIsLast: false });
     this.setRegulationPagingOptions({ page: 1, pageIsLast: false });
+    // this.setParentId(-1);
     this.regulationFilters = {};
     this.sectionsFilters = {};
   }
 
   resetRegulationAutocompleteOptions(): void {
-    this.setRegulationAutocompletePagingOptions({ page: 1, pageIsLast: false });
+    this.setRegulationAutocompletePagingOptions({ page: 1, pageIsLast: false, totalItems: 0 });
     // this.regulationAutocompleteFilters = { pageSize: 10, currentStatusKey: 3 };
     this.regulationAutocompleteFilters = { pageSize: 10 };
   }
@@ -257,7 +321,7 @@ export class RegulationStore {
   async fetchNextPageRegulations() {
     if (!this.getRegulationPagingOptions?.pageIsLast) {
       this.setLoading(true);
-      api.regulation
+      api.navigationMenu
         .getAll({
           ...this.getRegulationsFilters,
           page: this.getRegulationPagingOptions.page,
@@ -265,7 +329,8 @@ export class RegulationStore {
         .then((res) => {
           if (res?.items) {
             const isLastPage = this.getRegulations.length + res.items.length >= res.totalItems!;
-            this.setRegulations(res.items, true);
+
+            this.setRegulations(res.items as NavigationMenuItemDto[], true);
             this.setRegulationPagingOptions({
               page: this.getRegulationPagingOptions.page + 1,
               pageIsLast: isLastPage,
@@ -277,28 +342,8 @@ export class RegulationStore {
     }
   }
 
-  async fetchNextPageSections() {
-    if (!this.getSectionPagingOptions?.pageIsLast) {
-      this.setLoading(true);
-      api.section
-        .getAll({ ...this.getSectionsFilters, page: this.getSectionPagingOptions.page })
-        .then((res) => {
-          if (res?.items) {
-            const isLastPage = this.getSections.length + res.items.length >= res.totalItems!;
-            this.setSections(res.items, true);
-            this.setSectionPagingOptions({
-              page: this.getSectionPagingOptions.page + 1,
-              pageIsLast: isLastPage,
-            });
-          }
-        })
-        .catch(() => this.onError && this.onError())
-        .finally(() => this.setLoading(false));
-    }
-  }
-
   async fetchNextPageRegulationAutocomplete() {
-    if (!this.getRegulationAutocompletePagingOptions?.pageIsLast) {
+    if (!this.getRegulationAutocompletePagingOptions?.pageIsLast && !this.getAutocompleteLoading) {
       this.setAutocompleteLoading(true);
       api.regulation
         .autocomplete({
@@ -307,11 +352,13 @@ export class RegulationStore {
         })
         .then((res) => {
           if (res?.items) {
-            const isLastPage = this.getAutocompleteRegulations.length + res.items.length >= res.totalItems!;
+            const pageSize = this.getAutocompleteRegulationFilters.pageSize ?? 10;
+            const isLastPage = res.items.length < pageSize;
             this.setRegulationsAutoComplete(res.items, true);
             this.setRegulationAutocompletePagingOptions({
               page: this.getRegulationAutocompletePagingOptions.page + 1,
               pageIsLast: isLastPage,
+              totalItems: res.totalItems,
             });
           }
         })
@@ -347,7 +394,7 @@ export class RegulationStore {
   async initialFetchRegulations(force?: boolean) {
     if (this.getRegulations.length === 0 || force) {
       this.setLoading(true);
-      api.regulation
+      api.navigationMenu
         .getAll(this.getRegulationsFilters)
         .then((res) => {
           if (res?.items) {
@@ -355,26 +402,6 @@ export class RegulationStore {
             this.setRegulations(res?.items);
             this.setRegulationPagingOptions({
               page: this.regulationPagingOptions.page + 1,
-              pageIsLast: res.items.length < pageSize,
-            });
-          }
-        })
-        .catch(() => this.onError && this.onError())
-        .finally(() => this.setLoading(false));
-    }
-  }
-
-  async initialFetchSections(force?: boolean) {
-    if (this.getSections.length === 0 || force) {
-      this.setLoading(true);
-      api.section
-        .getAll(this.getSectionsFilters)
-        .then((res) => {
-          if (res?.items) {
-            const pageSize = this.getSectionsFilters.pageSize ?? 10;
-            this.setSections(res.items);
-            this.setSectionPagingOptions({
-              page: this.getSectionPagingOptions.page + 1,
               pageIsLast: res.items.length < pageSize,
             });
           }
@@ -394,8 +421,9 @@ export class RegulationStore {
             const pageSize = this.getAutocompleteRegulationFilters.pageSize ?? 10;
             this.setRegulationsAutoComplete(res.items);
             this.setRegulationAutocompletePagingOptions({
-              page: this.getRegulationAutocompletePagingOptions.page + 1,
+              page: 2,
               pageIsLast: res.items.length < pageSize,
+              totalItems: res.totalItems,
             });
           }
         })
@@ -407,6 +435,7 @@ export class RegulationStore {
   async initialFetchSectionAutocomplete(forceReload?: boolean) {
     if (this.getAutocompleteSections?.length === 0 || !!forceReload) {
       this.setAutocompleteLoading(true);
+
       api.section
         .autocomplete(this.getAutocompleteSectionFilters)
         .then((res) => {

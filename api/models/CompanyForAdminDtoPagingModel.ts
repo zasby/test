@@ -10,4 +10,5 @@ export type CompanyForAdminDtoPagingModel = {
     totalItems?: number;
     readonly totalPages?: number;
     items?: Array<CompanyForAdminDto> | null;
+    usersCount: number;
 }

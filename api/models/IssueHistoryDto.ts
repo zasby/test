@@ -9,6 +9,7 @@ import type { IssueHistoryReactionDto } from './IssueHistoryReactionDto';
 import type { IssueProofDto } from './IssueProofDto';
 import type { IssueStatusDto } from './IssueStatusDto';
 import type { UserShortDto } from './UserShortDto';
+import type { IssueCommentAttachmentDto } from "./IssueCommentAttachmentDto";
 
 export type IssueHistoryDto = {
     id?: number;
@@ -28,4 +29,13 @@ export type IssueHistoryDto = {
     actions?: Array<IssueHistoryActionDto> | null;
     logs?: Array<IssueHistoryLogDto> | null;
     reactions?: Array<IssueHistoryReactionDto> | null;
+    isItLastComment?: boolean;
+}
+
+export type IssueLastCommentDto = {
+    id: number;
+    issueHistoryId: number;
+    isItLastComment?: boolean;
+    text?: string | null;
+    attachments?: IssueCommentAttachmentDto[] | null;
 }

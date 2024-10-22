@@ -3,11 +3,11 @@
 /* eslint-disable */
 
 import type { PagingOptions } from './PagingOptions';
-import type { RegulationHistoryDto } from './RegulationHistoryDto';
+import type { HistoryDto } from './HistoryDto';
 
 export type RegulationHistoryDtoPagingModel = {
     pagingOptions?: PagingOptions;
     totalItems?: number;
     readonly totalPages?: number;
-    items?: Array<RegulationHistoryDto> | null;
+    items?: HistoryDto[] | null;
 }

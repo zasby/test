@@ -10,6 +10,7 @@ export type OrgchartDto = {
     name?: string | null;
     description?: string | null;
     resultName?: string | null;
+    avatarText?: string[];
     colorHex?: string | null;
     companyId?: number;
     imageId?: number | null;
@@ -17,4 +18,17 @@ export type OrgchartDto = {
     type?: string | null;
     isEmpty?: boolean | null;
     valuableFinalProduct?: string | null;
+    file?: File;
+}
+export type OrgchartFromFileDto = {
+    data: OrgchartDto;
+    isSuccess?: boolean;
+    error?: string;
+}
+
+export type OperationDto = {
+    value: any;
+    path: string;
+    op: string;
+    from?: string;
 }

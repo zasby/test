@@ -1,4 +1,5 @@
-import { IBoardColumnsState, RelationsKeys, RelationsKeys } from "./index";
+import { IBoardColumnsState } from "./Board";
+import { RelationsKeys } from "./keys";
 
 export type RelationsTypes =
   | RelationsKeys.My

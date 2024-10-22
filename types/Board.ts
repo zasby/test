@@ -1,4 +1,6 @@
 import { BoardDto } from "../api";
+import { RelationsTypes } from "./BoardRelationSwitch.interface";
+import { sortKeyType } from "./communication";
 
 export interface IBoardColumnsState {
   boardColumnId?: number;

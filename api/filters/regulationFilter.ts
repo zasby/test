@@ -1,3 +1,5 @@
+import { tabKeysType } from "../../constants/consts";
+
 export type RegulationFilter = {
   useContext?: boolean;
   withContentId?: number;
@@ -12,4 +14,5 @@ export type RegulationFilter = {
   hasDraftContent?: boolean;
   hasActiveContent?: boolean;
   toStudy?: boolean;
+  tab?: tabKeysType;
 };

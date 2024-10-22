@@ -2,7 +2,7 @@ import { AxiosInstance } from "axios";
 import { PlanHistoryDto } from "..";
 import { ApiControllerCrud } from "../helpers";
 import { PlanHistoryFilter } from "../filters/planHistoryFilter";
-import { ReactionController } from "../../components/elements/emojiPicker/interfaces/ReactionController.interface";
+import { ReactionController } from "../../types/ReactionController.interface";
 
 export class PlanHistoryController
   extends ApiControllerCrud<PlanHistoryDto, PlanHistoryFilter>

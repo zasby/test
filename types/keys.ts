@@ -2,6 +2,7 @@ export enum RelationsKeys {
   My = "my",
   Controlled = "controlled",
   Participated = "participated",
+  Subordinates = "subordinates",
   Any = "any",
 }
 
@@ -41,4 +42,5 @@ export enum ActionBaseRuleKey {
 export enum CommunicationModeKey {
   Kanban = "kanban",
   CalendarPlanning = "calendar_planning",
+  TablePlanning = "table_planning",
 }

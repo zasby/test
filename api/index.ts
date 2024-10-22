@@ -187,9 +187,9 @@ export type { RegulationContentQuestionAnswerDto } from './models/RegulationCont
 export type { RegulationContentQuestionDto } from './models/RegulationContentQuestionDto';
 export type { RegulationDto } from './models/RegulationDto';
 export type { RegulationDtoPagingModel } from './models/RegulationDtoPagingModel';
-export type { RegulationHistoryDto } from './models/RegulationHistoryDto';
+export type { HistoryDto } from './models/HistoryDto';
 export type { RegulationHistoryDtoPagingModel } from './models/RegulationHistoryDtoPagingModel';
-export type { RegulationHistoryReactionDto } from './models/RegulationHistoryReactionDto';
+export type { HistoryReactionDto } from './models/HistoryReactionDto';
 export type { RegulationUserSelectionRuleDto } from './models/RegulationUserSelectionRuleDto';
 export type { Report2ValueModel } from './models/Report2ValueModel';
 export type { ReportSimpleModel } from './models/ReportSimpleModel';

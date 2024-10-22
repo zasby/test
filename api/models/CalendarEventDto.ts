@@ -4,6 +4,12 @@
 
 import type { CalendarEventBorderDto } from './CalendarEventBorderDto';
 
+type GoogleCalendarDTO = {
+    url?: string;
+    creatorEmail: string;
+    responseStatus: string;
+}
+
 export type CalendarEventDto = {
     id?: number | null;
     issueId?: number | null;
@@ -15,4 +21,5 @@ export type CalendarEventDto = {
     userId?: number;
     border?: CalendarEventBorderDto;
     isReadOnly? : boolean | false;
+    googleCalendarData?: GoogleCalendarDTO;
 }

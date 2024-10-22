@@ -9,4 +9,5 @@ export type MetricSettingsDto = {
     yAxisMax?: number | null;
     isTrendActive?: boolean | null;
     isLinesColorActive?: boolean | null;
+    isCompany?: boolean;
 }

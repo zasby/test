@@ -6,6 +6,7 @@ import type { RoleCalculatedDto } from './RoleCalculatedDto';
 import type { RoleClaimDto } from './RoleClaimDto';
 import type { RolePositionDto } from './RolePositionDto';
 import type { User2RoleDto } from './User2RoleDto';
+import { MetricDto } from "./MetricDto";
 
 export type RoleDto = {
     id?: number;
@@ -22,9 +23,10 @@ export type RoleDto = {
     childrenAreHorizontal?: boolean;
     calculated?: RoleCalculatedDto;
     isScheduleUpdateAllowed?: boolean;
-    parentRoleId?: number | null;
+    parentId?: number | null;
     childRoles?: Array<RoleDto> | null;
     claims?: Array<RoleClaimDto> | null;
     users?: Array<User2RoleDto> | null;
     positions?: Array<RolePositionDto> | null;
+    metrics?: MetricDto[];
 }

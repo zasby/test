@@ -11,4 +11,3 @@ export { CollapseContext } from "./communication/collapseContext";
 export { IssueContext } from "./communication/issueContext";
 export { DriverRTCCallsContext } from "./driverRTCCallsContext";
 export { ReportContext } from "./reportContext";
-export { ProjectContext } from "./projectContext";

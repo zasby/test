@@ -41,4 +41,5 @@ export type CompanyDto = {
     orgcharts?: Array<OrgchartDto> | null;
     intervals?: Array<CompanyIntervalDto> | null;
     companySettings?: CompanySettingsDto;
+    tariffCode?: string | null;
 }
