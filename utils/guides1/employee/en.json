@@ -1,0 +1,429 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "To add an employee to the system",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Go to the Employees module.",
+                "fontSize": "12pt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/fnwfw6WFub93U7IgwApN_i0cBA_0Kpp76tqIR1JK9qAAiZHlQY-EmjxPXoOuwm1lI6q1VIXjuYirOEi9I27a9ZcMoKSjacabrzY1GvummVif7trw-WkIDavfGVMV-vnlTs9saMvfMFAJ6xSzoA_MO655lupJvpU352TCtkf4Uof6yEO841iIk1pCF7Z7bw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "14pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "2. Press the Invite Employee button in the header.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/b4GbYnOEfuSzWLhrYYSW5yKTK4QH6VFTLjx797FkOHVj3QqitSFyo2KWi0900pNAM_LmolH4EUQ7s2M3uFH4L-9hORiZi8ooRrQWQzzZwHXl3g7BQMnPZJIdn47uPUCC1a8q5uroZulnv3urbxg9CIT5kfQ1xG4Vad7-Ih21extxKMCqkeZkMH3UEwoPkA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. Select one of the two methods for inviting employees.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Method 1: an individual invitation by email",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Enter the email address of the employee you wish to add to the platform, and select the function they will have in the org chart.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Be aware: if the employee is responsible for several functions, that can be addressed under Additional Settings in invitation creation.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/xEiYAXpivTGC6kSsOJguHoaOR2ADwC_fojaO3H6ylDeJ0I9Y7d8YuD99O2V7UCYKbZBwOVKFHje9xyW1g-Z5WmIDOw67XdNAObnBpBgOs5pyYBLVwmvXGR477q-xLEO6MBXhnFcQ5imjnL_fchG_oLXEPyDZzKp2oVlIF_Bn7YQ2a9y8L-6pzBCL1rbbYg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Once you press the Invite button, the employee will receive an email with a link that will allow them to join Tonnus.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/rMr6e9OVAaAUunp35Q9_B4Y3oy9Z7WPSqWet-VQ4_c6gq36fKkGbcjD9XMZvnzR3JK53bgzJTn6S4Z3pnqPsAxoAuMLhugnE-ftCTabXUkLKXyb1aBxGMH5hTHuNgXbLcNEBUQI_RGpasDp2ZfzFtIhirVpacQ9ucAoA9E-0XH46KGsVf9RsAHo7dTQ_sw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "When the employee joins the system, their name will appear in the org chart on an account with the functions you assigned.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Method 2: a reusable invitation code",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Then use any medium you like to give the link and code to all the employees you want to invite. Each person should follow the link and enter their information, including their invitation code, and then continue to sign up.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Be aware",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": ": the link is identical for all the people you send it to. That means you will have",
+        "fontSize": "12pt"
+      },
+      {
+        "text": " to assign each new employee their functions individually",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": ".",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "To do so, go to the Org Chart module and select a function one of the new employees is responsible for.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/8W3yuIy1cGp4YbAfi4jhSuQdrw2GGj1kst6U2f1zC_ujW1ulnhGWU5zGDilm58vvnjLE3q_4NfGkb3NMa7FQawr7YsoQ1GyMI-zZldrYDoRveaJiYV9mO2G0EP_u5YDvRV-B3V79IPERZ34xqqmbwKsjP-m989dcrU2Z4r2PB-_ah2Heaii7H1oZ6niv5w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/KPJZS-O4uMKaL6u7ARqvDccUvq7C62nthKPFE8lN6vIDqGvp5I-SMSekKz2I0cdWIx43hTVYli_fVDRkKEwTcPSvne9L2ENhsCBdmPuhlN5KRbjBNg_c_KWxQV7exhh43PXdM1WWe7ZO292AcGnJQaCERscZbQhj6eKGhwEfUUHW9w_Hlh7LWkuJ54XsFg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Then assign the new employee a executor or manager of function role. This will grant them access to previously created policies for that function (if any exist) as well as routines.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/_x9LRp-ucYtcRWI12cVs6lk2xPeyg1bhRxIAijo-Pw7xnDEISrph6Vc_eBd5uceP95Nbd_GJGf1vUpO-xtkLX1wes5NpsAjjQyQr0Yr0Qpsz73Sl-JMdXja3_Q43cAPGjvQnaBwT_WFWcv2jd1JElJoZLkBERNhmweUP4wRd8H0gYqfZDzZ93k7SkVrC1g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n\n"
+      },
+      {
+        "text": "Determine the new employee’s role and press the corresponding Add employee.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/4MFrNgpnjVFQGfvA8fm77xKmXobEYYm34zOWIaN7XBu_j0tg8RKMOqLFuhxArtzpKnF3vMJ7c6KoxuqEen9LjN8bjcxplvC_mA-mCwvH3tsK0YjCPIVe1Tgw0SLVJqU_PgiPQ_50rKoVd6EMqJ0-rreqJ4nh0vCi0j-eLZZhAozQut8xgS65VinsioZFlA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Invitations by link can also be individual.",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "For example, suppose you need to invite an employee to the system and automatically attach them to a specific function, but you do not know their email address and do not want to spend the time to find it.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Just press the Invite Employee button in the Employees module. In the window that appears, check the box marked “Reusable invitation code”, and then in the drop-down menu select one or more functions to add to the personal link. Then press the Invite button.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "You can copy the generated link and code and send it to the employee however you want.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/OF3kBaSKhC8uX6HHg6fBwduk8sJC1w6ZYjtAMJ1xhS7DzpnYqbFs82b3eNW2XuHE5LKcDe8-ekR4czSkPyNM06xLxPuDwS4cUTy4YOG-Rmu5jiWyh9WhPw6bpWrq_hO_CW6V4QEujNLAInneQZptiM2rmswtTvbdLkkMex0Dq_ckpUJW2AkJhXzjywP_Ig",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "When the employee follows the link, enters the code, and completes registration, their name will automatically appear in the org chart, bearing the functions you assigned.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/QLTjczwm5FXyJPuMvV4J8Snnd5C4hHE86KxYH-VPHdTg8wTazN1EtZpWXOfOnmxQ6g8QD1wRKmkN_dvui4KUOxamjWRzCDLVXTcD8_ssqF4SEas8-DJrmSkJsajs_e19JWT5qzQAxtCwT1er-wKuukJTy2D8ubwxN66S3uctwuq072nZ4_tfQVvWAMLuYg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "To see all the invitations you’ve sent, and delete some, if need be (once all the employees have registered using the reusable link, for example), simply press on All Invites.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/T6i6rQ_ewyTWmCWP0LyHp13P1T5EvPGprq7ulJClRXvXPiWfvdGeDCVSuvvOlRkwDlTzi8lM1l3xHmn5cqBYJrg-nJs5wxq_vICsEvN7oyhTkQfB6i3toBGckCGMyIIQZ6mWuBSKue4B6h-wrhJewPl8DPWlgQkWmUsMu13l2L63IZMhRP6hbAz4OcL8Gg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "14pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n\n\n"
+      }
+    ]
+  }
+]

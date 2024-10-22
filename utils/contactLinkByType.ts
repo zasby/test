@@ -1,4 +1,4 @@
-import { UserContactDto } from "../api";
+import { UserContactDto } from "../functional/api";
 const TELEGRAM_KEY = 't';
 
 export const getContactLinkByType = (contact: UserContactDto | null) => {

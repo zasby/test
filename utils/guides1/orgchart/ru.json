@@ -1,0 +1,1025 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Настройка оргструктуры  ",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Оргструктура — схема, которая отображает основной бизнес-процесс и функции компании, а также подчиненность и структуру подразделений.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "После регистрации заполните профиль компании и выберите терминологию для вашей оргструктуры. Определите, каким термином в компании будет называться результат: например, «ЦКП», «ОКР» или «Результат».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/s7k6jpSTZ8lqVH0GYei_AgdlDl4sLUoBTRSHfF_K_C0IEzJRLqfwjH4J7AEQgm8h7gxUE0qcPFYCx_wijMYwKjWPTPZjX9M00uIYDBi4z68f0qNNvzY9ucV46NwSKMQ-SK4uIASAk0ut0Jjg6wOzlfqLtvKn7kTuraAd80LDn2H5vEwkN9nbSEjcvF16Ow",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Далее выберите, каким образом вы будете создавать оргструктуру — с нуля или на основе классического шаблона с семью подразделениями.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/d-3pzzgZerS7iLtonrL5LzSYAm0w7HKNt7yln6qmaXu_Ml8xhOuZJ8w5xxzag2rAkFPGV76R34y-eAl-M9UWNPl47gHystzzGRjeQIbEaXNnggYRHOFWxEsWbll4y7Jsjll6NrEbqHtptVMwWGlPTak5Wx8MzoiGkoqfSaeIsRjXuUR1yavYEUG5OkSRhw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Оргструктура с нуля",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Если выбрать создание оргструктуры с нуля, то страница модуля «Оргструктура» будет выглядеть так:",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/se3XFUupuB7KZ3yOEYFaAUJ0cPVejU7_qmDFlZzhTdCZXepQJfQDqCdrdQPrQv8_jJak34vKoijz1jUx4Akq3OOm5L5nWAvo-eBTgBkGH7Dw55dZPRpwSKr9LnXHtIRLuSujyLq2BglWFCVZxqc5vR--90q_xyFx0KFH_2E_PfpIy41ZI_auIzUhNLnJZA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "В рабочем поле оргструктуры вы увидите функцию «Владелец» с данными, которые вы ввели при регистрации.\n \nДля того чтобы внести в оргструктуру всех руководителей, нажмите на значок настройки возле названия этой функции.\n\nВ выпадающем меню выберите команду «Создать подфункцию».",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/6xj4qYxQ6MtGkc-IXes2HS0qttbia5dQ4iV0zfXpphM8p9vhvY71WnU0vlDmgsSaHvM1-95ygJlQmx9RxtAcTkmn6ZY4D3W4w4J32Dh_HTbccufqICLAaEWlP9Tu-gf_KOtZO4E2Dbz7Y31aQb6jzfEi4j_qpU_DqIhwNKEyLEOEiMxf4WiFrzIJIO4ewg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "В диалоговом окне введите название подфункции и укажите ее результат — фактический итог выполнения работ. ",
+            "fontSize": "12pt"
+          },
+          {
+            "text": "Обратите внимание: здесь отобразится термин, который вы ввели ранее для обозначения результата функции.",
+            "fontSize": "12pt",
+            "italic": "true"
+          },
+          {
+            "text": "\n",
+            "fontSize": "12pt",
+            "bold": "true"
+          },
+          {
+            "text": "\nНапример, для функции «Мониторинг СМИ» результатом будет «аналитический отчет об информационном поле бренда для еженедельного совещания». Другой пример: для функции «Продажи» результат можно описать как «платежи, поступившие на счета компании».",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/8Mo9GXmbmLY4Ue0mo33eVeS8ssQIQOhHoIf-TO5Yt0seP8NNzWyTYdj74qDguR4WZlpvDGrBPNkwno-s2_UNaovOV_pLcmCxycWEDn6bKkpFlrhV_NXOL1LDCc4rMmJDfdpdR_Rf1zTlG8LqMu21FfZCjcolB8M2qkxLbt5UJzYvi5QghvPvvBSomY4aMw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Для каждой функции можно выбрать цвет. Цветовая маркировка функций или групп функций поможет вам быстрее ориентироваться в оргструктуре.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/NkRQQ7Ha0dKQ4dFtRLjSgybKcRzWeaHjp6au7-mfiLCIZYG45k_PZZgFxVxH2Cz30dG3itQVYezmFRKIp7xT0oyAnIM2IxCda0xPAKhcbrGDCt1x5r23iNUTAn6j-iM7taXUmnRHW6rKc0l-ESMzzPNhaYnH2vIgcL1kHvFkJJkRQsMpQSO7s3yxzEGN7g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Кроме того, в этом окне можно изменить родительскую функцию. Например, если исполнительный директор подчиняется напрямую владельцу компании, родительской функцией должен стать «Владелец».",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/su2uBKwJM_xOQ0c2mC5U6UCJs2-G2552_Vdvv8dDpzfukBuYif9TnClIQutBPy7rLWr5ldNfJElhlCbFrFxSY4DDl8HfffJIfME7vmiup9Tz7Mnh6k84X1evg0QLG6-rVgq66QrL_yoLs0oEDIrsrbT2k2rYz7HcWwGfdPZjQ73ljkx98vY6CyVY_-axJw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Здесь также можно выбрать расположение подфункций в оргструктуре — вертикальное или горизонтальное.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/O1Y9BhkZQWazbZCjlB_BhaxxxUwyy_URm4NZHPg3V7qTJJGTzcf2idU6FoXl8z5hXmEMkTi2uvCIO_IScXSVPqzfA_8qRAaD03XXsgullrhn89VgB1kkTGnya8DuBzkqroipSAp9w0tIIphVGi18LXaFasmQZTc76lY-UEH3FqFq6NMFHZz-TSlxC6xnDw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Так выглядит вертикальное расположение:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/Vp-2YU0KiVv6PFrEN2xjNosodXt5R11dVEdi7Yi7zy1vkQOyhe0RP2AaREyxlK59LGgDXTCpxKxaKhjpScCTZvlyZfFz5HIiFUDr8HkVLd7IAl-VsWf1vXplnnl2W2xQc5V9LUXZvhn0rCOsTbgCSBe4m6aOc6zYnZaXztkzZUPsPeb0YcIXUnJiYpaQ2g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Так выглядит горизонтальное расположение:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/ZbK6a8ONX89q0nEMR47uDZbxQFbfPqLsRcxxpSirEZ4UyJlG3fNSg6fZuzwqXlf4hjYN2rqYvd5g4mhxXbVRehaIrUExsaqGMmakWeGQSHlO-KG4TlR4rGV8vR4d3bzmBPS51-irnz33cjXzXZLKgqzRx7WUyVeaSflykiMUhiJwDrwiHo3V6KW7S8Prlg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Вы можете создавать подфункции для тех функций, которые уже есть в оргструктуре: для этого нажмите на значок настройки возле соответствующего названия и выполните действия, описанные выше. \n\nС помощью других команд выпадающего меню можно выполнять следующие действия:\n  ",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/-kRQj_UlNt-OivJkUfi0xKGBW6_mDzxYY494whRRCXGlw3J0iyKKvK-KSuKXmvj8VOfZ2frcNwQ5Qolbn7klT3LF7KUYvSEn67joitAvqQw9YHZT-iw5ZYrY0-quyxDkULzh3oV4W-61ruVcP5xzPA1SUgS1l47odYArub97Xxp_3MU89wgtGddC5mtXVg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "«Переместить функцию» ",
+        "fontSize": "14px",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Эта команда позволяет изменить родительскую функцию для выбранного элемента оргструктуры. Например, в компании прошла реструктуризация, и теперь за процесс рекрутинга отвечает руководитель функции найма. Функцию «Рекрутинг» в этом случае следует передать в подчинение функции «Наем». Для этого выберите команду «Переместить функцию».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "В диалоговом окне выберите новую родительскую функцию. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/iA5F0EOwBca-9V8bZG3PClIN4hNKq5M2GNocQarE8u48sjzETazKEreA7KAwOEXLRngS8Czx88kkjloOG4LgAUXR8FKz3B1q_8tjh3YU9E2clnSTvbMG2CD4xXlym33vO9FwPfofjreUJxoSlYF5M0gLk8VQSQmgATaA6x8WFbPAy882zOt_i59QvoIQ9g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Затем нажмите на кнопку «Сохранить». Теперь функция «Рекрутинг» заняла новое место в оргструктуре. ",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n«С",
+        "fontSize": "14px"
+      },
+      {
+        "text": "ортировать подфункции»",
+        "fontSize": "14px",
+        "italic": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Эта команда позволяет изменить порядок отображения подфункций одного уровня. Например, требуется расположить подчиненные «Владельцу» функции в следующем порядке: «Ассистент» — «Финансовый директор» — «Генеральный директор».  Для этого выберите команду «Сортировать подфункции».",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "В открывшемся диалоговом окне перемещайте подфункции, нажав и удерживая левую кнопку мыши.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/TbteeSR-rWsLAWXx9COm6K31PS__n3X0K-ST7F4HBbF0KflqEhh_KECEM4NH5T-qQY-ml-61OgGHlz5cjzOijRvzBAF4oU9d5Jaq2RSnWbjliG0QR7pRgFt7uRKojyNoD4dS71Drle042vgVoAOzufYIu5paize5krhWsTdeBj4BWH6Vm0_XQnC4t5sQGw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Обратите внимание: такая возможность появляется только при наличии нескольких подфункций одного уровня. Например, если у функции «Продажи» есть подфункции — «Первичные продажи» и «Вторичные продажи», — их можно сортировать. Однако если у функции «Продажи» нет подчиненных элементов, эта команда будет неактивна.\nПосле внесения изменений нажмите на кнопку «Сохранить».",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "\n",
+            "fontSize": "12pt"
+          },
+          {
+            "text": "«Открыть панель функции»",
+            "fontSize": "14px",
+            "italic": "true"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "С помощью этой команды вы сможете изменить название функции, переформулировать ее результат, присвоить ей другой цвет или задать вертикальное или горизонтальное расположение подфункций.",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/RaxuJOrJq5bKlDc_7_w01uBZv6Y2ljU1BwCD4b_JR5tR-3iz7Epa9LFn7bbsWO4y__8n1ved8FLYkOcmc_KbEPogUg8w31o13omIk69-JfRM8obV8_4aB3ooKWxqpn_U61HQ480N_CC3mrUQde47qHRzem8d_-bxyr9cKN9T-jzV5zsxwGXzW8CykZ4MIA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Эта команда также позволяет управлять выбранной функцией: например, прикрепить к ней сотрудника, создать повторяющуюся задачу или добавить разрешения. На этапе создания оргструктуры эти возможности не понадобятся, поэтому более подробно о том, как их использовать, вы узнаете из следующих уроков.",
+            "fontSize": "12pt"
+          },
+          {
+            "text": "\n\n"
+          },
+          {
+            "text": "«У",
+            "fontSize": "14px"
+          },
+          {
+            "text": "далить функцию»",
+            "fontSize": "14px",
+            "italic": "true"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Эта команда позволяет удалять ненужные элементы оргструктуры.\n\n",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/MffgYy3pDwm8AKKsvtNbj0AYilkdUgzrvZPHNkiYYltI50NsuA15pVv6eqtAd0WyrfNVvg9FY-wlRjKwDKutz-pbR34VVO6GPfFRXs24rrLsvG-O-uVYjXv06Gp4L5Bk5OjbyC6737u0vLdLj9_AXgEALFgAE9nMjKHhgAvQcg3mQYiydAjvJrzCVtKelw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Фильтры оргструктуры  ",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "С помощью фильтров в правом верхнем углу экрана можно открыть или спрятать описания результатов рядом с заголовками функций, а также имена сотрудников, прикрепленных к функциям.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/IiNg0qjTlgWMllwEI4i7ZdQd5jSfBAmGEK4AF_vHmSh9XQGke-zqOSKJ6W7BBkzNzOB8xWng3zaPFBPWWYhdEsaWD5Mm4eYJo0oLDHM5Sw0IeQ8af7yT4E1A67e-B2RGTo82cAGiLxmgsBOalTUbP7FWwwl1Tbq2XMkYf_uCOhHb2kLZlKDOiCvzxjAXbA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Печать или удаление ",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Готовую оргструктуру вы можете отправить на печать или удалить из системы.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/N_YoXa7uWg8ck4htWduvTvGvpL_Cw6DnM3cYZQGLfgsz7GzevMLEnLJdTOZWfgcNP9K5sEqDlo78AK1sQN87hIRJhYwmEAMcva6P4rHhmjMAIJYPMyoq-l2ZJEmj0Lmqzsj1S44B3KtEuh-O_kXcWfmcnSFSxO1KRmP4pyqZydHDeJxzZNc__6Wmul5m1Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/zrZrJFgYrE2ukenzQDS0kJu1sLZUWzA6sh4uAV4wa_sJakZNQNaBBdolUYxP7JPihJ_fyamV5ox3KQ2t4TDbnGloSIH7l33QM4s2wbfidc6V_vmWBiA1F6teGkHBHHU_YtWaLweK-ktFSjqM8uXXN3C-SkJ-tC3cnM1uDij2H-pqAdnjCzAZWbIiNk0rAw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "\n",
+        "fontSize": "16pt"
+      },
+      {
+        "text": "Классическая оргструктура",
+        "fontSize": "16pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "При выборе классического шаблона в рабочем поле модуля вы увидите готовую оргструктуру с семью подразделениями.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Wg9bNtc_tWUH7xXCkYSM-FqVSFqTXo1HoJHVKQEtTo_p2wjRCuUNOaMaleuUtptU6xT9Kk4ImoW2wtL1LbX_SRHHQqKIQvbqnd_CBtoc9KO7MeEMvyirQfq2KnfCAydYplhSnTr-6i6WWtz0uVtpoR5Wasm9rKUhC1JOBxdAWX-jY_q8nVL8X9c2vrP93w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Для того чтобы изменить характеристики того или иного подразделения, нажмите на его плашку, а затем укажите новое название, формулировку ЦКП или задайте цвет:",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/vf70fDWlH9PBWPaMGmBCNnSHHlfnZJG5YZB94DCYR_d5o0njjJI_Qdx6nD7DRZYsRmU6DGZzSNiYX7mMfaKcaNcq1MCCcKZKXUGUtt5HPd2UYO92NJ3XZoGD463Kp9DK3hKL0SmHmHtBDiwCtE1H1ZIogAWjh9Z7ISSTJfFKqfDsPqb5lO7An5msS9M4xg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Вы можете создавать новые подфункции, подчиненные существующим функциям:",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/PE_-tMf9yifUSL1vgVyWLyMyD1Ro39kNM0p0KlxYSmLcY5frnSmpy8GhoL-RHPNw5IyQ96GoT4ZyzqHLbbfu8ZKeVHtHhicRXu11ONwH-uaaAM0J1r4FCG8sGv05nlEFf58MszRP5W_sQL3ple_fTtWVEKdmP64FZEAHr8hSuPX7J_0QDPYUvhhpVeCMcQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "С помощью других команд выпадающего меню можно выполнять следующие действия:\n  ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "«Переместить функцию»",
+        "fontSize": "14px",
+        "italic": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Эта команда позволяет назначить новую родительскую функцию для выбранного элемента оргструктуры. ",
+        "fontSize": "14px"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/-UZrFKIk5fVLaijQ_MUmxSFDn9jDB1UcGU33DKK-W-z7qpXXvvIYFKviun6yehhCe8T6dxB1tePfhdJWyaNQ2DmmeV0PNEaJUOORpT0fVBnGKbWjnMkA7dbanIkcRhERoVurxAnZg2My-vvlHdfIVDuxs-0X1KORqA2J4kYkgKceMDkJBIDi9_ac8NlTpA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "В диалоговом окне выберите новую родительскую функцию. ",
+            "fontSize": "12pt"
+          }
+        ],
+        "align": "justify"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n«С",
+        "fontSize": "14px"
+      },
+      {
+        "text": "ортировать подфункции»",
+        "fontSize": "14px",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Эта команда позволяет изменить последовательность подфункций. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/OMKSnJOUKlzAUEuSKuzieShg4EObdtSVv_AJY7ioe2vdJp98_NVzpp8fKs2JyQjVPu2utqayhuA4F7Rln0KdqmUQvSrf_KVoeTjI5RFoQoqda3k5IAm91fYddMhhtmu1us7YkQXBs6_hvEFVfYwSJ-FNrgppOfJ4Evm8pfye0s4DPCpr0k6BZ4vWT0eyFA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "В открывшемся диалоговом окне перемещайте подфункции, нажав и удерживая левую кнопку мыши.\nПосле внесения изменений нажмите на кнопку «Сохранить».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "«Открыть панель функции»",
+        "fontSize": "14px",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/l3CoPIvNKU0raecirFfBn6ut19T1_M2ej2j63wLgB40FVmqhWRR5tF__4JvQ89ChXN050-tvPcCkqay8Rj4jR4VswXnJhBr5-TI598ZADR6S3gkO7MveTJMWe_3_VfYcJN-qSP4TlDmWAmazCw-tv30ekHQ1kjotnzWwhOlHPKeVkoGWoqINXJI-zmP0Gg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "\nВо вкладке «СОТРУДНИКИ» вы можете изменить названия должностей, которые отобразятся в оргструктуре.",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/mZcI6c5a6b8KU-5BUw_D407zWO1ljlfi4Mogy5QQ4yl-FRZZa1I7wNtZ3mc6hGdkf_3aTeZWANhDBqN6rJbYlFzVS3evE7Q3ipdivJq12ormH-Msr81f2qeeOttIZVCJyWZY5x6-7kA-6Wo-XNWUNRb46wAoEbkS1ghh3ZprjvFY-ZLrcrGpNJjI24-u0g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Кроме того, здесь можно прикрепить сотрудников к функции, а в других вкладках этого окна — создать для нее повторяющуюся задачу или добавить разрешения. На этапе создания оргструктуры эти возможности не понадобятся.",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "«У",
+        "fontSize": "14px"
+      },
+      {
+        "text": "далить функцию»",
+        "fontSize": "14px",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Эта команда позволяет удалять ненужные элементы оргструктуры.\n\n",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/LJpwXl_klHVnwLxX2Q_RRytxCuV6bjdFbEbFaYcbTSYxtdbCbvp7ZBxOwmu1Gg8zdofDzqOqhygEU7z6FD3nSZoV1L8Mmy1nWr8KLobTSqVKAhRsz8seYt5S7mb_UxBHvmNDR3Rwy3WtJhVscvezov1XmdMrASGeOPRTjgyOeDfSSuB8sYPKEDNT7jfERw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Фильтры оргструктуры  ",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "С помощью фильтров в правом верхнем углу экрана можно открыть или спрятать описания результатов рядом с заголовками функций, а также имена сотрудников, прикрепленных к функциям.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/JCX4Fsa3yyIvpnJpuIaELt0i7xFfW7q_nqoQfIuLiGpc_OzQChbPgmpQGowswukUN-K-BrERMiUL0QWZgTbZUysj5F3zaPLWA_lXSMTP90QwDKOTAcjnAvG9tFAyreAylzgjnqcePJc6z9YJK-gFj42YWMONlB5b2K9b6cBi2G9SbhYZR2qZMfZhX-nBEQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Печать или удаление",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Вы можете отправить оргструктуру на печать или сохранить ее в файле формата PDF. Если оргструктура очень большая, для корректного отображения на листе необходимо поменять масштаб в окне дополнительной настройки печати.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/6ihE4_DqMlvQgW3wn0LW1K_Sm5bYFXy7T3DrodLIbsb7QHKgkzmFBfsbfsfHsMABADE3BbHE9ORow2jfTDLOG5aHBuCvZFCAJuW-0Nxb3FrRlLXwLJt1cBg_SKO8DCRYeKxiCV0FD_EwhNHteKwntA__jw_WXzhJ9uNp4fETV2ZyJLFvpAjbCE4TXpiR1Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  }
+]

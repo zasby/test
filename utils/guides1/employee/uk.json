@@ -1,0 +1,502 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Щоб додати співробітника до системи:",
+        "fontSize": "20pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Зайдіть у модуль «Співробітники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/-eIacf3nd48FGOWFG6rDeHx_8BjqI64_QXmYUGtBgF9zX1n2KS2-fyBr9dGZXmlQm9I-vrP6tqQz_CfZrIlkS-83BCo7GShzTUuvXmBPu4wKvXYkIS2uGPxxbsrVIfispVKlnetTlXouSHStQsVG02dsmWn_oJnS6xNlm6bpg2A6UbDoLMk6K_qEMCZCXg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. На верхній панелі натисніть кнопку «Запросити співробітника».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/ZJoGKq55WFpKO_F6icVnYp6HPiqWWpr5t9RXUfINu0ISwd6_AT4ZcxP6hm3A_va-9pDMK4tiEAUcsyetFO_gnK0jnb-HZWerYsVhpI3_CswQL0L6CZ0YzvsFkI5bS1Hi9he1iBKFCWovmeXkK_KmOqgQbK5ZzQa_WG17AMoVoSXhK2FeF-XDzposOxuuSQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Виберіть один із двох способів запрошення працівників:",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Перший спосіб: особисте запрошення електронною поштою",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Введіть електронну адресу співробітника, якого потрібно запросити на платформу, та виберіть його функцію в оргструктурі.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Увага: якщо працівник відповідає за кілька функцій, це можна вказати під час додаткових налаштувань, коли створюється запрошення.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/KrcIRtGdsKmRrQLOfX3wA81HkZiHP_ZYE9ngJZnpC9AqBhfsoBXJM7AecoTntiIaxRRXisIlawMc_hS2RJ-fcHscIdJkiav5iIpZ1BQPzq5ZtwfWq-pVXuEmboTGdzTJj4d6PEKBuQ7MWIZghrnZtgiknXmvOzVI8xBF3C4ErQTpex9yi4NYcUS9LsfgNg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Після цього натисніть кнопку «Запросити». Співробітник отримає листа з посиланням для приєднання до платформи Tonnus.",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/bzDsiMJgC1F1lXbeaUA_tICTIsNsdQrXYODghBYg9pQLqQTmYfqMpYMYxaEzzvdBMV-HA3MQSdsw3174lz4GbK8ZHKO15ndHF1AGHCS_lTP6hhizfPc52Y0SymX_qrmA36EnufpJAKSYUV8FVh7urVYyUILthGoLjO-4xRQXNpS-qNzwaWgXgrUfK0rX_g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "При успішній реєстрації співробітника у системі, його ім'я відобразиться в оргструктурі з урахуванням призначених функцій.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "Другий спосіб: багаторазовий код запрошення",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Цей варіант дозволяє запросити на платформу відразу кількох співробітників за допомогою унікального посилання та коду, який кожен новий користувач повинен буде вказати під час реєстрації в системі.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Щоб згенерувати посилання та код, поставте галочку у рядку «Багаторазовий код запрошення».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/M7nNOFC0AowY-Enu6Dby7J0TXi7y8hbPM6LvkyzGxGyVkK7Wmkd6OBcx0SqIw92qHuqZRFbMI__KsHATxwxQ0Ao8SraThtG-MmcG1lcmZzMPbQK-rAOd7EXUUBRqBGkLfL5yi07Okpc6bvrLjFVt4Ee7y5MGAndNPN-46vMJ3f_XrcKYY2Bx5ZR5MVdAiA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Для підтвердження натисніть кнопку «Запросити». У вікні, що з'явиться, скопіюйте посилання і код запрошення в буфер обміну, натиснувши на відповідні значки.",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/ZA0wWydKQ8jSlWjxVpInnUCjoxe_C3eYrTTHC_MrQNQCuWK4UQHv3SJpGrbyF_oB90hjzYEsm2pQWBLn7WOfH6sTFpkb6qYzQZOYqhRntLB_Q8OO8p5DeSaxNfYv8xYvLN_rMSzG7cN64bVBPzU1g7Yiz9yggyLUrrY3p4cQjjs6dYAfTwCqrmy5KaRRSg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Надішліть цю інформацію всім співробітникам будь-яким зручним для вас способом. Кожен із запрошених повинен перейти за посиланням, ввести свої дані, у тому числі код запрошення, а потім завершити реєстрацію в системі самостійно.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Увага: ",
+        "fontSize": "11pt",
+        "bold": "true"
+      },
+      {
+        "text": "посилання спільне для всіх. Це означає, що надалі вам потрібно",
+        "fontSize": "11pt"
+      },
+      {
+        "text": " прикріпити нових співробітників до функцій вручну.",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Для цього зайдіть у модуль «Оргструктура» та натисніть на функцію, за яку повинен відповідати будь-хто з нових співробітників.",
+            "fontSize": "11pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/tYSoHqZKV6djqzZZsuAISZFTLFCcFmoYRxDAPz6tzI--wZOHdV2vhjTqnE67pvCAtkIiAYnPKGdMJZg9iP6XouztIFeQv-CLmQm5Lk1E_os2Q5cvjMokFo-lgDWU2OTNhfXkbC5qdMLld3ldoUN5ogWoXDbWVVtZvmhXvNFH7ksaMPHFbPIoTDBb3sBjpg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Далі оберіть роль керівника або виконавця функції для нового співробітника. Надалі це дозволить йому отримати раніше створені для цієї функції регламенти (за їх наявності) і завдання, що повторюються.",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Визначте роль нового співробітника та натисніть на відповідну кнопку «Додати».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/qEEwnihJC1p0w6AYsRQA8Y5W5PuXBzuA6Dg2LRnuEAR1qeQrOAihPb04z9uT9QwjRxdgnvfM9q_fWMSM09K-hDjKk5W7AH5Bnx_X_-8svUYfLeYwfww1hP_PqR3wk_Bv4oFN0ceeb4T4QbZzAzyQLa68NsRWwNVpEckIQ5Xbm7th1zj7zOVMjsK-UgeGGw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Ви можете змінити або редагувати назву посад. ",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/sLoX4CnlCMB9zIfl4vUG0FCUx03tbd0ALWchDC9VI4EPLkWeJKRhOvpqPE1MAFc-bB83-HJqICZCOCGWx3cAd8EbGLbkB9HJSBTXXpmsYrDlXVFX3uBuG17V8IwfiVdFmWZvwGjpQOBYpSQRkHagX70_rLcYudTB9X3A7b1KD9QvdWC1k2VqpNhPGmgQFA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Запрошення на посилання можуть бути і персональними.",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад, потрібно запросити співробітника в систему з автоматичним прикріпленням до конкретної функції, але ви не знаєте адресу його електронної пошти та не хочете витрачати час на з'ясування.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/XsvppzLNdITAcZapexkQF_0aPQqksScftq4dRnk27c859gI57Wi5tKFnszpLKTEKxvIHGD6X3N1bOxgN6ozzlVHmE7h8lC2KADgsS9Dj95S6rt20WywMNqdPgTwNpGLeUEKFe0qukXiinsWgRK5nDfBhyaryuzb1X5yXEKT3BB6oFsmAM7DCZuvATl-iMg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "У цьому випадку натисніть кнопку «Запросити співробітника» у модулі «Співробітники». У вікні, що з'явиться, поставте галочку в рядку «Багаторазовий код запрошення», а нижче у списках, що випадають, виберіть одну або кілька функцій, для яких буде створено персональне посилання. Потім натисніть кнопку «Запросити».\nЗгенероване посилання та код можна скопіювати та надіслати співробітнику будь-яким зручним способом.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/MVcTQTqM45KwW7BQRZasPnyc9vfr8Yh8qrpk8PMacu2j1UaBwEqr6aqyZCjdxkGFI-2W8K0IMxzPRAIwklmgUoU72rwU6CCMWo1afcF36fPN0u6VFGTc-SGXxCTuAOMtDlL3_-F2REXmF_S1QOIWnLE0o57UWsYP-8f2pBTUmUCVhBK_p9vwjlq1R1PanQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Коли співробітник перейде за посиланням, введе код і завершить реєстрацію в системі, його ім'я автоматично відобразиться в оргструктурі з урахуванням призначених функцій.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Щоб переглянути всі надіслані запрошення та при необхідності видалити деякі з них (наприклад, після реєстрації всіх потрібних співробітників за багаторазовим посиланням), натисніть кнопку «Список запрошень».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/m2vUqknXbYIPkdQRA5jwBQCF1F6IpaEPiZnENXJV-f6QqqD0OsBoZw_duIaaJPhujieBDULcER-2VJ2VSJ2Mf1VNBmxLFk0zFOmvJJ8as9Bs0vB4NuEi4zMzey27PBKKToEPP9OH19D--HhrA0wMQAhpU2Z9BQsoWlZmVzZVVfBB89g5vhvOrG3Ib2JmIw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n\n\n"
+      }
+    ]
+  }
+]

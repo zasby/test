@@ -1,0 +1,418 @@
+[
+  {
+    "type": "h1",
+    "children": [{ "text": "Графіки роботи співробітників", "fontSize": "14pt", "bold": "true" }],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Платформа Tonnus дозволяє гнучко налаштовувати графіки роботи співробітників. За замовчуванням персональний графік створюється на два тижні вперед і заповнюється автоматично відповідно до робочого графіку компанії.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/XLFV36mmtwy_jGi9yyMvH37f_Z85cp3koqnVgdRhhAJr0xFiMbYA3MX-q1ZT4J23P12ixQe7Kssko3AUtbrVIWo8vgc8aPThMFU_LnN8NNKkvzQqPbi6YrZdE_qCqgPIgmf9T_HQq_ob6W4U2pXnlLHhnvwfo1J2nM2Zxixurz0vdPX2O6MeSVAdQ3LJfw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "Хто може працювати із графіками співробітників", "fontSize": "12pt", "bold": "true" }]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Налаштовувати робочий графік працівників може користувач із правами на редагування графіків. Щоб дати такі права, у модулі «Оргструктура» виберіть функцію співробітника, відповідального за складання графіків, перейдіть на вкладку «ДОЗВОЛИ» і в блоці «Графіки» відкрийте доступ до відповідних можливостей.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/RZO0f7Mxo62b14A7n_Js6v-FFXzbYTjppi4DFdF99oppbXL0tNPJIzES5j5lE9kXWEszHdRil-NccwcppqIszpvtHqbbiYqmLG3tlbGgiIWdZp5OAmANNqNxpW7XyUzeJ_gb3cPxhNFFZAJSRCQwowqM_DeB4SKaj7PGixwSlGO7p8p9yOJYScqLhMMsWQ",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "h2", "children": [{ "text": "Налаштування графіку ", "fontSize": "14pt" }], "align": "center" },
+  { "type": "p", "children": [{ "text": "Робочі дні ", "fontSize": "14pt", "underline": "true" }], "align": "justify" },
+  {
+    "type": "p",
+    "children": [{ "text": "Налаштування робочих днів співробітника:", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Знайдіть у списку потрібного співробітника чи підрозділ компанії. Для зручності інші графіки можна згорнути.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/x2VotBfcimMigVXjiEEaYOgJh4pyliCmcfvXTIkllTWn47pgb3WJBCUl-cHXXRJzSR19P2Vrv1zbq7xWTPiOw60WG28KsyU9DXt6lSUghb8uAQqNJ9Qe6s3T79Qc6cSBz_JGfU_IeUVF85rwE3ShVLXnIbYbERk6AOvVN6GZZ4u1pRiWNlp0jGHj9b9EkQ",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. У рядку вибраного співробітника натисніть на комірку з тимчасовим інтервалом у стовпці бажаної дати або виберіть одразу кілька комірок. У меню, що випадає, виберіть пункт «Робочий день». ",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/eYWEuGAVzTWDqAI_xskLYJ17tjiCr_vs0hsR9BQ_5rouXFr0MMYcZdt0lZXjNWV-TQTCvYQ7FbQXrMMx87WqHi1V7eexZGsM-beE9EDArWu0hprwkY4yMUemXl9xbjPL5iPxXyMPZc_gBMvqC54kJprJs5fl8VDlCVQFIQDd10mH3MtPd4MpPKBaZAno-A",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Вкажіть період, на який ви складаєте графік роботи. Можна обрати і один день, і триваліший інтервал.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/zOX0hwUkE2F6lL7MVXk_ZNwpW8bF47fnYH23DoS6OdNJPz5NHBHHYPJl9e26JITipaM4W-Xhcr41BlvRYP5QI_pLsytAABOMPAOEORL59E1p8Bql7t6LH0M90ROTVSOxCS60Y3SV1A5Xhl7_mRWIIyPG9M91WsgJcQQFUwXeQQ-ZffXVMuIEfSwfn8qX-w",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "  4. Вкажіть час початку та закінчення робочого дня.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/6SkXYp1fZF-Xo19Q7ooJg7BhDVJnlFy9up_33Q5IHQjkqfeSdt3tYbA8rpcUTFRi0ZbykMpIPi07SA-DGOdn2Iuoh1-lRzBLgf-GO5F48EPVDCXotM7GJxUrc0XJcjpSBs5Tamr94-m7NTfEvjcq-u1P_8ksmPIPStoZuaigEfu5_6UhmyZlQzDg8hrzxA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  5. Якщо співробітник відповідає за дві функції або більше, а графік роботи потрібно створити для всіх його функцій відразу, поставте галочку в рядку «Застосувати до всіх функцій співробітника». Налаштований вами графік автоматично з'явиться у всіх функцій цього працівника.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/fjJyVlE8f7_Ekt4mG3apz7vt1kXgbirC9PvdJ4Znz0ydQsd9mDWwh6c9zjBD62GU-Z7Wog7dN5Yz_b7UAlYey3buo1BoG_X1PAS4UcRvRflxm-aqrI8Or4nzYHLDJ71zuLsMPx1ARWrlVMS4lg6OcmaGBdQfWf4D8xdVYMIEtFvgn7wtdSiogjfgq7VftA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "  6. Вкажіть вихідні дні для співробітника.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/vkR3tTxquOauyJfjkdr2a-g_cw5kSee7qS-Sysvgfp4gOgXk3Yh9u_IWDxUruOCKd6rvYyySWHxJ_Jdy49iAle1Bp3H_RMppcM8onfw8bQzm44EwM3OqPTbovh6NCNfUDQZtavCYj1TwPhW7Y5UIBBRyV8_lMW-qoA6J9Bn4WLposjcQvGiFiX__ovHZ0g",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "За замовчуванням графік роботи складено з урахуванням часового поясу компанії. Якщо співробітники працюють у різних часових поясах, потрібно активувати перемикач «Використовувати часовий пояс співробітника» у верхній частині екрана: часові інтервали графіка будуть перераховані з урахуванням різниці часу.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/DE4-jweg_pGu7R_CXblKuZnVOpl-AhyePDkeFW-4KEP4VK_tssJHNTKxVargvChr1KFYAJOUeggk5_0M_vJbncS50_Nrfx-ffu33VVZzsPS0FepQkvFFJ5W4gK-DI_6bdsXZKnoMFW_JIz9XRdSqHud3v27pon_i_FarEXsVFZLeUJ7NzrdSCizCwyNZag",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "Відпустка", "fontSize": "14pt", "underline": "true" }], "align": "justify" },
+  {
+    "type": "p",
+    "children": [{ "text": "Щоб оформити відпустку:", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  1. Знайдіть у списку співробітника, який йде у відпустку, натисніть на комірку під відповідною датою та у випадаючому меню виберіть пункт «Відпустка».",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/-YOzmH150nrifeBlB1Junm8A4xLxAggPfKVs0fJG76RYoHq33FBXZqN5DMhfFIC_jdO3-TkGo3ntXzZFFsKagkPLyiIX_AaAxT7wcSbfwGgHb5ulCmdeZhj5Lke-tATjnx7V-n7LTOtcmB9ayyF9pjmUi5gAtedi_FNTl09M6DvZlNIpPg-jFJwQzSknpw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "2. Вкажіть період: визначте дати початку та кінця відпустки.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/at87uXj06SGjZBELi-Mrs1-8T5woYQvT89dtKTP1mkQm4RsoV6WA2yUNtJVmp4RvxFZBr70kOYbdmhDLIUkM5CnT9Prs9WIsHCm5EvQ1jeMyQNPYO-mcW7NZtxzqGmp74hBwlF67xcKiSQ-zSJxYaFxrDTlsr6OZH-7dtujT7YulK4GyMxVM1flWa8sXJQ",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. У випадаючому списку виберіть ім'я співробітника, який тимчасово виконуватиме обов'язки відсутнього. Тепер йому будуть автоматично надходити задачі, що повторюються колеги, який пішов у відпустку. Це допоможе зберегти ефективність роботи компанії та уникнути завалів. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/bPxCXhYo5AikXR_lVauOxD2f0me7YY-w_t6a3aPOX8k19KK00nkB_ci3x34wQHLTSJLUHhqD6ROsKKPEWJIKc6tOogr_6BvQmF8jpEuC8uNqX0jUMbrZQORzb91PFiLoNz5JXZvD_flAgtxsgK3VxNiriaLbuhYZJnoYVoJOkKtxInaGxwo41PjxpYJPWg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Якщо співробітник відповідає за кілька функцій і його відпустка стосується кожної з них, поставте галочку в рядку «Застосувати до всіх функцій».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/6g5BIqom6PU6QZxrbsSwWM8bd_3BZUqPMeDKGjp8vfjk4oG2zriQcJX12rbXLaqAEGdSasuxxRaYre0VPBXswFSmdcz9k-Rze4TDNrtHuTdy5wKJghCIqehhmVzTsZd4hPypZSm0wI0aVR339-gKGd7ksa6T7dsuy2z5ywpctuhjZvaYYGs62TapTwiDNg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "Також призначте заступника для кожної функції.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/tuPnfssin7ruq-L-eRmz-x7rxHUV5SLqfneKutfS_QqfFGpCP6ojQII1j5lz5crFZtKmSlDhhiWLxQ7NBibd5J62ISaOe_PdchEcZrz_UVJQcaxhKe0HSm-8uNIgPQPUL46-fVMXqzC40ZB-zZ2UBhrdWqXeP53ECSA4bNUd9t0_j4fophe7fu2BLD12hA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Обравши заступника співробітника, що йде у відпустку, натисніть кнопку «Зберегти»: тепер у загальному графіку відобразиться і робочий графік цього заступника.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/pfQbjSXsF8fxzDvRtQnaAHElpkD4Gd8etB5dm7ZHue7maMGHlVloi_tdmxnTpaVPtGdm1_q74apr3iv6k5YLMTNMKrdm_WeKZoilUuDwpBShorAbFmCTz9tWVGaVbqwrPIP4wTs0-etcnmB6lRHwhsuPm9FETSQr0eh6oCViO_i-vNM7Ts3MqQEiMyfVYw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "Лікарняний", "fontSize": "13pt", "underline": "true" }], "align": "justify" },
+  {
+    "type": "p",
+    "children": [{ "text": "Щоб оформити період тимчасової непрацездатності:", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Знайдіть у списку ім'я співробітника та натисніть на комірку його графіка в стовпці дати, на яку відкрито лікарняний лист. У меню, що випадає, виберіть пункт «Лікарняний».",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/K1HCYgmbLWDHHqJ9SFnwoU3WY6KuT7A3S2xaHZlB355C9CD0up8-ctlBV060IRFwceKcOjFu-y6_Bzsotv-so_YxdcWB71hDDeathx5u5B-DxZxhlAMtqyWzH7oaxIL1QfQw_agj5oVRr9lAzorKJx3UZ6cUlL5ymJ5mc2nxgfUvybwWql7mg6cWlPyDFA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "  2. Вкажіть період, який виданий лікарняний лист.", "fontSize": "12pt" }] },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/N68uAMnaUSvQb5Nu2M42BtKtd5FxWTVNyFYYtwzlgQ6MIYd9xVFTdOJjDs9hOB1cFem9n5m1Wqp4NSeQSd0m71yGn-aKpjbmjU3Gi2ize7hpbmRuXZAXypbtGVeqLGZc7FmSrZx9e9L1RJ4V6x-evq1-Ji9YfAC4Wn-KqklkjW_hjYKLSbk1SuQagzNy_Q",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Якщо працівник прикріплений до кількох функцій і в період тимчасової непрацездатності не може виконувати жодну з них, поставте галочку у рядку «Застосувати до всіх функцій працівника».",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/nOQ7Dq94AG8xMTIuZwL1d8pO8a5D_Ko2OOhPvyV4csrL6HdLNGT7s4QmbvRnOervo2JhjnfHz4-_J5zWH0az2nkko5YD4HRxW-9M0scRO-ZMYT5j2F20JURGF9mFJZ4rCLLxz_z-11sPGE4T0y1Q-0YFT7WoKgC53f7KK99WsVRlCkVj2JfL8xBNcaCPVA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. У випадаючому списку виберіть співробітника, який буде виконувати обов'язки відсутнього. Тепер йому автоматично почнуть приходити задачі, що повторюються, в період тимчасової непрацездатності колеги.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/g9nJ6FFmKxDR-MgHVK0_aNtl7-TyF-nb90FHL8AB16M-PWOOmVYzKRaWLx-CCnkRjzkOrUb1uvUoduZAWyTXJbyg_VA4464__3rIMWYgslNy24Q2hUD9p1GyOG8T-ly7mMQsxwdjYZPDyh55Tty823YLncUIXE0LscC-Pnv-hzjKe30OdcuekejXkNSUYg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "" }] }
+]

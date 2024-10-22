@@ -1,0 +1,656 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Employees’ Hours",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Tonnus allows users to flexibly configure employees’ work hours. By default, individuals’ schedules are created two weeks in advance, and filled out automatically, in correspondence with the company’s hours of operation.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/nBkYlQ3F4qNcVy4Dwkr6z1oApoMxLHstJMBSatk9qcus3KftSFAOX-3xMUGT_LK1Hxx2d7R-1UUE9VW81gtZ26ii-4Hm2Fu7eOJQD3Ca1JICW_UU0iWpX1YdBvNxotgJMf_eyHCGAB7SYLSA0xOLOq8Jz19mExJ7a26VmsxFWz4rmKHVECnxe_gmn-WWzw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Who can work with employees’ schedules?",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Users with schedule editing permissions can make changes to employees’ hours. Those permissions can be granted to an employee in the Org Chart module by selecting that employee’s function and navigating to the PERMISSIONS tab. Then find the Schedules block, and grant access to those permissions.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/eM0eXYWHu1q7YQEHyBus72c4tIQqu51PvgVxbYC51H5-claY3Rsa9ld8OioT2kbXuBDv0DKXtrRgzbAf77S8x1hk5_FbValftQTPnELHQIcuAlhzmVDJhosh_i2XGMKKmgvHOzggBicJ6g3o2M9pHtHGjLta6GvOrzEmoZiKrQ4MK24YUqzjnvqGKsysQg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Schedule Configuration ",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "h4",
+    "children": [
+      {
+        "text": "Working Days",
+        "fontSize": "14pt",
+        "underline": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Configuring an employee’s working days:",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Find the employee or department you need in the list. For convenience, you can hide the other schedules.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/fuUnImbBv35fS7hOWsyO39GHmdqJYdZsAJRozDdnU0lfUoo4H84epW6EJnDotyVQ4fI7weV95T_qcYej03fA_r3RBlNqkURVKZM5MQX4I_ntoCEsUc_OnUmgs4K-DDY3DUB7ymWR_3sSlfOPvjWPvX8K7bPJRurBIZugtQ-Gtsk2l47Cb02scfw367eMcQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. In the line corresponding to the relevant employee, press on the cell with the time range in the column for the data you want to change the hours for. In the drop-down menu, select Workday.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/7isciXcYosK0cK1peOIwpJnq6dRqM9yETXK61s2jDiAIs3KvgTgDNRpTG5gNR9szgfe_uXiBTj0xpVzYWo36tSVzyHwmamls5JWkhDgNdGNAvC2k6rrBSl8xNoVTvEoFtLP0cLIs-EI5JPc7Dex0yvDlgTK8KpNy71HeFpQCxMRwlhL8rLzy1a-KADwkCA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Select the date range you want to set the schedule for. You can select one day, or a longer period",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/b4ZkHYk7Ed3I5d22g-AH_joWLgKLGCgxcCtP1YTchi4XjaF-NLZJBu5NCTMaYwmUUgoO7rut2dR8H6nbMK5GNphKSlanXYEq33ioP-mY498km5rjHM8PEOwZCBZcYKE4g3NSYfdNe9PrwJ4dWOepPKWT0Evhmtgs8SUk6zp1ehdVw7JC5ZAJZs7zbbyHIg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. Select the start and end times for the workday.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/vepHC--cmdvI-a6-maWzr5Q8CHcAJgZEEczve70KCFKI8OLIyN6pBiWyK0znxJT3ScgwduOrrnUr8AMEZyy82F3yf9SvkaDfeZTEUh-IvLr3-uHnYVC0_OA04mVqCKqd_Do98HujHsdDgL3imgOKL9p5Hs8LOFTRCE-DWJ5odiqnFytJPK1NvpDftA66Tg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  5. If an employee has two or more functions, and you need to make a schedule for all of their functions at once, check the box labeled “Apply to all employee’s functions”. The schedule you create will automatically appear on all the employee’s functions.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/Gv4Gq3fI2rv3shIS9_gGYJKUj94LaQOXTPFJUwZiABy9duGhLfquqVEZ_NU0Q0KLdhO57YUWCOe6Yif_iLg8ekG8NyuOE3BQcfV-4Q_eHL2uJokWSjtXqxm-1UugSKex2rjh-RuDgrUf5sVivkuiMBo84H6qnQkTTpeo9ss5gsvJgT5RjcZ3JrQaWPLMQg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  6. Indicate the employee’s days off.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/L6m8nzvgnwpEE5d8Fnmqsvf7bm5hoKWm9K4mUMCAc0brR33NNdb6EDLbeIkOAyQovSOOmEcJRTZBdBDLFC_l_tgZ8RjGyXuRo5ef4k9r79cyRzllEkJvzsx-mgPf9oA77u3JEZxOda-_Mbb9keOr8CGhleAB2Sy2E79dRfk3rRlVNOuHBHcWiHxENZOxgg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "By default the schedule is based on the company’s time zone. If employees work in different time zones, you’ll need to turn on the “Employee’s time zone” option at the top of the screen: then the hours will be recalculated to take time differences into account. ",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/2lcAFwl9Yaw6zq-EdtVe3rslJ7nvqQCxjyok4v6VIsmP-yqKGYrtryXyDF5RuUQffeZnL7CkuQUKXvm4gED-k7XO1BxdnnCZdvMc5N1UoaPgVPFBIzSM6N63N3VC5NUu4BY9jjUyccFoD0LcpJOIUKDqCrdpAiPwNmx53ILLkeAo00_pr0IGK0eibEmXBA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Vacation",
+        "fontSize": "14pt",
+        "underline": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "To set up time off:",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Find the employee who is going on vacation on the list, press on the cell underneath the date of their vacation, and select Vacation from the drop-down menu.",
+                "fontSize": "12pt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/pg9y3ft8HOkQ_us7yzqMCByxOioOIQI4vDemmQdKE3VeIgIbrs6fWOx3QCyuuC8rxtoiX8_Cu-r5sdQq89RSywDLm5ZjACjjrt8zzaAaEKLz7igdZ0iuaxSXuD0KMjqFKz_Im3TQ8L5zsmy_eclAqiCIkH10QXrIaV17bfbe7rsSuIPTeKxoQFqr3rr6gg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "2. Indicate the date range: set the start and end dates of the vacation time..",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/aZ-pnyo1rsdEPhzmcCgmFNiZNbqBcRUELmJiC67XDypRrQnVqmyaUH8nbTlhCzjU8W1Yx7ZMOXMHf_t28OYqLiidr4Vd_Gil2Z_02KytIwr2SOk_n8VegLFIb6stp-v461e34K6s3TDsFCHH2MCnklfSAxg2ZYvdLdomEHGyMur_CFv6kgDgxCwpFKy0Gg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. In the drop-down menu select the name of the employee who will be temporarily taking on the responsibilities of their absent coworker. Now they will automatically receive the routines of their colleague who is on vacation. This help the company maintain overall efficiency and avoid anyone dropping the ball.will ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/rxdak8JMYfJkLEtpdokakfqxYuvTh0EjJ0wRWvG3ABsMGx92gPjIptlKVD5Vb4TZaUF03oj_FbcQ1INEDM7yjc-4eiIaoj13Jf1LqGKWVW4lRIXoJavdKRvcnbDtBN5s41MsYtYJWJv95AsKP-qvHv3s0ktfk7OcQJLPtx007_VnJViGmqcQ9j90rE5mhg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "If the employee is responsible for several different functions, and their vacation affects all of them, check the box labeled “Apply to all employee’s functions”.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/2mXEXeSEAB2LOzf-z-kv1mB8h5jG5hRgJqDZiODMiTattSo1nkGQSisiW_lnga5HbsfksSKHSs0ADt8uZ0Jaj7mYgpbSwQXg8i5pooVoNT7Cib-OdriTyF05bkgUQTN-gsSE6eKe84snnQMxWcWCtBWRaLTF4dhqSYbHt7WKP2NJVJ8tU5nbgAGQal1KfA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Now use the same process to assign a substitute for each function.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/QHN9Bvmd2RRQr4iJl89srROdX_5U0hSdOVEXZKXEqWZhRtK3YYfGdcaQuDXe6vFtPQrHrlW-yy_SZC7Wgr1LxS56ZJzAGVorbqDKOjtFjSQDYDiZptax-pqJHXyUfol6IglNzRSAToHF62VYnNnlnrBRA6qrC3wq0lor2_6jAph0Ig5xVujlagUadw8vmw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Once you have selected someone to step in for the employee who is going on vacation, press Save: now the schedule will reflect the substitute’s new schedule.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/ioWVtstwvfrukG-eH7ENBnP8j_KUZolHwLGESNLfLV7eYNFVQCgYvWl6xgBDlEt2TUcuUhV0c39XfTLP4LA1CH2vFskbGyy1E0cb2JccYAhsxcNS3oEFXfSVrLVwDyLQOL_TQLjsvtbMJxSQnwQwVl3kszAj0Nm-3OLUXM_fij3nXmoNxQE8-iNnSeKlhg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Sick Day",
+        "fontSize": "13pt",
+        "underline": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "To configure sick leave:",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Find the employee on the list, press on the cell in the column for the date their sick leave begins, and select Sick Day from the drop-down menu.",
+                "fontSize": "12pt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/nHyeOLSNP2AFIMmEOCrAV0o2ZJCYpB_lZzootVok5K7h1Gi8SHxjWY01wjbQ4q86hwqCGGnc_kTW_VdbWLUhfb8Rzo83ebtIsekAE0g6Cq8VsNFkbk0U6qW8GqnTQGGrtZXWmtn3RUsVLd37S46ffO3kMZO-MxUi0AyhkNHK_K6HtZMvUPsc1eTlq8p_Ng",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. Indicate the date range for their sick leave.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/2rrNjFBf3EJkzNIwipFSDrqIoJC79GUotUEWF3bbus0jSJvCTyo2KHa8b56u-vsnTyJa4P1PmwzyEeMBavzRG8_T_jL0YrJ-X3lrfTtRbD2llbHHjbdYitt2GY8wrZ6aFhjbOG4augtr9VLP6o5GMsxozp-KubtNaenPEeqBhKOs9py-piBFrw7bLmV66Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. If the employee is responsible for several different functions, and their sick leave prevents them from fulfilling any of them, check the box labeled “Apply to all employee’s functions”.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/TcaoFH5GnO_-lEoU6e5galcvSb39iLJNect9b5qjTfmouy-Tn0EsSIzWAUj795AEEzUUDa4diNNJdK1hFoM5FOxbEQ0Ycti3haSCqPwT-Rhqt7_JKpC_wPe46gZnaQq8TDfFGCYsEEEd88LUj1GlFFDX4fqF5RTteQshZw54ZnQChCPC-CDgw4KG1zlDRw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. In the drop-down list, select the employee who will take on the responsibilities of their absent coworker. Now they will automatically receive routines during their colleague’s sick leave.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/odiLvE30smLQcE54wEWOoZogMwuKEKfyQkzteWiFfaTlGCmH5q4J_jEDshOzTSzTVrFjhIzjyLcboTGR4viP6ULJf_hqABXtYZuOD4zh7QeDOOtAwYNRxdRcH4R6ui3ELQ6lPk52YQ0TLHQrptl07o7XjaV7VfG5L1CpHrmizqO4s5re1WJjMY7CYPZvIg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n\n\n\n\n\n\n"
+      }
+    ]
+  }
+]

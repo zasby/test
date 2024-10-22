@@ -1,0 +1,413 @@
+[
+  {
+    "type": "h1",
+    "children": [{ "text": "Графики работы сотрудников", "fontSize": "20pt", "bold": "true" }],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Платформа Tonnus позволяет гибко настраивать график работы сотрудников. По умолчанию персональный график создается на две недели вперед и заполняется автоматически — в соответствии с рабочим графиком компании.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/KOQxnrxgzaCV7m5ehcg9HnXIM01ofH6zUbfDbw7l5QdM3X62vgFoQ8Ajv4vzHEWr2bKhs0Ggt9S7Vhdw0ZCJALayDcuwYlA8oXw8AwtG2tt2QqJC4JDP99Hh9PSCbgXlmZWkgAEqHVUGOaS8Ue9R9F8bBSk76cHr6tFtymzsD0hJqHWtuixiNTiKuN4fgg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "h4",
+    "children": [{ "text": "Кто может работать с графиками сотрудников", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Настраивать рабочий график сотрудников может пользователь с правами на редактирование графиков. Чтобы дать такие права, в модуле «Оргструктура» выберите функцию сотрудника, ответственного за составление графиков, перейдите на вкладку «РАЗРЕШЕНИЯ» и в блоке «Графики» откройте доступ к соответствующим возможностям.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/EbgwnaYhxgr5W3v2iOi0l9zr8vnR3z6VPRBI7TOvqrY8RNkfLNJwGC6D8DpCed1xxY-UXG8vNVsJttU5beqE7fgoaf9tWjFN9CkoeYJJORHaNblo8PcZDl2SrpJ_qw2sfacp8s8l1B4rFozH5_oDYt5YbLaAy7-ckpqHTuk2YLXCcFgfi7yB_0kiWMpqQw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "h2", "children": [{ "text": "Настройка графика ", "fontSize": "14pt" }], "align": "center" },
+  { "type": "p", "children": [{ "text": "Рабочие дни", "fontSize": "14pt", "underline": "true" }], "align": "justify" },
+  {
+    "type": "p",
+    "children": [{ "text": "Настройка рабочих дней сотрудника:", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  1.Найдите в списке нужного сотрудника или подразделение компании. Для удобства другие графики можно свернуть.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/dLIaAn2jDiSKnAIcQfrn2Th1ecp9Fy8UKsBEDguCAtYtZtN-2yxXFom4zjusSVxSYSIHWHW_LSsnbXKZTy-cZ4jFi700qwDK1UnbjrfSB-OdulHCigPczKamS1kT1-2BRlXaG-JksWS0h9yUx917muhRZ7_MTvjQIV0THGGMuwaiALtXJ7LzKkiM5pFiHA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. В строке выбранного сотрудника нажмите на ячейку с временным интервалом в столбце желаемой даты или выберите сразу несколько ячеек. В выпадающем меню выберите пункт «Рабочий день».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/7H0ssOECImgthWbAdvJaeX-m1es9x-hLL_f0z7MzI-Hj84dxZSgyRcEdcMqVtAml0kSr6MRuxjug77nwdDeXDLYV_6U4ww9_Ddw_Pg4wC6r1o8lC04uHTT269lbiVEBUm8yaoLuY2NvRGdW5GU17k-iRU_JknweztEnP74U61dhaWm3mcsCJ5xOZ8zbA9A",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Укажите период, на который составляете график работы. Можно выбрать и один день, и более продолжительный интервал.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/uVV77XPMv1X1P8Hxm2R4RHFHKSOcXUExIdboam8oPA6Eys1lzQBhQMog5agi1kulUtYCrxfq8mFmzBGoaq91qjZN7smDPIJPVwHw_KVB6J2NeBHmoZOPoOMvppwibSNIdstmTsAE1_0UKHGjh_W9lFJvrogXvQ6-T-T2gqjGdV3D4BMNck0-i4w1SP0ANg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "  4. Укажите время начала и окончания рабочего дня.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/svwODnEei4V4SsIyFAFyeYi1WyNkCYcwOzxkPpmtXN1tHFMEQVDXxeCAMfFuL0JRm-90_SEIonrNmGNAGkrjEgcqwi9vKIJwyNX5FBRzTAPHURQbzh3Bn7wWdBveLtlMDaD6k-Ne8P8wZS1xjEIDmTHyj_OhKNW4MAoalAQHx7pv1vuI9YHIQzFZYr-Ysw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  5. В случае если сотрудник отвечает за две функции или более, а график работы нужно создать для всех его функций сразу, поставьте галочку в строке «Применить ко всем функциям сотрудника». Настроенный вами график автоматически появится у всех функций данного сотрудника.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/MJ4kNEoe1GCCa5NqynEyTMXxM_0RXW6Gkg0yzmR_L7NCziufXNEMp6lj_lmRjOPpl6GPHObFGRocsoYwkx-KsLfblw_VjjIhdrlGQnzjrBvCoIeVIHBFWuifrnc2cfmqHnmSB0qF6zeaK7fKjogqL26U9-57CjyDjhbTlG_dL_9--8dF1dC_k4s-nlrIgg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "  6. Укажите выходные дни для сотрудника.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/eOYzxgUSQtXJEZJxoLFS5nyKs7hnOhRxC4Vce5rLqdrTpLfrLvgvtefTakpbswqpEyHPfHhh3E4v4whliQ-jp90AdaZgHk5U4vhM78YWNgucFZOUM8HHef1N1NriQkPNOG6vIHmkExcpdibnOzBbTmidiqWNrK3jOTi4dsoqrjWwooCk0T7gwbaivxPlIw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "По умолчанию график работы составлен на основе часового пояса компании. Если сотрудники работают в разных часовых поясах, нужно активировать переключатель «Использовать часовой пояс сотрудника» в верхней части экрана: временные интервалы графика будут пересчитаны с учетом разницы во времени.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/Aktj2qQlv4BJMyghAzPjRsE7krN7wHJNBOmimTYUmdyszkdTgpLT2UjpI1dCPPpKfGvZs18hK4E-lfjCQ09gYqOaXRDHFsNnZZFJhFbPhqerDGz9mga1Eg2rW6eYoTR8wbS4AYVwzkEMpncadWtUouGxToE2NeV89UOqpmuHKVJKIJBtKhk9fOsUL3CzCA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "Отпуск", "fontSize": "14pt", "underline": "true" }], "align": "justify" },
+  {
+    "type": "p",
+    "children": [{ "text": "Чтобы оформить отпуск:", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Найдите в списке сотрудника, который уходит в отпуск, нажмите на ячейку под соответствующей датой и в выпадающем меню выберите пункт «Отпуск».",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/-YVFf3bmLs9TbtdTP4ah70oUeJqbKH0yAEK8wKpdJHQbSvaP4zeNjsmeq7WIHquALsn3s1KMKzWUjWr15EdkCWPb1sOjjIxm_KtgpeCX2DbEvy-6qPAIzTlTvP8Mn0e_jf-Nsq4KjDg4m1zMns7Og244H9aguRGbCY2eokUdt0uEoCFbIuUn16tD5U4UnQ",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "2. Укажите период: назначьте даты начала и окончания отпуска.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/ZfdA1klitBswh8BnDxSat-abXE8ncZhLVbqpD6ByOVVmbHY5wciZORJrbzujIHpLS-5zLpR3K2oTUEDBkdNZuMTYPmUY6ccbgr5P_5-gwBK1GnUJRqv7UHGwkQiFIsK2PuoVaWLrqKYtleFAQl39R6hfQzKvUmjGZKqbjzbUyVcjgGKlYNl6-uQbM52TKw",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. В выпадающем списке выберите имя сотрудника, который будет временно исполнять обязанности отсутствующего. Теперь ему будут автоматически поступать повторяющиеся задачи коллеги, ушедшего в отпуск. Это поможет сохранить эффективность работы компании и избежать завалов. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/3CRiyJrRtzTVaNL9Ta1fKNX8W_CL00WCUZN_bsVYN6V4zm1mXt_ioTDs4d_iDT_YJiJyoq0uFLRNkZiVIMXk70otXnx4alm5d8d9vPLiYqnZFljLr-Jv5HAXpJRB6IAQE5WTElff-4NUjOvaBZdMZvKDeKjppLlTrxBVHQYlo54P30AdaccYf974zxsgrg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Если сотрудник отвечает сразу за несколько функций и его отпуск касается каждой из них, поставьте галочку в строке «Применить ко всем функциям сотрудника».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/ZXdSziIEOeQZ5TByNtEVvJEyXtk-M0yCynqWw-NOOuSUWPdDjeY2RcFhV5NKEEwgXtblhxc2cDmxZFluJJAzq2HNmOHBzzVcZxzT8xWiIpsh92N8zDHG9YqfezZBnQbHdFSdsqvwZPwGBQxBp_Oo2kJsGM50f4qjl2bpsP5aUJ10sJSu7qJLGGz9wu5EBA",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "Также назначьте заместителя для каждой из функций.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/1jtbHQKrQcZQrHaa6FC1VFvcZTNWZk82DTI2AgvBP3PafNzIAd2BynEmtXOBP73M2qZ7eTfYVVyNlRHZKz4MsLF_ueYDuFezUsEiCvp0rsANOS7x9ljjKiS_r_kzhMPpmB4ZrtLSA1Ow-oyDLqO6EojDgfvGy55dKbCDgSnT906mLB5FApEjAMz0hOsi7A",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Выбрав заместителя сотрудника, уходящего в отпуск, нажмите на кнопку «Сохранить»: теперь в общем графике отобразится и рабочий график этого заместителя.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/ogEgArxtjrI9YzcdSoNLG4A90w9gg0uUsx_Azsl--ADQM7qYTjX_yMEf7TJopZNZlud5kS43bGekYQ19xC7kkv2nK1oYwVOFRjiY-rUhHce1cNYC4KcgDDd40FVvH4MqrEKOODjWnB88s1lWiowCk7Vyj90g8VY0vDGxIK1CIHrSAbw5sjrHFI1uYaEu8g",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "Больничный", "fontSize": "13pt", "underline": "true" }], "align": "justify" },
+  {
+    "type": "p",
+    "children": [{ "text": "Чтобы оформить период временной нетрудоспособности:", "fontSize": "12pt", "bold": "true" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  1. Найдите в списке имя сотрудника и нажмите на ячейку его графика в столбце даты, на которую открыт больничный лист. В выпадающем меню выберите пункт «Больничный».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/tJFLFP8AZ1Lv-Cp2dlZOhw315THXHWJQtdneQh9WP18NvJGTsCdON7R2fPlOcl21dOCWSX8zNYmxl_GN7vmvXzG9Iiy8oB57R62UuZpWc6lON0M_SuYb_1a-egyIBsXTMb6FXPJ_H2p2cnPviqDW0YL0FLpL153Bw0nCLyFLjfEzJsKPiMGdVeBU9MdELQ",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [{ "text": "  2. Укажите период, на который выдан больничный лист.", "fontSize": "12pt" }],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/WWlK3Yq14h5pmRGgPujPVfp86Iwgt29jpyA4SNfDWzKUhp-nAsTZTUu3qG88RooCsW_D_Yv2mKBuDZW74KPYgVtNqpVZrDmx9XHaK74KS9PbU4Z-OwJT__2m8QbFOMgUEcFs1w17tZAg6QIcB17flZs6d5Mmx5Q7zPnehaKqj7S7PCu0U_9jWk0lx2_q7g",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Если сотрудник прикреплен к нескольким функциям и в период временной нетрудоспособности не может выполнять ни одну из них, поставите галочку в строке «Применить ко всем функциям сотрудника».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/uD2vZsr4beM3FUwmSzk09NlJwoxnUUp_sUG_qosxlVx4SVHIa3E-an24jgK47Khd94JsUGyfDQedlcsajE5e7Lp4LXQnWfruNuwHhHY2Hvj04Ut259X7_S1mmB04M9o8wiy-nhgwAp4S0k8_wlfApKR7z2d51bQpzjEok8doGmPygFGRNu2JPXq5lwDTYg",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. В выпадающем списке выберите сотрудника, который будет выполнять обязанности отсутствующего. Теперь ему автоматически начнут приходить повторяющиеся задачи в период временной нетрудоспособности коллеги.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/IPK_PAvCxSRcvEo6aTtrgvk1pK2mLSMV82eBlmkTKHLHLw2SY6AHw_N6KDCZqBsebf7FIm0kZo00lzNyHhOby56HyMD6-P_kKetZiFT9RIMKFS2G4BfAOiZlWTkOT4MOxIQXCyq6ufd19ppzdyTv56oXu-j5PfmnVOxwCCsqqB2pkdq6tCYc_E-UKapU5w",
+        "children": [{ "text": "", "fontSize": "12pt" }]
+      }
+    ],
+    "align": "justify"
+  },
+  { "type": "p", "children": [{ "text": "" }] }
+]

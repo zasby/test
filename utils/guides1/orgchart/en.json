@@ -1,0 +1,878 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Org Chart Settings",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "An org chart is a schematic representation of the functional units of your company and the ways in which they interact.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "After registering, fill out the company profile and select the terminology for your org chart. Determine what term your company will use for a result, like VFP, Expected Outcome, or Result.",
+            "fontSize": "14pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Cc_cjeScx9Rx2oMFblwQxNft9s0qJJhov9I7HppzWuxtJ-yExJ92H8maGYa3FFvbFVURjicrQYeMZPPNiBubPOTk0EIUBjWtBWIWQESxDviNJSb7kUjpizW1ekLpQ_zWe_Nf2XSXRcNkbjSoNLK9j6JaJ08O5TteT8wcZmacye4cuqmU-nEhtp92peXhSw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "14pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Next, choose how you want to create your org chart — from scratch or using a classic template with seven divisions.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/ubCBgaOy1kGrbpvBAgA4HTk4LDQ1jmzPjbq4zt6rn_3tPfjo9-a2vrx1OM-bY4xKzJ4bnt7u7GsYrGUQa6zYjIim1iYxLgSTibTuixpdJ1XeLTKFFGrc48Je2qUtWCRb7QYE95Tk8YeuFDHiQ75Kh32vgY1SxbHuLlwp_jiDRrAO5Y9DeyHLuN6bwZK7fQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "14pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Org Chart from Scratch",
+        "fontSize": "20pt"
+      },
+      {
+        "text": "\n",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "If you choose to create from scratch, the Org Chart module page will look like this:",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh6.googleusercontent.com/h1U0dlsQ9PjVW8-PoV9kIolCIVwKmSGG_Ok6Zm8m8svHFk8lZs3olui0Xg1eKLCNlsw5DbSKla63CVPAxjce7IfS19MEeveJmX0mcBN3tbvoXMLeb0EvXvpyBIvJkEUOaSeJQg6avlrtsfpU2gDPD427_5WEARp5RMt-YFTVRDe_MFGdJNtQ76BDfBYXqQ",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "In the working field of the org chart, you’ll see the Owner function with the data you entered during registration.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "To add all managers to the org chart, press the settings icon next to the name of this function:",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "In the dropdown menu, select the",
+        "fontSize": "14pt"
+      },
+      {
+        "text": " Add Child",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": " command.",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh5.googleusercontent.com/f9F7BDQF2hXrnZ2IcRVb4ax1S9bdwrNDE92bWkC7W61O9yZyaYCmlsULmw1LOeRrc_VHTu3uxpiirj_yrGXXwfKM3VFd9HHFq1AT-Mh7C-gkaBcn-K_p07B-3UoRI_5TU2ZmO1a2QpdxYcyFH2fQi_wPuD_pl5gPnq91xT9iOBKIfRXctf2ZG7198vNL6g",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "In the dialogue window, enter the name of the child function and determine its result, the actual outcome of the completed job. Be aware: the term you entered earlier to refer to the result of a function will be used here.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "For example, if the function is \"Media monitoring,\" then the result will be \"An analytical report on brand sentiment for the weekly meeting.\" Another example: for the \"Sales'' function, the result could be described as \"Payments received on company accounts.\"",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/oxUeBXru92qL7SHOzrNqOFlLm9FWSshaIUaPwWzWebBIysWyzP8l4gWmJ_gkfryDqHTfmS_3Q1mpwWDWZ44yeukQIUnnamCjc2iTTWG9zs13UkOQwA2CgGjbRQB6MslGml5o-AcF4DUIXQE4sbqyFqi3udAr0vl10taa7-7fMSkFEO6gGNzh1OQ6_9lchQ",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "You can assign a color to each function. Color coding functions or groups will help you orient yourself faster in the org chart.",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh6.googleusercontent.com/gHZ0AXw4xvSaVFl_QXFsC14Ixg7hy4xy9GH_jqukKD22572h9NfkAmuq7drKBn5_Izu6IqpwRKqwCFsyDZCH6HUTYhpiOigiQMFTl93e-elqvHGBGf99rD8pldagg2oZ3gt8aWzOhuPn_FvyRECY_iOD9mmjX3lLzNIk1XULMTlu-gtA1GAMdHtjoXQ1dw",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "You can also change the parent function in this window. For example, if you want to assign the executive director directly to the owner of the company, the parent function should be \"Owner.\"",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/4oafACO5LD08GrlaHEZFb150KTT9Vlovx-gAkyy0Qbyh2u8ClJCgGmiCXkcj1ttsohgrJ7upHrOW7wHtdKhVJsCHCEvOetpcDfCpprUnFUUhjjh0uLRRu__jJaBtGJLTvpIKeLY2dDok6iyX5AVCXYUH0z4CtScu_GchT7J_8YyIWJ7RvDWrv9bOkjXY8Q",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Here you can select the structure of child functions in the org chart: vertical or horizontal.",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/2KuMI3XJZ7a8W3xlcy9lSL0x-XwlvYOTMLgtH2N7jJ4bpu3BtKywYwxfZHMaRmzSTWN8kg2BiPkTrd5ujH-jb2YjbzR6hD3Pi-MbWtFDRe73qJBuwj02YXkXGt8znCKqv199oJAKLOlKvsPS2Begol6VCbq14MtYFndsh_2NpQeN_XwxG96hkkk3-4GRZg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "This is how the vertical structure looks:",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/cRDt5qMwXMPxN9n-0zIuuKksm7BySQyMAWSePCFnzg3FtjDs_2YMzz61Zc7RR6CXVZ2J_-WTtkuWTXO0NGkNJlGCkbN5me2dytJMTaOZhV2t1fbqH95GuJpdRbXqeXMnk2LY9L2l3H8IjOD8lXR7OpFXgOxYppIB7E3JngnGuHcfgAE7Hn_15Iz39CuLFQ",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "And here is the horizontal structure:",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh6.googleusercontent.com/rnztOMzoKsCdofXmxGUXyDMuU-SQeL08Rk4L29vAm3mH0lHV_KnpYHwWM-jGcRuIXIn8Jo77xj-ZMyIE4AvpcIZnu9oF7fERP4jfoBg9iTRfcZN7our2aNWtn8KHgskZWL-ImMT-HV8NTmwzBYRhM24V8JpE8CSh9Z8xJ7yobarzIDDIdIhiM5Iyy4DN_A",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "You can add child functions for parent functions that already exist within the org chart. To do so, press the settings icon next to the corresponding name and perform the actions described above.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Other commands in the dropdown menu let you perform the following actions:",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/l4SPWLoFQikr3cej6EaFX0wgBopBxu7En7S8QST-iUurgJ3QhoVvlP3MoF7NcrFMpv7SobCmQp4HbJr48oMMk5ES0r_Boz1apQgxBR_MP8duDoZn3NB5rdRKvUWJ9UOHPMg_20_bRD3p89x7Y_FWo71q2TkEBIx4hEHXMtlCc2I4o0Q1Vdy2WN1_al-1yA",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Move",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "This command allows you to change the parent function for the selected org chart element. For example, let's say the company was restructured, and now the manager of the hiring function is responsible for recruiting as well. The “Recruiting” function, in this scenario, should be transferred and made subordinate to the \"Hiring\" function. To make this change, choose the Move Function command.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "text": "In the dialogue window, select the new parent function.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/d5JwLGl9u6AK_NxFGkZ7_iiyUDM0b-oYRupLZiy-cFo-qNADXfY163IDGBZDwY677S98O0E_cKJ7lFaHqkIc3pblw_3pP0DNUIqhyOpGOynAyllMsRVRkji0eSy_Eobpof2ibxZUoKQJwwBYIRQKcsJ7Xl5d2oJU1f2M22i5W3rKvky4QOMidTw4PONL8g",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Then press the Save button. Now the “Recruiting” function has taken up a new spot in the org chart.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "text": "Reorder children",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "This command allows you to change the display order of child functions on one level. For example, you want to arrange the functions subordinate to the \"Owner\" in the following sequence: \"Assistant\"—\"Financial Director\"—\"General Manager.\" To do so, select the ",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "Reorder children",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": " command.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "In the open dialogue window, rearrange the child functions by pressing and holding the left mouse button.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh5.googleusercontent.com/7CKNQQ0cLZ6yzZNoGpITUnwNl1z213uYmNt1BGX4vmj3A_KTdJba4-le-2R_uJ-Ch1ThVRxArIDAP6WfbHXR_XbZFjwCk4Con0McVGCXM7PvRGcrjCoBEqBda0oQP_F49RHwEYdBpxW3mTWD03xCA_C7V3ji9fW4lXcWJs7YZcjzkUO_KIItTSPgEPvX5Q",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Note that this option only appears if there are several child functions on the same level. For example, if the Sales function has the child functions Primary Sales and Secondary Sales, you can sort them. However, if the Sales function has no subordinate items, this command will be disabled.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "After making all the desired changes, press the Save button.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n\n"
+      },
+      {
+        "text": "Settings ",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Using this command, you can change the name, the result description, assign the function another color, or toggle the vertical or horizontal structure of child functions.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh5.googleusercontent.com/Fylp7mhx3_hx6N1th3jFGVSkJ4FEvfy0jifwa0OGe5UMfU_YbTlFLiAK_QVhYDmIHIEIo79y_CBQMvbB9YEnN9xODswVd5nLK_OM1xeol7RQrNC-6XbWMQDk9Mvbxb_2u8sbrn4qCaIYG7lANaluTBPo-uAUreJ2DD_8JEu-syEKQ09lYYqtkEXcJj-oBw",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "This command also allows you to manage the selected function. For example, you can use it to assign an employee, create a routine, or add permissions. At the time of creating your org chart, you won't need these features, so you'll learn more about how to use them in later lessons.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Delete ",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "This command allows you to delete unnecessary items from the org chart.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/48DYHVHw88qQUH2BaUd_poOh5qqXr8_zwXIBclrP1XfKPRLP64bAX7MIcUCJ2Khha_enujWsxJFsdqASvxRlyoBUg8CHaF3ES-IVYEsuZJDPu-mT7PlvI09q2g4NcLhZBHV4lMUR9-llTSZ6f_vpzajOpp4dtEWrk-n3bTkMtnmvvwLaiczRUDkppsoy3A",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Org Chart Filters",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "The filters in the upper right corner of the screen allow you to expand and hide the result descriptions next to the function headers, as well as the names of the employees attached to the functions.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/C6bjiyDiAR9WmXiy4qase4w2G2iEMs45sFrBzPoh_p7_5T2PGBOxvdNYi0oOwG_hVF8p5BAGoKf9jLBIkAZf5rDiU29MIWi3Te5iWlKEu4Wuyq0ZuDVgcbZ6nShvJ6yJqkVTXv4X1T0eCw36b20vEyFx8x7h9OXZ2Ie_JkhSD7fBVmbJ_PxiRC2_V5TeMg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Printing and Deleting",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "You can print a finished org chart or delete it from the system.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/TGHLUEdvry7KejLxLq0hz-NJdiUzuBSM9K4iGDon3wSd4FtZiOIyq5p0adrSqUqlK7HAihBf1Ja6Y_UY9yiwmlr-a8UqTaRLakFPx2HKHpuwqvBKLY9kMWhTbmyR8Buspz3IuY-XwKBH2RWPa0Sy1sOlT0TLuzltBmkaiBrvCwUl-cJaJ_DMLw0erc41uw",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "\n\n",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "Classic Org Chart",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "When you select the classic org chart, you will see a pre-made org chart with seven departments in the working field in the module.",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "\n\n",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/txvqArWoTdamHKsZeGzQw0I24ADQyS-4v14uWWB29_BShdM8uqsVyygV8eA1uYArpkmvHXzaE2fU3CR151Lngp13p4M_6D7J79wvoqNeT_xfnYl0AjqoJoXh42yIsMcUUyuFgbhR96SIymG4X0i3EsaJXQmm93RzSgFPOEZVv9qRXqqKvABFnTNwi6Eetg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "To change the characteristics of a division, press on its tile, then provide its new name, VFP formulation, or color:",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/54ZlVFPLo8rF8QYsSxnNa1u5fDKT-cbE5Wfqt3RkPez7MwORy7CL1y-26hRw2FoQGUng3R4ugPC0_oAU69vGc_YdPuORMnGUvav5G91i_PNOSTkvyWzk5VUkIKuzky1FcVgHNw1w6K_i8jWU4ISOEu7fRduuOYIfNqX8X8zTyrMCHZkvDu0ENpLR86QaXA",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "You can create new child functions for the existing functions:",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/n5KWPxUzqwNKw_Uww5qp2QCa4ubkDQOFiSPy74p19kw5RwDjs6fzD1jvCzgfGCnIyBVfKTkto625mob_4dtP4Nr6gnZkKgjhUcfYWdHLzOFKXXsUZ7v75SXc7iOgys4twDgjR7qPUqGcWVuyQ2iuDVqQglNlBSfvEDfVgaW2NDc4zLnoQH7pnfI7xIjyqw",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Other commands in the dropdown menu let you perform the following actions:",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Move",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "This command allows you to change the parent function for the selected org chart element.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh6.googleusercontent.com/wNg6Ud7AtIbd8uAUO6XcblCjUNBCw84jV0LNuPunkDWPyfJ4lHFbFSHeRFzYgK2lo9iyzGw1Ijb093ouEg2IT0AAJwIhxgGxNHWbqGqm0EZgNuRute0nlK8AQXVCmsZYPJjTGazGOSWq7JF978Vc9-2oggt4tEj4U56uwXI9i5hhvDwUfkNvMPsH6q5kAg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "In the dialogue window, select the new parent function.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Reorder children",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "This command allows you to change the display order of child functions on one level. ",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/cqHsqakTPuY2Mb59uK8_SkqSJrnQ_6-rmUqIUIqY7JKl5GnjzZekOjpm49ou8TeP1Og-2xMeXYIWD8GSLNU7FIp9iwnHlFrWKbdsyfp0Gr50U2EMO9ZOpnBZL34xf_QyYZ2m8BbV3exQi-5y2Ii3rEhD76BAHAuA0IpDQLgFNY3PTIZPJdGAn8kZ-Qxd8Q",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "In the open dialogue window, rearrange the child functions by pressing and holding the left mouse button.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "After making all the desired changes, press the Save button.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Settings",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/isL8Ui9jyqVI2xijfTalSu0kCIKMku_zSLN9uq9gIyN5HQWyuBNxS-8mkAIi0xn9Y6CriyfeLEoVHjSSJiR5jspFq244abayv42sivxHmhaR7acPEsT4hLKkp6Y4CprvxBA1ACwBbEwFNFd3o6RMlxlVD7LOzGgYKVRLzCwP04bY_p2EUOneVh0ZJF1nxg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "In the EMPLOYEES tab, you can change the names of the jobs displayed in the org chart.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh4.googleusercontent.com/y3yF4cw4UmQYQBT4LtXATUxGpwalpE9wOtk9Jx6aumF22gpw3zrX50LdxEAnaBt5YYZMSfdZNSygnaqg13guJyNgDLjDI8MpXd8mVRt577lN1rQjRR5jngQh5kIxzyXEW6aPfpw_TmRiuD4A0YLQ2bVKmOcVsoNmYtyuLo0lqngb07I1CV89xMCkziqGeg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Furthermore, you can also attach employees to the function here, and in this window’s other tabs, you can create routines or add permissions for the function. At the org chart creation step, you don’t need to use these features.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Delete",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": " ",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "This command allows you to delete unnecessary items from the org chart.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/fvHZhNjNy6iWeeZyZeS_HG-uPZLCWYm4m0L9BBwS7805GGyE8ILnsOlPg51rQfJ8DUgzqT-1_C-c4lBVUB1aePB-wRuBb-5CNn2IQd83Xl7pEFCHWriHpG4GankNKptfl1Y6bfY1JVgyAAlrGsDj76ywsB8xwooefI03q7TZYnnnugXUXKKVeHDzaQ3BQw",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Org Chart Filters",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "The filters in the upper right corner of the screen allow you to expand and hide the result descriptions next to the function headers, as well as the names of the employees attached to the functions.",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/8yUNxfxN11y4B1yTRzuC9aJpWEtWh9gLKhb68xs4vLAGeyBz3M4xzgdsynZ-bwbsNM1714pNdL0J1pIJaULRS5vyarc6cLGE7vG2FjxHW65lw2evi_JbVdJxYKntzzAuuOcSpd84xVXoY2u1OhmpImFH94LguV94-yeAPw62aqd9XFIXvox4AWPkY-3AkA",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Printing and Deleting",
+        "fontSize": "14pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "You can print a finished org chart or save it as a PDF. If the org chart is very large, you’ll need to configure the scale in the printing dialog box for it to display properly.",
+        "fontSize": "14pt"
+      },
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh5.googleusercontent.com/iVv-TFZEDZLEbL9I2UFVYCeIG3LuhrZtlWsFdoxORNR3hIoAQ3ahTxQumG1nbdo5iRNCSf3z5ep4BjhpiRRVgGosFEXBjgjSiVGA_ugYR0_dqdPqvkJdj7jWhTaw9V_uSEd7oMr-cpwKdJ0p8xLi--hWhTmj1M6gJzmKiJUxpo24dKgX_ZeL0UiWo0UUdg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "14pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]

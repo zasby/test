@@ -1,0 +1,1032 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Як видавати дозволи для функцій",
+        "fontSize": "20pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "За допомогою дозволів можна визначити для кожної функції обсяг прав під час роботи із системою.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Налаштовуйте дозволи, щоб розширити або обмежити можливості користувача, за яким закріплено ту чи іншу функцію.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Після реєстрації компанії на платформі Tonnus всі стандартні дозволи є тільки у власника. Надалі він видає дозволи інших функцій у компанії.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Видача дозволів",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Перейдіть у модуль «Оргструктура».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Натисніть на функцію, для якої необхідно налаштувати роздільну здатність: наприклад, «Адміністративне відділення».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh5.googleusercontent.com/u0SeiIp5wp0qljiXnvvRyLHLkjtq_8BZ6APyrlWg8p7axiowevXdg0lupheQeKym6rFoOTee5CUV_jWIy0XfTIrJ-r3MzJtBfy5pMRFJwxGuo93JkF2Xk-URvD30XDbJ0kSmxD64J0ojfLq1S0qd9b6uVvmD64Cg_OfVDZCbWJD4UOk7lKtWQSVFK8kceQ",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. У панелі керування функцією перейдіть на вкладку «ДОЗВІЛ».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/iv2tA9J_JDDfAxxrOs0UO9HU0gysXIya1D7ksXBbZB_OQfyeXXkKXQbcjXNI5CDWiTMMfuN1C5_P4iRM9Ptwdg_Qmq36CldJmUPsPAljdsPfwwFDy8T_UM-ytPCocv1IzG4r3fgO6XzYk_NWbwKK7oqC0ZERF22dCrh5ySWglaTTOI70wDoUdu06tBO8Vg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. У цій вкладці наведено всі можливі дозволи для цієї функції.",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/iciuKHOQQzxEOz4QJkSzsmj6jLkN3keKjYjJhrPjmLb10FWzxoiokviVF4dBSEx9_ytI2-_9AuhDmFtgMey_8bK_59tjlwgXm2VDWFQWkPbHf3yJ7JD2O_fElSq2APRzIpjVT-N98IZkY8E02Rb_j8KzvXhRJZZuRx7Ds-WCiBPtAwhtkiZd4h74-E9scA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  5. Виберіть потрібні дозволи та активуйте їх за допомогою перемикача.\n",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh3.googleusercontent.com/LizTcvQwNqTtA6K_cEyhydk6efb07n81MKDuxNhuRAqgxOrFC9omdYRrOHwvrS4Il7frIfpAyVBnaeya-OlnHj424hqrJJrDXPM2l9AKIeGX0YlvTg4S6anxL9z1UwBkT2L_TLJitEDZp53b7NpMXMcwesy36LvNr8l47NySwXjQnwx-L19MWWT-2jHu5w",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Опис дозволів",
+        "fontSize": "16pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ОРГСТРУКТУРА»",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/ekrTeG9AUu9z2g5CLXOnxx2jNsaXL0OQFv0ppFqn1oHaWvL_y8UrxCVVHW2vFacrYsytkyOmEzt_au1R9raGfjbE_cAO1FWB5h78PaXSeOSeyzeqVCLFWPZ26JlQSD0aac1gMfE5RNcSEthsPEpGFOrWzO_uA21OCNgI0jxxOmZ3w5S4_1DSPwYbuPY3kg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Створення",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " – дозволяє створювати нові функції в оргструктурі.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редагування",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " – дозволяє редагувати оргструктуру.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Сортування ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— дозволяє змінити порядок підфункцій.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Переміщення ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— Ви можете змінити порядок функцій.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Видалення ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "- дозволяє видаляти функції з оргструктури.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Управління співробітниками ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє прикріплювати працівників до функції та скасовувати прикріплення.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Керування роздільною здатністю ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— дозволяє редагувати набір дозволів для функцій.",
+                "fontSize": "11pt"
+              },
+              {
+                "text": "\n"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ЗАДАЧІ, ЩО ПОВТОРЮЮТЬСЯ»",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/WUDy4d0mfGcKX4wmoAC_tGiGWK59DaaOcxeBaT6XVUjsitI5rSk95B-fZWx3OMSh0LVYtQZDBYAGtBsozQy_KVdLMtEq6_WpH7MG-peVZwTYxb6kf69GqIU38BpHN1KYNP-bkhvIfoQn70TUk9oQvzpPm2uAxoUJqJuz47cv-ALnUnj2SV7laP3m6c4JAQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Створення ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— дозволяє створювати задачі, що повторюються.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редагування ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— дозволяє змінювати задачі, що повторюються.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Видалення -",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " дозволяє видаляти задачі, що повторюються, із системи.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Управління паузою ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— дозволяє призупиняти і відновлювати задачі, що повторюються.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Перегляд історії",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — дозволяє переглядати історію дій з кожної задачі, що повторюється.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «СПІВРОБІТНИКИ»",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "3anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/7TwyCy4l8QP6dxWmWETfcJEH6FG1OpU3B3hpp7tPm7-C0_DmHyA7GcgFYNhR7_ee_4awNi4LHcNYt-6DdWK-TSzlbIY_l7GyEQ7V5TIxvLHv42SOiwTRquiugHpNC1dPC9V8mWpKiEWpio0JXu04NR4Fsnudq16o4uqXNV0O2l-qGkF8AypowTBfO-45gw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Перегляд номера телефону ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— Ви можете побачити контактні номери працівників у модулі «Співробітники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редагування ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє редагувати профілі працівників у модулі «Співробітники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Видалення ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "- дозволяє видаляти профілі співробітників у модулі «Співробітники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Створення запрошення ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "-  дозволяє додавати співробітників до системи в модулі «Співробітники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Видалення запрошення ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "- дозволяє видаляти посилання для запрошення співробітників із системи.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «КОМПАНІЯ»",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "4anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/97qKUTFk6CeYvhVs1ZaqbytyhXhzajbqQZvEYrf0-JMvUlHt644dzvJmmNrVLjm5ASfJgDdqxqiD-I8M_k9vTev8KLCS7ZMVM3bVXZ2zHZybI1F78D39v0q0oCYoA_stoljuSO0llcvUvzhWAmXaiDUVw7LFViF0NIyRp3W68d0Jsw6bOy7iQW49yoODHQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Назва та опис ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— дозволяє змінювати назву та опис компанії.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Часовий пояс ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— ви можете змінити часовий пояс компанії.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Графік роботи ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "- дозволяє змінювати день початку тижня та графік роботи компанії.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ЗВІТИ»",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "5anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/NAVMlZQg2wXeJRzHYilix19-kOvTRtMTVV9Jk3De83ZPHoKmIhftzpKstclDnYABxC0zTwsyQICvm3ejW0x8MsEdoUQ1iyx-vSJEHBiwJ0ioUgoTycMTNBKWBZuXRL_RbmdTQ-PPX1VVKxPS072D2PfZj3KtpTdNCzXBF2VIVMi5Q5TXYd2O0axlCVkqKw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "З комунікацій ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– відкриває доступ до модуля «Звіти – з комунікацій», де відображається інформація щодо роботи із завданнями в компанії.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "З Драйверів ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "- відкриває доступ до модуля «Звіти драйверів», де відображаються дані по роботі з драйверами в компанії.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ГРАФІК РОБОТИ»",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "6anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/viSo09UwTp982oT5eL-kc5dM8mkujRgR0thcZO0GYvQBvwTa9hLz_P0SZv6ZFyBlLlwzIZ2OFEY19I-8TrZxPi3jqz3fg6lgITqszD4QSv9MLryP1s7Aq0_qZp7H3IdlJmD94pQr-HllGNJTG2xrOCv9Q4selV4_FWeKUFzt6eindfg6ji3c3tZwBs2cHQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Перегляд:",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Усі функції ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє переглядати графік роботи всіх функцій на оргструктурі.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Підлеглі функції ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "- дозволяє переглядати графік роботи всіх функцій, які ПІД вами на оргструктурі.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Функції керівників ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє переглядати графік роботи всіх функцій, що знаходяться НАД вами на оргструктурі. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Редагування:",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Усі функції ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє редагувати графік роботи всіх функцій на оргструктурі.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Власні функції ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє редагувати графік роботи лише ваших функцій на оргструктурі.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Підлеглі функції ",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "– дозволяє редагувати графік роботи всіх функцій, що знаходяться під вами на оргструктурі.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]

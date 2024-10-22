@@ -1,0 +1,716 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "How to grant permissions to functions",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Permissions can be set for each function, determining what actions users with a given function can take within the system.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Configuring permissions allows you to grant certain users access and restrict others based on their function.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "When the company is first registered on Tonnus, by default, the owner has all permissions, and no one else has any. The owner then grants permissions to other functions in the company.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Granting permissions",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Go to the Org Chart module.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/vw0NmlSoiSFDGIr4QcUrJZf3HntJEo9Fg6F497UFXbDVAxHGG-yftaohzMYIAnHaI5kL3bl-CsxucLMxqjs6CTvuYAiT9tLW7l1z5b3Ia0sy_87ShrUbYUKm0Fs-adKcMSds6VZwYjz_0irNVVbvow__EwJogt4lp-WbTukWYJwSer9yJGoAXYymYLaseQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. Press on the function you want to configure permissions for: for example, HR Department.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/F6LhikwsYUzKiqkTnb3mUxlpheTZa_CyhwRGpXTEogjDAum1uHm6CV4dDLc1X8IPKRbLnBtbdSLB2__0XhnDAksvNHDaGX6ACag21nuHvOQ00YZxbRSfqVKteoKaXMgqpIz3RWmAdeaakNTBfvAozzxJlp5qun_x_0llAanEUbU01G4FpmQ5O04Kio0jnA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "   3. In the function management panel that appears, go to the PERMISSIONS tab.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/hNrUvRRul1uTCESqrDRj_TPHY-PkFHSBSxj6p1GwDGBSVsNAxKLncXMkFUEbx3QFykoo4k6zL03D1zDtQlUVnBb3djIBt5QSDx9KCMNAsvEkx3M-3GKqwtzTbuY51f9ApzVy9_k_VfqN7ISLakh4aZoXN0RZ3uA0mh4klahxOauopZ9Nkyo_L9i2OUsOKg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. In this tab, all possible permissions for the function are enumerated.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/I8OPvcIor6cMhtOl2pr5RRgzYJkBdscjN6ukqDApzo790ICprPSM66X1-K7Z2uOSyNd1tRyULZFBPdo_smsb1fDy_cxhsWMqMmQtqk0MgnBRfW39dMlDqJciWYgUtFEWsEezc4sv4YHFkCTXdCfZOIlktwRvI6E-t-qCVXpaGHuzwW22FrUsjEULOwgULQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  5. Select the required permissions and activate them using the toggles.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Description of Permissions",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/iCognZigdmEb4sOuJfwDzt1YTdWBK6-3AKhU2zpoSz4A7TLDEg1XOIiZMTQHfiMVAQZjAnVknATJnPiwgXzB9MnyAgoIcWpbrM_E-Wu9pywtrF9Bfkmblg8sIE5NSAJcra-gY6gV57krp6XY8lCLV1hX3Nj9HhLgOrZkgkOidVT-bSa-Cb6Lj279kDj01Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "ORG CHART BLOCK",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/qvXEi4Sc2WNVWg-6WEf8OyukC_pNysflqOLSOmLu_Pj8Uj5fC1awQn32ksc8-Zn_-UO3gpaH3GMgZarpUF56uMDvMbkLrHqWNF4fPeyYbAajPrW0aoQDlAgfco3cd57DLz0G82aDbjm07cXMQye_9NVJStBXg89fgQSy951cnPaIp-9VyhOE78bD9lcuKA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Create — allow users to create new functions in the org chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Edit — allow users to edit the org chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Sort — allow users to change the order of child functions.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Move — allow users to change the order of functions.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Delete — allow users to delete functions from the org chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Manage employees — allow users to attach employees to and detach them from functions.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Manage permissions — allow users to edit function permissions.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "ROUTINES BLOCK",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/hjDqBiK07jXncgNjy1dc8addyg_aRA4T1bEyWocH6qoAIfgqdACt1vOefF6CTo_WQslsmeHj_oZQNqcdH_TTSTxU0bVTCSCd6zJ5hyJ0V7Km8XoKzUMYUPylbGj8cPtS4cuAbt2kf4xfR3GySP2PeE8xOgFOdVdRIIYCBpnRTtkV71Wnlf8hbJeAAHNWWA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Create — allow users to create routines.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Edit — allow users to make changes to routines.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Delete — allow users to delete routines from the chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Manage pause — allow users to pause and resume routines.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "View history — allow users to see the history of actions taken on each routine.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "EMPLOYEES BLOCK",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "3anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/-GkOGwTssQsnCVl5itAyrINWTxbkxllbb70vjIIFS84jNaedO-5jzpTTr_EkW4yNfkk7ucR7pdhiOUkRZycn7fm-USQHq5kdCE11-G2Ru4kOclVw4xcysmsEI-ZJcumH5DnU2KAbs8e87H7V8XsRPOscULmOCn8FWpFfbwHrfiKwbYOqoI4LIrFHlApyIA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "View phone number — make the contact phone numbers of employees visible in the Employees module.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Edit — allow users to edit employee profiles in the Employees module.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Delete — allow users to delete employee profiles in the Employees module.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Create invitations — allow users to add employees to the platform in the Employees module.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Delete invitations — allow users to delete employee invitation links from the system.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "COMPANY BLOCK",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "4anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/QWgWg1WW_b0WZIH3G2HyzOgmImeUmooSguMNNHI9r4qpSIZ20iM30nNui5v1Vc9UKPjNy13k26wvlAN_qCFCJ75uM060JfVO5FloCssJvDiMu4pJayesvro1MqvU1CcGGEA1K4DcbLKJthpB89nLLpHuL3p4Mq8rgVkcF5DImpP8lxbof83ePi0Chmw9oA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Name and description — allow users to change the name and description of the company.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Time zone — allow users to change the company’s time zone.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Schedule — allow users to change the day the week starts on and the company’s hours of operation.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "REPORTS BLOCK",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "5anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/5qrpY3p5J7zOcdLhQbuN3yIOSCzLIgww08uJkM2j2YtwczQx6S2_HemohAqfrXzIcv4IX_ELKl_VojbVv4Od2yOINEgDTPckRvKyfxKCLaMqFTznRU_fITPVRYviQxCzc0nXBCnE_65Dbwrw9JsmbpZb32Lr4zYOTUPDEkSRdi-DKunwXPJ6i6DzQdb9rw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Communications — grant access to the Communications Reports module, where users can find information about the company’s work on tasks.",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Drivers — grant access to the Drivers Reports module, where users can find information about the company’s work with drivers.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "SCHEDULE BLOCK ",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "6anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Rqzp_E2sz2g0og6DAvoyiA61AEqVmojPzyOWb1YWnKdhfSweqrBM-1o_1ODUCqauwBiKi6YDEnaOhK2vuyyoRdKU-YLeY1W_BG9kBYSxCS6hMz7sM27O_AZmuiu2Zp9Ydm2jjGeRxpKPIYHqKbe9VGwYP_OH820bdvAiBaG1s99xDgZvWrpH4QrVwqLSHA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "View:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "1. All functions — allows this function to view the work schedules of all functions in the org chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "2. Subordinate functions — allows this function to view the schedules of all functions it governs in the org chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. Manager functions — allows this function to view the schedules of all functions above it in the chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Edit:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "1. All functions — allows to edit the work schedules of all functions in the org chart.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "2. Own functions — allows to edit the work schedules of its own functions.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. Subordinate functions — allows to edit the work schedules of all functions it governs in the org chart.",
+        "fontSize": "12pt"
+      }
+    ]
+  }
+]

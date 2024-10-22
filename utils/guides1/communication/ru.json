@@ -1,0 +1,954 @@
+[
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Правила коммуникации",
+        "fontSize": "26pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Коммуникация — это процесс передачи информации на платформе Tonnus, который охватывает любые сообщения о задачах и событиях в компании, а также вопросы от сотрудников, решения руководства и тому подобное. Каждое из таких сообщений считается частью коммуникации.\n",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Правила коммуникации позволяют:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Соблюдать сроки выполнения задач и тем самым ускорять развитие компании.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Использовать единый для всей компании порядок действий.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Оперативно решать вопросы и повышать эффективность работы компании.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Избегать появления невыполненных или просроченных задач, которые тормозят работу команды.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Обработка задач доступна в модуле главного меню «Коммуникации».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Мои",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Все задачи, поставленные конкретному сотруднику, находятся в разделе  «Мои». Это основное рабочее пространство каждого пользователя платформы.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/GXhawlNVEkbKcHXRMIsAi8DBEVnl5FF0rr8XzY6xdVYyM1xMRyLKlYMZwliVfi10vgkRimpkRiO5vjh4M7NbrcJwxboyYrvoeuHQRoI_6oHE4UvfYE86nyQ_g8QUDhK56CS7EGNGSXFm4VR3naeNbbZjzsFGoG9lPbnTJuNRa3Fvx5K0xXcEts04kODrkg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Любую задачу, в разделе «Мои» следует обработать согласно следующим правилам:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "1. Задача, которую необходимо обработать попадает в список «Входящие».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/QWqoLRZeZhmdvOwwX5oaR_ED5qFjhR7bOI4_Mp3UFI14_7mQLsvAjwRMlCZNXrNDiDMBl6HJlhjykZEmvN37a5MqZQplY7hdR0evXWQ8E_LYsbk4q6YVPfvknn_raLF0yy7CHIuwSCKm9DDPkJe9wMof02JzjUa6kl3QrHLz1mKPA2VWaS7R5HE2uOG_6w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "\n2. Если у вас нет вопросов по содержанию и сроку исполнения задачи, перенесите ее в список «Принято». Обработать задачу из списка «Принято» необходимо не позднее указанного крайнего срока.",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/AU0R1USxzWKqadzROx7OfNt5VE0ofxsiFfbzbqls9zYks7MkvNMjEWis-J7xMwA4fBYnnOf1ldJ--_mjEIoGeFr1Ki-9Zvp943Y7qKpioZ60AkAWvqU1SxHqrEzUuMBdUkyXY6TVYAe-z-23L4YN8O5AE74Z3dJhZO9kXHBmUQUhU9r0bKhfTIJu4-oQuQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. В список «В работе» переносите задачи,  для выполнения которых отправитель определил время. При этом выполнить задачу из списка «В работе» необходимо не позднее указанного крайнего срока.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/ypqRVbLNHth7Si_pS8bZHnBSl9uH_Whg6qQCAKmCT-Dbg_Nqnib_kkMn41FUscyFRS9BucUKW2lMeAr8G13YPNYRfc4nFz0HvzS8YdC8lbsXqsFnBI_YseeFWoCLNbo52LC7N9oL5JOiVXdagplhZNgWPDCkZE-zzO6Vpb6IloSF6QjwrLeav0AMT9PnUg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "4. Задачи, результат исполнения которых должен оценить руководитель, попадают создателю в список «Входящие».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "5. Если руководитель одобряет результат, завершенные задачи попадают в список «Выполнено».  Задачи, которые руководитель не одобрил, вернутся на доработку и снова отобразятся в списке «В работе».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/WfIKwCPZjJUo2rqXvu5-iW_ztlGJQI-2wYbG3y_zWcwkG2Ilt0GRiJglJ7AuE2g6KIACpJZWBnaLatZdR2s58DTQoXmhHjglvs9Xt_XLR45l2BXNUmV69sPPGeyKjpIg4E-LHoEy8sijbZ9DFu5KauBEy6C4cUwwjyY5bhPNDcoKyDtM-k_505ogpl2x3w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "На контроле",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "В разделе «На контроле» находятся все задачи которые поставили вы.\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/ExTlB7EukpzkkoJdOS5Z_mwjkV3IDnH8Rpnyl_ZVmfVhulkKFvonNrldH-s7WCV_obJwGfJsDSnld-T7snDpypwwjfRPyTqQnurWYdjsj-mliCtsL62Lqd4y8vcfuU6zXU-jH2N6Y0K0uiXZEOW54Aq8Whv_3orZnYQt1zIQemBqtlnxPEfYcutOzRLRcA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Здесь отображаются все задачи и повторяющиеся задачи, созданные от вашего имени. Например, если вы руководите структурным подразделением, то увидите здесь абсолютно все задачи поставленные вами, которые выполняют ваши подчиненные.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Списки в разделе «На контроле» устроены по тому же принципу, что и в разделе «Мое». Задачи, которые исполнители пока не обработали, поступают в список «Входящие». В списках «Принято» и «В работе» вы сможете увидеть задачи, над которыми сотрудники работают в текущий момент времени.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Участвую",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Раздел «Участвую» включает задачи, в которых вы выступаете наблюдателем.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/R0HWmHatkFJOcpBkU8sxqjUrVcRdn5C81hy4veqx0jLPP7iMPGmUhsiELS4D2-dFPmHyz_lNpmfBWt3-IumI6K_jNIKOHX14TxMV67OxXzy_iAJywcISKSlRFBdhOwoOXlVp01CDwBdlcVxuHRiIOwYrgxIv5wJ9Sf99qzGiEaylca4No8GPmODTUBfNZg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Списки в этом разделе такие же, как и в разделе «На контроле».\n\n",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "Сортировка и фильтры",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  1. Для того чтобы найти любую созданную задачу, используйте строку поиска в верхней части экрана.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/5QiP4bE_Lvv5iM8O4yiCli8FxmvJcO6ZwlO2ZphaKurMYyrdMjHuwdmTTImvfw5QUCmPN-Vm7DZRBBeBZF7Bm9nEiryQJ6jb4VMWFfYT_fx373OQ3r5e-gDp2bHwrwu4JbbrKm0DPRUe0-20POmvQDz9tBFZnOLMaXm6Nm6peZMnAf7YJU8LV0moYbtrYQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Введите ключевые слова из названия задачи и выберите нужную задачу из списка найденных.\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/KDGbCvCH9L6P1Zsr_Py5vF0ekaVHP-I8fKVDg4CwI2pph8LrPnsnbqQ9gPINuJPAxlgyQliaW1v5gKHKtjQ36hlhuYqOjr6ybe2iV1Hn-9jvJzjj90IXS6jCSrsA_1DpYqu7AiHQxW4EL5cVadaaAQaTjERSSfJwCLdmWo0VASay_ckTK5bDLQ2fYYtXXQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. В правом верхнем углу экрана находится кнопка ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "сортировки задач",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": ". С ее помощью можно выбрать принцип отображения задач в разделах «Мои», «На контроле» и «Наблюдаю».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/2gdd4l_achbJgt2XwPePIcehnI45ClBzY8ZdhOXsGpc5PVIFXSFIlMLt5DP-MeafzSktPDqXCrOTgGz10LuBWdyAxKJScPR-FsGKp1ZnrQiDIUPJXP2LZLPSmhn41qCOnj_d83HQAs0-SUut1vhR6IMMXbb8WmH8Db78jbIJnUQtBzp1aWIHcytcCqFevg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "При нажатии на эту кнопку появится выпадающее меню с тремя способами сортировки.\n",
+            "fontSize": "12pt"
+          }
+        ],
+        "align": "justify"
+      },
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/nnLqoY2p5o5cOHvHIsDkQIPDONrwWqt7LEM7jF7ExcabEn7pSRNChxDkTr_x67Z8cTnvI1jU9s8INzkjVaKvZTNrZs0eXEaTko3GyKk-SFcCKtq_-22QgWsU06eoMTP5DRPKcdazFEnykGK5IHwzgtrhiBLWBV-XODlaGUW5ta093d5idy419lsJJgBaKw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Сначала новые",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": " — вверху будут отображаться задачи, которые поступили последними, а более старые задачи окажутся в конце списка.\n\n",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "Сначала старые",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": " — первыми будут отображаться задачи, которые поступили раньше, а за ними последуют более свежие.\n\n",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "Сначала с близким сроком ",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "— вверху списка окажутся те задачи, срок исполнения которых истекает быстрее, а следовательно, их нужно выполнить в первую очередь.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. При поиске задач также можно использовать ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "фильтры",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": ".",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/qk8bDHGEzM8CGsFviRHEbFRuafKaXS4n1ZFJowpm1Bfl0IGA98QntFUwNrQOE8Lp6R0vIw21N1Czzp-ra_G5UrkujtptI-hu0ytjZOT4gQhdnaDQb27HDE7TAOJT48k51gstTrboE7-wmdX2cGqP2Mor3y38zKw0pGshN6Gdj5zfJfyYp2sFFF0Uqp_DUQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "При нажатии на кнопку со значком воронки появится панель настройки фильтров.\n\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/HDY_-NDPnbbmJqTN4Aid0h1nlXoOB-7mQSCx2XDdtKwp3yl8KRxB-QCZHbJncmTM7kI4nl8ulzIT0WfDhWfITeuv9NtPosGViXSlXLmzokGHVPgsuOoD4SqUKtmlri4Lcngi9ohaBM6sCAGFO-OG9gCQn5ple-KNo0wrO_gleRK8vfv0S_xtCi1p0ui32w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Создатель ",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "— этот фильтр",
+        "fontSize": "12pt"
+      },
+      {
+        "text": " ",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "позволяет из выпадающего списка выбрать одного из инициаторов направленных вам задач, и тогда на панели «Мое» отобразятся только задачи, поступившие от него. \n\n",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "Задачи с нарушением",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": " — этот фильтр показывает просроченные задачи, задачи с сообщением, на которое не ответили в течение трех часов, а также задачи, закрытые без доказательства исполнения (результат по ним не получен).",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "На проверке",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": " — этот фильтр показывает задачи, пришедшие на проверку.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. Все выполненные задачи спустя время перемещаются из списка “Выполнено” в архив.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/guPB0i8ndAdCmDD2gsJgYpu0gsQBX0VTfhG5x4PlAsqV4HdRyjijK9cmPng5Jf7az-vmgNLB4QryjnzKWkM2Ty5w5ws5e6zQC14pNUUBq7N3XsiAcvCP7X0gbWGKS7oqOIfWCao4U8pjL5EPdBofuGriKV3nKbpTc85COtncs6Wpn7YTrHRQP2ZiPymIvw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "В архиве также есть инструменты для поиска задач. В строке поиска можно ввести ключевые слова из названия задачи и выбрать нужную задачу из списка найденных. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Фильтр",
+        "fontSize": "12pt"
+      },
+      {
+        "text": " “Оргструктура” ",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "позволяет из выпадающего списка выбрать одну из ваших оргструктур, после этого в архиве отобразятся задачи относящиеся только к данной оргструктуре.. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Фильтры ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "“Создатель” ",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "и",
+        "fontSize": "12pt"
+      },
+      {
+        "text": " “Исполнитель” ",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "позволяют из выпадающего списка выбрать одного из инициаторов или исполнителей задач, и тогда в архиве отобразятся соответствующие задачи.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/zINFiIeghVSQpUjJ294UVBh5llr3nK0IR14Fi98GUtUufsc2qAU2fc1I9rQ_74uQVMm7CQyhV0a51l79Bgc5VtydgNGW_fYH6-iRdW-WLyeS6QFopBmoTMHrW5hTpD2lhOuuZIRVrOMmZ860BDmeE20DT1cGMhWS-6Y3o-jzXrKpRxzFI3v7YYhNwRSuPA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Значение индикаторов",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "\n\n1) Пока задача не обработана, на карточке стоит желтый индикатор «Ожидает принятия».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Z495pOv3kD_DG9f3rWfgiFrjgAVcAfsNlb9wsRBfDldr8NuRWBnwPr_jf5bx9Bm_0Kqw-CWXt7-lQJhj1ynepAnK3-AskyvUQGbSbIM4tnU8W6cBtM0eQiDytkzqfcwVq6Wig-RpXcsn2tOafa-OmBp4QulG6J_YHCasUEKyn-_OtgxpkcCk8CcogL4ezA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/kp0rgYcQiLOLkk43iVJHeORn3Qx1LEuonal688GK3pXkuatLvhMdGm7rqQxizkvAmDe4IJuIlWvAkpS6gU393-rB6iM7r_SU8BaNqe8TegXh6EZkQBVVAZthE4FNfCh5hT0MCCpy38QZgHgpKW5yH628L0wB6I14Bs-UqVRf3V7hKNciyYuRYKZCFs55rA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "2) Если задача не выполнена в установленный срок, на карточке появится красный индикатор «Просрочено».\n\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/UIAddGY0LMEG0Gorv008GgHt6WHELeaegPvHISB_di0Dx_MKwn0slHNqvGd1lyUkoGv--zXtiWKJENfYHwX1gxfev8i4xmlMrDAF-i4UZ6Eu0qB-RAtBmj2n_tfmpVyl5Isgme2D4fhB_6_oyz0NBd1bqNhFds2CkhkvVO02tIQTt72HKOtpU1nLN0S13Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3) Когда исполнитель выполнил задачу, требующую проверки создателя, она попадает во “Входящие” создателю с индикатором “На проверке”. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/RydDTK3bJQilbxba0F-52eI0IST0-CiHSY71aRKnAWfd9kQHsItmz07yz_5Za5u0QjckDtB7EILpFEZk6U_2-nWCXm80RRWMI-LhGeuushK4f47QyrNgcb5vxScAOKjXQcFO4aBuut97RuXyAm92xAPYkqkndlGjQeh9DtiCprKMXViJoYeyw0Zwr9yMig",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "4) Если задача прошла проверку у создателя, на карточке появится зеленый индикатор «Выполнено».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/E3g2m7Ww--GRkCQ9E6jg9r1JYy_She8PQXDVCQOZT538tu7eGvBN7ZvRAb91M-YjUzPwQsOMXpaI9gSK_hJEqmjkcRTaowzAYe7pRLNL8z36Ox_mPD-idnWpKvdpimUSz3p8o2a4Iq7WzjAVthCHXe-kOGUdV4MLCI53FZWiE5UjZpps1hKVKkOB9-NkRw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "5) Если задача закрыта с нарушением (результат не получен, доказательство не прикреплено), на ее карточке появится красный значок с восклицательным знаком. В этом случае проверьте, действительно ли задача выполнена, и при необходимости верните ее на доработку. НЕ ОДОБРЯЙТЕ задачи, обработанные с нарушением правил коммуникации!\n\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/T4CbYluCOl5gq7RQHJ3Kigiqk20qaOXvhq61qzEG49gk3o-j3Qu0G5kSXJpb72wcysBt2NwfSeHGjJVSlM_6b8kiDmhFuSyzGQrfw9EFAkD3OYqe70GeSS1deOD3FeHLHQqrq3QoR15y79oJFhb1_uiwEiXkYzTab8CPq3hnN7_PNu3lZ_ypUMac8mmA2A",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "6) Если отправитель задачи прикрепил к ней сообщение, на карточке появляется значок письма. На сообщение необходимо ответить в течение трех часов. \n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/aB0NX4XqrBnsso8bdYiOnLcxVBLX1dJqMkgSJjMcHDbXbtXsnqmKZWeSTbCV4o5w8pOREt8x5EGW9jdpVpR3krpUK-EBk5raX8fQs4N8xX8o-iBFEsfshacFKcAzkQ3DUPeRmKcIdZc25U8CioMe5wxzgUC8gNIrG4ncsMF5ScGr0vdoPhowd8SorUDcWw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Если через три часа ответ на такое сообщение не отправили, об этом уведомит индикатор на карточке.\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/bzlDhPVEHE9cOL3Y6bfhtelSrtjb2c3_aAU-CplGKrN9_YvlMiSdj-UbrXt2jGYJOfJGbSQWMyRTGemxVmh9OPh0buOp7JdYSFa_poDXjpU9wgbhR0Z1gU41eQgiGrkAhJi0i5enfq8xk1RWn-c_cY_6MlqHagZw3U-7tVX09fBaC89-KTxDzbosE3grJw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ],
+    "align": "justify"
+  }
+]

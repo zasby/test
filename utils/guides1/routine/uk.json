@@ -1,0 +1,2152 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Правила створення задач, що повторюються",
+        "fontSize": "20pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Задачі, що повторюються - це задача яка повторюється з певною частотою, наприклад, щотижня, кожні 10 днів, кожен місяць і т. д.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Достатньо один раз задати параметри такої задачі і вона автоматично надійде до обраних виконавців у вказаний час.\n \nВи можете додати задачу, що повторюється, двома способами.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Перший спосіб: ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "У модулі «Комунікації» натисніть на стрілку праворуч від кнопки «Створити задачу». ",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "З меню, що випливає, виберіть команду «Створити задачу, що повторюється»\n",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Другий спосіб: ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": " Перейдіть у модуль «Оргструктура».",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Натисніть на функцію, для якої хочете поставити задачу, що повторюється.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/j6l59pdLZ11F4PkjvufsScpm0jUuy2IjASDuWEC6mZW2dCgD0t9rc_TPwdsJ7K90OPvHepGpkYKjhlbU-JBhmQKpBdYPrJPCBXE6XOIgD3a6pUridespcZfo7JdxzM2OiMZxDNMHKGQhilwrWfb5V0H3-NG3bFXYV84KePVSAQROh-ViyqOhItVx-4ZFVA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": " У вікні виберіть «Задачі, що повторюються».",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/I7cqOmT90nguKbXdxX21patA0xx0IEugGCZ-XErftO72Yzqyr3XnkYyVVKE3ZXQmKaMs_HcMCFHaQlzCiKXYtclXnEl2V-5132Gadq1teFWyvECRFhZ1YGezel2sWn28V55r_sot7tp3eO6hmPOujQtAtyUMzFKhRMh7qIIvYQ_Ip5o95uBVNyVwMtd08A",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Натисніть на кнопку «Додати задачу».",
+                "fontSize": "12pt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Визначте, кому буде спрямована задача, що повторюється: керівнику функції або кому-небудь з виконавців, прикріплених до цієї функції.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/1H7SPI2kVHwYE98J4xumdtOGacZcciN8KwXT30IpBLkx06N7lFAcWG_0N9YbA_nf6XKaCeNmafY05Z5U6Qk0SPKvThLskB_dQlJp49EN-yfexW7Vvs55LspKns_RRNEDZX0eCvr6IYiCNbvTOqTNVAwjBw7E7TuVjd4sQKEeL-ysl126ImNEKcw9lND54g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "У чому різниця між керівником та виконавцем функції?",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Керівник відповідає за діяльність функції загалом, а виконавці працюють під його контролем. Наприклад, якщо у відділі продажів кілька менеджерів та один старший менеджер, то в оргструктурі його слід призначити керівником функції, а інших виконавцями.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\nЯкщо за функцію оргструктури відповідає один співробітник, його доцільно призначити керівником, оскільки він несе повну відповідальність за виконання задач та кінцевий результат.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Як дізнатися хто керівник, а хто виконавець?",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Щоб переглянути, як розподілені статуси в рамках функції, перейдіть на вкладку «Співробітники».",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/NJns2URmwDEOcZLUG4ESqoJiDpeWxP4A8vwbpiKPNoem0GeZPiw8hV8Pfjlu-x0p815S24U_bddDWa-9SrcZIltwsw_6DQz6xw4Q2V4ryPwR1GHE98Kisc3GE13WEL0x_1MQMSHAdh-krVUU2qbjzRLu8WKnUYE4TRMwoC3kuVpOKwtDZdPoDXbwEb5Mdg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "У вікні, що з'явилося,  налаштуйте параметри задачі, що повторюється.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/UQSrW_4m_UvV6oB99YYk6ZzMtEYFqoPT_XHkDmswH7ww0QG5SMZV6u1avgDPTwCe-7KIFaJfFsCNi-ndfXIuoFRCJ9o8OyMfUzstPPFLFPiBnXt_T6U55BhC421-YpsXV0naahxLX8TPOWZhCFyb8qTn9GA5mWDi8Myj0CuC2vCG_eB1lV8CvYM4b2THwg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "h6",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Налаштування завдання, що повторюється",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "У полі «Кому» автоматично з'явиться функція, яку ви обрали в оргструктурі, та адресат задачі (виконавець або керівник).",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Якщо ви створили задачу першим способом (тобто у модулі «Комунікація»), це поле потрібно буде заповнити самостійно. Натисніть кнопку «Додати». У вікні виберіть необхідну функцію та роль — «керівник» або «виконавець» функції.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Qbb_lrpmE2EQ1coJluXOIyJLa_xTs4pQXJ2CtSE-s-yyMqrNfx_g2rmBCGmole9DSYS_e4d6xsAxwE3v-2MaaaWi7JvEhQRP31hpeYEmwHrPC8UkqwX6G_DrcI_wNZH9VYzNQe4uvCeJcPKYmHWpyLb1SyBImUON3IITQX-Okg2uasWrgc3rkEk6fS9hJQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "На даному етапі можна вибрати категорію адресатів зі списку. У списку доступні:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Усі (адресує задачу всім співробітникам компанії без винятку)",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Усі керівники (адресує задачу всім співробітникам компанії, які виконують роль керівника будь-якої функції)",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Керівник (дозволяє вибрати одну або кілька функцій, керівники яких отримуватимуть створену задачу)",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виконавець (дозволяє обрати одну або кілька функцій, виконавці яких отримуватимуть створену задачу)",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Також можна додавати нових адресатів зі списку, що випадає — наприклад, коли необхідно направити завдання, що повторюється, кільком функціям або групам співробітників. Для цього ще раз натисніть кнопку «Додати».",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "\n",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/aP7d4INuRHDiakT3QksmQ1JL-jkgPrR_c_kX4hcymIn1XF63_wIYQ00HlVISmyoHwuRuTh-0MB4jGcH3X_A3blr3WkXFJrnqrHindybgJoAH6yfKYUsIvv6kbKDofRM_yP62spaIq1EhQkbNjOaylsphpyuidFikRu94LGgsjM8ocCEVZ5HNUQ6dLXW9SA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Встановіть періодичність повторення задачі у меню, в якому є наступні варіанти:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "3anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "День – ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "із зазначенням часу (за замовчуванням 12:00). Змінювати години або хвилини можна натисканням лівої кнопки миші.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Тиждень — ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "із зазначенням дня тижня та часу.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Місяць — ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "із зазначенням дати та часу (наприклад, 1-го числа кожного місяця о 12:00).",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "N днів — ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "із зазначенням кількості днів між повторами та часом (наприклад, кожні три дні об 11:00).",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/khUn0BBo7AAbtJej0UyVJigKAjs5NYiQbytVYbb9Tdbctw_mu2qNjdtJDLNQ1hTFqN03WIwZYWyBp19HcOk0I-OQqex3PI7GXTaeffdZsxHu-GAlevhG1yGJPwHeNBq8lXtLp_ibukG3pVIVMV6QtdqgikV1-XkPCx05jnfuKiTHQac7ABzzya1EspR-dQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\nПриклад 1. Задача \"Відповідати в чаті техпідтримки\" в компанії необхідно виконувати щодня, тричі на день. Щоб налаштувати потрібну періодичність:",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виберіть «День» та вкажіть час першого запуску задачі.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Поставьте курсор у поле «Натисніть, щоб обрати», розташоване нижче, а потім вкажіть час другого запуску завдання.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/zpZk5PpfQj1y3RGlZCtd0nlmOyQqx4uqy68ATNoZE4YTUpzBQh4vNExux4PwCwBjX7zTWDGCXGgLGCpqy8Ds5LCRCvBcfA9ZKajM-ZLX6tOfealM6OBKYoc3wPSvvXU7zzTnxE8yrUwBWiom-1a4Z1AHynEQNE3ymWnJ3lCFGFg7Ftb9yG88ri1LcAfUjg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Повторіть попередню дію третього запуску задачі.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/GU9VuckRlX-A-5xNPZ1Id5XC332olS2qhmtwIhzcBl76hoCrL_j5nzGqDK4lEArCbkWUQS-nnyths-vncWW13cIkcj39xixiwswYi3APgFu18USBeh91XndqisUs6u-S6nsh0vMSZ7CBl_bYOSRQo2flAMATFZ3A6IRfh2m5gzUgJuKRXZ4o2eXIW_Ga1Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "\n",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/jZbeNfssYSyxayDothxqFByacBQX3sBvLDoALzKzyd7sBPGRfVo65lsVa_8k3WS5xCfVvnFkUjwW7kSC_wZHMwhrcVDPFBAhzk9vJ72uqnG9G2gZgEP87VjErLE_aBrKkGgtSchfo2a2F_RzEWii7fwioMi24LRMOxURinyJKCU6eYIi8WoB6GHS3spItg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Приклад 2. Функція \"Закупівлі\" щодня за своїм робочим графіком (з середи до неділі) повинна виконувати задачу \"Закупити замовлений товар\". Щоб налаштувати потрібну періодичність:",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виберіть «Тиждень», задайте день тижня «Середа» та встановіть час запуску задачі.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Поставьте курсор у поле «Натисніть, щоб вибрати», розташоване нижче.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Повторіть кроки з попередніх пунктів для днів тижня «Четвер», «П'ятниця», «Субота» та «Неділя».",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/Lan97GQBTQxhPaJgfeUMzHOmuk8mxivCaHgChjh6RIIrxy3ABAqsiBoB2WaqQt9H2VysacCsZ8Zlg_NU1bri47q5K18oTYG4g1p_nYAkViqd8oLKR0sxE2xdS8vX2YFnGL98NAesA_9GeDtPT06Vf99sZMqKpTcjy-modjFkzCOrpI0xXCeSV15rxAi07w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/KCWIXFHXCKsmLm60VzLwXHefipUtlXLMjZJv2XajvcwUwU5L5JWfBb7dHu1zSnJ7yRTp9ZNSWiw0y_OKf3Zvs8UEV5ubsTAB2TKMhsvWn95pCzFWw6DTBvlluxhQyAetw7wS8j2UYdOxFsDVa45tSJwL5SyvfY76PiGHUSvWF7lk0Xium_LreH_eQ0F8mA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Приклад 3. Задача «Розрахувати заробітну плату» необхідно виконувати 5-го та 20-го числа кожного місяця. Щоб налаштувати потрібну періодичність:",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виберіть «Місяць», встановіть число та час першого щомісячного запуску задачі.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Поставьте курсор у поле «Натисніть для вибору», розташоване нижче, а потім повторіть кроки з попереднього пункту для другого щомісячного запуску задачі. ",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/DHDOaygcNxjuA52lVSmD_bi3JeW57WD33CkbP89VlVmI977G26oke6N1w6Psh7jxDpvBa9Et2e3gay1y9JZZdrVU17nkLkSXzVViD4lsGYu7eBoumrbJMH8jeQ3J7bjJ5wLhLUkeD6GyZHwu06FbjNzkq_FlClBaMj0g9NhnRnKrUsldIkTFdfjl1lI-sQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/J_QQhRKO7EjGJs1iUXY80J9eHbKEG6-T_h_2vF0PwLRfQ2ua6j9f5qP-KRCYE3LPYG6KLxaylzinBqunyWBVrLS6HAS3MBs94DwdhDGTodg7FQ8R1om91Sr1Nx08qwgU2Q4_9xfCXODpBNGxkba7KNeryLj1Ge8OCQbKfTF6mvhPmJDlyp4mF-5L5USZtg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Приклад 4. Задача «Подати декларацію до податкової» необхідно виконувати щокварталу. Щоб налаштувати потрібну періодичність:",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виберіть \"Місяць\", вкажіть місяць \"Березень\", число та час запуску задачі.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Поставте курсор у поле «Натисніть, щоб вибрати», розташоване нижче.",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Повторіть кроки з попередніх пунктів для місяців «Червень», «Вересень» та «Грудень».",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/9cu4TYdlVMSefqUfxo1c9a-MZf-XN56srEwtdw5vW5LoazzM9iC5vdG5JrMl56S2ocdwLTIjVp43BdTI84NOstW1mYIDYwqLpSlDtPqsIMtrOihIkwrT_L8uHeqrl5VlWJPznVmBVSwKT7WbEbQBefly0KGEb4Iv_5L2z1gEWzRYdMfQbjnRoe1WYoD7TA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/cpuvn66k6FqMitL6S8-TYxr_7eeaqpWy5g8mcrzNY5RUI1euqgZkxox-_H2aBk6i55yglH_QcS7e8-ld-sqeN1_9UufopM8OJ3I7bySuz2PUkhKCdDZfQZT6C8MjJpn3QWUMk1i6nYsPdhq0SQa3BZ7IlxDvvO8bNuk97x8lm6ikjFRarzEbwkPgPkkkbg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Параметр ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "\"Створювати у вихідні дні\"",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": " за замовчуванням активний. Якщо вимкнути його, співробітники не отримуватимуть задачі у неробочі дні.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Параметр ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "«Враховувати графік роботи»",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": " за замовчуванням є неактивним. Якщо увімкнути його, співробітники будуть отримувати задачу відповідно до свого робочого графіка. Наприклад, співробітник два дні працює та два дні відпочиває. Якщо активувати цей параметр, задача надходитиме працівникові тільки в його робочі дні.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наступний параметр дозволяє встановити термін виконання задачі. У полі «Дедлайн» є два варіанти:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "4anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Через термін: ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "можна задати кількість годин/хвилин/днів/місяців для роботи над задачею.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад, при заданій періодичності «Щодня о 10:00» часовий інтервал 10 годин означає, що співробітнику відведено на задачу десять годин, і впоратися він повинен до 20:00 того ж дня.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/pWJivp8CrlFrqrKn7QHaUKOSnaoTDQJoGyCaVkl0CniBFPnK354n0Hf31eNlJDxKE5pMQ5W39i1lqBkTmL29OJzg6VMeZlCtvmwAwow0t3_ncg_-mvGivORXYul1Cyb4Lyb7lQSB4fdvmiDrTaOCCWGxSsRAB3uZRhsYQb85d8zWa6tTbKApcsmJbqe6Vg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "\n\n",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "До дня тижня: ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "можна встановити конкретний день і час, не пізніше якого задачу необхідно виконати. Якщо працівник не закрив задачу до цього моменту, воно отримує статус простроченого. ",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад, виберіть значення «П'ятниця» — «17:00», якщо хочете, щоб співробітник звітував за виконанням задачі не пізніше п'ятої години вечора кожної п'ятниці.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/95HCOCfIXiDXk8r1W7xQ5KCwRYSbA5ilkUlxy0gIGGPNGVS8nJXFEGq1u8oRme-8K7L64j1mEla6FCbaLq9VHpXmkJ0zDfzadjZj4ZPkrH8tfUWcLdx1sbDzmccjiRaUg4_D6Ur32dLNL2TIKatl-TnFKBEu9_-ghAPW7N-Ziu0Q-ioz0mMPqYk3bzGIEA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Також налаштуйте наступні параметри для задачі, що повторюється: ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "\"Виконавець не може змінювати термін\" ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "- увімкніть цей параметр, якщо не хочете, щоб співробітник на власний розсуд продовжував час виконання задачі.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "anchorId": "5anchor",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "div",
+    "anchorId": "6anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "«Вимагає перевірки постановника» ",
+                "fontSize": "12pt",
+                "bold": "true"
+              },
+              {
+                "text": "— дозволяє надсилати виконану задачу тому, хто її поставив: він оцінить результат, а потім схвалить, або поверне задачу на доопрацювання. Якщо залишити цей параметр вимкненим, задача буде вважатися закритою одразу після того, як співробітник поставить позначку про її виконання.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "div",
+    "anchorId": "7anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/joj_rvi9WNfXuMW25il-VD55MjrJ0qBgOdbW4_CdLggmIbaZS9nMvJsyl_JRGV39n4-xrB-ZxkDONbOOkeL5Ws9j9n3NDO02usAloP_YJqVip710uRqJESwbtUemMjl2qPrMVhaGnUbFNbj0DJh2bif0f8CVgi_tL2BoPl_UbUjpRCUuCvnmHFicW5c47w",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "h6",
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Додаткові налаштування",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "За ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "замовчуванням ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "це меню приховано, його можна побачити при натисканні на заголовок.",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://api.tonnus.io/static/621/image(10).png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Параметр ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "«Направити найближчому керівнику, якщо немає співробітників, які працюють на даний момент»",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": " за замовчуванням активний. ",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад, прибиральниця працює з понеділка по суботу, а в неділю має вихідний. Задача для неї має приходити відповідно до цього робочого графіка. Однак якщо ви залишите цей параметр увімкненим, то в неділю задача надійде керівнику прибиральниці і він повинен буде помити підлогу. Якщо вимкнути цей параметр, у вихідний день задачу не отримає ніхто.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://api.tonnus.io/static/621/image(11).png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "У блоці ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "«Що робити із задачею, якщо відправник НЕ працює»",
+        "fontSize": "12pt",
+        "bold": "true",
+        "italic": "true"
+      },
+      {
+        "text": " визначте, як потрібно вчинити із задачею та контролювати її виконання, коли у того, хто спочатку її поставив, вихідний, лікарняний чи чергова відпустка.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "8anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Створити у будь-якому разі - ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "виконавець отримає задачу від імені відправника, навіть у період його відсутності.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Створити від безпосередньго керівника – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "співробітник отримає задачу від імені безпосереднього керівника, який працює відповідно до графіка.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Створити від виконавця - ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "співробітник отримає задачу від свого імені.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Не створювати – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "у період відсутності відправника виконавець не отримає задачу.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://api.tonnus.io/static/621/image(12).png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "У блоці ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "«Відправник»",
+        "fontSize": "12pt",
+        "bold": "true",
+        "italic": "true"
+      },
+      {
+        "text": " можна вказати, від імені кого надходитиме задача і хто її контролюватиме. Виберіть один із трьох варіантів:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Найближчий керівник – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "співробітник отримає задачу від імені свого безпосереднього керівника.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виконавець функції – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "співробітник отримає задачу від імені іншого співробітника у статусі виконавця.\n\n",
+                "fontSize": "12pt"
+              },
+              {
+                "text": "Наприклад, у компанії є функція щодо ознайомлення персоналу з регламентами. У цьому випадку відправником задачі, що повторюється, з вивчення регламентів можна вказати будь-кого з виконавців цієї функції.\n",
+                "fontSize": "12pt",
+                "italic": "true"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Керівник функції – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "співробітник отримає задачу від імені керівника якоїсь із функцій. Якщо у вибраної функції немає керівника, то відправником стане найближчий керівник, у якого ця функція знаходиться в підпорядкуванні.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "12pt"
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://api.tonnus.io/static/621/image(13).png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Блок ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "«Використовувати часовий пояс»",
+        "fontSize": "12pt",
+        "bold": "true",
+        "italic": "true"
+      },
+      {
+        "text": " допоможе зробити роботу в системі зручнішою, якщо часові пояси працівників не співпадають, а політика вашої компанії припускає гнучкий підхід до робочих графіків. Виберіть один із трьох варіантів встановлення часового поясу для роботи над завданням:",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "9anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Виконавця – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "завдання з'явиться в системі за часовим поясом працівника, який має її виконати. Наприклад, ваша компанія розташована в Британії, і ви встановили періодичність задачі – щодня о 12:00 за Лондонським часом. Однак якщо співробітник працює в Рейк'явіку, завдання надходитиме йому об 11:00 за місцевим часом.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Відправника – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "задача з'явиться в системі часового поясу відправника.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Компанії – ",
+                "fontSize": "12pt",
+                "italic": "true"
+              },
+              {
+                "text": "задача з'явиться в системі часового поясу компанії. Наприклад, щоденна задача, запланована на 12:00 у Лондоні, надійде співробітнику-парижанину о 13:00 за місцевим часом.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://api.tonnus.io/static/621/image(14).png",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "h6",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Характеристики задачі ",
+        "fontSize": "12pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/vtEmjIMudtxJ-im_0023VDc7ctSMK4NCdXJHoSHBi-oji9ytK6wIrERPMFp8WXpYW3u_uR_P_I5Ct_DTHl3Pj2i2fOAB8q1w_rdIok1RijkEi0MT-wG_B-oRkicLgABiBxaAfxIE02dKOEEvL6chyYxfIGVoq2DhnxIgFcoeEfMNoTpu9stS6YTtrkMUyA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": " "
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Назва. ",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "Щоб отримати потрібний результат, задачу необхідно формулювати, починаючи з дієслова. Назва задачі має відповідати питанням «Що зробити?»",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад: \"Провести координаційну нараду\".",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Опис. ",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "У цьому полі детально поясніть, що саме і як потрібно зробити, додайте інструкції, чек-листи, посилання на ресурси мережі. При складанні опису орієнтуйтеся на співробітника, який працює в компанії перший день: все має бути настільки ясно, щоб він зміг виконати задачу, не поставивши жодного питання.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад: «Порядок денний координаційної наради:",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "1. Обговорити виконані задачі та заохотити відповідальних.",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "2. Обговорити невиконані задачі та з'ясувати причини, отримати відповіді на такі питання…»",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "Результат. ",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "Точно сформулюйте, який саме результат виконання задачі ви очікуєте. Якщо це поле заповнено, під час закриття задачі система запитає у виконавця: «Результат отримано?»",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад: \"Задачі, внесені на платформу\".\n\n",
+        "fontSize": "12pt",
+        "italic": "true"
+      },
+      {
+        "text": "Вкладення. ",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "У це поле можна додати будь-який файл, у тому числі відеоролик, графічне або анімоване зображення (у форматі gif) і так далі - все, що може стати в нагоді співробітнику для виконання задачі.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "Наприклад, документ-шаблон плану на тиждень.",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Доведення. ",
+        "fontSize": "12pt",
+        "bold": "true"
+      },
+      {
+        "text": "У цьому полі можна задати вид підтвердження, яке виконавець повинен надати після завершення роботи над задачею, або встановити, що таке підтвердження не потрібне. За ",
+        "fontSize": "12pt"
+      },
+      {
+        "text": "замовчуванням",
+        "fontSize": "12pt"
+      },
+      {
+        "text": " запропоновано значення \"Не потрібно\", але ви можете вибрати варіанти \"Текст\" або \"Зображення\". Для кожного виду підтвердження вкажіть потрібну кількість або обсяг та опишіть критерії відповідності.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ul",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Для варіанта «Текст» рекомендуємо дати короткий опис та вказати мінімальну кількість символів.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Для параметра «Зображення» можна вказати будь-які бажані характеристики файлу.",
+                "fontSize": "12pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Наприклад: «Знімок екрана модуля комунікації – розділ «контролю».",
+        "fontSize": "12pt",
+        "italic": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Щоб закрити задачу, співробітник має прикріпити потрібні файли. Якщо цього не зробити, картка задачі отримає позначку про порушення.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Щоб зберегти задачу, що повторюється, натисніть на кнопку «Зберегти» у лівому нижньому куті вікна.",
+        "fontSize": "12pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/NO0KsM_6bE08PO3lwwMiFl4e16gbbA8KIfrR2GD7q3txvrlkpzLA_hH5kPZCkl11_2FDl40FniH8iqdG8KZtkPE_wzWMMr_SsY_7Gk3sVBPnUeSPONL0xVDfBNdspDu3feLeqQgZQQpNB-px2XSeHV4bRTNXD9QeUXrWwej6bjjyPaQM9SjEgZiSkv2xhg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "12pt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n\n\n"
+      }
+    ]
+  }
+]

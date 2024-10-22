@@ -84,4 +84,8 @@ export const permissionKeys = {
       parentRoles: "s.u.p", // Родительские функции
     },
   },
+
+  regulation: {
+    autonomousApproval: "regulation.autonomous.approval",
+  },
 };

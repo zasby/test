@@ -1,0 +1,1158 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Как выдавать разрешения для функций",
+        "fontSize": "20pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "С помощью разрешений можно определить для каждой функции объем прав при работе с системой.",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Настраивайте разрешения, чтобы расширить или ограничить возможности пользователя, за которым закреплена та или иная функция.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "После регистрации компании на платформе Tonnus все разрешения по умолчанию есть только у владельца. В дальнейшем он выдает разрешения для других функций в компании.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Выдача разрешений\n",
+        "fontSize": "14pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Перейдите в модуль «Оргструктура».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Нажмите на функцию, для которой необходимо настроить разрешения: например, «Исполнительный директор».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "img",
+    "url": "https://lh6.googleusercontent.com/HhHDIC8oUxaToCbp-gf538JBQ3KuKH62PCEQJ5IHDv6bP0rLAMLZ44qFQupbxL3dR2Q4quSjAiS468STJfsEMFS6DIxHk2UJLLrzOT-GvaLJhUSl7xmX6EyPUa6M2bjwMP0VuwcVeSxz_kKaT-GAJe6Zdnd3jein8-4x4UuD9NuDm4cU38qmRqXsQswVOg",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "3. В появившейся панели управления функцией перейдите на вкладку «РАЗРЕШЕНИЯ».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/usu3iIBmYBP4PEifNZxmu5EZ_EHTzLtQtahdlFxLYwD4ywSION83EPGE2adeIirpzEyqUN3ga8Z6ug_3bmIXaomnG68EPYMqlcWIWjA0XOMrYTve7Fyn_6UFv9-qmHYGGlRY8nSPaWKVRQoZUyeh91DpeU1RlAFOxjcSEmgFJUJJlB7zmF8NQYiTjvAlxA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  4. В этой вкладке перечислены все возможные разрешения для данной функции. ",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/LJdm1xaV2NTbbVSrqqhdyuab_zIf4S-cLt5V-6rPoOewMZCKFi4G-buBDezKQXmCLIc7EArcCemj4HEGpO3eRSGC7CCft0h6Er-Gl9oSEg3e0VOZHurOaTw4hrsHtbi6vzUZbkddQWQ9Xd41NnpxYjnviyTD446P7OpHd2fJDbqk9vaKDCoIyGDTtRKTmw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  5. Выберите нужные разрешения и активируйте их при помощи переключателя.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "img",
+    "url": "https://lh5.googleusercontent.com/8lglccky8eP7AXXETBHxJLi-bhfZvF9BKNCDnhmBbzqraisA7-0p0T1XAfgoQmMURA0pM-C0A4S_sJS4ySQ7GHCsz72oGM1nZFF3rIgGPnbEW8brxyBYvhZs7CofBKqKHR8I5_A_MUcQuay6P0DmpygVmcfVMibXQpy849AF_0t8lQKceXZNNKfP4RusBQ",
+    "children": [
+      {
+        "text": "",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "h2",
+    "children": [
+      {
+        "text": "Описание разрешений",
+        "fontSize": "16pt"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ОРГСТРУКТУРА»",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/jkqJtKi2MJZhtbHkzuWuxCvLuoU1NvXvDtskuJTZlILLJi24wcGUxfzoKYHTuLBCASFB3Z8Mf0KmxIBIdZaLggddMrwIccsVaBZQ01sCEA6B4hklua-aYLk95jtSwcDOhrw5tivKuV5eLh20Bw9J6zKDg_qN8_QgJzsBVU5VZP4r_maH7EChamCmAUcTig",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "bold": "true"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Оргструктура",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Создание",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет создавать новую оргструктуру.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редактирование",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет редактировать оргструктуру.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Удаление",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет удалять оргструктуру.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Просмотр всех оргструкту",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "р - позволяет просматривать все существующие в компании оргструктуры.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Функция",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Создание",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет создавать новые функции в оргструктуре.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редактирование",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет редактировать оргструктуру.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Сортировка",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет изменять порядок подфункций.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Перемещение",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет изменять порядок функций.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Удаление",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет удалять функции из оргструктуры.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Управление сотрудниками",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет прикреплять сотрудников к функции и отменять прикрепление.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Управления разрешениями",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет редактировать набор разрешений для функций.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ПОВТОРЯЮЩИЕСЯ ЗАДАЧИ»",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/CSVuq6EKmFMW1fhxTXNGex8kKCH9dq-ybXF7pPTeTDEOHMgApK7tQtOU89oUK3iH-3u2p301sDb64MIP0txlPP2fg2Xzt9STtwqDW3i9CpwS1_OY3U-odpqipEfteZgUmvt3rarPBKHHDyjweetA6JFYOMRfQJjAg7BUCTD9hKQSmMOK4EtNOlEDHPy7Jg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Создание",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет создавать повторяющиеся задачи.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редактирование",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет",
+                "fontSize": "11pt"
+              },
+              {
+                "text": " изменять повторяющиеся задачи.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Удаление",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет удалять повторяющиеся задачи из системы.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Управление паузой",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет приостанавливать и возобновлять повторяющиеся задачи.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Просмотр истории",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет просматривать историю действий по каждой повторяющейся задаче.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «СОТРУДНИКИ»",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "3anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/H7Spvmtrj164jM3KiZ9SS2qP2sH7iIshhetMQsgVJ5qHbx_uKy0drp2bUiUv8sAvjtq3N_hhvaJqvF5CsUZFoNZ-D9H-iLaUdqHQRJ_XFTeLBjXgN8VJ2b-u_OpqW9YbGtDTY9lcJuELVRNNwfrjkdMQ5psjFGK-WMVJ9Z6ecsJYU9n4Q4y9hJpP_2hfEg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Сотрудники",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Просмотр номера телефона",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — делает видимыми контактные номера сотрудников в модуле «Сотрудники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Редактирование",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет редактировать профили сотрудников ",
+                "fontSize": "11pt"
+              },
+              {
+                "text": "в модуле «Сотрудники»",
+                "fontSize": "11pt"
+              },
+              {
+                "text": ".",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Удаление",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет удалять профили сотрудников в модуле «Сотрудники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Приглашения",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Создание",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": "— позволяет добавлять сотрудников в систему в модуле «Сотрудники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Удаление",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет удалять ссылки для приглашения сотрудников из системы.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «КОМПАНИЯ»",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "4anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/4PElo_y8k4GNwmUSGq6vE5fOt2y9BzUWpbn3qXPxdJSKK4TwGZFP_IvVcALqIRkcNSG8YEiXDtnyabpIoQ7XHWb5N9ElDJ47-s_jgEwQ_hfNxYVfAHQyE99ltKtAhIKJhdjku3aK3lBq_Fw5WCAoMvM1Pmj1H4zUaQKZJp0nqrGfJUQCOUsVB1ekO1Xr9Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Название и описание",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет изменять название и описание компании.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Часовой пояс",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет изменять часовой пояс компании.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "График работы",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — позволяет изменять день начала недели и график работы компании.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ОТЧЕТЫ»",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "5anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/F1I1NAm00rGFFVmIx_nO-f3l1g6N0-wTtMfBZ0p4W7KiMvHfce2MLAizb7yBgrO4i6-0WWM8ohfToBeXauFnO0NRMaJNbENdQ1bdC3QIN1q8LAhBUfe-iA3c8Jw3At4IMWn9KIGoKMLUczIp6RfEXTW7GkAd24Pm63S5EH-gp38Ob-2NVkvARsP5aYyWjQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "По коммуникациям",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — открывает доступ к модулю «Отчеты — по коммуникациям», где отображается информация по работе с задачами в компании.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "По драйверам",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " — открывает доступ к модулю «Отчеты — по драйверам», где отображаются данные по работе с драйверами в компании.",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "БЛОК «ГРАФИК РАБОТЫ»",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "6anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/k1kk89EZhHLfIZbQYKh5WivdKRhGvccyFJpLBxBjEpspsMdobg7RLnM1qFR-jZzMzLXCSX5XE-8x9CjVxl7SrS8zEFLW7FOJd46dR5wZCXGZx3MrApqJdmLNf_4jTSUrUiKjvMPNO27gv0PdDTjpVZQy6-nWilqmOjNGwYKNABLPRpJJRICluCaYNmltvw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Просмотр:",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Все функции",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " - позволяет просматривать график работы всех функций на оргструктуре. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Подчиненные функции",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " - позволяет просматривать график работы всех функций, которые ПОД вами на оргструктуре. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Функции руководителей",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " - позволяет просматривать график работы всех функций, которые находятся НАД вами на оргструктуре. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Редактирование:",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Все функции",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " - позволяет редактировать график работы всех функций на оргструктуре. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Собственные функции",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " - позволяет редактировать график работы только ваших  функций на оргструктуре. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Подчиненные функции",
+                "fontSize": "11pt",
+                "underline": "true"
+              },
+              {
+                "text": " - позволяет редактировать график работы всех функций, которые находятся под вами на оргструктуре. ",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n\n"
+      }
+    ]
+  }
+]

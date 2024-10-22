@@ -1,0 +1,523 @@
+[
+  {
+    "type": "h1",
+    "children": [
+      {
+        "text": "Чтобы добавить сотрудника в систему:",
+        "fontSize": "20pt",
+        "bold": "true"
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Зайдите в модуль «Сотрудники».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/peqW8pXOzUlwPXvDg7siJUPRnNiC0t7Z-BRBA4DORPh3UpdBESX6rrnk8aGHdnhei1Ewk55xsrHRkUNpMNOzAxB-c2YdshWWvYm8wMM95eXR92S7_aOo0A01pr0WII39Q0AJ2aPmuWMagzNOSmsgwyyH6X0xCqkbj36AC8rszQlpgoDr1j4oh06GMe-hJA",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  2. На верхней панели нажмите на кнопку «Пригласить сотрудника».",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/aMSUijsHZSIxdAxVHRLtPyxMd7p1th02N2JxAncGkhvRooUFdhqdgf2FU1X4-GU_MifKVPBqZsaGafFzHTNEcMAi34KP3FSxom79z00y002itroRn8aaRA5RH7xb2OjtfKGHMM9xm8P_zW0Ktyo5HX-8mj69eckpnxMFFuwa9Z65zQcsGikZ_Gzv6iNpcQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "  3. Выберите один из двух способов приглашения сотрудников.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Первый способ: личное приглашение по электронной почте",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Введите электронный адрес сотрудника, которого нужно пригласить на платформу, и выберите его функцию в оргструктуре.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Внимание: если сотрудник отвечает за несколько функций, это можно указать в ходе дополнительной настройки при создании приглашения.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/-T-Q-mILAYHpDwIpL7_NmlYYLR5uA3X-bIGzntTVdlcjNLLdx1ZD_CYZoOIHYqhEEKHqix1q4i4XAmlCsQFQa922jkWnyBI1TDSVsIUkK2yE3C6OBeqtaUKUNen_KxqHbpYo7ZsZ-nSFAtaksbgnUMCaYBO08WWrX468ehwdxKHSEyt1Fjd5KJehD087zg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "После этого нажмите на кнопку «Пригласить». Сотрудник получит письмо со ссылкой для присоединения к платформе Tonnus.",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/tFo2IWrtX-pydpVpB5W8WOz7MqURUpup0Vjl7o1hOvxkIlLeADgd0blUK2WgTZiQGlPg1B0px4JKTdVa-mz7XE0pCPjUjw0WF6a8iqmSg-hltoTlQPPPSgzWUkphvG2oIKqgA6cSAU_Mut4B7sFoWtL-dV-HTqGZOrN2cEkPHWrcJ0UHIOKrx2LHKuuYUg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "При успешной регистрации сотрудника в системе его имя отобразится в оргструктуре с учетом назначенных функций.",
+        "fontSize": "11pt"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Второй способ: многоразовый код приглашения",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ]
+  },
+  {
+    "type": "div",
+    "anchorId": "1anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Этот вариант позволяет пригласить на платформу сразу нескольких сотрудников с помощью уникальной ссылки и кода, который каждый новый пользователь должен будет указать при регистрации в системе.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Чтобы сгенерировать ссылку и код, поставьте галочку в строке «Многоразовый код приглашения».",
+            "fontSize": "11pt"
+          }
+        ]
+      },
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/cKFJFDc9-yQ5zV-zIvsaEGrFHJUuLy0NjdSZ9tTX1FJTznBsHvNIdXTMSVdhOrpxyo2lOD5udyP9Yq3SxgMB9WXq9dta58pr6JXPPgFTaGDBHkSrBscWPy3mynF7ek8emVoBljZs46seAf_Ru9Ji6YUY1XNoruBTVJe8Vw9Ox7tRn6FeU54bB49qiWLiAw",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Для подтверждения нажмите на кнопку «Пригласить». В появившемся окне скопируйте ссылку и код приглашения в буфер обмена, нажав на соответствующие значки.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh5.googleusercontent.com/ixYZyhF0_sNWadkZkQPhQIiqi_G-8z7jPlskTSsPRgeMZO5jTQoy4f841iX2JWHYsIldenvzDKNIDYz5IXJFMWa1IUcsJcce6cFvVPc9qOppSnxTDv9NPG5zaKwPiI1kv1Si4Irpr_ipDPoaU6FwSPJz-ykMrHc_i17hbJSI5zx81gYvfAccun9YkLMq8g",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Отправьте эту информацию всем сотрудникам любым удобным вам способом. Каждый из приглашенных должен перейти по ссылке, ввести свои данные, в том числе код приглашения, а затем завершить регистрацию в системе самостоятельно.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Внимание",
+        "fontSize": "11pt",
+        "bold": "true"
+      },
+      {
+        "text": ": ссылка общая для всех. Это означает, что в дальнейшем вам потребуется ",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "прикрепить новых сотрудников к функциям вручную.",
+        "fontSize": "11pt",
+        "bold": "true"
+      },
+      {
+        "text": "\nДля этого зайдите в модуль «Оргструктура» и нажмите на функцию, за которую должен отвечать кто-либо из новых сотрудников.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/Z6aGuA7A4yGSKkADtgRTmyMH3WeweSGn5F7XQ-G_I3820jCX1Xqatd67ZO_w7crmhiTmwVJhO7SDSvlRCq89pX75t_KDjxd03CooPDicV6fMu35-GYOvrH4JpaGgVg6IL0TDYJRWIAjZ-Vw5fB3lbk4neTOWAmLqLNEd_IpI0zp6OynF-O5_1dOmgQsowg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Далее выберите для нового сотрудника роль руководителя или исполнителя функции. В дальнейшем это позволит ему получить ранее созданные для этой функции регламенты (при их наличии) и повторяющиеся задачи.",
+            "fontSize": "10.5pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "ol",
+    "children": [
+      {
+        "type": "li",
+        "children": [
+          {
+            "type": "lic",
+            "children": [
+              {
+                "text": "Определите роль нового сотрудника и нажмите на соответствующую кнопку «Добавить».",
+                "fontSize": "11pt"
+              }
+            ],
+            "align": "justify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh6.googleusercontent.com/Qc2Bfm_3FHjq14BiWt7LDCaHJfJs5JdQuKQxcfCFBc0yaBe6cOCOqxTDbV6Q__gSMiCRz2Pdck8FL-IN7vp2rL087AlTSaQg4_c3N2y2Pde-r_C1z5EPWfRuEONbLh2zOKlmUehUPVwObRjXI2QRO6DXrho5JITCF_hpLfLzZW33BDdw9MChyPwqQ5-Lwg",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Вы можете изменить или отредактировать название должностей. ",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/Al3AppO_3C0FFRuDlAlOAXjTNBx2HSTh4m4mclIIZy8O1NIDSQsfkxFOGGyOChMMHo4V6ATQ1NG2xo5qyoJtYBq_fk3KPttaqCYIzve63fSImVsPBq1td3nwBZLR0ARRySNUwv96CrFws9PGlMciQxySwWduMTFDyOtqB9x-DgIpjeXM3XjiRpA2zw6_3A",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Приглашения по ссылке могут быть и персональными.",
+        "fontSize": "11pt",
+        "bold": "true"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "div",
+    "anchorId": "2anchor",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Например, нужно пригласить сотрудника в систему с автоматическим прикреплением к конкретной функции, но вы не знаете адрес его электронной почты и не хотите тратить время на выяснение.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/3Hda-qboAWMR3Naeg1l3vRmKhppqpTwS_RsKFHGIdtiYnbMYuB2Nkt7eRi3MqDQgOAr6ikWhfov67e8BTmb2QQGOI4zPF5IEf1xWX3KyikH2rz6fdq1fvmP5MwKOqdyqmM2CsORlWuOXTcwqx2M61TocosfTV8R_fLSWEEQhfmPhhhpHQKixKEG0pm059Q",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "\n"
+      }
+    ]
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "В этом случае нажмите на кнопку «Пригласить сотрудника» в модуле «Сотрудники». В появившемся окне поставьте галочку в строке «Многоразовый код приглашения», а ниже в выпадающих списках выберите одну или несколько функций, для которых будет создана персональная ссылка. Затем нажмите на кнопку «Пригласить».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Сгенерированную ссылку и код можно скопировать и отправить сотруднику любым удобным способом.",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh3.googleusercontent.com/-NWnC46WX-Ynudy8vQJh0OAWY3SIkitIS9GSFS6avZpUqUtJ3h3t0zYmWA5AXdV2UHCgS29AVIyP8CEI4z8pDMzmDGB66mABQdlplN4lAQHqbySqLweX-GwtHmWFBmZw3bBsG_-JfZ_MVK6wCl2_ekPeutFowiGT_mbNcQv0C8znR9oYdDaGSU32uJSOYQ",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt"
+          }
+        ]
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": "Когда сотрудник перейдет по ссылке, введет код и успешно завершит регистрацию в системе, его имя автоматически отобразится в оргструктуре с учетом назначенных функций.",
+        "fontSize": "11pt"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Чтобы просмотреть все отправленные приглашения и при необходимости удалить некоторые из них (например, после регистрации всех нужных сотрудников по многоразовой ссылке), нажмите",
+        "fontSize": "11pt"
+      },
+      {
+        "text": " ",
+        "fontSize": "11pt",
+        "italic": "true"
+      },
+      {
+        "text": "на кнопку «Список приглашений».",
+        "fontSize": "11pt"
+      }
+    ],
+    "align": "justify"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "type": "img",
+        "url": "https://lh4.googleusercontent.com/HPaZOq70x8vuxq4hOHn7j-k9VspAug_3oJOPLZKQd5gU6_PdXI37Bduf3Qm4vdD0L4qB_wSmXpe7KsSNa1gaU9nAShSTta1OlUfed0z2_IJFfZg-OKbfwB_YVRiVs_jYOcOxswuQFBZbLO4bMX98jf_X7XQeiXGtQFrcr60CWAflULKedxQ2uPuVcMKt5A",
+        "children": [
+          {
+            "text": "",
+            "fontSize": "11pt",
+            "italic": "true"
+          }
+        ]
+      }
+    ],
+    "align": "center"
+  },
+  {
+    "type": "p",
+    "children": [
+      {
+        "text": ""
+      }
+    ]
+  }
+]

@@ -71,7 +71,7 @@ export const AppMainMenuLinks: AppMenuLinkType[] = [
   // { id: 9, link: "/driver", key: "driver", icon: <FiAlertTriangle />, strictMatch: true },
   { id: 9, link: "/driver", key: "driver", icon: <LucideAlertTriangle size={15} />, strictMatch: true },
   // { id: 10, link: "/manage-companies", key: "admin.companies_management", icon: <FiSliders /> },
-  // { id: 10, link: "/manage-companies", key: "admin.companies_management", icon: <LucideSliders size={15} /> },
+  { id: 10, link: "/manage-companies", key: "admin.companies_management", icon: <LucideSliders size={15} /> },
   { id: 13, link: "/education", key: "edu", icon: <LucideGraduationCap size={15} /> },
   { id: 14, link: "/report/communication", key: "report.communication", icon: null, strictMatch: true },
   // { id: 4, link: "/communication", key: "communication", icon: <FiRepeat />, guideKey: guideKeys.communications },
@@ -128,16 +128,16 @@ export const AppTabsByPage: { [name: string]: AppPageTabType[] } = {
     { id: 5, link: "/policy/undone", key: "undone", name: "common:tab.policy.undone" },
   ],
   planning: [
-    { id: 0, link: "/planning/my-plan", key: "planning", name: "common:tab.planning.my_plan" },
+    { id: 0, link: "/communication/my-plan", key: "planning", name: "common:tab.planning.my_plan" },
     {
       id: 1,
-      link: "/planning/work-plans",
+      link: "/communication/work-plans",
       key: "work_plans",
       name: "common:tab.planning.work_plans",
     },
     {
       id: 2,
-      link: "/planning/require-approval",
+      link: "/communication/require-approval",
       key: "require_approval",
       name: "common:tab.planning.require_approval",
     },
