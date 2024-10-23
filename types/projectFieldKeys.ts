@@ -1,3 +1,3 @@
-import { ProjectDto } from "../../../../../../api";
+import { ProjectDto } from "../api";
 
 export type ProjectFieldKeys = keyof ProjectDto;
