@@ -1,4 +1,4 @@
-import { IssueDto } from "../../../../../../functional/api";
+import { IssueDto } from "../../api";
 
 export enum WarningsKeys {
   executorDeadline,

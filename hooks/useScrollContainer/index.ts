@@ -1,7 +1,5 @@
 import { RefObject, useCallback, useEffect, useRef, useState } from "react";
 import { isDraggable, isObject, isScrollableHorizontally, isScrollableVertically } from "./utils";
-import { useDebouncedCallback } from "../useDebouncedCallback";
-import { useReactiveRef } from "../useReactiveRef";
 import { defaultMouseScrollImplementation } from "./core/DefaultArtificialScroll";
 import {
   BasicScrollOptions,
@@ -10,6 +8,8 @@ import {
   ScrollContainerCustomizedProps,
   ScrollContainerDefaultProps,
 } from "./types";
+import { useDebouncedCallback, useReactiveRef } from "../index";
+
 
 interface OriginalStyles {
   body: Partial<CSSStyleDeclaration>;
