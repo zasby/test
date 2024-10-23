@@ -1,5 +1,23 @@
 import React, { createContext, useState } from "react";
-import { IGlobalAuthorizedContext } from "../types";
+import { b } from "@fullcalendar/core/internal-common";
+
+export interface IGlobalAuthorizedContext {
+  audio?: {
+    currentActivePlayerId?: string | number | null;
+  };
+  regulation?: {
+    isSidebarOpen?: boolean;
+    onSidebarOpenChange?: () => void;
+    reloadSidebarData?: (id?: number, isRegulation?: boolean, parentId?: number) => void;
+  };
+  issue?: {
+    reloadIssue?: () => void;
+    reloadIssueHistory?: () => void;
+    reloadIssueBoard?: (() => void)[];
+    reloadIssueBoardCounters?: () => void;
+  };
+  setState: (state: IGlobalAuthorizedContext) => void;
+}
 
 export const GlobalAuthorizedContext = createContext<IGlobalAuthorizedContext | null>(null);
 
