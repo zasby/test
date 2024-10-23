@@ -1,5 +1,5 @@
 import { RegulationStatus } from "../constants/regulationStatus";
-import { TagLabelColor } from "../../types/TagLabel.interface";
+import { TagLabelColor } from "../types/TagLabel.interface";
 
 export const getStatusLabelColor = (status: RegulationStatus) => {
   switch (status) {

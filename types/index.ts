@@ -1,11 +1,11 @@
 import {IBoardRelationSwitch, RelationsTypes} from "./BoardRelationSwitch.interface";
 import {CalendarPlanningCalendarViewType} from "./CalendarPlanning";
+import { ex } from "@fullcalendar/core/internal-common";
 
 export type { PagingInfo } from "./PagingInfo";
 export type { IUseMediaRecorder, TMediaRecorderStatus } from "./MediaRecorder";
 export { TMediaRecorderErrorType } from "./MediaRecorder";
 
-// export type { NotificationType } from ".";
 export type { IUseTimer } from "./Timer"
 export type { AssignableRef } from "./AssignableRef";
 export type { guideContentType } from "./Guide";
@@ -32,3 +32,4 @@ export type { IGlobalAuthorizedContext } from "./GlobalAuthorizedContext.interfa
 export { CalendarPlanningCalendarViewType } from "./CalendarPlanning";
 export type { IReportContext } from "./ReportContext.interface";
 export { projectSectionKeys, projectRoutesKeys, projectSections } from "./routesKeys";
+export type { NotificationType } from "./Notification"
