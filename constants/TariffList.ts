@@ -12,8 +12,10 @@
 // PlatinumResident: Платиновый резидент,
 // Custom: Индивидуальные условия
 
+
 import { TariffType } from "../api/models/CompanyForAdminDto";
 import { ISelectItem } from "../types/Select.Interface";
+
 
 export const TARIFF_LIST: ISelectItem[] = [
   {

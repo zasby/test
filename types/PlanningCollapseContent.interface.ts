@@ -1,7 +1,7 @@
 import { PlanIssueDto } from "../api/models/PlanIssueDto";
 import { PatchData } from "./PlanningCollapseContentTable.interface";
 import { DayOfWeek, PlanDto, RoleShortDto } from "../api";
-import { PlaningFilterType } from "../../constants/PlaningFilterType";
+import { PlaningFilterType } from "../constants/PlaningFilterType";
 
 
 export interface IPlanningCollapseContent {

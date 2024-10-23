@@ -10,9 +10,9 @@ import { RegulationTreeNode } from "../api/models/RegulationTreeDto";
 import { RegulationTreeItemDto } from "../api/models/RegulationTreeItemDto";
 import { NavigationMenuItemDto } from "../api/models/NavigationMenuDto";
 import { defineAllow } from "../helpers/helpers";
-import { allowsRegulationKeys } from "../constants/consts";
 import { Icon } from "../../components/uiKit";
 import { api } from "../services";
+import { allowsRegulationKeys } from "../constants/regulation/consts";
 
 export const useRegulationTreeData = () => {
   const { t } = useTranslation();

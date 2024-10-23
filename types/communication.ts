@@ -1,4 +1,4 @@
-import { valueType } from "../SortButton.interface";
+import { valueType } from "./SortButton.interface";
 
 export enum RealtimeIssuesKeys {
   Added = "issue.added",

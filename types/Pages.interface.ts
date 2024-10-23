@@ -7,11 +7,11 @@ import {
 } from "../api";
 import React from "react";
 import { regulationContentType } from "../constants/headerTools";
-import { allowsRegulationKeys } from "../constants/consts";
 import { NavigationMenuItemDto } from "../api/models/NavigationMenuDto";
 import {
   IeditableSectionForm
 } from "../../components/modules/forms/createRegulationSectionForm/CreateRegulationSectionForm.interface";
+import { allowsRegulationKeys } from "../constants/regulation/consts";
 
 export interface IMainRegulation {
   regulationContentType: regulationContentType;

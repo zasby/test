@@ -8,7 +8,7 @@ import { PositionDto } from "./RoleSelectorDto";
 import { DataNode } from "antd/es/tree";
 import { b } from "@fullcalendar/core/internal-common";
 import { positionsKeys } from "../../types/UserSelectionDialog.interface";
-import { allowsRegulationKeys } from "../../constants/consts";
+import { allowsRegulationKeys } from "../../constants/regulation/consts";
 
 export type RegulationTreeDto = NavigationMenuItemDto & {
     children?: RegulationTreeItemDto[] | null;

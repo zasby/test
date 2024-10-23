@@ -7,7 +7,7 @@ import type { UserShortDto } from "./UserShortDto";
 import { RegulationDto } from "./RegulationDto";
 import React from "react";
 import { UserSelectionRule } from "../types/userSelectionRule";
-import { allowsRegulationKeys } from "../../constants/consts";
+import { allowsRegulationKeys } from "../../constants/regulation/consts";
 
 export type BreadcrumbDto = {
     id: number;

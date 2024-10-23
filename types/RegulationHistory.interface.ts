@@ -6,7 +6,7 @@ import {
   UserShortDto,
 } from "../api";
 
-import { historySortKeys, historySortKeysType } from "../../components/modules/pages/regulation/misc/consts";
+import { historySortKeys, historySortKeysType } from "../constants/regulation/consts";
 
 export interface IRegulationCommentCard {
   creator?: UserDto | UserShortDto;

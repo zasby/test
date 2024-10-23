@@ -1,4 +1,4 @@
-import { tabKeysType } from "../../constants/consts";
+import { tabKeysType } from "../../constants/regulation/consts";
 
 export type RegulationFilter = {
   useContext?: boolean;

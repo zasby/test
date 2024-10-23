@@ -1,4 +1,4 @@
-import { allowsRegulationKeys } from "../../components/modules/pages/regulation/misc/consts";
+import { allowsRegulationKeys } from "../constants/regulation/consts";
 import { RegulationDto } from "../api";
 
 export const defineAllow = (key: allowsRegulationKeys, arrKeys?: allowsRegulationKeys[] | null): boolean => !!arrKeys?.includes(key);

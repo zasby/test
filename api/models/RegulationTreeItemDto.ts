@@ -3,7 +3,7 @@
 /* eslint-disable */
 
 import { NavigationMenuItemDto } from "./NavigationMenuDto";
-import { allowsRegulationKeys } from "../../constants/consts";
+import { allowsRegulationKeys } from "../../constants/regulation/consts";
 
 export type RegulationTreeItemDto =  NavigationMenuItemDto & {
     id?: number;

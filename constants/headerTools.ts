@@ -1,5 +1,11 @@
-import { cardKeysType, cardKeys, POLICIES_TAB_KEYS, tabKeysType } from "./consts";
-import { toolsConst, urlKeys } from "./consts";
+import {
+  cardKeys,
+  cardKeysType,
+  POLICIES_TAB_KEYS,
+  tabKeysType,
+  toolsConst,
+  urlKeys
+} from "./regulation/consts";
 
 export enum regulationContentTypeKeys {
   draft = "draft",

@@ -8,7 +8,7 @@ import type { RegulationUserSelectionRuleDto } from './RegulationUserSelectionRu
 import type { UserShortDto } from './UserShortDto';
 import { RegulationStatus } from "../../constants/regulationStatus";
 import { BreadcrumbDto } from "./NavigationMenuDto";
-import { allowsRegulationKeys } from "../../constants/consts";
+import { allowsRegulationKeys } from "../../constants/regulation/consts";
 
 // const type RegulationBreadcrumbs =  breadcrumbs?: BreadcrumbDto[]
 

@@ -1,5 +1,5 @@
 import { IssueCustomFieldDto, IssueDto, StaticFileDto, type UserShortDto } from "../api";
-import { IssueType } from "../../constants/issueTypeKeys";
+import { IssueType } from "../constants/issueTypeKeys";
 import { FormInstance } from "antd";
 import { blockedFieldsKeys } from "../../components/modules/forms/types/consts";
 import React from "react";

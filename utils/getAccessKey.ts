@@ -1,5 +1,5 @@
-import { allowsRegulationKeys } from "../constants/consts";
 import { MenuItemClaimType } from "../api/models/NavigationMenuDto";
+import { allowsRegulationKeys } from "../constants/regulation/consts";
 
 export const getAccessKey = (actions: allowsRegulationKeys[]) => {
   if (actions.includes(allowsRegulationKeys.edit) && actions.includes(allowsRegulationKeys.assignment)) {
