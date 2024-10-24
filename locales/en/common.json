@@ -13,7 +13,7 @@
     "settings_company": "Company Settings",
     "settings_modules": "Module Settings",
     "chart": "Charts",
-    "communication": "Communications",
+    "communication": "Tasks",
     "restore_password": "Password recovery",
     "sandbox": "Sandbox",
     "driver": "Driver",
@@ -23,9 +23,9 @@
     "training": "Education",
     "feedback": "Feedback",
     "report_driver": "Reports by drivers",
-    "report_communication": "Reports by communications",
+    "report_communication": "Task reports",
     "reports": "Reports",
-    "reports_by_communication": "Reports by communications",
+    "reports_by_communication": "Task reports",
     "reports_by_driver": "Drivers Activities",
     "driver_user": "Employee card",
     "schedule": "Work schedule",
@@ -113,6 +113,16 @@
       "settings": "Settings",
       "delete": "Delete graph",
       "data": "Metric data"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "New document",
+      "new_topic": "New topic"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "Access control",
+      "edit": "Edit",
+      "delete": "Delete",
+      "remove_from_section": "Remove from topic"
     }
   },
   "date": {
@@ -149,8 +159,9 @@
     "expand_functions": "Expand all",
     "display_by_employee_timezone": "Employee's time zone",
     "all_recurring_tasks": "All routines",
-    "delete_orgchart": "Delete orgchart",
-    "print_orgchart": "Print orgchart",
+    "delete_orgchart": "Delete org chart",
+    "copy_orgchart": "Duplicate org chart",
+    "print_orgchart": "Print org chart",
     "total_companies": "Companies",
     "total_employees": "Employees",
     "support_chat": "Support chat",
@@ -184,7 +195,9 @@
       "on_pause": "On pause",
       "completed": "Completed",
       "draft": "Draft",
-      "all": "All"
+      "all": "All",
+      "unfinished_tasks": "Uncompleted tasks",
+      "overdue_deadline": "Tasks with overdue deadlines"
     },
     "time_picker": {
       "select_time": "Select time",
@@ -263,7 +276,7 @@
   "trainingGroup": {
     "basics": "Basics",
     "org_structure": "Org chart",
-    "communications": "Communications"
+    "communications": "Tasks"
   },
   "training": {
     "introductory": "Intro",
@@ -391,12 +404,13 @@
     "delete_table": "Delete table"
   },
   "planning": {
-    "summary_by_function": "Summary of all features",
+    "summary_by_function": "Total",
     "number_of_tasks": "Number of tasks: ",
     "sum": "Sum: ",
     "back_to_plan": "Back to your plan",
     "all": "All",
     "no_function": "No function",
+    "no_tag": "Without a tag",
     "day": "d ",
     "hour": "h ",
     "minute": "m"

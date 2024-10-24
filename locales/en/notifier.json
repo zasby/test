@@ -134,7 +134,14 @@
     "decesion_withdraw": "Solution withdrawn!",
     "decesion_delete": "Solution deleted!",
     "issue_message_created": "Message created",
-    "content_deleted": "Content deleted!"
+    "content_deleted": "Content deleted!",
+    "orgchart_duplicate": "The duplicate org chart has been created",
+    "task_archived": "Task #{{taskId}} moved to “Archive”",
+    "task_un_archived": "Task #{{taskId}} moved from “Archive”",
+    "tag_edit": "Tag \"{{tag}}\" has been changed!",
+    "tag_create": "Tag \"{{tag}}\" has been created!",
+    "tag_delete": "Tag \"{{tag}}\" has been deleted!",
+    "plan_issue_deleted": "Task \"{{title}}\" has been removed from the plan!"
   },
   "info": {
     "no_cards": "There are still no cards"

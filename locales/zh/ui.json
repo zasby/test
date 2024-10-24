@@ -85,7 +85,9 @@
       "description": "輸入描述",
       "selectDate": "選擇日期",
       "selectTime": "選擇時間"
-    }
+    },
+    "enter_password": "輸入新密碼",
+    "empty": "空的"
   },
   "subheader": {
     "email": "電子郵件",
@@ -142,18 +144,22 @@
     "issue_description": "描述",
     "issue_result": "結果",
     "issue_executor": "執行者",
+    "issue_fact_result": "實際結果",
     "issue_role": "職務",
+    "filter_issue_role": "按功能",
     "issue_participants": "觀察者",
     "issue_sender": "建立者",
     "issue_advanced_settings": "進階設定",
     "issue_actions": "行動",
     "issue_current_status": "當前狀態",
     "issue_created": "已建立",
-    "issue_time_for_approval": "預計審批時間",
+    "issue_time_for_approval": "计划批准时间",
+    "issue_time_fact_for_approval": "实际批准时间",
     "issue_orgachart_company": "組織圖",
     "deadline": "截止時間",
     "indicate_reason_changing_deadline": "指明更改截止日期的原因",
     "executor_deadline": "開始日期",
+    "date_work_start_for_approval": "审核开始",
     "by_violations": "按違規類型",
     "by_activity": "按活動",
     "by_statuses": "按狀態",
@@ -196,6 +202,7 @@
     "code": "代碼",
     "locale": "語言",
     "unclosed_tasks": "未完成的任務",
+    "unallocated_tasks": "未分配任务",
     "no_open_tasks": "沒有未完成的任務",
     "week_plan": "週計劃",
     "issues": "任務",
@@ -237,7 +244,41 @@
       "endTime": "結尾",
       "fullDay": "整天",
       "repeat": "Повторять"
-    }
+    },
+    "change_password": {
+      "info_text": "更改帳戶密碼 {{user}}",
+      "old_password": "當前密碼",
+      "new_password": "輸入新密碼",
+      "confirm_password": "重複輸入新密碼",
+      "placeholder": "输入密码"
+    },
+    "google_account": {
+      "title": "已连接的帐户",
+      "disconnect": "断开连接",
+      "switcher": "在日历计划中显示来自 Google 日历的事件",
+      "switcher_small": "顯示事件"
+    },
+    "google_event": {
+      "name": "名稱",
+      "description": "描述",
+      "link": "連結",
+      "repeat": "重复",
+      "start_date": "開始日期",
+      "end_date": "结束日期",
+      "organizer": "组织者",
+      "reminder": "提醒",
+      "you_come": "你来吗？"
+    },
+    "calendar_sidebar_filter": "在未指派的任務中顯示",
+    "tags": "标签",
+    "regulation_access_control_dialog": {
+      "section": "選擇部分",
+      "orgchart": "選擇組織結構",
+      "accesses": "授予的訪問權限",
+      "creator": "創建者"
+    },
+    "birth_date": "出生日期",
+    "employment_date": "入職日期"
   },
   "button": {
     "ok": "OK",
@@ -271,6 +312,7 @@
     "add_issue": "新增例行公事",
     "leave_company": "離開",
     "upload": "上傳",
+    "upload_from_pc": "从设备上传",
     "change": "改變",
     "edit": "編輯",
     "create_company": "新公司",
@@ -300,6 +342,7 @@
     "relation_my": "我的",
     "relation_control": "控制中",
     "relation_participate": "觀察中",
+    "relation_subordinates": "Подчиненные",
     "create_task": "建立任務",
     "create_routine": "建立例行公事",
     "create_message": "建立訊息",
@@ -315,6 +358,7 @@
     "add_to_section": "選擇規章主題",
     "add_testing": "增加測驗",
     "access_setting": "權限",
+    "assign_study": "指定学习",
     "with_single_answer": "增加單選題的答案",
     "with_multiple_answer": "增加複選題的答案",
     "go_back": "回去",
@@ -356,7 +400,21 @@
     "telegram_bot_settings": "激活“Business Booster Bot”",
     "telegram_bot_left_menu": "激活«BB Bot»",
     "join_to_tg_chat": "加入聊天“BB Platform”",
-    "back": "後退"
+    "back": "後退",
+    "leave": "保留",
+    "changed": "更改",
+    "change_password": "更改密碼",
+    "download_report": "下载 CSV 格式的报告",
+    "archive": "存档 ",
+    "google_add_account": "添加 Google 日历帐户",
+    "google_event": {
+      "declined": "不",
+      "tentative": "也许",
+      "accepted": "是的"
+    },
+    "add_answer": "添加回答",
+    "create_section": "创建章节",
+    "extend_access": "延長訪問權限"
   },
   "label": {
     "added_to_topic": "新增至主題",
@@ -368,7 +426,9 @@
     "proof_image": "圖像",
     "proof_file": "檔案",
     "issues_with_violations": "違規任務",
+    "scheduled_for_today": "預定今天",
     "grouping_by_orgcharts": "按組織結構分組",
+    "grouping_by_tags": "按标签分组",
     "last_comment_is_proof": "最新評論作為驗證基礎",
     "last_comment_is_reason": "使用最後一則評論作為理由",
     "is_test": "正在測驗",
@@ -383,7 +443,7 @@
     },
     "result_achieved": "取得的成果",
     "issue_custom_filed": {
-      "is_strict_deadline": "嚴格的截止時間",
+      "is_strict_deadline": "不允許執行者更改截止日期",
       "is_manager_approval_required": "需要管理者的核准"
     },
     "do_not_create_at_weekends": "在週末時建立",
@@ -409,6 +469,8 @@
     },
     "paid_company": "已付費帳號",
     "test_company": "測試帳號",
+    "inactive": "非活跃公司",
+    "partially_paid_company": "半付费公司",
     "on_verification": "驗證中",
     "violation_notification_switch": {
       "first": "超過24小時不接受",
@@ -418,10 +480,13 @@
     "requirements_switches": {
       "first": "完成作業時，請將「事實」欄位設為必填。",
       "second": "В在將任務轉換為「進行中」狀態時，請指定任務執行的開始日期。"
-    }
+    },
+    "show_on_orgchart": "在組織結構圖上顯示",
+    "manual_archiving": "只能手動存檔"
   },
   "title": {
     "draft": "草稿",
+    "archive_dialog": "指定存档原因",
     "active": "啟用",
     "pause": "暫停",
     "completed": "完全的",
@@ -504,6 +569,7 @@
     "mark_medical": "標記病假",
     "access_to_section": "進入到主題",
     "access_to_regulation": "進入到規章",
+    "assign_study": "指定学习",
     "linked_roles_to_section": "連接到主題功能",
     "linked_roles_to_regulation": "與規章相關的角色",
     "expect": "排除",
@@ -557,8 +623,19 @@
     "save_template": "Сохранить шаблон",
     "time_block": "事件",
     "delete_events": "删除事件？",
-    "recurring_issue": "重复任务"
-
+    "recurring_issue": "重复任务",
+    "change_password": "更改密碼",
+    "google_event": "Google 日历事件",
+    "tags": "标签",
+    "selected_google_calendar": "选择要在平台上显示的日历",
+    "regulation_access_dialog_collapse": {
+      "Read": "查看",
+      "Write": "查看 + 編輯",
+      "ReadWrite": "查看 + 讀寫",
+      "Assignment": "查看 + 指定學習",
+      "FullAccess": "完全訪問"
+    },
+    "regulation_templates": "模板"
   },
   "text": {
     "ar": "",
@@ -599,7 +676,12 @@
     "confirm_delete_comment": "此操作無法撤消",
     "created_task": "創建了任務",
     "correct_answer": "正确答案",
-    "update_note_alert": "想要随时了解我们平台的更新和生活小技巧吗？加入我们的Telegram频道 “Business Booster Platform”，置身于所有事件的中心！\uD83D\uDE0A"
+    "update_note_alert": "想要随时了解我们平台的更新和生活小技巧吗？加入我们的Telegram频道 “Business Booster Platform”，置身于所有事件的中心！\uD83D\uDE0A",
+    "google_calendar_reminder": "提醒：开始前 {{time}}",
+    "archive_task": "任务已归档",
+    "un_archive_task": "任務從存檔中返回",
+    "delete_topic": "您確定要刪除整個部分嗎？",
+    "delete_regulation": "您確定要刪除該條例嗎？"
   },
   "caption": {
     "executors": "執行者",
@@ -644,7 +726,7 @@
   },
   "hint": {
     "orgchart": "組織圖",
-    "communications": "溝通",
+    "communications": "問題",
     "recurringIssues": "例行公事",
     "inviteEmployee": "邀請員工",
     "permissions": "權限",
@@ -670,18 +752,30 @@
     "edit": "編輯",
     "cancel": "取消",
     "save": "儲存",
-    "add_to_topic": "新增到主題",
-    "access_settings": "設置權限",
     "delete": "刪除",
     "time_block": {
       "free_time": "空閒時間 — 此處顯示未分配的工作時間，根據工作計劃減去每天計劃完成任務的總時間來計算。此外，當超過計劃時間或工作日負載不足時，此欄位將以顏色突出顯示。",
       "total_tasks": "任務總數 — 此處顯示完成的任務數量和每天計劃的任務總數，格式為「2 / 5」。",
-      "plan_actual": "計劃 / 實際 — 此處顯示實際花費在任務執行上的時間和每天計劃任務的總計劃時間，格式為「1小時30分 / 7小時」。"
-    }
+      "plan_actual": "實際 / 計劃 — 此處顯示實際花費在任務執行上的時間和每天計劃任務的總計劃時間，格式為「1小時30分 / 7小時」。"
+    },
+    "add_to_topic": "添加到部分",
+    "access_settings": "訪問設置",
+    "access_settings_without_topic": "要配置訪問權限，請將該條例添加到部分中",
+    "assign_study": "指定學習",
+    "access_control_dialog": {
+      "creator": "創建者具有完全訪問權限"
+    },
+    "table_planing": {
+      "total_tasks": "总任务 — 这里显示的是指定期间内已完成任务的数量和计划任务的总数量，格式为 \"2 / 5\"。",
+      "plan_actual": "实际/计划 — 这里显示的是实际完成任务所花费的时间和所选期间内计划任务的总计划时间，格式为 \"1小时30分钟 / 7小时\"。"
+    },
+    "extend_access": "查詢平台工作延期的條件",
+    "set_deadline": "設定截止日期"
   },
   "checkbox": {
-    "send_retraining": "送去再培訓",
-    "full_day": "整天"
+    "full_day": "整天",
+    "send_retraining": "發送再培訓",
+    "publish_without_approval": "未經批准發布"
   },
   "planning_indicator": {
     "pending_approval": "待核准",
@@ -692,8 +786,8 @@
     "recurring_tasks": "例行公事",
     "weekly_tasks": "任務",
     "unscheduled_tasks": "計劃外任務",
-    "fact": "事實",
-    "plan": "計劃",
+    "fact": "实际时间",
+    "plan": "计划时间",
     "start": "開始",
     "deadline": "截止時間",
     "status": "狀態"
@@ -714,6 +808,183 @@
   "time_block": {
     "free_time": "空閒時間",
     "total_tasks": "總任務數",
-    "plan_actual": "計劃 / 實際"
+    "plan_actual": "實際 / 計劃"
+  },
+  "change_password": {
+    "first_validation_rule": "最少8個字符",
+    "second_validation_rule": "至少一個大寫字母",
+    "third_validation_rule": "至少1個特殊字符",
+    "fourth_validation_rule": "密码与旧密码不同",
+    "validation_seccusess": "強密碼",
+    "confirm_text": "密碼已更改。",
+    "popover_error": {
+      "title": "請再試一次或使用 ",
+      "link": "密碼重置"
+    }
+  },
+  "google_calendar_banner": {
+    "text": " 你可以将 Google 日历连接到 BB 平台。",
+    "text_connect": "已连接",
+    "link": "连接"
+  },
+  "google_account_disconnect_dialog": {
+    "title": "断开 Google 日历帐户",
+    "text": " 断开将会停止您在平台和 Google 日历之间的同步。您将不再在 Google 日历上看到来自平台的所有任务，在平台上，来自 Google 日历的会议也将消失。",
+    "question": "您确定要断开 Google 日历帐户吗？"
+  },
+  "hidden_google_events_dialog": {
+    "text": " 您确定要隐藏 Google 日历事件吗？这个操作可能会影响您日程表的准确性。"
+  },
+  "google_calendar_settings_modal": {
+    "title": "日历设置"
+  },
+  "issue_change_deadline_dialog": {
+    "title": "指定新的截止日期"
+  },
+  "card_issue_deadline_tooltip": {
+    "title": "執行者不能更改截止日期",
+    "text": "若要更改，請聯繫任務分配人"
+  },
+  "create_tag_dialog": {
+    "title": "創建新標籤",
+    "label_name": "名稱",
+    "label_placeholder": "輸入名稱",
+    "color": "顏色"
+  },
+  "edit_tag_dialog": {
+    "title": "編輯標籤"
+  },
+  "delete_tag_confirm_dialog": {
+    "title": "您確定要刪除標籤“{{tag}}”嗎？",
+    "description": "刪除標籤後，它將從所有看板上的任務中移除"
+  },
+  "adding_regulations_to_section_dialog": {
+    "title": "將條例添加到部分",
+    "selected": "已選擇：{{count}}"
+  },
+  "adding_regulation_to_section_dialog": {
+    "title": "將條例添加到部分"
+  },
+  "regulation_table_columns": {
+    "title": "標題",
+    "employee": "作者",
+    "status": "狀態",
+    "publicationDate": "發布日期"
+  },
+  "regulation_actions": {
+    "submit_for_approval": {
+      "title": "提交審批",
+      "text": "批准條例後即可向所有人發布"
+    },
+    "publish": {
+      "title": "發布",
+      "text": "批准條例後即可向所有人發布"
+    },
+    "reject": {
+      "title": "拒絕",
+      "text": "批准條例後即可向所有人發布"
+    },
+    "study_assignment": {
+      "title": "指定學習",
+      "text": "該文件將發送給所有人學習",
+      "textSection": "該部分將發送給所有人學習。"
+    },
+    "access_to_regulations": {
+      "title": "訪問條例",
+      "text": "此設置允許限制或授予對文件的完全權限"
+    },
+    "access_to_sections": {
+      "title": "訪問部分",
+      "text": "此設置允許限制或授予對部分的完全權限"
+    },
+    "remove_from_section": {
+      "title": "從部分中刪除",
+      "text": "該文件將被移至「無部分」類別",
+      "textSection": "該部分將被移至「無部分」類別"
+    },
+    "copy_link": {
+      "title": "複製鏈接",
+      "text": "該文件將對所有有訪問權限的人可見",
+      "textSection": "該部分將對所有有訪問權限的人可見"
+    },
+    "added_to_section": {
+      "title": "添加到部分",
+      "text": "您可以將此條例添加到現有部分或從當前部分中分離"
+    },
+    "delete": {
+      "title": "刪除",
+      "text": "未發布的條例"
+    },
+    "history": {
+      "title": "條例歷史",
+      "text": "在此部分中，您可以查看所有更改和更新日期"
+    },
+    "testing": {
+      "button": "添加测试",
+      "title": "測試",
+      "text": "在查看文件後添加測試以鞏固知識"
+    }
+  },
+  "confirm_dialog_remove_from_section": {
+    "title": "確認刪除條例",
+    "text": "您確定要將條例從部分「{{sectionTitle}}」中刪除嗎？\n已刪除的條例將移至「無部分」。"
+  },
+  "regulation_status": {
+    "Draft": "草稿",
+    "OnReview": "審核中",
+    "Published": "已發布",
+    "Rejected": "已拒絕"
+  },
+  "section": {
+    "empty_data": "此部分目前沒有條例，但您可以添加第一個條例。"
+  },
+  "useful_advice": "有用的提示：單擊子功能一次只會選擇該子功能。\n雙擊選擇子功能及其子功能。",
+  "date_format": {
+    "year": "年",
+    "year1": "年",
+    "year2": "年",
+    "month": "月",
+    "month1": "月",
+    "month2": "月"
+  },
+  "no_access_resource_dialog": {
+    "title": "您无权访问此文档",
+    "section_title": "您無權訪問此部分",
+    "text": "请向文档的作者请求访问权限",
+    "section_text": " 請求該部分的作者授權访问",
+    "copy_link": "复制链接"
+  },
+  "request_change_access_type_dialog": {
+    "title": "访问级别 - {{type}}",
+    "text": "如果您想更改对该文档的访问级别，请联系其所有者",
+    "section_text": "如果您想更改对该部分的访问级别，请联系其所有者",
+    "copy_link": "复制链接"
+  },
+  "confirm_dialog_remove_issue_from_plan": {
+    "title": "您确定要从计划中删除任务 \"{{title}}\"吗？"
+  },
+  "issueActions": {
+    "add_related_task": "添加相關任務"
+  },
+  "quickValuesTime": {
+    "5min": "5 min",
+    "15min": "15 min",
+    "30min": "30 min",
+    "1h": "1 h",
+    "2h": "2 h",
+    "4h": "4 h"
+  },
+  "tariffs": {
+    "Bb1Economy": "經濟 BB1",
+    "Bb1Business": "商務 BB1",
+    "Bb1Premium": "高級 BB1",
+    "Bb2Economy": "經濟 BB2",
+    "Bb2Business": "商務 BB2",
+    "Bb2Premium": "高級 BB2",
+    "Resident": "居民",
+    "Vip": "VIP",
+    "Demo": "演示",
+    "PlatinumResident": "白金居民",
+    "Custom": "個別條件"
   }
 }

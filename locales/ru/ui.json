@@ -85,7 +85,19 @@
       "description": "Введите описание",
       "selectDate": "Выберите дату",
       "selectTime": "Выберите время"
-    }
+    },
+    "enter_password": "Введите пароль",
+    "google_event": {
+      "name": "Введите название",
+      "description": "Введите описание",
+      "link": "Введите ссылку",
+      "selectDate": "Выберите дату",
+      "selectTime": "Выберите время",
+      "repeat": "",
+      "organizer": "",
+      "reminder": ""
+    },
+    "empty": "Пусто"
   },
   "subheader": {
     "email": "E-mail",
@@ -141,20 +153,24 @@
     "issue_priority": "Приоритет",
     "issue_description": "Описание",
     "issue_result": "Продукт",
+    "issue_fact_result": "Фактический результат",
     "issue_executor": "Исполнитель",
     "issue_role": "Функция",
+    "filter_issue_role": "По функции",
     "issue_participants": "Наблюдатели",
     "issue_sender": "Постановщик",
     "issue_advanced_settings": "Расширенные настройки",
     "issue_actions": "Действия",
     "issue_current_status": "Текущий статус",
     "issue_created": "Создано",
-    "issue_time_for_approval": "Плановое время на одобрение",
+    "issue_time_for_approval": "План. время одобрения",
+    "issue_time_fact_for_approval": "Факт. время одобрения",
     "issue_orgachart_company": "Оргструктура",
     "issue_with_deadline": "Задача с дедлайном",
     "deadline": "Дедлайн",
     "indicate_reason_changing_deadline": "Укажите причину смены дедлайна ",
     "executor_deadline": "Дата начала",
+    "date_work_start_for_approval": "Начало одобрения",
     "by_violations": "По нарушениям",
     "by_activity": "По активности",
     "by_statuses": "По статусам",
@@ -197,6 +213,7 @@
     "code": "Код",
     "locale": "Язык",
     "unclosed_tasks": "Незавершенные задачи",
+    "unallocated_tasks": "Нераспределённые задачи",
     "no_open_tasks": "Незавершенных задач нет",
     "week_plan": "Недельный план",
     "issues": "Задачи",
@@ -238,7 +255,41 @@
       "endTime": "Окончание",
       "fullDay": "Весь день",
       "repeat": "Повторять"
-    }
+    },
+    "change_password": {
+      "info_text": "Изменение пароля для учетной записи {{user}}",
+      "old_password": "Текущий пароль",
+      "new_password": "Введите новый пароль",
+      "confirm_password": "Повторите новый пароль",
+      "placeholder": "Введите пароль"
+    },
+    "google_account": {
+      "title": "Подключенные учетные записи",
+      "disconnect": "Отключить",
+      "switcher": "Показывать события из Google Calendar\n в Календарном планировании",
+      "switcher_small": "Показывать события"
+    },
+    "google_event": {
+      "name": "Название",
+      "description": "Описание",
+      "link": "Ссылка",
+      "repeat": "Повторять",
+      "start_date": "Дата начала",
+      "end_date": "Дата окончания",
+      "organizer": "Организатор",
+      "reminder": "Напоминание",
+      "you_come": "Придете?"
+    },
+    "tags": "Теги",
+    "calendar_sidebar_filter": "Показать в нераспределенных задачах",
+    "regulation_access_control_dialog": {
+      "section": "Выбор раздела",
+      "orgchart": "Выбор оргструктуры",
+      "accesses": "Выданные доступы",
+      "creator": "Создатель"
+    },
+    "birth_date": "Дата рождения",
+    "employment_date": "Дата приема на работу"
   },
   "button": {
     "ok": "ОК",
@@ -302,6 +353,7 @@
     "relation_my": "Мои",
     "relation_control": "На контроле",
     "relation_participate": "Наблюдаю",
+    "relation_subordinates": "Подчиненные",
     "create_task": "Создать задачу",
     "create_routine": "Cоздать повторяющуюся задачу",
     "create_message": "Создать сообщение",
@@ -317,6 +369,7 @@
     "add_to_section": "Добавить в раздел",
     "add_testing": "Добавить тестирование",
     "access_setting": "Управление доступом",
+    "assign_study": "Назначить на изучение",
     "with_single_answer": "Добавить вопрос с одним ответом",
     "with_multiple_answer": "Добавить вопрос с множественными ответами",
     "go_back": "Вернуться назад",
@@ -358,7 +411,25 @@
     "telegram_bot_settings": "Активировать “Business Booster Bot”",
     "telegram_bot_left_menu": "Активировать «BB Bot»",
     "join_to_tg_chat": "Присоединиться к чату “BB Platform“",
-    "back": "Назад"
+    "back": "Назад",
+    "leave": "Оставить",
+    "changed": "Изменить",
+    "change_password": "Изменить пароль",
+    "download_report": "Скачать отчет в формате CSV",
+    "archive": "Архивировать",
+    "google_add_account": "Добавить учетную запись Google Calendar",
+    "google_event": {
+      "declined": "Нет",
+      "tentative": "Может быть",
+      "accepted": "Да"
+    },
+    "templates": "Шаблоны",
+    "save_templates": "Сохранить шаблон",
+    "add_answer": "Добавить ответ",
+    "left": "Налево",
+    "right": "Направо",
+    "create_section": "Создать раздел",
+    "extend_access": "Продлить доступ"
   },
   "label": {
     "added_to_topic": "Добавлено в раздел",
@@ -370,7 +441,11 @@
     "proof_image": "Изображение",
     "proof_file": "Файл",
     "issues_with_violations": "Задачи с нарушениями",
+    "scheduled_for_today": "Запланированы на сегодня",
     "grouping_by_orgcharts": "Группировать по оргструктурам",
+    "grouping_by_users": "Группировать по подчиненным",
+
+    "grouping_by_tags": "Группировать по тегам",
     "last_comment_is_proof": "Использовать последний комментарий как доказательство",
     "last_comment_is_reason": "Использовать последний комментарий как причину",
     "is_test": "Тест",
@@ -385,7 +460,7 @@
     },
     "result_achieved": "Продукт получен",
     "issue_custom_filed": {
-      "is_strict_deadline": "Строгий срок",
+      "is_strict_deadline": "Исполнитель не может менять дедлайн",
       "is_manager_approval_required": "Требует одобрения постановщика"
     },
     "do_not_create_at_weekends": "Создавать в выходные дни",
@@ -411,6 +486,8 @@
     },
     "paid_company": "Платная компания",
     "test_company": "Тестовая компания",
+    "inactive": "Неактивная компания",
+    "partially_paid_company": "Полуплатная компания",
     "on_verification": "На проверке",
     "violation_notification_switch": {
       "first": "Не принята более 24 часов",
@@ -420,9 +497,12 @@
     "requirements_switches": {
       "first": "Сделать поле “Факт” (фактическое время на выполнение задачи) обязательным при завершении задачи",
       "second": "Указывать дату начала работы над задачей при ее переводе в статус «В работе»"
-    }
+    },
+    "manual_archiving": "Только ручная архивация",
+    "show_on_orgchart": "Показать на оргструктуре"
   },
   "title": {
+    "archive_dialog": "Укажите причину архивации задачи",
     "draft": "Черновики",
     "active": "Активные",
     "pause": "На паузе",
@@ -506,6 +586,7 @@
     "mark_medical": "Отметить больничный",
     "access_to_section": "Доступ к разделу",
     "access_to_regulation": "Доступ к регламенту",
+    "assign_study": "Назначить на изучение",
     "linked_roles_to_section": "Привязанные функции к разделу",
     "linked_roles_to_regulation": "Привязанные функции к регламенту",
     "expect": "Кроме",
@@ -559,7 +640,19 @@
     "save_template": "Сохранить шаблон",
     "time_block": "Событие",
     "delete_events": "Удалить событие?",
-    "recurring_issue": "Повторяющаяся задача"
+    "recurring_issue": "Повторяющаяся задача",
+    "change_password": "Изменить пароль",
+    "google_event": "Событие Google Calendar",
+    "tags": "Теги",
+    "selected_google_calendar": "Выберите календарь для отображения на платформе",
+    "regulation_access_dialog_collapse": {
+      "Read": "Просмотр",
+      "Write": "Просмотр + Редактирование",
+      "ReadWrite": "Просмотр + Чтение и запись",
+      "Assignment": "Просмотр + Назначение на изучение",
+      "FullAccess": "Полный доступ"
+    },
+    "regulation_templates": "Шаблоны"
   },
   "text": {
     "ar": "ОКР",
@@ -600,7 +693,13 @@
     "confirm_delete_comment": "Это действие невозможно отменить",
     "created_task": "Создал задачу",
     "correct_answer": "Верный ответ",
-    "update_note_alert": "Хотите всегда быть в курсе обновлений и лайфхаков нашей платформы? Присоединяйтесь к нашему Telegram-каналу “Business Booster Platform“ и будьте в центре всех событий!\uD83D\uDE0A"
+    "update_note_alert": "Хотите всегда быть в курсе обновлений и лайфхаков нашей платформы? Присоединяйтесь к нашему Telegram-каналу “Business Booster Platform“ и будьте в центре всех событий!\uD83D\uDE0A",
+    "archive_task": "Задача архивирована",
+    "un_archive_task": "Задача возвращена из архива",
+    "google_calendar_reminder": "Напоминание: за {{time}} до начала",
+    "delete_topic": "Вы уверены, что хотите удалить целый раздел?",
+    "delete_regulation": "Вы уверены, что хотите удалить регламент?"
+
   },
   "caption": {
     "executors": "Исполнители",
@@ -650,7 +749,7 @@
   },
   "hint": {
     "orgchart": "Оргструктура",
-    "communications": "Коммуникации",
+    "communications": "Задачи",
     "recurringIssues": "Повторяющиеся задачи",
     "inviteEmployee": "Пригласить сотрудника в систему",
     "permissions": "Разрешения",
@@ -676,17 +775,29 @@
     "edit": "Редактировать",
     "cancel": "Отмена",
     "save": "Сохранить",
-    "add_to_topic": "Добавить в раздел",
-    "access_settings": "Настройка доступа",
     "delete": "Удалить",
     "time_block": {
       "free_time": "Свободное время — здесь отображается не распределенное рабочее время и рассчитывается исходя из рабочего графика, за вычетом общего запланированного на день времени на выполнение задач. Также данное поле выделяется цветом при превышении запланированного времени или неполной загрузке рабочего дня.",
       "total_tasks": "Всего задач — здесь отображается количество выполненных задач и общее количество запланированных задач на день в формате “2 / 5”.",
-      "plan_actual": "План / факт — здесь отображается фактически затраченное время на выполнение задач и общее плановое время запланированных задач на день в формате “1 ч 30 мин / 7 ч“."
-    }
+      "plan_actual": "Факт / План — здесь отображается фактически затраченное время на выполнение задач и общее плановое время запланированных задач на день в формате “1 ч 30 мин / 7 ч“."
+    },
+    "add_to_topic": "Добавить в раздел",
+    "access_settings": "Настройка доступа",
+    "access_settings_without_topic": "Для настройки доступа добавьте регламент в раздел",
+    "assign_study": "Назначить на изучение",
+    "access_control_dialog": {
+      "creator": "Создатель имеет полный доступ"
+    },
+    "table_planing": {
+      "total_tasks": "Всего задач — здесь отображается количество выполненных задач и общее количество запланированных задач на указанный период в формате “2 / 5”.",
+      "plan_actual": "Факт / План — здесь отображается фактически затраченное время на выполнение задач и общее плановое время запланированных задач на выбранный период в формате “1 ч 30 мин / 7 ч”."
+    },
+    "extend_access": "Узнать условия продления работы в платформе",
+    "set_deadline": "Установить дедлайн"
   },
   "checkbox": {
     "send_retraining": "Отправить на переобучение",
+    "publish_without_approval": "Опубликовать без одобрения",
     "full_day": "Весь день"
   },
   "planning_indicator": {
@@ -698,8 +809,8 @@
     "recurring_tasks": "Повторяющиеся задачи",
     "weekly_tasks": "Задачи",
     "unscheduled_tasks": "Незапланированные задачи",
-    "fact": "Факт",
-    "plan": "План",
+    "fact": "Факт. время",
+    "plan": "План. время",
     "start": "Начало",
     "deadline": "Дедлайн",
     "status": "Статус"
@@ -713,13 +824,196 @@
   },
   "calendar": {
     "today": "Сегодня",
-    "unallocated_tasks": "Не распределённые задачи",
+    "unallocated_tasks": "Нераспределённые задачи",
     "total_tasks": "Всего задач:",
     "planned_time": "Плановое время:"
   },
   "time_block": {
     "free_time": "Свободное время",
     "total_tasks": "Всего задач",
-    "plan_actual": "План / Факт"
+    "plan_actual": "Факт / План"
+  },
+  "change_password": {
+    "first_validation_rule": "Минимум 8 символов",
+    "second_validation_rule": "Минимум одна заглавная буква",
+    "third_validation_rule": "Минимум 1 специальный символ",
+    "fourth_validation_rule": "Пароль отличается от старого",
+    "validation_seccusess": "Надежный пароль",
+    "confirm_text": "Пароль был изменен.",
+    "popover_error": {
+      "title": "Попробуйте ввести еще раз или воспользуйтесь ",
+      "link": "восстановлением пароля"
+    }
+  },
+  "google_calendar_banner": {
+    "text": "Вы можете подключить Google Calendar к BB Platform.",
+    "text_connect": "Подключен",
+    "link": "Подключить"
+  },
+  "google_account_disconnect_dialog": {
+    "title": "Отключить учетную запись Google Calendar",
+    "text": "Отключение приведёт к прекращению синхронизации между вашим календарём на платформе и Google Calendar. Вы перестанете видеть все свои задачи из платформы на Google Calendar, а на платформе встречи из календаря Google.",
+    "question": "Вы уверены, что хотите отключить учётную запись Google Calendar?"
+  },
+  "hidden_google_events_dialog": {
+    "text": "Вы уверены, что хотите скрыть события Google Calendar? Это действие может повлиять на актуальность вашего расписания."
+  },
+  "google_calendar_settings_modal": {
+    "title": "Настройка календаря"
+  },
+  "issue_change_deadline_dialog": {
+    "title": "Укажите новый дедлайн"
+  },
+  "card_issue_deadline_tooltip": {
+    "title": "Исполнитель не может менять дедлайн",
+    "text": "Чтобы его изменить, обратитесь к постановщику задачи"
+  },
+  "create_tag_dialog": {
+    "title": "Создать новый тег",
+    "label_name": "Название",
+    "label_placeholder": "Введите название",
+    "color": "Цвет"
+  },
+  "edit_tag_dialog": {
+    "title": "Редактировать теги"
+  },
+  "delete_tag_confirm_dialog": {
+    "title": "Вы уверены, что хотите удалить тег “{{tag}}”?",
+    "description": "При удалении тега он будет удален со всех задач на доске"
+  },
+  "regulation_table_columns": {
+    "title": "Название",
+    "employee": "Автор",
+    "status": "Статус",
+    "publicationDate": "Дата публикации"
+  },
+  "adding_regulations_to_section_dialog": {
+    "title": "Добавление регламентов в раздел",
+    "selected": "Выбрано: {{count}}"
+  },
+  "adding_regulation_to_section_dialog": {
+    "title": "Добавление регламента в раздел"
+  },
+  "regulation_actions": {
+    "submit_for_approval": {
+      "title": "Отправить на одобрение",
+      "text": "Одобрение регламента позволяет его публиковать для всех"
+    },
+    "publish": {
+      "title": "Опубликовать",
+      "text": "Одобрение регламента позволяет его публиковать для всех"
+    },
+    "reject": {
+      "title": "Отклонить",
+      "text": "Одобрение регламента позволяет его публиковать для вfсех"
+    },
+    "study_assignment": {
+      "title": "Назначение на изучение",
+      "text": "Документ будет отправлен всем на изучение",
+      "textSection": "Раздел будет отправлен всем на изучение."
+    },
+    "access_to_regulations": {
+      "title": "Доступ к регламенту",
+      "text": "Настройка позволяет ограничивать или давать полные права к документу"
+    },
+    "access_to_sections": {
+      "title": "Доступ к разделу",
+      "text": "Настройка позволяет ограничивать или давать полные права к разделу"
+    },
+    "remove_from_section": {
+      "title": "Удалить из раздела",
+      "text": "Это документ, будет перемещён в радел «Без раздела»",
+      "textSection": "Это раздел, будет перемещён в радел «Без раздела»"
+    },
+    "copy_link": {
+      "title": "Скопировать ссылку",
+      "text": "Данный документ будет доступен всем у кого есть доступ",
+      "textSection": "Данный раздел будет доступен всем у кого есть доступ"
+    },
+    "added_to_section": {
+      "title": "Добавить в раздел",
+      "text": "Вы можете добавить этот регламент к уже существующему разделу или отвязать от текущего"
+    },
+    "delete": {
+      "title": "Удалить",
+      "text": "Неопубликованный регламент"
+    },
+    "history": {
+      "title": "История регламента",
+      "text": "В этом разделе можно увидеть все изменения и даты обновлений"
+    },
+    "testing": {
+      "button": "Добавить тест",
+      "title": "Тестирование",
+      "text": "Добавьте тестирование для закрепления знаний после ознакомления документа"
+    }
+  },
+  "confirm_dialog_remove_from_section": {
+    "title": "Подтвердите удаление регламента",
+    "text": "Вы уверены, что хотите удалить регламент из раздела «{{sectionTitle}}»?\n Удаленный регламент будет перемещен в «Без раздела»."
+  },
+  "regulation_status": {
+    "Draft": "Черновик",
+    "OnReview": "На одобрении",
+    "Published": "Опубликован",
+    "Rejected": "Отклонено"
+  },
+  "section": {
+    "empty_data": "В этом разделе пока нет регламентов, но вы можете добавить первый "
+  },
+  "useful_advice": "Полезный совет. Кликая один раз на дочернюю функцию – выбирается только дочерняя.\n  Кликая два раза – выбирается дочерняя и ее подфункции.",
+  "date_format": {
+    "year": "год",
+    "year1": "года",
+    "year2": "лет",
+    "month": "месяц",
+    "month1": "месяца",
+    "month2": "месяцев"
+  },
+  "no_access_resource_dialog": {
+    "title": "У вас нет доступа к данному документу",
+    "section_title": "У вас нет доступа к данному разделу",
+    "text": "Запросите доступ у автора документа",
+    "section_text": "Запросите доступ у автора раздела",
+
+    "copy_link": "Копировать ссылку"
+  },
+  "request_change_access_type_dialog": {
+    "title": "Уровень доступа - {{type}}",
+    "text": "Если Вы хотите изменить свой уровень доступа к данному документу, пожалуйста, обратитесь к его владельцу",
+    "section_text": "Если Вы хотите изменить свой уровень доступа к данному разделу, пожалуйста, обратитесь к его владельцу",
+    "copy_link": "Копировать ссылку"
+  },
+  "confirm_dialog_remove_issue_from_plan": {
+    "title": "Вы уверены, что хотите убрать задачу “{{title}}” из плана?"
+  },
+  "planingGrouping": {
+    "roles": "По функциям",
+    "tags": "По тегам",
+    "no_grouping": "Без группировки"
+  },
+  "issueActions": {
+    "add_related_task": "Добавить связанную задачу"
+  },
+  "quickValuesTime": {
+    "5min": "5 мин",
+    "15min": "15 мин",
+    "30min": "30 мин",
+    "1h": "1 ч",
+    "2h": "2 ч",
+    "4h": "4 ч"
+  },
+  "tariffs": {
+    "Bb1Economy": "Эконом BB1",
+    "Bb1Business": "Бизнес BB1",
+    "Bb1Premium": "Премиум BB1",
+    "Bb2Economy": "Эконом BB2",
+    "Bb2Business": "Бизнес BB2",
+    "Bb2Premium": "Премиум BB2",
+    "Resident": "Резидент",
+    "Vip": "VIP",
+    "Demo": "Демо",
+    "PlatinumResident": "Платиновый резидент",
+    "Custom": "Индивидуальные услови"
   }
 }

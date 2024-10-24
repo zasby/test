@@ -46,7 +46,7 @@
     "content": "You don't have tasks yet, but you can set a task for yourself"
   },
   "no_dashboard": "You don't have a dashboard yet, but you can create one",
-  "transfer_undone_tasks": "Transfer undone tasks from previous plan",
+  "transfer_undone_tasks": "Move incomplete tasks",
   "no_dateStart_and_timePlan": "Set 'Plan' and 'Start' values",
   "editor_callstack_error": "Editor error. If you see this, please report it to support.",
   "metric_equal_source_error": "You cannot create a metric with two identical sources.",
@@ -65,9 +65,11 @@
   },
   "text_editor_error_alert": "An error occurred because we were unable to process your data. Please try refreshing the page. If the error persists, we recommend deleting the latest data.",
   "timezone_notification_dialog": {
-    "text1": "Hello, dear users!",
-    "text2": "We are delighted to inform you that we are switching to a new format for displaying time zones. Our system will now automatically switch between daylight saving time and standard time. Please verify the correctness of your selected time zone and make adjustments if necessary.",
-    "text3": "Your time zone:",
+    "text1": "Time zone",
+    "text2": "We have automatically detected your time zone:",
+    "text3": "Please confirm or change it from the list above.",
+    "text3_change_time_zone": "You can keep the previously set time zone <b>\"{{oldTimeZone}}\"</b>, by clicking on the \"Keep\" button or change it to the new one <b>\"{{newTimeZone}}\"</b>by clicking on the \"Change\" button.",
     "text4": "Company's time zone:"
-  }
+  },
+  "report_loading": "The report is loading, this may take some time"
 }

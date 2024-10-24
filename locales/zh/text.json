@@ -46,7 +46,7 @@
     "content": "您還沒有任務，但您可以為自己設置一個任務"
   },
   "no_dashboard": "您還沒有儀表板，但您可以建立一個",
-  "transfer_undone_tasks": "轉移之前計劃中未完成的任務",
+  "transfer_undone_tasks": "移动未完成的任务",
   "no_dateStart_and_timePlan": "設定“計劃”和“開始”值",
   "editor_callstack_error": "編輯錯誤。 如果您看到此訊息，請將其報告給技術人員。",
   "metric_equal_source_error": "您不能建立具有兩個相同來源的數值衡量指標。",
@@ -65,9 +65,11 @@
   },
   "text_editor_error_alert": "发生错误，因为我们无法处理您的数据。请尝试刷新页面。如果错误仍然存在，则建议删除最新的数据。",
   "timezone_notification_dialog": {
-    "text1": "大家好，親愛的用戶！",
-    "text2": "我們很高興地通知您，我們正在過渡到一種新的時區顯示格式。現在，我們的系統將自動調整夏令時間。請檢查您選擇的時區的準確性，如有必要請進行更改。",
-    "text3": "您的時區：",
+    "text1": "時區",
+    "text2": "我們已經自動檢測到您的時區為：",
+    "text3": "請從上面的列表中確認或更改。",
+    "text3_change_time_zone": "您可以按下“保留”按鈕保留原先設定的時區 <b>\"{{oldTimeZone}}\"</b>，或按下“更改”按鈕將其更改為新時區 <b>\"{{newTimeZone}}\"</b>。",
     "text4": "公司的時區："
-  }
+  },
+  "report_loading": "报告正在加载，这可能需要一些时间"
 }

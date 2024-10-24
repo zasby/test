@@ -85,7 +85,9 @@
       "description": "Enter Description",
       "selectDate": "Select Date",
       "selectTime": "Select Time"
-    }
+    },
+    "enter_password": "Enter new password",
+    "empty": "Empty"
   },
   "subheader": {
     "email": "Email",
@@ -141,20 +143,24 @@
     "issue_priority": "Priority",
     "issue_description": "Description",
     "issue_result": "Product",
+    "issue_fact_result": "Actual result",
     "issue_executor": "Executor",
     "issue_role": "Function",
+    "filter_issue_role": "By function",
     "issue_participants": "Watchers",
     "issue_sender": "Originator",
     "issue_advanced_settings": "Advanced settings",
     "issue_actions": "Actions",
     "issue_current_status": "Current status",
     "issue_created": "Created",
-    "issue_time_for_approval": "Estimated approval time",
+    "issue_time_for_approval": "Planned approval time",
+    "issue_time_fact_for_approval": "Fact approval time",
     "issue_orgachart_company": "Org chart",
     "issue_with_deadline": "Issue with deadline",
     "deadline": "Deadline",
     "indicate_reason_changing_deadline": "Specify the reason for changing the deadline",
     "executor_deadline": "Start date",
+    "date_work_start_for_approval": "Verification Start",
     "by_violations": "By type of violation",
     "by_activity": "By activity",
     "by_statuses": "By status",
@@ -197,6 +203,7 @@
     "code": "Code",
     "locale": "Locale",
     "unclosed_tasks": "Incomplete tasks",
+    "unallocated_tasks": "Unassigned tasks",
     "no_open_tasks": "No incomplete tasks",
     "week_plan": "Week plan",
     "issues": "Task",
@@ -238,7 +245,41 @@
       "endTime": "End",
       "fullDay": "All Day",
       "repeat": "Повторять"
-    }
+    },
+    "change_password": {
+      "info_text": "Change password for account  {{user}}",
+      "old_password": "Current password",
+      "new_password": "Enter new password",
+      "confirm_password": "Repeat new password",
+      "placeholder": "Enter password"
+    },
+    "google_account": {
+      "title": "Connected accounts",
+      "disconnect": "Disconnect",
+      "switcher": "Show events from Google Calendar\n in Calendar Planning",
+      "switcher_small": "Show events"
+    },
+    "google_event": {
+      "name": "Name",
+      "description": "Description",
+      "link": "Link",
+      "repeat": "Repeat",
+      "start_date": "Start date",
+      "end_date": "End date",
+      "organizer": "Organizer",
+      "reminder": "Reminder",
+      "you_come": "Are you coming?"
+    },
+    "tags": "Tags",
+    "calendar_sidebar_filter": "Show in unassigned tasks",
+    "regulation_access_control_dialog": {
+      "section": "Topic selection",
+      "orgchart": "Org chart selection",
+      "accesses": "Granted accesses",
+      "creator": "Creator"
+    },
+    "birth_date": "Date of birth",
+    "employment_date": "Date of hire"
   },
   "button": {
     "ok": "OK",
@@ -272,6 +313,7 @@
     "add_issue": "Add task",
     "leave_company": "Leave",
     "upload": "Upload",
+    "upload_from_pc": "Upload from device",
     "change": "Change",
     "edit": "Edit",
     "create_company": "New company",
@@ -301,6 +343,7 @@
     "relation_my": "My",
     "relation_control": "On control",
     "relation_participate": "Watching",
+    "relation_subordinates": "Подчиненные",
     "create_task": "Create task",
     "create_routine": "Create routine",
     "create_message": "Create message",
@@ -316,6 +359,7 @@
     "add_to_section": "Choose topic for policies ",
     "add_testing": "Add test",
     "access_setting": "Access",
+    "assign_study": "Assign for study",
     "with_single_answer": "Добавить вопрос с одним ответом",
     "with_multiple_answer": "Добавить вопрос с множествнными ответоми",
     "go_back": "Go back",
@@ -357,7 +401,21 @@
     "telegram_bot_settings": "Activate “Business Booster Bot”",
     "telegram_bot_left_menu": "Activate «BB Bot»",
     "join_to_tg_chat": "Join the chat “BB Platform“",
-    "back": "Back"
+    "back": "Back",
+    "leave": "Keep",
+    "changed": "Change",
+    "change_password": "Change password",
+    "download_report": "Download report in CSV format",
+    "archive": "Archive",
+    "google_add_account": "Add Google Calendar account",
+    "google_event": {
+      "declined": "No",
+      "tentative": "Maybe",
+      "accepted": "Yes"
+    },
+    "add_answer": "Add an answer",
+    "create_section": "Create a topic",
+    "extend_access": "Extend access"
   },
   "label": {
     "added_to_topic": "Added to topic",
@@ -369,7 +427,9 @@
     "proof_image": "Image",
     "proof_file": "File",
     "issues_with_violations": "Tasks with violations",
-    "grouping_by_orgcharts": "Grouping by orgcharts",
+    "scheduled_for_today": "Scheduled for today",
+    "grouping_by_orgcharts": "Grouping by org charts",
+    "grouping_by_tags": "Group by tags",
     "last_comment_is_proof": "Last comment as a proof",
     "last_comment_is_reason": "Last comment as a reason",
     "is_test": "Is test",
@@ -384,7 +444,7 @@
     },
     "result_achieved": "Product achieved",
     "issue_custom_filed": {
-      "is_strict_deadline": "Strict deadline",
+      "is_strict_deadline": "Executor isn't allowed to change deadline",
       "is_manager_approval_required": "Manager approval required"
     },
     "do_not_create_at_weekends": "Create on weekends",
@@ -410,6 +470,8 @@
     },
     "paid_company": "Paid company",
     "test_company": "Test company",
+    "inactive": "Inactive company",
+    "partially_paid_company": "Semi-paid company",
     "on_verification": "On verification",
     "violation_notification_switch": {
       "first": "Not accepted for more than 24 hours",
@@ -419,10 +481,13 @@
     "requirements_switches": {
       "first": "Make the \"Fact\" field mandatory upon task completion",
       "second": "Specify the start date of task execution when transitioning it to the ‘In Progress’ status"
-    }
+    },
+    "show_on_orgchart": "Show on orgchart",
+    "manual_archiving": "Manual archiving only"
   },
   "title": {
     "draft": "Draft",
+    "archive_dialog": "Specify the reason for archiving",
     "active": "Active",
     "pause": "On pause",
     "completed": "Completed",
@@ -505,6 +570,7 @@
     "mark_medical": "Mark a medical",
     "access_to_section": "Access to the topic",
     "access_to_regulation": "Access to the regulation",
+    "assign_study": "Assign for study",
     "linked_roles_to_section": "Connected to topic functions",
     "linked_roles_to_regulation": "Linked roles to the regulation",
     "expect": "Excluding",
@@ -558,7 +624,19 @@
     "save_template": "Сохранить шаблон",
     "time_block": "Event",
     "delete_events": "Delete event?",
-    "recurring_issue": "Recurring task"
+    "recurring_issue": "Recurring task",
+    "change_password": "Change password",
+    "google_event": "Google Calendar event",
+    "tags": "Tags",
+    "selected_google_calendar": "Choose a calendar to display on the platform",
+    "regulation_access_dialog_collapse": {
+      "Read": "View",
+      "Write": "View + Edit",
+      "ReadWrite": "View + Read and Write",
+      "Assignment": "View + Assign for Study",
+      "FullAccess": "Full Access"
+    },
+    "regulation_templates": "Templates"
   },
   "text": {
     "ar": "AR",
@@ -599,7 +677,12 @@
     "confirm_delete_comment": "This action cannot be undone",
     "created_task": "Created a task",
     "correct_answer": "Correct answer",
-    "update_note_alert": "Join our Telegram channel \"Business Booster Platform\" and stay informed with the latest news and lifehacks of our platform!\uD83D\uDE0A"
+    "update_note_alert": "Join our Telegram channel \"Business Booster Platform\" and stay informed with the latest news and lifehacks of our platform!\uD83D\uDE0A",
+    "archive_task": "Task archived",
+    "un_archive_task": "Task returned from archive",
+    "google_calendar_reminder": "Reminder: {{time}} before the start",
+    "delete_topic": "Are you sure you want to delete the entire topic?",
+    "delete_regulation": "Are you sure you want to delete the regulation?"
   },
   "caption": {
     "executors": "Performers",
@@ -644,7 +727,7 @@
   },
   "hint": {
     "orgchart": "Org chart",
-    "communications": "Communications",
+    "communications": "Tasks",
     "recurringIssues": "Routines",
     "inviteEmployee": "Invite an employee",
     "permissions": "Permissions",
@@ -670,18 +753,30 @@
     "edit": "Edit",
     "cancel": "Cancel",
     "save": "Save",
-    "add_to_topic": "Add to topic",
-    "access_settings": "Setting up access",
     "delete": "Delete",
     "time_block": {
       "free_time": "Free Time: This section displays the unallocated working hours, calculated based on the work schedule, minus the total planned time for task completion on the day. This field is also highlighted in color if the planned time is exceeded or if the workday is not fully loaded.",
       "total_tasks": "Total Tasks: Here, you can see the number of completed tasks and the overall number of scheduled tasks for the day in the format “2 / 5”.",
-      "plan_actual": "Plan / Actual: This area presents the actual time spent on task completion and the total planned time for scheduled tasks for the day in the format “1 hr 30 min / 7 hrs”. Each analytical column name will have a tooltip icon next to it, and clicking on it will display the tooltip."
-    }
+      "plan_actual": "Actual / Plan: This area presents the actual time spent on task completion and the total planned time for scheduled tasks for the day in the format “1 hr 30 min / 7 hrs”."
+    },
+    "add_to_topic": "Add to topic",
+    "access_settings": "Access settings",
+    "access_settings_without_topic": "To configure access, add the regulation to a topic",
+    "assign_study": "Assign for study",
+    "access_control_dialog": {
+      "creator": "The creator has full access"
+    },
+    "table_planing": {
+      "total_tasks": "Total tasks — This displays the number of completed tasks and the total number of planned tasks for the specified period in the format \"2 / 5\".",
+      "plan_actual": "Fact / Plan — This displays the actual time spent on completing tasks and the total planned time for the tasks scheduled for the selected period in the format \"1h 30m / 7h\"."
+    },
+    "extend_access": "Find out the terms for extending work on the platform",
+    "set_deadline": "Set a deadline"
   },
   "checkbox": {
+    "full_day": "All Day",
     "send_retraining": "Send for retraining",
-    "full_day": "All Day"
+    "publish_without_approval": "Publish without approval"
   },
   "planning_indicator": {
     "pending_approval": "Pending approval",
@@ -692,8 +787,8 @@
     "recurring_tasks": "Routines",
     "weekly_tasks": "Tasks",
     "unscheduled_tasks": "Unplanned tasks",
-    "fact": "Fact",
-    "plan": "Plan",
+    "fact": "Fact time",
+    "plan": "Planned time",
     "start": "Start",
     "deadline": "Deadline",
     "status": "Status"
@@ -714,6 +809,183 @@
   "time_block": {
     "free_time": "Free Time",
     "total_tasks": "Total Tasks",
-    "plan_actual": "Plan / Fact"
+    "plan_actual": "Fact / Plan"
+  },
+  "change_password": {
+    "first_validation_rule": "Minimum 8 characters",
+    "second_validation_rule": "At least one uppercase letter",
+    "third_validation_rule": "At least 1 special character",
+    "fourth_validation_rule": "The password is different from the old one",
+    "validation_seccusess": "Strong Password",
+    "confirm_text": "Password has been changed.",
+    "popover_error": {
+      "title": "Please try again or use ",
+      "link": "password recovery"
+    }
+  },
+  "google_calendar_banner": {
+    "text": "You can connect Google Calendar to the BB Platform.",
+    "text_connect": "Connected",
+    "link": "Connect"
+  },
+  "google_account_disconnect_dialog": {
+    "title": "Disconnect Google Calendar account",
+    "text": "Disconnecting will stop synchronization between your calendar on the platform and Google Calendar. You will no longer see all your platform tasks on Google Calendar, and on the platform, meetings from the Google Calendar will disappear.",
+    "question": "Are you sure you want to disconnect your Google Calendar account?"
+  },
+  "hidden_google_events_dialog": {
+    "text": "Are you sure you want to hide Google Calendar events? This action may affect the accuracy of your schedule."
+  },
+  "google_calendar_settings_modal": {
+    "title": "Calendar settings"
+  },
+  "issue_change_deadline_dialog": {
+    "title": "Specify the new deadline"
+  },
+  "card_issue_deadline_tooltip": {
+    "title": "The executor cannot change the deadline",
+    "text": "To change it, contact the task originator"
+  },
+  "create_tag_dialog": {
+    "title": "Create New Tag",
+    "label_name": "Name",
+    "label_placeholder": "Enter name",
+    "color": "Color"
+  },
+  "edit_tag_dialog": {
+    "title": "Edit Tags"
+  },
+  "delete_tag_confirm_dialog": {
+    "title": "Are you sure you want to delete the tag “{{tag}}”?",
+    "description": "When the tag is deleted, it will be removed from all tasks on the board"
+  },
+  "regulation_table_columns": {
+    "title": "Title",
+    "employee": "Author",
+    "status": "Status",
+    "publicationDate": "Publication Date"
+  },
+  "adding_regulations_to_section_dialog": {
+    "title": "Adding regulations to topic",
+    "selected": "Selected: {{count}}"
+  },
+  "adding_regulation_to_section_dialog": {
+    "title": "Adding regulation to topic"
+  },
+  "regulation_actions": {
+    "submit_for_approval": {
+      "title": "Submit for approval",
+      "text": "Regulation approval allows it to be published for everyone"
+    },
+    "publish": {
+      "title": "Publish",
+      "text": "Regulation approval allows it to be published for everyone"
+    },
+    "reject": {
+      "title": "Reject",
+      "text": "Regulation approval allows it to be published for everyone"
+    },
+    "study_assignment": {
+      "title": "Assign for study",
+      "text": "The document will be sent to everyone for study",
+      "textSection": "The topic will be sent to everyone for study."
+    },
+    "access_to_regulations": {
+      "title": "Access to regulation",
+      "text": "The setting allows restricting or granting full rights to the document"
+    },
+    "access_to_sections": {
+      "title": "Access to section",
+      "text": "The setting allows restricting or granting full rights to the topic"
+    },
+    "remove_from_section": {
+      "title": "Remove from section",
+      "text": "This document will be moved to the 'No Topic' category",
+      "textSection": "This section will be moved to the 'No Topic' category"
+    },
+    "copy_link": {
+      "title": "Copy link",
+      "text": "This document will be accessible to everyone with access",
+      "textSection": "This topic will be accessible to everyone with access"
+    },
+    "added_to_section": {
+      "title": "Add to topic",
+      "text": "You can add this regulation to an existing section or detach it from the current one"
+    },
+    "delete": {
+      "title": "Delete",
+      "text": "Unpublished regulation"
+    },
+    "history": {
+      "title": "Regulation history",
+      "text": "In this section, you can see all changes and update dates"
+    },
+    "testing": {
+      "button": "Add test",
+      "title": "Testing",
+      "text": "Add testing to reinforce knowledge after reviewing the document"
+    }
+  },
+  "confirm_dialog_remove_from_section": {
+    "title": "Confirm regulation removal",
+    "text": "Are you sure you want to remove the regulation from the topic '{{sectionTitle}}'?\nThe removed regulation will be moved to 'No Topic'."
+  },
+  "regulation_status": {
+    "Draft": "Draft",
+    "OnReview": "Under Review",
+    "Published": "Published",
+    "Rejected": "Rejected"
+  },
+  "section": {
+    "empty_data": "There are no regulations in this topic yet, but you can add the first one."
+  },
+  "useful_advice": "Useful tip: A single click on a sub-function selects only the sub-function.\nDouble-clicking selects the sub-function and its sub-functions.",
+  "date_format": {
+    "year": "year",
+    "year1": "years",
+    "year2": "years",
+    "month": "month",
+    "month1": "months",
+    "month2": "months"
+  },
+  "no_access_resource_dialog": {
+    "title": "You do not have access to this document",
+    "section_title": "You do not have access to this topic",
+    "text": "Request access from the document's author",
+    "section_text": "Request access from the topic author",
+    "copy_link": "Copy link"
+  },
+  "request_change_access_type_dialog": {
+    "title": "Access level - {{type}}",
+    "text": "If you want to change your access level to this document, please contact its owner",
+    "section_text": "If you want to change your access level to this topic, please contact its owner",
+    "copy_link": "Copy link"
+  },
+  "confirm_dialog_remove_issue_from_plan": {
+    "title": "Are you sure you want to remove the task \"{{title}}\" from the plan?"
+  },
+  "issueActions": {
+    "add_related_task": "Add a related task"
+  },
+  "quickValuesTime": {
+    "5min": "5 min",
+    "15min": "15 min",
+    "30min": "30 min",
+    "1h": "1 h",
+    "2h": "2 h",
+    "4h": "4 h"
+  },
+  "tariffs": {
+    "Bb1Economy": "Economy BB1",
+    "Bb1Business": "Business BB1",
+    "Bb1Premium": "Premium BB1",
+    "Bb2Economy": "Economy BB2",
+    "Bb2Business": "Business BB2",
+    "Bb2Premium": "Premium BB2",
+    "Resident": "Resident",
+    "Vip": "VIP",
+    "Demo": "Demo",
+    "PlatinumResident": "Platinum Resident",
+    "Custom": "Individual Conditions"
   }
 }

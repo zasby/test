@@ -3,12 +3,14 @@
   "wrong_email": "Переконайтесь, що E-mail введений без помилок",
   "min_char_number": "Мінімальна кількість символів: {{number}}",
   "min_file_number": "Мінімальна кількість файлів: {{number}}",
+  "min_char": "Мінімум {{ number }} символів",
   "issue_complete_dialog_description": "Формат: {{format}}, {{value}}: {{number}}",
   "issue_complete_dialog_validate": {
     "common_error": "Потрібно описати результат або додати файл",
     "time_error": "Будь ласка, вкажіть фактичний час виконання завдання."
   },
   "passwords_should_match": "Паролі не співпадають!",
+  "passwords_new_should_match": "Нові паролі не співпадають",
   "date_later_deadline": "Дата перевищує дедлайн задачі",
   "deadline_required": "Встановіть термін",
   "enter_regulation_name": "Введіть назву регламенту!",
@@ -20,5 +22,6 @@
   "policy_content_is_empty": "Регламент не може бути порожнім!",
   "invalid_code": "Некоректний код",
   "executor_deadline": "Дата початку або дедлайн не може бути в минулому",
-  "executor_deadline_in_past": "ТНевірна дата терміну подачі."
+  "executor_deadline_in_past": "ТНевірна дата терміну подачі.",
+  "invalid_current_password": "Невірний пароль"
 }

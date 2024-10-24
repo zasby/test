@@ -13,7 +13,7 @@
     "settings_company": "Налаштування компанії",
     "settings_modules": "Налаштування модулів",
     "chart": "Графіки",
-    "communication": "Коммуникації",
+    "communication": "Задачі",
     "restore_password": "Відновлення пароля",
     "sandbox": "Пісочниця",
     "driver": "Драйвер",
@@ -23,10 +23,10 @@
     "training": "Навчання",
     "feedback": "Пропозиції щодо доопрацювання",
     "report_driver": "Звіти по драйверам",
-    "report_communication": "Звіти з комунікацій",
+    "report_communication": "Звіти по завданнях",
     "reports": "Звіти",
     "reports_by_communication": "Звіти по комуникаціям",
-    "reports_by_driver": "Звіти по драйверам",
+    "reports_by_driver": "Звіти по завданнях",
     "driver_user": "Картка співробітника",
     "schedule": "Графік роботи",
     "support_center": "Центр підтримки",
@@ -112,6 +112,16 @@
       "settings": "Налаштування",
       "delete": "Видалити показник",
       "data": "Дані метрики"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "Новий документ",
+      "new_topic": "Новий розділ"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "Управління доступом",
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "remove_from_section": "Прибрати з розділу"
     }
   },
   "date": {
@@ -149,6 +159,7 @@
     "display_by_employee_timezone": "Використати часовий пояс співробітника",
     "all_recurring_tasks": "Всі повторювані задачі",
     "delete_orgchart": "Видалити оргструктуру",
+    "copy_orgchart": "Дублювати оргструктуру",
     "print_orgchart": "Роздрукувати оргструктуру",
     "total_companies": "Всього компаній",
     "total_employees": "Всього співробітників",
@@ -183,7 +194,9 @@
       "on_pause": "На паузі",
       "completed": "Завершені",
       "draft": "Чернетки",
-      "all": "Все"
+      "all": "Все",
+      "unfinished_tasks": "Нерозподілені завдання",
+      "overdue_deadline": "Завдання з простроченим дедлайном"
     },
     "time_picker": {
       "select_time": "Оберіть час",
@@ -262,7 +275,7 @@
   "trainingGroup": {
     "basics": "Основи",
     "org_structure": "Оргструктура",
-    "communications": "Комунікації"
+    "communications": "Задачі"
   },
   "training": {
     "introductory": "Вступне відео",
@@ -390,12 +403,13 @@
     "delete_table": "Видалити таблицю"
   },
   "planning": {
-    "summary_by_function": "Підсумок з усіх функцій",
+    "summary_by_function": "Підсумок",
     "number_of_tasks": "Кількість завдань: ",
     "sum": "Сума: ",
     "back_to_plan": "Повернутись до свого плану",
     "all": "Всі",
     "no_function": "Без функції",
+    "no_tag": "Без тега",
     "day": "д ",
     "hour": "г ",
     "minute": "х"

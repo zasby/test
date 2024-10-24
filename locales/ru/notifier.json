@@ -121,6 +121,7 @@
     "dashboard_delete": "Дашборд был удалён!",
     "dashboard_update": "Дашборд был изменён!",
     "delete_regulation": "Регламент был удалён!",
+    "regulations_moved_non_section": "Регламент перемещен в \"Без раздела\"",
     "delete_section": "Раздел был удалён!",
     "policy_studied_successfully": "Регламент изучен!",
     "release_delete": "Релиз был удалён!",
@@ -135,7 +136,15 @@
     "decesion_delete": "Решение удалено!",
     "issue_message_created": "Обращение создано!",
     "content_deleted": "Контент удален!",
-    "orgchart_template_saved": "Шаблон сохранен!"
+    "orgchart_template_saved": "Шаблон сохранен!",
+    "orgchart_duplicate": "Дубликат оргструктуры создан",
+    "task_archived": "Задача #{{taskId}} перемещена в «Архив»",
+    "access_control": "Права доступа изменены",
+    "task_un_archived": "Задача #{{taskId}} перемещена из «Архива»",
+    "tag_edit": "Тег \"{{tag}}\" изменен!",
+    "tag_create": "Тег \"{{tag}}\" создан!",
+    "tag_delete": "Тег \"{{tag}}\" удален!",
+    "plan_issue_deleted": "Задача \"{{title}}\" удалена из плана!"
   },
   "info": {
     "no_cards": "Карточек по-прежнему нет"

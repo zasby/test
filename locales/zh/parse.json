@@ -7,6 +7,7 @@
   "test": "測驗",
   "is_test": "測驗",
   "no_test": "沒有測驗",
+  "inactive": "非活跃",
   "drop_allow": "權限解鎖並轉移",
   "drop_disabled": "您無法移動",
   "confirm_timezone1": "看起來你的時區是",
@@ -138,12 +139,13 @@
   "call_request_sent": "請求通知已發送到電話軟體中",
   "history_log": "歷史紀錄",
   "add_employee_full": "新增員工",
-  "success_completion_test": "恭喜！ 一切正確",
-  "failed_completion_test": "它仍然需要回答幾個問題。 值得學習。 努力 ：）",
+  "success_completion_test": "您所有问题都答对了！恭喜！",
+  "failed_completion_test": "还剩几个问题。建议稍微复习一下材料。",
   "pass_test_intro": "檢查你的理解",
   "employee_filter": "顯示員工",
   "description_filter": "顯示描述",
   "result_filter": "顯示結果",
+  "show_metrics": "顯示指標",
   "type_of_function": "功能類型",
   "glossary": {
     "r": "結果"
@@ -268,6 +270,7 @@
   "has_no_drivers": "沒有自動化",
   "paid": "有薪酬的",
   "free": "自由的",
+  "partially_paid": "半私營公司",
   "company_type": "公司類型",
   "company_with_drivers": "自動化報表",
   "test_company": "測驗",
@@ -286,9 +289,12 @@
     "dark": "深色"
   },
   "ui_type": "介面類型",
+  "tariff": "資費",
   "ui_type_new": "新界面",
   "ui_type_old": "舊界面",
   "user_limit": "用戶限制",
+  "user_limit_full": "具有完全访问权限的用户限制",
+  "user_limit_restricted": "具有受限访问权限的用户限制",
   "theme_suggestion_dialog": {
     "title": "深色主題已自動啟用",
     "description": "我們已確定您的瀏覽器啟用深色主題，因此應用程序已對此進行了調整。 確定後離開",
@@ -367,5 +373,10 @@
   "np_show": "显示",
   "np_compact_display": "紧凑显示",
   "np_do_not_show": "不显示",
-  "np_new_notification": "您有一条新通知"
+  "np_new_notification": "您有一条新通知",
+  "templates_list": "模板列表",
+  "select_template": "選擇模板",
+  "apply_to_company": "应用到公司",
+  "show_more": "顯示更多",
+  "hide": "隱藏"
 }

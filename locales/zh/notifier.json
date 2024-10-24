@@ -134,7 +134,14 @@
     "decesion_withdraw": "",
     "decesion_delete": "",
     "issue_message_created": "",
-    "content_deleted": "內容刪除成功！"
+    "content_deleted": "內容刪除成功！",
+    "orgchart_duplicate": "組織架構的副本已經建立",
+    "task_archived": "任务 #{{taskId}} 已移至「存档」",
+    "task_un_archived": "任务 #{{taskId}} 已从「存档」移出",
+    "tag_edit": "标签 \"{{tag}}\" 已更改！",
+    "tag_create": "标签 \"{{tag}}\" 已创建！",
+    "tag_delete": "标签 \"{{tag}}\" 已删除！",
+    "plan_issue_deleted": "任务 \"{{title}}\" 已从计划中删除！"
   },
   "info": {
     "no_cards": "仍然沒有任務"

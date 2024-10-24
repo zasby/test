@@ -13,7 +13,7 @@
     "settings_company": "公司設定",
     "settings_modules": "模組設定",
     "chart": "圖表",
-    "communication": "溝通",
+    "communication": "問題",
     "restore_password": "找回密碼",
     "sandbox": "沙盒",
     "driver": "自動化報表",
@@ -23,9 +23,9 @@
     "training": "教育",
     "feedback": "反饋",
     "report_driver": "自動化報表",
-    "report_communication": "溝通的報告",
+    "report_communication": "任務報告",
     "reports": "報告",
-    "reports_by_communication": "溝通的報告",
+    "reports_by_communication": "任務報告",
     "reports_by_driver": "自動化報表項目",
     "driver_user": "員工證",
     "schedule": "工作時程",
@@ -113,6 +113,16 @@
       "settings": "設定",
       "delete": "刪除圖表",
       "data": "數值衡量指標"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "新文件",
+      "new_topic": "新版塊"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "存取控制",
+      "edit": "編輯",
+      "delete": "刪除",
+      "remove_from_section": "从部分中删除"
     }
   },
   "date": {
@@ -150,6 +160,7 @@
     "display_by_employee_timezone": "使用員工的時區",
     "all_recurring_tasks": "所有例行公事",
     "delete_orgchart": "刪除組織圖",
+    "copy_orgchart": "複製組織架構",
     "print_orgchart": "列印組織圖",
     "total_companies": "公司",
     "total_employees": "員工",
@@ -184,7 +195,9 @@
       "on_pause": "暫停的",
       "completed": "已完成",
       "draft": "草稿",
-      "all": "全部"
+      "all": "全部",
+      "unfinished_tasks": "未完成的任務",
+      "overdue_deadline": "逾期的任務"
     },
     "time_picker": {
       "select_time": "選擇時間",
@@ -263,7 +276,7 @@
   "trainingGroup": {
     "basics": "基礎",
     "org_structure": "組織圖",
-    "communications": "溝通"
+    "communications": "問題"
   },
   "training": {
     "introductory": "簡介",
@@ -391,12 +404,13 @@
     "delete_table": "刪除表格"
   },
   "planning": {
-    "summary_by_function": "所有功能的摘要",
+    "summary_by_function": "总计",
     "number_of_tasks": "任務的數量：",
     "sum": "總和：",
     "back_to_plan": "返回到你的計劃",
     "all": "全部",
     "no_function": "沒有功能",
+    "no_tag": "没有标签",
     "day": "天",
     "hour": "小時",
     "minute": "分鐘"

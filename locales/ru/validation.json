@@ -3,12 +3,14 @@
   "wrong_email": "Убедитесь, что E-mail введён без ошибок",
   "min_char_number": "Минимальное количество символов: {{number}}",
   "min_file_number": "Минимальное количество файлов: {{number}}",
+  "min_char": "Минимум {{ number }} символов",
   "issue_complete_dialog_description": "Формат: {{format}}, {{value}}: {{number}}",
   "issue_complete_dialog_validate": {
     "common_error": "Необходимо описать результат или прикрепить файл",
     "time_error": "Пожалуйста, укажите фактическое время выполнения задачи."
   },
   "passwords_should_match": "Пароли не совпадают!",
+  "passwords_new_should_match": "Новые пароли не совпадают",
   "date_later_deadline": "Дата превышает дедлайн задачи",
   "deadline_required": "Установите срок",
   "enter_regulation_name": "Введите название регламента!",
@@ -20,5 +22,8 @@
   "policy_content_is_empty": "Регламент не может быть пустым!",
   "invalid_code": "Некорректный код",
   "executor_deadline": "Дата начала или дедлайн не может быть в прошлом",
-  "executor_deadline_in_past": "Некорректная дата дедлайна."
+  "executor_deadline_in_past": "Некорректная дата дедлайна.",
+  "passwords_must_not_same": "Текущий пароль и новый пароль не должны совпадать",
+  "invalid_current_password": "Неверный пароль",
+  "tag_name": "Тег с таким названием уже существует"
 }

@@ -3,12 +3,14 @@
   "wrong_email": "確保輸入的電子郵件沒有錯誤",
   "min_char_number": "最少符號數量：{{number}}",
   "min_file_number": "最小檔案數量：{{number}}",
+  "min_char": "最少 {{ number }}  个字符",
   "issue_complete_dialog_description": "格式: {{format}}, {{value}}: {{number}}",
   "issue_complete_dialog_validate": {
     "common_error": "請描述結果或附加文件",
     "time_error": "請指定任務的實際完成時間。"
   },
   "passwords_should_match": "密碼不匹配！",
+  "passwords_new_should_match": "新密碼不一致",
   "date_later_deadline": "日期超過截止時間",
   "deadline_required": "截止時間是必須的",
   "enter_regulation_name": "輸入規章的名稱！",
@@ -19,5 +21,6 @@
   "select_approver": "請選擇核准者！",
   "policy_content_is_empty": "規章不能為空白！",
   "invalid_code": "無效的代碼",
-  "executor_deadline_in_past": "截止日期無效。"
+  "executor_deadline_in_past": "截止日期無效。",
+  "invalid_current_password": "密碼錯誤。"
 }

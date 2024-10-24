@@ -13,7 +13,7 @@
     "settings_company": "Настройки компании",
     "settings_modules": "Настройки модулей",
     "chart": "Графики",
-    "communication": "Коммуникации",
+    "communication": "Задачи",
     "restore_password": "Восстановление пароля",
     "sandbox": "Песочница",
     "driver": "Драйвер",
@@ -23,9 +23,9 @@
     "training": "Обучение",
     "feedback": "Предложение доработки",
     "report_driver": "Отчёты по драйверам",
-    "report_communication": "Отчёты по коммуникациям",
+    "report_communication": "Отчёты по задачам",
     "reports": "Отчёты",
-    "reports_by_communication": "Отчёты по коммуникациям",
+    "reports_by_communication": "Отчёты по задачам",
     "reports_by_driver": "Отчёты по драйверам",
     "driver_user": "Карточка сотрудника",
     "schedule": "График работы",
@@ -113,6 +113,16 @@
       "settings": "Настройки",
       "delete": "Удалить график",
       "data": "Данные метрики"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "Новый документ",
+      "new_topic": "Новый раздел"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "Управление доступом",
+      "edit": "Редактировать",
+      "delete": "Удалить",
+      "remove_from_section": "Убрать из раздела"
     }
   },
   "date": {
@@ -150,6 +160,7 @@
     "display_by_employee_timezone": "Использовать часовой пояс сотрудника",
     "all_recurring_tasks": "Все повторяющиеся задачи",
     "delete_orgchart": "Удалить оргструктуру",
+    "copy_orgchart": "Дублировать оргструктуру",
     "print_orgchart": "Распечатать оргструктуру",
     "total_companies": "Всего компаний",
     "total_employees": "Всего сотрудников",
@@ -184,7 +195,9 @@
       "on_pause": "На паузе",
       "completed": "Завершённые",
       "draft": "Черновики",
-      "all": "Все"
+      "all": "Все",
+      "unfinished_tasks": "Невыполненные задачи",
+      "overdue_deadline": "Задачи с просроченным дедлайном"
     },
     "time_picker": {
       "select_time": "Выберите время",
@@ -263,7 +276,7 @@
   "trainingGroup": {
     "basics": "Основы",
     "org_structure": "Оргструктура",
-    "communications": "Коммуникации"
+    "communications": "Задачи"
   },
   "training": {
     "introductory": "Вводное видео",
@@ -278,7 +291,7 @@
   },
   "breadcrumbs": {
     "policies": "Регламенты",
-    "create_policy": "Добавить регламент",
+    "create_policy": "Новый регламент",
     "create_topic": "Добавить раздел",
     "topics": "Разделы",
     "policy": "Все",
@@ -391,12 +404,13 @@
     "delete_table": "Удалить таблицу"
   },
   "planning": {
-    "summary_by_function": "Итог по всем функциям",
+    "summary_by_function": "Итого",
     "number_of_tasks": "Кол-во задач: ",
     "sum": "Сумма: ",
     "back_to_plan": "Вернуться к своему плану",
     "all": "Все",
     "no_function": "Без функции",
+    "no_tag": "Без тега",
     "day": "д ",
     "hour": "ч ",
     "minute": "м"

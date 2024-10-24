@@ -3,12 +3,14 @@
   "wrong_email": "Make sure that the email is entered without errors",
   "min_char_number": "Minimum number of characters: {{number}}",
   "min_file_number": "Minimum number of files: {{number}}",
+  "min_char": "Minimum {{ number }} characters",
   "issue_complete_dialog_description": "Format: {{format}}, {{value}}: {{number}}",
   "issue_complete_dialog_validate": {
     "common_error": "Please describe the result or attach a file",
     "time_error": "Please specify the actual completion time of the task."
   },
   "passwords_should_match": "Passwords don't match!",
+  "passwords_new_should_match": "New passwords do not match",
   "date_later_deadline": "The date exceeds the deadline",
   "deadline_required": "Deadline is required",
   "enter_regulation_name": "Enter a name of the regulation!",
@@ -20,6 +22,7 @@
   "policy_content_is_empty": "The regulation cannot be empty!",
   "invalid_code": "Invalid code",
   "executor_deadline": "The start date or deadline cannot be in the past",
-  "executor_deadline_in_past": "Invalid deadline date."
+  "executor_deadline_in_past": "Invalid deadline date.",
+  "invalid_current_password": "Incorrect password"
 
 }

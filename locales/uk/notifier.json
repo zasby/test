@@ -134,7 +134,15 @@
     "decesion_withdraw": "Рішення відкликане!",
     "decesion_delete": "Рішення видалено!",
     "issue_message_created": "Звернення створено!",
-    "content_deleted": "Контент видалено!"
+    "content_deleted": "Контент видалено!",
+    "orgchart_duplicate": "Створено дублювату оргструктуру",
+    "task_archived": "Завдання #{{taskId}} переміщено в «Архів»",
+    "task_un_archived": "Завдання #{{taskId}} переміщено з «Архіву»",
+    "tag_edit": "Тег \"{{tag}}\" змінено!",
+    "tag_create": "Тег \"{{tag}}\" створено!",
+    "tag_delete": "Тег \"{{tag}}\" видалено!",
+    "plan_issue_deleted": "Завдання \"{{title}}\" видалено з плану!"
+
   },
   "info": {
     "no_cards": "Карток як і раніше немає"
