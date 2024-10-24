@@ -33,3 +33,4 @@ export { CalendarPlanningCalendarViewType } from "./CalendarPlanning";
 export type { IReportContext } from "./ReportContext.interface";
 export { projectSectionKeys, projectRoutesKeys, projectSections } from "./routesKeys";
 export type { NotificationType } from "./Notification"
+export type { ILoginFormView } from "./LoginForm.interface";
