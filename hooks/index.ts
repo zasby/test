@@ -76,3 +76,4 @@ export { useIssueCommonDialog } from "./IssueCommonDialog/useIssueCommonDialog";
 export { useIssueCommonViewDialog } from "./IssueCommonViewDialog/useIssueCommonViewDialog";
 export { useIssueCreateContainer } from "./IssueCreateContainer/useIssueCreateContainer";
 export { useIssueFormWrapper } from "./IssueFormWrapper/useIssueFormWrapper";
+export { useTaskFormView } from "./TaskFormView/useTaskFormView";
