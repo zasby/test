@@ -51,3 +51,8 @@ export interface IIssueCommonViewDialog {
   };
   formType: IssueFormType;
 }
+
+export interface ICreateFormRef {
+  saveIssue: () => void;
+  executorIds: number[] | undefined;
+}
