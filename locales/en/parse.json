@@ -278,7 +278,7 @@
   "sign_in_as_another_user_description": "A link to sign in as another user was copied to the clipboard. Open a new window in incognito mode, or launch a second browser and navigate to the copied link and paste it into the address bar.",
   "sign_in_as_another_user_copy_button": "Copy sign-in link",
   "company_schedule_days_overlapping": "The start time of one of the working days is greater than or equal to its end time!",
-  "employees_limit_text": "The company has {{usersCount}} employees with full access. You can invite {{usersLimit}} more according to the current tariff plan.",
+  "employees_limit_text": "The company has {{ usersCountFullAccess }} employees with full access. You can invite {{ usersFullAccessLimit }} more under the current subscription plan.\nThe company has {{ usersCountRestrictedAccess }} employees with restricted access. You can invite {{ usersRestrictedAccessLimit }} more under the current subscription plan.",
   "section_under_construction": "This section is under development and may work unstable",
   "read_all": "Mark all as read",
   "copy_fail": "Data could not be copied",

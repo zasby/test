@@ -278,7 +278,7 @@
   "sign_in_as_another_user_description": "以其他用戶身份登錄的連結已複製到剪貼簿。以匿名模式打開一個新視窗，或啟動第二個瀏覽器並導航到複製的連結，並將其貼上至地址欄中。",
   "sign_in_as_another_user_copy_button": "複製登入連結",
   "company_schedule_days_overlapping": "其中一個工作日的開始時間大於或等於其結束時間！",
-  "employees_limit_text": "公司目前有 {{usersCount}} 名擁有完整權限的員工。 根據目前的資費計劃，您可以再邀請 {{usersLimit}} 名員工。",
+  "employees_limit_text": "公司有 {{ usersCountFullAccess }} 名員工擁有完全訪問權限。根據當前的訂閱計劃，您還可以邀請 {{ usersFullAccessLimit }} 名員工。\n公司有 {{ usersCountRestrictedAccess }} 名員工擁有有限訪問權限。根據當前的訂閱計劃，您還可以邀請 {{ usersRestrictedAccessLimit }} 名員工。",
   "section_under_construction": "此部分正在開發中，可能會不穩定",
   "read_all": "標記為已讀",
   "copy_fail": "無法複製數據",
