@@ -326,7 +326,7 @@
   "go_to": {
     "task": "К задаче"
   },
-  "employee_type": {
+  "`employee_type`": {
     "limited": "Ограниченный доступ",
     "full": "Полный доступ"
   },
