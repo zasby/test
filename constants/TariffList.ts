@@ -13,9 +13,9 @@
 // Custom: Индивидуальные условия
 
 
-import { TariffType } from "../api/models/CompanyForAdminDto";
-import { ISelectItem } from "../types/Select.Interface";
 
+import { ISelectItem } from "../types/Select.Interface";
+import { TariffType } from "../api";
 
 export const TARIFF_LIST: ISelectItem[] = [
   {
