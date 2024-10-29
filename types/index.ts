@@ -60,3 +60,10 @@ export type { IVideoDialog, IVideoDialogView } from "./VideoDialog.interface";
 export type { IEmployeeInviteDialogView } from "./IEmployeeInviteDialog.inteface"
 export type { IPlanningPageMainContent, IPlanningPageMainContentView } from "./PlanningPageMainContent.interface";
 export type { PatchData, IPlanningCollapseContentTable } from "./PlanningCollapseContentTable.interface";
+export type { ICompanyEditForm, ICompanyEditFormView } from "./CompanyEditForm.interface";
+export type { ScheduleFormTypes, ICompanyEditFormScheduleForm,  ICompanyEditFormScheduleFormView } from "./ScheduleForm.interface";
+export type { ICalendarTimeBlock } from "./CalendarTimeBlock.interface";
+export type { IAvatarCompanySettings } from "./AvatarCompanySettings.interface";
+export type { IAvatarUploadForm, IAvatarUploadFormView } from "./AvatarUploadForm.interface";
+export type { IEmployeeEditForm, IEmployeeEditFormView } from "./EmployeeEditForm.interface";
+export type { IAvatarUserSettings } from "./AvatarUserSettings.interface";
