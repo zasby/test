@@ -17,10 +17,7 @@ export class TagsController extends ApiControllerCrud<TagDto, {}> {
     return await this.process<TagDto | null>(this.put(`${id}`, { data: tag }), undefined, onError);
   }
 
-  public async getTagsWithStats(model: {
-    userRelation: string,
-    tags?: number[]
-  }): Promise<OrgchartStatsDto[] | null> {
+  public async getTagsWithStats(model: any): Promise<OrgchartStatsDto[] | null> {
     return await this.process(this.get("with-stats", { params: model }));
   }
 
