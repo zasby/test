@@ -9,6 +9,8 @@ import type { UserShortDto } from './UserShortDto';
 import type { IssueShortDto } from "./IssueShortDto";
 import { IssueDto } from "./IssueDto";
 import { PlanIssueDto } from "./PlanIssueDto";
+import { GooglePlanIssueDto } from "./GooglePlanIssueDto";
+import { CalendarEventDto } from "./CalendarEventDto";
 
 export type PlanDto = {
     id?: number;
@@ -30,8 +32,9 @@ export type PlanDto = {
     statusColorScheme?: string | null;
     allowedStatuses?: Array<number> | null;
     isCurrent?: boolean;
-    issues?: Array<Plan2IssueDto> | null;
+    // issues?: Array<Plan2IssueDto> | null;
     plannedIssues?: PlanIssueDto[] | null;
+    plannedGoogleEvents: CalendarEventDto[];
     // canBeMigratedFromPlanId?: number | null;
     canBeMigratedFromPlan?: boolean;
     items?: IssueShortDto[];
