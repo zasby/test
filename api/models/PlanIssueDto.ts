@@ -7,12 +7,14 @@ import type { IssueCalculatedDto } from './IssueCalculatedDto';
 import type { OrgchartDto } from './OrgchartDto';
 import type { RoleShortDto } from './RoleShortDto';
 import { TagDto } from "./TagDto";
+import { GoogleCalendarDTO } from "./CalendarEventDto";
 
 
 export type PlanIssueDto = {
     id: number;
     name: string;
     subId?: string | null;
+    recurringIssueId?: number;
     orgchartId?: number;
     orgchart?: OrgchartDto;
     timePlan?: string | null;
@@ -34,4 +36,5 @@ export type PlanIssueDto = {
     isFromRecurringIssue?: boolean | null;
     canBeMigratedFromPlanId?: number | null;
     isDone?: boolean;
+    googleCalendarData?: GoogleCalendarDTO;
 }
