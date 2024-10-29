@@ -12,8 +12,8 @@ export interface IBoardCollapseContext {
   boardId?: number | null;
   userRelation: RelationsTypes;
   sortValue: sortKeyType;
-  executorId?: number[];
-  senderId?: number[];
+  executorId?: number;
+  senderId?: number;
   hasViolation: boolean;
   board?: BoardDto;
   flowType?: number;

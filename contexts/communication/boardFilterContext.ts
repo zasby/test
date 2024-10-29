@@ -10,6 +10,7 @@ import {
 } from "../../types";
 import { createContext } from "react";
 import { BoardDto } from "../../api";
+import { TagDto } from "../../../api/models/TagDto";
 
 
 
@@ -18,8 +19,8 @@ const defaultBoardFilterState: IBoardCollapseContext = {
   userRelation: RelationsKeys.My,
   sortValue: sortKeys.date,
   boardId: undefined,
-  executorId: [],
-  senderId: [],
+  executorId: undefined,
+  senderId: undefined,
   hasViolation: false,
   flowType: undefined,
   boardColumnsState: [],
@@ -35,6 +36,5 @@ const defaultBoardFilterState: IBoardCollapseContext = {
   zoom: 1,
   userId: [],
 };
-
 
 export const BoardFilterContext = createContext<IBoardCollapseContext>(defaultBoardFilterState);
