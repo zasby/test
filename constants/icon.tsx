@@ -975,5 +975,13 @@ export const CalendarTime: FC<Props> = ({ size = 20, color = "currentColor" }) =
       strokeLinejoin="round"
     />
   </svg>
+);
+
+export const ConstructionIcon: FC<Props> = ({ size = 40, color = "currentColor" }) => (
+  <svg width={size} height={size} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M28.334 23.3333V35M11.6673 23.3333V35M28.334 5V10M11.6673 5V10M16.6673 23.3333L3.83398 10.5M23.334 10L36.1673 22.8333M13.334 10L26.6673 23.3333M5.00065 10H35.0006C35.9211 10 36.6673 10.7462 36.6673 11.6667V21.6667C36.6673 22.5871 35.9211 23.3333 35.0006 23.3333H5.00065C4.08018 23.3333 3.33398 22.5871 3.33398 21.6667V11.6667C3.33398 10.7462 4.08018 10 5.00065 10Z"
+      stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
 
 )
