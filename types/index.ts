@@ -57,3 +57,4 @@ export type { IRecurringIssueCreateEditDialog } from "./RecurringIssueCreateEdit
 export type { TDialogScrollStrategy, IDialog, IDialogView } from "./Dialog.interface";
 export type { ITaskRecurringCreateEditForm, ITaskRecurringCreateEditFormView } from "./TaskRecurringForm.interface";
 export type { IVideoDialog, IVideoDialogView } from "./VideoDialog.interface";
+export type { IEmployeeInviteDialogView } from "./IEmployeeInviteDialog.inteface"

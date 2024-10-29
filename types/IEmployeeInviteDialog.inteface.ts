@@ -11,6 +11,8 @@ export interface IEmployeeInviteDialogView {
   selectedOrgchartIds: number[];
   fullAccessUsersCount: number;
   fullAccessUsersLimit: string | number;
+  restrictedAccessUsersCount: number;
+  restrictedAccessUsersLimit: string | number;
   onOrgchartIdsChange: (value: number[]) => void;
   handleApplyFunctionsButtonClick: (type: string, value: boolean) => void;
   setIsFunctionsSelectOpen: (type: string, value: boolean) => void;
