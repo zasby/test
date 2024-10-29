@@ -46,4 +46,14 @@ export class CompanyController extends ApiControllerCrud<CompanyDto, {}> {
     return await this.process(this.get(`${id}/schedule`));
   }
 
+  public async duplicate(companyId: number, ownerEmail: string): Promise<boolean | null> {
+    return await this.process(this.post(`${companyId}/duplicate`, {
+      data: {
+        ownerEmail,
+      }
+      }),
+      (x) => true,
+      (x) => false
+    );
+  }
 }
