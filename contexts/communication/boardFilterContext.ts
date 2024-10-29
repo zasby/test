@@ -9,11 +9,6 @@ import {
   IBoardCollapseContext,
 } from "../../types";
 import { createContext } from "react";
-import { BoardDto } from "../../api";
-import { TagDto } from "../../../api/models/TagDto";
-
-
-
 
 const defaultBoardFilterState: IBoardCollapseContext = {
   userRelation: RelationsKeys.My,

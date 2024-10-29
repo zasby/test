@@ -1,4 +1,4 @@
-import { UsersCount } from "../../api/models/CompanyForAdminDto";
+import { UsersCount } from "../api/models/CompanyForAdminDto";
 
 export type PagingInfo = {
   page: number;
