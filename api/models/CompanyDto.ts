@@ -11,7 +11,8 @@ import type { OrgchartDto } from './OrgchartDto';
 import type { RoleDto } from './RoleDto';
 import type { StaticFileDto } from './StaticFileDto';
 import type { UserShortDto } from './UserShortDto';
-import { TariffType } from "./CompanyForAdminDto";
+import { CompanyUserLimitDto } from "./CompanyUserLimitDto";
+import { UsersCount } from "./CompanyForAdminDto";
 
 export type CompanyDto = {
     id?: number;
@@ -19,6 +20,7 @@ export type CompanyDto = {
     nameFallback?: string | null;
     description?: string | null;
     userLimit?: number | null;
+    userLimits?: CompanyUserLimitDto[];
     imageId?: number | null;
     image?: StaticFileDto;
     dateCreated?: string;
@@ -42,5 +44,6 @@ export type CompanyDto = {
     orgcharts?: Array<OrgchartDto> | null;
     intervals?: Array<CompanyIntervalDto> | null;
     companySettings?: CompanySettingsDto;
-    tariffCode?: TariffType | null;
+    tariffCode?: string | null;
+    usersCount?: UsersCount;
 }
