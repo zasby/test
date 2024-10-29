@@ -22,7 +22,7 @@ export class OrgchartController extends ApiControllerCrud<OrgchartDto, {}> {
     }));
   }
 
-  public async getOrgchartsWithStats(model: { userRelation: string }): Promise<OrgchartStatsDto[] | null> {
+  public async getOrgchartsWithStats(model: any): Promise<OrgchartStatsDto[] | null> {
     return await this.process(this.get("with-stats", { params: model }));
   }
 
