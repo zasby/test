@@ -58,3 +58,5 @@ export type { TDialogScrollStrategy, IDialog, IDialogView } from "./Dialog.inter
 export type { ITaskRecurringCreateEditForm, ITaskRecurringCreateEditFormView } from "./TaskRecurringForm.interface";
 export type { IVideoDialog, IVideoDialogView } from "./VideoDialog.interface";
 export type { IEmployeeInviteDialogView } from "./IEmployeeInviteDialog.inteface"
+export type { IPlanningPageMainContent, IPlanningPageMainContentView } from "./PlanningPageMainContent.interface";
+export type { PatchData, IPlanningCollapseContentTable } from "./PlanningCollapseContentTable.interface";

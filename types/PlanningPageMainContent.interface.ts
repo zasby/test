@@ -1,6 +1,12 @@
-import { DayOfWeek, IssueDto, IssueScheduleDto, PlanDto, PlanShortDto } from "../api";
-
-import { PatchData } from "./PlanningCollapseContentTable.interface";
+import {
+  CalendarEventDto,
+  DayOfWeek,
+  PlanDto,
+  PlanShortDto
+} from "../api";
+import {
+  PatchData
+} from "./PlanningCollapseContentTable.interface";
 import { PlanIssueDto } from "../api/models/PlanIssueDto";
 
 export enum PlanUpdateStatus {
@@ -12,6 +18,7 @@ export interface IPlanningPageMainContent {
   onOpenCreateIssueDialog?: () => void;
   plan?: PlanDto;
   issues: PlanIssueDto[];
+  googleIssues?: CalendarEventDto[];
   // scheduleIssues: IssueScheduleDto[];
   fetchPlans?: () => void;
   issuesFromCommunicationsRestart?: () => void;
