@@ -32,6 +32,7 @@ export type { CalendarEventDto } from './models/CalendarEventDto';
 export type { CompanyDto } from './models/CompanyDto';
 export type { CompanyDtoPagingModel } from './models/CompanyDtoPagingModel';
 export type { CompanyForAdminDto } from './models/CompanyForAdminDto';
+export { TariffType } from './models/CompanyForAdminDto';
 export type { CompanyForAdminDtoPagingModel } from './models/CompanyForAdminDtoPagingModel';
 export type { CompanyGlossaryItemDto } from './models/CompanyGlossaryItemDto';
 export type { CompanyGroupDto } from './models/CompanyGroupDto';

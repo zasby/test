@@ -11,6 +11,7 @@ import type { OrgchartDto } from './OrgchartDto';
 import type { RoleDto } from './RoleDto';
 import type { StaticFileDto } from './StaticFileDto';
 import type { UserShortDto } from './UserShortDto';
+import { TariffType } from "./CompanyForAdminDto";
 
 export type CompanyDto = {
     id?: number;
@@ -41,5 +42,5 @@ export type CompanyDto = {
     orgcharts?: Array<OrgchartDto> | null;
     intervals?: Array<CompanyIntervalDto> | null;
     companySettings?: CompanySettingsDto;
-    tariffCode?: string | null;
+    tariffCode?: TariffType | null;
 }

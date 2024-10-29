@@ -36,6 +36,12 @@ export enum TariffType {
     Custom  = "Custom ",
 }
 
+export type UsersCount = {
+    Full?: number;
+    Restricted?: number;
+    Blocked?: number;
+}
+
 export type CompanyForAdminDto = {
     id?: number;
     name?: string | null;
@@ -48,7 +54,7 @@ export type CompanyForAdminDto = {
     boards?: Array<BoardDto> | null;
     dateCreated?: string;
     uiType?: number;
-    usersCount?: number;
+    usersCount?: UsersCount;
     isPaid?: boolean;
     isPartiallyPaid?: boolean;
     isInactive?: boolean;
