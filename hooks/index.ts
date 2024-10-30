@@ -86,3 +86,4 @@ export { useEmployeeEditFormView } from "./EmployeeEditForm/useEmployeeEditFormV
 export { useAvatarUserSettings } from "./AvatarUserSettings/useAvatarUserSettings";
 export { useShowUpdateNoteDialog } from "./ShowUpdateNoteDialog/useShowUpdateNoteDialog";
 export { useTimezoneNotificationDialog } from "./TimezoneNotificationDialog/useTimezoneNotificationDialog";
+export { useSignupForm } from "./SignupForm/useSignupForm";
