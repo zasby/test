@@ -7,7 +7,7 @@ import { IssueCustomFieldDto } from "../../api";
 import { useEffect } from "react";
 
 export const useLanguageSwitcher = () => {
-  const { t, i18n } = useTranslation();
+  const {  i18n } = useTranslation();
   const { authStore, appStore, helperStore } = useRootStore();
 
   const currentLanguageId = APP_LANGUAGES_ARRAY.find((lng) => lng.short == i18n.language.substr(0, 2))?.id ?? 0;

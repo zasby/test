@@ -91,3 +91,4 @@ export { useSignupFormView } from "./SignupForm/useSignupFormView";
 export { useRestorePasswordForm } from "./RestorePasswordForm/useRestorePasswordForm";
 export { useRestorePasswordFormView } from "./RestorePasswordForm/useRestorePasswordFormView";
 export { useLanguageSwitcher } from "./LanguageSwitcher/useLanguageSwitcher";
+export { useCarrotQuestButton } from "./CarrotQuestButton/useCarrotQuestButton"
