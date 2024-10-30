@@ -68,3 +68,5 @@ export type { IAvatarUploadForm, IAvatarUploadFormView } from "./AvatarUploadFor
 export type { IEmployeeEditForm, IEmployeeEditFormView } from "./EmployeeEditForm.interface";
 export type { IAvatarUserSettings } from "./AvatarUserSettings.interface";
 export type { ISignupFormView } from "./SignupForm.interface";
+export type { IRestorePasswordFormView, IRestoreForm } from "./RestorePasswordForm.interface";
+export type { ILanguageSwitcher } from "./LanguageSwitcher.interface";

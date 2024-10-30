@@ -48,9 +48,13 @@ export const useAuth = () => {
     }
   }, []);
 
+  const handleClickGoToSignup = () => {
+    navigate("/signup");
+  };
 
   return {
-    handleLogin,
     isLoading,
+    handleLogin,
+    handleClickGoToSignup,
   }
 }

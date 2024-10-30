@@ -87,3 +87,7 @@ export { useAvatarUserSettings } from "./AvatarUserSettings/useAvatarUserSetting
 export { useShowUpdateNoteDialog } from "./ShowUpdateNoteDialog/useShowUpdateNoteDialog";
 export { useTimezoneNotificationDialog } from "./TimezoneNotificationDialog/useTimezoneNotificationDialog";
 export { useSignupForm } from "./SignupForm/useSignupForm";
+export { useSignupFormView } from "./SignupForm/useSignupFormView";
+export { useRestorePasswordForm } from "./RestorePasswordForm/useRestorePasswordForm";
+export { useRestorePasswordFormView } from "./RestorePasswordForm/useRestorePasswordFormView";
+export { useLanguageSwitcher } from "./LanguageSwitcher/useLanguageSwitcher";
