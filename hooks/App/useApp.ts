@@ -153,7 +153,6 @@ export const useApp = () => {
   const themeAlgorithm = useMemo(() => {
     return appStore.getAppTheme == 1 ? darkAlgorithm : defaultAlgorithm
   }, [appStore.getAppTheme]);
-
   return {
     antDLocale,
     themeAlgorithm,

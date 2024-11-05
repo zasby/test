@@ -92,3 +92,5 @@ export { useRestorePasswordForm } from "./RestorePasswordForm/useRestorePassword
 export { useRestorePasswordFormView } from "./RestorePasswordForm/useRestorePasswordFormView";
 export { useLanguageSwitcher } from "./LanguageSwitcher/useLanguageSwitcher";
 export { useCarrotQuestButton } from "./CarrotQuestButton/useCarrotQuestButton"
+export { useLocation } from "./useLocation/useLocation";
+export { useNavigate } from "./useNavigate/useNavigate";

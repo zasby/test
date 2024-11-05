@@ -1,8 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useRootStore } from "../useRootStore";
 
-import { useLocation, useNavigate } from "react-router-dom";
-import { useRequestHandler, useNotifier } from "../index";
+import { useRequestHandler, useNotifier, useLocation, useNavigate } from "../index";
 import { useState, useEffect } from "react";
 
 export const useAuth = () => {
