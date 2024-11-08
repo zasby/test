@@ -128,16 +128,16 @@ export const AppTabsByPage: { [name: string]: AppPageTabType[] } = {
     { id: 5, link: "/policy/undone", key: "undone", name: "common:tab.policy.undone" },
   ],
   planning: [
-    { id: 0, link: "/tasks/my-plan", key: "planning", name: "common:tab.planning.my_plan" },
+    { id: 0, link: "/communication/my-plan", key: "planning", name: "common:tab.planning.my_plan" },
     {
       id: 1,
-      link: "/tasks/work-plans",
+      link: "/communication/work-plans",
       key: "work_plans",
       name: "common:tab.planning.work_plans",
     },
     {
       id: 2,
-      link: "/tasks/require-approval",
+      link: "/communication/require-approval",
       key: "require_approval",
       name: "common:tab.planning.require_approval",
     },
