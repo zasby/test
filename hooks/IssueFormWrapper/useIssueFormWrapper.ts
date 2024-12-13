@@ -92,7 +92,6 @@ export const useIssueFormWrapper = (props: IIssueFormWrapper, ref: any) => {
   };
 
   const handlePickerChange = (fieldKey: IssueFields, newValue: string | null) => {
-    console.log('handlePickerChange');
     props.updater.applyChanges({
       [fieldKey]: newValue,
     });
