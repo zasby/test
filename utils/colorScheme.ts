@@ -45,7 +45,7 @@ export const ColorScheme: IColorScheme[] = [
   {
     key: colorScheme.Error,
     status: "error",
-    backgroundColor: "var(--color-error-base)",
+    backgroundColor: "var(--color-txt-error)",
     color: "var(--color-white)",
     colorAccent: "var(--color-error-weak)",
   },
