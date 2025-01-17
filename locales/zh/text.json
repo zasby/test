@@ -1,75 +1,75 @@
 {
-  "loading_data": "我們正在載入數據",
-  "no_data": "沒有數據",
-  "no_attachments": "沒有附件",
-  "no_permissions": "沒有足夠的權限",
-  "list_empty": "列表是空的",
-  "please_wait": "請稍等",
+  "loading_data": "正在載入數據",
+  "no_data": "無數據",
+  "no_attachments": "無附件",
+  "no_permissions": "權限不足",
+  "list_empty": "列表為空",
+  "please_wait": "請稍候",
   "until": "直到",
-  "at": "在",
+  "at": "於，",
   "signup": {
-    "text1": "輸入邀請碼，我們將嘗試估計您被邀請的公司:)",
-    "text2": "您已受邀加入{{company}}。 輸入電子郵件和密碼以繼續。",
-    "text3": "您即將創建一家公司。 輸入電子郵件和密碼以繼續。"
+  "text1": "輸入邀請碼，我們將試著猜測您被邀請到哪個公司 :)，",
+  "text2": "您已被邀請加入 {{company}}。請輸入電子郵件和密碼以繼續。",
+  "text3": "您即將建立一家公司。請輸入電子郵件和密碼以繼續。"
   },
   "add_company": {
-    "text1": "您已受邀加入“{{companyName}}”。 接受或拒絕邀請以繼續。",
-    "text2": "您即將創建一家公司。 點擊“接受”繼續。"
+  "text1": "您已被邀請加入 '{{companyName}}'。接受或拒絕邀請以繼續。",
+  "text2": "您即將建立一家公司。點擊“接受”以繼續。"
   },
   "leave_company": {
-    "text1": "您確定要離開“{{companyName}}”嗎？"
+  "text1": "您確定要離開 '{{companyName}}' 嗎？"
   },
   "function": {
-    "delete": "當你刪除一個功能時，它的例行公事也將被刪除，員工和個人通訊將被取消連結。 您確定嗎？"
+  "delete": "刪除功能時，其例行公事也會被刪除，職員和個人溝通內容也會被取消連結。確定要這麼做嗎？"
   },
   "companies_manage": {
-    "delete": "您確定嗎？"
+  "delete": "您確定嗎？"
   },
   "employee": {
-    "delete": "您確定嗎？"
+  "delete": "您確定嗎？"
   },
   "board": {
-    "reset": "您確定嗎？",
-    "reset_all": "您確定嗎？"
+  "reset": "您確定嗎？",
+  "reset_all": "您確定嗎？"
   },
   "driver": {
-    "no_cards_found": "未發現違規員工名片"
+  "no_cards_found": "未找到違規的職員卡片"
   },
   "task_proof": {
-    "no_need_proof": "此任務不需要證明，但您可以發表評論",
-    "close_no_proof": "您真的要在沒有附加結果的情況下結束溝通嗎？"
+  "no_need_proof": "此任務不需要提供完成證明，但您可以留下評論",
+  "close_no_proof": "您確定要在未附加產品的情況下結束溝通嗎？"
   },
-  "task_expired": "任務已經逾期，通知經理並重新安排截止時間",
+  "task_expired": "此任務已逾期，請通知主管並重新設定截止日期",
   "no_elements": "沒有符合請求的元素",
   "no_open_tasks": {
-    "sidebar": "您還沒有即將到來的任務，但您可以自己安排任務",
-    "content": "您還沒有任務，但您可以為自己設置一個任務"
+  "sidebar": "您還沒有待辦任務，但您可以自行安排任務",
+  "content": "您還沒有任務，但您可以為自己設定任務"
   },
   "no_dashboard": "您還沒有儀表板，但您可以建立一個",
-  "transfer_undone_tasks": "移动未完成的任务",
-  "no_dateStart_and_timePlan": "設定“計劃”和“開始”值",
+  "transfer_undone_tasks": "移動未完成的任務",
+  "no_dateStart_and_timePlan": "設定「計畫」和「開始」值",
   "editor_callstack_error": "編輯錯誤。 如果您看到此訊息，請將其報告給技術人員。",
-  "metric_equal_source_error": "您不能建立具有兩個相同來源的數值衡量指標。",
-  "delete_dashboard_description": "此操作將無法撤銷。 您確定嗎？",
+  "metric_equal_source_error": "您不能建立具有兩個相同來源的指標。",
+  "delete_dashboard_description": "此操作將無法撤銷。確定嗎？",
   "date_work_start_expired": "開始日期將晚於截止日期",
-  "date_work_issues_overdue": "任務完成的截止日期設定為 {{date}} \n如果推遲到 {{startDate}} 的 {{startTime}}，該任務將逾期。 \nН點擊“接受“按鈕即表示您同意該任務將被視為違規並被關閉。",
+  "date_work_issues_overdue": "任務完成的截止日期設定為 {{date}}。\n如果延後到 {{startDate}} 於 {{startTime}}，任務將逾期。\n點擊“接受”按鈕即表示您同意任務將在違規情況下關閉。",
 
-  "chart-name-tooltip": "如果設置，它將顯示在圖表上而不是指標名稱",
+  "chart-name-tooltip": "如果確認設定，將顯示在圖表上而不是指標名稱",
   "text_editor_bug_dialog": {
-    "text1": "嗨，親愛的平台使用者，",
-    "text2": "我們想通知您，現在我們正在對文字編輯器功能進行改進。目前輸入的文字有可能會遺失，為了避免這樣的損失，我們建議您暫時將您的文字寫在其他地方，然後再轉移到 Tonnus 上或者定期保存它。",
-    "text3": "我們正在盡力減少任何不便，並確保平台的正常運作。如果您有任何問題，請聯繫我們的客服。",
-    "text4": "感謝您的關注與理解。",
-    "text5": "誠摯地，",
-    "text6": "TONNUS 團隊"
+  "text1": "親愛的平台用戶們，",
+  "text2": "我們想通知您，現在我們正在對文字編輯器功能進行改進。目前輸入的文字有可能會遺失，為了避免這樣的損失，我們建議您暫時將您的文字寫在其他地方，然後再轉移到 Tonnus 上或者定期保存它。",
+  "text3": "我們正在盡力減少任何不便，並確保平台的正常運作。如果您有任何問題，請聯繫我們的客服。",
+  "text4": "感謝您的關注與理解。",
+  "text5": "敬上。",
+  "text6": "TONNUS 團隊"
   },
-  "text_editor_error_alert": "发生错误，因为我们无法处理您的数据。请尝试刷新页面。如果错误仍然存在，则建议删除最新的数据。",
+  "text_editor_error_alert": "發生錯誤，我們無法處理您的數據。請嘗試重新整理頁面。如果錯誤持續，建議刪除最近的數據。",
   "timezone_notification_dialog": {
-    "text1": "時區",
-    "text2": "我們已經自動檢測到您的時區為：",
-    "text3": "請從上面的列表中確認或更改。",
-    "text3_change_time_zone": "您可以按下“保留”按鈕保留原先設定的時區 <b>\"{{oldTimeZone}}\"</b>，或按下“更改”按鈕將其更改為新時區 <b>\"{{newTimeZone}}\"</b>。",
-    "text4": "公司的時區："
+  "text1": "時區",
+  "text2": "我們已自動檢測到您的時區：",
+  "text3": "請從上方列表中確認或更改。",
+  "text3_change_time_zone": "您可以保留先前設定的時區 <b> {{oldTimeZone}}\"</b>，或按下“更改”按鈕將其更改為新時區 <b>\"{{newTimeZone}}\"</b>。",
+  "text4": "公司的時區："
   },
-  "report_loading": "报告正在加载，这可能需要一些时间"
-}
+  "report_loading": "報告載入中，這可能需要一些時間"
+  }

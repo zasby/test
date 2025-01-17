@@ -1,0 +1,29 @@
+{
+    "field_required": "Bu maydon to'ldirilishi shart",
+    "wrong_email": "Elektron pochta xatosiz kiritilganiga ishonch hosil qiling",
+    "min_char_number": "Eng kam belgilar soni: {{number}}",
+    "min_file_number": "Eng kam fayllar soni: {{number}}",
+    "min_char": "Kamida {{ number }} belgilar",
+    "issue_complete_dialog_description": "Format: {{format}}, {{value}}: {{number}}",
+    "issue_complete_dialog_validate": {
+        "common_error": "Iltimos, natijani tavsiflang yoki fayl ilova qiling",
+        "time_error": "Iltimos, vazifaning haqiqiy tugallanish vaqtini ko'rsating."
+    },
+    "passwords_should_match": "Parollar mos kelmayapti!",
+    "passwords_new_should_match": "Yangi parollar mos kelmayapti",
+    "date_later_deadline": "Sana muddatidan oshib ketgan",
+    "deadline_required": "Muddat talab qilinadi",
+    "enter_regulation_name": "Reglament nomini kiriting!",
+    "no_name_question": "Iltimos, barcha savollarga nom bering!",
+    "no_name_answer": "Iltimos, barcha javoblarga nom bering!",
+    "no_rights_answer": "Har bir savol uchun kamida 1 to'g'ri javob bo'lishi kerak",
+    "no_answers": "Har bir savol uchun kamida 2 javob bo'lishi kerak",
+    "select_approver": "Iltimos, tasdiqlovchini tanlang!",
+    "policy_content_is_empty": "Reglament bo'sh bo'lishi mumkin emas!",
+    "invalid_code": "Noto'g'ri kod",
+    "executor_deadline": "Boshlanish sanasi yoki muddat o'tmishda bo'lishi mumkin emas",
+    "passwords_must_not_same": "La contraseña actual y la nueva no deben ser la misma",
+    "executor_deadline_in_past": "Noto'g'ri muddat sanasi.",
+    "invalid_current_password": "Noto'g'ri parol",
+    "tag_name": "Ya existe una etiqueta con este nombre"
+}

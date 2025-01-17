@@ -71,7 +71,10 @@ export class AdminCompanyController extends ApiControllerCrud<CompanyForAdminDto
     isPartiallyPaid: boolean | null,
     isTest: boolean  | null,
     isInactive: boolean | null,
-    hasDriver: boolean | null
+    hasDriver: boolean | null,
+    tariffCode: string | null,
+    academyClientStatusIsActive: boolean | null,
+    academyClientStatusIsNull: boolean | null,
   ): Promise<Report2ValueModel[] | null> {
 
     return await this.process(
@@ -84,6 +87,9 @@ export class AdminCompanyController extends ApiControllerCrud<CompanyForAdminDto
           isInactive,
           hasDriver: hasDriver,
           isPartiallyPaid,
+          tariffCode,
+          academyClientStatusIsActive,
+          academyClientStatusIsNull,
           pageSize: 1000,
         },
       })

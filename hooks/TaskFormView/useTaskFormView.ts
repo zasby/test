@@ -7,7 +7,7 @@ import debounce from "lodash/debounce";
 import { useApi } from "../useApi";
 import { api } from "../../services";
 import { TagDto } from "../../api/models/TagDto";
-import { ISelectTagOption } from "../../../components/uiKit/selectTags/ISelectTags";
+import { ISelectTagOption } from "../../types/ISelectTags";
 import { SwitchFieldType } from "../../../components/modules/forms/types/consts";
 import { IIssueFormView } from "../../types/IssueForm.interface";
 

@@ -5,7 +5,10 @@ import {
   UserDto,
   UserShortDto,
 } from "../api";
+import { ReactionController } from "./ReactionController.interface";
 //
+// import { historySortKeys, historySortKeysType } from "../../misc/consts";
+////
 // import { historySortKeys, historySortKeysType } from "../../misc/consts";
 //
 export interface ICommentCard {
@@ -18,11 +21,17 @@ export interface ICommentCard {
   commentAttachments?: StaticFileDto[];
   index: number;
   isEditing?: boolean;
-  editCommentId?: number;
+  editCommentId?: number | null;
   handleEditClick?: (id: number) => void;
   item: HistoryDto;
   handleSaveClick?: (id: number, data: HistoryDto) => Promise<boolean>;
   handleRemoveComment?: (id: number) => Promise<boolean>;
+  isHiddenUser?: boolean;
+  reactionsStrategyController: ReactionController<HistoryDto, {}>,
+  isHiddenReactions?: boolean;
+  isSimplifiedToolbar?: boolean;
+  isShowBorder?: boolean;
+  editedInfo?: string;
 }
 //
 //
@@ -37,6 +46,7 @@ export interface IHistoryListCards {
   isDone: boolean;
   handleUpdateComment: (id: number, data: HistoryDto) => Promise<boolean>;
   handleRemoveComment: (id: number) => Promise<boolean>;
+  reactionsStrategyController: ReactionController<HistoryDto, {}>,
 }
 //
 //

@@ -6,7 +6,6 @@ import { RegulationTreeItemDto } from "./RegulationTreeItemDto";
 import { MenuItemClaimType, NavigationMenuItemDto } from "./NavigationMenuDto";
 import { PositionDto } from "./RoleSelectorDto";
 import { DataNode } from "antd/es/tree";
-import { b } from "@fullcalendar/core/internal-common";
 import { positionsKeys } from "../../types/UserSelectionDialog.interface";
 import { allowsRegulationKeys } from "../../constants/regulation/consts";
 
@@ -39,6 +38,7 @@ export type RegulationTreeNode = {
     claimType?: MenuItemClaimType;
     actions?: allowsRegulationKeys[] | null;
     parentActions?: allowsRegulationKeys[] | null;
+    hasItems?: boolean;
 }
 
 export type RegulationTreeItemNode = DataNode & {
@@ -49,4 +49,6 @@ export type RegulationTreeItemNode = DataNode & {
     navigationItem?: NavigationMenuItemDto;
     actions?: allowsRegulationKeys[] | null;
     parentActions?: allowsRegulationKeys[] | null;
+    hasItems?: boolean;
+
 }

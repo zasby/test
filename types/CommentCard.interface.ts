@@ -7,11 +7,12 @@ import {
 } from "../api";
 import { ReactionsStrategy } from "../strategies/ReactionsStrategy";
 
+
 export interface ICommentCard<T> {
   creator?: UserDto | UserShortDto;
   creatorId: number;
   dateCreated: string;
-  reactionStrategy: ReactionsStrategy<T>;
+  reactionStrategy: ReactionsStrategy<HistoryDto>;
   reactions: T[];
   commentContent?: string;
   historyId: number;
@@ -19,12 +20,17 @@ export interface ICommentCard<T> {
   index: number;
   isNewStyle?: boolean;
   isEditing?: boolean;
-  editCommentId?: number;
+  editCommentId?: number | null;
   handleEditClick?: (id: number) => void;
   item?: HistoryDto;
   handleSaveClick?: (id: number, data: HistoryDto) => Promise<boolean>;
   handleRemoveComment?: (id: number) => Promise<boolean>;
   format?: string;
+  isHiddenUser?: boolean;
+  isHiddenReactions?: boolean;
+  isSimplifiedToolbar?: boolean;
+  isShowBorder?: boolean;
+  editedInfo?: string;
 }
 
 export interface ICommentCardView {
@@ -38,9 +44,15 @@ export interface ICommentCardView {
   index: number;
   isNewStyle?: boolean;
   isEditing?: boolean;
-  editCommentId?: number;
+  editCommentId?: number | null;
   handleEditClick?: (id: number) => void;
   item?: HistoryDto;
   handleSaveClick?: (id: number, data: HistoryDto) => Promise<boolean>;
   handleRemoveComment?: (id: number) => Promise<boolean>;
+  isHiddenUser?: boolean;
+  isHiddenReactions?: boolean;
+  isSimplifiedToolbar?: boolean;
+  isShowBorder?: boolean;
+  editedInfo?: string;
 }
+

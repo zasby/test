@@ -1,0 +1,74 @@
+{
+    "loading_data": "Ma'lumotlar yuklanmoqda",
+    "no_data": "Ma'lumot yo'q",
+    "no_attachments": "Ilovalar yo'q",
+    "no_permissions": "Yetarli ruxsatlar yo'q",
+    "list_empty": "Ro'yxat bo'sh",
+    "please_wait": "Iltimos, kuting",
+    "until": "qadar",
+    "at": "da",
+    "signup": {
+        "text1": "Taklif kodini kiriting, biz sizni qaysi kompaniyaga taklif qilinganligini aniqlashga harakat qilamiz :)",
+        "text2": "Sizni {{company}} ga taklif qilishdi. Davom etish uchun elektron pochta va parolni kiriting.",
+        "text3": "Siz kompaniya yaratmoqdasiz. Davom etish uchun elektron pochta va parolni kiriting."
+    },
+    "add_company": {
+        "text1": "Sizni '{{companyName}}' ga taklif qilishdi. Davom etish uchun taklifni qabul qiling yoki rad eting.",
+        "text2": "Siz kompaniya yaratmoqdasiz. Davom etish uchun 'Qabul qilish' tugmasini bosing."
+    },
+    "leave_company": {
+        "text1": "'{{companyName}}' ni tark etmoqchimisiz?"
+    },
+    "function": {
+        "delete": "Funksiyani o'chirganda, uning rutinlari ham o'chiriladi, va xodimlar hamda alohida aloqalar uziladi. Ishonchingiz komilmi?"
+    },
+    "companies_manage": {
+        "delete": "Ishonchingiz komilmi?"
+    },
+    "employee": {
+        "delete": "Ishonchingiz komilmi?"
+    },
+    "board": {
+        "reset": "Ishonchingiz komilmi?",
+        "reset_all": "Ishonchingiz komilmi?"
+    },
+    "driver": {
+        "no_cards_found": "Qoida buzgan xodim kartalari topilmadi"
+    },
+    "task_proof": {
+        "no_need_proof": "Bu vazifa uchun dalil talab qilinmaydi, lekin izoh qoldirishingiz mumkin",
+        "close_no_proof": "Mahsulotsiz muloqotni yakunlamoqchimisiz?"
+    },
+    "task_expired": "Vazifa muddati o'tgan, menejerni xabardor qiling va muddatni qayta belgilang",
+    "no_elements": "So'rovga mos keluvchi elementlar yo'q",
+    "no_open_tasks": {
+        "sidebar": "Hali sizga tushgan vazifalar yo'q, lekin o'zingiz vazifalar belgilashingiz mumkin",
+        "content": "Hali vazifalar yo'q, lekin o'zingiz uchun vazifa belgilashingiz mumkin"
+    },
+    "no_dashboard": "Hali sizda boshqaruv paneli yo'q, lekin yaratishingiz mumkin",
+    "transfer_undone_tasks": "Avvalgi rejadan bajarilmagan vazifalarni o'tkazing",
+    "no_dateStart_and_timePlan": "'Reja' va 'Boshlanish' qiymatlarini belgilang",
+    "editor_callstack_error": "Tahrirlovchi xatosi. Buni ko'rsangiz, iltimos, qo'llab-quvvatlash xizmatiga xabar bering.",
+    "metric_equal_source_error": "Bir xil manbalardan ikkita metrik yaratib bo'lmaydi.",
+    "delete_dashboard_description": "Bu harakatni bekor qilib bo'lmaydi. Ishonchingiz komilmi?",
+    "date_work_start_expired": "Boshlanish sanasi muddatidan keyin belgilanadi",
+    "date_work_issues_overdue": "Vazifa tugash muddati {{date}} ga belgilangan. \n{{startDate}} da {{startTime}} ga kechiktirilsa, vazifa muddati o'tgan bo'ladi. \n“Qabul qilish” tugmasini bosish orqali siz vazifa qoida buzilishi bilan yopilishiga rozilik bildirasiz.",
+    "chart-name-tooltip": "Agar belgilansa, metrik nomi o'rniga grafikda ko'rsatiladi",
+    "text_editor_bug_dialog": {
+        "text1": "Platforma foydalanuvchilari,",
+        "text2": "Sizlarni matn muharriri ustida olib borilayotgan yaxshilash ishlarimiz haqida xabardor qilmoqchimiz. Hozirda kiritilgan matningiz yo'qolib qolish ehtimoli mavjud. Bunday yo'qotishlardan saqlanish maqsadida, matningizni vaqtincha boshqa joyda yozib, keyin Tonnusga o'tkazishingizni yoki muntazam ravishda saqlashingizni tavsiya qilamiz.",
+        "text3": "Har qanday noqulayliklarni minimallashtirish va platformaning uzluksiz ishlashini ta'minlash uchun barcha harakatlarni qilmoqdamiz. Savollaringiz bo'lsa, iltimos, qo'llab-quvvatlash xizmatimizga murojaat qiling.",
+        "text4": "Diqqatingiz uchun rahmat.",
+        "text5": "Hurmat bilan,",
+        "text6": "TONNUS Jamoasi"
+    },
+    "text_editor_error_alert": "Ma'lumotlaringizni qayta ishlash imkoni bo'lmagani sababli xato yuz berdi. Iltimos, sahifani yangilang. Xato davom etsa, eng so'nggi ma'lumotlarni o'chirishni tavsiya etamiz.",
+    "timezone_notification_dialog": {
+        "text1": "Vaqt mintaqasi",
+        "text2": "Sizning vaqt mintaqangiz avtomatik aniqlandi:",
+        "text3": "Iltimos, uni yuqoridagi ro'yxatdan tasdiqlang yoki o'zgartiring.",
+        "text3_change_time_zone": "Avval belgilangan vaqt mintaqasi <b>\"{{oldTimeZone}}\"</b>ni saqlab qolish uchun \"Saqlab qolish\" tugmasini bosishingiz yoki yangi <b>\"{{newTimeZone}}\"</b>ga o'zgartirishingiz mumkin.",
+        "text4": "Kompaniyaning vaqt mintaqasi:"
+    },
+    "report_loading": "Hisobot yuklanmoqda, bu biroz vaqt olishi mumkin"
+}

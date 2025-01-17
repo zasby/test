@@ -1,26 +1,26 @@
 {
-  "field_required": "此欄必填",
-  "wrong_email": "確保輸入的電子郵件沒有錯誤",
-  "min_char_number": "最少符號數量：{{number}}",
-  "min_file_number": "最小檔案數量：{{number}}",
-  "min_char": "最少 {{ number }}  个字符",
-  "issue_complete_dialog_description": "格式: {{format}}, {{value}}: {{number}}",
+  "field_required": "此欄位為必填",
+  "wrong_email": "請確認電子郵件輸入無誤",
+  "min_char_number": "最少字數：{{number}}",
+  "min_file_number": "最少檔案數量：{{number}}",
+  "min_char": "最少 {{number}} 個字",
+  "issue_complete_dialog_description": "格式：{{format}}，{{value}}：{{number}}",
   "issue_complete_dialog_validate": {
-    "common_error": "請描述結果或附加文件",
-    "time_error": "請指定任務的實際完成時間。"
+  "common_error": "請描述結果或附加檔案",
+  "time_error": "請填寫任務的實際完成時間。"
   },
-  "passwords_should_match": "密碼不匹配！",
+  "passwords_should_match": "密碼不一致！",
   "passwords_new_should_match": "新密碼不一致",
-  "date_later_deadline": "日期超過截止時間",
-  "deadline_required": "截止時間是必須的",
-  "enter_regulation_name": "輸入規章的名稱！",
-  "no_name_question": "請為所有問題設置一個名稱！",
-  "no_name_answer": "請為所有答案設置一個名稱！",
-  "no_rights_answer": "每個問題至少要有 1 個答案",
-  "no_answers": "每個問題至少要有 2 個答案",
-  "select_approver": "請選擇核准者！",
-  "policy_content_is_empty": "規章不能為空白！",
+  "date_later_deadline": "日期超過了截止日期",
+  "deadline_required": "截止日期為必填",
+  "enter_regulation_name": "請輸入規章名稱！",
+  "no_name_question": "請為所有問題設定名稱！",
+  "no_name_answer": "請為所有答案設定名稱！",
+  "no_rights_answer": "每個問題至少需要 1 個正確答案",
+  "no_answers": "每個問題至少需要 2 個答案",
+  "select_approver": "請選擇審核人！",
+  "policy_content_is_empty": "規章內容不能為空！",
   "invalid_code": "無效的代碼",
-  "executor_deadline_in_past": "截止日期無效。",
-  "invalid_current_password": "密碼錯誤。"
-}
+  "executor_deadline_in_past": "開始日期或截止日期不能設為過去的日期",
+  "invalid_current_password": "無效的截止日期。"
+  }

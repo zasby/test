@@ -1,0 +1,423 @@
+{
+  "page_title": {
+    "authorization": "Авторизация",
+    "registration": "Регистрация",
+    "password_recovery": "Восстановление пароля",
+    "orgchart": "Оргструктура",
+    "employees": "Ходимлар",
+    "employee": "Ходим",
+    "employee_edit": "Ходимни таҳрирлаш",
+    "settings": "Созламалар",
+    "settings_common": "Умумий созламалар",
+    "settings_profile": "Профиль созламалари",
+    "settings_company": "Компания созламалари",
+    "settings_modules": "Модуллар созламалари",
+    "chart": "Графиклар",
+    "communication": "Вазифалар",
+    "restore_password": "Паролни тиклаш",
+    "sandbox": "Песочница",
+    "driver": "Драйвер",
+    "driver_admin": "Драйверлар администратори",
+    "driver_pre": "Драйвер",
+    "companies_management": "Компанияларни бошқариш",
+    "training": "Тренинг",
+    "feedback": "Таклифларни ишлаб чиқиш",
+    "report_driver": "Драйверлар бўйича ҳисоботлар",
+    "report_communication": "Вазифалар бўйича ҳисоботлар",
+    "reports": "Хисоботлар",
+    "reports_by_communication": "Вазифалар бўйича ҳисоботлар",
+    "reports_by_driver": "Драйверлар бўйича ҳисоботлар",
+    "driver_user": "Ходим картаси",
+    "schedule": "Иш жадвали",
+    "support_center": "Қўллаб-қувватлаш маркази",
+    "page_404": "Сахифа топилмади",
+    "no_pages": "Модуллар мавжуд эмас",
+    "groups_companies": "Компаниялар гуруҳлари"
+  },
+  "indicator": {
+    "passed": "Ўтди",
+    "not_passed": "Ўтмади"
+  },
+  "driver_card": {
+    "writes_count": "Мессенжерларга ёзилганлар",
+    "calls_count": "Телефон орқали қўнғироқ қилинганлар",
+    "fixed_violations": "Буҳронларни тузатиш",
+    "process_avg_time": "Ўртача ишлаш вақти",
+    "overall_time_saved": "Вақт тежалган"
+  },
+  "unit_of_measurement": {
+    "times": "марталари",
+    "minutes": "дақиқа",
+    "hours": "соатлар"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "Функцияни кўчириш",
+      "add_function": "Подфункция қўшиш",
+      "edit_function": "Функцияни таҳрирлаш",
+      "sort_functions": "Подфункциялар тартиблаш",
+      "open_control": "Функция панели очиш",
+      "delete_function": "Функцияни ўчириш"
+    },
+    "top_bar_profile": {
+      "profile_page": "Профиль",
+      "profile_settings": "Созламалар",
+      "update_note": "Янгиланган эскертма",
+      "logout": "Чиқиш",
+      "cookie": "Қўлланиш ва куки сиёсати",
+      "feedback": "Фикр-мулоҳаза"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "Компанияларни бошқариш"
+    },
+    "executor_select": {
+      "admins_of_function": "Функция раҳбарлари",
+      "executors_of_function": "Функция ижрочилари",
+      "all_admins": "Барча раҳбарлар",
+      "all": "Барча"
+    },
+    "period_select": {
+      "every_day": "Кун",
+      "every_week_at_day": "Ҳафта",
+      "every_month_at_day": "Ой",
+      "every_n_days": "N кун"
+    },
+    "deadline_select": {
+      "after_time": "Ўтган вақтдан кейин",
+      "until_day": "Кунгача"
+    },
+    "company_card": {
+      "copy_code": "Кодни нусхалаш",
+      "copy_link": "Уланишни нусхалаш",
+      "settings": "Созламалар",
+      "statistics": "Ходимлар статистикаси",
+      "delete": "Компанияни ўчириш",
+      "pause": "Компанияни тўхтатиш",
+      "switch": "Компанияга ўтиш",
+      "duplicate_company": "Компанияни дубликация қилиш"
+    },
+    "employee_card": {
+      "open": "Профильни очиш",
+      "edit": "Профильни таҳрирлаш",
+      "delete": "Фойдаланувчини ўчириш"
+    },
+    "left_drawer_state": {
+      "always_expanded": "Доимий равишда кенгайтирилган",
+      "always_collapsed": "Доимий равишда тортилган",
+      "auto_collapsed": "Автоматик равишда тортилган",
+      "manual_expanded": "Қўлда кенгайтириш"
+    },
+    "manage_companies": {
+      "board_reset": "Статус қоидаларини қайта тиклаш"
+    },
+    "metric_settings_dropdown": {
+      "settings": "Созламалар",
+      "delete": "Графикни ўчириш",
+      "data": "Метрикалар маълумоти",
+      "print": "Метрика чоп этиш"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "Янги ҳужжат",
+      "new_topic": "Янги бўлим"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "Киришни бошқариш",
+      "edit": "Таҳрирлаш",
+      "delete": "Ўчириш",
+      "remove_from_section": "Бўлимдан олиб ташлаш"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "Душанба",
+      "tuesday": "Сешанба",
+      "wednesday": "Чоршанба",
+      "thursday": "Пайшанба",
+      "friday": "Жума",
+      "saturday": "Шанба",
+      "sunday": "Якшанба"
+    },
+    "month": {
+      "january": "Январь",
+      "february": "Февраль",
+      "march": "Март",
+      "april": "Апрель",
+      "may": "Май",
+      "june": "Июнь",
+      "july": "Июль",
+      "august": "Август",
+      "september": "Сентябрь",
+      "october": "Октябрь",
+      "november": "Ноябрь",
+      "december": "Декабрь"
+    }
+  },
+  "misc": {
+    "working_day": "Иш куни",
+    "weekend": "Хафтаси",
+    "vacation": "Татил",
+    "medical": "Тиббий таътил",
+    "collapse_functions": "Барча функцияларни тортиш",
+    "expand_functions": "Барча функцияларни кенгайтириш",
+    "display_by_employee_timezone": "Ходимнинг вақт зонасини ишлатиш",
+    "all_recurring_tasks": "Барча такрорланадиган вазифалар",
+    "delete_orgchart": "Оргструктурани ўчириш",
+    "copy_orgchart": "Оргструктурани дубликация қилиш",
+    "print_orgchart": "Оргструктурани чоп этиш",
+    "total_companies": "Жами компаниялар",
+    "total_employees": "Жами ходимлар",
+    "total_employees_full": "Жами тўлиқ киришга эга ходимлар",
+    "total_employees_restricted": "Жами чекланган киришга эга ходимлар",
+    "support_chat": "Қўллаб-қувватлаш чати",
+    "suggest_revision": "Таклифни ишлаб чиқиш",
+    "version": "Версия",
+    "new_company": "Янги компания",
+    "not_specified": "Кўрсатилмаган",
+    "no_selected": "Танланмаган",
+    "filter": "Фильтр",
+    "sort": "Тартиблаш",
+    "no_name": "Ном ёқ",
+    "card_menu": {
+      "add_role": "Подфункция қўшиш",
+      "edit": "Функцияни таҳрирлаш",
+      "manage": "Функцияни очиш",
+      "sort": "Подфункцияларни тартиблаш",
+      "transfer": "Функцияни кўчириш",
+      "delete": "Функцияни ўчириш",
+      "print": "Блокни чоп этиш"
+    },
+    "sort_items": {
+      "ones_first": "Биринчи янги",
+      "old_ones": "Биринчи эски",
+      "close_deadline": "Биринчи яқин муддат",
+      "high_priority": "Биринчи юқори приоритет",
+      "low_priority": "Биринчи паст приоритет",
+      "indefinite": "Биринчи бексувор",
+      "for_today": "Дедлайн бугун",
+      "active": "Фаол",
+      "date": "Дата бўйича",
+      "on_pause": "Тўхтатилган",
+      "completed": "Якунланган",
+      "draft": "Черновиклар",
+      "all": "Барча",
+      "unfinished_tasks": "Бажарилмаган вазифалар",
+      "overdue_deadline": "Ўтган дедлайн билан вазифалар"
+    },
+    "time_picker": {
+      "select_time": "Вақтни танланг",
+      "select_date": "Кунни танланг",
+      "no_time_selected": "Вақт танланмаган",
+      "selected_time_is": "Танланган вақт",
+      "select": "Танланг"
+    },
+    "date_type": {
+      "minutes": "Дакиқалар",
+      "hours": "Соатлар",
+      "hour": "Соат",
+      "days": "Кунлар",
+      "months": "Ойлар"
+    },
+    "time_period_picker": {
+      "every_month": "Ҳар ой"
+    },
+    "file_uploaded_number": "Юкланган файллар сони: {{number}}",
+    "entered_characters_number": "Киритилган белгилар сони: {{number}}"
+  },
+  "theme": {
+    "lightTheme": "Ёритилган мавзуси",
+    "darkTheme": "Қора мавзуси"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "Ходимлар",
+      "recurring_tasks": "Такрорланадиган вазифалар",
+      "permissions": "Рўйхатга олиш ҳуқуқлари",
+      "regulations": "Регламентлар",
+      "metrics": "Метрикалар"
+    },
+    "board_required_actions": {
+      "add_proof": "Доказни қўшиш",
+      "set_datedeadline_strict": "'Бошлаш санасини' белгилаш",
+      "attach_comment": "Изоҳни улашиш",
+      "attach_message": "Хабарни улашиш",
+      "consolidate_result": "Натижани мустаҳкамлаш",
+      "tab_text": "Натижани ёзинг ёки файлни улашинг",
+      "not_approval": "Рад этиш сабабини ёзинг",
+      "change_deadline": "Бу вазифанинг дедлайни бор, лекин сиз уни кўчиришингиз мумкин"
+    },
+    "policy": {
+      "for_approval": "Маъқуллаш учун",
+      "to_learn": "Ўрганиш учун",
+      "my": "Менинг",
+      "all": "Барча",
+      "topics": "Бўлимлар",
+      "undone": "Якунланмаган"
+    },
+    "dashboard": {
+      "my": "Менинг",
+      "my_metrics": "Менинг метрикаларим",
+      "available_to_me": "Менга мавжуд",
+      "my_subordinates": "Бошқарувимдаги ходимлар",
+      "fill_out": "Тўлдириш учун метрикалар"
+    },
+    "planning": {
+      "my_plan": "Менинг режам",
+      "work_plans": "Иш режалари",
+      "require_approval": "Маъқуллашни талаб қилади"
+    },
+    "project": {
+      "description": "Лойиҳа тавсифи",
+      "issues": "Вазифалар",
+      "recurring_issues": "Такрорланадиган вазифалар",
+      "gantt_chart": "Гант диаграммаси"
+    }
+  },
+  "document": {
+    "paid_services_offer": "Тўловли хизматларни кўрсатиш шартномаси",
+    "personal_data_consent": "Шахсий маълумотларни қайта ишлашга розилик",
+    "personal_data_policy": "Шахсий маълумотларни қайта ишлаш ва ҳимоя қилиш сиёсати"
+  },
+  "trainingGroup": {
+    "basics": "Асослар",
+    "org_structure": "Оргструктура",
+    "communications": "Вазифалар"
+  },
+  "training": {
+    "introductory": "Кириш видеоси",
+    "overview": "Платформа умумий кўриниши",
+    "profile_settings": "Шахсий профилни созлаш",
+    "org_structure": "Оргструктура",
+    "settings_org_structure": "Оргструктура техник созлашлари",
+    "communication_module": "Коммуникация модули",
+    "interaction_with_issues": "Вазифалар билан ишлаш",
+    "recurring_issues": "Такрорланадиган вазифалар",
+    "settings_recurring_issues": "Такрорланадиган вазифалар созлашлари"
+  },
+  "breadcrumbs": {
+    "policies": "Регламентлар",
+    "create_policy": "Янги регламент",
+    "create_topic": "Бўлим қўшиш",
+    "topics": "Бўлимлар",
+    "policy": "Барча",
+    "report_policies": "Ўрганилган регламентлар ҳақида ҳисобот",
+    "stats": "Статистика",
+    "planning": "Режалаштириш",
+    "work_plans": "Иш режалари",
+    "my": "Менинг",
+    "available_to_me": "Менга мавжуд"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "Функцияни танланг...",
+      "no_positions": "Лавозимлар мавжуд эмас",
+      "all_managers": "Барча раҳбарлар",
+      "all_performers": "Барча ижрочилар"
+    },
+    "role_select_box": {
+      "all": "Барча"
+    }
+  },
+  "driver": {
+    "statistics": "Статистика",
+    "history": "Тарих",
+    "no_data": "Тегишли элементлар йўқ",
+    "drivers": "Драйверлар",
+    "monitoring": "Мониторинг",
+    "in_queue": "Навбатда",
+    "stuck": "Тўхтаб қолди",
+    "last_interaction": "Драйвер билан охирги ўзаро алоқа",
+    "driver": "Драйвер",
+    "proceeded_cards": "Ўтказилган карточкалар",
+    "average_processing_time": "Ортача карточка қайта ишлаш вақти",
+    "corrected_violations": "Тўғриланган бузилишлар",
+    "actions": "Ҳаракатлар",
+    "card": {
+      "queue": {
+        "part1": "Ҳозирда навбатда",
+        "part2": "карточкалар"
+      },
+      "employees_per_driver": {
+        "part1": "Бир драйверга",
+        "part2": "ходимлар"
+      },
+      "average_working_time": {
+        "part1": "Ортача ишлаш вақти",
+        "part2": "дақиқалар"
+      },
+      "average_processing_time": {
+        "part1": "Бир карточкани қайта ишлаш учун ортача вақт",
+        "part2": "секунд"
+      },
+      "average_number_of_cards": {
+        "part1": "Драйвер томонидан қайта ишланган карточкаларнинг ортача сони",
+        "part2": "Қайта ишланган карточкалар"
+      },
+      "average_number_of_violations": {
+        "part1": "Бир ходимга тўғриланган бузилишлар сони",
+        "part2": "Ходим бузилишлари"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "Одатий матн",
+      "h1": "Сарлавҳа 1",
+      "h2": "Сарлавҳа 2",
+      "h3": "Сарлавҳа 3",
+      "h4": "Сарлавҳа 4",
+      "h5": "Сарлавҳа 5",
+      "h6": "Сарлавҳа 6",
+      "quote": "Цитата",
+      "numbered_list": "Нумерацияланган рўйхат",
+      "bulleted_list": "Белгилар билан рўйхат",
+      "check_list": "Чек-лист",
+      "align_left": "Чапга ёритиш",
+      "align_center": "Марказга ёритиш",
+      "align_right": "Онгга ёритиш",
+      "align_justify": "Широйли ёритиш",
+      "indent": "Илгари суриш",
+      "outdent": "Орқага суриш"
+    },
+    "undo": "Орқага",
+    "redo": "Илгарилаш",
+    "bold": "Қўлланилган",
+    "italic": "Курсив",
+    "underline": "Астара",
+    "code": "Код",
+    "clear_formatting": "Форматлашни тозалаш",
+    "superscript": "Юкори индексли белгилар",
+    "subscript": "Тамгу индексли белгилар",
+    "strikethrough": "Чизиш",
+    "link": "Ҳавола",
+    "color": "Матн рангини",
+    "background": "Фон рангини",
+    "hr": "Горизонтал хати",
+    "image": "Расм",
+    "table": "Жадвал",
+    "video": "Видео"
+  },
+  "text_editor_table_control": {
+    "add_row": "Қатор қўшиш",
+    "add_row_above": "Юқорига қатор қўшиш",
+    "add_row_below": "Төменга қатор қўшиш",
+    "add_column": "Колонка қўшиш",
+    "add_column_left": "Чапга колонка қўшиш",
+    "add_column_right": "Онгга колонка қўшиш",
+    "delete_row": "Қаторни ўчириш",
+    "delete_column": "Колонкани ўчириш",
+    "delete_table": "Жадвални ўчириш"
+  },
+  "planning": {
+    "summary_by_function": "Жами",
+    "number_of_tasks": "Вазифалар сони: ",
+    "sum": "Жами: ",
+    "back_to_plan": "Ўз режамга қайтиш",
+    "all": "Барча",
+    "no_function": "Функциясиз",
+    "no_tag": "Тегсиз",
+    "day": "к ",
+    "hour": "с ",
+    "minute": "м"
+  },
+  "function": "Функциялар:"
+}

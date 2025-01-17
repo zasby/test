@@ -10,18 +10,6 @@ import type { StaticFileDto } from './StaticFileDto';
 import type { UserShortDto } from './UserShortDto';
 import { CompanyUserLimitDto } from "./CompanyUserLimitDto";
 
-//
-// Bb1Economy: Эконом BB1,
-// Bb1Business: Бизнес BB1,
-// Bb1Premium: Премиум BB1,
-// Bb2Economy: Эконом BB2,
-// Bb2Business: Бизнес BB2,
-// Bb2Premium: Премиум BB2,
-// Resident: Резидент,
-// Vip: VIP,
-// Demo: Демо,
-// PlatinumResident: Платиновый резидент,
-// Custom: Индивидуальные условия
 export enum TariffType {
     Bb1Economy = "Bb1Economy",
     Bb1Business  = "Bb1Business ",
@@ -29,10 +17,16 @@ export enum TariffType {
     Bb2Economy = "Bb2Economy",
     Bb2Business = "Bb2Business",
     Bb2Premium  = "Bb2Premium ",
+    BbUsaYearly = "BbUsaYearly",
+    Graduate = "Graduate",
+    Graduate50 = " Graduate50",
     Resident = "Resident",
     Vip = "Vip",
     Demo = "Demo",
     PlatinumResident = "PlatinumResident",
+    OrgchartLifetime = "OrgchartLifetime",
+    OfficialRefusal = "OfficialRefusal",
+    WasPaid = "WasPaid",
     Custom  = "Custom ",
 }
 
@@ -40,6 +34,26 @@ export type UsersCount = {
     Full?: number;
     Restricted?: number;
     Blocked?: number;
+}
+
+export enum Feature {
+    OrganizationalStructure = "OrganizationalStructure",
+    Communications = "Communications",
+    ReportsAnalytics = "ReportsAnalytics",
+    EmployeeSchedules = "EmployeeSchedules",
+    EmployeeManagement = "EmployeeManagement",
+    TrainingDevelopment = "TrainingDevelopment",
+    KnowledgeBase = "KnowledgeBase",
+    DashboardsVisualization = "DashboardsVisualization",
+    SystemSettings = "SystemSettings",
+    PlanningForecasting = "PlanningForecasting",
+    CalendarTasksPlanning = "CalendarTasksPlanning",
+    ManageCompanies = "ManageCompanies",
+}
+
+export type CompanyFeatureDto = {
+    key: Feature;
+    isEnable: boolean;
 }
 
 export type CompanyForAdminDto = {
@@ -72,4 +86,11 @@ export type CompanyForAdminDto = {
     externalId?: string | null;
     timeZoneId?: string | null;
     tariffCode?: TariffType | null;
+    endAccessTime?: string | null;
+    availableFeatures?: CompanyFeatureDto[];
+    academyClientStatus?: {
+        value1: string;
+        value2: string;
+        value3: string;
+    }
 }

@@ -321,10 +321,14 @@ export class RegulationStore {
   async fetchNextPageRegulations() {
     if (!this.getRegulationPagingOptions?.pageIsLast) {
       this.setLoading(true);
+      const { order, orderBy } = this.getRegulationsFilters;
+      const orderSort = order === "descend" ? "desc" : "asc";
       api.navigationMenu
         .getAll({
           ...this.getRegulationsFilters,
           page: this.getRegulationPagingOptions.page,
+          order: order ? orderSort : undefined,
+          orderBy: order ? orderBy : undefined,
         })
         .then((res) => {
           if (res?.items) {
@@ -394,8 +398,14 @@ export class RegulationStore {
   async initialFetchRegulations(force?: boolean) {
     if (this.getRegulations.length === 0 || force) {
       this.setLoading(true);
+      const { order, orderBy } = this.getRegulationsFilters;
+      const orderSort = order === "descend" ? "desc" : "asc";
       api.navigationMenu
-        .getAll(this.getRegulationsFilters)
+        .getAll({
+          ...this.getRegulationsFilters,
+          order: order ? orderSort : undefined,
+          orderBy: order ? orderBy : undefined,
+        })
         .then((res) => {
           if (res?.items) {
             const pageSize = this.getRegulationsFilters.pageSize ?? 10;

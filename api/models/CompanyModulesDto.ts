@@ -2,9 +2,10 @@
 /* tslint:disable */
 /* eslint-disable */
 
+import { Feature } from "./CompanyForAdminDto";
+
 export type CompanyModulesDto = {
-    id: number;
-    companyId: string;
-    name?: string | null;
-    type: number;
+    description: string;
+    key: Feature;
+    name: string;
 }

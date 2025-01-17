@@ -9,7 +9,9 @@ export type IssueCommentDto = {
     id?: number;
     issueHistoryId?: number;
     text?: string | null;
+    dateUpdated?: string;
     attachments?: Array<IssueCommentAttachmentDto> | null;
     recipients?: Array<IssueCommentRecipientDto> | null;
     isMessage?: boolean;
+    isDeleted?: boolean;
 }

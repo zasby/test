@@ -1,6 +1,7 @@
 {
   "placeholder": {
     "enter": "Enter",
+    "awaited_result": "Enter Expected Result",
     "email": "user@example.com",
     "password": "p@ssw0rd",
     "invite_code": "1A2B3C4D",
@@ -87,7 +88,8 @@
       "selectTime": "Select Time"
     },
     "enter_password": "Enter new password",
-    "empty": "Empty"
+    "empty": "Empty",
+    "new_employee": "New employee #{{id}}"
   },
   "subheader": {
     "email": "Email",
@@ -225,6 +227,7 @@
     "metric_switch": "Inverted",
     "table_row": "Row",
     "violation_notification_switches": "Notifications of violations in tasks",
+    "order_displaying_full_name": "Order of displaying full name",
     "requirements_switches": "Requirements",
     "templates": "Шаблоны оргструктур",
     "table_col": "Column",
@@ -415,7 +418,8 @@
     },
     "add_answer": "Add an answer",
     "create_section": "Create a topic",
-    "extend_access": "Extend access"
+    "extend_access": "Extend access",
+    "duplicate": "Duplicate"
   },
   "label": {
     "added_to_topic": "Added to topic",
@@ -429,6 +433,7 @@
     "issues_with_violations": "Tasks with violations",
     "scheduled_for_today": "Scheduled for today",
     "grouping_by_orgcharts": "Grouping by org charts",
+    "grouping_by_users": "Group by subordinates",
     "grouping_by_tags": "Group by tags",
     "last_comment_is_proof": "Last comment as a proof",
     "last_comment_is_reason": "Last comment as a reason",
@@ -599,6 +604,8 @@
     "delete_dashboard": "Delete dashboard",
     "metric_settings": "Graph setup",
     "confirm_deletion": "Confirm deletion",
+    "delete_not_empty": "Cannot delete the section",
+
     "edit_metric_to_dashboard": "Enter data",
     "create_solution": "Create a solution",
     "releases": "Update Notes",
@@ -648,7 +655,10 @@
     "current_company": "Active company",
     "company_owner": "Owner of the company",
     "employees_amount": "Employees",
+    "employees_full_amount": "Employees with full access",
+    "employees_full_restricted": "Employees with limited access",
     "company_not_registered": "Company is not initiated",
+    "external_id": "External ID",
     "invite_code": "Invite code",
     "deadline": "Deadline",
     "date_created": "Created",
@@ -682,6 +692,7 @@
     "un_archive_task": "Task returned from archive",
     "google_calendar_reminder": "Reminder: {{time}} before the start",
     "delete_topic": "Are you sure you want to delete the entire topic?",
+    "delete_not_empty_topic": "This section contains nested subsections or documents. To delete this section, please remove all nested items first.",
     "delete_regulation": "Are you sure you want to delete the regulation?"
   },
   "caption": {
@@ -787,11 +798,19 @@
     "recurring_tasks": "Routines",
     "weekly_tasks": "Tasks",
     "unscheduled_tasks": "Unplanned tasks",
+    "google_events": "Google Calendar events",
     "fact": "Fact time",
     "plan": "Planned time",
     "start": "Start",
     "deadline": "Deadline",
-    "status": "Status"
+    "status": "Status",
+    "date_time": "Date and time",
+    "google_events_status": {
+      "Unfinished": "Planned",
+      "Finished":  "Completed",
+      "Declined": "Rejected"
+    },
+    "awaitedResult": "Expected Result"
   },
   "metric_switch": {
     "day": "Day",
@@ -964,6 +983,11 @@
   "confirm_dialog_remove_issue_from_plan": {
     "title": "Are you sure you want to remove the task \"{{title}}\" from the plan?"
   },
+  "planingGrouping": {
+    "roles": "By functions",
+    "tags": "By tags",
+    "no_grouping": "No grouping"
+  },
   "issueActions": {
     "add_related_task": "Add a related task"
   },
@@ -987,5 +1011,446 @@
     "Demo": "Demo",
     "PlatinumResident": "Platinum Resident",
     "Custom": "Individual Conditions"
+  },
+  "placeholder_technical": {
+    "title": "Technical work is in progress",
+    "text": "We apologize for the temporary inconvenience"
+  },
+  "issue_activity": {
+    "Name": "Name",
+    "ExecutorUserId": "Executor",
+    "InitiatorUserId": "Originator",
+    "Description": "Description",
+    "TimeFact": "Fact Time",
+    "TimePlan": "Planned Time",
+    "IsManagerApprovalRequired": "Originator approval required",
+    "TimeFactForApproval": "Fact approval time",
+    "TimePlanForApproval": "Planned approval time",
+    "AwaitedResult": "Proof",
+    "Observers": "Watchers",
+    "DateWorkStart": "Start Date",
+    "DateDeadline": "Deadline",
+    "boolean": {
+      "True": "Enabled",
+      "False": "Disabled"
+    },
+    "Tags": "Tags",
+    "IsStrictDeadline": "Executor isn't allowed to change deadline",
+    "RoleId": "Function",
+    "Text": "Comment",
+    "StatusId": "Status",
+    "Priority": "Priority",
+    "Files": "Attachmens",
+    "OrgchartId": "Org chart",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Incoming",
+            "rejected": "Rejected",
+            "accepted": "Accepted",
+            "in_work": "Pending",
+            "approval": "For Approval",
+            "not_approved": "Not Approved",
+            "done": "Done"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "Companies",
+    "orgchart": "Org Chart",
+    "schedule": "Schedule",
+    "communication": "Tasks",
+    "regulation": "Knowledge Base",
+    "dashboard": "Dashboards",
+    "report": "Reports",
+    "report_communication": "Tasks",
+    "employee": "Employees",
+    "edu": "Education",
+    "settings": "Settings",
+    "bot_activate": "Activate 'BB Bot'",
+    "help_chat": "Support Chat"
+  },
+  "modules": {
+    "orgchart": "Org Chart",
+    "tasks": "Tasks",
+    "reports": "Reports",
+    "schedule": "Schedule",
+    "employees": "Employees",
+    "education": "Education",
+    "knowledge_base": "Knowledge Base",
+    "dashboards": "Dashboards",
+    "planning": "Planning",
+    "calendar_planning": "Calendar Planning"
+  },
+  "settings": {
+    "common": "General",
+    "company": "Company",
+    "modules": "Module",
+    "user": "Profile"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "Created from routine task",
+      "accept": "Accepted",
+      "act": {
+        "from_recurring": "Created from routine task"
+      },
+      "withdrawn": "Task rejected",
+      "rj": "Task rejected",
+      "complete": "Completed",
+      "r": {
+        "t": "Product received",
+        "f": "Product not received"
+      },
+      "m": {
+        "u": {
+          "r": "Task reassigned after employee was deleted"
+        }
+      },
+      "creator-updated": "Originator changed",
+      "executor-updated": "Moved to review",
+      "send-again": "Resend",
+      "do-by-myself": "I will do it by myself",
+      "accepted": "Accepted",
+      "completed": "Completed",
+      "send-for-review": "Submitted for review",
+      "approve": "Approved",
+      "not-approve": "Not approved",
+      "in-work": "In progress",
+      "logs": {
+        "name": "Name",
+        "description": "Description",
+        "attachment": "Attachment",
+        "participant": "Watcher",
+        "awaited": {
+          "result": "Product"
+        },
+        "role": {
+          "id": "Role"
+        },
+        "date": {
+          "work": {
+            "start": "Start date"
+          },
+          "deadline": "Deadline"
+        },
+        "time": {
+          "plan": "Planned time",
+          "fact": "Fact time"
+        },
+        "is": {
+          "strict": {
+            "deadline": "Executor isn't allowed to change deadline"
+          },
+          "manager": {
+            "review": {
+              "required": "Originator approval required"
+            }
+          }
+        },
+        "orgchart": {
+          "id": "Org chart"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "Originator"
+            }
+          }
+        },
+        "executor": {
+          "id": "Executor"
+        },
+        "proof": {
+          "requirement": {
+            "title": "Proof",
+            "text": "Proof description"
+          }
+        },
+        "priority": "Priority"
+      }
+    },
+    "actions": {
+      "accept": "Accept",
+      "in-work": "In progress",
+      "send-for-review": "Submit for review",
+      "approve": "Approve",
+      "not-approve": "Reject",
+      "rj": "Reject",
+      "complete": "Complete",
+      "copy": "Copy",
+      "delete": "Delete",
+      "archive": "Archive",
+      "un-archive": "Unarchive",
+      "send-again": "Resend",
+      "do-by-myself": "Complete by myself"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "Completed without proof"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "Incoming",
+          "rejected": "Rejected",
+          "accepted": "Accepted",
+          "in_work": "In progress",
+          "approval": "Pending approval",
+          "not_approved": "Needs revision",
+          "done": "Completed"
+        }
+      }
+    },
+    "approval": "Awaiting approval",
+    "done": "Completed",
+    "pending": "Incoming",
+    "in_work": "In progress",
+    "new_issues": "New task",
+    "new_issues_from_recurring": "New routine task",
+    "dis": "Overdue",
+    "na24": "Not accepted within 24 hours",
+    "n72": "Not approved within 72 hours",
+    "nm48": "Not started within 48 hours",
+    "hm3": "No response within 3 hours",
+    "issue": {
+      "hint": {
+        "has_message": "Unread comments"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "Needs approval",
+    "OnApproval": "Awaiting approval",
+    "NotApproved": "Needs revision",
+    "Rejected": "Rejected by executor",
+    "Approved": "Approved",
+    "Recurring": "Recurring task",
+    "Done": "Completed",
+    "Expired": "Overdue"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "Org chart"
+      },
+      "o": {
+        "f": "Function"
+      },
+      "recurring_issue": {
+        "title": "Routine Task"
+      },
+      "user": {
+        "title": "Employees",
+        "invite": "Invite"
+      },
+      "company": {
+        "title": "Company",
+        "edit": "Edit",
+        "employees": "Employees",
+        "notifications": "Notifications"
+      },
+      "report": {
+        "title": "Reports"
+      },
+      "user_schedule": {
+        "title": "Schedule",
+        "view": "View",
+        "edit": "Edit"
+      },
+      "Regulations": {
+        "title": "Regulations"
+      },
+      "knowledge_base_permission": {
+        "title": "Knowledge Base"
+      },
+      "function": {
+        "title": "Function"
+      },
+      "education": {
+        "title": "Education"
+      },
+      "issue": {
+        "title": "Tasks"
+      }
+    },
+    "o": {
+      "a": "Create",
+      "e": "Edit",
+      "d": "Delete",
+      "s": "Sort",
+      "va": "View all org charts"
+    },
+    "orgchart": {
+      "role": {
+        "add": "Create",
+        "edit": "Edit",
+        "sort": "Sort",
+        "move": "Move",
+        "delete": "Delete",
+        "users_edit": "Manage employees",
+        "permissions_edit": "Manage permissions"
+      }
+    },
+    "recurring_issue": {
+      "add": "Create",
+      "edit": "Edit",
+      "delete": "Delete",
+      "pause_manage": "Manage pause",
+      "view_history": "View history"
+    },
+    "user": {
+      "show_phone_number": "View phone number",
+      "edit": "Edit",
+      "delete": "Delete",
+      "company_invite.add": "Create",
+      "company_invite.delete": "Delete"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "Name and description",
+        "timezone": "Timezone",
+        "schedule": "Work schedule",
+        "mi": "Metric interval"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "Manage permissions to resend regulations"
+      },
+      "notifications": {
+        "manage_violations_notifications": "Manage violation notifications"
+      }
+    },
+    "r": {
+      "cm": "By task"
+    },
+    "s": {
+      "v": {
+        "a": "All functions",
+        "c": "Subordinate functions",
+        "p": "Manager functions"
+      },
+      "u": {
+        "a": "All functions",
+        "o": "Own functions",
+        "c": "Subordinate functions"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "Publish without approval"
+      }
+    },
+    "full_access": "Full access",
+    "education": {
+      "owner_course_access": "Access to owner's courses"
+    },
+    "issue": {
+      "view_all_issues": "View all user tasks",
+      "self_appoval_of_plan": "Self-approval of weekly plan"
+    }
+  },
+  "orgchart_template": {
+    "c_universal": "Universal",
+    "c_retail_store_chain": "Retail Store Chain",
+    "c_manufacturing": "Manufacturing",
+    "c_wholesale_company": "Wholesale Company",
+    "c_development_large_construction": "Large construction",
+    "c_development_beauty_and_dentistry_network": "Beauty and dentistry network",
+    "c_development_medical_clinic": "Medical clinic",
+    "c_development_construction_and_repair": "Construction and repair",
+    "c_development_real_estate_agency": "Real estate agency",
+    "s_furniture_manufacturing": "Furniture Manufacturing",
+    "s_training_center": "Training Center/School",
+    "s_clothing_store": "Clothing Store",
+    "s_construction": "Construction",
+    "s_online_store": "Online Store",
+    "s_dentistry": "Dentistry",
+    "s_real_estate_agency": "Real Estate Agency",
+    "s_wholesale_trade": "Wholesale Trade"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} commented on the task",
+      "IssueApprovalFail": "{{senderName}} returned the task for revision",
+      "IssueApprovalSuccess": "{{senderName}} approved the task",
+      "IssueItsTimeToWork": "It's time to start the task!",
+      "IssueNewComment": "{{senderName}} mentioned you",
+      "IssueRejected": "{{senderName}} rejected the task",
+      "IssueStatusUpdate": "{{senderName}} updated the task status",
+      "IssueMovedToOnApproval": "{{senderName}} submitted the task for your approval",
+      "DeadlineIsExpiredIssueViolation": "Overdue",
+      "RegulationAdded": "{{senderName}} assigned a new regulation for review",
+      "RegulationChanged": "{{senderName}} modified the regulation",
+      "RegulationMovedToOnApproval": "{{senderName}} submitted the regulation for approval",
+      "RegulationNewMessage": "{{senderName}} added a new comment to the regulation",
+      "SectionAdded": "New section added",
+      "SectionUpdated": "Section updated",
+      "IssueAdded_Observable": "{{senderName}} added you as an observer",
+      "IssueAdded_RequiresAction": "{{senderName}} assigned a task to you"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Incoming",
+            "rejected": "Rejected",
+            "accepted": "Accepted",
+            "in_work": "Pending",
+            "approval": "Awaiting Approval",
+            "not_approved": "Not Approved",
+            "done": "Done"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "Day Off",
+    "type3": "Vacation",
+    "type4": "Sick Leave"
+  },
+  "plan_status": {
+    "type1": "Pending",
+    "type2": "Awaiting Approval",
+    "type3": "Approved",
+    "type4": "Rejected"
+  },
+  "end_access_time_dialog": {
+    "title": "The demo access to the Business Booster Platform ended on {{date}}",
+    "text": "To continue using the platform, please switch to a paid plan.\n Upgrading to a paid plan will grant you access to all modules and preserve all data entered during the demo period.",
+    "button": "Explore the plans"
+  },
+  "end_access_time_count": {
+    "title": "Time until access ends:",
+    "day": "day",
+    "day1": "days",
+    "day2": "days",
+    "hours": "hour",
+    "hours1": "hours",
+    "hours2": "hours",
+    "minute": "minute",
+    "minute1": "minutes",
+    "minute2": "minutes",
+    "second": "second",
+    "second1": "seconds",
+    "second2": "seconds"
+  },
+  "end_access_time_resident_dialog": {
+    "text": {
+      "first": "As part of the Business Booster accelerator, you had the opportunity to use the Business Booster Platform for free. Since the training has ended*, to extend access to the platform, you need to switch to paid use of the Business Booster Platform by {{date}}**.",
+      "second": "The cost is $4 per month for each employee added to the platform.",
+      "third": "You can make the payment via a bank card directly on the platform by clicking the \"Extend Access\" button."
+    },
+    "text_access_time": {
+      "first": "Unfortunately, you did not extend your access to the Business Booster Platform, so we had to limit access to the 'Employees' module. However, all data previously entered on the platform is preserved.",
+      "second": "To resume using the platform, you need to switch to a paid plan."
+    },
+    "button": "View Plans",
+    "support_chat_text": "or contact support chat for an invoice:",
+    "ps": "* If the information about the end of the training is incorrect, we apologize and kindly ask you to contact us in the support chat.\n** If payment or a request to support is not made by {{date}}, access to the platform will be limited to the 'Employees' module."
   }
 }

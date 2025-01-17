@@ -1,14 +1,68 @@
 import { useRootStore } from "../useRootStore";
 import { useNavigate } from "react-router-dom";
 import ReactGA from "react-ga4";
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { removeTrailingSlash } from "../../helpers/pathname";
 import { IAuthorizedLayout } from "../../types";
+import { useClaims } from "../useClaims";
+import { useUserNameFormat } from "../../../functional/hooks/useUserNameFormat";
+import { TariffType } from "../../../functional/api/models/CompanyForAdminDto";
+import { useTranslation } from "react-i18next";
+import { permissionKeys } from "../../utils/permissions";
 
 export const useAuthorized = (props: IAuthorizedLayout) => {
-  const { authStore, communicationStore } = useRootStore();
+  const claims = useClaims();
+  const { t } = useTranslation();
+  const { authStore, communicationStore, appStore } = useRootStore();
+  const { getFullName } = useUserNameFormat();
+
+
   const navigate = useNavigate();
-  // const isAdBlockDetected = useDetectAdBlock();
+
+  const currentCompany = authStore.getCurrentCompany;
+  const currentUser = authStore.getInitialInfo?.identity;
+
+  const fullName = getFullName(
+    currentUser?.lastName ?? "",
+    currentUser?.firstName ?? "",
+    currentUser?.middleName ?? ""
+  );
+
+  const clientName = fullName ?? t("ui:placeholder.new_employee", {id: currentUser?.id ?? 0}) ?? ""
+
+  const [isShowEndAccessTimeDialog, setIsShowEndAccessTimeDialog] = useState<boolean>(false);
+  const [isResident, setIsSResident] = useState<boolean>(false);
+  const [isResidentEndAccessTime, setIsResidentEndAccessTime] = useState<boolean>(false);
+
+
+  const getShowEndAccessTimeDialog = () => {
+    const { endAccessTime, tariffCode } = currentCompany ?? {};
+
+    if (tariffCode !== TariffType.Demo) {
+      const isOwner = currentCompany?.userOwner?.id ===  currentUser?.id;
+
+      if (endAccessTime && (isOwner || claims.has(permissionKeys.user.edit) || claims.has(permissionKeys.orgchart.edit))) {
+        setIsShowEndAccessTimeDialog(true);
+        setIsResidentEndAccessTime(endAccessTime ? new Date(endAccessTime) <= new Date() : false);
+        setIsSResident(true);
+      }
+    } else {
+      setIsShowEndAccessTimeDialog(endAccessTime ? new Date(endAccessTime) <= new Date() : false);
+    }
+  }
+
+  const handleCloseEndAccessTimeDialog = () => {
+    setIsShowEndAccessTimeDialog(false);
+    setIsSResident(false);
+    setIsResidentEndAccessTime(false);
+  }
+
+  useEffect(() => {
+    if (authStore.isAuthorized) {
+      getShowEndAccessTimeDialog();
+    }
+  }, [authStore.isAuthorized]);
+
 
   const setUserGAData = () => {
     if (
@@ -52,7 +106,15 @@ export const useAuthorized = (props: IAuthorizedLayout) => {
       || currentPage?.versionType == "beta"
   }, [authStore?.getInitialInfo?.menuItems, communicationStore.getMode, props.pageKey])
 
+
   return {
     isShowBetaAlert,
+    isShowEndAccessTimeDialog,
+    currentCompany,
+    currentUser,
+    isResident,
+    isResidentEndAccessTime,
+    clientName,
+    handleCloseEndAccessTimeDialog,
   }
 }

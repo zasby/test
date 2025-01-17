@@ -4,13 +4,18 @@ import { $canShowPlaceholder } from "@lexical/text";
 export const initialEditorContent =
   '{"root":{"children":[{"children":[],"direction":null,"format":"","indent":0,"type":"paragraph","version":1}],"direction":null,"format":"","indent":0,"type":"root","version":1}}';
 
+export const emptyText = '{"root":{"children":[{"children":[],"direction":null,"format":"","indent":0,"type":"paragraph","version":1}],"direction":null,"format":"","type":"root","version":1}}'
+
+export const serverInitialEditorContent =
+  '{"root":{"children":[{"children":[],"direction":"ltr","format":"","indent":0,"type":"paragraph","version":1}],"direction":null,"format":"","type":"root","version":1}}';
+
 export const isContentEmpty = (editor: LexicalEditor) => {
   return editor.getEditorState().read(() => {
     return $canShowPlaceholder(editor.isComposing());
     // return $isRootTextContentEmpty(editor.isComposing());
   });
 };
- 
+
 export const getLexicalTextContentLength = (value: string, textOnly: boolean = false) => {
   const getNodeLength = (node: any) => {
     if (!node) return 0;

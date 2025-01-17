@@ -1,6 +1,5 @@
 import { ICustomIssue } from "../../components/modules/pages/planning/components/planningCollapseContent/PlanningCollapseContent.interface";
 import { PlanIssueDto } from "../api/models/PlanIssueDto";
-
 export type PatchData = {
   path: string,
   value: any,
@@ -17,4 +16,7 @@ export interface IPlanningCollapseContentTable {
   planStatus?: number;
   issuesRestart?: (withoutStateReset?: boolean | undefined) => void;
   isGoogle?: boolean;
+  className?: string;
+  userId?: number;
+  userPublisherId?: number | null;
 }

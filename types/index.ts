@@ -71,3 +71,4 @@ export type { ISignupFormView } from "./SignupForm.interface";
 export type { IRestorePasswordFormView, IRestoreForm } from "./RestorePasswordForm.interface";
 export type { ILanguageSwitcher } from "./LanguageSwitcher.interface";
 export type { ICarrotQuestButton, ICarrotQuestButtonView } from "./ICarrotQuestButton.interface";
+export { custonFieldsKeys } from "./consts";

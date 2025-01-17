@@ -16,6 +16,7 @@ export type PersonalInfoDto = {
 
 export type UserDto = {
     id?: number;
+    admin?: boolean;
     firstName?: string | null;
     middleName?: string | null;
     lastName?: string | null;
@@ -46,4 +47,6 @@ export type UserDto = {
     dateDeletedAt?: string | null;
     timeZoneId?: string | null;
     personalInfo?: PersonalInfoDto;
+    isSystem?: boolean;
+    isFired?: boolean;
 }

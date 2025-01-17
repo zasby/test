@@ -3,6 +3,7 @@
   "yes": "Да",
   "emptiness": "Пустота",
   "user_deleted": "Пользователь удалён",
+  "user_deactivated": "Деактивирован",
   "by_default": "По умолчанию",
   "test": "Тестовая",
   "is_test": "Тест",
@@ -84,6 +85,7 @@
   "creating_routine": "Создание повторяющейся задачи",
   "editing_routine": "Редактирование повторяющейся задачи",
   "login_as_another_user": "Войти как другой пользователь",
+  "duplicate_company": "Дублирование компании",
   "companies_statistics": "Статистика по компаниям",
   "queue_cards": "Карточек в очереди: {{number}}",
   "reset_all_boards": "Сбросить все доски",
@@ -258,6 +260,7 @@
     "filler": "Заполняющий",
     "fill_date": "Дата заполнения",
     "quota": "Количественный план",
+    "quota_print": "Колич. план",
     "value": "Значение",
     "date": "Дата"
   },
@@ -375,5 +378,19 @@
   "select_template": "Выберите шаблон",
   "apply_to_company": "Применить к компании",
   "show_more": "Показать еще",
-  "hide": "Скрыть"
+  "hide": "Скрыть",
+  "awaited_result": "Ожидаемый результат",
+  "end_access_time": "Дата истечения доступа",
+  "name_display_order": {
+    "default": "По умолчанию",
+    "lastFirst": "Фамилия Имя",
+    "firstLast": "Имя Фамилия",
+    "tooltip": "При выборе данного поля, ФИО будут отображаться в согласно выбранному языку интерфейса"
+  },
+  "academy_client_status": {
+    "active":"Активный",
+    "inactive": "Неактивный",
+    "undefined": "Не определен"
+  },
+  "collapse_metrics": "Свернуть метрики"
 }

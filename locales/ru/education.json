@@ -1,0 +1,134 @@
+{
+  "owner-course": {
+    "title": "Как настроить Business Booster Platform",
+    "description": "В этом курсе вы найдете, как особенности настройки Business Booster Platform для вашей компании, так и основные данные по ее использованию всех ее модулей. "
+  },
+  "owner-course-intro": {
+    "title": "Основы системы"
+  },
+  "owner-course-intro-overview": {
+    "title": "Обзор работы Вusiness Booster Platform",
+    "description": "В этом видео вы найдете краткий обзор всех функций Вusiness Booster Platform. Оно поможет вам сооринтироваться, какие процессы могут быть автоматизированы с помощью платформы."
+  },
+  "owner-course-intro-register-company": {
+    "title": "Как зарегистрировать компанию",
+    "description": "Как правильно заполнить регистрационные данные компании, какие настройки выбрать, чтобы дальнейщая работа с платформой была комфортной."
+  },
+  "owner-course-intro-mobile-app": {
+    "title": "Работа с мобильным приложением",
+    "description": "Как установить, настроить и использовать мобильное приложение."
+  },
+  "owner-course-orgchart": {
+    "title": "Оргструктура"
+  },
+  "owner-course-orgchart-setting-up": {
+    "title": "Как настроить оргструктуру",
+    "description": "Как настроить оргструктуру, добавить линии, подчиненных, руководителей и т.д."
+  },
+  "owner-course-orgchart-creating": {
+    "title": "Как создать оргструктуру из шаблона",
+    "description": "Как использовать шаблоны при создании оргструктуры и как их редактировать"
+  },
+  "owner-course-connecting-employees": {
+    "title": "Подключение сотрудников"
+  },
+  "owner-course-connecting-employees-ways": {
+    "title": "Как подключить сотрудников",
+    "description": "Три способа, как можно подключить сотрудников к Business Booster Platform"
+  },
+  "owner-course-connecting-employees-permissions": {
+    "title": "Как настроить права сотрудников",
+    "description": "Как выдать сотрудникам разрешения на различнные действия на платформе"
+  },
+  "owner-course-connecting-employees-schedule": {
+    "title": "Как настроить график работы",
+    "description": "Как настроить актуальный график работы сотрудникам, как отметить отпуск и больничный и при необходимости назначить заместителей на функции."
+  },
+  "owner-course-tasks": {
+    "title": "Задачи"
+  },
+  "owner-course-tasks-board": {
+    "title": "Работа с модулем Задачи",
+    "description": "О том, как выглядит доска с задачами и как с ней можно работать"
+  },
+  "owner-course-tasks-incoming": {
+    "title": "Работа с входящими задачами",
+    "description": "О работе с входящей задачей"
+  },
+  "owner-course-tasks-rules": {
+    "title": "Правила поставновки задач",
+    "description": "О принципах правильной постановки задач, а также как это выглядит на платформе"
+  },
+  "owner-course-tasks-recurring": {
+    "title": "Как создать повторяющиеся задачи",
+    "description": "Как создать повторяющуюся задачу. Подробно про каждую из настроек."
+  },
+  "owner-course-bot": {
+    "title": "Business Booster Bot"
+  },
+  "owner-course-bot-general": {
+    "title": "Общая инфо о боте и его настройка",
+    "description": "Какие задачи может выполнять Вusiness Вooster Bot. Как его подключить и настроить."
+  },
+  "owner-course-bot-tasks": {
+    "title": "Как ставить задачи с помощью бота",
+    "description": "Три способа поставновки задач с помощью Вusiness Вooster Bot."
+  },
+  "owner-course-bot-tasks-params": {
+    "title": "Дополнительные параметры задач для бота",
+    "description": "Как при постановке задач с помощью Вusiness Вooster Bot установить приорит, срок выполения задачи и необходимость одобрить результаты выполения"
+  },
+  "owner-course-bot-short-commands": {
+    "title": "Короткие команды для бота",
+    "description": "Как с помощью Вusiness Вooster Bot  проверять статусы выполнения задач"
+  },
+  "owner-course-planning": {
+    "title": "Календарное планирование",
+    "description": "Как спланирование выполение задач с помощью календаря платформы и синхронизировать его с  календарем Google"
+  },
+  "owner-course-planning-calendar": {
+    "title": "Планирование"
+  },
+  "owner-course-planning-table": {
+    "title": "Календарное планирование",
+    "description": "Как спланирование выполение задач с помощью календаря платформы и синхронизировать его с  календарем Google"
+  },
+  "owner-course-metrics": {
+    "title": "Метрики и дашборды"
+  },
+  "owner-course-metrics-create": {
+    "title": "Как создать метрику и дашборд",
+    "description": "Как создавать метрики, как объединять их в дашборды и как заполнять метрики и квоты на платформе."
+  },
+  "owner-course-regulations": {
+    "title": "Регламенты"
+  },
+  "owner-course-regulations-create": {
+    "title": "Как создать регламент на Business Booster Platform",
+    "description": "Как перенести регламенты на Business Booster Platform, как создать разделы обучения и как одобрить регламенты своих сотрудников"
+  },
+  "employee-course": {
+    "title": "Как использовать Business Booster Platform",
+    "description": "В этом курсе вы узнаете о возможностях Business Booster Platform и о том как она может помочь в решении ваших ежедневных задач. В серии коротких видео мы продемонстритуем, как работать с каждым из ее модулей, чтобы могли легко и быстро начать использовать платфому."
+  },
+  "owner-course-intro-advantages": {
+    "title": "Преимущества Business Booster Platform",
+    "description": "Какие проблемы решает Business Booster Platform и как она может улучшить вашу ежедневную работу. Примечание: Ранне \"Business Booster Platform\" имела название \"Tonnus\", поэтому в некоторых материалах вы еще найдете старое название"
+  },
+  "owner-course-intro-overview1": {
+    "title": "Обзор платформы",
+    "description": "Какие модули есть на Business Booster Platform и краткий обзор их основных функций"
+  },
+  "owner-course-intro-profile": {
+    "title": "Настройка личного профиля",
+    "description": "Как правильно заполнить свои личные данные на платформе и где их в дальнейшем можно отредактировать"
+  },
+  "owner-course-intro-mobile": {
+    "title": "Работа с мобильным приложением",
+    "description": "Как установить, настроить и использовать мобильное приложение"
+  },
+  "owner-course-orgchart-structure": {
+    "title": "Организационная структура",
+    "description": "Оргструктура, её составляющие и какие проблемы она решает в компании"
+  }
+}

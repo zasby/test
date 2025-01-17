@@ -1,0 +1,421 @@
+{
+  "page_title": {
+    "authorization": "ruxsat",
+    "registration": "ro'yxatga olish",
+    "password_recovery": "Parolni tiklash",
+    "orgchart": "tashkiliy tuzilma",
+    "employees": "Xodimlar",
+    "employee": "Xodim",
+    "employee_edit": "Xodimni tahrirlash",
+    "settings": "Sozlamalar",
+    "settings_common": "Umumiy sozlamalar",
+    "settings_profile": "Profil sozlamalari",
+    "settings_company": "Kompaniya sozlamalari",
+    "settings_modules": "Modul sozlamalari",
+    "chart": "Grafikalar",
+    "communication": "Vazifalar",
+    "restore_password": "Parolni tiklash",
+    "sandbox": "Sandbox",
+    "driver": "haydovchi",
+    "driver_admin": "Haydovchi ma'muri",
+    "driver_pre": "haydovchi",
+    "companies_management": "Kompaniya boshqaruvi",
+    "training": "trening",
+    "feedback": "Yaxshilash bo'yicha taklif",
+    "report_driver": "Haydovchi hisobotlari",
+    "report_communication": "Vazifa hisobotlari",
+    "reports": "Hisobotlar",
+    "reports_by_communication": "Vazifa hisobotlari",
+    "reports_by_driver": "Haydovchi hisobotlari",
+    "driver_user": "Xodimlar kartasi",
+    "schedule": "Ish grafigi",
+    "support_center": "Qo'llab-quvvatlash markazi",
+    "page_404": "Sahifa topilmadi",
+    "no_pages": "Hech qanday modul mavjud emas",
+    "groups_companies": "Kompaniyalar guruhlari"
+  },
+  "indicator": {
+    "passed": "O'tdi",
+    "not_passed": "Muvaffaqiyatsiz"
+  },
+  "driver_card": {
+    "writes_count": "Xabarlarda yozgan",
+    "calls_count": "Ular qo'ng'iroq qilishdi",
+    "fixed_violations": "Qayta ishlangan qoidabuzarliklar",
+    "process_avg_time": "O'rtacha ishlov berish vaqti",
+    "overall_time_saved": "Vaqt tejaldi"
+  },
+  "unit_of_measurement": {
+    "times": "bir marta",
+    "minutes": "daqiqalar",
+    "hours": "soat"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "Ko'chirish funktsiyasi",
+      "add_function": "pastki funktsiyani qo'shish",
+      "edit_function": "Tahrirlash funksiyasi",
+      "sort_functions": "Pastki funksiyalarni saralash",
+      "open_control": "Funktsiyalar panelini oching",
+      "delete_function": "Funktsiyani o'chirish"
+    },
+    "top_bar_profile": {
+      "profile_page": "Profil",
+      "profile_settings": "Sozlamalar",
+      "update_note": "Eslatmalarni yangilash",
+      "logout": "Chiqish",
+      "cookie": "Maxfiylik siyosati va cookie fayllari",
+      "feedback": "qayta aloqa"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "Kompaniya boshqaruvi"
+    },
+    "executor_select": {
+      "admins_of_function": "Funktsiya boshliqlari",
+      "executors_of_function": "Funktsiyani bajaruvchilar",
+      "all_admins": "Barcha rahbarlar",
+      "all": "Hammasi"
+    },
+    "period_select": {
+      "every_day": "kun",
+      "every_week_at_day": "bir hafta",
+      "every_month_at_day": "Oy",
+      "every_n_days": "N kun"
+    },
+    "deadline_select": {
+      "after_time": "Bir muncha vaqt o'tgach",
+      "until_day": "Haftaning kuniga qadar"
+    },
+    "company_card": {
+      "copy_code": "Kodni nusxalash",
+      "copy_link": "Havolani nusxalash",
+      "settings": "Sozlamalar",
+      "statistics": "Xodimlar statistikasi",
+      "delete": "Kompaniyani o'chirish",
+      "pause": "Kompaniyani to'xtatib turish",
+      "switch": "Kompaniyaga o'tish",
+      "duplicate_company": "Kompaniyani dublikat qilish"
+    },
+    "employee_card": {
+      "open": "Profilni ochish",
+      "edit": "Profilni tahrirlash",
+      "delete": "Foydalanuvchini oʻchirish"
+    },
+    "left_drawer_state": {
+      "always_expanded": "Har doim ochilgan",
+      "always_collapsed": "Har doim o'ralgan",
+      "auto_collapsed": "Avtomatik yig'ish",
+      "manual_expanded": "Hoverda kengaytiring"
+    },
+    "manage_companies": {
+      "board_reset": "Holat qoidalarini tiklash"
+    },
+    "metric_settings_dropdown": {
+      "settings": "Sozlamalar",
+      "delete": "Jadvalni o'chirish",
+      "data": "Metrik ma'lumotlar"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "Yangi hujjat",
+      "new_topic": "Yangi bo'lim"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "Kirish nazorati",
+      "edit": "Tahrirlash",
+      "delete": "Oʻchirish",
+      "remove_from_section": "Убрать из раздела"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "dushanba",
+      "tuesday": "seshanba",
+      "wednesday": "chorshanba",
+      "thursday": "Payshanba",
+      "friday": "juma",
+      "saturday": "shanba",
+      "sunday": "yakshanba"
+    },
+    "month": {
+      "january": "yanvar",
+      "february": "Fevral",
+      "march": "mart",
+      "april": "aprel",
+      "may": "Mening nazarimda",
+      "june": "iyun",
+      "july": "iyul",
+      "august": "avgust",
+      "september": "sentyabr",
+      "october": "oktyabr",
+      "november": "noyabr",
+      "december": "dekabr"
+    }
+  },
+  "misc": {
+    "working_day": "Ish kuni",
+    "weekend": "Dam olish kuni",
+    "vacation": "Dam olish",
+    "medical": "Kasallik ta'tillari",
+    "collapse_functions": "Barcha funktsiyalarni to'xtatish",
+    "expand_functions": "Barcha funktsiyalarni kengaytirish",
+    "display_by_employee_timezone": "Xodimning vaqt zonasidan foydalaning",
+    "all_recurring_tasks": "Barcha takroriy vazifalar",
+    "delete_orgchart": "Tashkiliy tuzilmani o'chirish",
+    "copy_orgchart": "Tashkiliy tuzilmani takrorlash",
+    "print_orgchart": "Tashkiliy tuzilmani chop etish",
+    "total_companies": "Jami kompaniyalar",
+    "total_employees": "Jami xodimlar",
+    "total_employees_full": "To'liq kirish huquqiga ega xodimlar soni",
+    "total_employees_restricted": "Cheklangan kirish huquqiga ega xodimlar soni",
+    "support_chat": "Qo'llab-quvvatlash chat",
+    "suggest_revision": "Yaxshilashlarni taklif qiling",
+    "version": "Versiya",
+    "new_company": "Yangi kompaniya",
+    "not_specified": "Ko'rsatilmagan",
+    "no_selected": "Tanlanmagan",
+    "filter": "Filtr",
+    "sort": "Tartiblash",
+    "no_name": "Ismi yo'q",
+    "card_menu": {
+      "add_role": "pastki funktsiyani qo'shish",
+      "edit": "Tahrirlash funksiyasi",
+      "manage": "Ochiq funksiya",
+      "sort": "Pastki funksiyalarni saralash",
+      "transfer": "Ko'chirish funktsiyasi",
+      "delete": "Funktsiyani o'chirish",
+      "print": "Chop etish bloki"
+    },
+    "sort_items": {
+      "ones_first": "Birinchi navbatda yangilari",
+      "old_ones": "Avval eskilar",
+      "close_deadline": "Birinchidan muddat tugashi bilan",
+      "high_priority": "Birinchi navbatda yuqori ustuvorlik bilan",
+      "low_priority": "Birinchi navbatda past ustuvorlik bilan",
+      "indefinite": "Birinchidan cheksiz",
+      "for_today": "Muddati bugun",
+      "active": "Faol",
+      "date": "Sana bo'yicha",
+      "on_pause": "Tanaffuslarda",
+      "completed": "Bajarildi",
+      "draft": "qoralamalar",
+      "all": "Hammasi",
+      "unfinished_tasks": "Bajarilmagan vazifalar",
+      "overdue_deadline": "Muddati o'tib ketgan vazifalar"
+    },
+    "time_picker": {
+      "select_time": "Vaqtni tanlang",
+      "select_date": "Sana tanlang",
+      "no_time_selected": "Vaqt tanlanmagan",
+      "selected_time_is": "Tanlangan vaqt",
+      "select": "Tanlang"
+    },
+    "date_type": {
+      "minutes": "daqiqalar",
+      "hours": "soatlar",
+      "hour": "Vaqt",
+      "days": "kunlar",
+      "months": "oylar"
+    },
+    "time_period_picker": {
+      "every_month": "Har"
+    },
+    "file_uploaded_number": "Yuklangan fayllar: {{number}}",
+    "entered_characters_number": "Kiritilgan belgilar: {{number}}"
+  },
+  "theme": {
+    "lightTheme": "Engil mavzu",
+    "darkTheme": "Qorong'i mavzu"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "Xodimlar",
+      "recurring_tasks": "Takroriy vazifalar",
+      "permissions": "Ruxsatlar",
+      "regulations": "Qoidalar",
+      "metrics": "Ko'rsatkichlar"
+    },
+    "board_required_actions": {
+      "add_proof": "dalil qo'shing",
+      "set_datedeadline_strict": "Boshlanish sanasi ni o'rnating",
+      "attach_comment": "Izoh qo'shing",
+      "attach_message": "Xabarni ilova qiling",
+      "consolidate_result": "Natijani ta'minlang",
+      "tab_text": "Natijani tavsiflang yoki faylni biriktiring",
+      "not_approval": "Og'ish sababini yozing",
+      "change_deadline": "Bu vazifani bajarish muddati bor lekin uni qayta rejalashtirishingiz mumkin"
+    },
+    "policy": {
+      "for_approval": "Tasdiqlashda",
+      "to_learn": "O'rganish",
+      "my": "mening",
+      "all": "Hammasi",
+      "topics": "Bo'limlar",
+      "undone": "Tugallanmagan"
+    },
+    "dashboard": {
+      "my": "mening",
+      "my_metrics": "Mening ko'rsatkichlarim",
+      "available_to_me": "Men uchun mavjud",
+      "my_subordinates": "Bo'ysunuvchilarning ko'rsatkichlari",
+      "fill_out": "To'ldirish uchun ko'rsatkichlar"
+    },
+    "planning": {
+      "my_plan": "Mening rejam",
+      "work_plans": "Ish rejalari",
+      "require_approval": "Tasdiqlashni talab qiladi"
+    },
+    "project": {
+      "description": "Loyihaning tavsifi",
+      "issues": "Vazifalar",
+      "recurring_issues": "Takroriy vazifalar",
+      "gantt_chart": "Gantt diagrammasi"
+    }
+  },
+  "document": {
+    "paid_services_offer": "Pullik xizmatlar ko'rsatish bo'yicha shartnoma taklifi",
+    "personal_data_consent": "Shaxsiy ma'lumotlarni qayta ishlashga rozilik",
+    "personal_data_policy": "Shaxsiy ma'lumotlarni qayta ishlash va himoya qilish siyosati"
+  },
+  "trainingGroup": {
+    "basics": "Asoslar",
+    "org_structure": "tashkiliy tuzilma",
+    "communications": "Vazifalar"
+  },
+  "training": {
+    "introductory": "Kirish videosi",
+    "overview": "Platformaga umumiy nuqtai",
+    "profile_settings": "Shaxsiy profilni o'rnatish",
+    "org_structure": "tashkiliy tuzilma",
+    "settings_org_structure": "Tashkiliy tuzilmaning texnik parametrlari",
+    "communication_module": "Aloqa moduli",
+    "interaction_with_issues": "Vazifalar bilan ishlash",
+    "recurring_issues": "Takroriy vazifalar",
+    "settings_recurring_issues": "Takroriy vazifa sozlamalari"
+  },
+  "breadcrumbs": {
+    "policies": "Qoidalar",
+    "create_policy": "Yangi qoidalar",
+    "create_topic": "Bo'lim qo'shing",
+    "topics": "Bo'limlar",
+    "policy": "Hammasi",
+    "report_policies": "O'rganilgan qoidalar to'g'risida hisobot",
+    "stats": "statistika",
+    "planning": "Rejalashtirish",
+    "work_plans": "Ish rejalari",
+    "my": "mening",
+    "available_to_me": "Men uchun mavjud"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "Funktsiyani tanlang...",
+      "no_positions": "Hech qanday pozitsiya yo'q",
+      "all_managers": "Barcha rahbarlar",
+      "all_performers": "Barcha ijrochilar"
+    },
+    "role_select_box": {
+      "all": "Hammasi"
+    }
+  },
+  "driver": {
+    "statistics": "statistika",
+    "history": "tarix",
+    "no_data": "Mos elementlar yo‘q",
+    "drivers": "Haydovchilar",
+    "monitoring": "monitoring",
+    "in_queue": "Navbat",
+    "stuck": "harakat tirbandligi",
+    "last_interaction": "Haydovchi bilan oxirgi muloqot",
+    "driver": "haydovchi",
+    "proceeded_cards": "Qayta ishlangan kartalar",
+    "average_processing_time": "O'rtacha kartani qayta ishlash vaqti",
+    "corrected_violations": "Tuzatilgan qoidabuzarliklar",
+    "actions": "Harakatlar",
+    "card": {
+      "queue": {
+        "part1": "Endi navbatda",
+        "part2": "kartalar"
+      },
+      "employees_per_driver": {
+        "part1": "Bir haydovchi uchun",
+        "part2": "xodimlar"
+      },
+      "average_working_time": {
+        "part1": "O'rtacha ish vaqti",
+        "part2": "daqiqa"
+      },
+      "average_processing_time": {
+        "part1": "Bitta karta uchun o'rtacha ishlov berish vaqti",
+        "part2": "soniya"
+      },
+      "average_number_of_cards": {
+        "part1": "Haydovchi tomonidan qayta ishlangan kartalarning o'rtacha soni",
+        "part2": "Qayta ishlangan kartalar"
+      },
+      "average_number_of_violations": {
+        "part1": "Bir xodimga to'g'ri keladigan qoidabuzarliklarning o'rtacha soni",
+        "part2": "Xodimlarning huquqbuzarliklari"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "Oddiy matn",
+      "h1": "1-sarlavha",
+      "h2": "2-sarlavha",
+      "h3": "3-sarlavha",
+      "h4": "4-sarlavha",
+      "h5": "5-sarlavha",
+      "h6": "6-sarlavha",
+      "quote": "Iqtibos",
+      "numbered_list": "raqamlangan ro'yxat",
+      "bulleted_list": "Belgilangan ro'yxat",
+      "check_list": "Tekshirish ro'yxati",
+      "align_left": "Chap chetida",
+      "align_center": "Markazda",
+      "align_right": "o'ng chetida",
+      "align_justify": "Kenglikda",
+      "indent": "Oldinga qadam",
+      "outdent": "Orqaga qadam"
+    },
+    "undo": "Orqaga",
+    "redo": "Oldinga",
+    "bold": "Yog'li",
+    "italic": "kursiv",
+    "underline": "tagiga chizilgan",
+    "code": "kod",
+    "clear_formatting": "Formatlashni tozalash",
+    "superscript": "yuqori chiziq",
+    "subscript": "obuna",
+    "strikethrough": "chizilgan",
+    "link": "havola",
+    "color": "Matn rangi",
+    "background": "Fon rangi",
+    "hr": "Gorizontal chiziq",
+    "image": "rasm",
+    "table": "Jadval",
+    "video": "Video"
+  },
+  "text_editor_table_control": {
+    "add_row": "Bir qator qo'shing",
+    "add_row_above": "Yuqoriga chiziq qo'shing",
+    "add_row_below": "Pastga qator qo'shing",
+    "add_column": "Ustun qo'shing",
+    "add_column_left": "Chapga ustun qo'shing",
+    "add_column_right": "O'ngga ustun qo'shing",
+    "delete_row": "Bir qatorni o'chirish",
+    "delete_column": "Ustunni o'chirish",
+    "delete_table": "Jadvalni o'chirish"
+  },
+  "planning": {
+    "summary_by_function": "Barcha funktsiyalarning qisqacha tavsifi",
+    "number_of_tasks": "Vazifa miqdori: ",
+    "sum": "Yig'indi: ",
+    "back_to_plan": "Rejangizga qayting",
+    "all": "Hammasi",
+    "no_function": "Funktsiya yo'q",
+    "no_tag": "Tegsiz",
+    "day": "e",
+    "hour": "lekin",
+    "minute": "m"
+  }
+}

@@ -19,6 +19,10 @@ export type PlanIssueDto = {
     orgchart?: OrgchartDto;
     timePlan?: string | null;
     timeFact?: string | null;
+    timePlanForApproval?: string | null;
+    timeFactForApproval?: string | null;
+    initiatorUserId?: number;
+    executorUserId?: number;
     roleId?: number | null;
     role?: RoleShortDto;
     calculated: IssueCalculatedDto;
@@ -37,4 +41,6 @@ export type PlanIssueDto = {
     canBeMigratedFromPlanId?: number | null;
     isDone?: boolean;
     googleCalendarData?: GoogleCalendarDTO;
+    type?: string;
+    priority?: number | null;
 }

@@ -1,27 +1,27 @@
 {
-  "field_required": "Це поле обов’язкове",
-  "wrong_email": "Переконайтесь, що E-mail введений без помилок",
+  "field_required": "Це поле є обов'язковим",
+  "wrong_email": "Переконайтесь, що E-mail введено без помилок",
   "min_char_number": "Мінімальна кількість символів: {{number}}",
   "min_file_number": "Мінімальна кількість файлів: {{number}}",
   "min_char": "Мінімум {{ number }} символів",
-  "issue_complete_dialog_description": "Формат: {{format}}, {{value}}: {{number}}",
+  "issue_complete_dialog_description": "Формат: {{format}} {{value}}: {{number}}",
   "issue_complete_dialog_validate": {
-    "common_error": "Потрібно описати результат або додати файл",
-    "time_error": "Будь ласка, вкажіть фактичний час виконання завдання."
+  "common_error": "Потрібно описати результат або додати файл",
+  "time_error": "Будь ласка, вкажіть фактичний час виконання задачі."
   },
   "passwords_should_match": "Паролі не співпадають!",
   "passwords_new_should_match": "Нові паролі не співпадають",
   "date_later_deadline": "Дата перевищує дедлайн задачі",
   "deadline_required": "Встановіть термін",
   "enter_regulation_name": "Введіть назву регламенту!",
-  "no_name_question": "Будь ласка, задайте для всіх запитань назву!",
-  "no_name_answer": "Будь ласка, задайте для всіх відповідей назву!",
-  "no_rights_answer": "Для кожного запитання повинна бути мінімум 1 вірна відповідь",
+  "no_name_question": "Будь ласка, задайте назву для всіх запитань!",
+  "no_name_answer": "Будь ласка, задайте назву для всіх відповідей!",
+  "no_rights_answer": "Для кожного запитання повинна бути мінімум 1 правильна відповідь",
   "no_answers": "Для кожного запитання повинно бути мінімум 2 відповіді",
-  "select_approver": "Будь ласка, оберіть схвалювача!",
+  "select_approver": "Будь ласка, виберіть схвалювача!",
   "policy_content_is_empty": "Регламент не може бути порожнім!",
   "invalid_code": "Некоректний код",
   "executor_deadline": "Дата початку або дедлайн не може бути в минулому",
-  "executor_deadline_in_past": "ТНевірна дата терміну подачі.",
-  "invalid_current_password": "Невірний пароль"
-}
+  "executor_deadline_in_past": "Некоректна дата дедлайну.",
+  "invalid_current_password": "Поточний пароль і новий пароль не повинні співпадати"
+  }

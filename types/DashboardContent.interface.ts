@@ -1,6 +1,6 @@
-import { DashboardDto, DayOfWeek, MetricReadDto } from "../../api";
-import { PagingModel } from "../../api/types";
-import { PagingInfo } from "../../types";
+import { DashboardDto, DayOfWeek, MetricReadDto } from "../api";
+import { PagingModel } from "../api/types";
+import { PagingInfo } from "./index";
 
 export interface IDashboardContent {
   dashboard?: DashboardDto;
@@ -18,6 +18,9 @@ export interface IDashboardContent {
   dashboardColumnsAmount: number;
   weekReportStart?: DayOfWeek;
   onDashboardRestart?: () => void;
+  isPrint?: boolean;
+  printMetricId: number | null;
+  onSetIsPrintMetricId: (id: number | null) => void;
 }
 export interface IDashboardContentView extends IDashboardContent {
   deleteMetric: (metricSource2UserId: number) => void;

@@ -8,6 +8,7 @@ export type NotificationAdditionalParamsDto = {
     issueSubId?: string | null;
     issueName?: string | null;
     issueStatusName?: string | null;
+    issueStatusKey?: string;
     regulationName?: string | null;
     regulationCompanyName?: string | null;
 }

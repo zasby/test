@@ -17,4 +17,6 @@ export type NotificationDto = {
     dateCreated?: string;
     baseType?: number;
     type?: number;
+    importance?: string;
+    notificationType?: string;
 }

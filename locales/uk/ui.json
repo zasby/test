@@ -1,10 +1,11 @@
 {
   "placeholder": {
-    "enter": "Ввівши",
+    "enter": "Введіть",
+    "awaited_result": "Введіть Очікуваний результат",
     "email": "user@example.com",
     "password": "п@р0ль",
     "invite_code": "1A2B3C4D",
-    "first_name": "Введіть тут  ім’я",
+    "first_name": "Введіть тут ім’я",
     "middle_name": "Введіть тут по-батькові",
     "last_name": "Введіть тут прізвище",
     "week_start_day": "Початок календарного тижня",
@@ -38,7 +39,7 @@
     "preferred_communication_name": "Назва",
     "preferred_communication_value": "Логін / Номер",
     "reason": "Напишіть причину",
-    "search_here": "Почніть пошук завдань тут...",
+    "search_here": "Почніть пошук задач тут...",
     "enter_role": "Введіть назву функції",
     "create_new_regulation": "Створіть новий регламент...",
     "section_name": "Введіть назву розділу...",
@@ -56,10 +57,10 @@
     "start_write_regulation": "Почніть писати регламент...",
     "text_editor_placeholder": "Введіть текст...",
     "text_editor_url": "Введіть URL-адресу",
-    "group_company_name": "введіть назву",
-    "choose_companies": "Вибрати компанії",
+    "group_company_name": "Введіть назву",
+    "choose_companies": "Обрати компанії",
     "choose_drivers": "Оберіть драйверів",
-    "select": "Виберіть",
+    "select": "Оберіть",
     "update_note_name": "Примітка про оновлення",
     "upload_the_json_file": "Завантажте файл JSON",
     "code": "Введіть код",
@@ -74,7 +75,7 @@
     "project_name": "Введіть назву",
     "project_description": "Введіть опис",
     "project_budget": "Введіть бюджет",
-    "project_tasks_reject_dialog": "Напишіть причину відхилення завдань",
+    "project_tasks_reject_dialog": "Напишіть причину відхилення задач",
     "project_search": "Пошук проекту",
     "min": "Мінімум",
     "max": "Максимум",
@@ -87,7 +88,8 @@
       "selectTime": "Оберіть час"
     },
     "enter_password": "Введіть новий пароль",
-    "empty": "Пусто"
+    "empty": "Пусто",
+    "new_employee": "Новий співробітник #{{id}}"
   },
   "subheader": {
     "email": "E-mail",
@@ -153,10 +155,10 @@
     "issue_actions": "Дії",
     "issue_current_status": "Поточний статус",
     "issue_created": "Створено",
-    "issue_time_for_approval": "План. час затвердження",
-    "issue_time_fact_for_approval": "Факт. час затвердження",
+    "issue_time_for_approval": "План затвердження",
+    "issue_time_fact_for_approval": "Факт затвердження",
     "issue_orgachart_company": "Оргструктура",
-    "issue_with_deadline": "Завдання з дедлайном",
+    "issue_with_deadline": "Задача з дедлайном",
     "deadline": "Дедлайн",
     "indicate_reason_changing_deadline": "Вкажіть причину зміни дедлайну",
     "executor_deadline": "Дата початку",
@@ -166,13 +168,13 @@
     "by_statuses": "За статусами",
     "reason": "Причина",
     "work_start": "Початок роботи",
-    "communication_type": "Тип зв’язку,  якому надаєте перевагу",
+    "communication_type": "Переважний вид зв'язку",
     "sender": "Постановник",
     "use_timezone_of": "Використати часовий пояс",
     "executor": "Виконавець",
     "attachments": "Вкладення",
     "role_select": "Обрати функцію",
-    "position_select": "Выбрать должность",
+    "position_select": "Обрати посаду",
     "terminology": "Термінологія",
     "name": "Назва",
     "companies": "Компанії",
@@ -184,7 +186,7 @@
     "dashboard_name": "Назва",
     "metric_interval": "Інтервал",
     "metric_source": "Джерело",
-    "chart_name": "Назва графіка",
+    "chart_name": "Назва графіку",
     "metric_filling": "Заповнює",
     "metric_switch_main": "Головна метрика",
     "metric_switch_reverse": "Перевернута метрика",
@@ -202,18 +204,18 @@
     "question": "Питання",
     "code": "Код",
     "locale": "Мова",
-    "unclosed_tasks": "Незавершені завдання",
+    "unclosed_tasks": "Незавершені задачі",
     "unallocated_tasks": "Нерозподілені завдання",
-    "no_open_tasks": "Незавершених завдань немає",
+    "no_open_tasks": "Незавершених задач немає",
     "week_plan": "Тижневий план",
     "issues": "Задачи",
-    "time": "Завдання",
+    "time": "Час",
     "project_name": "Назва проекту",
     "project_description": "Введіть опис проекту",
     "project_budget": "Введіть бюджет проекту",
     "end": "Кінець",
-    "project_responsible": "Відповідальний проект",
-    "project_members": "Виберіть учасників",
+    "project_responsible": "Відповідальний за проєкт",
+    "project_members": "Оберіть учасників",
     "urgency": "Терміновість",
     "selected_project_description": "Опис проекту",
     "selected_project_budget": "Бюджет проекту",
@@ -224,7 +226,8 @@
     "issue_advanced_settings_approval": "Потребує схалення постановника",
     "metric_switch": "Перевернута",
     "table_row": "Рядки",
-    "violation_notification_switches": "Повідомлення про порушення в завданнях",
+    "violation_notification_switches": "Повідомлення про порушення в задачах",
+    "order_displaying_full_name": "Порядок відображення ПІБ",
     "requirements_switches": "Вимоги",
     "templates": "Шаблоны оргструктур",
     "table_col": "Колонки",
@@ -240,7 +243,7 @@
     "regulation_access_control_dialog": {
       "section": "Вибір розділу",
       "orgchart": "Вибір оргструктури",
-      "accesses": "Надані доступи",
+      "accesses": "Видані доступи",
       "creator": "Створювач"
     },
     "time_block": {
@@ -250,10 +253,10 @@
       "startTime": "Початок",
       "endTime": "Закінчення",
       "fullDay": "Весь день",
-      "repeat": "Повторять"
+      "repeat": "Повторювати"
     },
     "change_password": {
-      "info_text": "Зміна пароля для облікового запи {{user}}",
+      "info_text": "Зміна пароля для облікового запису {{user}}",
       "old_password": "Поточний пароль",
       "new_password": "Введіть новий пароль",
       "confirm_password": "Повторіть новий пароль",
@@ -262,7 +265,7 @@
     "google_account": {
       "title": "Підключені облікові записи",
       "disconnect": "Відключити",
-      "switcher": "Показувати події з Google Календаря\n в Плануванні календаря",
+      "switcher": "Показувати події з Google Calendar\n у Календарному плануванні",
       "switcher_small": "Показувати події"
     },
     "google_event": {
@@ -276,21 +279,21 @@
       "reminder": "Нагадування",
       "you_come": "Прийдете?"
     },
-    "calendar_sidebar_filter": "Показати у нерозподілених завданнях",
+    "calendar_sidebar_filter": "Показати у нерозподілених задачах",
     "tags": "Теги",
     "birth_date": "Дата народження",
     "employment_date": "Дата прийому на роботу"
   },
   "button": {
     "ok": "ОК",
-    "cancel": "Відміна",
-    "login": "Війти",
+    "cancel": "Скасування",
+    "login": "Увійти",
     "signup": "Реєстрація",
     "check_code": "Перевірити код",
     "already_registered": "Вже зареєстровані?",
     "invite": "Запросити",
     "invite_employee": "Запросити співробітника",
-    "all_invites": "Список запрошень",
+    "all_invites": "Перелік запрошень",
     "save": "Зберігти",
     "dont_save": "Не зберігати",
     "create": "Створити",
@@ -321,7 +324,7 @@
     "reset": "Скинути",
     "wrote": "Написав",
     "called": "Подзвонив",
-    "leave_comment": "Оставить комментарий",
+    "leave_comment": "Залишити коментар",
     "duplicate_in_messenger": "Продублювати повідомлення в мессенджер",
     "next": "Далі",
     "copy": "Копіювати",
@@ -333,19 +336,19 @@
     "add_files": "Додати файли",
     "go_to_processing": "Почати роботу",
     "finish_work": "Закінчити роботу",
-    "reset_all_boards": "Сбросить все доски",
+    "reset_all_boards": "Скинути всі дошки",
     "yes": "Так",
     "no": "Ні",
     "apply": "Застосувати",
-    "show_links": "Показати посилання",
+    "show_links": "Відобразити посилання",
     "follow": "Перейти",
     "attach": "Прикріпити",
     "relation_my": "Мої",
     "relation_control": "На контролі",
-    "relation_participate": "Спостерігати",
+    "relation_participate": "Спостерігаю",
     "relation_subordinates": "Подчиненные",
     "create_task": "Створити задачу",
-    "create_routine": "Створити задачу, що повторюється",
+    "create_routine": "Створити повторювану задачу",
     "create_message": "Створити повідомлення",
     "create_decision": "Створити рішення",
     "driver_issue_actions": "Дій драйвера",
@@ -356,10 +359,10 @@
     "add_section": "Додати розділ",
     "stats": "Статистика",
     "add_role": "Додати функцію",
-    "add_to_section": "Додати в розділ",
+    "add_to_section": "Додати до розділу",
     "add_testing": "Додати тестування",
     "access_setting": "Управління доступом",
-    "assign_study": "Призначити для вивчення",
+    "assign_study": "Призначити на вивчення",
     "with_single_answer": "Додати питання з однією відповіддю",
     "with_multiple_answer": "Додати питання з множинними відповідями",
     "go_back": "Повернутися назад",
@@ -396,7 +399,7 @@
     "format": "Форматувати",
     "refresh": "Оновити",
     "delete_dashboard": "Видалити дашборд",
-    "go_to_task": "Перейдіть до завдання",
+    "go_to_task": "До задачі",
     "select": "Обрати",
     "telegram_bot_settings": "Активувати “Business Booster Bot”",
     "telegram_bot_left_menu": "Активувати «BB Bot»",
@@ -415,13 +418,14 @@
     "change_password": "Змінити пароль",
     "add_answer": "Додати відповідь",
     "create_section": "Створити розділ",
-    "extend_access": "Продовжити доступ"
+    "extend_access": "Продовжити доступ",
+    "duplicate": "Дублювати"
   },
   "label": {
     "added_to_topic": "Додано до розділу",
     "reusable_invite_code": "Багаторазовий код запрошення",
     "weekdays_same_schedule": "Всі дні за одним графиком",
-    "strict_deadline": "Строгий срок",
+    "strict_deadline": "Строгий термін",
     "proof_not_needed": "Не вимагається",
     "proof_text": "Текст",
     "proof_image": "Зображення",
@@ -429,6 +433,7 @@
     "issues_with_violations": "Задачі з порушеннями",
     "scheduled_for_today": "Заплановано на сьогодні",
     "grouping_by_orgcharts": "Групувати за оргструктурами",
+    "grouping_by_users": "Групувати за підлеглими",
     "grouping_by_tags": "Групувати за тегами",
     "last_comment_is_proof": "Використати останній коментар як доказ",
     "last_comment_is_reason": "Використати останній коментар як причину",
@@ -438,7 +443,7 @@
       "fail": "Недодзвон",
       "resolves_in_30_min": "Вирішити протягом 30 хвилин",
       "resolves_until_day_end": "Вирішити до кінця робочого дня",
-      "resolves_in": "Вирішити до",
+      "resolves_in": "Вирішить до",
       "promised_to_call_executor": "Пообіцяв зв’язатися з виконавцем",
       "gave_other_contacts": "Дав контакти іншої людини"
     },
@@ -466,12 +471,12 @@
     "planning_filter": {
       "approved": "Затверджено",
       "not_approved": "На схваленні",
-      "not_planned": "Чи не заплановані"
+      "not_planned": "Не заплановані"
     },
     "paid_company": "Платна компанія",
     "test_company": "Тестова компанія",
     "inactive": "Неактивна компанія",
-    "partially_paid_company": "Напівоплачувана компанія",
+    "partially_paid_company": "Напівплатна компанія",
     "on_verification": "На перевірці",
     "violation_notification_switch": {
       "first": "Не прийнята понад 24 години",
@@ -480,8 +485,8 @@
     },
     "show_on_orgchart": "Показати на оргструктурі",
     "requirements_switches": {
-      "first": "Зробити поле \"Факт\" (фактичний час на виконання завдання) обов'язковим при завершенні завдання",
-      "second": "Вказувати дату початку виконання завдання при його переведенні у статус «В роботі»"
+      "first": "Зробити поле \"Факт\" (фактичний час на виконання задачі) обов'язковим при завершенні задачі",
+      "second": "Вказувати дату початку виконання задачі під час її переведення в статус «В роботі»"
     },
     "manual_archiving": "Тільки ручне архівування"
   },
@@ -500,7 +505,7 @@
     "function_create": "Створити функцію",
     "function_edit": "Редагувати функцію",
     "function_move": "Перемістити функцію",
-    "function_sort": "Сортувати під функції",
+    "function_sort": "Сортувати підфункції",
     "function_delete": "Видалити функцію",
     "recurring_issue_delete": "Видалити повторювану задачу?",
     "recurring_issue_history": "Історія повторюваної задачі",
@@ -512,14 +517,14 @@
     "company_delete": "Видалення компанії",
     "employee_delete": "Видалення співробітника",
     "board_reset": "Скинути правила дошки",
-    "all_boards_reset": "Скинути правила дошок всіх компаній",
+    "all_boards_reset": "Скинути правила дошок усіх компаній",
     "driver_called": "Результати дзвінка",
     "driver_called_admin": "Дзвінок керівнику",
     "report_regulations": "Звіт вивчених регламентів",
     "stats": "Статистика",
     "policies": "Регламенти",
     "topics": "Розділи",
-    "copy_task": "Копіювання завдання",
+    "copy_task": "Копіювання задачі",
     "copy_decision": "Копіювання рішення",
     "copy_message": "Копіювання повідомлення",
     "reject_task": "Відхилити задачу",
@@ -553,10 +558,10 @@
     "delete_decision": "Видалити рішення?",
     "delete_message": "Видалити повідомлення?",
     "create_task": "Створити задачу",
-    "create_routine": "Створити задачу, що повторюється",
+    "create_routine": "Створити повторювану задачу",
     "create_message": "Створити повідомлення",
     "create_decision": "Створити рішення",
-    "create_recurring_issue": "Додати задачу, що повторюється",
+    "create_recurring_issue": "Додати повторювану задачу",
     "task": "Задача",
     "decision": "Рішення",
     "message": "Повідомлення",
@@ -570,7 +575,7 @@
     "mark_medical": "Відмітити лікарняний",
     "access_to_section": "Доступ до розділу",
     "access_to_regulation": "Доступ до регламенту",
-    "assign_study": "Призначити для вивчення",
+    "assign_study": "Призначити на вивчення",
     "linked_roles_to_section": "Прив’язані функції до разділу",
     "linked_roles_to_regulation": "Прив’язані функції до регламенту",
     "expect": "Окрім",
@@ -581,7 +586,7 @@
     "testing": "Тестування",
     "select": "Оберіть",
     "submit_for_approval": "Надіслати на схвалення",
-    "super_admin_drivers": "Супер Адмін драйверів",
+    "super_admin_drivers": "Супер адмін драйверів",
     "companies": "Компанії",
     "drivers_drivers": "Адміністратор драйверів",
     "confirm": "Доказ",
@@ -592,13 +597,14 @@
     "metric_prefix": "[ГМ]",
     "main_metric": "Головна метрика",
     "edit_metric": "Редагувати метрику",
-    "delete_metric": "Підтвердьте видалення",
+    "delete_metric": "Підтвердіть видалення",
     "create_first_dashboard": "Створіть свій перший дашборд",
     "create_dashboard": "Створення дашборду",
     "edit_dashboard": "Редагування дашборду",
     "delete_dashboard": "Видалення дашборду",
     "metric_settings": "Налаштування графіка",
     "confirm_deletion": "Підтвердіть видалення",
+    "delete_not_empty": "Неможливо видалити розділ",
     "edit_metric_to_dashboard": "Введіть дані",
     "create_solution": "Створіть рішення",
     "releases": "Нотатки оновлень",
@@ -617,7 +623,7 @@
     "create_issue": "Додати нову задачу",
     "create_table": "Створення таблиці",
     "insert_video": "Додати відео",
-    "no_tasks": "Немає завдань",
+    "no_tasks": "Немає задач",
     "confirm_delete_comment": "Ви впевнені, що хочете видалити цей коментар?",
     "executor_declined_task": "Відхилено виконавцем",
     "on_approval_task": "Потребує схвалення",
@@ -629,13 +635,13 @@
       "FullAccess": "Повний доступ"
     },
     "regulation_templates": "Шаблони",
-    "save_template": "Сохранить шаблон",
+    "save_template": "Зберегти шаблон",
     "time_block": "Подія",
     "delete_events": "Видалити подію?",
     "recurring_issue": "Повторювана задача",
     "change_password": "Змінити пароль",
     "google_event": "Подія Google Calendar",
-    "selected_google_calendar": "Виберіть календар для відображення на платформі",
+    "selected_google_calendar": "Оберіть календар для відображення на платформі",
     "tags": "Теги"
   },
   "text": {
@@ -644,11 +650,14 @@
     "from_time": "з",
     "to_time": "до",
     "change_company": "Змінити компанію",
-    "no_invites": "Немає запрошень",
+    "no_invites": "Запрошення відсутні",
     "current_company": "Це поточна компанія",
-    "company_owner": "Владелец компании",
+    "company_owner": "Власник компанії",
     "employees_amount": "Співробітників",
-    "company_not_registered": "Компанія ще не зареєстрована",
+    "employees_full_amount": "Співробітники з повним доступом",
+    "employees_full_restricted": "Співробітники з обмеженим доступом",
+    "company_not_registered": "Компанію ще не зареєстровано",
+    "external_id": "Зовнішній ID",
     "invite_code": "Код запрошення",
     "deadline": "Термін",
     "date_created": "Дата створення",
@@ -661,27 +670,28 @@
     "start_period_exceeds_end": "Початок періоду перевищує дату його завершения",
     "reset": "Скидання",
     "no_data": "Немає даних",
-    "child_functions_direction": "Напрямок дочерніх функцій",
+    "child_functions_direction": "Напрямок дочірніх функцій",
     "driver_administrators": "Адміністратори драйверів",
     "drivers": "Драйвери",
     "confirm_delete_metric": "З дашборду буде видалено метрику для всіх співробітників",
     "empty_metric_users": "Немає доступних співробітників",
     "date_work_start": "Встановити дату початку пізніше дедлайну",
-    "delete_metric_dialog_warning": "У разі, якщо Ви видалите метрику, є ймовірність того, що видаляться всі метрики з дашборда. Скасувати цю дію буде неможливо. Ви впевнені, що хочете видалити всі метрики?",
+    "delete_metric_dialog_warning": "У випадку, якщо Ви видалите метрику є ймовірність того, що видаляться всі метрики з дашборда. Скасувати цю дію буде неможливо. Ви впевнені, що хочете видалити всі метрики?",
     "main_metric_warning": {
       "text1": "На цій фукцкії вже є головна метрика '{{metricName}}'. ",
-      "text2": "Включаючи цей свитч, ви підтверджуєте зміну головної метрики."
+      "text2": "Вмикаючи цей перемикач, ви підтверджуєте зміну головної метрики."
     },
     "edited_comment": "змінено",
     "deleted_comment": "Видалено",
     "confirm_delete_comment": "Цю дію неможливо скасувати",
     "created_task": "Створив задачу",
-    "correct_answer": "Вірна відповідь",
+    "correct_answer": "Правильна відповідь",
     "update_note_alert": "Хочете завжди бути в курсі оновлень та лайфхаків нашої платформи? Приєднуйтесь до нашого Telegram-каналу “Business Booster Platform” і будьте в центрі всіх подій! \uD83D\uDE0A",
     "google_calendar_reminder": "Нагадування: за {{time}} до початку",
-    "archive_task": "Завдання архівовано",
-    "un_archive_task": "Задача повернена з архіву",
-    "delete_topic": "Ви впевнені, що хочете видалити цілий розділ?",
+    "archive_task": "Задачу архівовано",
+    "un_archive_task": "Задачу повернено з архіву",
+    "delete_topic": "Ви впевнені, що бажаєте видалити цілий розділ?",
+    "delete_not_empty_topic": "У цьому розділі містяться вкладені підрозділи або документи. Щоб видалити цей розділ, спочатку видаліть усі вкладені елементи.",
     "delete_regulation": "Ви впевнені, що хочете видалити регламент?"
   },
   "caption": {
@@ -705,9 +715,9 @@
     "log": "Історія змін",
     "manual_method": "Ручний метод",
     "time_block": {
-      "not_repeat": "Не повторять",
-      "every_day": "Каждый день",
-      "every_week": "Каждую неделю"
+      "not_repeat": "Не повторювати",
+      "every_day": "Кожен день",
+      "every_week": "Кожен тиждень "
     }
   },
   "misc": {
@@ -733,12 +743,12 @@
   "hint": {
     "orgchart": "Оргструктура",
     "communications": "Задачі",
-    "recurringIssues": "Задачі, що повторюються",
+    "recurringIssues": "Повторювані задачі",
     "inviteEmployee": "Запросити співробітника в систему",
     "permissions": "Дозволи",
     "schedule": "Графік роботи",
     "dashboard": "Інформаційні панелі",
-    "multiaccount": "Мультіаккаунтність/мультиструктура",
+    "multiaccount": "Мультиакаунтність/мультиструктура",
     "decision": "Рішення",
     "message": "Повідомлення",
     "planning": "Планування",
@@ -752,7 +762,7 @@
     "studied_percent": "Відсоток вивченого"
   },
   "helper": {
-    "error_textfield": "Переконайтесь, що все введено вірно!"
+    "error_textfield": "Переконайтесь, що все введено правильно!"
   },
   "tooltip": {
     "edit": "Редагувати",
@@ -760,11 +770,11 @@
     "save": "Зберегти",
     "delete": "Видалити",
     "time_block": {
-      "free_time": "Вільний час — тут показується не розподілене робоче час і розраховується на основі робочого графіка, за мінусом загального запланованого на день часу на виконання завдань. Також дане поле виділяється кольором при перевищенні запланованого часу або неповній завантаженості робочого дня.",
-      "total_tasks": "Всього завдань — тут показується кількість виконаних завдань і загальна кількість запланованих завдань на день у форматі “2 / 5”.",
-      "plan_actual": "Факт / План — тут показується фактично затрачений час на виконання завдань і загальний плановий час запланованих завдань на день у форматі “1 год 30 хв / 7 год”."
+      "free_time": "Вільний час - тут відображається нерозподілений робочий час і розраховується на основі робочого графіка за вирахуванням загального запланованого на день часу на виконання задач. Також дане поле виділяється кольором при перевищенні запланованого часу або неповній завантаженості робочого дня.",
+      "total_tasks": "Всього задач - тут відображається кількість виконаних задач і загальна кількість запланованих задач на день у форматі “2/5”,",
+      "plan_actual": "Факт / План — тут відображається фактично затрачений час на виконання задач і загальний плановий час запланованих задач на день у форматі “1 год 30 хв / 7 год”."
     },
-    "add_to_topic": "Додати в розділ",
+    "add_to_topic": "Додати до розділу",
     "access_settings": "Налаштування доступу",
     "access_settings_without_topic": "Для налаштування доступу додайте регламент у розділ",
     "assign_study": "Призначити на вивчення",
@@ -784,19 +794,27 @@
     "publish_without_approval": "Опублікувати без схвалення"
   },
   "planning_indicator": {
-    "pending_approval": "Чекає на схвалення",
+    "pending_approval": "Очікує схвалення",
     "approved": "Схвалено",
     "rejected": "Відхилено"
   },
   "planning_table": {
-    "recurring_tasks": "Задачі, що повторюються",
+    "recurring_tasks": "Повторювані задачі",
     "weekly_tasks": "Задачі",
     "unscheduled_tasks": "Незаплановані задачі",
-    "fact": "Фактичний час",
-    "plan": "Плановий час",
+    "google_events": "Події Google Календаря",
+    "fact": "Факт",
+    "plan": "План",
     "start": "Початок",
     "deadline": "Дедлайн",
-    "status": "Статус"
+    "status": "Статус",
+    "date_time": "Дата і час",
+    "google_events_status": {
+      "Unfinished": "Заплановано",
+      "Finished":  "Завершено",
+      "Declined": "Відхилено"
+    },
+    "awaitedResult": "Очікуваний результат"
   },
   "metric_switch": {
     "day": "День",
@@ -807,13 +825,13 @@
   },
   "calendar": {
     "today": "Сьогодні",
-    "unallocated_tasks": "Нерозподілені завдання",
-    "total_tasks": "Загальна кількість завдань:",
+    "unallocated_tasks": "Нерозподілені задачі",
+    "total_tasks": "Загальна кількість задач:",
     "planned_time": "Планований час:"
   },
   "time_block": {
     "free_time": "Вільний час",
-    "total_tasks": "Всього завдань",
+    "total_tasks": "Всього задач",
     "plan_actual": "Факт / План"
   },
   "change_password": {
@@ -822,24 +840,24 @@
     "third_validation_rule": "Мінімум 1 спеціальний символ",
     "fourth_validation_rule": "Пароль відрізняється від старого",
     "validation_seccusess": "Надійний пароль",
-    "confirm_text": "Пароль був змінений.",
+    "confirm_text": "Пароль було змінено.",
     "popover_error": {
       "title": "Спробуйте ще раз або скористайтеся ",
       "link": "відновлення пароля"
     }
   },
   "google_calendar_banner": {
-    "text": "Ви можете підключити Google Календар до платформи BB.",
+    "text": "Ви можете підключити Google Calendar до платформи BB.",
     "text_connect": "Підключено",
     "link": "Підключити"
   },
   "google_account_disconnect_dialog": {
-    "title": " Відключити обліковий запис Google Календар",
-    "text": "Відключення призведе до припинення синхронізації між вашим календарем на платформі та Google Календарем. Ви більше не побачите всі ваші завдання з платформи в Google Календарі, а на платформі зникнуть зустрічі з календаря Google.",
-    "question": "Ви впевнені, що хочете відключити обліковий запис Google Календар?"
+    "title": "Відключити обліковий запис Google Calendar",
+    "text": "Відключення призведе до припинення синхронізації між вашим календарем на платформі та Google Calendar. Ви більше не побачите всі ваші задачі з платформи в Google Calendar, а на платформі зникнуть зустрічі з Google Calendar.",
+    "question": "Ви впевнені, що хочете відключити обліковий запис Google Calendar?"
   },
   "hidden_google_events_dialog": {
-    "text": "Ви впевнені, що хочете приховати події Google Календаря? Ця дія може вплинути на точність вашого розкладу."
+    "text": "Ви впевнені, що хочете приховати події Google Calendar? Ця дія може вплинути на точність вашого розкладу."
   },
   "google_calendar_settings_modal": {
     "title": "Налаштування календаря"
@@ -849,7 +867,7 @@
   },
   "card_issue_deadline_tooltip": {
     "title": "Виконавець не може змінювати дедлайн",
-    "text": "Щоб його змінити, зверніться до постановника завдання"
+    "text": "Щоб його змінити зверніться до постановника задачі"
   },
   "create_tag_dialog": {
     "title": "Створити новий тег",
@@ -879,8 +897,8 @@
   },
   "regulation_actions": {
     "submit_for_approval": {
-      "title": "Надіслати на схвалення",
-      "text": "Схвалення регламенту дозволяє його публікувати для всіх"
+      "title": "Надіслати на затвердження",
+      "text": "Затвердження регламенту дозволяє його публікацію для всіх"
     },
     "publish": {
       "title": "Опублікувати",
@@ -892,12 +910,12 @@
     },
     "study_assignment": {
       "title": "Призначення на вивчення",
-      "text": "Документ буде надіслано всім на вивчення",
+      "text": "Регламент буде відправлено всім на вивчення",
       "textSection": "Розділ буде надіслано всім на вивчення."
     },
     "access_to_regulations": {
       "title": "Доступ до регламенту",
-      "text": "Налаштування дозволяє обмежувати або надавати повні права до документа"
+      "text": "Налаштування дозволяє обмежувати або надавати повні права на документ"
     },
     "access_to_sections": {
       "title": "Доступ до розділу",
@@ -905,17 +923,16 @@
     },
     "remove_from_section": {
       "title": "Видалити з розділу",
-      "text": "Цей документ буде переміщено в розділ «Без розділу»",
+      "text": "Документ буде переміщено в розділ «Без розділу»",
       "textSection": "Цей розділ буде переміщено в розділ «Без розділу»"
     },
     "copy_link": {
       "title": "Скопіювати посилання",
-      "text": "Цей документ буде доступний всім, хто має доступ",
-      "textSection": "Цей розділ буде доступний всім, хто має доступ"
+      "text": "Цей документ буде доступний всім хто має доступ"
     },
     "added_to_section": {
-      "title": "Додати в розділ",
-      "text": "Ви можете додати цей регламент до вже існуючого розділу або відв'язати від поточного"
+      "title": "Додати до розділу",
+      "text": "Ви можете додати цей регламент до існуючого розділу або відокремити його від поточного"
     },
     "delete": {
       "title": "Видалити",
@@ -969,6 +986,11 @@
   "confirm_dialog_remove_issue_from_plan": {
     "title": "Ви впевнені, що хочете прибрати завдання \"{{title}}\" з плану?"
   },
+  "planingGrouping": {
+    "roles": "За функціями",
+    "tags": "За тегами",
+    "no_grouping": "Без групування"
+  },
   "issueActions": {
     "add_related_task": "Додати пов’язане завдання"
   },
@@ -992,5 +1014,447 @@
     "Demo": "Демо",
     "PlatinumResident": "Платиновий резидент",
     "Custom": "Індивідуальні умови"
+  },
+  "placeholder_technical": {
+    "title": "Проводяться технічні роботи",
+    "text": "Просимо вибачення за тимчасові незручності"
+  },
+  "issue_activity": {
+    "Name": "Назва",
+    "ExecutorUserId": "Виконавець",
+    "InitiatorUserId": "Постановник",
+    "Description": "Опис",
+    "TimeFact": "Фактичний час",
+    "TimePlan": "Плановий час",
+    "ProofReqComment": "Опис доказу",
+    "IsManagerApprovalRequired": "Потребує затвердження постановника",
+    "TimeFactForApproval": "Фактичний час затвердження",
+    "TimePlanForApproval": "Плановий час затвердження",
+    "AwaitedResult": "Очікуваний результат",
+    "Observers": "Спостерігачі",
+    "DateWorkStart": "Дата початку",
+    "DateDeadline": "Дедлайн",
+    "boolean": {
+      "True": "Увімкнено",
+      "False": "Вимкнено"
+    },
+    "Tags": "Теги",
+    "IsStrictDeadline": "Виконавець не може змінювати дедлайн",
+    "RoleId": "Роль",
+    "Text": "Коментар",
+    "StatusId": "Статус",
+    "Priority": "Пріоритет",
+    "Files": "Вкладення",
+    "OrgchartId": "Оргструктура",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Вхідні",
+            "rejected": "Відхилено",
+            "accepted": "Прийнято",
+            "in_work": "В роботі",
+            "approval": "На затвердженні",
+            "not_approved": "Не затверджено",
+            "done": "Готово"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "Компанії",
+    "orgchart": "Оргструктура",
+    "schedule": "Графік роботи",
+    "communication": "Задачі",
+    "regulation": "База знань",
+    "dashboard": "Дашборди",
+    "report": "Звіти",
+    "report_communication": "За задачами",
+    "employee": "Співробітники",
+    "edu": "Навчання",
+    "settings": "Налаштування",
+    "bot_activate": "Активувати «BB Bot»",
+    "help_chat": "Чат підтримки"
+  },
+  "modules": {
+    "orgchart": "Оргструктура",
+    "tasks": "Задачі",
+    "reports": "Звіти",
+    "schedule": "Графік роботи",
+    "employees": "Співробітники",
+    "education": "Навчання",
+    "knowledge_base": "База знань",
+    "dashboards": "Дашборди",
+    "planning": "Планування",
+    "calendar_planning": "Календарне планування"
+  },
+  "settings": {
+    "common": "Загальні",
+    "company": "Компанія",
+    "modules": "Модулі",
+    "user": "Профіль"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "Створено з повторюваної задачі",
+      "accept": "Прийняв",
+      "act": {
+        "from_recurring": "Створено з повторюваної задачі"
+      },
+      "withdrawn": "Задачу відкликано",
+      "complete": "Виконано",
+      "rj": "Задачу відхилено",
+      "r": {
+        "t": "Продукт отримано",
+        "f": "Продукт не отримано"
+      },
+      "m": {
+        "u": {
+          "r": "Задачу перепризначено після видалення співробітника"
+        }
+      },
+      "creator-updated": "Відправника змінено",
+      "executor-updated": "Переміщено на перевірку",
+      "send-again": "Відправлено повторно",
+      "do-by-myself": "Робитиму самостійно",
+      "accepted": "Прийняв",
+      "completed": "Виконав",
+      "send-for-review": "Відправив на затвердження",
+      "approve": "Затверджено",
+      "not-approve": "Відхилено",
+      "in-work": "В роботу",
+      "logs": {
+        "name": "Назва",
+        "description": "Опис",
+        "attachment": "Вкладення",
+        "participant": "Спостерігачі",
+        "awaited": {
+          "result": "Продукт"
+        },
+        "role": {
+          "id": "Функція"
+        },
+        "date": {
+          "work": {
+            "start": "Дата початку"
+          },
+          "deadline": "Дедлайн"
+        },
+        "time": {
+          "plan": "План",
+          "fact": "Факт"
+        },
+        "is": {
+          "strict": {
+            "deadline": "Виконавець не може змінювати дедлайн"
+          },
+          "manager": {
+            "review": {
+              "required": "Потребує затвердження постановника"
+            }
+          }
+        },
+        "orgchart": {
+          "id": "Оргструктура"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "Постановник"
+            }
+          }
+        },
+        "executor": {
+          "id": "Виконавець"
+        },
+        "proof": {
+          "requirement": {
+            "title": "Доказ",
+            "text": "Опис доказу"
+          }
+        },
+        "priority": "Пріоритет"
+      }
+    },
+    "actions": {
+      "accept": "Прийняти",
+      "in-work": "В роботу",
+      "send-for-review": "Відправити на затвердження",
+      "approve": "Затвердити",
+      "not-approve": "Відхилити",
+      "rj": "Відхилити",
+      "complete": "Завершити",
+      "copy": "Дублювати",
+      "delete": "Видалити",
+      "archive": "Архівувати",
+      "un-archive": "Розархівувати",
+      "send-again": "Відправити повторно",
+      "do-by-myself": "Робитиму самостійно"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "Виконано без доказів"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "Вхідні",
+          "rejected": "Відхилено",
+          "accepted": "Прийняті",
+          "in_work": "В роботі",
+          "approval": "На затвердженні",
+          "not_approved": "Потребує доопрацювання",
+          "done": "Готово"
+        }
+      }
+    },
+    "approval": "На затвердженні",
+    "done": "Готово",
+    "pending": "Вхідні",
+    "in_work": "В роботі",
+    "new_issues": "Нові разові задачі",
+    "new_issues_from_recurring": "Нові повторювані задачі",
+    "dis": "Прострочено",
+    "na24": "Не прийнято більше 24 годин",
+    "n72": "Не затверджено більше 72 годин",
+    "nm48": "Не взято в роботу більше 48 годин",
+    "hm3":  "Повідомлення без відповіді більше 3 годин",
+    "issue": {
+      "hint": {
+        "has_message": "Непрочитаний коментар"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "Потребує затвердження",
+    "OnApproval": "На затвердженні",
+    "NotApproved": "Потребує доопрацювання",
+    "Rejected": "Відхилено виконавцем",
+    "Approved": "Затверджено",
+    "Recurring":"Повторювана задача",
+    "Done": "Виконано",
+    "Expired": "Прострочено"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "Оргструктура"
+      },
+      "o": {
+        "f": "Функція"
+      },
+      "recurring_issue": {
+        "title": "Повторювані задачі"
+      },
+      "user": {
+        "title": "Співробітники",
+        "invite": "Запрошення"
+      },
+      "company": {
+        "title": "Компанія",
+        "edit": "Редагування",
+        "employees": "Співробітники",
+        "notifications": "Сповіщення"
+      },
+      "report": {
+        "title": "Звіти"
+      },
+      "user_schedule": {
+        "title": "Графік роботи",
+        "view": "Перегляд",
+        "edit": "Редагування"
+      },
+      "Regulations": {
+        "title": "Регламенти"
+      },
+      "knowledge_base_permission": {
+        "title": "База знань"
+      },
+      "function": {
+        "title": "Функція"
+      },
+      "education": {
+        "title": "Навчання"
+      },
+      "issue": {
+        "title": "Задача"
+      }
+    },
+    "o": {
+      "a": "Створення",
+      "e": "Редагування",
+      "d": "Видалення",
+      "s": "Сортування",
+      "va": "Перегляд усіх оргструктур"
+    },
+    "orgchart": {
+      "role": {
+        "add": "Створення",
+        "edit": "Редагування",
+        "sort": "Сортування",
+        "move": "Переміщення",
+        "delete": "Видалення",
+        "users_edit": "Управління співробітниками",
+        "permissions_edit": "Управління дозволами"
+      }
+    },
+    "recurring_issue": {
+      "add": "Створення",
+      "edit": "Редагування",
+      "delete": "Видалення",
+      "pause_manage": "Управління паузою",
+      "view_history": "Перегляд історії"
+    },
+    "user": {
+      "show_phone_number": "Перегляд номера телефону",
+      "edit": "Редагування",
+      "delete": "Видалення",
+      "company_invite.add": "Створення",
+      "company_invite.delete": "Видалення"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "Назва та опис",
+        "timezone": "Часовий пояс",
+        "schedule": "Графік роботи",
+        "mi": "Інтервали метрик"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "Управління правами на повторну відправку регламенту"
+      },
+      "notifications": {
+        "manage_violations_notifications": "Управління сповіщеннями про порушення"
+      }
+    },
+    "r": {
+      "cm": "За задачами"
+    },
+    "s": {
+      "v": {
+        "a": "Усі функції",
+        "c": "Підпорядковані функції",
+        "p": "Функції керівників"
+      },
+      "u": {
+        "a": "Усі функції",
+        "o": "Власні функції",
+        "c": "Підпорядковані функції"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "Публікація без затвердження"
+      }
+    },
+    "full_access": "Повний доступ",
+    "education": {
+      "owner_course_access": "Доступ до курсу власника"
+    },
+    "issue": {
+      "view_all_issues": "Переглядати задачі всіх користувачів",
+      "self_appoval_of_plan": "Самостійне затвердження тижневого плану"
+    }
+  },
+  "orgchart_template": {
+    "c_universal":  "Універсальна",
+    "c_retail_store_chain": "Мережа роздрібних магазинів",
+    "c_manufacturing":  "Виробництво",
+    "c_wholesale_company": "Оптова компанія",
+    "c_development_large_construction": "Будівництво великих об'єктів",
+    "c_development_beauty_and_dentistry_network": "Мережа салонів краси/стоматологій",
+    "c_development_medical_clinic": "Клініка",
+    "c_development_construction_and_repair": "Будівельно-ремонтна",
+    "c_development_real_estate_agency": "Агентство нерухомості",
+    "s_furniture_manufacturing": "Виробництво меблів",
+    "s_training_center": "Навчальний центр / Школа",
+    "s_clothing_store": "Магазин одягу",
+    "s_construction": "Будівництво",
+    "s_online_store": "Інтернет-магазин",
+    "s_dentistry": "Стоматологія",
+    "s_real_estate_agency": "Агентство нерухомості",
+    "s_wholesale_trade": "Оптова торгівля"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} коментує задачу",
+      "IssueApprovalFail": "{{senderName}} повернув(-ла) задачу на доопрацювання",
+      "IssueApprovalSuccess": "{{senderName}} затвердив(-ла) задачу",
+      "IssueItsTimeToWork": "Час розпочати роботу над задачею!",
+      "IssueNewComment": "{{senderName}} згадує вас",
+      "IssueRejected": "{{senderName}} відхилив(-ла) задачу",
+      "IssueStatusUpdate": "{{senderName}} змінив(-ла) статус задачі",
+      "IssueMovedToOnApproval": "{{senderName}} направив(-ла) вам задачу на затвердження",
+      "DeadlineIsExpiredIssueViolation": "Прострочено",
+      "RegulationAdded": "{{senderName}} призначив новий регламент на вивчення",
+      "RegulationChanged": "{{senderName}} змінив регламент",
+      "RegulationMovedToOnApproval": "{{senderName}} направив вам регламент на затвердження",
+      "RegulationNewMessage": "{{senderName}}. додав новий коментар у регламенті",
+      "SectionAdded": "З’явився новий розділ",
+      "SectionUpdated": "Розділ оновлено",
+      "IssueAdded_Observable": "{{senderName}} додав(-ла) вас як Спостерігача",
+      "IssueAdded_RequiresAction": "{{senderName}} призначив(-ла) вам задачу"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Вхідні",
+            "rejected": "Відхилено",
+            "accepted": "Прийнято",
+            "in_work": "В роботі",
+            "approval": "На затвердженні",
+            "not_approved": "Відхилено",
+            "done": "Готово"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "Вих.",
+    "type3": "Відпустка",
+    "type4": "Лікарн."
+  },
+  "plan_status": {
+    "type1": "В очікуванні",
+    "type2": "Очікує затвердження",
+    "type3": "Затверджено",
+    "type4": "Відхилено"
+  },
+  "end_access_time_dialog": {
+    "title": "Демо-доступ до Business Booster Platform закінчився {{date}}",
+    "text": "Щоб продовжити використання, будь ласка, перейдіть на платний тариф.\n Перехід на тариф забезпечить вам доступ до всіх модулів, а також збереже всі дані, введені під час використання демо-версії.",
+    "button": "Ознайомитись з тарифами"
+  },
+  "end_access_time_count": {
+    "title": "До закінчення доступу:",
+    "day": "день",
+    "day1": "дні",
+    "day2": "днів",
+    "hours": "година",
+    "hours1": "години",
+    "hours2": "годин",
+    "minute": "хвилина",
+    "minute1": "хвилини",
+    "minute2": "хвилин",
+    "second": "секунда",
+    "second1": "секунди",
+    "second2": "секунд"
+  },
+  "end_access_time_resident_dialog": {
+    "text": {
+      "first": "У межах акселератора Business Booster ви мали можливість безкоштовно користуватися Business Booster Platform. У зв’язку із завершенням навчання* для продовження доступу до платформи вам необхідно перейти на платне використання Business Booster Platform до {{date}}**.",
+      "second": "Вартість становить $4 на місяць за кожного доданого на платформу співробітника.",
+      "third": "Оплату можна здійснити банківською карткою безпосередньо на платформі, натиснувши кнопку \"Продовжити доступ\"."
+    },
+    "text_access_time": {
+      "first": "На жаль, ви не продовжили доступ до Business Booster Platform, тому ми були змушені обмежити доступ до модуля \"Співробітники\", водночас усі раніше введені дані збережені.",
+      "second": "Щоб відновити використання платформи, вам необхідно перейти на платний тариф."
+    },
+    "button": "Переглянути тарифи",
+    "support_chat_text": "або звернутися до чату підтримки для виставлення рахунку:",
+    "ps": "* якщо інформація про завершення навчання є некоректною - приносимо свої вибачення і просимо обов’язково написати нам у чат підтримки.\n** У разі відсутності оплати або звернення до служби підтримки до {{date}} доступ до платформи буде обмежений до модуля \"Співробітники\"."
   }
 }

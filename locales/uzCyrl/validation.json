@@ -1,0 +1,29 @@
+{
+  "field_required": "Бу майдон мажбурий,",
+  "wrong_email": "E-mail нотўғри киритилмаганлигига ишонч ҳосил қилинг,",
+  "min_char_number": "Минтақадаги минимал белгилар сони: {{number}},",
+  "min_file_number": "Минтақадаги минимал файллар сони: {{number}},",
+  "min_char": "Минимум {{ number }} белгилар,",
+  "issue_complete_dialog_description": "Формат: {{format}}, {{value}}: {{number}},",
+  "issue_complete_dialog_validate": {
+    "common_error": "Натижани ёзинг ёки файлни қўшинг,",
+    "time_error": "Илтимос, вазифани бажариш вақтини кўрсатинг,"
+  },
+  "passwords_should_match": "Пароллар мос келмайди!,",
+  "passwords_new_should_match": "Янги пароллар мос келмайди,",
+  "ate_later_deadline": "Сана дедлайндан ошиб кетди,",
+  "deadline_required": "Муддатни белгиланг,",
+  "enter_regulation_name": "Регламент номини киритинг!,",
+  "no_name_question": "Илтимос, барча саволлар учун ном киритинг!,",
+  "no_name_answer": "Илтимос, барча жавоблар учун ном киритинг!,",
+  "no_rights_answer": "Ҳар бир савол учун камида 1 тўғри жавоб бўлиши керак,",
+  "no_answers": "Ҳар бир савол учун камида 2 жавоб бўлиши керак,",
+  "select_approver": "Илтимос, тасдиқловчини танланг!,",
+  "policy_content_is_empty": "Регламент бўш бўлиши мумкин эмас!,",
+  "invalid_code": "Нотўғри код,",
+  "executor_deadline": "Бошланиш санаси ёки дедлайн ўтган бўлиши мумкин эмас,",
+  "executor_deadline_in_past": "Дедлайн санаси нотўғри.,",
+  "passwords_must_not_same": "Жорий парол ва янги парол бир хил бўлмаслиги керак,",
+  "invalid_current_password": "Нотўғри парол",
+  "tag_name": "Бу номда тег аллақачон мавжуд"
+}

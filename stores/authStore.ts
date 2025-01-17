@@ -124,7 +124,13 @@ export default class AuthStore {
         initialInfo.orgcharts.unshift(currentOrgchart);
       }
     }
-    this.initialInfo = initialInfo;
+    this.initialInfo = {
+      ...initialInfo,
+      settingsTabs: (initialInfo?.settingsTabs ?? []).map((tab) => ({
+        ...tab,
+        name: `ui:${tab.key}`,
+      }))
+    };
     localStorageHelpers.set(this.lsKeys.initialInfo, initialInfo);
     rootStore.boardStore.setBoardId(initialInfo?.boards?.[0]?.id ?? null);
     rootStore.boardStore.fetchBoard(initialInfo?.boards?.[0]?.id ?? null);

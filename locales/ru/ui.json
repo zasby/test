@@ -1,6 +1,7 @@
 {
   "placeholder": {
     "enter": "Введите",
+    "awaited_result": "Введите Ожидаемый результат",
     "email": "user@example.com",
     "password": "п@р0ль",
     "invite_code": "1A2B3C4D",
@@ -97,7 +98,8 @@
       "organizer": "",
       "reminder": ""
     },
-    "empty": "Пусто"
+    "empty": "Пусто",
+    "new_employee": "Новый сотрудник #{{id}}"
   },
   "subheader": {
     "email": "E-mail",
@@ -235,6 +237,7 @@
     "metric_switch": "Перевернутая",
     "table_row": "Строки",
     "violation_notification_switches": "Уведомления о нарушениях в задачах",
+    "order_displaying_full_name": "Порядок отображения ФИО",
     "requirements_switches": "Требования",
     "issue_complete_dialog_format": {
       "text": "текст",
@@ -429,7 +432,8 @@
     "left": "Налево",
     "right": "Направо",
     "create_section": "Создать раздел",
-    "extend_access": "Продлить доступ"
+    "extend_access": "Продлить доступ",
+    "duplicate": "Дублировать"
   },
   "label": {
     "added_to_topic": "Добавлено в раздел",
@@ -615,6 +619,7 @@
     "delete_dashboard": "Удаление дашборда",
     "metric_settings": "Настройки графика",
     "confirm_deletion": "Подтвердите удаление",
+    "delete_not_empty": "Невозможно удалить раздел",
     "edit_metric_to_dashboard": "Введите данные",
     "create_solution": "Создать решение",
     "releases": "Заметки обновлений",
@@ -664,7 +669,10 @@
     "current_company": "Это текущая компания",
     "company_owner": "Владелец компании",
     "employees_amount": "Сотрудников",
+    "employees_full_amount": "Сотрудников с полным доступом",
+    "employees_full_restricted": "Сотрудников с ограниченным доступом",
     "company_not_registered": "Компания ещё не зарегистрирована",
+    "external_id": "Внешний ID",
     "invite_code": "Код приглашения",
     "deadline": "Срок",
     "date_created": "Дата создания",
@@ -688,7 +696,7 @@
       "text1": "На этой функции уже есть главная метрика '{{metricName}}'. ",
       "text2": "Включая этот свитч, вы подтверждаете замену главной метрики."
     },
-    "edited_comment": "изменено",
+    "edited_comment": "Изменено",
     "deleted_comment": "Удалено",
     "confirm_delete_comment": "Это действие невозможно отменить",
     "created_task": "Создал задачу",
@@ -698,6 +706,8 @@
     "un_archive_task": "Задача возвращена из архива",
     "google_calendar_reminder": "Напоминание: за {{time}} до начала",
     "delete_topic": "Вы уверены, что хотите удалить целый раздел?",
+    "delete_not_empty_topic": "В данном разделе содержатся вложенные подразделы или документы. Для удаления этого раздела удалите сначала все вложенные элементы.",
+
     "delete_regulation": "Вы уверены, что хотите удалить регламент?"
 
   },
@@ -809,11 +819,19 @@
     "recurring_tasks": "Повторяющиеся задачи",
     "weekly_tasks": "Задачи",
     "unscheduled_tasks": "Незапланированные задачи",
+    "google_events": "События Google Calendar",
     "fact": "Факт. время",
     "plan": "План. время",
     "start": "Начало",
     "deadline": "Дедлайн",
-    "status": "Статус"
+    "status": "Статус",
+    "date_time": "Дата и время",
+    "google_events_status": {
+      "Unfinished": "Запланировано",
+      "Finished":  "Завершено",
+      "Declined": "Отклонено"
+    },
+    "awaitedResult": "Ожидаемый результат"
   },
   "metric_switch": {
     "day": "День",
@@ -1014,6 +1032,448 @@
     "Vip": "VIP",
     "Demo": "Демо",
     "PlatinumResident": "Платиновый резидент",
-    "Custom": "Индивидуальные услови"
+    "Custom": "Индивидуальные условия"
+  },
+  "placeholder_technical": {
+    "title": "Ведутся технические работы",
+    "text": "Просим извинения за временные неудобства"
+  },
+  "issue_activity": {
+    "Name": "Название",
+    "ExecutorUserId": "Исполнитель",
+    "InitiatorUserId": "Постановщик",
+    "Description": "Описание",
+    "TimeFact": "Факт",
+    "TimePlan": "План",
+    "ProofReqComment": "Описание доказательства",
+    "IsManagerApprovalRequired": "Требует одобрения постановщика",
+    "TimeFactForApproval": "Факт одобрения",
+    "TimePlanForApproval": "План одобрения",
+    "AwaitedResult": "Ожидаемый результат",
+    "Observers": "Наблюдатели",
+    "DateWorkStart": "Дата начала",
+    "DateDeadline": "Дедлайн",
+    "boolean": {
+      "True": "Включено",
+      "False": "Выключено"
+    },
+    "Tags": "Теги",
+    "IsStrictDeadline": "Исполнитель не может менять дедлайн",
+    "RoleId": "Функция",
+    "Text": "Комментарий",
+    "StatusId": "Статус",
+    "Priority": "Приоритет",
+    "Files": "Вложение",
+    "OrgchartId": "Оргструктура",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Входящие",
+            "rejected": "Отклонено",
+            "accepted": "Принято",
+            "in_work": "В работе",
+            "approval": "На одобрении",
+            "not_approved": "Отклонено",
+            "done": "Готово"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "Компании",
+    "orgchart": "Оргструктура",
+    "schedule": "График работы",
+    "communication": "Задачи",
+    "regulation": "База знаний",
+    "dashboard": "Дашборды",
+    "report": "Отчёты",
+    "report_communication": "По задачам",
+    "employee": "Сотрудники",
+    "edu": "Обучение",
+    "settings": "Настройки",
+    "bot_activate": "Активировать «BB Bot»",
+    "help_chat": "Чат поддержки"
+  },
+  "modules": {
+    "OrganizationalStructure": "Оргструктура",
+    "Communications": "Задачи",
+    "ReportsAnalytics": "Отчёты",
+    "EmployeeSchedules": "График работы",
+    "EmployeeManagement": "Сотрудники",
+    "TrainingDevelopment": "Обучение",
+    "KnowledgeBase": "База знаний",
+    "DashboardsVisualization": "Дашборды",
+    "PlanningForecasting": "Планирование",
+    "CalendarTasksPlanning": "Календарное планирование"
+  },
+  "settings": {
+    "common": "Общие",
+    "company": "Компания",
+    "modules": "Модули",
+    "user": "Профиль"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "Создано из повторяющейся задачи",
+      "accept": "Принял",
+      "act": {
+        "from_recurring": "Создано из повторяющейся задачи"
+      },
+      "withdrawn": "Задача отозвана",
+      "rj": "Задача отклонена",
+      "complete": "Выполнил",
+      "r": {
+        "t": "Продукт получен",
+        "f": "Продукт не получен"
+      },
+      "m": {
+        "u": {
+          "r": "Задача переназначена после удаления сотрудника"
+        }
+      },
+      "creator-updated": "Отправитель изменён",
+      "executor-updated": "Перемещено на проверку",
+      "send-again": "Отправлено повторно",
+      "do-by-myself": "Буду делать сам",
+      "accepted": "Принял",
+      "completed": "Выполнил",
+      "send-for-review": "Отправил на одобрение",
+      "approve": "Одобрено",
+      "not-approve": "Отклонено",
+      "in-work": "В работу",
+      "logs": {
+        "name": "Название",
+        "description": "Описание",
+        "attachment": "Вложение",
+        "participant": "Наблюдатели",
+        "awaited": {
+          "result": "Продукт"
+        },
+        "role": {
+          "id": "Функция"
+        },
+        "date": {
+          "work": {
+            "start": "Дата начала"
+          },
+          "deadline": "Дедлайн"
+        },
+        "time": {
+          "plan": "План",
+          "fact": "Факт"
+        },
+        "is": {
+          "strict": {
+            "deadline": "Исполнитель не может менять дедлайн"
+          },
+          "manager": {
+            "review": {
+              "required": "Требует одобрения постановщика"
+            }
+          }
+        },
+        "orgchart": {
+          "id": "Оргструктура"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "Постановщик"
+            }
+          }
+        },
+        "executor": {
+          "id": "Исполнитель"
+        },
+        "proof": {
+          "requirement": {
+            "title": "Доказательство",
+            "text": "Описание доказательства"
+          }
+        },
+        "priority": "Приоритет"
+      }
+    },
+    "actions": {
+      "accept": "Принять",
+      "in-work": "В работу",
+      "send-for-review": "Отправить на одобрение",
+      "approve": "Одобрить",
+      "not-approve": "Отклонить",
+      "rj": "Отклонить",
+      "complete": "Завершить",
+      "copy": "Дублировать",
+      "delete": "Удалить",
+      "archive": "Архивировать",
+      "un-archive": "Разархивировать",
+      "send-again": "Отправить повторно",
+      "do-by-myself": "Буду делать сам"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "Выполнено без доказательств"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "Входящие",
+          "rejected": "Отклонено",
+          "accepted": "Принято",
+          "in_work": "В работе",
+          "approval": "Отправить на одобрение",
+          "not_approved": "Требуется доработка",
+          "done": "Готово"
+        }
+      }
+    },
+    "approval": "На одобрении",
+    "done": "Готово",
+    "pending": "Входящие",
+    "in_work": "В работе",
+    "new_issues": "Новые разовые задачи",
+    "new_issues_from_recurring": "Новые повторяющиеся задачи",
+    "dis": "Просрочено",
+    "na24": "Не принята более 24 часов",
+    "n72": "Не одобрена более 72 часов",
+    "nm48": "Не взята в работу более 48 часов",
+    "hm3":  "Сообщение без ответа более 3 часов",
+    "issue": {
+      "hint": {
+        "has_message": "Непрочитанный комментарий"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "Требуется одобрение",
+    "OnApproval": "На одобрении",
+    "NotApproved": "Требуется доработка",
+    "Rejected": "Отклонена исполнителем",
+    "Approved": "Одобрена",
+    "Recurring":"Повторяющаяся задача",
+    "Done": "Выполнено",
+    "Expired": "Просрочено"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "Оргструктура"
+      },
+      "o": {
+        "f": "Функция"
+      },
+      "recurring_issue": {
+        "title": "Повторяющиеся задачи"
+      },
+      "user": {
+        "title": "Сотрудники",
+        "invite": "Приглашения"
+      },
+      "company": {
+        "title": "Компания",
+        "edit": "Редактирование",
+        "employees": "Сотрудники",
+        "notifications": "Уведомления"
+      },
+      "report": {
+        "title": "Отчёты"
+      },
+      "user_schedule": {
+        "title": "График работы",
+        "view": "Просмотр",
+        "edit": "Редактирование"
+      },
+      "Regulations": {
+        "title": "Регламенты"
+      },
+      "knowledge_base_permission": {
+        "title": "База знаний"
+      },
+      "function": {
+        "title": "Функция"
+      },
+      "education": {
+        "title": "Обучение"
+      },
+      "issue": {
+        "title": "Задачи"
+      }
+    },
+    "o": {
+      "a": "Создание",
+      "e": "Редактирование",
+      "d": "Удаление",
+      "s": "Сортировка",
+      "va": "Просмотр всех оргструктур"
+    },
+    "orgchart": {
+      "role": {
+        "add": "Создание",
+        "edit": "Редактирование",
+        "sort": "Сортировка",
+        "move": "Перемещение",
+        "delete": "Удаление",
+        "users_edit": "Управление сотрудниками",
+        "permissions_edit": "Управление разрешениями"
+      }
+    },
+    "recurring_issue": {
+      "add": "Создание",
+      "edit": "Редактирование",
+      "delete": "Удаление",
+      "pause_manage": "Управление паузой",
+      "view_history": "Просмотр истории"
+    },
+    "user": {
+      "show_phone_number": "Просмотр номера телефона",
+      "edit": "Редактирование",
+      "delete": "Удаление",
+      "company_invite.add": "Создание",
+      "company_invite.delete": "Удаление"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "Название и описание",
+        "timezone": "Часовой пояс",
+        "schedule": "График работы",
+        "mi": "Интервалы метрик"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "Управление правами на повторную отправку регламента"
+      },
+      "notifications": {
+        "manage_violations_notifications": "Управление уведомлениями о нарушениях"
+      }
+    },
+    "r": {
+      "cm": "По задачам"
+    },
+    "s": {
+      "v": {
+        "a": "Все функции",
+        "c": "Подчинённые функции",
+        "p": "Функции руководителей"
+      },
+      "u": {
+        "a": "Все функции",
+        "o": "Собственные функции",
+        "c": "Подчинённые функции"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "Публикация без одобрения"
+      }
+    },
+    "full_access": "Полный доступ",
+    "education": {
+      "owner_course_access": "Доступ к курсу владельца"
+    },
+    "issue": {
+      "view_all_issues": "Просматривать задачи всех пользователей",
+      "self_appoval_of_plan": "Самостоятельное одобрение недельного плана"
+    }
+  },
+  "orgchart_template": {
+    "c_universal":  "Универсальная",
+    "c_retail_store_chain": "Сеть розничных магазинов",
+    "c_manufacturing":  "Производство",
+    "c_wholesale_company": "Оптовая компания",
+    "c_development_large_construction": "Строительство крупных объектов",
+    "c_development_beauty_and_dentistry_network": "Сеть салонов красоты/стоматологий",
+    "c_development_medical_clinic": "Клиника",
+    "c_development_construction_and_repair": "Строительно-ремонтная",
+    "c_development_real_estate_agency": "Агентство недвижимости",
+    "s_furniture_manufacturing": "Производство мебели",
+    "s_training_center": "бучающий центр / Школа",
+    "s_clothing_store": "Магазин одежды",
+    "s_construction": "Строительство",
+    "s_online_store": "Интернет-магазин",
+    "s_dentistry": "Стоматология",
+    "s_real_estate_agency": "Агентство недвижимости",
+    "s_wholesale_trade": "Оптовая торговля"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} комментирует задачу",
+      "IssueApprovalFail": "{{senderName}} вернул(-а) задачу на доработку",
+      "IssueApprovalSuccess": "{{senderName}} одобрил(-а) задачу",
+      "IssueItsTimeToWork": "Пора начать работу над задачей!",
+      "IssueNewComment": "{{senderName}} упоминает вас",
+      "IssueRejected": "{{senderName}} отклонил(-а) задачу",
+      "IssueStatusUpdate": "{{senderName}} изменил(-а) статус задачи",
+      "IssueMovedToOnApproval": "{{senderName}} направил(-а) вам задачу на одобрение",
+      "DeadlineIsExpiredIssueViolation": "Просрочено",
+      "RegulationAdded": "{{senderName}} назначил новый регламент на изучение",
+      "RegulationChanged": "{{senderName}} изменил регламент",
+      "RegulationMovedToOnApproval": "{{senderName}} направил вам регламент на одобрение",
+      "RegulationNewMessage": "{{senderName}}. добавил новый комментарий в регламенте",
+      "SectionAdded": "Появился новый раздел",
+      "SectionUpdated": "Раздел обновлен",
+      "IssueAdded_Observable": "{{senderName}} добавил(-а) вас Наблюдателем",
+      "IssueAdded_RequiresAction": "{{senderName}} назначил(-а) на вас задачу"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Входящие",
+            "rejected": "Отклонено",
+            "accepted": "Принято",
+            "in_work": "В работе",
+            "approval": "На одобрении",
+            "not_approved": "Отклонено",
+            "done": "Готово"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "Вых.",
+    "type3": "Отпуск",
+    "type4": "Больн."
+  },
+  "plan_status": {
+    "type1": "В ожидании",
+    "type2": "Ожидает одобрения",
+    "type3": "Одобрен",
+    "type4": "Отклонён"
+  },
+  "end_access_time_dialog": {
+    "title": "Демо-доступ к Business Booster Platform закончился {{date}}",
+    "text": "Чтобы продолжить использование, пожалуйста, перейдите на платный тариф.\n Переход на тариф обеспечит вам доступ ко всем модулям, а также сохранит все данные, введенные во время использования демо-версии.",
+    "button": "Ознакомиться с тарифами"
+  },
+  "end_access_time_count": {
+    "title": "До окончания доступа:",
+    "day": "день",
+    "day1": "дня",
+    "day2": "дней",
+    "hours": "час",
+    "hours1": "часа",
+    "hours2": "часов",
+    "minute": "минута",
+    "minute1": "минуты",
+    "minute2": "минут",
+    "second": "секунда",
+    "second1": "секунды",
+    "second2": "секунд"
+  },
+  "end_access_time_resident_dialog": {
+    "text": {
+      "first": "В рамках акселератора Business Booster у вас была возможность бесплатно использовать Business Booster Platform. В связи с завершением обучения* для продления доступа к платформе, Вам необходимо перейти на платное использование Business Booster Platform до {{date}}**.",
+      "second": "Стоимость составляет $4 в месяц за каждого добавленного на платформу сотрудника.",
+      "third": "Оплату можно произвести банковской картой через саму платформу, нажав на кнопку \"Продлить доступ\""
+    },
+    "text_access_time": {
+      "first": "К сожалению, Вы не продлили доступ к Business Booster Platform, поэтому мы вынуждены были ограничить доступ до модуля “Сотрудники”, при этом все ранее заведенные на платформу данные сохранены.",
+      "second": "Для возобновления использования платформы Вам необходимо перейти на платный тариф."
+    },
+    "button": "Ознакомиться с тарифами",
+    "support_chat_text": "или обратиться в чат поддержки для выставления счета:",
+    "ps": "* если информация по завершению обучения некорректна - приносим свои извинения и просим обязательно написать нам в чат поддержки. \n** В случае отсутствия оплаты или обращения в службу поддержки до {{date}} доступ к платформе будет ограничен до модуля “Сотрудники”"
   }
 }

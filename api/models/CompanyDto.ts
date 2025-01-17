@@ -13,6 +13,8 @@ import type { StaticFileDto } from './StaticFileDto';
 import type { UserShortDto } from './UserShortDto';
 import { CompanyUserLimitDto } from "./CompanyUserLimitDto";
 import { UsersCount } from "./CompanyForAdminDto";
+import { NameDisplayOrderEnum } from "./NameDisplayOrderEnum";
+
 
 export type CompanyDto = {
     id?: number;
@@ -46,4 +48,6 @@ export type CompanyDto = {
     companySettings?: CompanySettingsDto;
     tariffCode?: string | null;
     usersCount?: UsersCount;
+    nameDisplayOrder?: NameDisplayOrderEnum;
+    endAccessTime?: string;
 }

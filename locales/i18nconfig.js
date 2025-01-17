@@ -4,6 +4,9 @@ import { resources as enResources } from "./en/index";
 import { resources as ruResources } from "./ru/index";
 import { resources as ukResources } from "./uk/index";
 import { resources as zhResources } from "./zh/index";
+import { resources as esResources } from "./es/index";
+import { resources as uzLatnResources } from "./uzLatan/index";
+import { resources as uzCyrlResources } from "./uzCyrl/index";
 // import { i18nextPlugin } from "translation-check";
 import LanguageDetector from "i18next-browser-languagedetector";
 
@@ -12,7 +15,11 @@ export const resources = {
   ru: ruResources,
   uk: ukResources,
   zh: zhResources,
+  es: esResources,
+  "uz-latn": uzLatnResources,
+  "uz-cyrl": uzCyrlResources,
 };
+
 
 i18n
   .use(LanguageDetector)
@@ -23,7 +30,7 @@ i18n
       escapeValue: false,
     },
     // lng: "ru",
-    supportedLngs: ["en", "ru", "uk", "zh"],
+    supportedLngs: ["en", "ru", "uk", "zh", "es", "uz-latn", "uz-cyrl", "uz"],
     // debug: false,
     // debug: window.location?.hostname == "localhost",
     cleanCode: true,

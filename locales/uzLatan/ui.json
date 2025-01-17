@@ -1,0 +1,1460 @@
+{
+  "placeholder": {
+    "enter": "Kirish",
+    "awaited_result": "Kutilgan natijani kiriting",
+    "email": "user@example.com",
+    "password": "p@r0l",
+    "invite_code": "1A2B3C4D",
+    "first_name": "Ismni shu yerga kiriting",
+    "middle_name": "Bu yerda otasining ismini kiriting",
+    "last_name": "Bu yerda familiyani kiriting",
+    "week_start_day": "Kalendar haftasining boshlanishi",
+    "report_start_day": "Hisobot haftasining boshlanishi",
+    "description": "Bu erda bir necha so'z yozing ...",
+    "phone_number": "Telefon raqamingizni kiriting",
+    "name": "Ismingizni kiriting",
+    "function_name": "Bu yerda funksiya nomini kiriting",
+    "valuable_final_product": "Bu yerga mahsulotni kiriting",
+    "parent_function": "Ota-ona funksiyasini tanlang",
+    "restore_code": "Qayta tiklash kodingizni shu yerga kiriting",
+    "time_zone": "Vaqt mintaqasini tanlang",
+    "company_owner": "Kompaniya egasi",
+    "email_confirmation_code": "12345",
+    "company_name": "Bu yerda kompaniya nomini kiriting",
+    "contact_person": "Aloqa qiluvchi shaxs",
+    "contact_phone_number": "Aloqa raqami",
+    "issue_name": "Sarlavhani kiriting",
+    "issue_description": "Tavsif kiriting",
+    "issue_result": "Mahsulotni kiriting",
+    "issue_proof_description": "Dalillarning tavsifini kiriting",
+    "divider_deadline": "uchun",
+    "comment": "Izoh",
+    "issue_comment": "Fikr yozing...",
+    "write_comment": "Fikr yozing...",
+    "click_to_select": "Tanlash uchun bosing",
+    "click_to_select_function": "Funktsiyani tanlash uchun bosing",
+    "recurring_task_name": "Sarlavhani kiriting",
+    "recurring_task_description": "Tavsif kiriting",
+    "recurring_task_result": "Mahsulotni kiriting",
+    "preferred_communication_name": "Ism",
+    "preferred_communication_value": "Kirish / raqam",
+    "reason": "Sababini yozing",
+    "search_here": "Muammolarni shu yerda qidirishni boshlang...",
+    "enter_role": "Funktsiya nomini kiriting",
+    "create_new_regulation": "Yangi reglament yarating...",
+    "section_name": "Bo'lim nomini kiriting...",
+    "regulation_name": "Reglament nomini kiriting...",
+    "regulation_name1": "Nizomning nomi ...",
+    "select_section": "Bo'limni tanlang",
+    "search_by_employees": "Xodim bo'yicha qidiruv",
+    "search_by_companies": "Kompaniya bo'yicha qidiruv",
+    "glossary": {
+      "r": "Mahsulot"
+    },
+    "come_up_question": "Savol bilan keling",
+    "come_up_answer": "Javob bilan keling",
+    "start_here": "Bu yerdan boshlang",
+    "start_write_regulation": "Qoidalarni yozishni boshlang...",
+    "text_editor_placeholder": "Matn kiriting...",
+    "text_editor_url": "URL manzilini kiriting",
+    "group_company_name": "Sarlavhani kiriting",
+    "choose_companies": "Kompaniyalarni tanlang",
+    "choose_drivers": "Haydovchilarni tanlang",
+    "select": "Tanlang",
+    "update_note_name": "Eslatmani yangilash",
+    "upload_the_json_file": "JSON faylini yuklang",
+    "code": "Kodni kiriting",
+    "create_anchor": "Anchor kalitini lotin yoki raqamli formatda kiriting:",
+    "enter_a_comment": "Fikr kiriting...",
+    "search": "Qidirmoq",
+    "plan_search": "Rejani qidiring",
+    "describe_situation": "Muammoni tasvirlab bering",
+    "write_data": "Tafsilotlaringizni yozing",
+    "suggest_decision": "Yechimlarni taklif qiling",
+    "write_question": "Savol yozing",
+    "project_name": "Sarlavhani kiriting",
+    "project_description": "Tavsif kiriting",
+    "project_budget": "Byudjetingizni kiriting",
+    "project_tasks_reject_dialog": "Vazifalarni rad etish sababini yozing",
+    "project_search": "Loyihani qidiring",
+    "min": "Eng kam",
+    "max": "Maksimal",
+    "dashboard_column_count": "Ustunlar sonini kiriting",
+    "write_reason": "Iltimos, sababini ayting",
+    "time_block": {
+      "name": "Sarlavhani kiriting",
+      "description": "Tavsif kiriting",
+      "selectDate": "Sanani tanlang",
+      "selectTime": "Vaqtni tanlang"
+    },
+    "enter_password": "parolni kiriting",
+    "google_event": {
+      "name": "Sarlavhani kiriting",
+      "description": "Tavsif kiriting",
+      "link": "Havolani kiriting",
+      "selectDate": "Sanani tanlang",
+      "selectTime": "Vaqtni tanlang",
+      "repeat": "",
+      "organizer": "",
+      "reminder": ""
+    },
+    "empty": "Bo'sh",
+    "new_employee": "Yangi xodim #{{id}}"
+  },
+  "subheader": {
+    "email": "E-mail",
+    "orgchart": "Tashkiliy tuzilma",
+    "password": "Parol",
+    "password_check": "Parolni qayta kiriting",
+    "invite_code": "Taklif kodi",
+    "first_name": "Ism",
+    "middle_name": "Familiya",
+    "last_name": "Familiya",
+    "app_locale": "Ilova tili",
+    "app_theme": "Mavzu",
+    "phone_number": "Telefon raqami",
+    "company_name": "Ism",
+    "contact_person": "Aloqa qiluvchi shaxs",
+    "contact_phone_number": "Aloqa raqami",
+    "week_start_day": "Kalendar haftasining boshlanishi",
+    "report_start_day": "Hisobot haftasining boshlanishi",
+    "description": "Tavsif",
+    "function_name": "Funktsiya nomi",
+    "valuable_final_product": "Mahsulot",
+    "parent_function": "Ota-ona funktsiyasi",
+    "restore_code": "Qayta tiklash kodi",
+    "work_schedule": "Ish grafigi",
+    "time_zone": "Vaqt zonasi",
+    "company_owner": "Kompaniya egasi",
+    "function_color": "Funktsiya rangi",
+    "email_confirmation": "Tasdiqlash elektron pochtasi",
+    "employee": "Xodim",
+    "employee_type": "Xodimlar turi",
+    "task_recurring_name": "Ism",
+    "my_companies": "Mening kompaniyalarim",
+    "avatar": "Avatar",
+    "who_available": "Ijrochilar",
+    "who_available_alt": "Kimga",
+    "who_not_available": "Bundan tashqari",
+    "periodicity": "Har bir yuboring",
+    "proof": "Isbot",
+    "proof_description": "Dalilning tavsifi",
+    "proof_image_amount": "Miqdori",
+    "proof_text_length": "Uzunlik",
+    "employee_functions": "Xodimlarning funktsiyalari",
+    "employee_functions_administrator": "Xodimlarning vazifalari (menejer)",
+    "employee_functions_executor_specialist": "Xodimning vazifalari (ijrochi)",
+    "employee_functions_executor_trainee": "Xodimlarning vazifalari (stajyor)",
+    "left_drawer_state": "Chap menyu harakati",
+    "boards": "Kengashlar",
+    "comment": "Izoh",
+    "call_result": "Qo'ng'iroq natijasi",
+    "message": "Xabar",
+    "text": "Matn",
+    "issue_name": "Ism",
+    "issue_priority": "Ustuvorlik",
+    "issue_description": "Tavsif",
+    "issue_result": "Mahsulot",
+    "issue_fact_result": "Haqiqiy natija",
+    "issue_executor": "Ijrochi",
+    "issue_role": "Funktsiya",
+    "filter_issue_role": "Funktsiya bo'yicha",
+    "issue_participants": "Kuzatuvchilar",
+    "issue_sender": "Sahna rejissyori",
+    "issue_advanced_settings": "Kengaytirilgan sozlamalar",
+    "issue_actions": "Harakatlar",
+    "issue_current_status": "Joriy holat",
+    "issue_created": "Yaratilgan",
+    "issue_time_for_approval": "Tasdiqlash rejasi",
+    "issue_time_fact_for_approval": "Tasdiqlash fakti",
+    "issue_orgachart_company": "Tashkiliy tuzilma",
+    "issue_with_deadline": "Muddati bo'lgan vazifa",
+    "deadline": "Topshirish muddati; tugatish muddati",
+    "indicate_reason_changing_deadline": "Belgilangan muddatni o'zgartirish sababini ko'rsating",
+    "executor_deadline": "boshlanish sanasi",
+    "date_work_start_for_approval": "Tasdiqlash boshlanishi",
+    "by_violations": "Qoidabuzarliklar uchun",
+    "by_activity": "Faoliyat bo'yicha",
+    "by_statuses": "Status bo'yicha",
+    "reason": "Sabab",
+    "work_start": "Ishning boshlanishi",
+    "communication_type": "Afzal aloqa turi",
+    "sender": "Sahna rejissyori",
+    "use_timezone_of": "Vaqt mintaqasidan foydalaning",
+    "executor": "Ijrochi",
+    "attachments": "Qo'shimchalar",
+    "role_select": "Funktsiyani tanlang",
+    "position_select": "Lavozimni tanlang",
+    "terminology": "Terminologiya",
+    "name": "Ism",
+    "companies": "Kompaniyalar",
+    "drivers": "Haydovchilar",
+    "company": "Kompaniya",
+    "drivers_admin": "Haydovchi ma'murlari",
+    "confirm_delete_employee": "Haqiqatan ham bu xodimni olib tashlamoqchimisiz?",
+    "confirm_delete_company": "Haqiqatan ham bu kompaniyani oʻchirib tashlamoqchimisiz?",
+    "dashboard_name": "Ism",
+    "metric_interval": "Interval",
+    "metric_source": "Manba",
+    "chart_name": "Grafik nomi",
+    "metric_filling": "To'ldiruvchi",
+    "metric_switch_main": "Asosiy ko'rsatkich",
+    "metric_switch_reverse": "Inverted metrik",
+    "metric_switch_fix": "Biror kishiga metrikani tayinlang",
+    "metric_switch_double": "Ikki tomonlama metrik",
+    "select_metrics": "Ko'rsatkichlar",
+    "metric_function": "Funktsiya",
+    "metric_responsible": "Mas'uliyatli",
+    "metric_orgchart": "Tashkiliy tuzilma",
+    "metric_settings": "Y o'qi qiymatlarini o'rnatish",
+    "metric_employee": "Xodim",
+    "situation": "Muammolar",
+    "data": "Ma'lumotlar",
+    "decision": "Javob",
+    "question": "Savol",
+    "code": "Kod",
+    "locale": "Til",
+    "unclosed_tasks": "Tugallanmagan vazifalar",
+    "unallocated_tasks": "Taqsimlanmagan vazifalar",
+    "no_open_tasks": "Tugallanmagan vazifalar yo'q",
+    "week_plan": "Haftalik reja",
+    "issues": "Vazifalar",
+    "time": "Vaqt",
+    "project_name": "Loyiha nomi",
+    "project_description": "Loyiha tavsifini kiriting",
+    "project_budget": "Loyiha byudjetini kiriting",
+    "end": "Oxiri",
+    "project_responsible": "Loyiha mas'ul",
+    "project_members": "Ishtirokchilarni tanlang",
+    "urgency": "Shoshilinchlik",
+    "selected_project_description": "Loyiha tavsifi",
+    "selected_project_budget": "Loyiha byudjeti",
+    "selected_project_members": "Ishtirokchilar",
+    "dashboard": "Boshqaruv panellari",
+    "dashboard_column_count": "Ustunlar soni",
+    "issue_advanced_settings_deadline": "Qattiq muddat",
+    "issue_advanced_settings_approval": "Direktorning roziligini talab qiladi",
+    "metric_switch": "Teskari",
+    "table_row": "Shartlar",
+    "violation_notification_switches": "Vazifalarning buzilishi haqida bildirishnomalar",
+    "requirements_switches": "Talablar",
+    "issue_complete_dialog_format": {
+      "text": "matn",
+      "image": "tasvir",
+      "file": "fayl"
+    },
+    "issue_complete_dialog_value": {
+      "symbols": "belgilar",
+      "count": "miqdori"
+    },
+    "table_col": "Ustunlar",
+    "templates": "Tashkilot sxemasi shablonlar",
+    "time_block": {
+      "name": "Ism",
+      "description": "Tavsif",
+      "date": "Sana",
+      "startTime": "Boshlash",
+      "endTime": "Tugatish",
+      "fullDay": "Kun bo'yi Kuni bilan",
+      "repeat": "Takrorlang"
+    },
+    "change_password": {
+      "info_text": "{{user}} hisobi uchun parol oʻzgartirilmoqda",
+      "old_password": "Joriy Parol",
+      "new_password": "Yangi parolni kiriting",
+      "confirm_password": "yangi parolni takrorlang",
+      "placeholder": "parolni kiriting"
+    },
+    "google_account": {
+      "title": "Ulangan hisoblar",
+      "disconnect": "Oʻchirish",
+      "switcher": "Google Taqvimdagi tadbirlarni\n Taqvimni rejalashtirishda koʻrsatish",
+      "switcher_small": "Voqealar ko'rsatish"
+    },
+    "tags": "Kelib chiqishi",
+    "google_event": {
+      "name": "Ism",
+      "description": "Tavsif",
+      "link": "Havola",
+      "repeat": "Takrorlang",
+      "start_date": "boshlanish sanasi",
+      "end_date": "Tugash sanasi",
+      "organizer": "Tashkilotchi",
+      "reminder": "Eslatma",
+      "you_come": "Kelasizmi?"
+    },
+    "calendar_sidebar_filter": "Tayinlanmagan vazifalarda ko'rsatish",
+    "regulation_access_control_dialog": {
+      "section": "Bo'lim tanlash",
+      "orgchart": "Tashkiliy tuzilmani tanlash",
+      "accesses": "Ruxsat berilgan ruxsatlar",
+      "creator": "Yaratuvchi"
+    },
+    "birth_date": "Tug'ilgan kuni",
+    "employment_date": "Ishga qabul qilish sanasi"
+  },
+  "button": {
+    "ok": "KELISHDIKMI",
+    "cancel": "Bekor qilish",
+    "login": "Kirish uchun",
+    "signup": "Roʻyxatdan oʻtish",
+    "check_code": "Kodni tekshiring",
+    "already_registered": "Allaqachon ro'yxatdan o'tganmisiz?",
+    "invite": "Taklif qiling",
+    "invite_employee": "Xodimni taklif qiling",
+    "all_invites": "Taklif ro'yxati",
+    "save": "Saqlash",
+    "dont_save": "Saqlamang",
+    "create": "Yaratmoq",
+    "create_function": "Funktsiya yarating",
+    "delete": "Oʻchirish",
+    "forgot_password": "Parolni tiklash",
+    "send_reset_code": "Qayta tiklash kodini yuboring",
+    "move_function": "Ko'chirish",
+    "clear": "Tozalash",
+    "today": "Bugun",
+    "later": "Keyinchalik",
+    "studied_and_understood": "Bajarildi",
+    "add": "Qo'shish",
+    "close": "Yopish",
+    "save_schedule": "Ish jadvalini saqlang",
+    "add_company": "Kompaniya qo'shing",
+    "accept": "Qabul qiling",
+    "decline": "Rad etish",
+    "add_task": "Yangi vazifa qo'shing",
+    "add_issue": "Vazifa qo'shing",
+    "leave_company": "Ketish",
+    "upload": "Yuklab olish",
+    "upload_from_pc": "Qurilmadan yuklash",
+    "change": "O'zgartiring",
+    "edit": "Tahrirlash",
+    "create_company": "Yangi kompaniya",
+    "create_dashboard": "Boshqaruv paneli yarating",
+    "reset": "Qayta o'rnatish",
+    "wrote": "Muallif:",
+    "called": "Men qo'ng'iroq qilgandim",
+    "leave_comment": "izoh qoldiring",
+    "duplicate_in_messenger": "Messengerda takroriy xabar",
+    "next": "Keyinchalik",
+    "copy": "Nusxalash",
+    "withdraw": "Bekor qilish",
+    "send": "Yuborish",
+    "send_message": "xabar yubormoq",
+    "send_comment": "Fikrni yuborish",
+    "select_files": "Fayllarni tanlang",
+    "add_files": "Fayllarni qo'shish",
+    "go_to_processing": "Boshlash",
+    "finish_work": "Ishni tugatish",
+    "reset_all_boards": "Barcha platalarni qayta o'rnating",
+    "yes": "Ha",
+    "no": "Yo'q",
+    "apply": "Murojaat qiling",
+    "show_links": "Havolalarni ko'rsatish",
+    "follow": "ga boring",
+    "attach": "Biriktiring",
+    "relation_my": "mening",
+    "relation_control": "Boshqaruvlarga",
+    "relation_participate": "Men kuzatyapman",
+    "relation_subordinates": "Bo'ysunuvchilar",
+    "create_task": "Vazifa yarating",
+    "create_routine": "Takroriy vazifa yarating",
+    "create_message": "Xabar yarating",
+    "create_decision": "Yechim yarating",
+    "driver_issue_actions": "Haydovchi harakatlari",
+    "no_driver_issue_actions": "Haydovchi harakati yo'q",
+    "support": "Qo'llab-quvvatlash",
+    "to_profile": "Profilga o'ting",
+    "add_regulation": "Qoidalarni qo'shing",
+    "add_section": "Bo'lim qo'shish",
+    "stats": "Statistika",
+    "add_role": "Xususiyat qo'shing",
+    "add_to_section": "Bo'limga qo'shish",
+    "add_testing": "Sinov qo'shing",
+    "access_setting": "Kirish nazorati",
+    "assign_study": "O'qish uchun tayinlang",
+    "with_single_answer": "Bitta javob bilan savol qo'shing",
+    "with_multiple_answer": "Bir nechta javobli savol qo'shing",
+    "go_back": "Ortga qaytmoq",
+    "add_question": "Savol qo'shing",
+    "complete": "Bajarildi",
+    "create_first_policy": "Birinchi qoidalarni yarating",
+    "complete_test": "Sinovni yakunlang",
+    "pass_test": "Sinovdan o'ting",
+    "edit_test": "Testni tahrirlash",
+    "back_to_topic": "Bo'limga qaytish",
+    "next_regulation": "Keyingi qoidalar",
+    "back_to_regulation": "Qoidalarga qaytish",
+    "try_again": "Qayta urinib ko'ring",
+    "confirm": "Tasdiqlang",
+    "roll_up": "Yiqilish",
+    "save_results": "Sinovni yakunlang",
+    "submit_for_approval": "Tasdiqlash uchun yuboring",
+    "approve": "Tasdiqlash",
+    "save_changes": "O'zgarishlarni saqlang",
+    "add_reaction": "Reaktsiya qo'shing",
+    "react": "Reaksiya qilish uchun",
+    "reject": "Rad etish",
+    "change_v2": "O'zgartirish",
+    "filter": "Filtr",
+    "publish": "Nashr qilish",
+    "request_publication": "Nashr qilishni so'rash",
+    "add_group": "Guruh qo'shing",
+    "add_dashboard": "Yaratmoq",
+    "share": "Ulashish",
+    "choose": "Tanlang",
+    "study": "Tadqiq qiling",
+    "activate_bot": "Botni faollashtirish",
+    "bots": "Botinkalar",
+    "format": "Format",
+    "refresh": "Yangilash",
+    "delete_dashboard": "Boshqaruv panelini o'chirish",
+    "go_to_task": "Vazifaga",
+    "select": "Tanlang",
+    "telegram_bot_settings": "“Business Booster Bot”ni faollashtirish",
+    "telegram_bot_left_menu": "BB Bot ni faollashtirish",
+    "join_to_tg_chat": "BB Platformasi chatiga qo'shiling",
+    "back": "Orqaga",
+    "leave": "Ketish",
+    "changed": "O'zgartirish",
+    "change_password": "Parolni o'zgartirish",
+    "download_report": "Hisobotni CSV formatida yuklab oling",
+    "archive": "Arxiv",
+    "google_add_account": "Google Taqvim hisobini qo'shing",
+    "google_event": {
+      "declined": "Yo'q",
+      "tentative": "Balkim",
+      "accepted": "Ha"
+    },
+    "templates": "Shablonlar",
+    "save_templates": "Shablonni saqlash",
+    "add_answer": "Javob qo'shing",
+    "left": "Chapga",
+    "right": "To'g'ridan-to'g'ri",
+    "create_section": "Bo'lim yarating",
+    "extend_access": "Kirishni kengaytirish",
+    "duplicate": "Dublikat"
+  },
+  "label": {
+    "added_to_topic": "Bo'limga qo'shildi",
+    "reusable_invite_code": "Takroriy taklifnoma kodi",
+    "weekdays_same_schedule": "Barcha kunlar bir xil jadvalga muvofiq",
+    "strict_deadline": "Qattiq muddat",
+    "proof_not_needed": "Talab qilinmaydi",
+    "proof_text": "Matn",
+    "proof_image": "Rasm",
+    "proof_file": "Fayl",
+    "issues_with_violations": "Huquqbuzarliklar bilan bog'liq muammolar",
+    "scheduled_for_today": "Bugunga rejalashtirilgan",
+    "grouping_by_orgcharts": "Tashkiliy tuzilma bo'yicha guruhlash",
+    "grouping_by_users": "Bo‘ysunuvchilar bo‘yicha guruhlash",
+
+    "grouping_by_tags": "Teglar bo'yicha guruhlash",
+    "last_comment_is_proof": "Dalil sifatida oxirgi izohdan foydalaning",
+    "last_comment_is_reason": "Sabab sifatida oxirgi fikrdan foydalaning",
+    "is_test": "Sinov",
+    "call_result": {
+      "busy": "Band",
+      "fail": "Qo‘ng‘iroq yo‘q",
+      "resolves_in_30_min": "30 daqiqa ichida hal qilinadi",
+      "resolves_until_day_end": "Ish kunining oxirigacha qaror qiladi",
+      "resolves_in": "Oldin qaror qiladi",
+      "promised_to_call_executor": "Ijrochi bilan bog'lanishga va'da berdi",
+      "gave_other_contacts": "Boshqa birovning aloqa ma'lumotlarini bering"
+    },
+    "result_achieved": "Mahsulot qabul qilindi",
+    "issue_custom_filed": {
+      "is_strict_deadline": "Pudratchi muddatni o'zgartira olmaydi",
+      "is_manager_approval_required": "Direktorning roziligini talab qiladi"
+    },
+    "do_not_create_at_weekends": "Dam olish kunlari yarating",
+    "timezone_of": {
+      "executor": "Ijrochi",
+      "employee": "Funktsiya ijrochisi",
+      "sender": "Direktor",
+      "company": "Kompaniyalar"
+    },
+    "sender_type": {
+      "nearest_admin": "To'g'ridan-to'g'ri rahbar",
+      "executor_of_function": "Funktsiya ijrochisi",
+      "admin_of_function": "Funktsiya rahbari",
+      "admin_of_function_v2": "Xodimlar funktsiyasi"
+    },
+    "add_first_regulation": "Birinchi qoidani qo'shing",
+    "approver": "Tasdiqlovchi",
+    "add_bot": "Bot qo'shing",
+    "planning_filter": {
+      "approved": "Tasdiqlangan",
+      "not_approved": "Tasdiqlash bo'yicha",
+      "not_planned": "Rejalashtirilmagan"
+    },
+    "paid_company": "Pulli kompaniya",
+    "test_company": "Sinov kompaniyasi",
+    "inactive": "Faol bo'lmagan kompaniya",
+    "partially_paid_company": "Yarim to'lanadigan kompaniya",
+    "on_verification": "Ko'rib chiqilmoqda",
+    "violation_notification_switch": {
+      "first": "24 soatdan ortiq qabul qilinmaydi",
+      "second": "48 soatdan ortiq ishga olinmagan",
+      "third": "72 soatdan ortiq vaqt davomida tasdiqlanmagan"
+    },
+    "requirements_switches": {
+      "first": "Vazifani bajarishda Harakat maydonini (topshiriqni bajarish uchun haqiqiy vaqt) majburiy qilib qo'ying",
+      "second": "Vazifa Davom etayapti holatiga o'tkazilganda ishning boshlanish sanasini belgilang"
+    },
+    "manual_archiving": "Faqat qo'lda arxivlash",
+    "show_on_orgchart": "Tashkilot diagrammasida ko'rsatish"
+  },
+  "title": {
+    "archive_dialog": "Vazifani arxivlash sababini ko'rsating",
+    "draft": "qoralamalar",
+    "active": "Faol",
+    "pause": "Tanaffuslarda",
+    "completed": "Bajarildi",
+    "invite_employee": "Yangi xodimni taklif qiling",
+    "all_invites": "Taklif ro'yxati",
+    "invite": "Taklif",
+    "edit_to_start": "Boshlash uchun profilingizni tahrirlang",
+    "edit_to_start_company": "Boshlash uchun kompaniyangizni tahrirlang",
+    "watch_to_start": "Boshlash uchun qarang",
+    "function_create": "Funktsiya yarating",
+    "function_edit": "Tahrirlash funksiyasi",
+    "function_move": "Ko'chirish funktsiyasi",
+    "function_sort": "Pastki funksiyalarni saralash",
+    "function_delete": "Funktsiyani o'chirish",
+    "recurring_issue_delete": "Takroriy vazifa oʻchirilsinmi?",
+    "recurring_issue_history": "Takroriy vazifa tarixi",
+    "add_employee": "Funktsiyaga xodim qo'shing",
+    "add_company": "Kompaniya qo'shing",
+    "company_invitation": "Kompaniyaga taklif",
+    "leave_company": "Kompaniyani tark etasizmi?",
+    "avatar_change": "Avatarni o'zgartirish",
+    "company_delete": "Kompaniyani yo'q qilish",
+    "employee_delete": "Xodimni ishdan bo'shatish",
+    "board_reset": "Kengash qoidalarini tiklash",
+    "all_boards_reset": "Kompaniya boshqaruvining barcha qoidalarini tiklang",
+    "driver_called": "Qo'ng'iroq natijalari",
+    "driver_called_admin": "Menejerga qo'ng'iroq qiling",
+    "report_regulations": "O'rganilgan normativ hujjatlar to'g'risidagi hisobot",
+    "stats": "Statistika",
+    "policies": "Qoidalar",
+    "topics": "Bo'limlar",
+    "copy_task": "Vazifani nusxalash",
+    "copy_decision": "Yechimni nusxalash",
+    "copy_message": "Xabar nusxalanmoqda",
+    "reject_task": "Vazifani rad etish",
+    "send_again": "Qayta yuborish",
+    "reject_decision": "Qarorni rad etish",
+    "reject_message": "Xabarni rad qilish",
+    "copy_issue": {
+      "title": "Vazifani nusxalash",
+      "subtitle": "Rassom va xususiyatni tanlang"
+    },
+    "withdraw_issue": {
+      "title": "Vazifani bekor qilish",
+      "subtitle": "Yangi rassom va muddatni tanlang"
+    },
+    "reject_issue": {
+      "title": "Vazifani rad etish",
+      "subtitle": "Vazifani rad etish sababini yozing"
+    },
+    "executor_change": {
+      "title": "Rassomning o'zgarishi",
+      "subtitle": "Ijrochini o'zgartirish sababini yozing",
+      "input_placeholder": "Sabab"
+    },
+    "board_require_actions": "Harakat talab qiladi",
+    "driver_script_title": "Haydovchi matn",
+    "date_range_select": "Sana oralig'ini tanlash",
+    "close_task_no_proof": "Diqqat!",
+    "links": "Havolalar",
+    "delete_issue": "Vazifa oʻchirilsinmi?",
+    "delete_task": "Vazifa oʻchirilsinmi?",
+    "delete_decision": "Yechim oʻchirilsinmi?",
+    "delete_message": "Xabar oʻchirilsinmi?",
+    "create_task": "Vazifa yarating",
+    "create_routine": "Takroriy vazifa yarating",
+    "create_message": "Xabar yarating",
+    "create_decision": "Yechim yarating",
+    "create_recurring_issue": "Takroriy vazifa qo'shing",
+    "task": "Vazifa",
+    "decision": "Javob",
+    "message": "Xabar",
+    "choose_deadline": "Terminni tanlang",
+    "driver_issue_report": "Haydovchi vazifasi hisobot",
+    "driver_issue_no_actions": "Haydovchi harakati yo'q",
+    "additional_settings": "Qo'shimcha sozlamalar",
+    "mark_working_day": "Ish kunini belgilang",
+    "mark_weekend": "Dam olish kunini nishonlang",
+    "mark_vacation": "Ta'tilni nishonlang",
+    "mark_medical": "Kasallik ta'tilini belgilang",
+    "access_to_section": "Bo'limga kirish",
+    "access_to_regulation": "Qoidalarga kirish",
+    "assign_study": "O'qish uchun tayinlang",
+    "linked_roles_to_section": "Bo'limga bog'langan funktsiyalar",
+    "linked_roles_to_regulation": "Qoidalarga bog'liq funktsiyalar",
+    "expect": "Bundan tashqari",
+    "replace_regulation": "Ko'chirish qoidalari",
+    "select_section": "Bo'limni tanlang",
+    "learnt_regulation": "Biz qoidalarni o'rganib chiqdik",
+    "no_learnt_regulation": "Qoidalarni o'rganmagan",
+    "testing": "Sinov",
+    "select": "Tanlang",
+    "submit_for_approval": "Tasdiqlash uchun yuboring",
+    "super_admin_drivers": "Super administrator haydovchilar",
+    "companies": "Kompaniyalar",
+    "drivers_drivers": "Haydovchi administrator",
+    "confirm": "Tasdiqlash",
+    "attention": "Diqqat",
+    "create_first_metric": "Birinchi ko'rsatkichingizni yarating",
+    "create_metric": "Ko'rsatkich yaratish",
+    "add_metric": "Ko'rsatkichlarni qo'shing",
+    "metric_prefix": "[GM]",
+    "main_metric": "Asosiy ko'rsatkich",
+    "edit_metric": "Ko‘rsatkichni tahrirlash",
+    "delete_metric": "Oʻchirishni tasdiqlang",
+    "create_first_dashboard": "Birinchi boshqaruv panelini yarating",
+    "create_dashboard": "Boshqaruv paneli yaratish",
+    "edit_dashboard": "Boshqaruv panelini tahrirlash",
+    "delete_dashboard": "Boshqaruv panelini olib tashlash",
+    "metric_settings": "Diagramma sozlamalari",
+    "confirm_deletion": "Oʻchirishni tasdiqlang",
+    "delete_not_empty": "Boʻlimni oʻchirib boʻlmadi",
+    "edit_metric_to_dashboard": "Ma'lumotlarni kiriting",
+    "create_solution": "Yechim yarating",
+    "releases": "Eslatmalarni yangilash",
+    "update_notes": "Eslatmalarni yangilash",
+    "update_note": "Eslatmani yangilash",
+    "connecting_bot": "Botni ulash",
+    "list_bots": "Botlar ro'yxati",
+    "add_group_company": "Kompaniyalar guruhini qo'shing",
+    "edit_group_company": "Kompaniyalar guruhini tahrirlash",
+    "reject_plan": "Rejani rad etish sababini ko'rsating",
+    "create_project": "Yangi loyiha",
+    "reject_all": "Hammasini rad qilish",
+    "archvive_of_issues": "Vazifalar arxivi",
+    "delete_metric_dialog_title": "Koʻrsatkichni oʻchirish",
+    "issue": "Vazifa",
+    "create_issue": "Yangi vazifa qo'shing",
+    "create_table": "Jadval yaratish",
+    "insert_video": "Video qo'shing",
+    "no_tasks": "Vazifalar yo'q",
+    "confirm_delete_comment": "Haqiqatan ham bu fikrni oʻchirib tashlamoqchimisiz?",
+    "executor_declined_task": "Rassom tomonidan rad etilgan",
+    "on_approval_task": "Tasdiqlash talab qilinadi",
+    "save_template": "Shablonni saqlash",
+    "time_block": "Tadbir",
+    "delete_events": "Tadbir oʻchirilsinmi?",
+    "recurring_issue": "Takroriy vazifa",
+    "change_password": "Parolni o'zgartirish",
+    "google_event": "Google kalendar tadbiri",
+    "tags": "Kelib chiqishi",
+    "selected_google_calendar": "Platformada ko'rsatish uchun kalendarni tanlang",
+    "regulation_access_dialog_collapse": {
+      "Read": "O'qish",
+      "Write": "Yozib olish",
+      "ReadWrite": "O'qish va yozish",
+      "Assignment": "Trening uchun uchrashuv",
+      "FullAccess": "To'liq kirish"
+    },
+    "regulation_templates": "Shablonlar"
+  },
+  "text": {
+    "ar": "TUMAN",
+    "awaited_result": "Mahsulot",
+    "from_time": "bilan",
+    "to_time": "uchun",
+    "change_company": "Kompaniyani o'zgartirish",
+    "no_invites": "Takliflar yo'q",
+    "current_company": "Bu hozirgi kompaniya",
+    "company_owner": "Kompaniya egasi",
+    "employees_amount": "Xodimlar",
+    "employees_full_amount": "To'liq kirish huquqiga ega bo'lgan xodimlar",
+    "employees_full_restricted": "Cheklangan xodimlar",
+    "company_not_registered": "Kompaniya hali ro'yxatdan o'tkazilmagan",
+    "external_id": "Tashqi identifikator",
+    "invite_code": "Taklif kodi",
+    "deadline": "Muddati",
+    "date_created": "yaratilgan sana",
+    "substitute": "o'rinbosari",
+    "no_links": "Tavsifda havolalar mavjud emas",
+    "period": "Davr",
+    "apply_to_all_functions": "Xodim tayinlangan barcha funktsiyalarga murojaat qiling",
+    "beginning_and_end_of_shift": "Shiftning boshlanishi va oxirini belgilang",
+    "start_day_exceeds_end": "Ish kunining boshlanish vaqti uning tugash vaqtidan oshib ketadi",
+    "start_period_exceeds_end": "Davrning boshlanishi uning tugash sanasidan oshib ketadi",
+    "reset": "Qayta o'rnatish",
+    "no_data": "Maʼlumot yoʻq",
+    "child_functions_direction": "Bolalar funktsiyalarining yo'nalishi",
+    "driver_administrators": "Haydovchi ma'murlari",
+    "drivers": "Haydovchilar",
+    "confirm_delete_metric": "Barcha xodimlar uchun ko'rsatkich asboblar panelidan olib tashlanadi",
+    "empty_metric_users": "Xodimlar mavjud emas",
+    "date_work_start": "Boshlanish sanasini belgilangan muddatdan kechroq belgilang",
+    "delete_metric_dialog_warning": "Agar siz ko'rsatkichni o'chirsangiz, barcha ko'rsatkichlar asboblar panelidan o'chirilishi ehtimoli bor. Bu harakatni bekor qilish imkonsiz bo'ladi. Haqiqatan ham barcha koʻrsatkichlarni oʻchirib tashlamoqchimisiz?",
+    "main_metric_warning": {
+      "text1": "Bu funksiyada allaqachon “{{metricName}}” asosiy koʻrsatkichi mavjud.",
+      "text2": "Ushbu kalitni yoqish orqali siz asosiy metrikani almashtirishni tasdiqlaysiz."
+    },
+    "edited_comment": "o'zgardi",
+    "deleted_comment": "o'chirildi",
+    "confirm_delete_comment": "Bu amalni ortga qaytarib bo‘lmaydi",
+    "created_task": "Vazifa yaratildi",
+    "correct_answer": "To'g'ri javob",
+    "update_note_alert": "Platformamizdagi yangilanishlar va xakerliklardan doimo xabardor bo'lishni xohlaysizmi? “Biznesni kuchaytirish platformasi” Telegram kanalimizga qoʻshiling va barcha voqealar markazida boʻling!\uD83D\uDE0A",
+    "archive_task": "Vazifa arxivlangan",
+    "un_archive_task": "Vazifa arxivdan qaytarildi",
+    "google_calendar_reminder": "Eslatma: {{time}} boshlanishidan oldin",
+    "delete_topic": "Haqiqatan ham butun boʻlimni oʻchirib tashlamoqchimisiz?",
+    "delete_not_empty_topic": "Ushbu bo'limda ichki bo'limlar yoki hujjatlar mavjud. Ushbu bo'limni olib tashlash uchun avval barcha ichki o'rnatilgan elementlarni olib tashlang.",
+    "delete_regulation": "Haqiqatan ham qoidalarni olib tashlamoqchimisiz?"
+  },
+  "caption": {
+    "executors": "Ijrochilar",
+    "administrators": "Menejerlar",
+    "interaction_history": "Tarix",
+    "boards_table": {
+      "id": "ID",
+      "name": "Ism",
+      "last_update": "Oxirgi yangilanish",
+      "number_updates": "Yangilanishlar soni",
+      "actions": "Harakatlar"
+    },
+    "do_not_save_recurring_task": "Takroriy vazifa saqlanmaydimi?"
+  },
+  "select": {
+    "all": "Hammasi",
+    "all_employees": "Barcha xodimlar",
+    "comments": "Izohlar",
+    "actions": "Harakatlar",
+    "log": "O'zgarishlar tarixi",
+    "manual_method": "Manuel usul",
+    "time_block": {
+      "not_repeat": "Takrorlamang",
+      "every_day": "Har kuni",
+      "every_week": "Har hafta"
+    }
+  },
+  "misc": {
+    "administrator": "Nazoratchi",
+    "specialist": "Mutaxassis",
+    "trainee": "Stajyor",
+    "new_user": "Yangi foydalanuvchi",
+    "no_administrators": "Rahbarlar yo'q",
+    "no_executors": "Ijrochilar yo'q",
+    "radio_all": "Hammasi",
+    "require": {
+      "images_min_count": "Miqdori",
+      "files_min_count": "Miqdori",
+      "text_min_length": "Uzunlik"
+    },
+    "click_to_select": "Tanlash uchun bosing",
+    "days": "Kunlar",
+    "month": "Oy",
+    "day": "Raqam",
+    "to_admins_of_function": "Boshiga",
+    "to_executors_of_function": "Ijrochilar"
+  },
+  "hint": {
+    "orgchart": "Tashkiliy tuzilma",
+    "communications": "Vazifalar",
+    "recurringIssues": "Takroriy vazifalar",
+    "inviteEmployee": "Tizimga xodimni taklif qiling",
+    "permissions": "Ruxsatlar",
+    "schedule": "Ish grafigi",
+    "dashboard": "Boshqaruv panellari",
+    "multiaccount": "Ko'p hisob/ko'p tuzilma",
+    "decision": "Javob",
+    "message": "Xabar",
+    "planning": "Rejalashtirish",
+    "policies": "Qoidalar"
+  },
+  "table": {
+    "employees": "Xodimlar",
+    "total": "Jami",
+    "studied": "O'qigan",
+    "to_study": "O'rganilmagan",
+    "studied_percent": "O'rganish foizi"
+  },
+  "helper": {
+    "error_textfield": "Hammasi to'g'ri kiritilganligiga ishonch hosil qiling!"
+  },
+  "tooltip": {
+    "edit": "Tahrirlash",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "delete": "Oʻchirish",
+    "time_block": {
+      "free_time": "Bo'sh vaqt - ajratilmagan ish vaqti bu erda ko'rsatiladi va ish jadvali bo'yicha hisoblab chiqiladi, minus kunga vazifalarni bajarish uchun rejalashtirilgan umumiy vaqt. Belgilangan vaqtdan oshib ketgan yoki ish kuni to'liq yuklanmagan bo'lsa, bu maydon ham rang bilan ajratiladi.",
+      "total_tasks": "Jami vazifalar - bajarilgan vazifalar soni va kun uchun rejalashtirilgan vazifalarning umumiy soni bu erda 2/5 formatida ko'rsatiladi.",
+      "plan_actual": "Haqiqiy / Reja - bu erda vazifalarga sarflangan haqiqiy vaqt va kun uchun rejalashtirilgan vazifalarning umumiy rejalashtirilgan vaqti 1 soat 30 daqiqa / 7 soat formatida ko'rsatiladi."
+    },
+    "add_to_topic": "Bo'limga qo'shish",
+    "access_settings": "Kirish sozlanmoqda",
+    "access_settings_without_topic": "Kirishni sozlash uchun bo'limga qoidalar qo'shing",
+    "assign_study": "O'qish uchun tayinlang",
+    "access_control_dialog": {
+      "creator": "Ijodkor to'liq kirish huquqiga ega"
+    },
+    "table_planing": {
+      "total_tasks": "Jami vazifalar - bajarilgan vazifalar soni va belgilangan davr uchun rejalashtirilgan vazifalarning umumiy soni bu erda \"2/5\" formatida ko'rsatiladi.",
+      "plan_actual": "Haqiqiy / Reja - bu erda vazifalarga sarflangan haqiqiy vaqt va tanlangan davr uchun rejalashtirilgan vazifalarning umumiy rejalashtirilgan vaqti \"1 soat 30 daqiqa / 7 soat\" formatida ko'rsatiladi."
+    },
+    "extend_access": "Platformada ishlashni uzaytirish shartlarini bilib oling",
+    "set_deadline": "Muddati belgilang"
+  },
+  "checkbox": {
+    "send_retraining": "Qayta tayyorlashga yuboring",
+    "publish_without_approval": "Tasdiqsiz nashr qilish",
+    "full_day": "Kun bo'yi Kuni bilan"
+  },
+  "planning_indicator": {
+    "pending_approval": "Tasdiqlash kutilmoqda",
+    "approved": "Tasdiqlangan",
+    "rejected": "Og'ishgan"
+  },
+  "planning_table": {
+    "recurring_tasks": "Takroriy vazifalar",
+    "weekly_tasks": "Vazifalar",
+    "unscheduled_tasks": "Rejadan tashqari vazifalar",
+    "google_events": "Google kalendar tadbirlari",
+    "fact": "Fakt",
+    "plan": "Reja",
+    "start": "Boshlash",
+    "deadline": "Topshirish muddati; tugatish muddati",
+    "status": "Holat",
+    "date_time": "Sana va vaqt",
+    "google_events_status": {
+      "Unfinished": "Rejalashtirilgan",
+      "Finished": "Bajarildi",
+      "Declined": "Og'ishgan"
+    },
+    "awaitedResult": "Kutilgan natija"
+  },
+  "metric_switch": {
+    "day": "kun",
+    "week": "Kalendar haftasi",
+    "reportingWeek": "Hisobot haftasi",
+    "month": "Oy",
+    "year": "Yil"
+  },
+  "calendar": {
+    "today": "Bugun",
+    "unallocated_tasks": "Taqsimlanmagan vazifalar",
+    "total_tasks": "Jami vazifalar:",
+    "planned_time": "Rejalashtirilgan vaqt:"
+  },
+  "time_block": {
+    "free_time": "Bo'sh vaqt",
+    "total_tasks": "Jami vazifalar",
+    "plan_actual": "Fakt/reja"
+  },
+  "change_password": {
+    "first_validation_rule": "Kamida 8 ta belgi",
+    "second_validation_rule": "Kamida bitta bosh harf",
+    "third_validation_rule": "Kamida 1 ta maxsus belgi",
+    "fourth_validation_rule": "Parol eskisidan farq qiladi",
+    "validation_seccusess": "Kuchli parol",
+    "confirm_text": "Parol o'zgartirildi.",
+    "popover_error": {
+      "title": "Qaytadan kiriting yoki foydalaning",
+      "link": "parolni tiklash"
+    }
+  },
+  "google_calendar_banner": {
+    "text": "Siz Google Taqvimni BB Platformasiga ulashingiz mumkin.",
+    "text_connect": "Ulangan",
+    "link": "Ulanish uchun"
+  },
+  "google_account_disconnect_dialog": {
+    "title": "Google Taqvim hisobini o'chirib qo'ying",
+    "text": "Oʻchirib qoʻyilsa, platforma taqvimi va Google Taqvim oʻrtasida sinxronlash toʻxtatiladi. Siz endi Google Taqvim platformasidagi barcha vazifalaringizni va Google Taqvimdagi platforma uchrashuvlarida ko‘rmaysiz.",
+    "question": "Haqiqatan ham Google Taqvim hisobingizni o'chirib qo'ymoqchimisiz?"
+  },
+  "hidden_google_events_dialog": {
+    "text": "Haqiqatan ham Google Taqvimdagi tadbirlarni yashirishni xohlaysizmi? Bu harakat jadvalingizning dolzarbligiga ta'sir qilishi mumkin."
+  },
+  "google_calendar_settings_modal": {
+    "title": "Kalendarni sozlash"
+  },
+  "issue_change_deadline_dialog": {
+    "title": "Yangi muddatni belgilang"
+  },
+  "card_issue_deadline_tooltip": {
+    "title": "Pudratchi muddatni o'zgartira olmaydi",
+    "text": "Uni o'zgartirish uchun vazifa direktoriga murojaat qiling"
+  },
+  "create_tag_dialog": {
+    "title": "Yangi teg yarating",
+    "label_name": "Ism",
+    "label_placeholder": "Ism kiriting",
+    "color": "Rang"
+  },
+  "edit_tag_dialog": {
+    "title": "Teglarni tahrirlash"
+  },
+  "delete_tag_confirm_dialog": {
+    "title": "Haqiqatan ham “{{tag}}” tegini olib tashlamoqchimisiz?",
+    "description": "Tegni o'chirsangiz, u doskadagi barcha masalalardan o'chiriladi"
+  },
+  "regulation_table_columns": {
+    "title": "Ism",
+    "employee": "Muallif",
+    "status": "Holat",
+    "publicationDate": "Nashr qilingan sana"
+  },
+  "adding_regulations_to_section_dialog": {
+    "title": "Bo'limga qoidalar qo'shish",
+    "selected": "Tanlangan: {{count}}"
+  },
+  "adding_regulation_to_section_dialog": {
+    "title": "Bo'limga qoidalar qo'shish"
+  },
+  "regulation_actions": {
+    "submit_for_approval": {
+      "title": "Tasdiqlash uchun yuboring",
+      "text": "Reglamentni tasdiqlash ularni hamma uchun e'lon qilish imkonini beradi"
+    },
+    "publish": {
+      "title": "Nashr qilish",
+      "text": "Reglamentni tasdiqlash ularni hamma uchun e'lon qilish imkonini beradi"
+    },
+    "reject": {
+      "title": "Rad etish",
+      "text": "Reglamentni tasdiqlash ularni hamma uchun e'lon qilish imkonini beradi"
+    },
+    "study_assignment": {
+      "title": "O'quv topshirig'i",
+      "text": "Hujjat ko'rib chiqish uchun barchaga yuboriladi.",
+      "textSection": "Bo'lim hammaga ko'rib chiqish uchun yuboriladi."
+    },
+    "access_to_regulations": {
+      "title": "Qoidalarga kirish",
+      "text": "Sozlama hujjatga to'liq huquqlarni cheklash yoki berish imkonini beradi"
+    },
+    "access_to_sections": {
+      "title": "Bo'limga kirish",
+      "text": "Sozlamalar bo'limga to'liq huquqlarni cheklash yoki berish imkonini beradi"
+    },
+    "remove_from_section": {
+      "title": "Bo'limdan olib tashlang",
+      "text": "Ushbu hujjat Bo'limsiz bo'limiga o'tkaziladi",
+      "textSection": "Ushbu bo'lim Bo'limsiz bo'limiga o'tkaziladi"
+    },
+    "copy_link": {
+      "title": "Havolani nusxalash",
+      "text": "Ushbu hujjat kirish huquqiga ega bo'lgan har bir kishi uchun mavjud bo'ladi",
+      "textSection": "Ushbu bo'lim kirish huquqiga ega bo'lgan har bir kishi uchun mavjud bo'ladi"
+    },
+    "added_to_section": {
+      "title": "Bo'limga qo'shish",
+      "text": "Siz ushbu reglamentni mavjud bo'limga qo'shishingiz yoki uni joriy bo'limdan ajratishingiz mumkin"
+    },
+    "delete": {
+      "title": "Oʻchirish",
+      "text": "Nashr qilinmagan qoidalar"
+    },
+    "history": {
+      "title": "Qoidalarning tarixi",
+      "text": "Ushbu bo'limda siz barcha o'zgarishlar va yangilanish sanalarini ko'rishingiz mumkin"
+    },
+    "testing": {
+      "button": "Sinov qo'shing",
+      "title": "Sinov",
+      "text": "Hujjatni o'qib chiqqandan so'ng bilimlarni mustahkamlash uchun test qo'shing"
+    }
+  },
+  "confirm_dialog_remove_from_section": {
+    "title": "Reglamentning o'chirilishini tasdiqlang",
+    "text": "Nizomni “{{sectionTitle}}” bo‘limidan olib tashlamoqchimisiz?\n O‘chirilgan reglament “Bo‘limsiz”ga o‘tkaziladi."
+  },
+  "regulation_status": {
+    "Draft": "Qoralama",
+    "OnReview": "Tasdiqlash bo'yicha",
+    "Published": "Chop etilgan",
+    "Rejected": "Og'ishgan"
+  },
+  "section": {
+    "empty_data": "Ushbu bo'limda hali hech qanday qoidalar yo'q, lekin siz birinchisini qo'shishingiz mumkin"
+  },
+
+
+
+
+
+  "useful_advice": "Foydali maslahat. Bola funksiyasiga bir marta bosish orqali faqat bola funksiyasi tanlanadi.\n Ikki marta bosish orqali bola va uning pastki funksiyalari tanlanadi.",
+  "date_format": {
+    "year": "yil",
+    "year1": "yil",
+    "year2": "yillar",
+    "month": "oy",
+    "month1": "oylar",
+    "month2": "oylar"
+  },
+  "no_access_resource_dialog": {
+    "title": "Sizda bu hujjatga kirish imkoningiz yo‘q",
+    "section_title": "Sizda bu boʻlimga kirish imkoningiz yoʻq",
+    "text": "Hujjat muallifidan ruxsat so'rang",
+    "section_text": "Bo'lim muallifidan kirishni so'rang",
+    "copy_link": "Havolani nusxalash"
+  },
+  "request_change_access_type_dialog": {
+    "title": "Kirish darajasi - {{type}}",
+    "text": "Agar ushbu hujjatga kirish darajangizni oʻzgartirmoqchi boʻlsangiz, uning egasiga murojaat qiling",
+    "section_text": "Agar siz ushbu bo'limga kirish darajasini o'zgartirmoqchi bo'lsangiz, uning egasiga murojaat qiling",
+    "copy_link": "Havolani nusxalash"
+  },
+  "confirm_dialog_remove_issue_from_plan": {
+    "title": "Haqiqatan ham “{{title}}” vazifasini rejadan olib tashlamoqchimisiz?"
+  },
+  "planingGrouping": {
+    "roles": "Funktsiya bo'yicha",
+    "tags": "Teglar bo'yicha",
+    "no_grouping": "Guruhlash yo'q"
+  },
+  "issueActions": {
+    "add_related_task": "Tegishli vazifani qo'shing"
+  },
+  "quickValuesTime": {
+    "5min": "5 min",
+    "15min": "15 min",
+    "30min": "30 min",
+    "1h": "1 soat",
+    "2h": "2 soat",
+    "4h": "4 soat"
+  },
+  "tariffs": {
+    "Bb1Economy": "Iqtisodiyot BB1",
+    "Bb1Business": "Biznes BB1",
+    "Bb1Premium": "Premium BB1",
+    "Bb2Economy": "Iqtisodiyot BB2",
+    "Bb2Business": "Biznes BB2",
+    "Bb2Premium": "Premium BB2",
+    "Resident": "Rezident",
+    "Vip": "VIP",
+    "Demo": "Namoyish",
+    "PlatinumResident": "Platina rezidenti",
+    "Custom": "Shaxsiy sharoitlar"
+  },
+  "placeholder_technical": {
+    "title": "Texnik ishlar olib borilmoqda",
+    "text": "Vaqtinchalik noqulayliklar uchun uzr so'raymiz"
+  },
+  "issue_activity": {
+    "Name": "Ism",
+    "ExecutorUserId": "Ijrochi",
+    "InitiatorUserId": "Sahna rejissyori",
+    "Description": "Tavsif",
+    "TimeFact": "Fakt",
+    "TimePlan": "Reja",
+    "ProofReqComment": "Dalilning tavsifi",
+    "IsManagerApprovalRequired": "Direktorning roziligini talab qiladi",
+    "TimeFactForApproval": "Tasdiqlash fakti",
+    "TimePlanForApproval": "Rejani tasdiqlash",
+    "AwaitedResult": "Kutilgan natija",
+    "Observers": "Kuzatuvchilar",
+    "DateWorkStart": "boshlanish sanasi",
+    "DateDeadline": "Topshirish muddati; tugatish muddati",
+    "boolean": {
+      "TRUE": "Kiritilgan",
+      "FALSE": "Oʻchirilgan"
+    },
+    "Tags": "Kelib chiqishi",
+    "IsStrictDeadline": "Pudratchi muddatni o'zgartira olmaydi",
+    "RoleId": "Funktsiya",
+    "Text": "Izoh",
+    "StatusId": "Status",
+    "Priority": "Ustuvorlik",
+    "Files": "Qo'shimcha",
+    "OrgchartId": "Tashkiliy tuzilma",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Kiruvchi quti",
+            "rejected": "Og'ishgan",
+            "accepted": "Qabul qilingan",
+            "in_work": "Jarayonda",
+            "approval": "Tasdiqlash bo'yicha",
+            "not_approved": "Og'ishgan",
+            "done": "Bajarildi"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "Kompaniyalar",
+    "orgchart": "Tashkiliy tuzilma",
+    "schedule": "Ish vaqti",
+    "communication": "Vazifalar",
+    "regulation": "Bilimlar bazasi",
+    "dashboard": "Boshqaruv panellari",
+    "report": "Hisobotlar",
+    "report_communication": "Vazifa bo'yicha",
+    "employee": "Xodimlar",
+    "edu": "Trening",
+    "settings": "Sozlamalar",
+    "bot_activate": "BB Bot ni faollashtirish",
+    "help_chat": "Qo'llab-quvvatlash chat"
+  },
+  "modules": {
+    "OrganizationalStructure": "Tashkiliy tuzilma",
+    "Communications": "Vazifalar",
+    "ReportsAnalytics": "Hisobotlar",
+    "EmployeeSchedules": "Ish vaqti",
+    "EmployeeManagement": "Xodimlar",
+    "TrainingDevelopment": "Trening",
+    "KnowledgeBase": "Bilimlar bazasi",
+    "DashboardsVisualization": "Boshqaruv panellari",
+    "PlanningForecasting": "Rejalashtirish",
+    "CalendarTasksPlanning": "Rejalashtirish"
+  },
+  "settings": {
+    "common": "General",
+    "company": "Kompaniya",
+    "modules": "Modullar",
+    "user": "Profil"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "Takroriy topshiriqdan yaratilgan",
+      "accept": "Qabul qilingan",
+      "act": {
+        "from_recurring": "Takroriy topshiriqdan yaratilgan"
+      },
+      "withdrawn": "Vazifa bekor qilindi",
+      "rj": "Vazifa rad etildi",
+      "r": {
+        "t": "Mahsulot qabul qilindi",
+        "f": "Mahsulot qabul qilinmadi"
+      },
+      "m": {
+        "u": {
+          "r": "Xodim ishdan bo'shatilgandan keyin vazifa qayta tayinlandi"
+        }
+      },
+      "creator-updated": "Yuboruvchi o'zgartirildi",
+      "executor-updated": "Ko‘rib chiqish uchun ko‘chirildi",
+      "send-again": "Norozilik",
+      "do-by-myself": "Men buni o'zim qilaman",
+      "accepted": "Qabul qilingan",
+      "completed": "Bajarildi",
+      "send-for-review": "Tasdiqlash uchun topshirildi",
+      "approve": "Tasdiqlangan",
+      "not-approve": "Og'ishgan",
+      "in-work": "Ishga qaytish",
+      "logs": {
+        "name": "Ism",
+        "description": "Tavsif",
+        "attachment": "Qo'shimcha",
+        "participant": "Kuzatuvchilar",
+        "awaited": {
+          "result": "Mahsulot"
+        },
+        "role": {
+          "id": "Funktsiya"
+        },
+        "date": {
+          "work": {
+            "start": "boshlanish sanasi"
+          },
+          "deadline": "Topshirish muddati; tugatish muddati"
+        },
+        "time": {
+          "plan": "Reja",
+          "fact": "Fakt"
+        },
+        "is": {
+          "strict": {
+            "deadline": "Pudratchi muddatni o'zgartira olmaydi"
+          },
+          "manager": {
+            "review": {
+              "required": "Direktorning roziligini talab qiladi"
+            }
+          }
+        },
+        "orgchart": {
+          "id": "Tashkiliy tuzilma"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "Sahna rejissyori"
+            }
+          }
+        },
+        "executor": {
+          "id": "Ijrochi"
+        },
+        "proof": {
+          "requirement": {
+            "title": "Isbot",
+            "text": "Dalilning tavsifi"
+          }
+        },
+        "priority": "Ustuvorlik"
+      }
+    },
+    "actions": {
+      "accept": "Qabul qiling",
+      "in-work": "Ishga qaytish",
+      "send-for-review": "Tasdiqlash uchun yuboring",
+      "approve": "Tasdiqlash",
+      "not-approve": "Rad etish",
+      "rj": "Rad etish",
+      "complete": "Bajarildi",
+      "copy": "Dublikat",
+      "delete": "Oʻchirish",
+      "archive": "Arxiv",
+      "un-archive": "Zipni oching",
+      "send-again": "Qayta yuborish",
+      "do-by-myself": "Men buni o'zim qilaman"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "Dalilsiz bajarilgan"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "Kiruvchi quti",
+          "rejected": "Og'ishgan",
+          "accepted": "Qabul qilingan",
+          "in_work": "Jarayonda",
+          "approval": "Tasdiqlash uchun yuboring",
+          "not_approved": "Yaxshilash kerak",
+          "done": "Bajarildi"
+        }
+      }
+    },
+    "approval": "Tasdiqlash bo'yicha",
+    "done": "Bajarildi",
+    "pending": "Kiruvchi quti",
+    "in_work": "Jarayonda",
+    "new_issues": "Yangi bir martalik vazifalar",
+    "new_issues_from_recurring": "Yangi takrorlanadigan vazifalar",
+    "dis": "Muddati o'tgan",
+    "na24": "24 soatdan ortiq qabul qilinmaydi",
+    "n72": "72 soatdan ortiq vaqt davomida tasdiqlanmagan",
+    "nm48": "48 soatdan ortiq ishga olinmagan",
+    "hm3": "Xabar 3 soatdan ortiq javobsiz qoldi",
+    "issue": {
+      "hint": {
+        "has_message": "Oʻqilmagan izoh"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "Tasdiqlash talab qilinadi",
+    "OnApproval": "Tasdiqlash bo'yicha",
+    "NotApproved": "Yaxshilash kerak",
+    "Rejected": "Rassom tomonidan rad etilgan",
+    "Approved": "Tasdiqlangan",
+    "Recurring": "Takrorlanadigan",
+    "Done": "Bajarildi",
+    "Expired": "Muddati o'tgan"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "Tashkiliy tuzilma"
+      },
+      "o": {
+        "f": "Funktsiya"
+      },
+      "recurring_issue": {
+        "title": "Takroriy vazifalar"
+      },
+      "user": {
+        "title": "Xodimlar",
+        "invite": "Taklifnomalar"
+      },
+      "company": {
+        "title": "Kompaniya",
+        "edit": "Tahrirlash",
+        "employees": "Xodimlar",
+        "notifications": "Bildirishnomalar"
+      },
+      "report": {
+        "title": "Hisobotlar"
+      },
+      "user_schedule": {
+        "title": "Ish vaqti",
+        "view": "Ko‘rish",
+        "edit": "Tahrirlash"
+      },
+      "Regulations": {
+        "title": "Qoidalar"
+      },
+      "knowledge_base_permission": {
+        "title": "Bilimlar bazasi"
+      },
+      "function": {
+        "title": "Funktsiya"
+      },
+      "education": {
+        "title": "Trening"
+      },
+      "issue": {
+        "title": "Vazifalar"
+      }
+    },
+    "o": {
+      "a": "Yaratilish",
+      "e": "Tahrirlash",
+      "d": "Olib tashlash",
+      "s": "Saralash",
+      "va": "Barcha tashkiliy jadvallarni ko'ring"
+    },
+    "orgchart": {
+      "role": {
+        "add": "Yaratilish",
+        "edit": "Tahrirlash",
+        "sort": "Saralash",
+        "move": "Harakatlanuvchi",
+        "delete": "Olib tashlash",
+        "users_edit": "Xodimlarni boshqarish",
+        "permissions_edit": "Ruxsat boshqaruvi"
+      }
+    },
+    "recurring_issue": {
+      "add": "Yaratilish",
+      "edit": "Tahrirlash",
+      "delete": "Olib tashlash",
+      "pause_manage": "Pauza nazorati",
+      "view_history": "Tarixni ko'rish"
+    },
+    "user": {
+      "show_phone_number": "Telefon raqamini ko'rish",
+      "edit": "Tahrirlash",
+      "delete": "Olib tashlash",
+      "company_invite.add": "Yaratilish",
+      "company_invite.delete": "Olib tashlash"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "Sarlavha va tavsif",
+        "timezone": "Vaqt mintaqasi",
+        "schedule": "Ish vaqti",
+        "mi": "Interval ko'rsatkichi"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "Qoidalarni qayta yuborish huquqlarini boshqarish"
+      },
+      "notifications": {
+        "manage_violations_notifications": "Buzilish bildirishnomalarini boshqarish"
+      }
+    },
+    "r": {
+      "cm": "Vazifa bo'yicha"
+    },
+    "s": {
+      "v": {
+        "a": "Barcha funksiyalar",
+        "c": "Subordinator funktsiyalari",
+        "p": "Menejerlarning funktsiyalari"
+      },
+      "u": {
+        "a": "Barcha funksiyalar",
+        "o": "O'z funktsiyalari",
+        "c": "Subordinator funktsiyalari"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "Tasdiqlarsiz e'lon qiling"
+      }
+    },
+    "full_access": "To'liq kirish",
+    "education": {
+      "owner_course_access": "Kurs egasiga kirish"
+    },
+    "issue": {
+      "view_all_issues": "Barcha foydalanuvchilarning vazifalarini ko'rish",
+      "self_appoval_of_plan": "Haftalik rejani o'z-o'zidan tasdiqlash"
+    }
+  },
+  "orgchart_template": {
+    "c_universal": "Universal",
+    "c_retail_store_chain": "Chakana savdo tarmog'i",
+    "c_manufacturing": "Ishlab chiqarish",
+    "c_wholesale_company": "Ulgurji kompaniya",
+    "s_furniture_manufacturing": "Mebel ishlab chiqarish",
+    "s_training_center": "o'quv markazi / maktab",
+    "s_clothing_store": "Kiyim do'koni",
+    "s_construction": "Qurilish",
+    "s_online_store": "Onlayn do'kon",
+    "s_dentistry": "Stomatologiya",
+    "s_real_estate_agency": "Ko'chmas mulk agentligi",
+    "s_wholesale_trade": "Ulgurji"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} topshiriq haqida fikr bildirdi",
+      "IssueApprovalFail": "{{senderName}} vazifani qayta koʻrib chiqish uchun qaytardi",
+      "IssueApprovalSuccess": "{{senderName}} topshiriqni tasdiqladi",
+      "IssueItsTimeToWork": "Vazifa ustida ishlashni boshlash vaqti keldi!",
+      "IssueNewComment": "{{senderName}} sizni tilga oladi",
+      "IssueRejected": "{{senderName}} topshiriqni rad etdi",
+      "IssueStatusUpdate": "{{senderName}} vazifa holatini oʻzgartirdi",
+      "IssueMovedToOnApproval": "{{senderName}} sizga tasdiqlash vazifasini qo‘ydi",
+      "DeadlineIsExpiredIssueViolation": "Muddati o'tgan",
+      "RegulationAdded": "{{senderName}} oʻqish uchun yangi qoidalarni tayinladi",
+      "RegulationChanged": "{{senderName}} qoidalarni oʻzgartirdi",
+      "RegulationMovedToOnApproval": "{{senderName}} sizni tasdiqlash qoidasini yaratdi",
+      "RegulationNewMessage": "{{senderName}}. reglamentga yangi izoh qo'shildi",
+      "SectionAdded": "Yangi bo'lim paydo bo'ldi",
+      "SectionUpdated": "Bo'lim yangilandi",
+      "IssueAdded_Observable": "{{senderName}} sizni kuzatuvchi sifatida qo‘shdi",
+      "IssueAdded_RequiresAction": "{{senderName}} sizga vazifa tayinladi"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Kiruvchi quti",
+            "rejected": "Og'ishgan",
+            "accepted": "Qabul qilingan",
+            "in_work": "Jarayonda",
+            "approval": "Tasdiqlash bo'yicha",
+            "not_approved": "Og'ishgan",
+            "done": "Bajarildi"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "Chiqish",
+    "type3": "Dam olish",
+    "type4": "Kasal."
+  },
+  "plan_status": {
+    "type1": "Kutilmoqda",
+    "type2": "Tasdiqlash kutilmoqda",
+    "type3": "Tasdiqlangan",
+    "type4": "Rad etilgan"
+  },
+  "end_access_time_dialog": {
+    "title": "Business Booster Platform-ning demo-kirish muddati {{date}} da tugadi",
+    "text": "Platformadan foydalanishni davom ettirish uchun, iltimos, pullik tarifga o'ting.\nTarifga o'tish sizga barcha modullarga kirish imkoniyatini beradi va demo-versiyadan foydalanish paytida kiritilgan barcha ma'lumotlarni saqlaydi.",
+    "button": "Tariflarni ko'rib chiqish"
+  },
+  "end_access_time_count": {
+    "title": "Kirish tugashigacha qolgan vaqt:",
+    "day": "kun",
+    "day1": "kun",
+    "day2": "kun",
+    "hours": "soat",
+    "hours1": "soat",
+    "hours2": "soat",
+    "minute": "daqiqa",
+    "minute1": "daqiqa",
+    "minute2": "daqiqa",
+    "second": "soniya",
+    "second1": "soniya",
+    "second2": "soniya"
+  }
+}

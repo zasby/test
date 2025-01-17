@@ -540,19 +540,19 @@ export const DownloadIcon: FC<Props> = ({ size = 16, color = "currentColor" }) =
   <svg width={size} height={size} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10"
-      stroke="#5672FF"
+      stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M4.66699 6.6665L8.00033 9.99984L11.3337 6.6665"
-      stroke="#5672FF"
+      stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
       d="M8 10V2"
-      stroke="#5672FF"
+      stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
@@ -906,7 +906,7 @@ export const StarIconWithoutBackground: FC<Props> = ({ size = 16, color = "curre
   >
     <path
       d="M8.00065 1.33301L10.0607 5.50634L14.6673 6.17968L11.334 9.42634L12.1207 14.013L8.00065 11.8463L3.88065 14.013L4.66732 9.42634L1.33398 6.17968L5.94065 5.50634L8.00065 1.33301Z"
-      fill="white"
+      fill="transaprent"
       stroke={color}
       strokeWidth="1.5"
       strokeLinecap="round"
@@ -917,9 +917,9 @@ export const StarIconWithoutBackground: FC<Props> = ({ size = 16, color = "curre
 
 export const ListChecks: FC<Props> = ({ size = 16, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2 11.3333L3.33333 12.6667L6 10" stroke="#8E939D" strokeWidth="1.5" strokeLinecap="round"
+    <path d="M2 11.3333L3.33333 12.6667L6 10" stroke={color} strokeWidth="1.5" strokeLinecap="round"
           strokeLinejoin="round" />
-    <path d="M2 4.66732L3.33333 6.00065L6 3.33398" stroke="#8E939D" strokeWidth="1.5" strokeLinecap="round"
+    <path d="M2 4.66732L3.33333 6.00065L6 3.33398" stroke={color} strokeWidth="1.5" strokeLinecap="round"
           strokeLinejoin="round" />
     <path d="M8.66699 4H14.0003" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     <path d="M8.66699 8H14.0003" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

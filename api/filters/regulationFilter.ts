@@ -1,4 +1,5 @@
 import { tabKeysType } from "../../constants/regulation/consts";
+import { SortOrder } from "antd/lib/table/interface";
 
 export type RegulationFilter = {
   useContext?: boolean;
@@ -15,4 +16,7 @@ export type RegulationFilter = {
   hasActiveContent?: boolean;
   toStudy?: boolean;
   tab?: tabKeysType;
+  orderBy?: string
+  order?: SortOrder;
 };
+

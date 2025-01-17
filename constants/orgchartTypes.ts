@@ -1,8 +1,9 @@
 import { OrgchartTemplateTypeDto, OrgchartTemplateTypeEnum } from "../api/models/OrgchartTemplateTypeDto";
-
-export const ORGCHART_DEFAULT_TYPE = 'd' as OrgchartTemplateTypeEnum;
-export const ORGCHART_CLASSIC_TYPE = 'c' as OrgchartTemplateTypeEnum;
-export const ORGCHART_SIMPLIFIED_TYPE ='s'  as OrgchartTemplateTypeEnum
+export const {
+  ORGCHART_DEFAULT_TYPE,
+  ORGCHART_CLASSIC_TYPE,
+  ORGCHART_SIMPLIFIED_TYPE,
+} = OrgchartTemplateTypeEnum;
 
 export const ORGCHART_TYPES: OrgchartTemplateTypeDto[] = [
   {

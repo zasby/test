@@ -1,10 +1,11 @@
 {
   "placeholder": {
     "enter": "進入",
+    "awaited_result": "輸入預期成果",
     "email": "user@example.com",
     "password": "p@ssw0rd",
     "invite_code": "1A2B3C4D",
-    "first_name": "名字",
+    "first_name": "姓氏",
     "middle_name": "中間名字",
     "last_name": "姓",
     "week_start_day": "日曆週開始",
@@ -13,33 +14,33 @@
     "phone_number": "電話號碼",
     "name": "輸入名稱",
     "function_name": "名稱",
-    "valuable_final_product": "輸入結果",
-    "parent_function": "選擇主項目",
+    "valuable_final_product": "輸入產品",
+    "parent_function": "選擇上級職務",
     "restore_code": "輸入恢復代碼",
     "time_zone": "選擇時區",
-    "company_owner": "公司擁有者",
+    "company_owner": "公司負責人",
     "email_confirmation_code": "12345",
     "company_name": "公司名稱",
     "contact_person": "聯絡人",
     "contact_phone_number": "聯絡人電話",
-    "issue_name": "輸入名稱",
+    "issue_name": "輸入任務名稱",
     "issue_description": "輸入描述",
-    "issue_result": "輸入預期結果",
-    "issue_proof_description": "輸入預期驗證的描述",
+    "issue_result": "輸入預期產品",
+    "issue_proof_description": "輸入完成證明的相關說明",
     "divider_deadline": "直到",
     "comment": "評論",
-    "issue_comment": "寫一個評論 ...",
-    "write_comment": "寫一個評論 ...",
+    "issue_comment": "寫評論 ...",
+    "write_comment": "寫評論 ...",
     "click_to_select": "點擊選擇",
-    "click_to_select_function": "點擊選擇功能",
+    "click_to_select_function": "點擊選擇職務",
     "recurring_task_name": "在此輸入名稱",
     "recurring_task_description": "在此處輸入描述",
     "recurring_task_result": "在此處輸入預期成果",
     "preferred_communication_name": "名稱",
     "preferred_communication_value": "用戶名/電話號碼",
-    "reason": "解釋一個原因",
-    "search_here": "在這裡開始您的任務搜索...",
-    "enter_role": "輸入部門名稱",
+    "reason": "說明原因",
+    "search_here": "搜尋任務",
+    "enter_role": "輸入職務名稱",
     "create_new_regulation": "制定新規章...",
     "section_name": "輸入主題名稱...",
     "regulation_name": "輸入規章名稱...",
@@ -48,7 +49,7 @@
     "search_by_employees": "按員工搜尋",
     "search_by_companies": "按公司搜尋",
     "glossary": {
-      "r": "結果"
+      "r": "產品"
     },
     "come_up_question": "提出一個問題",
     "come_up_answer": "提出一個答案",
@@ -63,41 +64,42 @@
     "update_note_name": "更新筆記名稱",
     "upload_the_json_file": "上傳 JSON 文件",
     "code": "輸入代碼",
-    "create_anchor": "請輸入拉丁文或數字格式：",
+    "create_anchor": "請輸入拉丁文或數字格式:",
     "enter_a_comment": "輸入評論...",
     "search": "搜尋",
     "plan_search": "計劃搜索",
-    "describe_situation": "情況的描述",
-    "write_data": "寫入數據",
-    "suggest_decision": "建議決定",
-    "write_question": "寫入一個問題",
+    "describe_situation": "說明情況",
+    "write_data": "輸入資料",
+    "suggest_decision": "建議的解決方案",
+    "write_question": "輸入問題",
     "project_name": "輸入名稱",
-    "project_description": "輸入描述",
+    "project_description": "輸入說明",
     "project_budget": "輸入預算",
-    "project_tasks_reject_dialog": "輸入拒絕任務的原因",
+    "project_tasks_reject_dialog": "說明拒絕任務的原因",
     "project_search": "項目搜尋",
-    "min": "最低限度",
-    "max": "最大限度",
+    "min": "最低",
+    "max": "最高",
     "dashboard_column_count": "輸入列數",
-    "write_reason": "指明原因",
+    "write_reason": "說明原因",
     "time_block": {
       "name": "輸入標題",
-      "description": "輸入描述",
+      "description": "填入說明",
       "selectDate": "選擇日期",
       "selectTime": "選擇時間"
     },
     "enter_password": "輸入新密碼",
-    "empty": "空的"
+    "empty": "空的",
+    "new_employee": "新員工 #{{id}}"
   },
   "subheader": {
     "email": "電子郵件",
     "orgchart": "組織圖",
     "password": "密碼",
-    "password_check": "重複密碼",
-    "invite_code": "邀請代碼",
-    "first_name": "名字",
+    "password_check": "再次輸入密碼",
+    "invite_code": "邀請碼",
+    "first_name": "姓氏",
     "middle_name": "中間名字",
-    "last_name": "姓氏",
+    "last_name": "名字",
     "app_locale": "語言",
     "app_theme": "主題",
     "phone_number": "電話號碼",
@@ -106,18 +108,18 @@
     "contact_phone_number": "聯絡人電話",
     "week_start_day": "日曆週開始",
     "report_start_day": "報告週開始",
-    "description": "描述",
-    "function_name": "部門名稱",
-    "valuable_final_product": "結果",
+    "description": "說明",
+    "function_name": "職務名稱",
+    "valuable_final_product": "產品",
     "parent_function": "主要項目",
     "restore_code": "恢復碼",
-    "work_schedule": "公司時間表",
+    "work_schedule": "公司行程表",
     "time_zone": "時區",
-    "company_owner": "公司擁有者",
+    "company_owner": "企業主",
     "function_color": "顏色",
-    "email_confirmation": "郵箱確認碼",
-    "employee": "員工",
-    "employee_type": "員工類型",
+    "email_confirmation": "電子郵件確認碼",
+    "employee": "職員",
+    "employee_type": "職員類型",
     "task_recurring_name": "名稱",
     "my_companies": "我的公司",
     "avatar": "頭像",
@@ -126,75 +128,76 @@
     "who_not_available": "排除",
     "periodicity": "每次都執行",
     "proof": "完成證明",
-    "proof_description": "證明描述",
+    "proof_description": "完成證明的說明",
     "proof_image_amount": "數字",
     "proof_text_length": "符號",
-    "employee_functions": "員工職務",
-    "employee_functions_administrator": "員工職務（管理者）",
-    "employee_functions_executor_specialist": "員工職務（執行者）",
-    "employee_functions_executor_trainee": "員工職務（實習生）",
+    "employee_functions": "職員職務",
+    "employee_functions_administrator": "職員職務（管理者）",
+    "employee_functions_executor_specialist": "職員職務（執行者）",
+    "employee_functions_executor_trainee": "職員職務（實習生）",
     "left_drawer_state": "左側選單",
     "boards": "董事會",
     "comment": "評論",
     "call_result": "結果顯示",
     "message": "訊息",
     "text": "文字",
-    "issue_name": "名稱",
-    "issue_priority": "優先事項",
-    "issue_description": "描述",
+    "issue_name": "輸入任務名稱",
+    "issue_priority": "優先序",
+    "issue_description": "輸入描述",
     "issue_result": "結果",
     "issue_executor": "執行者",
-    "issue_fact_result": "實際結果",
+    "issue_fact_result": "執行者",
     "issue_role": "職務",
-    "filter_issue_role": "按功能",
-    "issue_participants": "觀察者",
-    "issue_sender": "建立者",
+    "filter_issue_role": "按職務",
+    "issue_participants": "協作者/CC",
+    "issue_sender": "建立者/核准者",
     "issue_advanced_settings": "進階設定",
     "issue_actions": "行動",
     "issue_current_status": "當前狀態",
     "issue_created": "已建立",
-    "issue_time_for_approval": "计划批准时间",
-    "issue_time_fact_for_approval": "实际批准时间",
+    "issue_time_for_approval": "計劃批准所需時間",
+    "issue_time_fact_for_approval": "實際批准所需時間",
     "issue_orgachart_company": "組織圖",
-    "deadline": "截止時間",
+    "issue_with_deadline": "完成修改截止日期",
+    "deadline": "截止日期",
     "indicate_reason_changing_deadline": "指明更改截止日期的原因",
     "executor_deadline": "開始日期",
-    "date_work_start_for_approval": "审核开始",
+    "date_work_start_for_approval": "審核開始",
     "by_violations": "按違規類型",
     "by_activity": "按活動",
     "by_statuses": "按狀態",
     "reason": "原因",
     "work_start": "工作開始",
-    "communication_type": "通訊軟體",
-    "sender": "建立者",
+    "communication_type": "溝通類型",
+    "sender": "建立者/核准者",
     "use_timezone_of": "使用時區",
     "executor": "執行者",
     "attachments": "附件",
-    "role_select": "選擇功能",
-    "position_select": "選擇位置",
+    "role_select": "選擇職務",
+    "position_select": "選擇職位",
     "terminology": "術語",
     "name": "名稱",
     "companies": "公司",
     "drivers": "自動化報表",
     "company": "公司",
     "drivers_admin": "自動化報表管理員",
-    "confirm_delete_employee": "您真的要刪除該員工嗎？",
-    "confirm_delete_company": "您真的要刪除這家公司嗎？",
-    "dashboard_name": "名稱",
-    "metric_interval": "區間",
-    "metric_source": "來源",
+    "confirm_delete_employee": "您真的要刪除該職員嗎？",
+    "confirm_delete_company": "您真的要刪除該公司嗎？",
+    "dashboard_name": "儀表板名稱",
+    "metric_interval": "指標區間",
+    "metric_source": "指標來源",
     "chart_name": "圖表名稱",
     "metric_filling": "填入",
     "metric_switch_main": "主要數值衡量指標",
-    "metric_switch_reverse": "轉置數值衡量指標",
+    "metric_switch_reverse": "反向指標 (數值越低越好，例：逾期帳單數)",
     "metric_switch_fix": "將數值衡量指標指派給人員",
     "metric_switch_double": "雙重座標軸",
-    "select_metrics": "數值衡量指標",
+    "select_metrics": "選擇數值衡量指標",
     "metric_function": "職務",
     "metric_responsible": "負責",
     "metric_orgchart": "組織圖",
     "metric_settings": "設置 Y 軸值",
-    "metric_employee": "員工",
+    "metric_employee": "職員",
     "situation": "情況",
     "data": "數據",
     "decision": "決定",
@@ -202,35 +205,36 @@
     "code": "代碼",
     "locale": "語言",
     "unclosed_tasks": "未完成的任務",
-    "unallocated_tasks": "未分配任务",
+    "unallocated_tasks": "未排程的任務",
     "no_open_tasks": "沒有未完成的任務",
-    "week_plan": "週計劃",
+    "week_plan": "週計畫",
     "issues": "任務",
     "time": "時間",
     "project_name": "項目名稱",
-    "project_description": "輸入項目描述",
+    "project_description": "輸入項目說明",
     "project_budget": "輸入項目預算",
     "end": "結束",
     "project_responsible": "負責項目",
     "project_members": "選擇成員",
     "urgency": "緊急",
-    "selected_project_description": "項目描述",
+    "selected_project_description": "項目說明",
     "selected_project_budget": "項目預算",
     "selected_project_members": "成員",
     "dashboard": "儀表板",
-    "dashboard_column_count": "列數",
+    "dashboard_column_count": "欄數",
     "issue_advanced_settings_deadline": "",
     "issue_advanced_settings_approval": "",
     "metric_switch": "",
-    "table_row": "字符串",
+    "table_row": "表格列",
     "violation_notification_switches": "需求",
-    "requirements_switches": "需求",
-    "templates": "Шаблоны оргструктур",
+    "order_displaying_full_name": "顯示全名的順序",
+    "requirements_switches": "任務違規通知，",
+    "templates": "模板",
     "table_col": "喇叭",
     "issue_complete_dialog_format": {
       "text": "文字",
-      "image": "影像",
-      "file": "文件"
+      "image": "圖片",
+      "file": "檔案"
     },
     "issue_complete_dialog_value": {
       "symbols": "人物",
@@ -243,39 +247,39 @@
       "startTime": "開始",
       "endTime": "結尾",
       "fullDay": "整天",
-      "repeat": "Повторять"
+      "repeat": "重複"
     },
     "change_password": {
       "info_text": "更改帳戶密碼 {{user}}",
       "old_password": "當前密碼",
       "new_password": "輸入新密碼",
-      "confirm_password": "重複輸入新密碼",
-      "placeholder": "输入密码"
+      "confirm_password": "再次輸入新密碼",
+      "placeholder": "輸入密碼"
     },
     "google_account": {
-      "title": "已连接的帐户",
-      "disconnect": "断开连接",
-      "switcher": "在日历计划中显示来自 Google 日历的事件",
-      "switcher_small": "顯示事件"
+      "title": "已綁定的帳戶",
+      "disconnect": "取消綁定",
+      "switcher": "在日曆計劃中顯示來自 Google 日曆的事件",
+      "switcher_small": "顯示行事曆上的活動"
     },
     "google_event": {
       "name": "名稱",
-      "description": "描述",
+      "description": "說明",
       "link": "連結",
-      "repeat": "重复",
+      "repeat": "重複",
       "start_date": "開始日期",
-      "end_date": "结束日期",
-      "organizer": "组织者",
+      "end_date": "結束日期",
+      "organizer": "組織者",
       "reminder": "提醒",
-      "you_come": "你来吗？"
+      "you_come": "你來嗎？"
     },
-    "calendar_sidebar_filter": "在未指派的任務中顯示",
-    "tags": "标签",
+    "calendar_sidebar_filter": "篩選特定任務",
+    "tags": "標籤",
     "regulation_access_control_dialog": {
       "section": "選擇部分",
-      "orgchart": "選擇組織結構",
+      "orgchart": "選擇組織圖",
       "accesses": "授予的訪問權限",
-      "creator": "創建者"
+      "creator": "建立者/核准者"
     },
     "birth_date": "出生日期",
     "employment_date": "入職日期"
@@ -286,14 +290,14 @@
     "login": "登入",
     "signup": "註冊",
     "check_code": "檢查代碼",
-    "already_registered": "已經登記了？",
+    "already_registered": "已經註冊了？",
     "invite": "邀請",
     "invite_employee": "邀請員工",
     "all_invites": "所有邀請",
     "save": "儲存",
     "dont_save": "不儲存",
     "create": "建立",
-    "create_function": "創建部門",
+    "create_function": "建立職務",
     "delete": "刪除",
     "forgot_password": "找回密碼",
     "send_reset_code": "發送重置碼",
@@ -301,21 +305,21 @@
     "clear": "清除",
     "today": "今天",
     "later": "之後",
-    "studied_and_understood": "完全的",
-    "add": "添加",
+    "studied_and_understood": "完成學習",
+    "add": "新增",
     "close": "關閉",
-    "save_schedule": "儲存公司時間表",
+    "save_schedule": "儲存時間表",
     "add_company": "新增「新」公司",
     "accept": "接受",
     "decline": "拒絕",
-    "add_task": "新增新任務",
+    "add_task": "新增任務",
     "add_issue": "新增例行公事",
-    "leave_company": "離開",
+    "leave_company": "離開公司",
     "upload": "上傳",
-    "upload_from_pc": "从设备上传",
-    "change": "改變",
+    "upload_from_pc": "從電腦上傳",
+    "change": "變更",
     "edit": "編輯",
-    "create_company": "新公司",
+    "create_company": "建立新公司",
     "create_dashboard": "建立儀表板",
     "reset": "重置",
     "wrote": "已填寫",
@@ -332,33 +336,33 @@
     "add_files": "新增檔案",
     "go_to_processing": "開始工作",
     "finish_work": "完成工作",
-    "reset_all_boards": "重置所有規則",
-    "yes": "是的",
-    "no": "不",
-    "apply": "申請",
+    "reset_all_boards": "重置所有看板",
+    "yes": "待審核任務",
+    "no": "排除待審核",
+    "apply": "套用",
     "show_links": "顯示連結",
     "follow": "跟隨",
-    "attach": "附加",
-    "relation_my": "我的",
-    "relation_control": "控制中",
-    "relation_participate": "觀察中",
-    "relation_subordinates": "Подчиненные",
+    "attach": "新增檔案",
+    "relation_my": "我的任務",
+    "relation_control": "我指派的",
+    "relation_participate": "關注中",
+    "relation_subordinates": "下屬",
     "create_task": "建立任務",
-    "create_routine": "建立例行公事",
+    "create_routine": "建立例行任務",
     "create_message": "建立訊息",
-    "create_decision": "建立CSW",
+    "create_decision": "建立 CSW",
     "driver_issue_actions": "自動化",
     "no_driver_issue_actions": "非自動化",
     "support": "支援",
-    "to_profile": "轉到個人檔案",
+    "to_profile": "前往個人檔案",
     "add_regulation": "新增規章",
     "add_section": "新增主題",
-    "stats": "統計數據",
+    "stats": "職員學習紀錄",
     "add_role": "新增職務",
     "add_to_section": "選擇規章主題",
     "add_testing": "增加測驗",
     "access_setting": "權限",
-    "assign_study": "指定学习",
+    "assign_study": "指定學習",
     "with_single_answer": "增加單選題的答案",
     "with_multiple_answer": "增加複選題的答案",
     "go_back": "回去",
@@ -373,7 +377,7 @@
     "back_to_regulation": "返回到規章",
     "try_again": "再試一次",
     "confirm": "確認",
-    "roll_up": "往上滑",
+    "roll_up": "收起",
     "save_results": "儲存",
     "submit_for_approval": "提交核准",
     "approve": "核准",
@@ -381,12 +385,12 @@
     "add_reaction": "新增表情符號",
     "react": "反應",
     "reject": "拒絕",
-    "change_v2": "改變",
+    "change_v2": "修改",
     "filter": "篩選",
     "publish": "發布",
     "request_publication": "請求發布",
     "add_group": "新增群組",
-    "add_dashboard": "建立",
+    "add_dashboard": "建立儀表板",
     "share": "分享",
     "choose": "選擇",
     "study": "學習",
@@ -395,111 +399,113 @@
     "format": "格式",
     "refresh": "重新整理",
     "delete_dashboard": "刪除儀表板",
-    "go_to_task": "去執行任務",
+    "go_to_task": "前往任務",
     "select": "",
-    "telegram_bot_settings": "激活“Business Booster Bot”",
-    "telegram_bot_left_menu": "激活«BB Bot»",
-    "join_to_tg_chat": "加入聊天“BB Platform”",
-    "back": "後退",
-    "leave": "保留",
+    "telegram_bot_settings": "啟用「Business Booster Bot」",
+    "telegram_bot_left_menu": "啟用 «BB Bot»",
+    "join_to_tg_chat": "加入「BB Platform」telegram 群組",
+    "back": "返回",
+    "leave": "離開",
     "changed": "更改",
     "change_password": "更改密碼",
-    "download_report": "下载 CSV 格式的报告",
-    "archive": "存档 ",
-    "google_add_account": "添加 Google 日历帐户",
+    "download_report": "下載 CSV 格式的報告",
+    "archive": "封存",
+    "google_add_account": "新增 Google 日曆帳戶",
     "google_event": {
-      "declined": "不",
-      "tentative": "也许",
-      "accepted": "是的"
+      "declined": "拒絕",
+      "tentative": "暫定",
+      "accepted": "已確認"
     },
-    "add_answer": "添加回答",
-    "create_section": "创建章节",
-    "extend_access": "延長訪問權限"
+    "add_answer": "新增回答",
+    "create_section": "新增章節",
+    "extend_access": "開通完整權限",
+    "duplicate": "複製"
   },
   "label": {
     "added_to_topic": "新增至主題",
     "reusable_invite_code": "可重複使用的邀請碼",
     "weekdays_same_schedule": "所有工作日",
-    "strict_deadline": "嚴格的截止時間",
-    "proof_not_needed": "不需要",
+    "strict_deadline": "不可更動的截止日期",
+    "proof_not_needed": "不需要提供完成證明",
     "proof_text": "文字",
-    "proof_image": "圖像",
+    "proof_image": "圖片",
     "proof_file": "檔案",
-    "issues_with_violations": "違規任務",
-    "scheduled_for_today": "預定今天",
-    "grouping_by_orgcharts": "按組織結構分組",
-    "grouping_by_tags": "按标签分组",
-    "last_comment_is_proof": "最新評論作為驗證基礎",
-    "last_comment_is_reason": "使用最後一則評論作為理由",
-    "is_test": "正在測驗",
+    "issues_with_violations": "逾期或未確認的任務",
+    "scheduled_for_today": "今天排程的任務",
+    "grouping_by_orgcharts": "按組織結構分類",
+    "grouping_by_users": "按下屬分組",
+    "grouping_by_tags": "按標籤分類",
+    "last_comment_is_proof": "用最新一則的評論作為提交補充說明",
+    "last_comment_is_reason": "使用最後一則評論作為退回原因",
+    "is_test": "進行測驗中",
     "call_result": {
-      "busy": "忙碌的",
-      "fail": "沒有答案",
+      "busy": "忙碌中",
+      "fail": "未通過",
       "resolves_in_30_min": "30分鐘內解決",
       "resolves_until_day_end": "在一天結束前解決",
-      "resolves_in": "解決直到",
-      "promised_to_call_executor": "管理者承諾會通知執行者",
-      "gave_other_contacts": "管理者提供其他的聯繫方式"
+      "resolves_in": "預計解決時間",
+      "promised_to_call_executor": "主管承諾會通知執行者",
+      "gave_other_contacts": "主管提供其他的聯繫方式"
     },
     "result_achieved": "取得的成果",
     "issue_custom_filed": {
       "is_strict_deadline": "不允許執行者更改截止日期",
-      "is_manager_approval_required": "需要管理者的核准"
+      "is_manager_approval_required": "此任務/CSW需要主管核准"
     },
-    "do_not_create_at_weekends": "在週末時建立",
+    "do_not_create_at_weekends": "不在週末時建立",
     "timezone_of": {
       "executor": "執行者",
-      "employee": "部門的執行者",
-      "sender": "建立者",
+      "employee": "職務負責人",
+      "sender": "發起人",
       "company": "公司"
     },
     "sender_type": {
       "nearest_admin": "直屬主管",
-      "executor_of_function": "部門的執行者",
-      "admin_of_function": "部門管理者",
-      "admin_of_function_v2": "部門的職員"
+      "executor_of_function": "職務負責人",
+      "admin_of_function": "主管",
+      "admin_of_function_v2": "職務負責人"
     },
-    "add_first_regulation": "新增第一條規章",
+    "add_first_regulation": "新增第一份規章",
     "approver": "核准者",
-    "add_bot": "增加機器人",
+    "add_bot": "新增機器人",
     "planning_filter": {
-      "approved": "核准的",
-      "not_approved": "不核准",
-      "not_planned": "未計劃"
+      "approved": "已核准",
+      "not_approved": "未核准",
+      "not_planned": "未計畫"
     },
     "paid_company": "已付費帳號",
     "test_company": "測試帳號",
-    "inactive": "非活跃公司",
-    "partially_paid_company": "半付费公司",
-    "on_verification": "驗證中",
+    "inactive": "非活躍公司",
+    "partially_paid_company": "半付費公司",
+    "on_verification": "篩選審核狀態",
     "violation_notification_switch": {
       "first": "超過24小時不接受",
-      "second": "超過 48 小時未受聘",
-      "third": "超過 72 小時未獲批准"
+      "second": "超過48小時未受聘",
+      "third": "超過72小時未獲批准"
     },
     "requirements_switches": {
       "first": "完成作業時，請將「事實」欄位設為必填。",
-      "second": "В在將任務轉換為「進行中」狀態時，請指定任務執行的開始日期。"
+      "second": "在將任務轉換為「進行中」狀態時，請指定任務執行的開始日期。"
     },
-    "show_on_orgchart": "在組織結構圖上顯示",
-    "manual_archiving": "只能手動存檔"
+    "show_on_orgchart": "顯示在組織圖上",
+    "manual_archiving": "手動封存"
   },
   "title": {
     "draft": "草稿",
-    "archive_dialog": "指定存档原因",
+    "archive_dialog": "封存任務",
     "active": "啟用",
-    "pause": "暫停",
-    "completed": "完全的",
+    "pause": "停用",
+    "completed": "已完成",
     "invite_employee": "邀請新員工",
     "all_invites": "所有邀請",
     "invite": "邀請",
     "edit_to_start": "填寫您的個人資料",
-    "edit_to_start_company": "填寫您的公司信息",
+    "edit_to_start_company": "填寫您的公司資訊",
     "watch_to_start": "開始觀看",
     "function_create": "建立職務",
     "function_edit": "編輯職務",
     "function_move": "移動職務",
-    "function_sort": "排列子項目",
+    "function_sort": "排列職務",
     "function_delete": "刪除職務",
     "recurring_issue_delete": "刪除例行公事？",
     "recurring_issue_history": "例行公事的歷史紀錄",
@@ -509,25 +515,25 @@
     "leave_company": "離開公司？",
     "avatar_change": "更換頭像",
     "company_delete": "刪除公司",
-    "employee_delete": "刪除員工",
-    "board_reset": "重置董事會規則",
-    "all_boards_reset": "重置所有公司的規則",
-    "driver_called": "通話結果",
-    "driver_called_admin": "致電給管理者",
+    "employee_delete": "刪除職員",
+    "board_reset": "重置看板設定",
+    "all_boards_reset": "重置所有公司的設定",
+    "driver_called": "通知結果",
+    "driver_called_admin": "通知管理者",
     "report_regulations": "已學習規章的報告",
-    "stats": "統計數據",
+    "stats": "職員學習紀錄",
     "policies": "規章",
     "topics": "主題",
     "copy_task": "複製任務",
     "copy_decision": "複製CSW",
     "copy_message": "複製信息",
     "reject_task": "拒絕任務",
-    "send_again": "重新发送",
+    "send_again": "重新發送",
     "reject_decision": "拒絕CSW",
     "reject_message": "拒絕訊息",
     "copy_issue": {
       "title": "複製任務",
-      "subtitle": "選擇執行者和角色"
+      "subtitle": "選擇執行者和職務"
     },
     "withdraw_issue": {
       "title": "撤回任務",
@@ -546,7 +552,7 @@
     "driver_script_title": "自動化報表",
     "date_range_select": "選擇日期範圍",
     "close_task_no_proof": "注意！",
-    "links": "連接",
+    "links": "連結",
     "delete_issue": "刪除任務？",
     "delete_task": "刪除任務？",
     "delete_decision": "刪除CSW？",
@@ -563,34 +569,34 @@
     "driver_issue_report": "自動化報告",
     "driver_issue_no_actions": "非自動化",
     "additional_settings": "其他設定",
-    "mark_working_day": "標記一個工作日",
+    "mark_working_day": "標記為工作日",
     "mark_weekend": "休息一天",
-    "mark_vacation": "標記假期",
-    "mark_medical": "標記病假",
-    "access_to_section": "進入到主題",
-    "access_to_regulation": "進入到規章",
-    "assign_study": "指定学习",
-    "linked_roles_to_section": "連接到主題功能",
-    "linked_roles_to_regulation": "與規章相關的角色",
+    "mark_vacation": "標記為假期",
+    "mark_medical": "標記為病假",
+    "access_to_section": "章節權限",
+    "access_to_regulation": "規章權限",
+    "assign_study": "指定學習",
+    "linked_roles_to_section": "與章節相關的職務",
+    "linked_roles_to_regulation": "與規章相關的職務",
     "expect": "排除",
-    "replace_regulation": "移動策略",
+    "replace_regulation": "移動規章",
     "select_section": "選擇一個主題",
-    "learnt_regulation": "已了解",
-    "no_learnt_regulation": "待閱讀",
+    "learnt_regulation": "已學習",
+    "no_learnt_regulation": "待學習",
     "testing": "測驗",
     "select": "選擇",
-    "submit_for_approval": "提交核准",
+    "submit_for_approval": "提交審核",
     "super_admin_drivers": "最高權限的系統管理員",
     "companies": "公司",
     "drivers_drivers": "系統管理員",
     "confirm": "確認",
     "attention": "注意",
-    "create_first_metric": "建立您的第一個數值衡量指標",
-    "create_metric": "建立數值衡量指標",
-    "add_metric": "新增數值衡量指標",
+    "create_first_metric": "建立您的第一個指標",
+    "create_metric": "建立指標",
+    "add_metric": "新增指標",
     "metric_prefix": "[MM]",
-    "main_metric": "主要數值衡量指標",
-    "edit_metric": "修改數值衡量指標",
+    "main_metric": "主要指標",
+    "edit_metric": "修改指標",
     "delete_metric": "確認刪除",
     "create_first_dashboard": "建立您的第一個儀表板",
     "create_dashboard": "建立儀表板",
@@ -598,101 +604,107 @@
     "delete_dashboard": "刪除儀表板",
     "metric_settings": "圖表設定",
     "confirm_deletion": "確認刪除",
+    "delete_not_empty": "無法刪除此部分",
     "edit_metric_to_dashboard": "輸入數據",
     "create_solution": "建立解決方案",
     "releases": "更新筆記",
-    "update_notes": "更新註記",
-    "update_note": "更新註記",
+    "update_notes": "更新筆記",
+    "update_note": "更新筆記",
     "connecting_bot": "連接機器人",
     "list_bots": "機器人列表",
     "add_group_company": "新增群組",
     "edit_group_company": "編輯群組",
-    "reject_plan": "說明計劃的拒絕原因",
+    "reject_plan": "說明需要修改的內容",
     "create_project": "新項目",
     "reject_all": "全部拒絕",
-    "archvive_of_issues": "問題存檔",
-    "delete_metric_dialog_title": "刪除數值衡量指標",
+    "archvive_of_issues": "封存的任務",
+    "delete_metric_dialog_title": "刪除指標",
     "issue": "",
     "create_issue": "",
-    "create_table": "創建表",
-    "insert_video": "添加視頻",
+    "create_table": "建立表格",
+    "insert_video": "插入影片",
     "no_tasks": "沒有任務",
     "confirm_delete_comment": "你確定要刪除此評論嗎？",
     "executor_declined_task": "被執行者拒絕",
-    "on_approval_task": "需要批准",
-    "save_template": "Сохранить шаблон",
+    "on_approval_task": "需要核准",
+    "save_template": "保存模板",
     "time_block": "事件",
-    "delete_events": "删除事件？",
-    "recurring_issue": "重复任务",
+    "delete_events": "刪除事件？",
+    "recurring_issue": "例行任務",
     "change_password": "更改密碼",
-    "google_event": "Google 日历事件",
-    "tags": "标签",
-    "selected_google_calendar": "选择要在平台上显示的日历",
+    "google_event": "Google 日曆事件",
+    "tags": "標籤",
+    "selected_google_calendar": "選擇要在平台上顯示的日曆",
     "regulation_access_dialog_collapse": {
       "Read": "查看",
       "Write": "查看 + 編輯",
       "ReadWrite": "查看 + 讀寫",
       "Assignment": "查看 + 指定學習",
-      "FullAccess": "完全訪問"
+      "FullAccess": "完整權限"
     },
-    "regulation_templates": "模板"
+    "regulation_templates": "規章模板"
   },
   "text": {
     "ar": "",
-    "awaited_result": "結果",
+    "awaited_result": "等待結果",
     "from_time": "從",
     "to_time": "到",
     "change_company": "切換公司",
     "no_invites": "沒有邀請",
-    "current_company": "活躍中",
-    "company_owner": "公司擁有人",
-    "employees_amount": "員工",
-    "company_not_registered": "公司未成立",
+    "current_company": "目前公司",
+    "company_owner": "企業主",
+    "employees_amount": "職員數",
+    "employees_full_amount": "具有完全訪問權限的員工",
+    "employees_full_restricted": "具有受限訪問權限的員工",
+    "company_not_registered": "尚未建立公司",
+    "external_id": "外部 ID",
     "invite_code": "邀請代碼",
-    "deadline": "截止時間",
+    "deadline": "截止日期",
     "date_created": "已建立",
     "substitute": "代理人",
     "no_links": "此描述不包含連結",
     "period": "期間",
-    "apply_to_all_functions": "適用於所有員工的職務",
+    "apply_to_all_functions": "適用所有職務",
     "beginning_and_end_of_shift": "指定工作時間",
     "start_day_exceeds_end": "工作日的開始時間超過了結束時間",
     "start_period_exceeds_end": "起始日晚於截止日",
     "reset": "重置",
-    "no_data": "沒有數據",
+    "no_data": "沒有資料",
     "child_functions_direction": "排列子項目",
     "driver_administrators": "自動化報表管理員",
     "drivers": "自動化報表",
     "confirm_delete_metric": "所有員工的指標將從儀表板中刪除",
-    "empty_metric_users": "沒有可用的員工",
+    "empty_metric_users": "沒有可選擇的員工",
     "date_work_start": "將開始日期設定為晚於截止時間",
     "delete_metric_dialog_warning": "如果您刪除某個指標，則所有指標都有可能從儀表板中刪除。 無法撤消此操作。 您確定要刪除所有指標嗎？",
     "main_metric_warning": {
-      "text1": "此部門“{{metricName}}”已經有一個主要數值衡量指標。",
-      "text2": "通過打開此開關，您確認主要數值衡量指標將更換。"
+      "text1": "此部門「{{metricName}}」已經有一個主要指標。",
+      "text2": "啟用此選項，將確認更換主要指標。"
     },
-    "edited_comment": "改變了",
+    "edited_comment": "已更改",
     "deleted_comment": "已刪除",
-    "confirm_delete_comment": "此操作無法撤消",
-    "created_task": "創建了任務",
-    "correct_answer": "正确答案",
-    "update_note_alert": "想要随时了解我们平台的更新和生活小技巧吗？加入我们的Telegram频道 “Business Booster Platform”，置身于所有事件的中心！\uD83D\uDE0A",
-    "google_calendar_reminder": "提醒：开始前 {{time}}",
-    "archive_task": "任务已归档",
+    "confirm_delete_comment": "此操作無法撤回",
+    "created_task": "已建立任務",
+    "correct_answer": "正確答案",
+    "update_note_alert": "想要隨時了解平台的更新資訊和小技巧嗎？加入我們的Telegram頻道 “Business Booster Platform”，隨時獲得最新消息！\uD83D\uDE0A",
+    "google_calendar_reminder": "提醒： {{time}}後即將開始",
+    "archive_task": "任務已封存",
     "un_archive_task": "任務從存檔中返回",
-    "delete_topic": "您確定要刪除整個部分嗎？",
+    "delete_topic": "您確定要刪除整個主題嗎？",
+    "delete_not_empty_topic": "此部分包含嵌套的子部分或文件。要刪除此部分，請先移除所有嵌套項目。",
+
     "delete_regulation": "您確定要刪除該條例嗎？"
   },
   "caption": {
     "executors": "執行者",
-    "administrators": "管理者",
+    "administrators": "主管",
     "interaction_history": "歷史紀錄",
     "boards_table": {
       "id": "ID",
       "name": "名稱",
       "last_update": "最後更新",
       "number_updates": "更新次數",
-      "actions": "行動"
+      "actions": "操作"
     },
     "do_not_save_recurring_task": "不儲存例行任務？"
   },
@@ -700,33 +712,33 @@
     "all": "全部",
     "all_employees": "所有職員",
     "comments": "評論",
-    "actions": "行動",
-    "log": "變遷史",
+    "actions": "操作",
+    "log": "修改紀錄",
     "manual_method": "手動模式"
   },
   "misc": {
-    "administrator": "管理者",
+    "administrator": "主管",
     "specialist": "專家",
     "trainee": "實習生",
     "new_user": "新使用者",
-    "no_administrators": "沒有管理者",
+    "no_administrators": "沒有主管",
     "no_executors": "沒有執行者",
     "radio_all": "全部",
     "require": {
-      "images_min_count": "數字",
-      "files_min_count": "數字",
-      "text_min_length": "長度"
+      "images_min_count": "最少數量",
+      "files_min_count": "最少數量",
+      "text_min_length": "最短長度"
     },
     "click_to_select": "點擊選擇",
     "days": "天",
     "month": "月",
     "day": "天",
-    "to_admins_of_function": "對於管理者",
+    "to_admins_of_function": "對於主管",
     "to_executors_of_function": "對於執行者"
   },
   "hint": {
     "orgchart": "組織圖",
-    "communications": "問題",
+    "communications": "任務",
     "recurringIssues": "例行公事",
     "inviteEmployee": "邀請員工",
     "permissions": "權限",
@@ -741,9 +753,9 @@
   "table": {
     "employees": "員工",
     "total": "全部",
-    "studied": "已了解",
+    "studied": "已學習",
     "to_study": "未學習",
-    "studied_percent": "完成"
+    "studied_percent": "完成進度"
   },
   "helper": {
     "error_textfield": "確保一切是否正確！"
@@ -754,28 +766,28 @@
     "save": "儲存",
     "delete": "刪除",
     "time_block": {
-      "free_time": "空閒時間 — 此處顯示未分配的工作時間，根據工作計劃減去每天計劃完成任務的總時間來計算。此外，當超過計劃時間或工作日負載不足時，此欄位將以顏色突出顯示。",
+      "free_time": "空閒時間 — 此處顯示空餘的工作時間，根據工作計劃減去每天計劃完成任務的總時間來計算。此外，當超過計劃時間或工作日負載不足時，此欄位將以顏色突出顯示。",
       "total_tasks": "任務總數 — 此處顯示完成的任務數量和每天計劃的任務總數，格式為「2 / 5」。",
       "plan_actual": "實際 / 計劃 — 此處顯示實際花費在任務執行上的時間和每天計劃任務的總計劃時間，格式為「1小時30分 / 7小時」。"
     },
-    "add_to_topic": "添加到部分",
-    "access_settings": "訪問設置",
-    "access_settings_without_topic": "要配置訪問權限，請將該條例添加到部分中",
+    "add_to_topic": "新增到主題中",
+    "access_settings": "權限設定",
+    "access_settings_without_topic": "要設定權限，請將該規章添加到主題中",
     "assign_study": "指定學習",
     "access_control_dialog": {
-      "creator": "創建者具有完全訪問權限"
+      "creator": "創建者具有完整權限"
     },
     "table_planing": {
-      "total_tasks": "总任务 — 这里显示的是指定期间内已完成任务的数量和计划任务的总数量，格式为 \"2 / 5\"。",
-      "plan_actual": "实际/计划 — 这里显示的是实际完成任务所花费的时间和所选期间内计划任务的总计划时间，格式为 \"1小时30分钟 / 7小时\"。"
+      "total_tasks": "總任務 — 這裡顯示的是指定期間內已完成任務的數量，以及預期任務的總數量，格式為「2 / 5」。",
+      "plan_actual": "實際/計劃 — 這裡顯示的是實際完成任務所花費的時間，以及預期花費的總時數，格式為「1小時30分鐘 / 7小時」。"
     },
-    "extend_access": "查詢平台工作延期的條件",
+    "extend_access": "了解開通完整權限的條件",
     "set_deadline": "設定截止日期"
   },
   "checkbox": {
     "full_day": "整天",
     "send_retraining": "發送再培訓",
-    "publish_without_approval": "未經批准發布"
+    "publish_without_approval": "無需核准即可發布"
   },
   "planning_indicator": {
     "pending_approval": "待核准",
@@ -785,12 +797,20 @@
   "planning_table": {
     "recurring_tasks": "例行公事",
     "weekly_tasks": "任務",
-    "unscheduled_tasks": "計劃外任務",
-    "fact": "实际时间",
-    "plan": "计划时间",
+    "unscheduled_tasks": "預期外的任務",
+    "google_events": "Google 日曆事件",
+    "fact": "實際完成任務所需時間",
+    "plan": "計劃任務所需時間",
     "start": "開始",
-    "deadline": "截止時間",
-    "status": "狀態"
+    "deadline": "截止日期",
+    "status": "狀態",
+    "date_time": "日期和時間",
+    "google_events_status": {
+      "Unfinished": "計劃中",
+      "Finished":  "已完成",
+      "Declined": "已拒絕"
+    },
+    "awaitedResult": "預期結果"
   },
   "metric_switch": {
     "day": "天",
@@ -801,7 +821,7 @@
   },
   "calendar": {
     "today": "今天",
-    "unallocated_tasks": "未分配任務",
+    "unallocated_tasks": "未排程的任務",
     "total_tasks": "總任務數:",
     "planned_time": "計劃時間:"
   },
@@ -811,44 +831,44 @@
     "plan_actual": "實際 / 計劃"
   },
   "change_password": {
-    "first_validation_rule": "最少8個字符",
+    "first_validation_rule": "最少 8 個字符",
     "second_validation_rule": "至少一個大寫字母",
-    "third_validation_rule": "至少1個特殊字符",
-    "fourth_validation_rule": "密码与旧密码不同",
+    "third_validation_rule": "至少一個特殊字符",
+    "fourth_validation_rule": "密碼與舊密碼不同",
     "validation_seccusess": "強密碼",
     "confirm_text": "密碼已更改。",
     "popover_error": {
-      "title": "請再試一次或使用 ",
+      "title": "請再試一次或使用",
       "link": "密碼重置"
     }
   },
   "google_calendar_banner": {
-    "text": " 你可以将 Google 日历连接到 BB 平台。",
-    "text_connect": "已连接",
-    "link": "连接"
+    "text": "你可以將 Google 日曆連接到 BB 平台。",
+    "text_connect": "已連結",
+    "link": "已連結"
   },
   "google_account_disconnect_dialog": {
-    "title": "断开 Google 日历帐户",
-    "text": " 断开将会停止您在平台和 Google 日历之间的同步。您将不再在 Google 日历上看到来自平台的所有任务，在平台上，来自 Google 日历的会议也将消失。",
-    "question": "您确定要断开 Google 日历帐户吗？"
+    "title": "中斷連結 Google 日曆帳戶",
+    "text": "中斷連結將會停止您在平台和 Google 日曆之間的同步。您將不再在 Google 日曆上看到來自平台的所有任務，平台上的 Google 日曆會議也將消失。",
+    "question": "您確定要斷開 Google 日曆帳戶嗎？"
   },
   "hidden_google_events_dialog": {
-    "text": " 您确定要隐藏 Google 日历事件吗？这个操作可能会影响您日程表的准确性。"
+    "text": "您確定要隱藏 Google 日曆事件嗎？這個操作可能會影響您日程表的準確性。"
   },
   "google_calendar_settings_modal": {
-    "title": "日历设置"
+    "title": "日曆設定"
   },
   "issue_change_deadline_dialog": {
     "title": "指定新的截止日期"
   },
   "card_issue_deadline_tooltip": {
     "title": "執行者不能更改截止日期",
-    "text": "若要更改，請聯繫任務分配人"
+    "text": "若要更改，請聯繫任務發起人"
   },
   "create_tag_dialog": {
     "title": "創建新標籤",
-    "label_name": "名稱",
-    "label_placeholder": "輸入名稱",
+    "label_name": "標籤名稱",
+    "label_placeholder": "輸入標籤名稱",
     "color": "顏色"
   },
   "edit_tag_dialog": {
@@ -859,11 +879,11 @@
     "description": "刪除標籤後，它將從所有看板上的任務中移除"
   },
   "adding_regulations_to_section_dialog": {
-    "title": "將條例添加到部分",
+    "title": "將規章/文件新增到培訓資料夾中",
     "selected": "已選擇：{{count}}"
   },
   "adding_regulation_to_section_dialog": {
-    "title": "將條例添加到部分"
+    "title": "將規章/文件新增到培訓資料夾中"
   },
   "regulation_table_columns": {
     "title": "標題",
@@ -873,61 +893,61 @@
   },
   "regulation_actions": {
     "submit_for_approval": {
-      "title": "提交審批",
-      "text": "批准條例後即可向所有人發布"
+      "title": "提交審核",
+      "text": "規章通過核准，即可向所有人發布"
     },
     "publish": {
       "title": "發布",
-      "text": "批准條例後即可向所有人發布"
+      "text": "規章通過核准，即可向所有人發布"
     },
     "reject": {
       "title": "拒絕",
-      "text": "批准條例後即可向所有人發布"
+      "text": "規章通過核准，即可向所有人發布"
     },
     "study_assignment": {
       "title": "指定學習",
-      "text": "該文件將發送給所有人學習",
-      "textSection": "該部分將發送給所有人學習。"
+      "text": "該文件將發佈給所有人學習",
+      "textSection": "該部分將發佈給所有人學習"
     },
     "access_to_regulations": {
-      "title": "訪問條例",
-      "text": "此設置允許限制或授予對文件的完全權限"
+      "title": "查看規章",
+      "text": "此設置允許限制或授予對文件的完整權限"
     },
     "access_to_sections": {
-      "title": "訪問部分",
-      "text": "此設置允許限制或授予對部分的完全權限"
+      "title": "查看章節",
+      "text": "此設置允許限制或授予對部分的完整權限"
     },
     "remove_from_section": {
-      "title": "從部分中刪除",
-      "text": "該文件將被移至「無部分」類別",
-      "textSection": "該部分將被移至「無部分」類別"
+      "title": "從章節中刪除",
+      "text": "該文件將被移往「無主題」的類別中",
+      "textSection": "該文件將被移往「無主題」的類別中"
     },
     "copy_link": {
-      "title": "複製鏈接",
-      "text": "該文件將對所有有訪問權限的人可見",
-      "textSection": "該部分將對所有有訪問權限的人可見"
+      "title": "複製連結",
+      "text": "該文件將對所有擁有權限的人開放",
+      "textSection": "該章節將對所有擁有權限的人開放"
     },
     "added_to_section": {
-      "title": "添加到部分",
-      "text": "您可以將此條例添加到現有部分或從當前部分中分離"
+      "title": "新增至主題中",
+      "text": "您可以將此規章新增至現有章節或從當前章節中移除"
     },
     "delete": {
       "title": "刪除",
       "text": "未發布的條例"
     },
     "history": {
-      "title": "條例歷史",
-      "text": "在此部分中，您可以查看所有更改和更新日期"
+      "title": "規章紀錄",
+      "text": "您可以查看所有更動和更新日期"
     },
     "testing": {
-      "button": "添加测试",
-      "title": "測試",
-      "text": "在查看文件後添加測試以鞏固知識"
+      "button": "新增測驗",
+      "title": "進行測驗",
+      "text": "新增測驗以提高理解程度"
     }
   },
   "confirm_dialog_remove_from_section": {
-    "title": "確認刪除條例",
-    "text": "您確定要將條例從部分「{{sectionTitle}}」中刪除嗎？\n已刪除的條例將移至「無部分」。"
+    "title": "確認刪除規章",
+    "text": "您確定要將條例從主題「{{sectionTitle}}」中刪除嗎？\n已刪除的條例將移至「無主題」。"
   },
   "regulation_status": {
     "Draft": "草稿",
@@ -936,9 +956,9 @@
     "Rejected": "已拒絕"
   },
   "section": {
-    "empty_data": "此部分目前沒有條例，但您可以添加第一個條例。"
+    "empty_data": "此主題目前沒有規章，請新增第一篇規章。"
   },
-  "useful_advice": "有用的提示：單擊子功能一次只會選擇該子功能。\n雙擊選擇子功能及其子功能。",
+  "useful_advice": "有用的提示：單擊子功能一次只會選擇該功能。\n雙擊選擇該功能及其子功能。",
   "date_format": {
     "year": "年",
     "year1": "年",
@@ -948,43 +968,490 @@
     "month2": "月"
   },
   "no_access_resource_dialog": {
-    "title": "您无权访问此文档",
-    "section_title": "您無權訪問此部分",
-    "text": "请向文档的作者请求访问权限",
-    "section_text": " 請求該部分的作者授權访问",
-    "copy_link": "复制链接"
+    "title": "您無權查看此文件",
+    "section_title": "您無權查看此部分",
+    "text": "向文件的作者請求權限",
+    "section_text": "要求該主題的作者給予權限",
+    "copy_link": "複製連結"
   },
   "request_change_access_type_dialog": {
-    "title": "访问级别 - {{type}}",
-    "text": "如果您想更改对该文档的访问级别，请联系其所有者",
-    "section_text": "如果您想更改对该部分的访问级别，请联系其所有者",
-    "copy_link": "复制链接"
+    "title": "訪問級別 - {{type}}",
+    "text": "如果您想更改對該文件的權限級別，請聯繫其作者",
+    "section_text": "如果您想更改對該部分的權限級別，請聯繫其作者",
+    "copy_link": "複製連結"
   },
   "confirm_dialog_remove_issue_from_plan": {
-    "title": "您确定要从计划中删除任务 \"{{title}}\"吗？"
+    "title": "您確定要從計劃中刪除任務 \"{{title}}\"嗎？"
+  },
+  "planingGrouping": {
+    "roles": "按功能分組",
+    "tags": "按標籤分組",
+    "no_grouping": "不分組"
   },
   "issueActions": {
     "add_related_task": "添加相關任務"
   },
   "quickValuesTime": {
-    "5min": "5 min",
-    "15min": "15 min",
-    "30min": "30 min",
-    "1h": "1 h",
-    "2h": "2 h",
-    "4h": "4 h"
+    "5min": "5 分鐘",
+    "15min": "15 分鐘",
+    "30min": "30 分鐘",
+    "1h": "1 小時",
+    "2h": "2 小時",
+    "4h": "4 小時"
   },
   "tariffs": {
-    "Bb1Economy": "經濟 BB1",
-    "Bb1Business": "商務 BB1",
-    "Bb1Premium": "高級 BB1",
-    "Bb2Economy": "經濟 BB2",
-    "Bb2Business": "商務 BB2",
-    "Bb2Premium": "高級 BB2",
-    "Resident": "居民",
+    "Bb1Economy": "經濟型 BB1",
+    "Bb1Business": "商務型 BB1",
+    "Bb1Premium": "高級型 BB1",
+    "Bb2Economy": "經濟型 BB2",
+    "Bb2Business": "商務型 BB2",
+    "Bb2Premium": "高級型 BB2",
+    "Resident": "常駐用戶",
     "Vip": "VIP",
     "Demo": "演示",
-    "PlatinumResident": "白金居民",
-    "Custom": "個別條件"
+    "PlatinumResident": "白金常駐用戶",
+    "Custom": "自訂條款"
+  },
+  "placeholder_technical": {
+    "title": "技術維護中",
+    "text": "對造成的不便我們深表歉意"
+  },
+  "issue_activity": {
+    "Name": "輸入任務名稱",
+    "ExecutorUserId": "執行者",
+    "InitiatorUserId": "建立者",
+    "Description": "輸入描述",
+    "TimeFact": "實際批准所需時間",
+    "TimePlan": "計劃批准所需時間",
+    "ProofReqComment": "完成證明的說明",
+    "IsManagerApprovalRequired": "此任務/CSW需要主管核准",
+    "TimeFactForApproval": "實際批准所需時間",
+    "TimePlanForApproval": "計劃批准所需時間",
+    "AwaitedResult": "完成證明",
+    "Observers": "協作者/CC",
+    "DateWorkStart": "開始日期",
+    "DateDeadline": "截止日期",
+    "boolean": {
+      "True": "已啟用",
+      "False": "已禁用"
+    },
+    "Tags": "標籤",
+    "IsStrictDeadline": "不允許執行者更改截止日期",
+    "RoleId": "職務",
+    "Text": "評論",
+    "StatusId": "狀態",
+    "Priority": "優先級",
+    "Files": "附件",
+    "OrgchartId": "組織圖",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "入",
+            "rejected": "重新发送",
+            "accepted": "已接受",
+            "in_work": "待處理",
+            "approval": "待批准",
+            "not_approved": "需要修订",
+            "done": "已完成"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "公司",
+    "orgchart": "組織圖",
+    "schedule": "工作時間表",
+    "communication": "任務",
+    "regulation": "知識庫",
+    "dashboard": "儀表板",
+    "report": "報告",
+    "report_communication": "任務報告",
+    "employee": "職員",
+    "edu": "平台操作指南",
+    "settings": "設定",
+    "bot_activate": "啟用 «BB Bot»",
+    "help_chat": "技術支援聊天室"
+  },
+  "modules": {
+    "orgchart": "組織圖",
+    "tasks": "問題",
+    "reports": "報告",
+    "schedule": "工作時程",
+    "employees": "職員",
+    "education": "教育",
+    "knowledge_base": "知識庫",
+    "dashboards": "儀表板",
+    "planning": "規劃",
+    "calendar_planning": "日曆規劃"
+  },
+  "settings": {
+    "common": "一般設定",
+    "company": "公司設定",
+    "modules": "模組設定",
+    "user": "個人資料設定"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "從重複任務中創建",
+      "accept": "明白",
+      "act": {
+        "from_recurring": "從重複任務中創建"
+      },
+      "withdrawn": "任務已撤回",
+      "complete": "已完成",
+      "rj": "任務已拒絕",
+      "r": {
+        "t": "產品已收到",
+        "f": "產品未收到"
+      },
+      "m": {
+        "u": {
+          "r": "任務因員工移除後重新分配"
+        }
+      },
+      "creator-updated": "發送者已更改",
+      "executor-updated": "已移至審核",
+      "send-again": "重新發送",
+      "do-by-myself": "我自己完成",
+      "accepted": "已接受",
+      "completed": "已完成",
+      "send-for-review": "已提交審核",
+      "approve": "已批准",
+      "not-approve": "未批准",
+      "in-work": "正在進行",
+      "logs": {
+        "name": "名稱",
+        "description": "描述",
+        "attachment": "附件",
+        "participant": "觀察員",
+        "awaited": {
+          "result": "產品"
+        },
+        "role": {
+          "id": "功能"
+        },
+        "date": {
+          "work": {
+            "start": "開始日期"
+          },
+          "deadline": "截止日期"
+        },
+        "time": {
+          "plan": "計劃時間",
+          "fact": "實際時間"
+        },
+        "is": {
+          "strict": {
+            "deadline": "執行者不能更改截止日期"
+          },
+          "manager": {
+            "review": {
+              "required": "需要制定人批准"
+            }
+          }
+        },
+        "orgchart": {
+          "id": "組織結構"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "制定人"
+            }
+          }
+        },
+        "executor": {
+          "id": "執行者"
+        },
+        "proof": {
+          "requirement": {
+            "title": "證明",
+            "text": "證明描述"
+          }
+        },
+        "priority": "優先級"
+      }
+    },
+    "actions": {
+      "accept": "接受",
+      "in-work": "進行中",
+      "send-for-review": "提交審核",
+      "approve": "批准",
+      "not-approve": "拒絕",
+      "rj": "拒絕",
+      "complete": "完成",
+      "copy": "複製",
+      "delete": "刪除",
+      "archive": "歸檔",
+      "un-archive": "取消歸檔",
+      "send-again": "重新發送",
+      "do-by-myself": "我自己完成"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "完成但無證據"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "收件匣",
+          "rejected": "已拒絕",
+          "accepted": "已接受",
+          "in_work": "進行中",
+          "approval": "等待批准",
+          "not_approved": "需要修改",
+          "done": "已完成"
+        }
+      }
+    },
+    "approval": "待批准",
+    "done": "已完成",
+    "pending": "收件匣",
+    "in_work": "進行中",
+    "new_issues": "新的單次任務",
+    "new_issues_from_recurring": "新的重複任務",
+    "dis": "已逾期",
+    "na24": "24小時內未接受",
+    "n72": "72小時內未批准",
+    "nm48": "48小時內未開始",
+    "hm3": "3小時內無回覆消息",
+    "issue": {
+      "hint": {
+        "has_message": "有未讀評論"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "需要批准",
+    "OnApproval": "等待批准",
+    "NotApproved": "需要修改",
+    "Rejected": "執行者已拒絕",
+    "Approved": "已批准",
+    "Recurring": "例行任務",
+    "Done": "已完成",
+    "Expired": "已逾期"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "組織結構"
+      },
+      "o": {
+        "f": "功能"
+      },
+      "recurring_issue": {
+        "title": "重複任務"
+      },
+      "user": {
+        "title": "員工",
+        "invite": "邀請"
+      },
+      "company": {
+        "title": "公司",
+        "edit": "編輯",
+        "employees": "員工",
+        "notifications": "通知"
+      },
+      "report": {
+        "title": "報告"
+      },
+      "user_schedule": {
+        "title": "工作計劃",
+        "view": "查看",
+        "edit": "編輯"
+      },
+      "Regulations": {
+        "title": "規章制度"
+      },
+      "knowledge_base_permission": {
+        "title": "知識庫"
+      },
+      "function": {
+        "title": "功能"
+      },
+      "education": {
+        "title": "培訓"
+      },
+      "issue": {
+        "title": "任務"
+      }
+    },
+    "o": {
+      "a": "創建",
+      "e": "編輯",
+      "d": "刪除",
+      "s": "排序",
+      "va": "查看所有組織結構"
+    },
+    "orgchart": {
+      "role": {
+        "add": "創建",
+        "edit": "編輯",
+        "sort": "排序",
+        "move": "移動",
+        "delete": "刪除",
+        "users_edit": "管理員工",
+        "permissions_edit": "管理權限"
+      }
+    },
+    "recurring_issue": {
+      "add": "創建",
+      "edit": "編輯",
+      "delete": "刪除",
+      "pause_manage": "管理暫停",
+      "view_history": "查看歷史記錄"
+    },
+    "user": {
+      "show_phone_number": "查看電話號碼",
+      "edit": "編輯",
+      "delete": "刪除",
+      "company_invite.add": "創建",
+      "company_invite.delete": "刪除"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "名稱和描述",
+        "timezone": "時區",
+        "schedule": "工作計劃",
+        "mi": "指標間隔"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "管理重新發送規章的權限"
+      },
+      "notifications": {
+        "manage_violations_notifications": "管理違規通知"
+      }
+    },
+    "r": {
+      "cm": "按任務"
+    },
+    "s": {
+      "v": {
+        "a": "所有功能",
+        "c": "下屬功能",
+        "p": "管理者功能"
+      },
+      "u": {
+        "a": "所有功能",
+        "o": "自己的功能",
+        "c": "下屬功能"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "無需批准即可發布"
+      }
+    },
+    "full_access": "完全訪問",
+    "education": {
+      "owner_course_access": "訪問所有者的課程"
+    },
+    "issue": {
+      "view_all_issues": "查看所有用戶的任務",
+      "self_appoval_of_plan": "自我批准每週計劃"
+    }
+  },
+  "orgchart_template": {
+    "c_universal": "通用",
+    "c_retail_store_chain": "零售連鎖店",
+    "c_manufacturing": "製造業",
+    "c_wholesale_company": "批發公司",
+    "c_development_large_construction": "發展：大型建築",
+    "c_development_beauty_and_dentistry_network": "發展：美容和牙科網絡",
+    "c_development_medical_clinic": "發展：醫療診所",
+    "c_development_construction_and_repair": "發展：建築和維修",
+    "c_development_real_estate_agency": "發展：房地產代理",
+    "s_furniture_manufacturing": "家具製造",
+    "s_training_center": "培訓中心/學校",
+    "s_clothing_store": "服裝店",
+    "s_construction": "建築",
+    "s_online_store": "網上商店",
+    "s_dentistry": "牙科診所",
+    "s_real_estate_agency": "房地產中介",
+    "s_wholesale_trade": "批發貿易"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} 評論了任務",
+      "IssueApprovalFail": "{{senderName}} 將任務退回修改",
+      "IssueApprovalSuccess": "{{senderName}} 批准了任務",
+      "IssueItsTimeToWork": "是時候開始任務了！",
+      "IssueNewComment": "{{senderName}} 提到您",
+      "IssueRejected": "{{senderName}} 拒絕了任務",
+      "IssueStatusUpdate": "{{senderName}} 更新了任務狀態",
+      "IssueMovedToOnApproval": "{{senderName}} 將任務提交給您審核",
+      "DeadlineIsExpiredIssueViolation": "已逾期",
+      "RegulationAdded": "{{senderName}} 指派了新規章學習",
+      "RegulationChanged": "{{senderName}} 修改了規章",
+      "RegulationMovedToOnApproval": "{{senderName}} 提交規章審批",
+      "RegulationNewMessage": "{{senderName}} 在規章中添加了新評論",
+      "SectionAdded": "添加了新部分",
+      "SectionUpdated": "部分已更新",
+      "IssueAdded_Observable": "{{senderName}} 添加您為觀察員",
+      "IssueAdded_RequiresAction": "{{senderName}} 指派了任務給您"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "收件匣",
+            "rejected": "已拒絕",
+            "accepted": "已接受",
+            "in_work": "進行中",
+            "approval": "待審批",
+            "not_approved": "未批准",
+            "done": "已完成"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "休息",
+    "type3": "假期",
+    "type4": "病假"
+  },
+  "plan_status": {
+    "type1": "待提交",
+    "type2": "待核准",
+    "type3": "已批准",
+    "type4": "已拒絕"
+  },
+  "end_access_time_dialog": {
+    "title": "Business Booster Platform 的試用訪問已於 {{date}} 結束",
+    "text": "若要繼續使用，請升級至付費方案。\n 升級至付費方案將為您提供所有模組的訪問權限，並保留試用期間輸入的所有數據。",
+    "button": "查看方案"
+  },
+  "end_access_time_resident_dialog": {
+    "text": {
+      "first": "作為 Business Booster 加速器的一部分，您有機會免費使用 Business Booster 平台。由於培訓已結束*，要延長對平台的訪問權限，您需要在 {{date}}** 前切換到付費使用。",
+      "second": "費用為每位添加到平台的員工每月 $4。",
+      "third": "您可以通過平台本身使用銀行卡付款，點擊 \"延長訪問\" 按鈕即可。"
+    },
+    "text_access_time": {
+      "first": "很遺憾，您未能延長對 Business Booster 平台的訪問，因此我們不得不將訪問限制在 \"員工\" 模塊。不過，所有先前輸入的平台數據均已保存。",
+      "second": "要恢復使用平台，您需要切換到付費計劃。"
+    },
+    "button": "查看計劃",
+    "support_chat_text": "或聯繫支持聊天以獲取發票：",
+    "ps": "* 如果關於培訓結束的資訊不正確，我們深表歉意，並請務必在支持聊天中聯繫我們。\n** 如果在 {{date}} 之前未付款或未聯繫支持服務，平台的訪問權限將限制在 \"員工\" 模塊。"
+  },
+  "end_access_time_count": {
+    "title": "剩餘時間至存取結束：",
+    "day": "天",
+    "day1": "天",
+    "day2": "天",
+    "hours": "小時",
+    "hours1": "小時",
+    "hours2": "小時",
+    "minute": "分鐘",
+    "minute1": "分鐘",
+    "minute2": "分鐘",
+    "second": "秒",
+    "second1": "秒",
+    "second2": "秒"
   }
 }

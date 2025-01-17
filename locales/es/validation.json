@@ -1,0 +1,29 @@
+{
+    "field_required": "Este campo es obligatorio",
+    "wrong_email": "Asegúrate de que el correo electrónico esté ingresado sin errores",
+    "min_char_number": "Número mínimo de caracteres: {{number}}",
+    "min_file_number": "Número mínimo de archivos: {{number}}",
+    "min_char": "Mínimo {{ number }} caracteres",
+    "issue_complete_dialog_description": "Formato: {{format}}, {{value}}: {{number}}",
+    "issue_complete_dialog_validate": {
+        "common_error": "Por favor describe el resultado o adjunta un archivo",
+        "time_error": "Por favor especifica la hora real de finalización de la tarea."
+    },
+    "passwords_should_match": "¡Las contraseñas no coinciden!",
+    "passwords_new_should_match": "Las nuevas contraseñas no coinciden",
+    "date_later_deadline": "La fecha excede la fecha límite",
+    "deadline_required": "Se requiere una fecha límite",
+    "enter_regulation_name": "¡Introduce un nombre para el reglamento!",
+    "no_name_question": "¡Por favor, establece un nombre para todas las preguntas!",
+    "no_name_answer": "¡Por favor, establece un nombre para todas las respuestas!",
+    "no_rights_answer": "Debe haber al menos 1 respuesta correcta por cada pregunta",
+    "no_answers": "Debe haber al menos 2 respuestas por cada pregunta",
+    "select_approver": "¡Por favor selecciona al aprobador!",
+    "policy_content_is_empty": "El reglamento no puede estar vacío!",
+    "invalid_code": "Código inválido",
+    "executor_deadline": "La fecha de inicio o la fecha límite no pueden estar en el pasado",
+    "passwords_must_not_same": "La contraseña actual y la nueva no deben ser la misma",
+    "executor_deadline_in_past": "Fecha límite inválida.",
+    "invalid_current_password": "Contraseña incorrecta",
+    "tag_name": "Ya existe una etiqueta con este nombre"
+}

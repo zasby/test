@@ -25,6 +25,8 @@ export type UserShortDto = {
     dateLastOnline?: string | null;
     dateControlSessionLastInteraction?: string | null;
     isDeleted?: boolean;
+    isFired?: boolean;
     dateDeletedAt?: string | null;
     timeZoneId?: string | null;
+    isSystem?: boolean;
 }

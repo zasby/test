@@ -50,6 +50,7 @@ export type IssueDto = {
     createdByUser?: UserShortDto;
     proofRequirementId?: number | null;
     proofRequirement?: IssueProofRequirementDto;
+    proofReqComment?: string;
     proof?: IssueProofDto;
     executorUserId?: number;
     executorUser?: UserShortDto;
@@ -71,6 +72,7 @@ export type IssueDto = {
     error?: string;
     isStrictDeadline?: boolean;
     tags?: TagDto[];
+    hasActivityHistory?: boolean;
     // tagIds?: number[];
 }
 

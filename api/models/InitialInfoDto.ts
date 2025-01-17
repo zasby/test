@@ -8,6 +8,7 @@ import type { MenuItemWithChildrenDto } from './MenuItemWithChildrenDto';
 import type { OrgchartDto } from './OrgchartDto';
 import type { UserDto } from './UserDto';
 import { CompanyModulesDto } from "./CompanyModulesDto";
+import { ICulture } from "./ICultureDto";
 
 export type InitialInfoDto = {
     identity?: UserDto;
@@ -17,4 +18,5 @@ export type InitialInfoDto = {
     permissions?: Array<string> | null;
     orgcharts?: Array<OrgchartDto> | null;
     companyModules?: Array<CompanyModulesDto> | null
+    culture?: ICulture;
 }

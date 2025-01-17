@@ -16,4 +16,5 @@ export type RegulationTreeItemDto =  NavigationMenuItemDto & {
     isRoot?: boolean;
     withoutATopic?: boolean;
     actions?: allowsRegulationKeys[] | null;
+    hasItems?: boolean;
 }

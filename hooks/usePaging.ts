@@ -1,16 +1,24 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-
-import { isEqual } from "lodash";
-import { PagingModel } from "../api/types";
 import { PagingOptions } from "../api";
+import { PagingModel } from "../api/types";
 import { IApiControllerGet } from "../api/interfaces/iApiControllerGet";
 import { api } from "../services";
-import { PagingInfo } from "../types";
+import { isEqual } from "lodash";
+import { UsersCount } from "../api/models/CompanyForAdminDto";
 
 type PagedRequest<T> = (
   page: number,
   params?: { [key: string]: string | number | boolean | null | number[] }
 ) => Promise<PagingModel<T>>;
+
+export type PagingInfo = {
+  page: number;
+  isLoading: boolean;
+  isDone: boolean;
+  totalItems?: number;
+  usersCount?: UsersCount;
+  timePlanTotal?: string;
+};
 
 const initialPagingInfo = (page: number): PagingInfo => ({ page, isLoading: false, isDone: false } as PagingInfo);
 

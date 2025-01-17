@@ -39,4 +39,9 @@ export class IssueController extends ApiControllerCrud<IssueDto, IssueFilter> {
   public async getTags(data: any): Promise<TagDtoPagingModel | null> {
     return await this.process(this.get(`tags`, { params: data  }));
   }
+
+  public async getMentionableUsers(data: any): Promise<TagDtoPagingModel | null> {
+    return await this.process(this.get(`${data.issueId}/mentionable-users/autocomplete`, { params: data  }));
+  }
+
 }

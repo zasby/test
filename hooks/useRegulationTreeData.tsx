@@ -1,17 +1,15 @@
-
+import { api } from "../services";
 import React, { useCallback, useState } from "react";
 import { useNotifier } from "./useNotifier";
-
+import { NavigationMenuItemDto } from "../api/models/NavigationMenuDto";
+import { RegulationTreeItemDto } from "../api/models/RegulationTreeItemDto";
+import { RegulationTreeNode } from "../api/models/RegulationTreeDto";
+import { Icon } from "../../components/uiKit";
 import { LucideCircle } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { DataNode } from "antd/es/tree";
 import { useTranslation } from "react-i18next";
-import { RegulationTreeNode } from "../api/models/RegulationTreeDto";
-import { RegulationTreeItemDto } from "../api/models/RegulationTreeItemDto";
-import { NavigationMenuItemDto } from "../api/models/NavigationMenuDto";
 import { defineAllow } from "../helpers/helpers";
-import { Icon } from "../../components/uiKit";
-import { api } from "../services";
 import { allowsRegulationKeys } from "../constants/regulation/consts";
 
 export const useRegulationTreeData = () => {
@@ -72,8 +70,9 @@ export const useRegulationTreeData = () => {
     sectionId?: number,
   ): RegulationTreeNode => {
     const type = treeItem.regulationId ? 'r' : 's';
-    const itemId = treeItem.id || treeItem.regulationId || 0;
-    const key = parentItem ? `${parentItem.key}-${type}${itemId}` : `${type}${itemId}`;
+    const itemId = treeItem.regulationId || treeItem.id  || 0;
+    const keyItemId = treeItem.id || treeItem.regulationId || 0;
+    const key = parentItem ? `${itemId}-${parentItem.key}-${type}${itemId}` : `${type}${keyItemId}`;
     if (sectionId && parentItem?.id === sectionId &&  !!treeItem.regulationId) {
       setDefaultSelectedKeys((prev) => ([
         ...prev,
@@ -84,9 +83,9 @@ export const useRegulationTreeData = () => {
     const children = treeItem?.items
       // ?.sort((a, b) => a.order - b.order)
       ?.map((children: NavigationMenuItemDto, i) => {
-        // console.log("generateTreeDataItem children", children);
-        const title = !!children.regulationId ? children.regulation?.name : children.name ?? `${children.id}`
-        return generateTreeDataItem(
+          // console.log("generateTreeDataItem children", children);
+          const title = !!children.regulationId ? children.regulation?.name : children.name ?? `${children.id}`
+          return generateTreeDataItem(
             {
               ...children,
               title,
@@ -99,7 +98,7 @@ export const useRegulationTreeData = () => {
               key
             },
             sectionId,
-            )
+          )
         }
       ) ?? [];
     //
@@ -122,7 +121,7 @@ export const useRegulationTreeData = () => {
         <Icon
           className={"regulation-menu-item__icon"}
           style={{ verticalAlign: "middle" }}
-          component={() => <LucideCircle size={8} color="var(--color-gray-weak)" strokeWidth={4} />}
+          component={() => <LucideCircle size={8} color="var(--color-icn-light)" strokeWidth={4} />}
         />
       ),
       children,
@@ -131,6 +130,7 @@ export const useRegulationTreeData = () => {
       parentActions: parentItem && !parentItem.withoutATopic ? parentItem.actions : undefined,
       disableCheckbox: !!(sectionId && parentItem?.id === sectionId && !!treeItem.regulationId),
       actions: treeItem.actions ?? [],
+      hasItems: treeItem.hasItems,
     }
   }
 

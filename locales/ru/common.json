@@ -93,7 +93,8 @@
       "statistics": "Статистика по сотрудникам",
       "delete": "Удалить компанию",
       "pause": "Приостановить компанию",
-      "switch": "Переключиться на компанию"
+      "switch": "Переключиться на компанию",
+      "duplicate_company": "Дублировать компанию"
     },
     "employee_card": {
       "open": "Открыть профиль",
@@ -112,7 +113,8 @@
     "metric_settings_dropdown": {
       "settings": "Настройки",
       "delete": "Удалить график",
-      "data": "Данные метрики"
+      "data": "Данные метрики",
+      "print": "Печать метрики"
     },
     "regulation_creating_dropdown": {
       "new_document": "Новый документ",
@@ -164,6 +166,8 @@
     "print_orgchart": "Распечатать оргструктуру",
     "total_companies": "Всего компаний",
     "total_employees": "Всего сотрудников",
+    "total_employees_full": "Всего сотрудников с полным доступом",
+    "total_employees_restricted": "Всего сотрудников с ограниченным доступом",
     "support_chat": "Чат поддержки",
     "suggest_revision": "Предложить доработку",
     "version": "Версия",
@@ -414,5 +418,6 @@
     "day": "д ",
     "hour": "ч ",
     "minute": "м"
-  }
+  },
+  "function": "Функции:"
 }

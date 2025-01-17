@@ -1,0 +1,74 @@
+{
+    "loading_data": "Cargando datos",
+    "no_data": "No hay datos",
+    "no_attachments": "No hay adjuntos",
+    "no_permissions": "Permisos insuficientes",
+    "list_empty": "La lista está vacía",
+    "please_wait": "Por favor espera",
+    "until": "hasta",
+    "at": "en",
+    "signup": {
+        "text1": "Ingrese el código de invitación, intentaremos adivinar a qué empresa fue invitado :)",
+        "text2": "Has sido invitado a {{company}}. Ingresa correo electrónico y contraseña para continuar.",
+        "text3": "Estás a punto de crear una empresa. Ingresa correo electrónico y contraseña para continuar."
+    },
+    "add_company": {
+        "text1": "Has sido invitado a '{{companyName}}'. Acepta o rechaza la invitación para continuar.",
+        "text2": "Estás a punto de crear una empresa. Haz clic en 'Aceptar' para continuar."
+    },
+    "leave_company": {
+        "text1": "¿Estás seguro de que quieres dejar '{{companyName}}'?"
+    },
+    "function": {
+        "delete": "Cuando eliminas una función, sus rutinas también se eliminarán, y los empleados y las comunicaciones individuales se desvincularán. ¿Estás seguro?"
+    },
+    "companies_manage": {
+        "delete": "¿Estás seguro?"
+    },
+    "employee": {
+        "delete": "¿Estás seguro?"
+    },
+    "board": {
+        "reset": "¿Estás seguro?",
+        "reset_all": "¿Estás seguro?"
+    },
+    "driver": {
+        "no_cards_found": "No se encontraron tarjetas de empleado con infracciones"
+    },
+    "task_proof": {
+        "no_need_proof": "Esta tarea no requiere una prueba, pero puedes dejar un comentario",
+        "close_no_proof": "¿Realmente quieres terminar la comunicación sin un producto adjunto?"
+    },
+    "task_expired": "La tarea ya está vencida, notifica al gerente y reprograma la fecha límite",
+    "no_elements": "No hay elementos que coincidan con la solicitud",
+    "no_open_tasks": {
+        "sidebar": "Aún no tienes tareas entrantes, pero puedes programar tareas tú mismo",
+        "content": "Aún no tienes tareas, pero puedes establecer una tarea para ti mismo"
+    },
+    "no_dashboard": "Aún no tienes un tablero, pero puedes crear uno",
+    "transfer_undone_tasks": "Transfiere tareas no terminadas del plan anterior",
+    "no_dateStart_and_timePlan": "Establece los valores de 'Plan' y 'Inicio'",
+    "editor_callstack_error": "Error del editor. Si ves esto, por favor repórtalo al soporte.",
+    "metric_equal_source_error": "No puedes crear una métrica con dos fuentes idénticas.",
+    "delete_dashboard_description": "Será imposible deshacer esta acción. ¿Estás seguro?",
+    "date_work_start_expired": "La fecha de inicio se establecerá después de la fecha límite",
+    "date_work_issues_overdue": "La fecha límite para la finalización de la tarea está fijada para {{date}}. \nSi se pospone para {{startDate}} a {{startTime}}, la tarea estará vencida. \nAl hacer clic en el botón “Aceptar”, aceptas que la tarea se cerrará con una infracción.",
+    "chart-name-tooltip": "Si se establece, se mostrará en el gráfico en lugar del nombre de la métrica",
+    "text_editor_bug_dialog": {
+        "text1": "Queridos usuarios de la plataforma,",
+        "text2": "Nos gustaría informarles que estamos realizando mejoras en nuestro editor de texto. Actualmente, hay una posibilidad de perder el texto que has ingresado. Para evitar tales pérdidas, recomendamos escribir temporalmente tu texto en otro lugar y luego transferirlo a Tonnus, o guardarlo periódicamente.",
+        "text3": "Estamos haciendo todo lo posible para minimizar cualquier inconveniente y asegurar el funcionamiento ininterrumpido de la plataforma. Si tienes alguna pregunta, por favor contacta nuestro servicio de soporte.",
+        "text4": "Gracias por su atención y comprensión.",
+        "text5": "Atentamente,",
+        "text6": "Equipo de TONNUS"
+    },
+    "text_editor_error_alert": "Ocurrió un error porque no pudimos procesar tus datos. Por favor intenta actualizar la página. Si el error persiste, recomendamos eliminar los datos más recientes.",
+    "timezone_notification_dialog": {
+        "text1": "Zona horaria",
+        "text2": "Hemos detectado automáticamente tu zona horaria:",
+        "text3": "Por favor confirma o cambia la misma de la lista anterior.",
+        "text3_change_time_zone": "Puedes mantener la zona horaria previamente establecida <b>\"{{oldTimeZone}}\"</b>, haciendo clic en el botón \"Mantener\" o cambiarla a la nueva <b>\"{{newTimeZone}}\"</b>haciendo clic en el botón \"Cambiar\".",
+        "text4": "Zona horaria de la empresa:"
+    },
+    "report_loading": "El informe se está descargando, puede tardar un poco"
+}

@@ -93,7 +93,8 @@
       "statistics": "Employee statistics",
       "delete": "Delete",
       "pause": "Pause",
-      "switch": "Switch"
+      "switch": "Switch",
+      "duplicate_company": "Duplicate company"
     },
     "employee_card": {
       "open": "Open",
@@ -112,7 +113,8 @@
     "metric_settings_dropdown": {
       "settings": "Settings",
       "delete": "Delete graph",
-      "data": "Metric data"
+      "data": "Metric data",
+      "print": "Metric printing"
     },
     "regulation_creating_dropdown": {
       "new_document": "New document",

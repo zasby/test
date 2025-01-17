@@ -1,0 +1,423 @@
+{
+  "page_title": {
+    "authorization": "Autorización",
+    "registration": "Registro",
+    "password_recovery": "Recuperación de contraseña",
+    "orgchart": "Estructura organizativa",
+    "employees": "Empleados",
+    "employee": "Empleado",
+    "employee_edit": "Editar empleado",
+    "settings": "Configuraciones",
+    "settings_common": "Configuraciones comunes",
+    "settings_profile": "Configuraciones del perfil",
+    "settings_company": "Configuraciones de la empresa",
+    "settings_modules": "Configuraciones de módulos",
+    "chart": "Gráficos",
+    "communication": "Tareas",
+    "restore_password": "Recuperar contraseña",
+    "sandbox": "Entorno de pruebas",
+    "driver": "Conductor",
+    "driver_admin": "Administrador de conductores",
+    "driver_pre": "Conductor",
+    "companies_management": "Gestión de empresas",
+    "training": "Formación",
+    "feedback": "Sugerencia de mejora",
+    "report_driver": "Informes de conductores",
+    "report_communication": "Informes de tareas",
+    "reports": "Informes",
+    "reports_by_communication": "Informes por tareas",
+    "reports_by_driver": "Informes por conductores",
+    "driver_user": "Tarjeta del empleado",
+    "schedule": "Horario de trabajo",
+    "support_center": "Centro de soporte",
+    "page_404": "Página no encontrada",
+    "no_pages": "No hay módulos disponibles",
+    "groups_companies": "Grupos de empresas"
+  },
+  "indicator": {
+    "passed": "Aprobado",
+    "not_passed": "No aprobado"
+  },
+  "driver_card": {
+    "writes_count": "Mensajes enviados",
+    "calls_count": "Llamadas realizadas",
+    "fixed_violations": "Violaciones corregidas",
+    "process_avg_time": "Tiempo medio de procesamiento",
+    "overall_time_saved": "Tiempo ahorrado"
+  },
+  "unit_of_measurement": {
+    "times": "veces",
+    "minutes": "minutos",
+    "hours": "horas"
+  },
+  "menu": {
+    "orgchart_card": {
+      "move_function": "Mover función",
+      "add_function": "Añadir subfunción",
+      "edit_function": "Editar función",
+      "sort_functions": "Ordenar subfunciones",
+      "open_control": "Abrir panel de función",
+      "delete_function": "Eliminar función"
+    },
+    "top_bar_profile": {
+      "profile_page": "Perfil",
+      "profile_settings": "Configuraciones",
+      "update_note": "Notas de actualización",
+      "logout": "Cerrar sesión",
+      "cookie": "Política de privacidad y cookies",
+      "feedback": "Comentarios"
+    },
+    "top_bar_company_switcher": {
+      "company_manage": "Gestión de empresas"
+    },
+    "executor_select": {
+      "admins_of_function": "Administradores de la función",
+      "executors_of_function": "Ejecutores de la función",
+      "all_admins": "Todos los administradores",
+      "all": "Todos"
+    },
+    "period_select": {
+      "every_day": "Día",
+      "every_week_at_day": "Semana",
+      "every_month_at_day": "Mes",
+      "every_n_days": "N días"
+    },
+    "deadline_select": {
+      "after_time": "Después del plazo",
+      "until_day": "Hasta el día de la semana"
+    },
+    "company_card": {
+      "copy_code": "Copiar código",
+      "copy_link": "Copiar enlace",
+      "settings": "Configuraciones",
+      "statistics": "Estadísticas de empleados",
+      "delete": "Eliminar empresa",
+      "pause": "Pausar empresa",
+      "switch": "Cambiar a empresa",
+      "duplicate_company": "Duplicar empresa"
+    },
+    "employee_card": {
+      "open": "Abrir perfil",
+      "edit": "Editar perfil",
+      "delete": "Eliminar usuario"
+    },
+    "left_drawer_state": {
+      "always_expanded": "Siempre expandido",
+      "always_collapsed": "Siempre colapsado",
+      "auto_collapsed": "Colapsar automáticamente",
+      "manual_expanded": "Expandir al pasar el ratón"
+    },
+    "manage_companies": {
+      "board_reset": "Restablecer reglas de estado"
+    },
+    "metric_settings_dropdown": {
+      "settings": "Configuraciones",
+      "delete": "Eliminar gráfico",
+      "data": "Datos de métrica",
+      "print": "Imprimir métrica"
+    },
+    "regulation_creating_dropdown": {
+      "new_document": "Nuevo documento",
+      "new_topic": "Nuevo tema"
+    },
+    "regulation_settings_dropdown": {
+      "access_control": "Control de acceso",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "remove_from_section": "Eliminar de la sección"
+    }
+  },
+  "date": {
+    "day": {
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado",
+      "sunday": "Domingo"
+    },
+    "month": {
+      "january": "Enero",
+      "february": "Febrero",
+      "march": "Marzo",
+      "april": "Abril",
+      "may": "Mayo",
+      "june": "Junio",
+      "july": "Julio",
+      "august": "Agosto",
+      "september": "Septiembre",
+      "october": "Octubre",
+      "november": "Noviembre",
+      "december": "Diciembre"
+    }
+  },
+  "misc": {
+    "working_day": "Día laborable",
+    "weekend": "Fin de semana",
+    "vacation": "Vacaciones",
+    "medical": "Baja médica",
+    "collapse_functions": "Colapsar todas las funciones",
+    "expand_functions": "Expandir todas las funciones",
+    "display_by_employee_timezone": "Usar la zona horaria del empleado",
+    "all_recurring_tasks": "Todas las tareas recurrentes",
+    "delete_orgchart": "Eliminar estructura organizativa",
+    "copy_orgchart": "Duplicar estructura organizativa",
+    "print_orgchart": "Imprimir estructura organizativa",
+    "total_companies": "Total de empresas",
+    "total_employees": "Total de empleados",
+    "total_employees_full": "Total de empleados con acceso completo",
+    "total_employees_restricted": "Total de empleados con acceso restringido",
+    "support_chat": "Chat de soporte",
+    "suggest_revision": "Sugerir mejora",
+    "version": "Versión",
+    "new_company": "Nueva empresa",
+    "not_specified": "No especificado",
+    "no_selected": "No seleccionado",
+    "filter": "Filtro",
+    "sort": "Ordenar",
+    "no_name": "Sin nombre",
+    "card_menu": {
+      "add_role": "Añadir subfunción",
+      "edit": "Editar función",
+      "manage": "Abrir función",
+      "sort": "Ordenar subfunciones",
+      "transfer": "Mover función",
+      "delete": "Eliminar función",
+      "print": "Imprimir bloque"
+    },
+    "sort_items": {
+      "ones_first": "Primero los nuevos",
+      "old_ones": "Primero los antiguos",
+      "close_deadline": "Primero los de fecha límite cercana",
+      "high_priority": "Primero los de alta prioridad",
+      "low_priority": "Primero los de baja prioridad",
+      "indefinite": "Primero los indefinidos",
+      "for_today": "Fecha límite hoy",
+      "active": "Activos",
+      "date": "Por fecha",
+      "on_pause": "En pausa",
+      "completed": "Completados",
+      "draft": "Borradores",
+      "all": "Todos",
+      "unfinished_tasks": "Tareas no terminadas",
+      "overdue_deadline": "Tareas con fecha límite vencida"
+    },
+    "time_picker": {
+      "select_time": "Seleccionar hora",
+      "select_date": "Seleccionar fecha",
+      "no_time_selected": "No se ha seleccionado hora",
+      "selected_time_is": "La hora seleccionada es",
+      "select": "Seleccionar"
+    },
+    "date_type": {
+      "minutes": "Minutos",
+      "hours": "Horas",
+      "hour": "Hora",
+      "days": "Días",
+      "months": "Meses"
+    },
+    "time_period_picker": {
+      "every_month": "Cada"
+    },
+    "file_uploaded_number": "Archivos subidos: {{number}}",
+    "entered_characters_number": "Caracteres ingresados: {{number}}"
+  },
+  "theme": {
+    "lightTheme": "Tema claro",
+    "darkTheme": "Tema oscuro"
+  },
+  "tab": {
+    "orgchart": {
+      "employee": "Empleados",
+      "recurring_tasks": "Tareas recurrentes",
+      "permissions": "Permisos",
+      "regulations": "Reglamentos",
+      "metrics": "Métricas"
+    },
+    "board_required_actions": {
+      "add_proof": "Añadir prueba",
+      "set_datedeadline_strict": "Establecer 'Fecha de inicio'",
+      "attach_comment": "Adjuntar comentario",
+      "attach_message": "Adjuntar mensaje",
+      "consolidate_result": "Consolidar resultado",
+      "tab_text": "Describa el resultado o adjunte un archivo",
+      "not_approval": "Escriba el motivo de rechazo",
+      "change_deadline": "Esta tarea tiene una fecha límite, pero puede moverla"
+    },
+    "policy": {
+      "for_approval": "Para aprobación",
+      "to_learn": "Para estudiar",
+      "my": "Mis",
+      "all": "Todos",
+      "topics": "Secciones",
+      "undone": "No finalizados"
+    },
+    "dashboard": {
+      "my": "Mis",
+      "my_metrics": "Mis métricas",
+      "available_to_me": "Disponibles para mí",
+      "my_subordinates": "Métricas de mis subordinados",
+      "fill_out": "Métricas para completar"
+    },
+    "planning": {
+      "my_plan": "Mi plan",
+      "work_plans": "Planes de trabajo",
+      "require_approval": "Requiere aprobación"
+    },
+    "project": {
+      "description": "Descripción del proyecto",
+      "issues": "Tareas",
+      "recurring_issues": "Tareas recurrentes",
+      "gantt_chart": "Gráfico de Gantt"
+    }
+  },
+  "document": {
+    "paid_services_offer": "Contrato de prestación de servicios remunerados",
+    "personal_data_consent": "Consentimiento para el tratamiento de datos personales",
+    "personal_data_policy": "Política de tratamiento y protección de datos personales"
+  },
+  "trainingGroup": {
+    "basics": "Conceptos básicos",
+    "org_structure": "Estructura organizativa",
+    "communications": "Tareas"
+  },
+  "training": {
+    "introductory": "Video introductorio",
+    "overview": "Resumen de la plataforma",
+    "profile_settings": "Configuración del perfil personal",
+    "org_structure": "Estructura organizativa",
+    "settings_org_structure": "Configuración técnica de la estructura organizativa",
+    "communication_module": "Módulo de comunicación",
+    "interaction_with_issues": "Trabajo con tareas",
+    "recurring_issues": "Tareas recurrentes",
+    "settings_recurring_issues": "Configuración de tareas recurrentes"
+  },
+  "breadcrumbs": {
+    "policies": "Reglamentos",
+    "create_policy": "Nuevo reglamento",
+    "create_topic": "Agregar sección",
+    "topics": "Secciones",
+    "policy": "Todos",
+    "report_policies": "Informe de reglamentos estudiados",
+    "stats": "Estadísticas",
+    "planning": "Planificación",
+    "work_plans": "Planes de trabajo",
+    "my": "Mis",
+    "available_to_me": "Disponibles para mí"
+  },
+  "user_selection_dialog": {
+    "position_select_box": {
+      "select_role": "Seleccione la función...",
+      "no_positions": "No hay puestos",
+      "all_managers": "Todos los gerentes",
+      "all_performers": "Todos los ejecutores"
+    },
+    "role_select_box": {
+      "all": "Todos"
+    }
+  },
+  "driver": {
+    "statistics": "Estadísticas",
+    "history": "Historial",
+    "no_data": "No hay elementos coincidentes",
+    "drivers": "Conductores",
+    "monitoring": "Monitoreo",
+    "in_queue": "En cola",
+    "stuck": "Atascado",
+    "last_interaction": "Última interacción con el conductor",
+    "driver": "Conductor",
+    "proceeded_cards": "Tarjetas procesadas",
+    "average_processing_time": "Tiempo promedio de procesamiento de la tarjeta",
+    "corrected_violations": "Violaciones corregidas",
+    "actions": "Acciones",
+    "card": {
+      "queue": {
+        "part1": "Actualmente en cola",
+        "part2": "tarjetas"
+      },
+      "employees_per_driver": {
+        "part1": "Por conductor",
+        "part2": "empleados"
+      },
+      "average_working_time": {
+        "part1": "Tiempo promedio de trabajo",
+        "part2": "minutos"
+      },
+      "average_processing_time": {
+        "part1": "Tiempo promedio de procesamiento de una tarjeta",
+        "part2": "segundos"
+      },
+      "average_number_of_cards": {
+        "part1": "Número promedio de tarjetas procesadas por conductor",
+        "part2": "Tarjetas procesadas"
+      },
+      "average_number_of_violations": {
+        "part1": "Número promedio de violaciones por empleado",
+        "part2": "Violaciones del empleado"
+      }
+    }
+  },
+  "text_editor_toolbar": {
+    "select": {
+      "normal": "Texto normal",
+      "h1": "Encabezado 1",
+      "h2": "Encabezado 2",
+      "h3": "Encabezado 3",
+      "h4": "Encabezado 4",
+      "h5": "Encabezado 5",
+      "h6": "Encabezado 6",
+      "quote": "Cita",
+      "numbered_list": "Lista numerada",
+      "bulleted_list": "Lista con viñetas",
+      "check_list": "Lista de verificación",
+      "align_left": "Alineado a la izquierda",
+      "align_center": "Centrado",
+      "align_right": "Alineado a la derecha",
+      "align_justify": "Justificado",
+      "indent": "Aumentar sangría",
+      "outdent": "Disminuir sangría"
+    },
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "bold": "Negrita",
+    "italic": "Cursiva",
+    "underline": "Subrayado",
+    "code": "Código",
+    "clear_formatting": "Borrar formato",
+    "superscript": "Superíndice",
+    "subscript": "Subíndice",
+    "strikethrough": "Tachado",
+    "link": "Enlace",
+    "color": "Color del texto",
+    "background": "Color de fondo",
+    "hr": "Línea horizontal",
+    "image": "Imagen",
+    "table": "Tabla",
+    "video": "Video"
+  },
+  "text_editor_table_control": {
+    "add_row": "Agregar fila",
+    "add_row_above": "Agregar fila arriba",
+    "add_row_below": "Agregar fila abajo",
+    "add_column": "Agregar columna",
+    "add_column_left": "Agregar columna a la izquierda",
+    "add_column_right": "Agregar columna a la derecha",
+    "delete_row": "Eliminar fila",
+    "delete_column": "Eliminar columna",
+    "delete_table": "Eliminar tabla"
+  },
+  "planning": {
+    "summary_by_function": "Resumen",
+    "number_of_tasks": "Número de tareas: ",
+    "sum": "Suma: ",
+    "back_to_plan": "Volver a mi plan",
+    "all": "Todos",
+    "no_function": "Sin función",
+    "no_tag": "Sin etiqueta",
+    "day": "d ",
+    "hour": "h ",
+    "minute": "m"
+  },
+  "function": "Funciones:"
+}

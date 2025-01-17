@@ -3,6 +3,7 @@
   "yes": "Yes",
   "emptiness": "Emptiness",
   "user_deleted": "User deleted",
+  "user_deactivated": "Deactivated",
   "by_default": "By default",
   "test": "Test",
   "is_test": "Test",
@@ -84,6 +85,7 @@
   "creating_routine": "Creating a routine",
   "editing_routine": "Editing a routine",
   "login_as_another_user": "Sign in as another user",
+  "duplicate_company": "Duplicate company",
   "companies_statistics": "Statistics on companies",
   "queue_cards": "Cards in the queue: {{number}}",
   "reset_all_boards": "Reset all boards",
@@ -375,5 +377,19 @@
   "select_template": "Select a template",
   "apply_to_company": "Apply to Company",
   "show_more": "Show more",
-  "hide": "Hide"
+  "hide": "Hide",
+  "awaited_result": "Expected Result",
+  "end_access_time": "Access Expiration Date",
+  "name_display_order": {
+    "default": "By default",
+    "lastFirst": "Last Name First Name",
+    "firstLast": "First Name Last Name",
+    "tooltip": "When this field is selected, the full name will be displayed according to the selected interface language"
+  },
+  "academy_client_status": {
+    "active":"Active",
+    "inactive": "Inactive",
+    "undefined": "Undefined"
+  },
+  "collapse_metrics": "Collapse Metrics"
 }

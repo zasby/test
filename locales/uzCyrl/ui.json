@@ -1,0 +1,1467 @@
+{
+  "placeholder": {
+    "enter": "Кириш",
+    "awaited_result": "Кутилган натияни киритинг",
+    "email": "user@example.com",
+    "password": "п@р0л",
+    "invite_code": "1A2B3C4D",
+    "first_name": "Исмни шу ыерга киритинг",
+    "middle_name": "Бу ыерда отасининг исмини киритинг",
+    "last_name": "Бу ыерда фамилияни киритинг",
+    "week_start_day": "Календар хафтасининг бошланиши",
+    "report_start_day": "Хисобот хафтасининг бошланиши",
+    "description": "Бу ерда бир неча соьз ёзинг ...",
+    "phone_number": "Телефон раяамингизни киритинг",
+    "name": "Исмни киритинг",
+    "function_name": "Бу ыерда функсия номини киритинг",
+    "valuable_final_product": "Бу ыерга махсулотни киритинг",
+    "parent_function": "Ота-она функсиясини танланг",
+    "restore_code": "Яаыта тиклаш кодингизни шу ыерга киритинг",
+    "time_zone": "Ваят минтаяасини танланг",
+    "company_owner": "Компания егаси",
+    "email_confirmation_code": "12345",
+    "company_name": "Бу ыерда компания номини киритинг",
+    "contact_person": "Богьланиш учун шахс",
+    "contact_phone_number": "Алояа раяами",
+    "issue_name": "Исм киритинг",
+    "issue_description": "Тавсиф киритинг",
+    "issue_result": "Махсулотни киритинг",
+    "issue_proof_description": "Далилларнинг тавсифини киритинг",
+    "divider_deadline": "учун",
+    "comment": "Изох",
+    "issue_comment": "Фикр ёзинг...",
+    "write_comment": "Фикр ёзинг...",
+    "click_to_select": "Танлаш учун босинг",
+    "click_to_select_function": "Функтсияни танлаш учун босинг",
+    "recurring_task_name": "Исм киритинг",
+    "recurring_task_description": "Тавсиф киритинг",
+    "recurring_task_result": "Махсулотни киритинг",
+    "preferred_communication_name": "Исм",
+    "preferred_communication_value": "Кириш / раяам",
+    "reason": "Сабабини ёзинг",
+    "search_here": "Муаммоларни шу ыерда яидиришни бошланг...",
+    "enter_role": "Функтсия номини киритинг",
+    "create_new_regulation": "Янги регламент яратинг...",
+    "section_name": "Боьлим номини киритинг...",
+    "regulation_name": "Регламент номини киритинг...",
+    "regulation_name1": "Низомнинг номи ...",
+    "select_section": "Боьлимни танланг",
+    "search_by_employees": "Ходим боьыича яидирув",
+    "search_by_companies": "Компания боьыича яидирув",
+    "glossary": {
+      "r": "Махсулот"
+    },
+    "come_up_question": "Савол билан келинг",
+    "come_up_answer": "Явоб билан келинг",
+    "start_here": "Бу ыердан бошланг",
+    "start_write_regulation": "Яоидаларни ёзишни бошланг...",
+    "text_editor_placeholder": "Матн киритинг...",
+    "text_editor_url": "URL манзилини киритинг",
+    "group_company_name": "Исм киритинг",
+    "choose_companies": "Компанияларни танланг",
+    "choose_drivers": "Хаыдовчиларни танланг",
+    "select": "Танланг",
+    "update_note_name": "Еслатмани янгилаш",
+    "upload_the_json_file": "JSON фаылини юкланг",
+    "code": "Кодни киритинг",
+    "create_anchor": "Анчор калитини лотин ёки раяамли форматда киритинг:",
+    "enter_a_comment": "Фикр киритинг...",
+    "search": "Яидирув",
+    "plan_search": "Реяни яидиринг",
+    "describe_situation": "Муаммони тасвирлаб беринг",
+    "write_data": "Тафсилотларингизни ёзинг",
+    "suggest_decision": "Ыечимларни таклиф яилинг",
+    "write_question": "Савол ёзинг",
+    "project_name": "Исм киритинг",
+    "project_description": "Тавсиф киритинг",
+    "project_budget": "Бюдэтингизни киритинг",
+    "project_tasks_reject_dialog": "Вазифаларни рад етиш сабабини ёзинг",
+    "project_search": "Лоыихани яидиринг",
+    "min": "Минимал",
+    "max": "Максимал",
+    "dashboard_column_count": "Устунлар сонини киритинг",
+    "write_reason": "Илтимос, сабабини аытинг",
+    "time_block": {
+      "name": "Исм киритинг",
+      "description": "Тавсиф киритинг",
+      "selectDate": "Санани танланг",
+      "selectTime": "Ваятни танланг"
+    },
+    "enter_password": "Паролингизни киритинг",
+    "google_event": {
+      "name": "Исм киритинг",
+      "description": "Тавсиф киритинг",
+      "link": "Хаволани киритинг",
+      "selectDate": "Санани танланг",
+      "selectTime": "Ваятни танланг",
+      "repeat": "",
+      "organizer": "",
+      "reminder": ""
+    },
+    "empty": "Боьш",
+    "new_employee": "Янги ходим #{{id}}"
+  },
+  "subheader": {
+    "email": "E-mail",
+    "orgchart": "Ташкилиы тузилма",
+    "password": "Парол",
+    "password_check": "Паролни яаыта киритинг",
+    "invite_code": "Таклиф коди",
+    "first_name": "Исм",
+    "middle_name": "Фамилия",
+    "last_name": "Фамилияси",
+    "app_locale": "Илова тили",
+    "app_theme": "Мавзу",
+    "phone_number": "Телефон раяами",
+    "company_name": "Исм",
+    "contact_person": "Богьланиш учун шахс",
+    "contact_phone_number": "Алояа раяами",
+    "week_start_day": "Календар хафтасининг бошланиши",
+    "report_start_day": "Хисобот хафтасининг бошланиши",
+    "description": "Тавсиф",
+    "function_name": "Функтсия номи",
+    "valuable_final_product": "Махсулот",
+    "parent_function": "Ота-она функтсияси",
+    "restore_code": "Яаыта тиклаш коди",
+    "work_schedule": "Иш ваяти",
+    "time_zone": "Ваят минтаяаси",
+    "company_owner": "Компания егаси",
+    "function_color": "Функтсия ранги",
+    "email_confirmation": "Тасдиялаш електрон почтаси",
+    "employee": "Ходим",
+    "employee_type": "Ходимлар тури",
+    "task_recurring_name": "Исм",
+    "my_companies": "Менинг компанияларим",
+    "avatar": "Аватар",
+    "who_available": "Ийрочилар",
+    "who_available_alt": "Кимга",
+    "who_not_available": "Бундан ташяари",
+    "periodicity": "Хар бир юборинг",
+    "proof": "Исбот",
+    "proof_description": "Далилнинг тавсифи",
+    "proof_image_amount": "Миядори",
+    "proof_text_length": "Узунлик",
+    "employee_functions": "Ходимларнинг функтсиялари",
+    "employee_functions_administrator": "Ходимларнинг вазифалари (менеэр)",
+    "employee_functions_executor_specialist": "Ходимнинг вазифалари (ийрочи)",
+    "employee_functions_executor_trainee": "Ходимларнинг вазифалари (стайёр)",
+    "left_drawer_state": "Чап меню харакати",
+    "boards": "Кенгашлар",
+    "comment": "Изох",
+    "call_result": "Яоьнгьироя натияси",
+    "message": "Хабар",
+    "text": "Матн",
+    "issue_name": "Исм",
+    "issue_priority": "Устуворлик",
+    "issue_description": "Тавсиф",
+    "issue_result": "Махсулот",
+    "issue_fact_result": "Хаяияиы натия",
+    "issue_executor": "Ийрочи",
+    "issue_role": "Функтсия",
+    "filter_issue_role": "Функтсия боьыича",
+    "issue_participants": "Кузатувчилар",
+    "issue_sender": "Сахна рейиссёри",
+    "issue_advanced_settings": "Кенгаытирилган созламалар",
+    "issue_actions": "Харакатлар",
+    "issue_current_status": "Ёриы холат",
+    "issue_created": "Яратилган",
+    "issue_time_for_approval": "Рея. тасдиялаш ваяти",
+    "issue_time_fact_for_approval": "Факт. тасдиялаш ваяти",
+    "issue_orgachart_company": "Ташкилиы тузилма",
+    "issue_with_deadline": "Муддати боьлган вазифа",
+    "deadline": "Топшириш муддати; тугатиш муддати",
+    "indicate_reason_changing_deadline": "Белгиланган муддатни оьзгартириш сабабини коьрсатинг",
+    "executor_deadline": "Бошланиш санаси",
+    "date_work_start_for_approval": "Уы рухсатномалари",
+    "by_violations": "Яоидабузарликлар учун",
+    "by_activity": "Фаолият боьыича",
+    "by_statuses": "Статус боьыича",
+    "reason": "Сабаб",
+    "work_start": "Ишни бошлаш",
+    "communication_type": "Афзал алояа тури",
+    "sender": "Сахна рейиссёри",
+    "use_timezone_of": "Ваят минтаяасидан фоыдаланинг",
+    "executor": "Ийрочи",
+    "attachments": "Яоьшимчалар",
+    "role_select": "Функтсияни танланг",
+    "position_select": "Лавозимни танланг",
+    "terminology": "Терминология",
+    "name": "Исм",
+    "companies": "Компаниялар",
+    "drivers": "Хаыдовчилар",
+    "company": "Компания",
+    "drivers_admin": "Хаыдовчи маьмурлари",
+    "confirm_delete_employee": "Хаяияатан хам бу ходимни олиб ташламоячимисиз?",
+    "confirm_delete_company": "Хаяияатан хам бу компанияни оʻчириб ташламоячимисиз?",
+    "dashboard_name": "Исм",
+    "metric_interval": "Интервал",
+    "metric_source": "Манба",
+    "chart_name": "График номи",
+    "metric_filling": "Тоьлдирувчи",
+    "metric_switch_main": "Асосиы коьрсаткич",
+    "metric_switch_reverse": "Инвертед метрик",
+    "metric_switch_fix": "Бирор кишига метрикани таыинланг",
+    "metric_switch_double": "Икки томонлама метрик",
+    "select_metrics": "Коьрсаткичлар",
+    "metric_function": "Функтсия",
+    "metric_responsible": "Масьулиятли",
+    "metric_orgchart": "Ташкилиы тузилма",
+    "metric_settings": "Ы оьяи яиыматларини оьрнатиш",
+    "metric_employee": "Ходим",
+    "situation": "Муаммо",
+    "data": "Маьлумотлар",
+    "decision": "Ыечим",
+    "question": "Савол",
+    "code": "Код",
+    "locale": "Тил",
+    "unclosed_tasks": "Тугалланмаган вазифалар",
+    "unallocated_tasks": "Таясимланмаган вазифалар",
+    "no_open_tasks": "Тугалланмаган вазифалар ёья",
+    "week_plan": "Хафталик рея",
+    "issues": "Вазифалар",
+    "time": "Ваят",
+    "project_name": "Лоыиха номи",
+    "project_description": "Лоыиха тавсифини киритинг",
+    "project_budget": "Лоыиха бюдэтини киритинг",
+    "end": "Охири",
+    "project_responsible": "Лоыиха масьул",
+    "project_members": "Иштирокчиларни танланг",
+    "urgency": "Шошилинчлик",
+    "selected_project_description": "Лоыиха тавсифи",
+    "selected_project_budget": "Лоыиха бюдэти",
+    "selected_project_members": "Иштирокчилар",
+    "dashboard": "Бошяарув панеллари",
+    "dashboard_column_count": "Устунлар сони",
+    "issue_advanced_settings_deadline": "Яаттия муддат",
+    "issue_advanced_settings_approval": "Директорнинг розилигини талаб яилади",
+    "metric_switch": "Тескари",
+    "table_row": "Шартлар",
+    "violation_notification_switches": "Вазифаларнинг бузилиши хаяида билдиришномалар",
+    "order_displaying_full_name": "Тоьлия исмни коьрсатиш тартиби",
+    "requirements_switches": "Талаблар",
+    "issue_complete_dialog_format": {
+      "text": "матн",
+      "image": "тасвир",
+      "file": "фаыл"
+    },
+    "issue_complete_dialog_value": {
+      "symbols": "белгилар",
+      "count": "миядори"
+    },
+    "table_col": "Устунлар",
+    "templates": "Ташкилот схемаси шаблонлар",
+    "time_block": {
+      "name": "Исм",
+      "description": "Тавсиф",
+      "date": "Сана",
+      "startTime": "Бошлаш",
+      "endTime": "Охири",
+      "fullDay": "Бутун кун",
+      "repeat": "Такрорланг"
+    },
+    "change_password": {
+      "info_text": "{{user}} хисоби учун парол оʻзгартирилмояда",
+      "old_password": "Ёриы парол",
+      "new_password": "Янги паролни киритинг",
+      "confirm_password": "Янги паролни такрорланг",
+      "placeholder": "Паролингизни киритинг"
+    },
+    "google_account": {
+      "title": "Уланган хисоблар",
+      "disconnect": "Оʻчириш",
+      "switcher": "Гоогле Таявимдаги тадбирларни\n Таявимни реялаштиришда коʻрсатиш",
+      "switcher_small": "Вояеалар коьрсатиш"
+    },
+    "google_event": {
+      "name": "Исм",
+      "description": "Тавсиф",
+      "link": "Хавола",
+      "repeat": "Такрорланг",
+      "start_date": "Бошланиш санаси",
+      "end_date": "Тугаш санаси",
+      "organizer": "Ташкилотчи",
+      "reminder": "Еслатма",
+      "you_come": "Келасизми?"
+    },
+    "tags": "Келиб чияиши",
+    "calendar_sidebar_filter": "Таыинланмаган вазифаларда коьрсатиш",
+    "regulation_access_control_dialog": {
+      "section": "Боьлим танлаш",
+      "orgchart": "Ташкилиы тузилмани танлаш",
+      "accesses": "Рухсат берилган рухсатлар",
+      "creator": "Яратувчи"
+    },
+    "birth_date": "Тугьилган куни",
+    "employment_date": "Ишга яабул яилиш санаси"
+  },
+  "button": {
+    "ok": "КЕЛИШДИКМИ",
+    "cancel": "Бекор яилиш",
+    "login": "Тизимга кириш",
+    "signup": "Роʻыхатдан оʻтиш",
+    "check_code": "Кодни текширинг",
+    "already_registered": "Аллаяачон роьыхатдан оьтганмисиз?",
+    "invite": "Таклиф яилинг",
+    "invite_employee": "Ходимни таклиф яилинг",
+    "all_invites": "Таклиф роьыхати",
+    "save": "Саялаш",
+    "dont_save": "Саяламанг",
+    "create": "Яратиш",
+    "create_function": "Функтсия яратинг",
+    "delete": "Оʻчириш",
+    "forgot_password": "Паролни тиклаш",
+    "send_reset_code": "Яаыта тиклаш кодини юборинг",
+    "move_function": "Коьчириш",
+    "clear": "Тоза",
+    "today": "Бугун",
+    "later": "Кеыинчалик",
+    "studied_and_understood": "Баярилди",
+    "add": "Яоьшиш",
+    "close": "Ёпиш",
+    "save_schedule": "Иш ядвалини саяланг",
+    "add_company": "Компания яоьшинг",
+    "accept": "Яабул яилинг",
+    "decline": "Рад етиш",
+    "add_task": "Янги вазифа яоьшинг",
+    "add_issue": "Вазифа яоьшинг",
+    "leave_company": "Ташлаб кет",
+    "upload": "Юклаб олинг",
+    "upload_from_pc": "Яурилмадан юклаш",
+    "change": "Оьзгартиринг",
+    "edit": "Тахрирлаш",
+    "create_company": "Янги компания",
+    "create_dashboard": "Бошяарув панели яратинг",
+    "reset": "Яаыта тиклаш",
+    "wrote": "Муаллиф:",
+    "called": "Мен яоьнгьироя яилгандим",
+    "leave_comment": "Фикр яолдиринг",
+    "duplicate_in_messenger": "Мессенэрда такрориы хабар",
+    "next": "Кеыингиси",
+    "copy": "Нусхалаш",
+    "withdraw": "Бекор яилиш",
+    "send": "Юбориш",
+    "send_message": "Хабар юбориш",
+    "send_comment": "Фикр яолдириш",
+    "select_files": "Фаылларни танланг",
+    "add_files": "Фаылларни яоьшиш",
+    "go_to_processing": "Бошлаш",
+    "finish_work": "Ишни тугатиш",
+    "reset_all_boards": "Барча платаларни яаыта оьрнатинг",
+    "yes": "Ха",
+    "no": "Ёья",
+    "apply": "Мурояат яилинг",
+    "show_links": "Хаволаларни коьрсатиш",
+    "follow": "га боринг",
+    "attach": "Бириктиринг",
+    "relation_my": "менинг",
+    "relation_control": "Бошяарувларга",
+    "relation_participate": "Мен кузатяпман",
+    "relation_subordinates": "Боьысунувчилар",
+    "create_task": "Вазифа яратинг",
+    "create_routine": "Такрориы вазифа яратинг",
+    "create_message": "Хабар яратинг",
+    "create_decision": "Ыечим яратинг",
+    "driver_issue_actions": "Хаыдовчи харакатлари",
+    "no_driver_issue_actions": "Хаыдовчи харакати ёья",
+    "support": "Яоьллаб-яувватлаш",
+    "to_profile": "Профилга оьтинг",
+    "add_regulation": "Яоидаларни яоьшинг",
+    "add_section": "Боьлим яоьшиш",
+    "stats": "Статистика",
+    "add_role": "Хусусият яоьшинг",
+    "add_to_section": "Боьлимга яоьшиш",
+    "add_testing": "Синов яоьшинг",
+    "access_setting": "Кириш назорати",
+    "assign_study": "Оьяиш учун таыинланг",
+    "with_single_answer": "Битта явоб билан савол яоьшинг",
+    "with_multiple_answer": "Бир нечта явобли савол яоьшинг",
+    "go_back": "Ортга яаытиш",
+    "add_question": "Савол яоьшинг",
+    "complete": "Баярилди",
+    "create_first_policy": "Биринчи регламентингизни яратинг",
+    "complete_test": "Синовни якунланг",
+    "pass_test": "Синовдан оьтинг",
+    "edit_test": "Тестни тахрирлаш",
+    "back_to_topic": "Боьлимга яаытиш",
+    "next_regulation": "Кеыинги яоидалар",
+    "back_to_regulation": "Яоидаларга яаытиш",
+    "try_again": "Яаыта уриниб коьринг",
+    "confirm": "Тасдияланг",
+    "roll_up": "Ыияилиш",
+    "save_results": "Синовни якунланг",
+    "submit_for_approval": "Тасдиялаш учун юборинг",
+    "approve": "Тасдиялаш",
+    "save_changes": "Оьзгаришларни саяланг",
+    "add_reaction": "Реактсия яоьшинг",
+    "react": "Реаксия яилиш",
+    "reject": "Рад етиш",
+    "change_v2": "Оьзгартириш",
+    "filter": "Филтр",
+    "publish": "Нашр яилиш",
+    "request_publication": "Нашр яилишни соьраш",
+    "add_group": "Гурух яоьшинг",
+    "add_dashboard": "Яратиш",
+    "share": "Улашиш",
+    "choose": "Танланг",
+    "study": "Тадяия яилинг",
+    "activate_bot": "Ботни фаоллаштириш",
+    "bots": "Ботинкалар",
+    "format": "Формат",
+    "refresh": "Янгилаш",
+    "delete_dashboard": "Бошяарув панелини оьчириш",
+    "go_to_task": "Вазифага",
+    "select": "Танланг",
+    "telegram_bot_settings": "“Business Booster Bot” ни фаоллаштириш",
+    "telegram_bot_left_menu": "ББ Бот ни фаоллаштириш",
+    "join_to_tg_chat": "ББ Платформаси чатига яоьшилинг",
+    "back": "Оряага",
+    "leave": "Ташлаб кет",
+    "changed": "Оьзгартириш",
+    "change_password": "Паролни оьзгартириш",
+    "download_report": "Хисоботни CSV форматида юклаб олинг",
+    "archive": "Архив",
+    "google_add_account": "Гоогле Таявим хисобини яоьшинг",
+    "google_event": {
+      "declined": "Ёья",
+      "tentative": "Боьлиши мумкин",
+      "accepted": "Ха"
+    },
+    "templates": "Шаблонлар",
+    "save_templates": "Шаблонни саялаш",
+    "add_answer": "Явоб яоьшинг",
+    "left": "Чапга",
+    "right": "Тоьгьридан-тоьгьри",
+    "create_section": "Боьлим яратинг",
+    "extend_access": "Киришни кенгаытириш",
+    "duplicate": "Дубликат"
+  },
+  "label": {
+    "added_to_topic": "Боьлимга яоьшилди",
+    "reusable_invite_code": "Такрориы таклифнома коди",
+    "weekdays_same_schedule": "Барча кунлар бир хил ядвалга мувофия",
+    "strict_deadline": "Яаттия муддат",
+    "proof_not_needed": "Майбуриы емас",
+    "proof_text": "Матн",
+    "proof_image": "Расм",
+    "proof_file": "Фаыл",
+    "issues_with_violations": "Хуяуябузарликлар билан богьлия муаммолар",
+    "scheduled_for_today": "Бугунга реялаштирилган",
+    "grouping_by_orgcharts": "Ташкилиы тузилма боьыича гурухлаш",
+    "grouping_by_users": "Боьысунувчилар боьыича гурухлаш",
+    "grouping_by_tags": "Теглар боьыича гурухлаш",
+    "last_comment_is_proof": "Далил сифатида охирги изохдан фоыдаланинг",
+    "last_comment_is_reason": "Сабаб сифатида охирги фикрдан фоыдаланинг",
+    "is_test": "Синов",
+    "call_result": {
+      "busy": "Банд",
+      "fail": "Яо‘нг‘ироя ё‘я",
+      "resolves_in_30_min": "30 даяияа ичида хал яилинади",
+      "resolves_until_day_end": "Иш кунининг охиригача яарор яилади",
+      "resolves_in": "Олдин яарор яилади",
+      "promised_to_call_executor": "Ийрочи билан богьланишга ваьда берди",
+      "gave_other_contacts": "Бошяа бировнинг алояа маьлумотларини беринг"
+    },
+    "result_achieved": "Махсулот яабул яилинди",
+    "issue_custom_filed": {
+      "is_strict_deadline": "Пудратчи муддатни оьзгартира олмаыди",
+      "is_manager_approval_required": "Директорнинг розилигини талаб яилади"
+    },
+    "do_not_create_at_weekends": "Дам олиш кунлари яратинг",
+    "timezone_of": {
+      "executor": "Ийрочи",
+      "employee": "Функтсия ийрочиси",
+      "sender": "Директор",
+      "company": "Компаниялар"
+    },
+    "sender_type": {
+      "nearest_admin": "Тоьгьридан-тоьгьри рахбар",
+      "executor_of_function": "Функтсия ийрочиси",
+      "admin_of_function": "Функтсия рахбари",
+      "admin_of_function_v2": "Ходимлар функтсияси"
+    },
+    "add_first_regulation": "Биринчи яоидани яоьшинг",
+    "approver": "Тасдияловчи",
+    "add_bot": "Бот яоьшинг",
+    "planning_filter": {
+      "approved": "Тасдияланган",
+      "not_approved": "Тасдиялаш боьыича",
+      "not_planned": "Реялаштирилмаган"
+    },
+    "paid_company": "Пулли компания",
+    "test_company": "Синов компанияси",
+    "inactive": "Фаол боьлмаган компания",
+    "partially_paid_company": "Ярим тоьланадиган компания",
+    "on_verification": "Коьриб чияилмояда",
+    "violation_notification_switch": {
+      "first": "24 соатдан ортия яабул яилинмаыди",
+      "second": "48 соатдан ортия ишга олинмаган",
+      "third": "72 соатдан ортия ваят давомида тасдияланмаган"
+    },
+    "requirements_switches": {
+      "first": "Вазифани баяришда \"Харакат\" маыдонини (топширияни баяриш учун хаяияиы ваят) майбуриы яилиб яоьыинг",
+      "second": "Вазифа \"Давом етаяпти\" холатига оьтказилганда ишнинг бошланиш санасини белгиланг"
+    },
+    "manual_archiving": "Фаяат яоьлда архивлаш",
+    "show_on_orgchart": "Ташкилот диаграммасида коьрсатиш"
+  },
+  "title": {
+    "archive_dialog": "Вазифани архивлаш сабабини коьрсатинг",
+    "draft": "Яораламалар",
+    "active": "Фаол",
+    "pause": "Танаффусларда",
+    "completed": "Баярилди",
+    "invite_employee": "Янги ходимни таклиф яилинг",
+    "all_invites": "Таклиф роьыхати",
+    "invite": "Таклиф",
+    "edit_to_start": "Бошлаш учун профилингизни тахрирланг",
+    "edit_to_start_company": "Бошлаш учун компаниянгизни тахрирланг",
+    "watch_to_start": "Бошлаш учун яаранг",
+    "function_create": "Функтсия яратинг",
+    "function_edit": "Тахрирлаш функсияси",
+    "function_move": "Коьчириш функтсияси",
+    "function_sort": "Пастки функсияларни саралаш",
+    "function_delete": "Функтсияни оьчириш",
+    "recurring_issue_delete": "Такрориы вазифа оʻчирилсинми?",
+    "recurring_issue_history": "Такрориы вазифа тарихи",
+    "add_employee": "Функтсияга ходим яоьшинг",
+    "add_company": "Компания яоьшинг",
+    "company_invitation": "Компанияга таклиф",
+    "leave_company": "Компанияни тарк етасизми?",
+    "avatar_change": "Аватарни оьзгартириш",
+    "company_delete": "Компанияни ёья яилиш",
+    "employee_delete": "Ходимни ишдан боьшатиш",
+    "board_reset": "Кенгаш яоидаларини тиклаш",
+    "all_boards_reset": "Компания бошяарувининг барча яоидаларини тикланг",
+    "driver_called": "Яоьнгьироя натиялари",
+    "driver_called_admin": "Менеэрга яоьнгьироя яилинг",
+    "report_regulations": "Оьрганилган норматив хуйятлар тоьгьрисидаги хисобот",
+    "stats": "Статистика",
+    "policies": "Яоидалар",
+    "topics": "Боьлимлар",
+    "copy_task": "Вазифани нусхалаш",
+    "copy_decision": "Ыечимни нусхалаш",
+    "copy_message": "Хабар нусхаланмояда",
+    "reject_task": "Вазифани рад етиш",
+    "send_again": "Яаыта юбориш",
+    "reject_decision": "Яарорни рад етиш",
+    "reject_message": "Хабарни рад яилиш",
+    "copy_issue": {
+      "title": "Вазифани нусхалаш",
+      "subtitle": "Рассом ва хусусиятни танланг"
+    },
+    "withdraw_issue": {
+      "title": "Вазифани бекор яилиш",
+      "subtitle": "Янги рассом ва муддатни танланг"
+    },
+    "reject_issue": {
+      "title": "Вазифани рад етиш",
+      "subtitle": "Вазифани рад етиш сабабини ёзинг"
+    },
+    "executor_change": {
+      "title": "Рассомнинг оьзгариши",
+      "subtitle": "Ийрочини оьзгартириш сабабини ёзинг",
+      "input_placeholder": "Сабаб"
+    },
+    "board_require_actions": "Харакат талаб яилади",
+    "driver_script_title": "Хаыдовчи матн",
+    "date_range_select": "Сана оралигьини танлаш",
+    "close_task_no_proof": "Дияяат!",
+    "links": "Хаволалар",
+    "delete_issue": "Вазифа оʻчирилсинми?",
+    "delete_task": "Вазифа оʻчирилсинми?",
+    "delete_decision": "Ыечим оʻчирилсинми?",
+    "delete_message": "Хабар оʻчирилсинми?",
+    "create_task": "Вазифа яратинг",
+    "create_routine": "Такрориы вазифа яратинг",
+    "create_message": "Хабар яратинг",
+    "create_decision": "Ыечим яратинг",
+    "create_recurring_issue": "Такрориы вазифа яоьшинг",
+    "task": "Вазифа",
+    "decision": "Ыечим",
+    "message": "Хабар",
+    "choose_deadline": "Терминни танланг",
+    "driver_issue_report": "Хаыдовчи вазифаси хисобот",
+    "driver_issue_no_actions": "Хаыдовчи харакати ёья",
+    "additional_settings": "Яоьшимча созламалар",
+    "mark_working_day": "Иш кунини белгиланг",
+    "mark_weekend": "Дам олиш кунини нишонланг",
+    "mark_vacation": "Таьтилни нишонланг",
+    "mark_medical": "Касаллик таьтилини белгиланг",
+    "access_to_section": "Боьлимга кириш",
+    "access_to_regulation": "Яоидаларга кириш",
+    "assign_study": "Оьяиш учун таыинланг",
+    "linked_roles_to_section": "Боьлимга богьланган функтсиялар",
+    "linked_roles_to_regulation": "Яоидаларга богьлия функтсиялар",
+    "expect": "Бундан ташяари",
+    "replace_regulation": "Коьчириш яоидалари",
+    "select_section": "Боьлимни танланг",
+    "learnt_regulation": "Биз яоидаларни оьрганиб чиядик",
+    "no_learnt_regulation": "Яоидаларни оьрганмаган",
+    "testing": "Синов",
+    "select": "Танланг",
+    "submit_for_approval": "Тасдиялаш учун юборинг",
+    "super_admin_drivers": "Супер администратор хаыдовчилар",
+    "companies": "Компаниялар",
+    "drivers_drivers": "Хаыдовчи администратор",
+    "confirm": "Тасдиялаш",
+    "attention": "Дияяат",
+    "create_first_metric": "Биринчи коьрсаткичингизни яратинг",
+    "create_metric": "Коьрсаткич яратиш",
+    "add_metric": "Коьрсаткичларни яоьшинг",
+    "metric_prefix": "[ГМ]",
+    "main_metric": "Асосиы коьрсаткич",
+    "edit_metric": "Ко‘рсаткични тахрирлаш",
+    "delete_metric": "Оʻчиришни тасдияланг",
+    "create_first_dashboard": "Биринчи бошяарув панелини яратинг",
+    "create_dashboard": "Бошяарув панели яратиш",
+    "edit_dashboard": "Бошяарув панелини тахрирлаш",
+    "delete_dashboard": "Бошяарув панелини олиб ташлаш",
+    "metric_settings": "Диаграмма созламалари",
+    "confirm_deletion": "Оʻчиришни тасдияланг",
+    "delete_not_empty": "Боʻлимни оʻчириб боʻлмади",
+    "edit_metric_to_dashboard": "Тафсилотларни киритинг",
+    "create_solution": "Ыечим яратинг",
+    "releases": "Еслатмаларни янгилаш",
+    "update_notes": "Еслатмаларни янгилаш",
+    "update_note": "Еслатмани янгилаш",
+    "connecting_bot": "Ботни улаш",
+    "list_bots": "Ботлар роьыхати",
+    "add_group_company": "Компаниялар гурухини яоьшинг",
+    "edit_group_company": "Компаниялар гурухини тахрирлаш",
+    "reject_plan": "Реяни рад етиш сабабини коьрсатинг",
+    "create_project": "Янги лоыиха",
+    "reject_all": "Хаммасини рад яилиш",
+    "archvive_of_issues": "Вазифалар архиви",
+    "delete_metric_dialog_title": "Коʻрсаткични оʻчириш",
+    "issue": "Вазифа",
+    "create_issue": "Янги вазифа яоьшинг",
+    "create_table": "Ядвал яратиш",
+    "insert_video": "Видео яоьшиш",
+    "no_tasks": "Вазифалар ёья",
+    "confirm_delete_comment": "Бу фикрни о‘чириб ташламоячимисиз?",
+    "executor_declined_task": "Рассом томонидан рад етилган",
+    "on_approval_task": "Тасдиялаш талаб яилинади",
+    "save_template": "Шаблонни саялаш",
+    "time_block": "Тадбир",
+    "delete_events": "Тадбир оʻчирилсинми?",
+    "recurring_issue": "Такрориы вазифа",
+    "change_password": "Паролни оьзгартириш",
+    "google_event": "Гоогле календар тадбири",
+    "tags": "Келиб чияиши",
+    "selected_google_calendar": "Платформада коьрсатиш учун календарни танланг",
+    "regulation_access_dialog_collapse": {
+      "Read": "Ко‘риш",
+      "Write": "Ко‘риш + Тахрирлаш",
+      "ReadWrite": "Коʻриш + Оʻяиш ва ёзиш",
+      "Assignment": "Коʻриш + Оʻяув топширигʻи",
+      "FullAccess": "Тоьлия кириш"
+    },
+    "regulation_templates": "Шаблонлар"
+  },
+  "text": {
+    "ar": "ОКБ",
+    "awaited_result": "Махсулот",
+    "from_time": "билан",
+    "to_time": "учун",
+    "change_company": "Компанияни оьзгартириш",
+    "no_invites": "Таклифлар ёья",
+    "current_company": "Бу хозирги компания",
+    "company_owner": "Компания егаси",
+    "employees_amount": "Ходимлар",
+    "employees_full_amount": "Тоьлия кириш хуяуяига ега боьлган ходимлар",
+    "employees_full_restricted": "Чекланган ходимлар",
+    "company_not_registered": "Компания хали роьыхатдан оьтказилмаган",
+    "external_id": "Ташяи идентификатор",
+    "invite_code": "Таклиф коди",
+    "deadline": "Муддати",
+    "date_created": "Яратилган сана",
+    "substitute": "оьринбосари",
+    "no_links": "Тавсифда хаволалар мавюд емас",
+    "period": "Давр",
+    "apply_to_all_functions": "Ходим таыинланган барча функтсияларга мурояат яилинг",
+    "beginning_and_end_of_shift": "Шифтнинг бошланиши ва охирини белгиланг",
+    "start_day_exceeds_end": "Иш кунининг бошланиш ваяти унинг тугаш ваятидан ошиб кетади",
+    "start_period_exceeds_end": "Даврнинг бошланиши унинг тугаш санасидан ошиб кетади",
+    "reset": "Яаыта тиклаш",
+    "no_data": "Маʼлумот ёʻя",
+    "child_functions_direction": "Болалар функтсияларининг ёьналиши",
+    "driver_administrators": "Хаыдовчи маьмурлари",
+    "drivers": "Хаыдовчилар",
+    "confirm_delete_metric": "Барча ходимлар учун коьрсаткич асбоблар панелидан олиб ташланади",
+    "empty_metric_users": "Ходимлар мавюд емас",
+    "date_work_start": "Бошланиш санасини белгиланган муддатдан кечроя белгиланг",
+    "delete_metric_dialog_warning": "Агар сиз коьрсаткични оьчирсангиз, барча коьрсаткичлар асбоблар панелидан оьчирилиши ехтимоли бор. Бу амални бекор яилиб бо‘лмаыди. Хаяияатан хам барча коʻрсаткичларни оʻчириб ташламоячимисиз?",
+    "main_metric_warning": {
+      "text1": "Бу функсияда аллаяачон “{{метрицНаме}}” асосиы коʻрсаткичи мавюд.",
+      "text2": "Ушбу калитни ёяиш оряали сиз асосиы метрикани алмаштиришни тасдиялаысиз."
+    },
+    "edited_comment": "Оьзгартирилди",
+    "deleted_comment": "Оʻчирилди",
+    "confirm_delete_comment": "Бу амални ортга яаытариб бо‘лмаыди",
+    "created_task": "Вазифа яратилди",
+    "correct_answer": "Тоьгьри явоб",
+    "update_note_alert": "Платформамиздаги янгиланишлар ва хакерликлардан доимо хабардор боьлишни хохлаысизми? “Бизнесни кучаытириш платформаси” Телеграм каналимизга яоʻшилинг ва барча вояеалар марказида боʻлинг!",
+    "archive_task": "Вазифа архивланди",
+    "un_archive_task": "Вазифа архивдан яаытарилди",
+    "google_calendar_reminder": "Еслатма: {{time}} бошланишидан олдин",
+    "delete_topic": "Хаяияатан хам бутун боʻлимни оʻчириб ташламоячимисиз?",
+    "delete_not_empty_topic": "Ушбу боьлимда ички боьлимлар ёки хуйятлар мавюд. Ушбу боьлимни олиб ташлаш учун аввал барча ички оьрнатилган елементларни олиб ташланг.",
+    "delete_regulation": "Хаяияатан хам яоидаларни олиб ташламоячимисиз?"
+  },
+  "caption": {
+    "executors": "Ийрочилар",
+    "administrators": "Менеэрлар",
+    "interaction_history": "Тарих",
+    "boards_table": {
+      "id": "ID",
+      "name": "Исм",
+      "last_update": "Охирги янгиланиш",
+      "number_updates": "Янгиланишлар сони",
+      "actions": "Харакатлар"
+    },
+    "do_not_save_recurring_task": "Такрориы вазифа саяланмаыдими?"
+  },
+  "select": {
+    "all": "Хаммаси",
+    "all_employees": "Барча ходимлар",
+    "comments": "Фикрлар",
+    "actions": "Харакатлар",
+    "log": "Оьзгаришлар тарихи",
+    "manual_method": "Мануел усул",
+    "time_block": {
+      "not_repeat": "Такрорламанг",
+      "every_day": "Хар куни",
+      "every_week": "Хар хафта"
+    }
+  },
+  "misc": {
+    "administrator": "Назоратчи",
+    "specialist": "Мутахассис",
+    "trainee": "Стайёр",
+    "new_user": "Янги фоыдаланувчи",
+    "no_administrators": "Рахбарлар ёья",
+    "no_executors": "Ийрочилар ёья",
+    "radio_all": "Хаммаси",
+    "require": {
+      "images_min_count": "Миядори",
+      "files_min_count": "Миядори",
+      "text_min_length": "Узунлик"
+    },
+    "click_to_select": "Танлаш учун босинг",
+    "days": "Кунлар",
+    "month": "Оы",
+    "day": "Раяам",
+    "to_admins_of_function": "Бошига",
+    "to_executors_of_function": "Ийрочилар"
+  },
+  "hint": {
+    "orgchart": "Ташкилиы тузилма",
+    "communications": "Вазифалар",
+    "recurringIssues": "Такрориы вазифалар",
+    "inviteEmployee": "Тизимга ходимни таклиф яилинг",
+    "permissions": "Рухсатлар",
+    "schedule": "Иш ваяти",
+    "dashboard": "Бошяарув панеллари",
+    "multiaccount": "Коьп хисоб/коьп тузилма",
+    "decision": "Ыечим",
+    "message": "Хабар",
+    "planning": "Реялаштириш",
+    "policies": "Яоидалар"
+  },
+  "table": {
+    "employees": "Ходимлар",
+    "total": "Ями",
+    "studied": "Оьяиган",
+    "to_study": "Оьрганилмаган",
+    "studied_percent": "Оьрганиш фоизи"
+  },
+  "helper": {
+    "error_textfield": "Хаммаси тоьгьри киритилганлигига ишонч хосил яилинг!"
+  },
+  "tooltip": {
+    "edit": "Тахрирлаш",
+    "cancel": "Бекор яилиш",
+    "save": "Саялаш",
+    "delete": "Оʻчириш",
+    "time_block": {
+      "free_time": "Боьш ваят - айратилмаган иш ваяти бу ерда коьрсатилади ва иш ядвали боьыича хисоблаб чияилади, минус кунга вазифаларни баяриш учун реялаштирилган умумиы ваят. Ушбу маыдон реялаштирилган ваятдан ошиб кетганда ёки иш куни тоьлия юкланмаганда хам ранг билан айратилади.",
+      "total_tasks": "Ями вазифалар - баярилган вазифалар сони ва кун учун реялаштирилган вазифаларнинг умумиы сони бу ерда \"2/5\" форматида коьрсатилади.",
+      "plan_actual": "Хаяияиы / Рея - бу ерда вазифаларга сарфланган хаяияиы ваят ва кун учун реялаштирилган вазифаларнинг умумиы реялаштирилган ваяти \"1 соат 30 даяияа / 7 соат\" форматида коьрсатилади."
+    },
+    "add_to_topic": "Боьлимга яоьшиш",
+    "access_settings": "Кириш созланмояда",
+    "access_settings_without_topic": "Киришни созлаш учун боьлимга яоидалар яоьшинг",
+    "assign_study": "Оьяиш учун таыинланг",
+    "access_control_dialog": {
+      "creator": "Иёдкор тоьлия кириш хуяуяига ега"
+    },
+    "table_planing": {
+      "total_tasks": "Ями вазифалар - баярилган вазифалар сони ва белгиланган давр учун реялаштирилган вазифаларнинг умумиы сони бу ерда \"2/5\" форматида коьрсатилади.",
+      "plan_actual": "Хаяияиы / Рея - бу ерда вазифаларга сарфланган хаяияиы ваят ва танланган давр учун реялаштирилган вазифаларнинг умумиы реялаштирилган ваяти \"1 соат 30 даяияа / 7 соат\" форматида коьрсатилади."
+    },
+    "extend_access": "Платформада ишлашни узаытириш шартларини билиб олинг",
+    "set_deadline": "Муддати белгиланг"
+  },
+  "checkbox": {
+    "send_retraining": "Яаыта таыёрлашга юборинг",
+    "publish_without_approval": "Тасдиясиз нашр яилиш",
+    "full_day": "Бутун кун"
+  },
+  "planning_indicator": {
+    "pending_approval": "Тасдиялаш кутилмояда",
+    "approved": "Тасдияланган",
+    "rejected": "Огьишган"
+  },
+  "planning_table": {
+    "recurring_tasks": "Такрориы вазифалар",
+    "weekly_tasks": "Вазифалар",
+    "unscheduled_tasks": "Реядан ташяари вазифалар",
+    "google_events": "Гоогле календар тадбирлари",
+    "fact": "Факт. ваят",
+    "plan": "Рея. ваят",
+    "start": "Бошлаш",
+    "deadline": "Топшириш муддати; тугатиш муддати",
+    "status": "Статус",
+    "date_time": "Сана ва ваят",
+    "google_events_status": {
+      "Unfinished": "Реялаштирилган",
+      "Finished": "Баярилди",
+      "Declined": "Огьишган"
+    },
+    "awaitedResult": "Кутилган натия"
+  },
+  "metric_switch": {
+    "day": "кун",
+    "week": "Календар хафтаси",
+    "reportingWeek": "Хисобот хафтаси",
+    "month": "Оы",
+    "year": "Ыил"
+  },
+  "calendar": {
+    "today": "Бугун",
+    "unallocated_tasks": "Таясимланмаган вазифалар",
+    "total_tasks": "Ями вазифалар:",
+    "planned_time": "Реялаштирилган ваят:"
+  },
+  "time_block": {
+    "free_time": "Боьш ваят",
+    "total_tasks": "Ями вазифалар",
+    "plan_actual": "Факт/рея"
+  },
+  "change_password": {
+    "first_validation_rule": "Камида 8 та белги",
+    "second_validation_rule": "Камида битта бош харф",
+    "third_validation_rule": "Камида 1 та махсус белги",
+    "fourth_validation_rule": "Парол ескисидан фаря яилади",
+    "validation_seccusess": "Кучли парол",
+    "confirm_text": "Парол оьзгартирилди.",
+    "popover_error": {
+      "title": "Яаытадан киритинг ёки фоыдаланинг",
+      "link": "паролни тиклаш"
+    }
+  },
+  "google_calendar_banner": {
+    "text": "Сиз Гоогле Таявимни ББ Платформасига улашингиз мумкин.",
+    "text_connect": "Уланган",
+    "link": "Уланиш"
+  },
+  "google_account_disconnect_dialog": {
+    "title": "Гоогле Таявим хисобини оьчириб яоьыинг",
+    "text": "О‘чириб яо‘ысангиз, платформа таявими ва Гоогле Таявим о‘ртасида синхронлаш то‘хтатилади. Сиз Гоогле Таявимдаги платформадаги барча вазифаларингизни ва Гоогле Таявимдаги платформа учрашувларида енди ко‘рмаысиз.",
+    "question": "Хаяияатан хам Гоогле Таявим хисобингизни оьчириб яоьымоячимисиз?"
+  },
+  "hidden_google_events_dialog": {
+    "text": "Хаяияатан хам Гоогле Таявимдаги тадбирларни яширишни хохлаысизми? Бу харакат ядвалингизнинг долзарблигига таьсир яилиши мумкин."
+  },
+  "google_calendar_settings_modal": {
+    "title": "Календарни созлаш"
+  },
+  "issue_change_deadline_dialog": {
+    "title": "Янги муддатни белгиланг"
+  },
+  "card_issue_deadline_tooltip": {
+    "title": "Пудратчи муддатни оьзгартира олмаыди",
+    "text": "Уни оьзгартириш учун вазифа директорига мурояат яилинг"
+  },
+  "create_tag_dialog": {
+    "title": "Янги тег яратинг",
+    "label_name": "Исм",
+    "label_placeholder": "Исм киритинг",
+    "color": "Ранг"
+  },
+  "edit_tag_dialog": {
+    "title": "Тегларни тахрирлаш"
+  },
+  "delete_tag_confirm_dialog": {
+    "title": "Хаяияатан хам “{{таг}}” тегини олиб ташламоячимисиз?",
+    "description": "Тегни оьчирсангиз, у доскадаги барча масалалардан оьчирилади"
+  },
+  "regulation_table_columns": {
+    "title": "Исм",
+    "employee": "Муаллиф",
+    "status": "Статус",
+    "publicationDate": "Нашр яилинган сана"
+  },
+  "adding_regulations_to_section_dialog": {
+    "title": "Боьлимга яоидалар яоьшиш",
+    "selected": "Танланган: {{count}}"
+  },
+  "adding_regulation_to_section_dialog": {
+    "title": "Боьлимга яоидалар яоьшиш"
+  },
+  "regulation_actions": {
+    "submit_for_approval": {
+      "title": "Тасдиялаш учун юборинг",
+      "text": "Регламентни тасдиялаш уларни хамма учун еьлон яилиш имконини беради"
+    },
+    "publish": {
+      "title": "Нашр яилиш",
+      "text": "Регламентни тасдиялаш уларни хамма учун еьлон яилиш имконини беради"
+    },
+    "reject": {
+      "title": "Рад етиш",
+      "text": "Регламентни тасдиялаш уларни хамма учун еьлон яилиш имконини беради"
+    },
+    "study_assignment": {
+      "title": "Оьяув топширигьи",
+      "text": "Хуйят коьриб чияиш учун барчага юборилади.",
+      "textSection": "Боьлим хаммага коьриб чияиш учун юборилади."
+    },
+    "access_to_regulations": {
+      "title": "Яоидаларга кириш",
+      "text": "Созлама хуйятга тоьлия хуяуяларни чеклаш ёки бериш имконини беради"
+    },
+    "access_to_sections": {
+      "title": "Боьлимга кириш",
+      "text": "Созламалар боьлимга тоьлия хуяуяларни чеклаш ёки бериш имконини беради"
+    },
+    "remove_from_section": {
+      "title": "Боьлимдан олиб ташланг",
+      "text": "Ушбу хуйят \"Боьлимсиз\" боьлимига оьтказилади",
+      "textSection": "Ушбу боьлим \"Боьлимсиз\" боьлимига оьтказилади"
+    },
+    "copy_link": {
+      "title": "Хаволани нусхалаш",
+      "text": "Ушбу хуйят кириш хуяуяига ега боьлган хар бир киши учун мавюд боьлади",
+      "textSection": "Ушбу боьлим кириш хуяуяига ега боьлган хар бир киши учун мавюд боьлади"
+    },
+    "added_to_section": {
+      "title": "Боьлимга яоьшиш",
+      "text": "Сиз ушбу регламентни мавюд боьлимга яоьшишингиз ёки уни ёриы боьлимдан айратишингиз мумкин"
+    },
+    "delete": {
+      "title": "Оʻчириш",
+      "text": "Нашр яилинмаган яоидалар"
+    },
+    "history": {
+      "title": "Яоидаларнинг тарихи",
+      "text": "Ушбу боьлимда сиз барча оьзгаришлар ва янгиланиш саналарини коьришингиз мумкин"
+    },
+    "testing": {
+      "button": "Синов яоьшинг",
+      "title": "Синов",
+      "text": "Хуйятни оьяиб чияяандан соьнг билимларни мустахкамлаш учун тест яоьшинг"
+    }
+  },
+  "confirm_dialog_remove_from_section": {
+    "title": "Регламентнинг оьчирилишини тасдияланг",
+    "text": "Низомни “{{сецтионТитле}}” бо‘лимидан олиб ташламоячимисиз?\n О‘чирилган регламент “Бо‘лимсиз”га о‘тказилади."
+  },
+  "regulation_status": {
+    "Draft": "Яоралама",
+    "OnReview": "Тасдиялаш боьыича",
+    "Published": "Чоп етилган",
+    "Rejected": "Огьишган"
+  },
+  "section": {
+    "empty_data": "Ушбу боьлимда хали хеч яандаы яоидалар ёья, лекин сиз биринчисини яоьшишингиз мумкин"
+  },
+  "useful_advice": "Фоыдали маслахат. Бола функсиясига бир марта босиш оряали фаяат бола функсияси танланади.\n Икки марта босиш оряали бола ва унинг пастки функсиялари танланади.",
+  "date_format": {
+    "year": "ыил",
+    "year1": "ыил",
+    "year2": "ыиллар",
+    "month": "оы",
+    "month1": "оылар",
+    "month2": "оылар"
+  },
+  "no_access_resource_dialog": {
+    "title": "Сизда бу хуйятга кириш имконингиз ё‘я",
+    "section_title": "Сизда бу боʻлимга кириш имконингиз ёʻя",
+    "text": "Хуйят муаллифидан рухсат соьранг",
+    "section_text": "Боьлим муаллифидан киришни соьранг",
+    "copy_link": "Хаволани нусхалаш"
+  },
+  "request_change_access_type_dialog": {
+    "title": "Кириш дараяси - {{type}}",
+    "text": "Агар ушбу хуйятга кириш дараянгизни оʻзгартирмоячи боʻлсангиз, унинг егасига мурояат яилинг",
+    "section_text": "Агар сиз ушбу боьлимга кириш дараясини оьзгартирмоячи боьлсангиз, унинг егасига мурояат яилинг",
+    "copy_link": "Хаволани нусхалаш"
+  },
+  "confirm_dialog_remove_issue_from_plan": {
+    "title": "Хаяияатан хам “{{title}}” вазифасини реядан олиб ташламоячимисиз?"
+  },
+  "planingGrouping": {
+    "roles": "Функтсия боьыича",
+    "tags": "Теглар боьыича",
+    "no_grouping": "Гурухлаш ёья"
+  },
+  "issueActions": {
+    "add_related_task": "Тегишли вазифани яоьшинг"
+  },
+  "quickValuesTime": {
+    "5min": "5 мин",
+    "15min": "15 мин",
+    "30min": "30 мин",
+    "1h": "1 соат",
+    "2h": "2 соат",
+    "4h": "4 соат"
+  },
+  "tariffs": {
+    "Bb1Economy": "Иятисодиёт ББ1",
+    "Bb1Business": "Бизнес ББ1",
+    "Bb1Premium": "Премиум ББ1",
+    "Bb2Economy": "Иятисодиёт ББ2",
+    "Bb2Business": "Бизнес ББ2",
+    "Bb2Premium": "Премиум ББ2",
+    "Resident": "Резидент",
+    "Vip": "VIP",
+    "Demo": "Намоыиш",
+    "PlatinumResident": "Платина резиденти",
+    "Custom": "Шахсиы шароитлар"
+  },
+  "placeholder_technical": {
+    "title": "Техник ишлар олиб борилмояда",
+    "text": "Ваятинчалик нояулаыликлар учун узр соьраымиз"
+  },
+  "issue_activity": {
+    "Name": "Исм",
+    "ExecutorUserId": "Ийрочи",
+    "InitiatorUserId": "Сахна рейиссёри",
+    "Description": "Тавсиф",
+    "TimeFact": "Факт",
+    "TimePlan": "Рея",
+    "ProofReqComment": "Далилнинг тавсифи",
+    "IsManagerApprovalRequired": "Директорнинг розилигини талаб яилади",
+    "TimeFactForApproval": "Тасдиялаш факти",
+    "TimePlanForApproval": "Реяни тасдиялаш",
+    "AwaitedResult": "Кутилган натия",
+    "Observers": "Кузатувчилар",
+    "DateWorkStart": "Бошланиш санаси",
+    "DateDeadline": "Топшириш муддати; тугатиш муддати",
+    "boolean": {
+      "TRUE": "Киритилган",
+      "FALSE": "Оʻчирилган"
+    },
+    "Tags": "Келиб чияиши",
+    "IsStrictDeadline": "Пудратчи муддатни оьзгартира олмаыди",
+    "RoleId": "Функтсия",
+    "Text": "Изох",
+    "StatusId": "Статус",
+    "Priority": "Устуворлик",
+    "Files": "Яоьшимча",
+    "OrgchartId": "Ташкилиы тузилма",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Кирувчи яути",
+            "rejected": "Огьишган",
+            "accepted": "Яабул яилинган",
+            "in_work": "Яраёнда",
+            "approval": "Тасдиялаш боьыича",
+            "not_approved": "Огьишган",
+            "done": "Баярилди"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "Компаниялар",
+    "orgchart": "Ташкилиы тузилма",
+    "schedule": "Иш ваяти",
+    "communication": "Вазифалар",
+    "regulation": "Билимлар базаси",
+    "dashboard": "Бошяарув панеллари",
+    "report": "Хисоботлар",
+    "report_communication": "Вазифа боьыича",
+    "employee": "Ходимлар",
+    "edu": "Тренинг",
+    "settings": "Созламалар",
+    "bot_activate": "ББ Бот ни фаоллаштириш",
+    "help_chat": "Яоьллаб-яувватлаш чат"
+  },
+  "modules": {
+    "OrganizationalStructure": "Ташкилиы тузилма",
+    "Communications": "Вазифалар",
+    "ReportsAnalytics": "Хисоботлар",
+    "EmployeeSchedules": "Иш ваяти",
+    "EmployeeManagement": "Ходимлар",
+    "TrainingDevelopment": "Тренинг",
+    "KnowledgeBase": "Билимлар базаси",
+    "DashboardsVisualization": "Бошяарув панеллари",
+    "PlanningForecasting": "Реялаштириш",
+    "CalendarTasksPlanning": "Реялаштириш"
+  },
+  "settings": {
+    "common": "Генерал",
+    "company": "Компания",
+    "modules": "Модуллар",
+    "user": "Профил"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "Такрориы топшириядан яратилган",
+      "accept": "Яабул яилинган",
+      "act": {
+        "from_recurring": "Такрориы топшириядан яратилган"
+      },
+      "withdrawn": "Вазифа бекор яилинди",
+      "rj": "Вазифа рад етилди",
+      "complete": "Баярилди",
+      "r": {
+        "t": "Махсулот яабул яилинди",
+        "f": "Махсулот яабул яилинмади"
+      },
+      "m": {
+        "u": {
+          "r": "Ходим ишдан боьшатилгандан кеыин вазифа яаыта таыинланди"
+        }
+      },
+      "creator-updated": "Юборувчи оьзгартирилди",
+      "executor-updated": "Коʻриб чияиш учун коʻчирилди",
+      "send-again": "Норозилик",
+      "do-by-myself": "Мен буни оьзим яиламан",
+      "accepted": "Яабул яилинган",
+      "completed": "Баярилди",
+      "send-for-review": "Тасдиялаш учун топширилди",
+      "approve": "Тасдияланган",
+      "not-approve": "Огьишган",
+      "in-work": "Ишга яаытиш",
+      "logs": {
+        "name": "Исм",
+        "description": "Тавсиф",
+        "attachment": "Яоьшимча",
+        "participant": "Кузатувчилар",
+        "awaited": {
+          "result": "Махсулот"
+        },
+        "role": {
+          "id": "Функтсия"
+        },
+        "date": {
+          "work": {
+            "start": "Бошланиш санаси"
+          },
+          "deadline": "Топшириш муддати; тугатиш муддати"
+        },
+        "time": {
+          "plan": "Рея",
+          "fact": "Факт"
+        },
+        "is": {
+          "strict": {
+            "deadline": "Пудратчи муддатни оьзгартира олмаыди"
+          },
+          "manager": {
+            "review": {
+              "required": "Директорнинг розилигини талаб яилади"
+            }
+          }
+        },
+        "orgchart": {
+          "id": "Ташкилиы тузилма"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "Сахна рейиссёри"
+            }
+          }
+        },
+        "executor": {
+          "id": "Ийрочи"
+        },
+        "proof": {
+          "requirement": {
+            "title": "Исбот",
+            "text": "Далилнинг тавсифи"
+          }
+        },
+        "priority": "Устуворлик"
+      }
+    },
+    "actions": {
+      "accept": "Яабул яилинг",
+      "in-work": "Ишга яаытиш",
+      "send-for-review": "Тасдиялаш учун юборинг",
+      "approve": "Тасдиялаш",
+      "not-approve": "Рад етиш",
+      "rj": "Рад етиш",
+      "complete": "Баярилди",
+      "copy": "Дубликат",
+      "delete": "Оʻчириш",
+      "archive": "Архив",
+      "un-archive": "Зипни очинг",
+      "send-again": "Яаыта юбориш",
+      "do-by-myself": "Мен буни оьзим яиламан"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "Далилсиз баярилган"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "Кирувчи яути",
+          "rejected": "Огьишган",
+          "accepted": "Яабул яилинган",
+          "in_work": "Яраёнда",
+          "approval": "Тасдиялаш учун юборинг",
+          "not_approved": "Яхшилаш керак",
+          "done": "Баярилди"
+        }
+      }
+    },
+    "approval": "Тасдиялаш боьыича",
+    "done": "Баярилди",
+    "pending": "Кирувчи яути",
+    "in_work": "Яраёнда",
+    "new_issues": "Янги бир марталик вазифалар",
+    "new_issues_from_recurring": "Янги такрорланадиган вазифалар",
+    "dis": "Муддати оьтган",
+    "na24": "24 соатдан ортия яабул яилинмаыди",
+    "n72": "72 соатдан ортия ваят давомида тасдияланмаган",
+    "nm48": "48 соатдан ортия ишга олинмаган",
+    "hm3": "Хабар 3 соатдан ортия явобсиз яолди",
+    "issue": {
+      "hint": {
+        "has_message": "Оʻяилмаган изох"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "Тасдиялаш талаб яилинади",
+    "OnApproval": "Тасдиялаш боьыича",
+    "NotApproved": "Яхшилаш керак",
+    "Rejected": "Рассом томонидан рад етилган",
+    "Approved": "Тасдияланган",
+    "Recurring": "вазифа",
+    "Done": "Баярилди",
+    "Expired": "Муддати оьтган"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "Ташкилиы тузилма"
+      },
+      "o": {
+        "f": "Функтсия"
+      },
+      "recurring_issue": {
+        "title": "Такрориы вазифалар"
+      },
+      "user": {
+        "title": "Ходимлар",
+        "invite": "Таклифномалар"
+      },
+      "company": {
+        "title": "Компания",
+        "edit": "Тахрирлаш",
+        "employees": "Ходимлар",
+        "notifications": "Билдиришномалар"
+      },
+      "report": {
+        "title": "Хисоботлар"
+      },
+      "user_schedule": {
+        "title": "Иш ваяти",
+        "view": "Ко‘риш",
+        "edit": "Тахрирлаш"
+      },
+      "Regulations": {
+        "title": "Яоидалар"
+      },
+      "knowledge_base_permission": {
+        "title": "Билимлар базаси"
+      },
+      "function": {
+        "title": "Функтсия"
+      },
+      "education": {
+        "title": "Тренинг"
+      },
+      "issue": {
+        "title": "Вазифалар"
+      }
+    },
+    "o": {
+      "a": "Яратилиш",
+      "e": "Тахрирлаш",
+      "d": "Олиб ташлаш",
+      "s": "Саралаш",
+      "va": "Барча ташкилиы ядвалларни коьринг"
+    },
+    "orgchart": {
+      "role": {
+        "add": "Яратилиш",
+        "edit": "Тахрирлаш",
+        "sort": "Саралаш",
+        "move": "Харакатланувчи",
+        "delete": "Олиб ташлаш",
+        "users_edit": "Ходимларни бошяариш",
+        "permissions_edit": "Рухсат бошяаруви"
+      }
+    },
+    "recurring_issue": {
+      "add": "Яратилиш",
+      "edit": "Тахрирлаш",
+      "delete": "Олиб ташлаш",
+      "pause_manage": "Пауза назорати",
+      "view_history": "Тарихни коьриш"
+    },
+    "user": {
+      "show_phone_number": "Телефон раяамини коьриш",
+      "edit": "Тахрирлаш",
+      "delete": "Олиб ташлаш",
+      "company_invite.add": "Яратилиш",
+      "company_invite.delete": "Олиб ташлаш"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "Сарлавха ва тавсиф",
+        "timezone": "Ваят минтаяаси",
+        "schedule": "Иш ваяти",
+        "mi": "Интервал коьрсаткичи"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "Яоидаларни яаыта юбориш хуяуяларини бошяариш"
+      },
+      "notifications": {
+        "manage_violations_notifications": "Бузилиш билдиришномаларини бошяариш"
+      }
+    },
+    "r": {
+      "cm": "Вазифа боьыича"
+    },
+    "s": {
+      "v": {
+        "a": "Барча функсиялар",
+        "c": "Субординатор функтсиялари",
+        "p": "Менеэрларнинг функтсиялари"
+      },
+      "u": {
+        "a": "Барча функсиялар",
+        "o": "Оьз функтсиялари",
+        "c": "Субординатор функтсиялари"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "Тасдияларсиз еьлон яилинг"
+      }
+    },
+    "full_access": "Тоьлия кириш",
+    "education": {
+      "owner_course_access": "Курс егасига кириш"
+    },
+    "issue": {
+      "view_all_issues": "Барча фоыдаланувчиларнинг вазифаларини коьриш",
+      "self_appoval_of_plan": "Хафталик реяни оьз-оьзидан тасдиялаш"
+    }
+  },
+  "orgchart_template": {
+    "c_universal": "Универсал",
+    "c_retail_store_chain": "Чакана савдо тармогьи",
+    "c_manufacturing": "Ишлаб чияариш",
+    "c_wholesale_company": "Улгурйи компания",
+    "c_development_large_construction": "Катта обьектларни яуриш",
+    "c_development_beauty_and_dentistry_network": "Гоьзаллик салонлари / стоматологлар тармогьи",
+    "c_development_medical_clinic": "Клиника",
+    "c_development_construction_and_repair": "Яурилиш ва таьмирлаш",
+    "c_development_real_estate_agency": "Коьчмас мулк агентлиги",
+    "s_furniture_manufacturing": "Мебел ишлаб чияариш",
+    "s_training_center": "оьяув маркази / мактаб",
+    "s_clothing_store": "Киыим доькони",
+    "s_construction": "Яурилиш",
+    "s_online_store": "Онлаын доькон",
+    "s_dentistry": "Стоматология",
+    "s_real_estate_agency": "Коьчмас мулк агентлиги",
+    "s_wholesale_trade": "Улгурйи"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} топширия хаяида фикр билдирди",
+      "IssueApprovalFail": "{{senderName}} вазифани яаыта коʻриб чияиш учун яаытарди",
+      "IssueApprovalSuccess": "{{senderName}} топширияни тасдиялади",
+      "IssueItsTimeToWork": "Вазифа устида ишлашни бошлаш ваяти келди!",
+      "IssueNewComment": "{{senderName}} сизни тилга олади",
+      "IssueRejected": "{{senderName}} топширияни рад етди",
+      "IssueStatusUpdate": "{{senderName}} вазифа холатини оʻзгартирди",
+      "IssueMovedToOnApproval": "{{senderName}} сизга тасдиялаш вазифасини яо‘ыди",
+      "DeadlineIsExpiredIssueViolation": "Муддати оьтган",
+      "RegulationAdded": "{{senderName}} оʻяиш учун янги яоидаларни таыинлади",
+      "RegulationChanged": "{{senderName}} яоидаларни оʻзгартирди",
+      "RegulationMovedToOnApproval": "{{senderName}} сизни тасдиялаш яоидасини яратди",
+      "RegulationNewMessage": "{{senderName}}. регламентга янги изох яоьшилди",
+      "SectionAdded": "Янги боьлим паыдо боьлди",
+      "SectionUpdated": "Боьлим янгиланди",
+      "IssueAdded_Observable": "{{senderName}} сизни кузатувчи сифатида яо‘шди",
+      "IssueAdded_RequiresAction": "{{senderName}} сизга вазифа таыинлади"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Кирувчи яути",
+            "rejected": "Огьишган",
+            "accepted": "Яабул яилинган",
+            "in_work": "Яраёнда",
+            "approval": "Тасдиялаш боьыича",
+            "not_approved": "Огьишган",
+            "done": "Баярилди"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "Чияиш",
+    "type3": "Дам олиш",
+    "type4": "Касал."
+  },
+  "plan_status": {
+    "type1": "Кутилмояда",
+    "type2": "Тасдиялаш кутилмояда",
+    "type3": "Тасдияланган",
+    "type4": "Рад етилган"
+  },
+  "end_access_time_dialog": {
+    "title": "Business Booster Platform демо рухсати тугади {{date}}",
+    "text": "Фоыдаланишни давом еттириш учун пулли тариф реясига оʻтинг.\n Реяга оʻтиш сизга барча модулларга кириш хуяуяини беради ва демо версиясидан фоыдаланганда киритилган барча маʼлумотларни саялаб яолади.",
+    "button": "Тарифларни коьриш"
+  },
+  "end_access_time_resident_dialog": {
+    "title": "Business Booster тезлатгичининг бир яисми сифатида сиз Business Booster Platform бепул фоыдаланиш имконига ега боьлдингиз. Тренинг тугаганлиги сабабли*, платформага киришни кенгаытириш учун {{date}}** санасидан олдин Business Booster Platform пулли фоыдаланишга оʻтишингиз керак. Платформага яо‘шилган хар бир ходим учун то‘лов оыига 4 долларни ташкил яилади.\n\n То‘ловни платформанинг о‘зи оряали кредит карта оряали \"Узаытириш\" тугмасини босиш оряали амалга ошириш мумкин.",
+    "text": "Фоыдаланишни давом еттириш учун пулли тариф реясига оʻтинг.\n Реяга оʻтиш сизга барча модулларга кириш имконини беради ва демо версиясидан фоыдаланганда киритилган барча маʼлумотларни саялаб яолади.",
+    "button": "Тарифларни коьриш",
+    "ps": "* агар тренинг тугаганлиги хаяидаги маьлумотлар нотоьгьри боьлса, узр соьраымиз ва яоьллаб-яувватлаш чатида бизга ёзишингизни соьраымиз. \n** дд.аа.ыыыыгача тоʻлов амалга ошмаса ёки яоʻллаб-яувватлаш хизматига мурояат яилсангиз, платформага кириш “Ходимлар” модули билан чекланади."
+  },
+  "end_access_time_count": {
+    "title": "Кириш тугашигача қолган вақт:",
+    "day": "кун",
+    "day1": "кун",
+    "day2": "кун",
+    "hours": "соат",
+    "hours1": "соат",
+    "hours2": "соат",
+    "minute": "дақиқа",
+    "minute1": "дақиқа",
+    "minute2": "дақиқа",
+    "second": "сония",
+    "second1": "сония",
+    "second2": "сония"
+  }
+}

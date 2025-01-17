@@ -1,0 +1,1456 @@
+{
+  "placeholder": {
+    "enter": "Ingresar",
+    "awaited_result": "Introduce el resultado esperado",
+    "email": "usuario@ejemplo.com",
+    "password": "p@r0l",
+    "invite_code": "1A2B3C4D",
+    "first_name": "Introduzca nombre aquí",
+    "middle_name": "Ingrese el segundo nombre aquí",
+    "last_name": "Introduzca el apellido aquí",
+    "week_start_day": "Inicio de la semana calendario",
+    "report_start_day": "Comienzo de la semana de informes",
+    "description": "Escribe algunas palabras aquí...",
+    "phone_number": "Ingrese su número telefónico",
+    "name": "Introduzca su nombre",
+    "function_name": "Introduzca el nombre de la función aquí",
+    "valuable_final_product": "Ingrese el producto aquí",
+    "parent_function": "Seleccionar función principal",
+    "restore_code": "Ingrese su código de recuperación aquí",
+    "time_zone": "Selecciona la zona horaria",
+    "company_owner": "propietario de la empresa",
+    "email_confirmation_code": "12345",
+    "company_name": "Introduzca aquí el nombre de su empresa",
+    "contact_person": "La persona de contacto",
+    "contact_phone_number": "Número de contacto",
+    "issue_name": "Introduce el título",
+    "issue_description": "Introduce una descripción",
+    "issue_result": "Introducir producto",
+    "issue_proof_description": "Introduzca una descripción de la evidencia.",
+    "divider_deadline": "a",
+    "comment": "Un comentario",
+    "issue_comment": "Escribir un comentario...",
+    "write_comment": "Escribir un comentario...",
+    "click_to_select": "Clic para seleccionar",
+    "click_to_select_function": "Presione para seleccionar la función",
+    "recurring_task_name": "Introduce el título",
+    "recurring_task_description": "Introduce una descripción",
+    "recurring_task_result": "Introducir producto",
+    "preferred_communication_name": "Nombre",
+    "preferred_communication_value": "Iniciar sesión / Número",
+    "reason": "Escribe la razón",
+    "search_here": "Comience a buscar problemas aquí...",
+    "enter_role": "Introduzca el nombre de la función",
+    "create_new_regulation": "Crear un nuevo reglamento...",
+    "section_name": "Introduzca el nombre de la sección...",
+    "regulation_name": "Introduzca el nombre del reglamento...",
+    "regulation_name1": "Nombre del reglamento...",
+    "select_section": "Seleccionar sección",
+    "search_by_employees": "Buscar por empleado",
+    "search_by_companies": "Buscar por empresa",
+    "glossary": {
+      "r": "Producto"
+    },
+    "come_up_question": "Haz una pregunta",
+    "come_up_answer": "Piensa en una respuesta",
+    "start_here": "Empieza aqui",
+    "start_write_regulation": "Empiece a redactar reglamentos...",
+    "text_editor_placeholder": "Ingrese texto...",
+    "text_editor_url": "Introducir URL",
+    "group_company_name": "Introduce el título",
+    "choose_companies": "Seleccionar empresas",
+    "choose_drivers": "Seleccionar conductores",
+    "select": "Seleccionar",
+    "update_note_name": "Nota de actualización",
+    "upload_the_json_file": "Sube el archivo JSON",
+    "code": "Introduce un código",
+    "create_anchor": "Ingrese la clave de anclaje en formato latino o numérico:",
+    "enter_a_comment": "Introduce un comentario...",
+    "search": "Buscar",
+    "plan_search": "buscar un plan",
+    "describe_situation": "Describe el problema",
+    "write_data": "Escribe tus datos",
+    "suggest_decision": "Sugerir soluciones",
+    "write_question": "Escribe una pregunta",
+    "project_name": "Introduce el título",
+    "project_description": "Introduce una descripción",
+    "project_budget": "Introduce tu presupuesto",
+    "project_tasks_reject_dialog": "Escribe el motivo del rechazo de tareas.",
+    "project_search": "buscar un proyecto",
+    "min": "Mínimo",
+    "max": "Máximo",
+    "dashboard_column_count": "Introduzca el número de columnas",
+    "write_reason": "Por favor indique el motivo",
+    "time_block": {
+      "name": "Introduce el título",
+      "description": "Introduce una descripción",
+      "selectDate": "Seleccione fecha",
+      "selectTime": "Seleccionar hora"
+    },
+    "enter_password": "introducir la contraseña",
+    "google_event": {
+      "name": "Introduce el título",
+      "description": "Introduce una descripción",
+      "link": "Ingresar enlace",
+      "selectDate": "Seleccione fecha",
+      "selectTime": "Seleccionar hora",
+      "repeat": "",
+      "organizer": "",
+      "reminder": ""
+    },
+    "empty": "Vacío",
+    "new_employee": "Nuevo empleado #{{id}}"
+  },
+  "subheader": {
+    "email": "Correo electrónico",
+    "orgchart": "Estructura organizativa",
+    "password": "Contraseña",
+    "password_check": "Repita la contraseña",
+    "invite_code": "Codigo de invitacion",
+    "first_name": "Nombre",
+    "middle_name": "Apellido",
+    "last_name": "Apellido",
+    "app_locale": "Idioma de la aplicación",
+    "app_theme": "Tema",
+    "phone_number": "Número de teléfono",
+    "company_name": "Nombre",
+    "contact_person": "La persona de contacto",
+    "contact_phone_number": "Número de contacto",
+    "week_start_day": "Inicio de la semana calendario",
+    "report_start_day": "Comienzo de la semana de informes",
+    "description": "Descripción",
+    "function_name": "Nombre de la función",
+    "valuable_final_product": "Producto",
+    "parent_function": "Función principal",
+    "restore_code": "Código de recuperación",
+    "work_schedule": "Cronograma",
+    "time_zone": "Zona horaria",
+    "company_owner": "propietario de la empresa",
+    "function_color": "Color de función",
+    "email_confirmation": "Email de confirmación",
+    "employee": "Empleado",
+    "employee_type": "Tipo de empleado",
+    "task_recurring_name": "Nombre",
+    "my_companies": "Mis empresas",
+    "avatar": "Avatar",
+    "who_available": "Artistas",
+    "who_available_alt": "A quien",
+    "who_not_available": "Excepto",
+    "periodicity": "enviar cada",
+    "proof": "Prueba",
+    "proof_description": "Descripción de la prueba",
+    "proof_image_amount": "Cantidad",
+    "proof_text_length": "Longitud",
+    "employee_functions": "Funciones de los empleados",
+    "employee_functions_administrator": "Funciones de empleado (Gerente)",
+    "employee_functions_executor_specialist": "Funciones de un empleado (Ejecutor)",
+    "employee_functions_executor_trainee": "Funciones de empleado (Aprendiz)",
+    "left_drawer_state": "Comportamiento del menú izquierdo",
+    "boards": "tableros",
+    "comment": "Un comentario",
+    "call_result": "Resultado de la llamada",
+    "message": "Mensaje",
+    "text": "Texto",
+    "issue_name": "Nombre",
+    "issue_priority": "Prioridad",
+    "issue_description": "Descripción",
+    "issue_result": "Producto",
+    "issue_fact_result": "Resultado actual",
+    "issue_executor": "Ejecutor",
+    "issue_role": "Función",
+    "filter_issue_role": "Por función",
+    "issue_participants": "Observadores",
+    "issue_sender": "Director de escena",
+    "issue_advanced_settings": "Ajustes avanzados",
+    "issue_actions": "Comportamiento",
+    "issue_current_status": "Estado actual",
+    "issue_created": "Creado",
+    "issue_time_for_approval": "Plan de aprobación",
+    "issue_time_fact_for_approval": "Hecho de aprobación",
+    "issue_orgachart_company": "Estructura organizativa",
+    "issue_with_deadline": "Una tarea con fecha límite",
+    "deadline": "Fecha límite",
+    "indicate_reason_changing_deadline": "Indique el motivo del cambio de fecha límite.",
+    "executor_deadline": "fecha de inicio",
+    "date_work_start_for_approval": "Inicio de aprobación",
+    "by_violations": "Por violaciones",
+    "by_activity": "Por actividad",
+    "by_statuses": "Por estado",
+    "reason": "Razón",
+    "work_start": "comienzo del trabajo",
+    "communication_type": "Tipo de comunicación preferido",
+    "sender": "Director de escena",
+    "use_timezone_of": "Usar zona horaria",
+    "executor": "Ejecutor",
+    "attachments": "Archivos adjuntos",
+    "role_select": "Seleccionar función",
+    "position_select": "Seleccione una posición",
+    "terminology": "Terminología",
+    "name": "Nombre",
+    "companies": "Compañías",
+    "drivers": "Conductores",
+    "company": "Compañía",
+    "drivers_admin": "Administradores de conductores",
+    "confirm_delete_employee": "¿Está seguro de que desea eliminar a este empleado?",
+    "confirm_delete_company": "¿Está seguro de que desea eliminar esta empresa?",
+    "dashboard_name": "Nombre",
+    "metric_interval": "Intervalo",
+    "metric_source": "Fuente",
+    "chart_name": "Nombre del gráfico",
+    "metric_filling": "Relleno",
+    "metric_switch_main": "Métrica principal",
+    "metric_switch_reverse": "Métrica invertida",
+    "metric_switch_fix": "Asignar una métrica a una persona",
+    "metric_switch_double": "Doble métrica",
+    "select_metrics": "Métrica",
+    "metric_function": "Función",
+    "metric_responsible": "Responsable",
+    "metric_orgchart": "Estructura organizativa",
+    "metric_settings": "Configuración de los valores del eje Y",
+    "metric_employee": "Empleado",
+    "situation": "Problemas",
+    "data": "Datos",
+    "decision": "Respuesta",
+    "question": "Pregunta",
+    "code": "El código",
+    "locale": "Idioma",
+    "unclosed_tasks": "Tareas inacabadas",
+    "unallocated_tasks": "Tareas no asignadas",
+    "no_open_tasks": "No hay tareas pendientes",
+    "week_plan": "Plan semanal",
+    "issues": "Tareas",
+    "time": "Tiempo",
+    "project_name": "Nombre del proyecto",
+    "project_description": "Introduzca una descripción del proyecto",
+    "project_budget": "Ingrese el presupuesto del proyecto",
+    "end": "Fin",
+    "project_responsible": "Responsable del Proyecto",
+    "project_members": "Seleccionar participantes",
+    "urgency": "Urgencia",
+    "selected_project_description": "Descripción del Proyecto",
+    "selected_project_budget": "Presupuesto del proyecto",
+    "selected_project_members": "Participantes",
+    "dashboard": "Paneles de control",
+    "dashboard_column_count": "Número de columnas",
+    "issue_advanced_settings_deadline": "Plazo estricto",
+    "issue_advanced_settings_approval": "Requiere la aprobación del director.",
+    "metric_switch": "invertido",
+    "table_row": "Términos",
+    "violation_notification_switches": "Notificaciones sobre infracciones de tareas",
+    "requirements_switches": "Requisitos",
+    "issue_complete_dialog_format": {
+      "text": "texto",
+      "image": "imagen",
+      "file": "archivo"
+    },
+    "issue_complete_dialog_value": {
+      "symbols": "caracteres",
+      "count": "cantidad"
+    },
+    "table_col": "columnas",
+    "templates": "Plantillas de organigramas",
+    "time_block": {
+      "name": "Nombre",
+      "description": "Descripción",
+      "date": "Fecha",
+      "startTime": "Comenzar",
+      "endTime": "Finalizando",
+      "fullDay": "Todo el dia",
+      "repeat": "Repetir"
+    },
+    "change_password": {
+      "info_text": "Cambiar la contraseña de la cuenta {{user}}",
+      "old_password": "Contraseña actual",
+      "new_password": "Introduzca una nueva contraseña",
+      "confirm_password": "repita la nueva contraseña",
+      "placeholder": "introducir la contraseña"
+    },
+    "google_account": {
+      "title": "Cuentas conectadas",
+      "disconnect": "Desactivar",
+      "switcher": "Mostrar eventos de Google Calendar\n en la programación del calendario",
+      "switcher_small": "Mostrar eventos"
+    },
+    "tags": "Origen",
+    "google_event": {
+      "name": "Nombre",
+      "description": "Descripción",
+      "link": "Enlace",
+      "repeat": "Repetir",
+      "start_date": "fecha de inicio",
+      "end_date": "Fecha final",
+      "organizer": "Organizador",
+      "reminder": "Recordatorio",
+      "you_come": "¿Vendrás?"
+    },
+    "calendar_sidebar_filter": "Mostrar en tareas no asignadas",
+    "regulation_access_control_dialog": {
+      "section": "Selección de sección",
+      "orgchart": "Elegir una estructura organizativa",
+      "accesses": "Accesos concedidos",
+      "creator": "Creador"
+    },
+    "birth_date": "Fecha de nacimiento",
+    "employment_date": "Fecha de contratación"
+  },
+  "button": {
+    "ok": "DE ACUERDO",
+    "cancel": "Cancelar",
+    "login": "Entrar",
+    "signup": "Registro",
+    "check_code": "Código de verificación",
+    "already_registered": "¿Ya registrado?",
+    "invite": "Invitar",
+    "invite_employee": "invitar a un empleado",
+    "all_invites": "Lista de invitaciones",
+    "save": "Ahorrar",
+    "dont_save": "no guardar",
+    "create": "Crear",
+    "create_function": "Crear una función",
+    "delete": "Borrar",
+    "forgot_password": "Recuperación de contraseña",
+    "send_reset_code": "Enviar código de recuperación",
+    "move_function": "Mover",
+    "clear": "Claro",
+    "today": "Hoy",
+    "later": "Más tarde",
+    "studied_and_understood": "Hecho",
+    "add": "Agregar",
+    "close": "Cerca",
+    "save_schedule": "Guardar horario de trabajo",
+    "add_company": "Añadir una empresa",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "add_task": "Agregar una nueva tarea",
+    "add_issue": "Agregar una tarea",
+    "leave_company": "Dejar",
+    "upload": "Descargar",
+    "upload_from_pc": "Subir desde el dispositivo",
+    "change": "Reemplazar",
+    "edit": "Editar",
+    "create_company": "Nueva compañia",
+    "create_dashboard": "Crear un panel",
+    "reset": "Reiniciar",
+    "wrote": "publicado por",
+    "called": "llamé",
+    "leave_comment": "Deja un comentario",
+    "duplicate_in_messenger": "Mensaje duplicado en messenger",
+    "next": "Más",
+    "copy": "Copiar",
+    "withdraw": "Revocar",
+    "send": "Enviar",
+    "send_message": "enviar un mensaje",
+    "send_comment": "enviar comentario",
+    "select_files": "Selecciona archivos",
+    "add_files": "Agregar archivos",
+    "go_to_processing": "Empezar",
+    "finish_work": "Trabajo terminado",
+    "reset_all_boards": "Restablecer todos los tableros",
+    "yes": "Sí",
+    "no": "No",
+    "apply": "Aplicar",
+    "show_links": "Mostrar enlaces",
+    "follow": "Ir a",
+    "attach": "Adjuntar",
+    "relation_my": "Mi",
+    "relation_control": "a los controles",
+    "relation_participate": "Estoy viendo",
+    "relation_subordinates": "Subordinados",
+    "create_task": "Crear una tarea",
+    "create_routine": "Crear una tarea recurrente",
+    "create_message": "crear un mensaje",
+    "create_decision": "Crear una solución",
+    "driver_issue_actions": "Acciones del conductor",
+    "no_driver_issue_actions": "Ninguna acción del conductor",
+    "support": "Apoyo",
+    "to_profile": "Ir al perfil",
+    "add_regulation": "Agregar regulaciones",
+    "add_section": "Agregar sección",
+    "stats": "Estadísticas",
+    "add_role": "Agregar una característica",
+    "add_to_section": "Añadir a la sección",
+    "add_testing": "Agregar pruebas",
+    "access_setting": "Control de acceso",
+    "assign_study": "Asignar para estudiar",
+    "with_single_answer": "Añadir una pregunta con una respuesta",
+    "with_multiple_answer": "Agregar una pregunta de respuesta múltiple",
+    "go_back": "regresar",
+    "add_question": "Añadir una pregunta",
+    "complete": "Completo",
+    "create_first_policy": "Crea tus primeras regulaciones",
+    "complete_test": "Completa la prueba",
+    "pass_test": "Tomar el examen",
+    "edit_test": "Editar prueba",
+    "back_to_topic": "Volver a la sección",
+    "next_regulation": "Próximas regulaciones",
+    "back_to_regulation": "Volver a la normativa",
+    "try_again": "Intentar otra vez",
+    "confirm": "Confirmar",
+    "roll_up": "Colapsar",
+    "save_results": "Completa la prueba",
+    "submit_for_approval": "Someter para aprobacion",
+    "approve": "Aprobar",
+    "save_changes": "Guardar cambios",
+    "add_reaction": "Añadir reacción",
+    "react": "Reaccionar",
+    "reject": "Rechazar",
+    "change_v2": "Cambiar",
+    "filter": "Filtrar",
+    "publish": "Publicar",
+    "request_publication": "Solicitar publicación",
+    "add_group": "Agregar un grupo",
+    "add_dashboard": "Crear",
+    "share": "Compartir",
+    "choose": "Elegir",
+    "study": "Explorar",
+    "activate_bot": "activar robot",
+    "bots": "Botas",
+    "format": "Formato",
+    "refresh": "Actualizar",
+    "delete_dashboard": "Eliminar panel",
+    "go_to_task": "a la tarea",
+    "select": "Elegir",
+    "telegram_bot_settings": "Activar el “Bot potenciador de negocios”",
+    "telegram_bot_left_menu": "Activar BB Bot",
+    "join_to_tg_chat": "Únete al chat “Plataforma BB“",
+    "back": "Atrás",
+    "leave": "Dejar",
+    "changed": "Cambiar",
+    "change_password": "Cambiar la contraseña",
+    "download_report": "Descargue el informe en formato CSV",
+    "archive": "Archivo",
+    "google_add_account": "Agregar una cuenta de Calendario de Google",
+    "google_event": {
+      "declined": "No",
+      "tentative": "Tal vez",
+      "accepted": "Sí"
+    },
+    "templates": "Plantillas",
+    "save_templates": "Guardar plantilla",
+    "add_answer": "Añade una respuesta",
+    "left": "Izquierda",
+    "right": "Directamente hacia arriba",
+    "create_section": "Crear una sección",
+    "extend_access": "Ampliar el acceso",
+    "duplicate": "Duplicado"
+  },
+  "label": {
+    "added_to_topic": "Agregado a la sección",
+    "reusable_invite_code": "Código de invitación reutilizable",
+    "weekdays_same_schedule": "Todos los días según el mismo horario.",
+    "strict_deadline": "Plazo estricto",
+    "proof_not_needed": "No requerido",
+    "proof_text": "Texto",
+    "proof_image": "Imagen",
+    "proof_file": "Archivo",
+    "issues_with_violations": "Problemas con violaciones",
+    "scheduled_for_today": "Programado para hoy",
+    "grouping_by_orgcharts": "Grupo por estructura organizacional",
+    "grouping_by_users": "Agrupar por subordinados",
+
+    "grouping_by_tags": "Agrupar por etiquetas",
+    "last_comment_is_proof": "Utilice el último comentario como prueba.",
+    "last_comment_is_reason": "Utilice el último comentario como motivo.",
+    "is_test": "Prueba",
+    "call_result": {
+      "busy": "Ocupado",
+      "fail": "Ninguna llamada",
+      "resolves_in_30_min": "Se resolverá en 30 minutos.",
+      "resolves_until_day_end": "Decidirá al final de la jornada laboral.",
+      "resolves_in": "decidirá antes",
+      "promised_to_call_executor": "Prometió contactar al artista.",
+      "gave_other_contacts": "Dio la información de contacto de otra persona"
+    },
+    "result_achieved": "Producto recibido",
+    "issue_custom_filed": {
+      "is_strict_deadline": "El contratista no puede cambiar el plazo.",
+      "is_manager_approval_required": "Requiere la aprobación del director."
+    },
+    "do_not_create_at_weekends": "Crear los fines de semana",
+    "timezone_of": {
+      "executor": "Ejecutante",
+      "employee": "ejecutor de funciones",
+      "sender": "Director",
+      "company": "Compañías"
+    },
+    "sender_type": {
+      "nearest_admin": "Supervisor directo",
+      "executor_of_function": "ejecutor de funciones",
+      "admin_of_function": "jefe de funcion",
+      "admin_of_function_v2": "Función de empleado"
+    },
+    "add_first_regulation": "Añadir el primer reglamento.",
+    "approver": "Aprobador",
+    "add_bot": "Agregar un robot",
+    "planning_filter": {
+      "approved": "Aprobado",
+      "not_approved": "A prueba",
+      "not_planned": "No estaba planeado"
+    },
+    "paid_company": "empresa pagada",
+    "test_company": "empresa de prueba",
+    "inactive": "Empresa inactiva",
+    "partially_paid_company": "empresa semipaga",
+    "on_verification": "Bajo revisión",
+    "violation_notification_switch": {
+      "first": "No aceptado por más de 24 horas.",
+      "second": "No contratado por más de 48 horas",
+      "third": "No aprobado por más de 72 horas"
+    },
+    "requirements_switches": {
+      "first": "Hacer que el campo Actuar (tiempo real para completar una tarea) sea obligatorio al completar una tarea",
+      "second": "Especificar la fecha de inicio del trabajo en una tarea cuando se transfiere al estado En progreso"
+    },
+    "manual_archiving": "Sólo archivo manual",
+    "show_on_orgchart": "Mostrar en organigrama"
+  },
+  "title": {
+    "archive_dialog": "Especifique el motivo para archivar la tarea.",
+    "draft": "borradores",
+    "active": "Activo",
+    "pause": "en descansos",
+    "completed": "Terminado",
+    "invite_employee": "Invitar a un nuevo empleado",
+    "all_invites": "Lista de invitaciones",
+    "invite": "Invitación",
+    "edit_to_start": "Edita tu perfil para comenzar",
+    "edit_to_start_company": "Edite su empresa para comenzar",
+    "watch_to_start": "Échale un vistazo para empezar",
+    "function_create": "Crear una función",
+    "function_edit": "Función de edición",
+    "function_move": "Función de movimiento",
+    "function_sort": "Ordenar subfunciones",
+    "function_delete": "Quitar función",
+    "recurring_issue_delete": "¿Eliminar una tarea recurrente?",
+    "recurring_issue_history": "Historia de una tarea recurrente",
+    "add_employee": "Agregar un empleado a una función",
+    "add_company": "Añadir una empresa",
+    "company_invitation": "invitación a la empresa",
+    "leave_company": "¿Deja la compañia?",
+    "avatar_change": "Cambiar avatar",
+    "company_delete": "Eliminar una empresa",
+    "employee_delete": "Eliminar un empleado",
+    "board_reset": "Restablecer reglas del tablero",
+    "all_boards_reset": "Restablecer todas las reglas del consejo de administración de la empresa",
+    "driver_called": "Resultados de la llamada",
+    "driver_called_admin": "Llamar al gerente",
+    "report_regulations": "Informe de normativa estudiada",
+    "stats": "Estadísticas",
+    "policies": "Reglamento",
+    "topics": "Secciones",
+    "copy_task": "Copiar una tarea",
+    "copy_decision": "Copiar una solución",
+    "copy_message": "Copiar un mensaje",
+    "reject_task": "Rechazo de una tarea",
+    "send_again": "Reenviar",
+    "reject_decision": "Rechazo de la decisión",
+    "reject_message": "Rechazar mensaje",
+    "copy_issue": {
+      "title": "Copiar una tarea",
+      "subtitle": "Seleccionar artista y función"
+    },
+    "withdraw_issue": {
+      "title": "Retirar una tarea",
+      "subtitle": "Seleccione un nuevo artista y fecha límite"
+    },
+    "reject_issue": {
+      "title": "Rechazo de una tarea",
+      "subtitle": "Escribe el motivo del rechazo de la tarea."
+    },
+    "executor_change": {
+      "title": "Cambio de artista",
+      "subtitle": "Escribe el motivo del cambio de intérprete.",
+      "input_placeholder": "Razón"
+    },
+    "board_require_actions": "Requiere acción",
+    "driver_script_title": "Texto del conductor",
+    "date_range_select": "Seleccionar un rango de fechas",
+    "close_task_no_proof": "¡Atención!",
+    "links": "Enlaces",
+    "delete_issue": "¿Eliminar tarea?",
+    "delete_task": "¿Eliminar tarea?",
+    "delete_decision": "¿Eliminar la solución?",
+    "delete_message": "¿Borrar mensaje?",
+    "create_task": "Crear una tarea",
+    "create_routine": "Crear una tarea recurrente",
+    "create_message": "crear un mensaje",
+    "create_decision": "Crear una solución",
+    "create_recurring_issue": "Agregar una tarea recurrente",
+    "task": "Tarea",
+    "decision": "Respuesta",
+    "message": "Mensaje",
+    "choose_deadline": "Seleccionar término",
+    "driver_issue_report": "Informe de tareas del conductor",
+    "driver_issue_no_actions": "Ninguna acción del conductor",
+    "additional_settings": "Ajustes adicionales",
+    "mark_working_day": "Marcar un día laborable",
+    "mark_weekend": "Celebra un día libre",
+    "mark_vacation": "celebrar las vacaciones",
+    "mark_medical": "marcar baja por enfermedad",
+    "access_to_section": "Acceso a la sección",
+    "access_to_regulation": "Acceso a la normativa",
+    "assign_study": "Asignar para estudiar",
+    "linked_roles_to_section": "Funciones vinculadas a secciones",
+    "linked_roles_to_regulation": "Funciones sujetas a normativa",
+    "expect": "Excepto",
+    "replace_regulation": "Mover regulaciones",
+    "select_section": "Elige una sección",
+    "learnt_regulation": "Estudiamos la normativa.",
+    "no_learnt_regulation": "No estudié las regulaciones.",
+    "testing": "Pruebas",
+    "select": "Seleccionar",
+    "submit_for_approval": "Someter para aprobacion",
+    "super_admin_drivers": "Controladores superadministradores",
+    "companies": "Compañías",
+    "drivers_drivers": "Administrador del conductor",
+    "confirm": "Confirmación",
+    "attention": "Atención",
+    "create_first_metric": "Crea tu primera métrica",
+    "create_metric": "Creando una métrica",
+    "add_metric": "Agregar métricas",
+    "metric_prefix": "[GM]",
+    "main_metric": "Métrica principal",
+    "edit_metric": "Editar métrica",
+    "delete_metric": "Confirmar la eliminación",
+    "create_first_dashboard": "Crea tu primer panel",
+    "create_dashboard": "Creando un panel",
+    "edit_dashboard": "Editar un panel",
+    "delete_dashboard": "Quitar un tablero",
+    "metric_settings": "Configuración del gráfico",
+    "confirm_deletion": "Confirmar la eliminación",
+    "delete_not_empty": "No se puede eliminar la partición",
+    "edit_metric_to_dashboard": "Introducir datos",
+    "create_solution": "Crear una solución",
+    "releases": "Notas de actualización",
+    "update_notes": "Notas de actualización",
+    "update_note": "Nota de actualización",
+    "connecting_bot": "Conectando un robot",
+    "list_bots": "Lista de robots",
+    "add_group_company": "Añadir un grupo de empresas",
+    "edit_group_company": "Editar grupo de empresas",
+    "reject_plan": "Especifique el motivo del rechazo del plan.",
+    "create_project": "Nuevo proyecto",
+    "reject_all": "Rechazar todo",
+    "archvive_of_issues": "Archivo de tareas",
+    "delete_metric_dialog_title": "Eliminar métrica",
+    "issue": "Tarea",
+    "create_issue": "Agregar una nueva tarea",
+    "create_table": "Creando una tabla",
+    "insert_video": "Añadir un vídeo",
+    "no_tasks": "Sin tareas",
+    "confirm_delete_comment": "¿Estás seguro de que quieres eliminar este comentario?",
+    "executor_declined_task": "Rechazado por el artista",
+    "on_approval_task": "Aprobación requerida",
+    "save_template": "Guardar plantilla",
+    "time_block": "Evento",
+    "delete_events": "¿Eliminar evento?",
+    "recurring_issue": "tarea recurrente",
+    "change_password": "Cambiar la contraseña",
+    "google_event": "Evento del Calendario de Google",
+    "tags": "Origen",
+    "selected_google_calendar": "Seleccione un calendario para mostrar en la plataforma",
+    "regulation_access_dialog_collapse": {
+      "Read": "Lectura",
+      "Write": "Registro",
+      "ReadWrite": "Lee y escribe",
+      "Assignment": "Cita para entrenamiento",
+      "FullAccess": "Acceso completo"
+    },
+    "regulation_templates": "Plantillas"
+  },
+  "text": {
+    "ar": "DISTRITO",
+    "awaited_result": "Producto",
+    "from_time": "con",
+    "to_time": "a",
+    "change_company": "Cambiar de empresa",
+    "no_invites": "Sin invitaciones",
+    "current_company": "esta es la empresa actual",
+    "company_owner": "propietario de la empresa",
+    "employees_amount": "Empleados",
+    "employees_full_amount": "Empleados con acceso completo",
+    "employees_full_restricted": "Empleados restringidos",
+    "company_not_registered": "La empresa aún no ha sido registrada.",
+    "external_id": "Identificación externa",
+    "invite_code": "Código de invitación",
+    "deadline": "Término",
+    "date_created": "fecha de creación",
+    "substitute": "Diputado",
+    "no_links": "La descripción no contiene enlaces.",
+    "period": "Período",
+    "apply_to_all_functions": "Aplicar a todas las funciones en las que se asigna al empleado.",
+    "beginning_and_end_of_shift": "Especificar el inicio y el final del turno.",
+    "start_day_exceeds_end": "La hora de inicio de la jornada laboral supera su hora de finalización.",
+    "start_period_exceeds_end": "El inicio del período excede su fecha de finalización.",
+    "reset": "Reiniciar",
+    "no_data": "Sin datos",
+    "child_functions_direction": "Dirección de funciones secundarias.",
+    "driver_administrators": "Administradores de conductores",
+    "drivers": "Conductores",
+    "confirm_delete_metric": "La métrica de todos los empleados se eliminará del panel.",
+    "empty_metric_users": "No hay personal disponible",
+    "date_work_start": "Establecer una fecha de inicio posterior a la fecha límite",
+    "delete_metric_dialog_warning": "Si elimina una métrica, existe la posibilidad de que todas las métricas se eliminen del panel. Será imposible cancelar esta acción. ¿Está seguro de que desea eliminar todas las métricas?",
+    "main_metric_warning": {
+      "text1": "Esta función ya tiene la métrica principal '{{metricName}}'.",
+      "text2": "Al activar este interruptor confirmas el reemplazo de la métrica principal."
+    },
+    "edited_comment": "cambió",
+    "deleted_comment": "eliminado",
+    "confirm_delete_comment": "Esta acción no se puede deshacer",
+    "created_task": "Creó una tarea",
+    "correct_answer": "Respuesta correcta",
+    "update_note_alert": "¿Quieres estar siempre al tanto de las actualizaciones y trucos de nuestra plataforma? ¡Únase a nuestro canal de Telegram Business Booster Platform y esté en el centro de todos los eventos!\uD83D\uDE0A",
+    "archive_task": "La tarea ha sido archivada.",
+    "un_archive_task": "La tarea ha sido devuelta del archivo.",
+    "google_calendar_reminder": "Recordatorio: {{time}} antes del inicio",
+    "delete_topic": "¿Está seguro de que desea eliminar toda la partición?",
+    "delete_not_empty_topic": "Esta sección contiene subsecciones o documentos anidados. Para eliminar esta sección, primero elimine todos los elementos anidados.",
+    "delete_regulation": "¿Estás seguro de que quieres eliminar las regulaciones?"
+  },
+  "caption": {
+    "executors": "Artistas",
+    "administrators": "Gerentes",
+    "interaction_history": "Historia",
+    "boards_table": {
+      "id": "IDENTIFICACIÓN",
+      "name": "Nombre",
+      "last_update": "Última actualización",
+      "number_updates": "Número de actualizaciones",
+      "actions": "Comportamiento"
+    },
+    "do_not_save_recurring_task": "¿No guardas una tarea recurrente?"
+  },
+  "select": {
+    "all": "Todo",
+    "all_employees": "Todos los empleados",
+    "comments": "Comentarios",
+    "actions": "Comportamiento",
+    "log": "Historia de cambios",
+    "manual_method": "método manual",
+    "time_block": {
+      "not_repeat": "No repitas",
+      "every_day": "Cada día",
+      "every_week": "Cada semana"
+    }
+  },
+  "misc": {
+    "administrator": "Supervisor",
+    "specialist": "Especialista",
+    "trainee": "Interno",
+    "new_user": "Nuevo Usuario",
+    "no_administrators": "Sin líderes",
+    "no_executors": "Sin artistas",
+    "radio_all": "Todo",
+    "require": {
+      "images_min_count": "Cantidad",
+      "files_min_count": "Cantidad",
+      "text_min_length": "Longitud"
+    },
+    "click_to_select": "Clic para seleccionar",
+    "days": "Días",
+    "month": "Mes",
+    "day": "Número",
+    "to_admins_of_function": "a la cabeza",
+    "to_executors_of_function": "Artistas"
+  },
+  "hint": {
+    "orgchart": "Estructura organizativa",
+    "communications": "Tareas",
+    "recurringIssues": "Tareas repetitivas",
+    "inviteEmployee": "Invitar a un empleado al sistema",
+    "permissions": "Permisos",
+    "schedule": "Cronograma",
+    "dashboard": "Paneles de control",
+    "multiaccount": "Multicuenta/multiestructura",
+    "decision": "Respuesta",
+    "message": "Mensaje",
+    "planning": "Planificación",
+    "policies": "Reglamento"
+  },
+  "table": {
+    "employees": "Empleados",
+    "total": "Total",
+    "studied": "Estudió",
+    "to_study": "No estudiado",
+    "studied_percent": "Porcentaje de estudio"
+  },
+  "helper": {
+    "error_textfield": "¡Asegúrate de que todo esté ingresado correctamente!"
+  },
+  "tooltip": {
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "save": "Ahorrar",
+    "delete": "Borrar",
+    "time_block": {
+      "free_time": "Tiempo libre: aquí se muestra el tiempo de trabajo no asignado y se calcula en función del horario de trabajo menos el tiempo total planificado para el día para completar las tareas. Este campo también se resalta en color cuando se excede el tiempo programado o el día laboral no está completamente cargado.",
+      "total_tasks": "Tareas totales: la cantidad de tareas completadas y la cantidad total de tareas planificadas para el día se muestran aquí en el formato 2/5.",
+      "plan_actual": "Real / Plan: aquí el tiempo real dedicado a las tareas y el tiempo total planificado de las tareas planificadas para el día se muestran en el formato 1 hora 30 minutos / 7 horas."
+    },
+    "add_to_topic": "Añadir a la sección",
+    "access_settings": "Configurar el acceso",
+    "access_settings_without_topic": "Para configurar el acceso añadir normativa al apartado",
+    "assign_study": "Asignar para estudiar",
+    "access_control_dialog": {
+      "creator": "El creador tiene acceso completo"
+    },
+    "table_planing": {
+      "total_tasks": "Tareas totales: la cantidad de tareas completadas y la cantidad total de tareas planificadas para el período especificado se muestran aquí en el formato \"2/5\".",
+      "plan_actual": "Real / Plan: aquí el tiempo real dedicado a las tareas y el tiempo total planificado de las tareas planificadas para el período seleccionado se muestran en el formato \"1 hora 30 minutos / 7 horas\"."
+    },
+    "extend_access": "Conozca las condiciones para ampliar el trabajo en la plataforma.",
+    "set_deadline": "Establecer una fecha límite"
+  },
+  "checkbox": {
+    "send_retraining": "Enviar para reentrenamiento",
+    "publish_without_approval": "Publicar sin aprobación",
+    "full_day": "Todo el dia"
+  },
+  "planning_indicator": {
+    "pending_approval": "Esperando aprobacion",
+    "approved": "Aprobado",
+    "rejected": "Desviado"
+  },
+  "planning_table": {
+    "recurring_tasks": "Tareas repetitivas",
+    "weekly_tasks": "Tareas",
+    "unscheduled_tasks": "Tareas no planificadas",
+    "google_events": "Eventos del Calendario de Google",
+    "fact": "Hecho",
+    "plan": "Plan",
+    "start": "Comenzar",
+    "deadline": "Fecha límite",
+    "status": "Estado",
+    "date_time": "Fecha y hora",
+    "google_events_status": {
+      "Unfinished": "Planificado",
+      "Finished": "Terminado",
+      "Declined": "Desviado"
+    },
+    "awaitedResult": "Resultado esperado"
+  },
+  "metric_switch": {
+    "day": "Día",
+    "week": "Calendario de la semana",
+    "reportingWeek": "Semana de informes",
+    "month": "Mes",
+    "year": "Año"
+  },
+  "calendar": {
+    "today": "Hoy",
+    "unallocated_tasks": "Tareas no asignadas",
+    "total_tasks": "Tareas totales:",
+    "planned_time": "Hora programada:"
+  },
+  "time_block": {
+    "free_time": "Tiempo libre",
+    "total_tasks": "Tareas totales",
+    "plan_actual": "Hecho / Plan"
+  },
+  "change_password": {
+    "first_validation_rule": "Mínimo 8 caracteres",
+    "second_validation_rule": "Al menos una mayúscula",
+    "third_validation_rule": "Mínimo 1 carácter especial",
+    "fourth_validation_rule": "La contraseña es diferente a la anterior.",
+    "validation_seccusess": "Contraseña segura",
+    "confirm_text": "La contraseña ha sido cambiada.",
+    "popover_error": {
+      "title": "Intente ingresar nuevamente o use",
+      "link": "recuperación de contraseña"
+    }
+  },
+  "google_calendar_banner": {
+    "text": "Puede conectar Google Calendar a la plataforma BB.",
+    "text_connect": "Conectado",
+    "link": "Para conectar"
+  },
+  "google_account_disconnect_dialog": {
+    "title": "Deshabilitar la cuenta de Google Calendar",
+    "text": "Al deshabilitarlo se detendrá la sincronización entre el calendario de su plataforma y Google Calendar. Ya no verás todas tus tareas de la plataforma en Google Calendar ni en las reuniones de la plataforma de Google Calendar.",
+    "question": "¿Estás seguro de que deseas desactivar tu cuenta de Google Calendar?"
+  },
+  "hidden_google_events_dialog": {
+    "text": "¿Estás seguro de que deseas ocultar los eventos de Google Calendar? Esta acción puede afectar la relevancia de su agenda."
+  },
+  "google_calendar_settings_modal": {
+    "title": "Configurar un calendario"
+  },
+  "issue_change_deadline_dialog": {
+    "title": "Especificar una nueva fecha límite"
+  },
+  "card_issue_deadline_tooltip": {
+    "title": "El contratista no puede cambiar el plazo.",
+    "text": "Para cambiarlo contacta con el director de tareas."
+  },
+  "create_tag_dialog": {
+    "title": "Crear una nueva etiqueta",
+    "label_name": "Nombre",
+    "label_placeholder": "Introduce un nombre",
+    "color": "Color"
+  },
+  "edit_tag_dialog": {
+    "title": "Editar etiquetas"
+  },
+  "delete_tag_confirm_dialog": {
+    "title": "¿Está seguro de que desea eliminar la etiqueta \"{{tag}}\"?",
+    "description": "Cuando eliminas una etiqueta, se eliminará de todos los números del tablero."
+  },
+  "regulation_table_columns": {
+    "title": "Nombre",
+    "employee": "Autor",
+    "status": "Estado",
+    "publicationDate": "Fecha de publicación"
+  },
+  "adding_regulations_to_section_dialog": {
+    "title": "Agregar regulaciones a una sección",
+    "selected": "Seleccionado: {{count}}"
+  },
+  "adding_regulation_to_section_dialog": {
+    "title": "Agregar regulaciones a una sección"
+  },
+  "regulation_actions": {
+    "submit_for_approval": {
+      "title": "Someter para aprobacion",
+      "text": "La aprobación del reglamento permite su publicación para todos"
+    },
+    "publish": {
+      "title": "Publicar",
+      "text": "La aprobación del reglamento permite su publicación para todos"
+    },
+    "reject": {
+      "title": "Rechazar",
+      "text": "La aprobación del reglamento permite su publicación para todos"
+    },
+    "study_assignment": {
+      "title": "Tarea de estudio",
+      "text": "El documento se enviará a todos para su revisión.",
+      "textSection": "La sección se enviará a todos para su revisión."
+    },
+    "access_to_regulations": {
+      "title": "Acceso a la normativa",
+      "text": "La configuración le permite limitar o otorgar todos los derechos al documento."
+    },
+    "access_to_sections": {
+      "title": "Acceso a la sección",
+      "text": "La configuración le permite limitar o otorgar todos los derechos a una sección"
+    },
+    "remove_from_section": {
+      "title": "Quitar de la sección",
+      "text": "Este documento será movido a la sección “Sin sección”",
+      "textSection": "Esta sección se moverá a la sección “Sin sección”"
+    },
+    "copy_link": {
+      "title": "Copiar link",
+      "text": "Este documento estará disponible para todo aquel que tenga acceso.",
+      "textSection": "Esta sección estará disponible para todos los que tengan acceso."
+    },
+    "added_to_section": {
+      "title": "Añadir a la sección",
+      "text": "Puedes añadir este reglamento a una sección existente o desvincularlo de la actual"
+    },
+    "delete": {
+      "title": "Borrar",
+      "text": "Normativa inédita"
+    },
+    "history": {
+      "title": "Historia de las regulaciones",
+      "text": "En esta sección podrás ver todos los cambios y fechas de actualización."
+    },
+    "testing": {
+      "button": "Agregar una prueba",
+      "title": "Pruebas",
+      "text": "Agregue pruebas para consolidar conocimientos después de leer el documento."
+    }
+  },
+  "confirm_dialog_remove_from_section": {
+    "title": "Confirmar la eliminación del reglamento",
+    "text": "¿Está seguro de que desea eliminar el reglamento de la sección “{{sectionTitle}}”?\n El reglamento eliminado se moverá a “Sin sección”."
+  },
+  "regulation_status": {
+    "Draft": "Borrador",
+    "OnReview": "A prueba",
+    "Published": "Publicado",
+    "Rejected": "Desviado"
+  },
+  "section": {
+    "empty_data": "Aún no hay normativa en esta sección, pero puedes añadir la primera"
+  },
+
+  "useful_advice": "Consejos útiles. Al hacer clic una vez en una función secundaria, solo se selecciona la función secundaria.\n Al hacer clic dos veces, se seleccionan la función secundaria y sus subfunciones.",
+  "date_format": {
+    "year": "año",
+    "year1": "año",
+    "year2": "años",
+    "month": "mes",
+    "month1": "meses",
+    "month2": "meses"
+  },
+  "no_access_resource_dialog": {
+    "title": "No tienes acceso a este documento",
+    "section_title": "No tienes acceso a esta sección",
+    "text": "Solicitar acceso al autor del documento",
+    "section_text": "Solicitar acceso al autor de la sección",
+    "copy_link": "Copiar enlace"
+  },
+  "request_change_access_type_dialog": {
+    "title": "Nivel de acceso: {{type}}",
+    "text": "Si desea cambiar su nivel de acceso a este documento por favor contacte con su propietario",
+    "section_text": "Si desea cambiar su nivel de acceso a esta sección por favor contacte con su propietario",
+    "copy_link": "Copiar enlace"
+  },
+  "confirm_dialog_remove_issue_from_plan": {
+    "title": "¿Está seguro de que desea eliminar la tarea \"{{title}}\" del plan?"
+  },
+  "planingGrouping": {
+    "roles": "Por función",
+    "tags": "Por etiquetas",
+    "no_grouping": "Sin agrupación"
+  },
+  "issueActions": {
+    "add_related_task": "Agregar una tarea relacionada"
+  },
+  "quickValuesTime": {
+    "5min": "5 minutos",
+    "15min": "15 minutos",
+    "30min": "30 minutos",
+    "1h": "1 hora",
+    "2h": "2 horas",
+    "4h": "4 horas"
+  },
+  "tariffs": {
+    "Bb1Economy": "Economía BB1",
+    "Bb1Business": "Negocio BB1",
+    "Bb1Premium": "prima bb1",
+    "Bb2Economy": "Economía BB2",
+    "Bb2Business": "Negocios BB2",
+    "Bb2Premium": "prima bb2",
+    "Resident": "Residente",
+    "Vip": "personaje",
+    "Demo": "Manifestación",
+    "PlatinumResident": "Residente Platino",
+    "Custom": "Condiciones individuales"
+  },
+  "placeholder_technical": {
+    "title": "El trabajo técnico está en marcha.",
+    "text": "Nos disculpamos por las molestias temporales."
+  },
+  "issue_activity": {
+    "Name": "Nombre",
+    "ExecutorUserId": "Ejecutor",
+    "InitiatorUserId": "Director de escena",
+    "Description": "Descripción",
+    "TimeFact": "Hecho",
+    "TimePlan": "Plan",
+    "ProofReqComment": "Descripción de la prueba",
+    "IsManagerApprovalRequired": "Requiere la aprobación del director.",
+    "TimeFactForApproval": "Hecho de aprobación",
+    "TimePlanForApproval": "Aprobaciones de planes",
+    "AwaitedResult": "Resultado esperado",
+    "Observers": "Observadores",
+    "DateWorkStart": "fecha de inicio",
+    "DateDeadline": "Fecha límite",
+    "boolean": {
+      "TRUE": "Incluido",
+      "FALSE": "Apagado"
+    },
+    "Tags": "Origen",
+    "IsStrictDeadline": "El contratista no puede cambiar el plazo.",
+    "RoleId": "Función",
+    "Text": "Comentario",
+    "StatusId": "Estado",
+    "Priority": "Prioridad",
+    "Files": "Adjunto",
+    "OrgchartId": "Estructura organizacional",
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Bandeja de entrada",
+            "rejected": "Desviado",
+            "accepted": "Aceptado",
+            "in_work": "En curso",
+            "approval": "A prueba",
+            "not_approved": "Desviado",
+            "done": "Hecho"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin_companies_management": "Empresas",
+    "orgchart": "Estructura organizacional",
+    "schedule": "Horas de trabajo",
+    "communication": "Tareas",
+    "regulation": "Base de conocimientos",
+    "dashboard": "Paneles de control",
+    "report": "Informes",
+    "report_communication": "Por tarea",
+    "employee": "Empleados",
+    "edu": "Capacitación",
+    "settings": "Ajustes",
+    "bot_activate": "Activar \"BB Bot\"",
+    "help_chat": "Chat de soporte"
+  },
+  "modules": {
+    "OrganizationalStructure": "Estructura organizacional",
+    "Communications": "Tareas",
+    "ReportsAnalytics": "Informes",
+    "EmployeeSchedules": "Horas de trabajo",
+    "EmployeeManagement": "Empleados",
+    "TrainingDevelopment": "Capacitación",
+    "KnowledgeBase": "Base de conocimientos",
+    "DashboardsVisualization": "Paneles de control",
+    "PlanningForecasting": "Planificación",
+    "CalendarTasksPlanning": "Programación"
+  },
+  "settings": {
+    "common": "General",
+    "company": "Compañía",
+    "modules": "Módulos",
+    "user": "Perfil"
+  },
+  "issue": {
+    "history": {
+      "created-from-recurring-issue": "Creado a partir de una tarea recurrente",
+      "accept": "Aceptado",
+      "act": {
+        "from_recurring": "Creado a partir de una tarea recurrente"
+      },
+      "withdrawn": "Tarea retirada",
+      "rj": "Tarea rechazada",
+      "r": {
+        "t": "Producto recibido",
+        "f": "Producto no recibido"
+      },
+      "m": {
+        "u": {
+          "r": "Tarea reasignada después de que el empleado fuera removido"
+        }
+      },
+      "creator-updated": "El remitente ha sido cambiado.",
+      "executor-updated": "Movido para revisión",
+      "send-again": "Resentirse de",
+      "do-by-myself": "lo haré yo mismo",
+      "accepted": "Aceptado",
+      "completed": "Terminado",
+      "send-for-review": "Presentado para aprobación",
+      "approve": "Aprobado",
+      "not-approve": "Desviado",
+      "in-work": "volver al trabajo",
+      "logs": {
+        "name": "Nombre",
+        "description": "Descripción",
+        "attachment": "Adjunto",
+        "participant": "Observadores",
+        "awaited": {
+          "result": "Producto"
+        },
+        "role": {
+          "id": "Función"
+        },
+        "date": {
+          "work": {
+            "start": "fecha de inicio"
+          },
+          "deadline": "Fecha límite"
+        },
+        "time": {
+          "plan": "Plan",
+          "fact": "Hecho"
+        },
+        "is": {
+          "strict": {
+            "deadline": "El contratista no puede cambiar el plazo."
+          },
+          "manager": {
+            "review": {
+              "required": "Requiere la aprobación del director."
+            }
+          }
+        },
+        "orgchart": {
+          "id": "Estructura organizacional"
+        },
+        "created": {
+          "by": {
+            "user": {
+              "id": "Director de escena"
+            }
+          }
+        },
+        "executor": {
+          "id": "Ejecutor"
+        },
+        "proof": {
+          "requirement": {
+            "title": "Prueba",
+            "text": "Descripción de la prueba"
+          }
+        },
+        "priority": "Prioridad"
+      }
+    },
+    "actions": {
+      "accept": "Aceptar",
+      "in-work": "volver al trabajo",
+      "send-for-review": "Enviar para aprobación",
+      "approve": "Aprobar",
+      "not-approve": "Rechazar",
+      "rj": "Rechazar",
+      "complete": "Completo",
+      "copy": "Duplicado",
+      "delete": "Borrar",
+      "archive": "Archivo",
+      "un-archive": "Abrir la cremallera",
+      "send-again": "Reenviar",
+      "do-by-myself": "lo haré yo mismo"
+    },
+    "violation": {
+      "done_or_on_approval_with_violation": "Hecho sin evidencia"
+    }
+  },
+  "issue_status": {
+    "default": {
+      "v1": {
+        "status": {
+          "inbox": "Bandeja de entrada",
+          "rejected": "Desviado",
+          "accepted": "Aceptado",
+          "in_work": "En curso",
+          "approval": "Enviar para aprobación",
+          "not_approved": "Necesita mejorar",
+          "done": "Hecho"
+        }
+      }
+    },
+    "approval": "A prueba",
+    "done": "Hecho",
+    "pending": "Bandeja de entrada",
+    "in_work": "En curso",
+    "new_issues": "Nuevas tareas únicas",
+    "new_issues_from_recurring": "Nuevas tareas recurrentes",
+    "dis": "Atrasado",
+    "na24": "No aceptado por más de 24 horas.",
+    "n72": "No aprobado por más de 72 horas",
+    "nm48": "No contratado por más de 48 horas",
+    "hm3": "Mensaje sin respuesta durante más de 3 horas",
+    "issue": {
+      "hint": {
+        "has_message": "Comentario no leído"
+      }
+    }
+  },
+  "issue_border": {
+    "Approval": "Se requiere aprobación",
+    "OnApproval": "A prueba",
+    "NotApproved": "Necesita mejorar",
+    "Rejected": "Rechazado por el artista",
+    "Approved": "Aprobado",
+    "Recurring": "Recurrente",
+    "Done": "Hecho",
+    "Expired": "Atrasado"
+  },
+  "permissions": {
+    "hint_key": {
+      "orgchart": {
+        "title": "Estructura organizacional"
+      },
+      "o": {
+        "f": "Función"
+      },
+      "recurring_issue": {
+        "title": "Tareas repetitivas"
+      },
+      "user": {
+        "title": "Empleados",
+        "invite": "Invitaciones"
+      },
+      "company": {
+        "title": "Compañía",
+        "edit": "Edición",
+        "employees": "Empleados",
+        "notifications": "Notificaciones"
+      },
+      "report": {
+        "title": "Informes"
+      },
+      "user_schedule": {
+        "title": "Horas de trabajo",
+        "view": "Vista",
+        "edit": "Edición"
+      },
+      "Regulations": {
+        "title": "Reglamentos"
+      },
+      "knowledge_base_permission": {
+        "title": "Base de conocimientos"
+      },
+      "function": {
+        "title": "Función"
+      },
+      "education": {
+        "title": "Capacitación"
+      },
+      "issue": {
+        "title": "Tareas"
+      }
+    },
+    "o": {
+      "a": "Creación",
+      "e": "Edición",
+      "d": "Eliminación",
+      "s": "Clasificación",
+      "va": "Ver todos los organigramas"
+    },
+    "orgchart": {
+      "role": {
+        "add": "Creación",
+        "edit": "Edición",
+        "sort": "Clasificación",
+        "move": "Emocionante",
+        "delete": "Eliminación",
+        "users_edit": "Gestión de empleados",
+        "permissions_edit": "Gestión de permisos"
+      }
+    },
+    "recurring_issue": {
+      "add": "Creación",
+      "edit": "Edición",
+      "delete": "Eliminación",
+      "pause_manage": "control de pausa",
+      "view_history": "Ver historial"
+    },
+    "user": {
+      "show_phone_number": "Ver número de teléfono",
+      "edit": "Edición",
+      "delete": "Eliminación",
+      "company_invite.add": "Creación",
+      "company_invite.delete": "Eliminación"
+    },
+    "company": {
+      "edit": {
+        "name_and_desc": "Título y descripción",
+        "timezone": "Huso horario",
+        "schedule": "Horas de trabajo",
+        "mi": "Métrica de intervalo"
+      },
+      "employees": {
+        "manage_permissions_for_resend_regulation": "Gestión de derechos para reenviar regulaciones."
+      },
+      "notifications": {
+        "manage_violations_notifications": "Gestión de notificaciones de infracciones"
+      }
+    },
+    "r": {
+      "cm": "Por tarea"
+    },
+    "s": {
+      "v": {
+        "a": "Todas las funciones",
+        "c": "Funciones subordinadas",
+        "p": "Funciones de los gerentes"
+      },
+      "u": {
+        "a": "Todas las funciones",
+        "o": "Funciones propias",
+        "c": "Funciones subordinadas"
+      }
+    },
+    "regulation": {
+      "autonomous": {
+        "approval": "Publicar sin avales"
+      }
+    },
+    "full_access": "Acceso completo",
+    "education": {
+      "owner_course_access": "Acceso al curso de propietario"
+    },
+    "issue": {
+      "view_all_issues": "Ver tareas de todos los usuarios",
+      "self_appoval_of_plan": "Autoaprobación del plan semanal"
+    }
+  },
+  "orgchart_template": {
+    "c_universal": "Universal",
+    "c_retail_store_chain": "cadena minorista",
+    "c_manufacturing": "Producción",
+    "c_wholesale_company": "Empresa mayorista",
+    "s_furniture_manufacturing": "producción de muebles",
+    "s_training_center": "centro de aprendizaje / escuela",
+    "s_clothing_store": "Tienda de ropa",
+    "s_construction": "Construcción",
+    "s_online_store": "tienda en línea",
+    "s_dentistry": "Odontología",
+    "s_real_estate_agency": "agencia inmobiliaria",
+    "s_wholesale_trade": "Al por mayor"
+  },
+  "notification_center": {
+    "name": {
+      "IssueNewMessage": "{{senderName}} comenta sobre la tarea",
+      "IssueApprovalFail": "{{senderName}} devolvió la tarea para revisión",
+      "IssueApprovalSuccess": "{{senderName}} aprobó la tarea",
+      "IssueItsTimeToWork": "¡Es hora de empezar a trabajar en la tarea!",
+      "IssueNewComment": "{{senderName}} te menciona",
+      "IssueRejected": "{{senderName}} rechazó la tarea",
+      "IssueStatusUpdate": "{{senderName}} cambió el estado de la tarea",
+      "IssueMovedToOnApproval": "{{senderName}} te ha asignado una tarea de aprobación",
+      "DeadlineIsExpiredIssueViolation": "Atrasado",
+      "RegulationAdded": "{{senderName}} asignó nuevas regulaciones para estudiar",
+      "RegulationChanged": "{{senderName}} cambió las regulaciones",
+      "RegulationMovedToOnApproval": "{{senderName}} te creó una regla de aprobación",
+      "RegulationNewMessage": "{{nombre del remitente}}. Añadido un nuevo comentario en el reglamento.",
+      "SectionAdded": "Ha aparecido una nueva sección",
+      "SectionUpdated": "Sección actualizada",
+      "IssueAdded_Observable": "{{senderName}} te agregó como observador",
+      "IssueAdded_RequiresAction": "{{senderName}} te asignó una tarea"
+    },
+    "issue_status": {
+      "default": {
+        "v1": {
+          "status": {
+            "inbox": "Bandeja de entrada",
+            "rejected": "Desviado",
+            "accepted": "Aceptado",
+            "in_work": "En curso",
+            "approval": "A prueba",
+            "not_approved": "Desviado",
+            "done": "Hecho"
+          }
+        }
+      }
+    }
+  },
+  "user_schedule": {
+    "type2": "Salida",
+    "type3": "Vacaciones",
+    "type4": "Enfermo."
+  },
+  "plan_status": {
+    "type1": "Espera",
+    "type2": "En espera de aprobación",
+    "type3": "Aprobado",
+    "type4": "Rechazado"
+  },
+  "end_access_time_dialog": {
+    "title": "El acceso demo a la Plataforma Business Booster terminó el {{date}}",
+    "text": "Para seguir utilizando la plataforma, por favor cambia a un plan de pago.\nCambiar a un plan te proporcionará acceso a todos los módulos y conservará todos los datos introducidos durante el uso de la versión demo.",
+    "button": "Ver planes"
+  },
+  "end_access_time_count": {
+    "title": "Tiempo restante para el fin del acceso:",
+    "day": "día",
+    "day1": "días",
+    "day2": "días",
+    "hours": "hora",
+    "hours1": "horas",
+    "hours2": "horas",
+    "minute": "minuto",
+    "minute1": "minutos",
+    "minute2": "minutos",
+    "second": "segundo",
+    "second1": "segundos",
+    "second2": "segundos"
+  }
+}

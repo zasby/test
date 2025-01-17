@@ -3,4 +3,6 @@ export enum LocalesKeys {
   en = "en",
   ru = "ru",
   zh = "zh",
+  // uzLatn = "uzLatan-Latn",
+  // uzCyrl = "uzLatan-Cyrl",
 }

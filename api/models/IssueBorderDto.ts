@@ -5,4 +5,5 @@
 export type IssueBorderDto = {
     name?: string | null;
     colorSchemeKey?: string | null;
+    key?: string | null;
 }

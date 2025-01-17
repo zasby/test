@@ -15,6 +15,7 @@ import { api } from "../services";
 import { LocalStorageHelpers } from "../helpers/localStorageHelpers";
 import { t } from "i18next";
 import { IssueType } from "../constants/issueTypeKeys";
+import { orgchartHexToVariables } from "../utils/hexToVariables";
 
 export interface IIssueCustomField {
   type: IssueType | null;
@@ -163,8 +164,9 @@ export default class HelperStore {
 
   async getColorsFromServer(): Promise<boolean> {
     const r = await api.helper.color();
+
     if (r) {
-      this.setColors(r);
+      this.setColors(r.map((hex) => orgchartHexToVariables(hex)));
       return true;
     } else {
       return false;

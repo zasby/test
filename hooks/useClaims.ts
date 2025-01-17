@@ -2,7 +2,6 @@ import { useRootStore } from "./useRootStore";
 
 export const useClaims = () => {
   const { authStore } = useRootStore();
-
   const has = (key: string): boolean => {
     return authStore.getInitialInfo?.permissions?.some((p: string) => p.toLowerCase() == key.toLowerCase()) ?? false;
   };

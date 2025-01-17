@@ -1,13 +1,14 @@
 import { useRef, useState } from "react";
 import { IApiControllerCrud } from "../api/interfaces/iApiControllerCrud";
 
-const combineObjects = (a: any, b: any): any => ({ ...a, ...b });
+export const combineObjects = (a: any, b: any): any => ({ ...a, ...b });
 
 // TODO: перенести в отдельные файлы
 export const useUpdate = <T>(
   onUpdate: (newState: T) => Promise<T | null>,
   onPartialUpdate: (newState: T, beforeState: T) => Promise<T | null>,
-  onRequestEnd?: (r: T | null) => void
+  onRequestEnd?: (r: T | null) => void,
+  isNotUpdateState?: boolean,
 ) => {
   // use when either update fails and it's needed to recover previous state
   const [beforeState, setBeforeState] = useState<T | null>(null);
@@ -23,7 +24,9 @@ export const useUpdate = <T>(
       // maybe show error snack bar
       return;
     }
-    // setCurrentState(r);
+    if (!isNotUpdateState) {
+      setCurrentState(r);
+    }
     // setBeforeState(r);
   }
 
@@ -45,13 +48,18 @@ export const useUpdate = <T>(
     update,
     updatePartially,
     setInitialState: (initialState: T) => {
+      stateRef.current = initialState;
       setCurrentState(initialState);
       setBeforeState(initialState);
     },
     // applyChanges: (changes: any): void => setCurrentState(combineObjects(currentState, changes)),
     applyChanges: (changes: any): void => {
       stateRef.current = combineObjects(currentState, changes);
-      setCurrentState(combineObjects(currentState, changes));
+      setCurrentState((prev) => ({
+        ...prev,
+        ...changes,
+      }))
+      // setCurrentState(combineObjects(currentState, changes));
     },
     currentState,
     beforeState,
@@ -62,13 +70,15 @@ export const useUpdate = <T>(
 export const useUpdateWithController = <T>(
   controller: IApiControllerCrud<T>,
   onRequestEnd?: (r: T | null) => void,
-  params?: any
+  params?: any,
+  isNotUpdateState?: boolean,
 ) => {
   const getId = (x: T) => (x as any).id;
 
   return useUpdate<T>(
     async (x) => await controller.edit(getId(x), x, params),
     async (x, y) => await controller.editPartially(getId(x), x, y, params),
-    onRequestEnd
+    onRequestEnd,
+    isNotUpdateState,
   );
 };

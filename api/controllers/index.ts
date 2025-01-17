@@ -10,6 +10,7 @@ export { ConfirmationController } from "./confirmationController";
 export { BoardController } from "./boardController";
 export { IssueController } from "./issueController";
 export { IssueHistoryController } from "./issueHistoryController";
+export { IssueActivityController } from "./issueActivityController";
 export { IssueShortController } from "./issueShortController";
 export { RecurringIssue } from "./recurringIssue";
 export { StaticFileController } from "./staticFileController";
@@ -45,3 +46,4 @@ export { MenuItemController } from "./menuItemController";
 export { GoogleCalendarController } from "./googleCalendarController"
 
 export { NavigationMenuController } from "./navigationMenuController";
+export { MetricControllerV2 } from "./metricControllerV2";

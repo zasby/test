@@ -34,6 +34,7 @@ export type NavigationMenuItemDto = {
     isFavorite: boolean;
     userSelectionRules?: UserSelectionRule[];
     actions?: allowsRegulationKeys[];
+    hasItems?: boolean;
 };
 
 export type NavigationMenuDto = {

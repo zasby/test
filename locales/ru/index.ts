@@ -4,6 +4,7 @@ import notifier from "./notifier.json";
 import validation from "./validation.json";
 import ui from "./ui.json";
 import parse from "./parse.json";
+import education from "./education.json";
 
 export const resources = {
   common,
@@ -12,4 +13,5 @@ export const resources = {
   validation,
   ui,
   parse,
+  education,
 } as const;

@@ -46,6 +46,8 @@ import {
   UserShortController,
   UserWithRegulationStatsController,
   NavigationMenuController,
+  MetricControllerV2,
+  IssueActivityController,
 } from "../api/controllers";
 import { client } from "../plugins/client";
 import { CalendarEventController } from "../api/controllers/calendarEventController";
@@ -65,6 +67,7 @@ class Api {
   public board: BoardController;
   public issue: IssueController;
   public issueHistory: IssueHistoryController;
+  public issueActivity: IssueActivityController;
   public issueShort: IssueShortController;
   public recurringIssue: RecurringIssue;
   public staticFile: StaticFileController;
@@ -100,6 +103,7 @@ class Api {
   public googleCalendar: GoogleCalendarController;
   public navigationMenu: NavigationMenuController
   public tags: TagsController;
+  public metricV2: MetricControllerV2;
 
   constructor(axios: AxiosInstance) {
     this.auth = new AuthController(axios);
@@ -115,6 +119,7 @@ class Api {
     this.board = new BoardController(axios);
     this.issue = new IssueController(axios);
     this.issueHistory = new IssueHistoryController(axios);
+    this.issueActivity = new IssueActivityController(axios);
     this.issueShort = new IssueShortController(axios);
     this.recurringIssue = new RecurringIssue(axios);
     this.staticFile = new StaticFileController(axios);
@@ -150,6 +155,7 @@ class Api {
     this.googleCalendar = new GoogleCalendarController(axios);
     this.navigationMenu = new NavigationMenuController(axios);
     this.tags = new TagsController(axios);
+    this.metricV2 = new MetricControllerV2(axios);
   }
 }
 
